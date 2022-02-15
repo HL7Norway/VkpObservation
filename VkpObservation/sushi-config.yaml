@@ -1,0 +1,24 @@
+# ╭──────────────────────────────────────ImplementationGuide───────────────────────────────────────╮
+# │  The properties below are used to create the ImplementationGuide resource. For a list of       │
+# │  supported properties, see: https://fshschool.org/docs/sushi/configuration/                    │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+canonical: http://ehelse.no/fhir
+name: VkpObservation
+fhirVersion: 4.0.1
+FSHOnly: false
+applyExtensionMetadataToRoot: false
+id: ehelse.fhir.no.vkp.observation
+status: draft
+version: 0.0.1-alpha
+releaseLabel: ci-build
+copyrightYear: 2021+
+jurisdiction: urn:iso:std:iso:3166#NO "Norway"
+dependencies:
+    hl7.fhir.no.basis: 2.1.1
+
+# ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
+# │  To use a provided input/includes/menu.xml file, delete the "menu" property below.             │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+menu:
+  Home: index.html
+  Artifacts: artifacts.html

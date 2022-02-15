@@ -1,0 +1,14 @@
+{
+	"package-id" : "ehelse.fhir.no.vkp.observation",
+    "title" :  "Profiles for FHIR R4 Vital Signs Observation used by VKP",
+    "canonical" : "http://ehelse.no/fhir", 
+    "introduction" : "md",
+    "category" : "Clinical Records",
+	"list" : [{
+		"version" : "current",
+		"desc" : "Continuous Integration Build (latest in version control)",
+		"path" : "http://build.fhir.org/ig/HL7/xxx",
+		"status" : "ci-build",
+		"current" : true
+	}]
+}
