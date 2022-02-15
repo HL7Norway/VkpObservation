@@ -1,0 +1,57 @@
+[
+  {
+    "id": "DIPSVitalSignsObservation",
+    "type": "CapabilityStatement",
+    "url": "http://ehelse.no/fhir/CapabilityStatement/DIPSVitalSignsObservation",
+    "version": "0.0.1-alpha"
+  },
+  {
+    "id": "ehelse.fhir.no.vkp.observation",
+    "type": "ImplementationGuide",
+    "url": "http://ehelse.no/fhir/ImplementationGuide/ehelse.fhir.no.vkp.observation",
+    "version": "0.0.1-alpha",
+    "name": "VkpObservation"
+  },
+  {
+    "id": "vkp-subject-identifiers.codesystem",
+    "type": "CodeSystem",
+    "url": "http://hl7.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem",
+    "version": "0.0.1-alpha",
+    "name": "VkpSubjectIdentifiersCodeSystem"
+  },
+  {
+    "id": "VkpVitalSignsObservationBloodpressure",
+    "type": "StructureDefinition",
+    "url": "http://hl7.no/fhir/StructureDefinition/vkp-vitalsignsobservation-bloodpressure",
+    "version": "0.0.1-alpha",
+    "name": "VkpVitalSignsObservationBloodpressure"
+  },
+  {
+    "id": "NoDomainVitalSignsObservationInspiredOxygenValueSet",
+    "type": "ValueSet",
+    "url": "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-inspiredoxygenvalueset",
+    "version": "0.0.1-alpha",
+    "name": "NoDomainVitalSignsObservationInspiredOxygenValueSet"
+  },
+  {
+    "id": "NoDomainVitalSignsObservationLevelofexertionValueSet",
+    "type": "ValueSet",
+    "url": "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-levelofexertionvalueset",
+    "version": "0.0.1-alpha",
+    "name": "NoDomainVitalSignsObservationLevelofexertionValueSet"
+  },
+  {
+    "id": "NoDomainVitalSignsObservationOxygensaturationBodySiteValueSet",
+    "type": "ValueSet",
+    "url": "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-oxygensaturation-bodysitevalueset",
+    "version": "0.0.1-alpha",
+    "name": "NoDomainVitalSignsObservationOxygensaturationBodySiteValueSet"
+  },
+  {
+    "id": "vkp-subject-identifiers.valueset",
+    "type": "ValueSet",
+    "url": "http://hl7.no/fhir/ValueSet/vkp-subject-identifiers.valueset",
+    "version": "0.0.1-alpha",
+    "name": "VkpSubjectIdentifierSystemsValueSet"
+  }
+]
