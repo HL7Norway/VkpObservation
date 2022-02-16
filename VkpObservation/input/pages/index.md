@@ -7,7 +7,7 @@ Based on FHIR VitalSigns where appropriate.
 
 ## Scope stage 1
 
-The scope of delivery of Observation profiles in stage 1.
+The scope of delivery of Observation profiles in stage 1.  
 
 |Type observasjon|undertype|Profil|LOINC|SNOMED|
 |----------------|---------|------|-----|------|
@@ -23,7 +23,8 @@ The scope of delivery of Observation profiles in stage 1.
 
 ## Scope stage 2
 
-The next observations we want to specify
+The next observations we want to specify  
+
 |Type observasjon|undertype|Profil|LOINC|SNOMED|
 |----------------|---------|------|-----|------|
 |poengsum skjema||VkpQRScoreObservation|74465-6 Questionnaire response document|?|
