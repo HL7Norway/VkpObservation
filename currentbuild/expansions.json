@@ -1,0 +1,80 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "24facf26-5f54-4d8c-a1d4-dee2d91e02f5",
+  "meta" : {
+    "lastUpdated" : "2022-02-16T08:55:42.083+00:00"
+  },
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "http://hl7.no/fhir/ValueSet/vkp-subject-identifiers.valueset",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "vkp-subject-identifiers.valueset",
+      "meta" : {
+        "lastUpdated" : "2022-02-10T00:00:00.000+00:00",
+        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-vkp-subject-identifiers.codesystem.html\">Vkp Subject Identifier Systems CodeSystem v0.1.0 (CodeSystem)</a></p><p>All codes in this table are from the system <a href=\"CodeSystem-vkp-subject-identifiers.codesystem.html\"><code>http://hl7.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-vkp-subject-identifiers.codesystem-urn-oid-2.16.578.1.12.4.1.4.1\"> </a><a href=\"CodeSystem-vkp-subject-identifiers.codesystem.html#vkp-subject-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.461\">urn:oid:2.16.578.1.12.4.1.4.1</a></td><td>FNR</td><td>Fødselsnummer</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-vkp-subject-identifiers.codesystem-urn-oid-2.16.578.1.12.4.1.4.2\"> </a><a href=\"CodeSystem-vkp-subject-identifiers.codesystem.html#vkp-subject-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.462\">urn:oid:2.16.578.1.12.4.1.4.2</a></td><td>DNR</td><td>D-nummer</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-vkp-subject-identifiers.codesystem-urn-oid-2.16.578.1.12.4.1.4.3\"> </a><a href=\"CodeSystem-vkp-subject-identifiers.codesystem.html#vkp-subject-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.463\">urn:oid:2.16.578.1.12.4.1.4.3</a></td><td>FHN</td><td>Felles hjelpenummer</td></tr></table></div>"
+      },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode" : "draft"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger" : 1
+      }],
+      "url" : "http://hl7.no/fhir/ValueSet/vkp-subject-identifiers.valueset",
+      "version" : "0.1.0",
+      "name" : "VkpSubjectIdentifierSystemsValueSet",
+      "title" : "VKP Subject Identifier systems ValueSet",
+      "status" : "draft",
+      "experimental" : false,
+      "date" : "2021-03-17T00:00:00+00:00",
+      "contact" : [{
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://hl7.no/fhir"
+        }]
+      }],
+      "description" : "Identifier Systems allowed for subject identifications",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "NO",
+          "display" : "Norway"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:9057a90c-9c1c-4b3a-a0e4-0ba9b75e1937",
+        "timestamp" : "2022-02-16T08:55:55+00:00",
+        "total" : 3,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://hl7.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://hl7.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem",
+          "code" : "urn:oid:2.16.578.1.12.4.1.4.1",
+          "display" : "FNR"
+        },
+        {
+          "system" : "http://hl7.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem",
+          "code" : "urn:oid:2.16.578.1.12.4.1.4.2",
+          "display" : "DNR"
+        },
+        {
+          "system" : "http://hl7.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem",
+          "code" : "urn:oid:2.16.578.1.12.4.1.4.3",
+          "display" : "FHN"
+        }]
+      }
+    }
+  }]
+}

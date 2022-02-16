@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="24facf26-5f54-4d8c-a1d4-dee2d91e02f5"/>
+  <meta>
+    <lastUpdated value="2022-02-16T08:55:42.083+00:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="http://hl7.no/fhir/ValueSet/vkp-subject-identifiers.valueset"/>
+    <resource>
+      <ValueSet>
+        <id value="vkp-subject-identifiers.valueset"/>
+        <meta>
+          <lastUpdated value="2022-02-10T00:00:00.000+00:00"/>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 3 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-vkp-subject-identifiers.codesystem.html">Vkp Subject Identifier Systems CodeSystem v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>All codes in this table are from the system 
+              <a href="CodeSystem-vkp-subject-identifiers.codesystem.html">
+                <code>http://hl7.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.no-fhir-CodeSystem-vkp-subject-identifiers.codesystem-urn-oid-2.16.578.1.12.4.1.4.1"> </a>
+                  <a href="CodeSystem-vkp-subject-identifiers.codesystem.html#vkp-subject-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.461">urn:oid:2.16.578.1.12.4.1.4.1</a>
+                </td>
+                <td>FNR</td>
+                <td>Fødselsnummer</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.no-fhir-CodeSystem-vkp-subject-identifiers.codesystem-urn-oid-2.16.578.1.12.4.1.4.2"> </a>
+                  <a href="CodeSystem-vkp-subject-identifiers.codesystem.html#vkp-subject-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.462">urn:oid:2.16.578.1.12.4.1.4.2</a>
+                </td>
+                <td>DNR</td>
+                <td>D-nummer</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.no-fhir-CodeSystem-vkp-subject-identifiers.codesystem-urn-oid-2.16.578.1.12.4.1.4.3"> </a>
+                  <a href="CodeSystem-vkp-subject-identifiers.codesystem.html#vkp-subject-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.463">urn:oid:2.16.578.1.12.4.1.4.3</a>
+                </td>
+                <td>FHN</td>
+                <td>Felles hjelpenummer</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="draft"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+          <valueInteger value="1"/>
+        </extension>
+        <url value="http://hl7.no/fhir/ValueSet/vkp-subject-identifiers.valueset"/>
+        <version value="0.1.0"/>
+        <name value="VkpSubjectIdentifierSystemsValueSet"/>
+        <title value="VKP Subject Identifier systems ValueSet"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2021-03-17T00:00:00+00:00"/>
+        <contact>
+          <telecom>
+            <system value="url"/>
+            <value value="http://hl7.no/fhir"/>
+          </telecom>
+        </contact>
+        <description value="Identifier Systems allowed for subject identifications"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="NO"/>
+            <display value="Norway"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:9057a90c-9c1c-4b3a-a0e4-0ba9b75e1937"/>
+          <timestamp value="2022-02-16T08:55:55+00:00"/>
+          <total value="3"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://hl7.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://hl7.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem"/>
+            <code value="urn:oid:2.16.578.1.12.4.1.4.1"/>
+            <display value="FNR"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem"/>
+            <code value="urn:oid:2.16.578.1.12.4.1.4.2"/>
+            <display value="DNR"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem"/>
+            <code value="urn:oid:2.16.578.1.12.4.1.4.3"/>
+            <display value="FHN"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>
