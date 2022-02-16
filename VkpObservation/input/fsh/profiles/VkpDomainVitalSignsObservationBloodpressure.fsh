@@ -10,9 +10,9 @@ Description: "Profile for blood pressure in VKP."
 * ^purpose = "To record the systemic arterial blood pressure of an individual."
 * . ^short = "FHIR Blood Pressure Profile VKP"
 * code.coding contains
-  BPSNOMEDCode 0..* MS
-* code.coding[BPSNOMEDCode].system = $sct
-* code.coding[BPSNOMEDCode].code = #75367002
+  BPSCTCode 0..* MS
+* code.coding[BPSCTCode].system = $sct
+* code.coding[BPSCTCode].code = #75367002
 * subject 1.. MS
 * subject only Reference(Patient or $no-basis-Patient)
 * subject ^definition = "Reference to the patient that is subject to the encounter, identified by Norwegian national id number (Fødselsnummer or DNR).\r\n\r\nA link to a resource representing the person or the group to whom the medication will be given.\r\n\r\nVKP always references a Patient Resource using a norwegian national id number (Fødselsnummer or DNR) in a logical identifier in the subject.identifier element.\r\nThe Name of the patient should be given in the subject.display element.\r\n\r\nExample:\r\n~~~~\r\n\"subject\":{\r\n   \"identifier\":{\r\n      \"system\":\"urn:oid:2.16.578.1.12.4.1.4.1\",\r\n      \"value\":\"05073500186\"\r\n     },\r\n     \"display\":\"Ærlend Sørgård\"\r\n}\r\n~~~~"
@@ -38,3 +38,19 @@ Description: "Profile for blood pressure in VKP."
 * method ^short = "Method of measurement of blood pressure."
 * method.coding from NoDomainVitalSignsObservationBloodPressureMeasurementMethodValueSet (required)
 * method.coding.system from $no-domain-vitalsignsobservation-measurementmethodvalueSet (required)
+* component[SystolicBP].code.coding contains SBPSCTCode 0..* MS
+* component[SystolicBP].code.coding[SBPSCTCode] ^short = "Systolic Blood Pressure SNOMED CT code"
+* component[SystolicBP].code.coding[SBPSCTCode].system 1..1 MS
+* component[SystolicBP].code.coding[SBPSCTCode].system only uri
+* component[SystolicBP].code.coding[SBPSCTCode].system = $sct (exactly)
+* component[SystolicBP].code.coding[SBPSCTCode].code 1..1 MS
+* component[SystolicBP].code.coding[SBPSCTCode].code only code
+* component[SystolicBP].code.coding[SBPSCTCode].code = #271649006 (exactly)
+* component[DiastolicBP].code.coding contains SBPSCTCode 0..* MS
+* component[DiastolicBP].code.coding[DBPSCTCode] ^short = "Diastolic Blood Pressure SNOMED CT code"
+* component[DiastolicBP].code.coding[DBPSCTCode].system 1..1 MS
+* component[DiastolicBP].code.coding[DBPSCTCode].system only uri
+* component[DiastolicBP].code.coding[DBPSCTCode].system = $sct (exactly)
+* component[DiastolicBP].code.coding[DBPSCTCode].code 1..1 MS
+* component[DiastolicBP].code.coding[DBPSCTCode].code only code
+* component[DiastolicBP].code.coding[DBPSCTCode].code = #271650006 (exactly)
