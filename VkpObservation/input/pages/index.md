@@ -3,7 +3,7 @@
 Profiles for use in Vkp.
 Scope of use is Personal connected health and care domain.
 
-Based on FHIR VitalSigns where apropriate.
+Based on FHIR VitalSigns where appropriate.
 
 ## Scope stage 1
 
@@ -19,6 +19,13 @@ The scope of delivery of Observation profiles in stage 1.
 |blodsukker||VkpGlucoseObservation|-|405176005 Blood glucose status (observable entity)|
 |temperatur||VkpBodytempObservation|8310-5 Body temperature|276885007 Core body temperature (observable entity)|
 |kroppsvekt||VkpBodyweightObservation|29563-7 Body weight|27113001 Body weight (observable entity)|
+
+
+## Scope stage 2
+
+The next observations we want to specify
+|Type observasjon|undertype|Profil|LOINC|SNOMED|
+|----------------|---------|------|-----|------|
 |poengsum skjema||VkpQRScoreObservation|74465-6 Questionnaire response document|?|
 |NEWS2-score||VkpNEWS2ScoreObservation ?|-|1104051000000101 Royal College of Physicians NEWS2 (National Early Warning Score 2) total score|
 |respirasjonsrate||VkpResprateObservation|9279-1 Respiratory rate|86290005 Respiratory rate (observable entity)|
