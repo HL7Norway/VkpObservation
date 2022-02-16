@@ -1,9 +1,9 @@
-Profile: VkpVitalSignsObservationBloodpressure
+Profile: VkpObservationBloodpressure
 Parent: http://hl7.org/fhir/StructureDefinition/bp
-Id: VkpVitalSignsObservationBloodpressure
+Id: VkpObservationBloodpressure
 Title: "Vkp VitalSigns Observation - Blood pressure"
 Description: "Profile for blood pressure in VKP."
-* ^url = "http://hl7.no/fhir/StructureDefinition/vkp-vitalsignsobservation-bloodpressure"
+* ^url = "http://hl7.no/fhir/StructureDefinition/vkp-observation-bloodpressure"
 * ^version = "0.1.0000"
 * ^status = #draft
 * ^date = "2022-02-10"
