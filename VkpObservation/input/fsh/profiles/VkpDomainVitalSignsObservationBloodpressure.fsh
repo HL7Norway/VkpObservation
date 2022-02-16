@@ -34,7 +34,7 @@ Description: "Profile for blood pressure in VKP."
 * bodySite ^comment = "Only used if not implicit in code found in Observation.code.  In many systems, this may be represented as a related observation instead of an inline component."
 * bodySite.coding from NoDomainVitalSignsObservationBloodPressureBodySiteValueSet (required)
 * bodySite.coding.system from $no-bloodpressurebodysite-valueset (required)
-* method from NoDomainVSObservationBloodPressureMeasurementMethodValueSet (required)
+* method from NoDomainVitalSignsObservationBloodPressureMeasurementMethodValueSet (required)
 * method ^short = "Method of measurement of blood pressure."
-* method.coding from NoDomainVSObservationBloodPressureMeasurementMethodValueSet (required)
+* method.coding from NoDomainVitalSignsObservationBloodPressureMeasurementMethodValueSet (required)
 * method.coding.system from $no-domain-vitalsignsobservation-measurementmethodvalueSet (required)
