@@ -3,7 +3,7 @@
   "name": "VkpObservation",
   "package-id": "ehelse.fhir.no.vkp.observation",
   "ig-ver": "0.1.0",
-  "date": "Wed, 16 Feb, 2022 12:53:16 +0000",
+  "date": "Wed, 16 Feb, 2022 12:58:35 +0000",
   "errs": 98,
   "warnings": 70,
   "hints": 8,

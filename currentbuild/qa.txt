@@ -3,7 +3,7 @@
 
 err = 98, warn = 70, info = 8
 IG Publisher Version: 1.1.104
-Generated Wed Feb 16 12:53:40 UTC 2022. FHIR version 4.0.1 for ehelse.fhir.no.vkp.observation#0.1.0 (canonical = http://ehelse.no/fhir)
+Generated Wed Feb 16 12:58:59 UTC 2022. FHIR version 4.0.1 for ehelse.fhir.no.vkp.observation#0.1.0 (canonical = http://ehelse.no/fhir)
  Build Errors : 122 / 14 / 0
  /github/workspace/VkpObservation/fsh-generated/resources/CodeSystem-vkp-subject-identifiers.codesystem : 0 / 0 / 2
  /github/workspace/VkpObservation/fsh-generated/resources/ImplementationGuide-ehelse.fhir.no.vkp.observation : 0 / 0 / 1
@@ -159,7 +159,7 @@ ERROR: /github/workspace/VkpObservation/output/ValueSet-vkp-subject-identifiers.
 ERROR: /github/workspace/VkpObservation/output/ValueSet-vkp-subject-identifiers.valueset.ttl.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/VkpObservation/output/ValueSet-vkp-subject-identifiers.valueset.xml.html#/html/body/div/div/div/p/a at Line 235, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/VkpObservation/output/artifacts.html#/html/body/div/div/div/p/a at Line 326, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/VkpObservation/output/index.html#/html/body/div/div/div/p/a at Line 243, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/VkpObservation/output/index.html#/html/body/div/div/div/p/a at Line 279, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/VkpObservation/output/toc.html#/html/body/div/div/div/p/a at Line 137, column 28: The link '' for "" cannot be resolved
 == fsh-generated/resources/CodeSystem-vkp-subject-identifiers.codesystem.json ==
 INFORMATION: CodeSystem/vkp-subject-identifiers.codesystem: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
