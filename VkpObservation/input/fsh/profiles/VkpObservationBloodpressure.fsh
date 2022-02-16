@@ -46,7 +46,7 @@ Description: "Profile for blood pressure in VKP."
 * component[SystolicBP].code.coding[SBPSCTCode].code 1..1 MS
 * component[SystolicBP].code.coding[SBPSCTCode].code only code
 * component[SystolicBP].code.coding[SBPSCTCode].code = #271649006 (exactly)
-* component[DiastolicBP].code.coding contains SBPSCTCode 0..* MS
+* component[DiastolicBP].code.coding contains DBPSCTCode 0..* MS
 * component[DiastolicBP].code.coding[DBPSCTCode] ^short = "Diastolic Blood Pressure SNOMED CT code"
 * component[DiastolicBP].code.coding[DBPSCTCode].system 1..1 MS
 * component[DiastolicBP].code.coding[DBPSCTCode].system only uri

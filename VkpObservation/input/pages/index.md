@@ -27,7 +27,7 @@ The next observations we want to specify
 
 |Type observasjon|undertype|Profil|LOINC|SNOMED|
 |----------------|---------|------|-----|------|
-|poengsum skjema||VkpQRScoreObservation|74465-6 Questionnaire response document|?|
+|poengsum skjema||VkpObservation|74465-6 Questionnaire response document|?|
 |NEWS2-score||VkpNEWS2ScoreObservation ?|-|1104051000000101 Royal College of Physicians NEWS2 (National Early Warning Score 2) total score|
 |respirasjonsrate||VkpResprateObservation|9279-1 Respiratory rate|86290005 Respiratory rate (observable entity)|
 |bevisthetsnivå||VkpObservation|-|1104441000000107 Alert Confusion Voice Pain Unresponsive scale score (observable entity)|
