@@ -9,7 +9,7 @@
   "version": "0.1.0",
   "name": "VkpObservation",
   "status": "draft",
-  "date": "2022-02-16T08:55:42+00:00",
+  "date": "2022-02-16T12:53:16+00:00",
   "jurisdiction": [
     {
       "coding": [
@@ -297,6 +297,33 @@
         },
         "name": "Vkp VitalSigns Observation - Blood pressure",
         "description": "Profile for blood pressure in VKP.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/NoDomainVitalSignsObservationBloodPressureBodySiteValueSet"
+        },
+        "name": "NoDomainVitalSignsObservationBloodPressureBodySiteValueSet",
+        "description": "Codes representing body site for blood pressure",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/NoDomainVitalSignsObservationBloodPressureMeasurementMethodValue"
+        },
+        "name": "NoDomainVitalSignsObservationBloodPressureMeasurementMethodValueSet",
         "exampleBoolean": false
       },
       {

@@ -9,7 +9,7 @@
   <version value="0.1.0"/>
   <name value="VkpObservation"/>
   <status value="draft"/>
-  <date value="2022-02-16T08:55:42+00:00"/>
+  <date value="2022-02-16T12:53:16+00:00"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -187,6 +187,27 @@
       </reference>
       <name value="Vkp VitalSigns Observation - Blood pressure"/>
       <description value="Profile for blood pressure in VKP."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/NoDomainVitalSignsObservationBloodPressureBodySiteValueSet"/>
+      </reference>
+      <name value="NoDomainVitalSignsObservationBloodPressureBodySiteValueSet"/>
+      <description value="Codes representing body site for blood pressure"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/NoDomainVitalSignsObservationBloodPressureMeasurementMethodValue"/>
+      </reference>
+      <name value="NoDomainVitalSignsObservationBloodPressureMeasurementMethodValueSet"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

@@ -1,11 +1,135 @@
 {
   "resourceType" : "Bundle",
-  "id" : "24facf26-5f54-4d8c-a1d4-dee2d91e02f5",
+  "id" : "ff8f8c46-4a73-43b9-80d3-27c18c6ff700",
   "meta" : {
-    "lastUpdated" : "2022-02-16T08:55:42.083+00:00"
+    "lastUpdated" : "2022-02-16T12:53:16.577+00:00"
   },
   "type" : "collection",
   "entry" : [{
+    "fullUrl" : "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodysitevalueset",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "NoDomainVitalSignsObservationBloodPressureBodySiteValueSet",
+      "meta" : {
+        "lastUpdated" : "2021-03-17T00:00:00.000+00:00",
+        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 12 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2021</p><p>All codes in this table are from the system <a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-snomed-CT.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-368209003\"> </a><a href=\"http://snomed.info/id/368209003\">368209003</a></td><td>Overarm, høyre</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-368208006\"> </a><a href=\"http://snomed.info/id/368208006\">368208006</a></td><td>Overarm, venstre</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-11207009\"> </a><a href=\"http://snomed.info/id/11207009\">11207009</a></td><td>Lår, høyre</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-61396006\"> </a><a href=\"http://snomed.info/id/61396006\">61396006</a></td><td>Lår, venstre</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-9736006\"> </a><a href=\"http://snomed.info/id/9736006\">9736006</a></td><td>Håndledd, høyre</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-5951000\"> </a><a href=\"http://snomed.info/id/5951000\">5951000</a></td><td>Håndledd, venstre</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-6685009\"> </a><a href=\"http://snomed.info/id/6685009\">6685009</a></td><td>Ankel, høyre</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-51636004\"> </a><a href=\"http://snomed.info/id/51636004\">51636004</a></td><td>Ankel, venstre</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-7569003\"> </a><a href=\"http://snomed.info/id/7569003\">7569003</a></td><td>Finger</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-29707007\"> </a><a href=\"http://snomed.info/id/29707007\">29707007</a></td><td>Tå</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-2402003\"> </a><a href=\"http://snomed.info/id/2402003\">2402003</a></td><td>Fotrygg</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-51114001\"> </a><a href=\"http://snomed.info/id/51114001\">51114001</a></td><td>Intra-arterielt</td></tr></table></div>"
+      },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+        "valueCode" : "oo"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode" : "draft"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger" : 1
+      }],
+      "url" : "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodysitevalueset",
+      "version" : "0.1.0",
+      "name" : "NoDomainVitalSignsObservationBloodPressureBodySiteValueSet",
+      "status" : "draft",
+      "experimental" : false,
+      "date" : "2021-03-17T00:00:00+00:00",
+      "contact" : [{
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://hl7.org/fhir"
+        }]
+      }],
+      "description" : "Codes representing body site for blood pressure",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "NO",
+          "display" : "Norway"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:61e0b565-74d6-4dbe-a40a-a36eb137e64d",
+        "timestamp" : "2022-02-16T12:53:31+00:00",
+        "total" : 12,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210731"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "368209003",
+          "display" : "Overarm, høyre"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "368208006",
+          "display" : "Overarm, venstre"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "11207009",
+          "display" : "Lår, høyre"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "61396006",
+          "display" : "Lår, venstre"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "9736006",
+          "display" : "Håndledd, høyre"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "5951000",
+          "display" : "Håndledd, venstre"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "6685009",
+          "display" : "Ankel, høyre"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "51636004",
+          "display" : "Ankel, venstre"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "7569003",
+          "display" : "Finger"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "29707007",
+          "display" : "Tå"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "2402003",
+          "display" : "Fotrygg"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "51114001",
+          "display" : "Intra-arterielt"
+        }]
+      }
+    }
+  },
+  {
     "fullUrl" : "http://hl7.no/fhir/ValueSet/vkp-subject-identifiers.valueset",
     "resource" : {
       "resourceType" : "ValueSet",
@@ -48,8 +172,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:9057a90c-9c1c-4b3a-a0e4-0ba9b75e1937",
-        "timestamp" : "2022-02-16T08:55:55+00:00",
+        "identifier" : "urn:uuid:626a6211-5c77-4fab-912d-ef75dce5bdc2",
+        "timestamp" : "2022-02-16T12:53:33+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",

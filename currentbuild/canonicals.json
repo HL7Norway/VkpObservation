@@ -21,6 +21,20 @@
     "name": "VkpVitalSignsObservationBloodpressure"
   },
   {
+    "id": "NoDomainVitalSignsObservationBloodPressureBodySiteValueSet",
+    "type": "ValueSet",
+    "url": "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodysitevalueset",
+    "version": "0.1.0",
+    "name": "NoDomainVitalSignsObservationBloodPressureBodySiteValueSet"
+  },
+  {
+    "id": "NoDomainVitalSignsObservationBloodPressureMeasurementMethodValue",
+    "type": "ValueSet",
+    "url": "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-measurementmethodvalueSet",
+    "version": "0.1.0",
+    "name": "NoDomainVitalSignsObservationBloodPressureMeasurementMethodValueSet"
+  },
+  {
     "id": "vkp-subject-identifiers.valueset",
     "type": "ValueSet",
     "url": "http://hl7.no/fhir/ValueSet/vkp-subject-identifiers.valueset",
