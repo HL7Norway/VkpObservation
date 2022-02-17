@@ -9,7 +9,7 @@
   <version value="0.1.0"/>
   <name value="VkpObservation"/>
   <status value="draft"/>
-  <date value="2022-02-17T06:20:23+00:00"/>
+  <date value="2022-02-17T06:39:31+00:00"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -194,7 +194,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/VkpObservationOxygensat"/>
+        <reference value="StructureDefinition/vkp-Observation-Oxygensat"/>
       </reference>
       <name value="Vkp VitalSigns Observation - Oxygen saturation"/>
       <description value="Profile for oxygen saturation in VKP."/>

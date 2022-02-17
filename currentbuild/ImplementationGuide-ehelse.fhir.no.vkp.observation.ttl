@@ -16,7 +16,7 @@
   fhir:ImplementationGuide.version [ fhir:value "0.1.0"];
   fhir:ImplementationGuide.name [ fhir:value "VkpObservation"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-02-17T06:20:23+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-02-17T06:39:31+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [
@@ -294,8 +294,8 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://ehelse.no/fhir/StructureDefinition/VkpObservationOxygensat>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/VkpObservationOxygensat" ]
+         fhir:link <http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Oxygensat>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/vkp-Observation-Oxygensat" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Vkp VitalSigns Observation - Oxygen saturation" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Profile for oxygen saturation in VKP." ];

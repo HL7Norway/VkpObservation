@@ -11,7 +11,7 @@
         "title": "Vkp VitalSigns Observation - Blood pressure"
       },
       {
-        "url": "http://hl7.no/fhir/StructureDefinition/vkp-observation-oxygensat",
+        "url": "http://hl7.no/fhir/StructureDefinition/vkp-Observation-Oxygensat",
         "title": "Vkp VitalSigns Observation - Oxygen saturation"
       }
     ]

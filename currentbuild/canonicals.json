@@ -28,9 +28,9 @@
     "name": "VkpSubjectIdentifiersValueSet"
   },
   {
-    "id": "VkpObservationOxygensat",
+    "id": "vkp-Observation-Oxygensat",
     "type": "StructureDefinition",
-    "url": "http://hl7.no/fhir/StructureDefinition/vkp-observation-oxygensat",
+    "url": "http://hl7.no/fhir/StructureDefinition/vkp-Observation-Oxygensat",
     "version": "0.1.0",
     "name": "VkpObservationOxygensat"
   },
