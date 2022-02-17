@@ -9,7 +9,7 @@
   "version": "0.1.0",
   "name": "VkpObservation",
   "status": "draft",
-  "date": "2022-02-17T05:37:08+00:00",
+  "date": "2022-02-17T05:45:48+00:00",
   "jurisdiction": [
     {
       "coding": [
@@ -285,6 +285,20 @@
       }
     ],
     "resource": [
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/VkpObservationOxygensat"
+        },
+        "name": "Vkp VitalSigns Observation - Oxygen saturation",
+        "description": "Profile for oxygen saturation in VKP.",
+        "exampleBoolean": false
+      },
       {
         "extension": [
           {
