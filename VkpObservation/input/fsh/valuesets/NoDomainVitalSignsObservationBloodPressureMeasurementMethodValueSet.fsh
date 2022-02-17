@@ -1,5 +1,6 @@
 ValueSet: NoDomainVitalSignsObservationBloodPressureMeasurementMethodValueSet
 Id: NoDomainVitalSignsObservationBloodPressureMeasurementMethodValueSet
+Description: "Codes representing measurement method for blood pressure"
 * ^meta.lastUpdated = "2021-03-17T13:28:17.239+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"
@@ -12,6 +13,7 @@ Id: NoDomainVitalSignsObservationBloodPressureMeasurementMethodValueSet
 * ^version = "4.0.0"
 * ^status = #draft
 * ^experimental = false
+* ^publisher = "HL7 Norway"
 * ^date = "2021-03-17"
 * ^contact.telecom.system = #url
 * ^contact.telecom.value = "http://hl7.org/fhir"

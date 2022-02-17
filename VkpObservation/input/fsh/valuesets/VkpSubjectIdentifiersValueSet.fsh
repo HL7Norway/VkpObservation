@@ -1,4 +1,4 @@
-ValueSet: VkpSubjectIdentifierSystemsValueSet
+ValueSet: VkpSubjectIdentifiersValueSet
 Id: vkp-subject-identifiers.valueset
 Title: "VKP Subject Identifier systems ValueSet"
 Description: "Identifier Systems allowed for subject identifications"
@@ -8,11 +8,12 @@ Description: "Identifier Systems allowed for subject identifications"
 * ^extension[=].valueCode = #draft
 * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
 * ^extension[=].valueInteger = 1
-* ^url = "http://hl7.no/fhir/ValueSet/vkp-subject-identifiers.valueset"
+* ^url = "http://ehelse.no/fhir/ValueSet/vkp-subject-identifiers.valueset"
 * ^version = "4.0.1"
 * ^status = #draft
 * ^experimental = false
+* ^publisher = "Direktoratet for e-helse"
 * ^date = "2021-03-17T00:00:00+00:00"
 * ^contact.telecom.system = #url
-* ^contact.telecom.value = "http://hl7.no/fhir"
+* ^contact.telecom.value = "http://ehelse.no/"
 * include codes from system VkpSubjectIdentifiersCodeSystem
