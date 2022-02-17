@@ -1,9 +1,9 @@
 Profile: VkpObservationOxygensat
 Parent: http://hl7.org/fhir/StructureDefinition/oxygensat
-Id: VkpObservationOxygensat
+Id: vkp-Observation-Oxygensat
 Title: "Vkp VitalSigns Observation - Oxygen saturation"
 Description: "Profile for oxygen saturation in VKP."
-* ^url = "http://hl7.no/fhir/StructureDefinition/vkp-observation-oxygensat"
+* ^url = "http://hl7.no/fhir/StructureDefinition/vkp-Observation-Oxygensat"
 * ^version = "0.1.0000"
 * ^status = #draft
 * ^date = "2022-02-16"
