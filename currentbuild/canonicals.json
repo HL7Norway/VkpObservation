@@ -1,5 +1,12 @@
 [
   {
+    "id": "vkp-subject-identifiers.codesystem",
+    "type": "CodeSystem",
+    "url": "http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem",
+    "version": "0.1.0",
+    "name": "VkpSubjectIdentifiersCodeSystem"
+  },
+  {
     "id": "ehelse.fhir.no.vkp.observation",
     "type": "ImplementationGuide",
     "url": "http://ehelse.no/fhir/ImplementationGuide/ehelse.fhir.no.vkp.observation",
@@ -7,11 +14,18 @@
     "name": "VkpObservation"
   },
   {
-    "id": "vkp-subject-identifiers.codesystem",
-    "type": "CodeSystem",
-    "url": "http://hl7.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem",
+    "id": "vkp-Observation-Bloodpressure",
+    "type": "StructureDefinition",
+    "url": "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bloodpressure",
     "version": "0.1.0",
-    "name": "VkpSubjectIdentifiersCodeSystem"
+    "name": "VkpObservationBloodpressure"
+  },
+  {
+    "id": "vkp-subject-identifiers.valueset",
+    "type": "ValueSet",
+    "url": "http://ehelse.no/fhir/ValueSet/vkp-subject-identifiers.valueset",
+    "version": "0.1.0",
+    "name": "VkpSubjectIdentifiersValueSet"
   },
   {
     "id": "VkpObservationOxygensat",
@@ -19,13 +33,6 @@
     "url": "http://hl7.no/fhir/StructureDefinition/vkp-observation-oxygensat",
     "version": "0.1.0",
     "name": "VkpObservationOxygensat"
-  },
-  {
-    "id": "VkpVitalSignsObservationBloodpressure",
-    "type": "StructureDefinition",
-    "url": "http://hl7.no/fhir/StructureDefinition/vkp-vitalsignsobservation-bloodpressure",
-    "version": "0.1.0",
-    "name": "VkpVitalSignsObservationBloodpressure"
   },
   {
     "id": "NoDomainVitalSignsObservationBloodPressureBodySiteValueSet",
@@ -40,12 +47,5 @@
     "url": "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-measurementmethodvalueSet",
     "version": "0.1.0",
     "name": "NoDomainVitalSignsObservationBloodPressureMeasurementMethodValueSet"
-  },
-  {
-    "id": "vkp-subject-identifiers.valueset",
-    "type": "ValueSet",
-    "url": "http://hl7.no/fhir/ValueSet/vkp-subject-identifiers.valueset",
-    "version": "0.1.0",
-    "name": "VkpSubjectIdentifierSystemsValueSet"
   }
 ]

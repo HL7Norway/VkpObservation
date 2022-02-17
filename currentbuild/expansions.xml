@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="62b9222b-fd04-4592-8e4d-e4c0e0a9e059"/>
+  <id value="537a3b1f-d606-468f-9a4c-a1e8379e14ca"/>
   <meta>
-    <lastUpdated value="2022-02-17T05:45:48.946+00:00"/>
+    <lastUpdated value="2022-02-17T06:20:23.789+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -136,6 +136,7 @@
         <status value="draft"/>
         <experimental value="false"/>
         <date value="2021-03-17T00:00:00+00:00"/>
+        <publisher value="HL7 Norway"/>
         <contact>
           <telecom>
             <system value="url"/>
@@ -151,8 +152,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:5eb705c0-4bae-4f65-909e-70ce073704f5"/>
-          <timestamp value="2022-02-17T05:46:09+00:00"/>
+          <identifier value="urn:uuid:3adc002f-1e67-4de6-b8d9-92d7b5811d56"/>
+          <timestamp value="2022-02-17T06:20:42+00:00"/>
           <total value="12"/>
           <parameter>
             <name value="excludeNested"/>
@@ -231,7 +232,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.no/fhir/ValueSet/vkp-subject-identifiers.valueset"/>
+    <fullUrl value="http://ehelse.no/fhir/ValueSet/vkp-subject-identifiers.valueset"/>
     <resource>
       <ValueSet>
         <id value="vkp-subject-identifiers.valueset"/>
@@ -248,7 +249,7 @@
             </p>
             <p>All codes in this table are from the system 
               <a href="CodeSystem-vkp-subject-identifiers.codesystem.html">
-                <code>http://hl7.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem</code>
+                <code>http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem</code>
               </a>
             </p>
             <table class="codes">
@@ -265,7 +266,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hl7.no-fhir-CodeSystem-vkp-subject-identifiers.codesystem-urn-oid-2.16.578.1.12.4.1.4.1"> </a>
+                  <a name="http---ehelse.no-fhir-CodeSystem-vkp-subject-identifiers.codesystem-urn-oid-2.16.578.1.12.4.1.4.1"> </a>
                   <a href="CodeSystem-vkp-subject-identifiers.codesystem.html#vkp-subject-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.461">urn:oid:2.16.578.1.12.4.1.4.1</a>
                 </td>
                 <td>FNR</td>
@@ -273,7 +274,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hl7.no-fhir-CodeSystem-vkp-subject-identifiers.codesystem-urn-oid-2.16.578.1.12.4.1.4.2"> </a>
+                  <a name="http---ehelse.no-fhir-CodeSystem-vkp-subject-identifiers.codesystem-urn-oid-2.16.578.1.12.4.1.4.2"> </a>
                   <a href="CodeSystem-vkp-subject-identifiers.codesystem.html#vkp-subject-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.462">urn:oid:2.16.578.1.12.4.1.4.2</a>
                 </td>
                 <td>DNR</td>
@@ -281,7 +282,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hl7.no-fhir-CodeSystem-vkp-subject-identifiers.codesystem-urn-oid-2.16.578.1.12.4.1.4.3"> </a>
+                  <a name="http---ehelse.no-fhir-CodeSystem-vkp-subject-identifiers.codesystem-urn-oid-2.16.578.1.12.4.1.4.3"> </a>
                   <a href="CodeSystem-vkp-subject-identifiers.codesystem.html#vkp-subject-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.463">urn:oid:2.16.578.1.12.4.1.4.3</a>
                 </td>
                 <td>FHN</td>
@@ -296,17 +297,18 @@
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
           <valueInteger value="1"/>
         </extension>
-        <url value="http://hl7.no/fhir/ValueSet/vkp-subject-identifiers.valueset"/>
+        <url value="http://ehelse.no/fhir/ValueSet/vkp-subject-identifiers.valueset"/>
         <version value="0.1.0"/>
-        <name value="VkpSubjectIdentifierSystemsValueSet"/>
+        <name value="VkpSubjectIdentifiersValueSet"/>
         <title value="VKP Subject Identifier systems ValueSet"/>
         <status value="draft"/>
         <experimental value="false"/>
         <date value="2021-03-17T00:00:00+00:00"/>
+        <publisher value="Direktoratet for e-helse"/>
         <contact>
           <telecom>
             <system value="url"/>
-            <value value="http://hl7.no/fhir"/>
+            <value value="http://ehelse.no/"/>
           </telecom>
         </contact>
         <description value="Identifier Systems allowed for subject identifications"/>
@@ -318,8 +320,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:f4db14db-f285-46fb-917f-5e9a10a3757b"/>
-          <timestamp value="2022-02-17T05:46:10+00:00"/>
+          <identifier value="urn:uuid:f3d2cf7e-12a1-48fb-bafa-4064cf07cfac"/>
+          <timestamp value="2022-02-17T06:20:51+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -327,20 +329,20 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://hl7.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem|0.1.0"/>
+            <valueUri value="http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem|0.1.0"/>
           </parameter>
           <contains>
-            <system value="http://hl7.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem"/>
+            <system value="http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem"/>
             <code value="urn:oid:2.16.578.1.12.4.1.4.1"/>
             <display value="FNR"/>
           </contains>
           <contains>
-            <system value="http://hl7.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem"/>
+            <system value="http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem"/>
             <code value="urn:oid:2.16.578.1.12.4.1.4.2"/>
             <display value="DNR"/>
           </contains>
           <contains>
-            <system value="http://hl7.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem"/>
+            <system value="http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem"/>
             <code value="urn:oid:2.16.578.1.12.4.1.4.3"/>
             <display value="FHN"/>
           </contains>

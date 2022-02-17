@@ -7,12 +7,12 @@
   "profiles": {
     "Observation": [
       {
-        "url": "http://hl7.no/fhir/StructureDefinition/vkp-observation-oxygensat",
-        "title": "Vkp VitalSigns Observation - Oxygen saturation"
+        "url": "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bloodpressure",
+        "title": "Vkp VitalSigns Observation - Blood pressure"
       },
       {
-        "url": "http://hl7.no/fhir/StructureDefinition/vkp-vitalsignsobservation-bloodpressure",
-        "title": "Vkp VitalSigns Observation - Blood pressure"
+        "url": "http://hl7.no/fhir/StructureDefinition/vkp-observation-oxygensat",
+        "title": "Vkp VitalSigns Observation - Oxygen saturation"
       }
     ]
   },

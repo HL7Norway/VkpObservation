@@ -9,7 +9,7 @@
   "version": "0.1.0",
   "name": "VkpObservation",
   "status": "draft",
-  "date": "2022-02-17T05:45:48+00:00",
+  "date": "2022-02-17T06:20:23+00:00",
   "jurisdiction": [
     {
       "coding": [
@@ -293,10 +293,10 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/VkpObservationOxygensat"
+          "reference": "StructureDefinition/vkp-Observation-Bloodpressure"
         },
-        "name": "Vkp VitalSigns Observation - Oxygen saturation",
-        "description": "Profile for oxygen saturation in VKP.",
+        "name": "Vkp VitalSigns Observation - Blood pressure",
+        "description": "Profile for blood pressure in VKP.",
         "exampleBoolean": false
       },
       {
@@ -307,10 +307,10 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/VkpVitalSignsObservationBloodpressure"
+          "reference": "StructureDefinition/VkpObservationOxygensat"
         },
-        "name": "Vkp VitalSigns Observation - Blood pressure",
-        "description": "Profile for blood pressure in VKP.",
+        "name": "Vkp VitalSigns Observation - Oxygen saturation",
+        "description": "Profile for oxygen saturation in VKP.",
         "exampleBoolean": false
       },
       {
@@ -338,6 +338,7 @@
           "reference": "ValueSet/NoDomainVitalSignsObservationBloodPressureMeasurementMethodValue"
         },
         "name": "NoDomainVitalSignsObservationBloodPressureMeasurementMethodValueSet",
+        "description": "Codes representing measurement method for blood pressure",
         "exampleBoolean": false
       },
       {
@@ -522,7 +523,7 @@
           "reference": "Observation/vkp-blood-pressure-profile-create"
         },
         "name": "vkp-blood-pressure-profile-create",
-        "exampleCanonical": "http://hl7.no/fhir/StructureDefinition/vkp-vitalsignsobservation-bloodpressure"
+        "exampleCanonical": "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bloodpressure"
       }
     ],
     "page": {

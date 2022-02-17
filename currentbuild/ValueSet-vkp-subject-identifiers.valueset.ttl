@@ -18,7 +18,7 @@
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-vkp-subject-identifiers.codesystem.html\"><code>http://hl7.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem</code></a></li></ul></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-vkp-subject-identifiers.codesystem.html\"><code>http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem</code></a></li></ul></div>"
   ];
   fhir:DomainResource.extension [
      fhir:index 0;
@@ -29,19 +29,20 @@
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm" ];
      fhir:Extension.valueInteger [ fhir:value "1"^^xsd:integer ]
   ];
-  fhir:ValueSet.url [ fhir:value "http://hl7.no/fhir/ValueSet/vkp-subject-identifiers.valueset"];
+  fhir:ValueSet.url [ fhir:value "http://ehelse.no/fhir/ValueSet/vkp-subject-identifiers.valueset"];
   fhir:ValueSet.version [ fhir:value "0.1.0"];
-  fhir:ValueSet.name [ fhir:value "VkpSubjectIdentifierSystemsValueSet"];
+  fhir:ValueSet.name [ fhir:value "VkpSubjectIdentifiersValueSet"];
   fhir:ValueSet.title [ fhir:value "VKP Subject Identifier systems ValueSet"];
   fhir:ValueSet.status [ fhir:value "draft"];
   fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean];
   fhir:ValueSet.date [ fhir:value "2021-03-17T00:00:00+00:00"^^xsd:dateTime];
+  fhir:ValueSet.publisher [ fhir:value "Direktoratet for e-helse"];
   fhir:ValueSet.contact [
      fhir:index 0;
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "url" ];
-       fhir:ContactPoint.value [ fhir:value "http://hl7.no/fhir" ]
+       fhir:ContactPoint.value [ fhir:value "http://ehelse.no/" ]
      ]
   ];
   fhir:ValueSet.description [ fhir:value "Identifier Systems allowed for subject identifications"];
@@ -57,7 +58,7 @@
   fhir:ValueSet.compose [
      fhir:ValueSet.compose.include [
        fhir:index 0;
-       fhir:ValueSet.compose.include.system [ fhir:value "http://hl7.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem" ]
+       fhir:ValueSet.compose.include.system [ fhir:value "http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem" ]
      ]
   ] .
 

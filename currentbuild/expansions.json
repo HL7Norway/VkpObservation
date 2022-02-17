@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "62b9222b-fd04-4592-8e4d-e4c0e0a9e059",
+  "id" : "537a3b1f-d606-468f-9a4c-a1e8379e14ca",
   "meta" : {
-    "lastUpdated" : "2022-02-17T05:45:48.946+00:00"
+    "lastUpdated" : "2022-02-17T06:20:23.789+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -36,6 +36,7 @@
       "status" : "draft",
       "experimental" : false,
       "date" : "2021-03-17T00:00:00+00:00",
+      "publisher" : "HL7 Norway",
       "contact" : [{
         "telecom" : [{
           "system" : "url",
@@ -51,8 +52,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:5eb705c0-4bae-4f65-909e-70ce073704f5",
-        "timestamp" : "2022-02-17T05:46:09+00:00",
+        "identifier" : "urn:uuid:3adc002f-1e67-4de6-b8d9-92d7b5811d56",
+        "timestamp" : "2022-02-17T06:20:42+00:00",
         "total" : 12,
         "parameter" : [{
           "name" : "excludeNested",
@@ -130,7 +131,7 @@
     }
   },
   {
-    "fullUrl" : "http://hl7.no/fhir/ValueSet/vkp-subject-identifiers.valueset",
+    "fullUrl" : "http://ehelse.no/fhir/ValueSet/vkp-subject-identifiers.valueset",
     "resource" : {
       "resourceType" : "ValueSet",
       "id" : "vkp-subject-identifiers.valueset",
@@ -140,7 +141,7 @@
       },
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-vkp-subject-identifiers.codesystem.html\">Vkp Subject Identifier Systems CodeSystem v0.1.0 (CodeSystem)</a></p><p>All codes in this table are from the system <a href=\"CodeSystem-vkp-subject-identifiers.codesystem.html\"><code>http://hl7.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-vkp-subject-identifiers.codesystem-urn-oid-2.16.578.1.12.4.1.4.1\"> </a><a href=\"CodeSystem-vkp-subject-identifiers.codesystem.html#vkp-subject-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.461\">urn:oid:2.16.578.1.12.4.1.4.1</a></td><td>FNR</td><td>Fødselsnummer</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-vkp-subject-identifiers.codesystem-urn-oid-2.16.578.1.12.4.1.4.2\"> </a><a href=\"CodeSystem-vkp-subject-identifiers.codesystem.html#vkp-subject-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.462\">urn:oid:2.16.578.1.12.4.1.4.2</a></td><td>DNR</td><td>D-nummer</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.no-fhir-CodeSystem-vkp-subject-identifiers.codesystem-urn-oid-2.16.578.1.12.4.1.4.3\"> </a><a href=\"CodeSystem-vkp-subject-identifiers.codesystem.html#vkp-subject-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.463\">urn:oid:2.16.578.1.12.4.1.4.3</a></td><td>FHN</td><td>Felles hjelpenummer</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-vkp-subject-identifiers.codesystem.html\">Vkp Subject Identifier Systems CodeSystem v0.1.0 (CodeSystem)</a></p><p>All codes in this table are from the system <a href=\"CodeSystem-vkp-subject-identifiers.codesystem.html\"><code>http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ehelse.no-fhir-CodeSystem-vkp-subject-identifiers.codesystem-urn-oid-2.16.578.1.12.4.1.4.1\"> </a><a href=\"CodeSystem-vkp-subject-identifiers.codesystem.html#vkp-subject-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.461\">urn:oid:2.16.578.1.12.4.1.4.1</a></td><td>FNR</td><td>Fødselsnummer</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ehelse.no-fhir-CodeSystem-vkp-subject-identifiers.codesystem-urn-oid-2.16.578.1.12.4.1.4.2\"> </a><a href=\"CodeSystem-vkp-subject-identifiers.codesystem.html#vkp-subject-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.462\">urn:oid:2.16.578.1.12.4.1.4.2</a></td><td>DNR</td><td>D-nummer</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ehelse.no-fhir-CodeSystem-vkp-subject-identifiers.codesystem-urn-oid-2.16.578.1.12.4.1.4.3\"> </a><a href=\"CodeSystem-vkp-subject-identifiers.codesystem.html#vkp-subject-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.463\">urn:oid:2.16.578.1.12.4.1.4.3</a></td><td>FHN</td><td>Felles hjelpenummer</td></tr></table></div>"
       },
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
@@ -150,17 +151,18 @@
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
         "valueInteger" : 1
       }],
-      "url" : "http://hl7.no/fhir/ValueSet/vkp-subject-identifiers.valueset",
+      "url" : "http://ehelse.no/fhir/ValueSet/vkp-subject-identifiers.valueset",
       "version" : "0.1.0",
-      "name" : "VkpSubjectIdentifierSystemsValueSet",
+      "name" : "VkpSubjectIdentifiersValueSet",
       "title" : "VKP Subject Identifier systems ValueSet",
       "status" : "draft",
       "experimental" : false,
       "date" : "2021-03-17T00:00:00+00:00",
+      "publisher" : "Direktoratet for e-helse",
       "contact" : [{
         "telecom" : [{
           "system" : "url",
-          "value" : "http://hl7.no/fhir"
+          "value" : "http://ehelse.no/"
         }]
       }],
       "description" : "Identifier Systems allowed for subject identifications",
@@ -172,8 +174,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:f4db14db-f285-46fb-917f-5e9a10a3757b",
-        "timestamp" : "2022-02-17T05:46:10+00:00",
+        "identifier" : "urn:uuid:f3d2cf7e-12a1-48fb-bafa-4064cf07cfac",
+        "timestamp" : "2022-02-17T06:20:51+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -181,20 +183,20 @@
         },
         {
           "name" : "version",
-          "valueUri" : "http://hl7.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem|0.1.0"
+          "valueUri" : "http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem|0.1.0"
         }],
         "contains" : [{
-          "system" : "http://hl7.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem",
+          "system" : "http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem",
           "code" : "urn:oid:2.16.578.1.12.4.1.4.1",
           "display" : "FNR"
         },
         {
-          "system" : "http://hl7.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem",
+          "system" : "http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem",
           "code" : "urn:oid:2.16.578.1.12.4.1.4.2",
           "display" : "DNR"
         },
         {
-          "system" : "http://hl7.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem",
+          "system" : "http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem",
           "code" : "urn:oid:2.16.578.1.12.4.1.4.3",
           "display" : "FHN"
         }]

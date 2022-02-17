@@ -24,6 +24,7 @@
   <status value="draft"/>
   <experimental value="false"/>
   <date value="2021-03-17T00:00:00+00:00"/>
+  <publisher value="HL7 Norway"/>
   <contact>
     <telecom>
       <system value="url"/>

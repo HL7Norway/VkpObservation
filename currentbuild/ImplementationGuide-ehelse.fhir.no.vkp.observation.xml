@@ -9,7 +9,7 @@
   <version value="0.1.0"/>
   <name value="VkpObservation"/>
   <status value="draft"/>
-  <date value="2022-02-17T05:45:48+00:00"/>
+  <date value="2022-02-17T06:20:23+00:00"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -183,10 +183,10 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/VkpObservationOxygensat"/>
+        <reference value="StructureDefinition/vkp-Observation-Bloodpressure"/>
       </reference>
-      <name value="Vkp VitalSigns Observation - Oxygen saturation"/>
-      <description value="Profile for oxygen saturation in VKP."/>
+      <name value="Vkp VitalSigns Observation - Blood pressure"/>
+      <description value="Profile for blood pressure in VKP."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -194,10 +194,10 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/VkpVitalSignsObservationBloodpressure"/>
+        <reference value="StructureDefinition/VkpObservationOxygensat"/>
       </reference>
-      <name value="Vkp VitalSigns Observation - Blood pressure"/>
-      <description value="Profile for blood pressure in VKP."/>
+      <name value="Vkp VitalSigns Observation - Oxygen saturation"/>
+      <description value="Profile for oxygen saturation in VKP."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -219,6 +219,7 @@
         <reference value="ValueSet/NoDomainVitalSignsObservationBloodPressureMeasurementMethodValue"/>
       </reference>
       <name value="NoDomainVitalSignsObservationBloodPressureMeasurementMethodValueSet"/>
+      <description value="Codes representing measurement method for blood pressure"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -361,7 +362,7 @@
         <reference value="Observation/vkp-blood-pressure-profile-create"/>
       </reference>
       <name value="vkp-blood-pressure-profile-create"/>
-      <exampleCanonical value="http://hl7.no/fhir/StructureDefinition/vkp-vitalsignsobservation-bloodpressure"/>
+      <exampleCanonical value="http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bloodpressure"/>
     </resource>
     <page>
       <nameUrl value="toc.html"/>

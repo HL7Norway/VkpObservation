@@ -16,7 +16,7 @@
   fhir:ImplementationGuide.version [ fhir:value "0.1.0"];
   fhir:ImplementationGuide.name [ fhir:value "VkpObservation"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-02-17T05:45:48+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-02-17T06:20:23+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [
@@ -280,11 +280,11 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://ehelse.no/fhir/StructureDefinition/VkpObservationOxygensat>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/VkpObservationOxygensat" ]
+         fhir:link <http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bloodpressure>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/vkp-Observation-Bloodpressure" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Vkp VitalSigns Observation - Oxygen saturation" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Profile for oxygen saturation in VKP." ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Vkp VitalSigns Observation - Blood pressure" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Profile for blood pressure in VKP." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 1;
@@ -294,11 +294,11 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://ehelse.no/fhir/StructureDefinition/VkpVitalSignsObservationBloodpressure>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/VkpVitalSignsObservationBloodpressure" ]
+         fhir:link <http://ehelse.no/fhir/StructureDefinition/VkpObservationOxygensat>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/VkpObservationOxygensat" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Vkp VitalSigns Observation - Blood pressure" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Profile for blood pressure in VKP." ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Vkp VitalSigns Observation - Oxygen saturation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Profile for oxygen saturation in VKP." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 2;
@@ -326,6 +326,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/NoDomainVitalSignsObservationBloodPressureMeasurementMethodValue" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "NoDomainVitalSignsObservationBloodPressureMeasurementMethodValueSet" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes representing measurement method for blood pressure" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 4;
@@ -511,8 +512,8 @@
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "vkp-blood-pressure-profile-create" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://hl7.no/fhir/StructureDefinition/vkp-vitalsignsobservation-bloodpressure";
-         fhir:link <http://hl7.no/fhir/StructureDefinition/vkp-vitalsignsobservation-bloodpressure>
+         fhir:value "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bloodpressure";
+         fhir:link <http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bloodpressure>
        ]
      ];
      fhir:ImplementationGuide.definition.page [
