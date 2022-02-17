@@ -13,6 +13,7 @@ Description: "Codes representing body site for blood pressure"
 * ^version = "4.0.0"
 * ^status = #draft
 * ^experimental = false
+* ^publisher = "HL7 Norway"
 * ^date = "2021-03-17T00:00:00+00:00"
 * ^contact.telecom.system = #url
 * ^contact.telecom.value = "http://hl7.org/fhir"
