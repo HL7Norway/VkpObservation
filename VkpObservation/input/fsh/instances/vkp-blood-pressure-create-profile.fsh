@@ -1,5 +1,5 @@
 Instance: vkp-blood-pressure-profile-create
-InstanceOf: VkpVitalSignsObservationBloodpressure
+InstanceOf: VkpObservationBloodpressure
 Usage: #example
 * meta.lastUpdated = "2021-02-15T22:35:23+11:00"
 * meta.versionId = "1"
