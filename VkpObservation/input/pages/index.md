@@ -7,8 +7,8 @@ Based on FHIR VitalSigns where appropriate.
 
 ## Interoperability methods
 
-The interactions from client to receiver.
-FHIR RESTful API 
+The interactions from client to receiver.  
+* FHIR RESTful API 
 
 ## Scope stage 1
 
