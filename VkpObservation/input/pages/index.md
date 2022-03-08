@@ -5,9 +5,14 @@ Scope of use is Personal connected health and care domain.
 
 Based on FHIR VitalSigns where appropriate.
 
+## Interoperability methods
+
+The interactions from client to receiver.
+FHIR RESTful API 
+
 ## Scope stage 1
 
-The scope of delivery of Observation profiles in stage 1.  
+Information exchange defined as the scope of delivery of Observation profiles in stage 1.  
 
 |Type observasjon|undertype|Profil|LOINC|SNOMED|
 |----------------|---------|------|-----|------|
