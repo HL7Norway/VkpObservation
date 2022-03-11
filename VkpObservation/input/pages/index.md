@@ -16,7 +16,7 @@ Information exchange defined as the scope of delivery of Observation profiles in
 
 |Type observasjon|undertype|Profil|LOINC|SNOMED|
 |----------------|---------|------|-----|------|
-|puls||VkpObservationHeartrate|8867-4 heart-rate|364075005 Heart Rate|
+|hjertefrekvens||VkpObservationHeartrate|8867-4 heart-rate|364075005 Heart Rate|
 |blodtrykk||VkpObservationBloodpressure|85354-9 blood-pressure|75367002 Blood pressure (observable entity)|
 ||blodtrykk (systolisk)|(component)|8480-6 Systolic blood-pressure|271649006 Systolic blood pressure (observable entity)|
 ||blodtrykk (diastolisk)|(component)|8462-4 Diastolic blood-pressure|271650006 Diastolic blood pressure (observable entity)|
