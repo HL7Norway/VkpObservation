@@ -5,10 +5,10 @@ Usage: #example
 * meta.versionId = "1"
 * meta.source = "META_VISION"
 * identifier.system = "http://dips.no/fhir/namingsystem/externalId"
-* identifier.value = "External Id: testBPexternalId1"
+* identifier.value = "testBPexternalId1"
 * status = #final
-* code = $loinc#85354-9 "Blood pressure (observable entity)"
-* category = $observation-category#vital-signs "vital-signs"
+* code = $loinc#85354-9 "BP pnl w all optional"
+* category = $observation-category#vital-signs "Vital Signs"
 * subject.identifier.system = "http://dips.no/fhir/namingsystem/dips-patientid"
 * subject.identifier.value = "1000807"
 * encounter.identifier.system = "http://dips.no/fhir/namingsystem/dips-omsorgsepisodeid"
