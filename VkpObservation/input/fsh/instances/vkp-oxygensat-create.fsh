@@ -20,4 +20,4 @@ Usage: #example
 * performer[=].identifier.value = "22"
 * bodySite.text = "Demo pulse oxymetri bodysite"
 * note.text = "Test Vkp pulse oxymetri"
-* valueQuantity = 99 "%" "%"
+* valueQuantity = 99 '%' "%"
