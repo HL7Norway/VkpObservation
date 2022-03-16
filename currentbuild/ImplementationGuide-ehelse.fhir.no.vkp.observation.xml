@@ -9,7 +9,7 @@
   <version value="0.1.0"/>
   <name value="VkpObservation"/>
   <status value="draft"/>
-  <date value="2022-03-16T19:10:36+00:00"/>
+  <date value="2022-03-16T20:33:11+00:00"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -290,16 +290,6 @@
         <valueString value="Observation"/>
       </extension>
       <reference>
-        <reference value="Observation/body-temperature-create"/>
-      </reference>
-      <name value="body-temperature-create"/>
-      <exampleCanonical value="http://hl7.no/fhir/StructureDefinition/vkp-Observation-Bodytemp"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
-      </extension>
-      <reference>
         <reference value="Observation/body-weight-create"/>
       </reference>
       <name value="body-weight-create"/>
@@ -340,16 +330,6 @@
         <valueString value="Observation"/>
       </extension>
       <reference>
-        <reference value="Observation/oxygen-saturation-create"/>
-      </reference>
-      <name value="oxygen-saturation-create"/>
-      <exampleCanonical value="http://hl7.no/fhir/StructureDefinition/vkp-Observation-Oxygensat"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
-      </extension>
-      <reference>
         <reference value="Observation/respiratory-rate-create"/>
       </reference>
       <name value="respiratory-rate-create"/>
@@ -374,6 +354,26 @@
       </reference>
       <name value="vkp-blood-pressure-profile-create"/>
       <exampleCanonical value="http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bloodpressure"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/vkp-body-temperature-create"/>
+      </reference>
+      <name value="vkp-body-temperature-create"/>
+      <exampleCanonical value="http://hl7.no/fhir/StructureDefinition/vkp-Observation-Bodytemp"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/vkp-oxygen-saturation-create"/>
+      </reference>
+      <name value="vkp-oxygen-saturation-create"/>
+      <exampleCanonical value="http://hl7.no/fhir/StructureDefinition/vkp-Observation-Oxygensat"/>
     </resource>
     <page>
       <nameUrl value="toc.html"/>

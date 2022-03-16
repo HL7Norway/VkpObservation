@@ -9,7 +9,7 @@
   "version": "0.1.0",
   "name": "VkpObservation",
   "status": "draft",
-  "date": "2022-03-16T19:10:36+00:00",
+  "date": "2022-03-16T20:33:11+00:00",
   "jurisdiction": [
     {
       "coding": [
@@ -430,19 +430,6 @@
           }
         ],
         "reference": {
-          "reference": "Observation/body-temperature-create"
-        },
-        "name": "body-temperature-create",
-        "exampleCanonical": "http://hl7.no/fhir/StructureDefinition/vkp-Observation-Bodytemp"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Observation"
-          }
-        ],
-        "reference": {
           "reference": "Observation/body-weight-create"
         },
         "name": "body-weight-create",
@@ -495,19 +482,6 @@
           }
         ],
         "reference": {
-          "reference": "Observation/oxygen-saturation-create"
-        },
-        "name": "oxygen-saturation-create",
-        "exampleCanonical": "http://hl7.no/fhir/StructureDefinition/vkp-Observation-Oxygensat"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Observation"
-          }
-        ],
-        "reference": {
           "reference": "Observation/respiratory-rate-create"
         },
         "name": "respiratory-rate-create",
@@ -538,6 +512,32 @@
         },
         "name": "vkp-blood-pressure-profile-create",
         "exampleCanonical": "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bloodpressure"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/vkp-body-temperature-create"
+        },
+        "name": "vkp-body-temperature-create",
+        "exampleCanonical": "http://hl7.no/fhir/StructureDefinition/vkp-Observation-Bodytemp"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/vkp-oxygen-saturation-create"
+        },
+        "name": "vkp-oxygen-saturation-create",
+        "exampleCanonical": "http://hl7.no/fhir/StructureDefinition/vkp-Observation-Oxygensat"
       }
     ],
     "page": {

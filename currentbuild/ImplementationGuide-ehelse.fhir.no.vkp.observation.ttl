@@ -16,7 +16,7 @@
   fhir:ImplementationGuide.version [ fhir:value "0.1.0"];
   fhir:ImplementationGuide.name [ fhir:value "VkpObservation"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-03-16T19:10:36+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-03-16T20:33:11+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [
@@ -417,29 +417,13 @@
          fhir:Extension.valueString [ fhir:value "Observation" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://ehelse.no/fhir/Observation/body-temperature-create>;
-         fhir:Reference.reference [ fhir:value "Observation/body-temperature-create" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "body-temperature-create" ];
-       fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://hl7.no/fhir/StructureDefinition/vkp-Observation-Bodytemp";
-         fhir:link <http://hl7.no/fhir/StructureDefinition/vkp-Observation-Bodytemp>
-       ]
-     ], [
-       fhir:index 11;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Observation" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
          fhir:link <http://ehelse.no/fhir/Observation/body-weight-create>;
          fhir:Reference.reference [ fhir:value "Observation/body-weight-create" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "body-weight-create" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 12;
+       fhir:index 11;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -452,7 +436,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "heart-rate-create" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 13;
+       fhir:index 12;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -465,7 +449,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "level-of-consciousness-create" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 14;
+       fhir:index 13;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -478,23 +462,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "news2-create" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 15;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Observation" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://ehelse.no/fhir/Observation/oxygen-saturation-create>;
-         fhir:Reference.reference [ fhir:value "Observation/oxygen-saturation-create" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "oxygen-saturation-create" ];
-       fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://hl7.no/fhir/StructureDefinition/vkp-Observation-Oxygensat";
-         fhir:link <http://hl7.no/fhir/StructureDefinition/vkp-Observation-Oxygensat>
-       ]
-     ], [
-       fhir:index 16;
+       fhir:index 14;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -507,7 +475,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "respiratory-rate-create" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 17;
+       fhir:index 15;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -520,7 +488,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "vkp-blood-pressure-create" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 18;
+       fhir:index 16;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -534,6 +502,38 @@
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bloodpressure";
          fhir:link <http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bloodpressure>
+       ]
+     ], [
+       fhir:index 17;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ehelse.no/fhir/Observation/vkp-body-temperature-create>;
+         fhir:Reference.reference [ fhir:value "Observation/vkp-body-temperature-create" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "vkp-body-temperature-create" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://hl7.no/fhir/StructureDefinition/vkp-Observation-Bodytemp";
+         fhir:link <http://hl7.no/fhir/StructureDefinition/vkp-Observation-Bodytemp>
+       ]
+     ], [
+       fhir:index 18;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ehelse.no/fhir/Observation/vkp-oxygen-saturation-create>;
+         fhir:Reference.reference [ fhir:value "Observation/vkp-oxygen-saturation-create" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "vkp-oxygen-saturation-create" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://hl7.no/fhir/StructureDefinition/vkp-Observation-Oxygensat";
+         fhir:link <http://hl7.no/fhir/StructureDefinition/vkp-Observation-Oxygensat>
        ]
      ];
      fhir:ImplementationGuide.definition.page [
