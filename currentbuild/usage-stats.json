@@ -11,6 +11,10 @@
         "title": "Vkp VitalSigns Observation - Blood pressure"
       },
       {
+        "url": "http://hl7.no/fhir/StructureDefinition/vkp-Observation-Bodytemp",
+        "title": "Vkp VitalSigns Observation - Body temperature"
+      },
+      {
         "url": "http://hl7.no/fhir/StructureDefinition/vkp-Observation-Oxygensat",
         "title": "Vkp VitalSigns Observation - Oxygen saturation"
       }
@@ -23,9 +27,6 @@
     "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation--respirationdepthextension": [
       "Observation"
     ],
-    "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-activeheating-extension": [
-      "Observation"
-    ],
     "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-bloodpressure-bodypositionextension": [
       "Observation"
     ],
@@ -36,9 +37,6 @@
       "Observation"
     ],
     "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-bloodpressure-systolicformulaextension": [
-      "Observation"
-    ],
-    "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-bodyexposureextension": [
       "Observation"
     ],
     "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-bodyheight-bodypositionextension": [
@@ -59,9 +57,6 @@
     "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-confoundingfactorextension": [
       "Observation"
     ],
-    "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-dayssincemenstruationstartextension": [
-      "Observation"
-    ],
     "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-headtiltextension": [
       "Observation"
     ],
@@ -75,9 +70,6 @@
       "Observation"
     ],
     "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-spontaneousbreathingextension": [
-      "Observation"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/NoDomainVitalSignsObservationPrePostduktalExtension": [
       "Observation"
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [

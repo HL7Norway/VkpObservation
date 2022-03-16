@@ -9,7 +9,7 @@
   <version value="0.1.0"/>
   <name value="VkpObservation"/>
   <status value="draft"/>
-  <date value="2022-03-16T12:01:06+00:00"/>
+  <date value="2022-03-16T19:10:36+00:00"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -194,6 +194,17 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/vkp-Observation-Bodytemp"/>
+      </reference>
+      <name value="Vkp VitalSigns Observation - Body temperature"/>
+      <description value="Profile for Body temperature in VKP."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/vkp-Observation-Oxygensat"/>
       </reference>
       <name value="Vkp VitalSigns Observation - Oxygen saturation"/>
@@ -282,7 +293,7 @@
         <reference value="Observation/body-temperature-create"/>
       </reference>
       <name value="body-temperature-create"/>
-      <exampleBoolean value="true"/>
+      <exampleCanonical value="http://hl7.no/fhir/StructureDefinition/vkp-Observation-Bodytemp"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -332,7 +343,7 @@
         <reference value="Observation/oxygen-saturation-create"/>
       </reference>
       <name value="oxygen-saturation-create"/>
-      <exampleBoolean value="true"/>
+      <exampleCanonical value="http://hl7.no/fhir/StructureDefinition/vkp-Observation-Oxygensat"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

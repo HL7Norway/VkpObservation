@@ -28,6 +28,13 @@
     "name": "VkpSubjectIdentifiersValueSet"
   },
   {
+    "id": "vkp-Observation-Bodytemp",
+    "type": "StructureDefinition",
+    "url": "http://hl7.no/fhir/StructureDefinition/vkp-Observation-Bodytemp",
+    "version": "0.1.0",
+    "name": "VkpObservationBodytemp"
+  },
+  {
     "id": "vkp-Observation-Oxygensat",
     "type": "StructureDefinition",
     "url": "http://hl7.no/fhir/StructureDefinition/vkp-Observation-Oxygensat",
