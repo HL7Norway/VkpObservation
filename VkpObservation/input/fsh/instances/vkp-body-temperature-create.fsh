@@ -1,16 +1,16 @@
-Instance: oxygen-saturation-create
-InstanceOf: VkpObservationOxygensat
+Instance: body-temperature-create
+InstanceOf: VkpObservationBodytemp
 Usage: #example
-* meta.lastUpdated = "2022-03-16T22:35:23+11:00"
-* meta.versionId = "1"
+* meta.lastUpdated = "2014-01-30T22:35:23+11:00"
+* meta.versionId = "0"
 * meta.source = "Thomas"
 * identifier.system = "http://dips.no/fhir/namingsystem/externalId"
-* identifier.value = "testOxySatexternalId5"
+* identifier.value = "testtempexternalId4"
 * status = #final
 * category = $observation-category#vital-signs "Vital Signs"
-* category.text = "Vital Signs"
-* code = $loinc#2708-6 "Oxygen saturation in Arterial blood"
-* code = $sct#431314004 "Peripheral oxygen saturation (observable entity)"
+* code = $loinc#8310-5
+* code.text = "Body temperature"
+* code = $sct#276885007 "Core body temperature (observable entity)"
 * subject.identifier.system = "urn:oid:2.16.578.1.12.4.1.4.1"
 * subject.identifier.value = "1000239"
 * effectiveDateTime = "2022-03-16"
@@ -18,6 +18,6 @@ Usage: #example
 * performer[=].identifier.value = "889911"
 * performer[=].identifier.system = "urn:oid:1.3.6.1.4.1.9038.70.3"
 * performer[=].identifier.value = "22"
-* bodySite.text = "Demo pulse oxymetri bodysite"
-* note.text = "Test Vkp pulse oxymetri"
-* valueQuantity = 99 '%' "%"
+* bodySite = $sct#34402009 "Endetarm"
+* note.text = "Demo Body Temperature"
+* valueQuantity = 37 'Cel' "Cel"
