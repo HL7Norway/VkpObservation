@@ -9,8 +9,8 @@ Usage: #example
 * status = #final
 * category = $observation-category#vital-signs "Vital Signs"
 * code.coding[0] = $loinc#8310-5 "Body temperature"
-* code.coding[0].text = "Body temperature"
 * code.coding[1] = $sct#276885007 "Core body temperature (observable entity)"
+* code.text = "Body temperature"
 * subject.identifier.system = "urn:oid:2.16.578.1.12.4.1.4.1"
 * subject.identifier.value = "1000239"
 * effectiveDateTime = "2022-03-16"
