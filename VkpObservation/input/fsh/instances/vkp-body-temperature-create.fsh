@@ -1,4 +1,4 @@
-Instance: body-temperature-create
+Instance: vkp-body-temperature-create
 InstanceOf: VkpObservationBodytemp
 Usage: #example
 * meta.lastUpdated = "2014-01-30T22:35:23+11:00"

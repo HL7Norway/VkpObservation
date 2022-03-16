@@ -1,4 +1,4 @@
-Instance: oxygen-saturation-create
+Instance: vkp-oxygen-saturation-create
 InstanceOf: VkpObservationOxygensat
 Usage: #example
 * meta.lastUpdated = "2022-03-16T22:35:23+11:00"
