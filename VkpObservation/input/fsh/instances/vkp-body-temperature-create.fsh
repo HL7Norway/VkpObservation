@@ -8,9 +8,9 @@ Usage: #example
 * identifier.value = "testtempexternalId4"
 * status = #final
 * category = $observation-category#vital-signs "Vital Signs"
-* code = $loinc#8310-5
-* code.text = "Body temperature"
-* code = $sct#276885007 "Core body temperature (observable entity)"
+* code[0] = $loinc#8310-5 "Body temperature"
+* code[0].text = "Body temperature"
+* code[1] = $sct#276885007 "Core body temperature (observable entity)"
 * subject.identifier.system = "urn:oid:2.16.578.1.12.4.1.4.1"
 * subject.identifier.value = "1000239"
 * effectiveDateTime = "2022-03-16"

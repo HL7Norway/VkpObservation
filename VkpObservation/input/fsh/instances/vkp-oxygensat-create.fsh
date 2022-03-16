@@ -9,8 +9,8 @@ Usage: #example
 * status = #final
 * category = $observation-category#vital-signs "Vital Signs"
 * category.text = "Vital Signs"
-* code = $loinc#2708-6 "Oxygen saturation in Arterial blood"
-* code = $sct#431314004 "Peripheral oxygen saturation (observable entity)"
+* code[0] = $loinc#2708-6 "Oxygen saturation in Arterial blood"
+* code[1] = $sct#431314004 "Peripheral oxygen saturation (observable entity)"
 * subject.identifier.system = "urn:oid:2.16.578.1.12.4.1.4.1"
 * subject.identifier.value = "1000239"
 * effectiveDateTime = "2022-03-16"
