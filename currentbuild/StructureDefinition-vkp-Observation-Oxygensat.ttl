@@ -3441,7 +3441,11 @@
          fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
          fhir:ElementDefinition.constraint.human [ fhir:value "if Observation.effective[x] is dateTime and has a value then that value shall be precise to the day" ];
          fhir:ElementDefinition.constraint.expression [ fhir:value "($this as dateTime).toString().length() >= 8" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "f:effectiveDateTime[matches(@value, '^\\d{4}-\\d{2}-\\d{2}')]" ]
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "f:effectiveDateTime[matches(@value, '^\\d{4}-\\d{2}-\\d{2}')]" ];
+         fhir:ElementDefinition.constraint.source [
+           fhir:value "http://hl7.org/fhir/StructureDefinition/oxygensat";
+           fhir:link <http://hl7.org/fhir/StructureDefinition/oxygensat>
+         ]
        ];
        fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
@@ -5149,7 +5153,11 @@
          fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
          fhir:ElementDefinition.constraint.human [ fhir:value "Must have at least a low or a high or text" ];
          fhir:ElementDefinition.constraint.expression [ fhir:value "low.exists() or high.exists() or text.exists()" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "(exists(f:low) or exists(f:high)or exists(f:text))" ]
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "(exists(f:low) or exists(f:high)or exists(f:text))" ];
+         fhir:ElementDefinition.constraint.source [
+           fhir:value "http://hl7.org/fhir/StructureDefinition/oxygensat";
+           fhir:link <http://hl7.org/fhir/StructureDefinition/oxygensat>
+         ]
        ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
@@ -5759,7 +5767,11 @@
          fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
          fhir:ElementDefinition.constraint.human [ fhir:value "If there is no a value a data absent reason must be present" ];
          fhir:ElementDefinition.constraint.expression [ fhir:value "value.exists() or dataAbsentReason.exists()" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "f:*[starts-with(local-name(.), 'value')] or f:dataAbsentReason" ]
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "f:*[starts-with(local-name(.), 'value')] or f:dataAbsentReason" ];
+         fhir:ElementDefinition.constraint.source [
+           fhir:value "http://hl7.org/fhir/StructureDefinition/oxygensat";
+           fhir:link <http://hl7.org/fhir/StructureDefinition/oxygensat>
+         ]
        ];
        fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];

@@ -3296,7 +3296,8 @@
             "severity": "error",
             "human": "if Observation.effective[x] is dateTime and has a value then that value shall be precise to the day",
             "expression": "($this as dateTime).toString().length() >= 8",
-            "xpath": "f:effectiveDateTime[matches(@value, '^\\d{4}-\\d{2}-\\d{2}')]"
+            "xpath": "f:effectiveDateTime[matches(@value, '^\\d{4}-\\d{2}-\\d{2}')]",
+            "source": "http://hl7.org/fhir/StructureDefinition/oxygensat"
           }
         ],
         "mustSupport": true,
@@ -4955,7 +4956,8 @@
             "severity": "error",
             "human": "Must have at least a low or a high or text",
             "expression": "low.exists() or high.exists() or text.exists()",
-            "xpath": "(exists(f:low) or exists(f:high)or exists(f:text))"
+            "xpath": "(exists(f:low) or exists(f:high)or exists(f:text))",
+            "source": "http://hl7.org/fhir/StructureDefinition/oxygensat"
           }
         ],
         "isModifier": false,
@@ -5518,7 +5520,8 @@
             "severity": "error",
             "human": "If there is no a value a data absent reason must be present",
             "expression": "value.exists() or dataAbsentReason.exists()",
-            "xpath": "f:*[starts-with(local-name(.), 'value')] or f:dataAbsentReason"
+            "xpath": "f:*[starts-with(local-name(.), 'value')] or f:dataAbsentReason",
+            "source": "http://hl7.org/fhir/StructureDefinition/oxygensat"
           }
         ],
         "mustSupport": true,
