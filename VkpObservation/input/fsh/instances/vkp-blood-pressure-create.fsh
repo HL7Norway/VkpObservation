@@ -28,5 +28,5 @@ Usage: #example
 * component[=].valueQuantity = 78 'mm[Hg]' "mm[Hg]"
 * component[+].code = $loinc#8478-0 "Mean arterial pressure (observable entity)"
 * component[=].valueQuantity = 93 'mm[Hg]' "mm[Hg]"
-* component[+].code = $sct#4461000202102 "The difference between the systolic and diastolic pressure."
+* component[+].code = $sct#87179004 "Arterial pulse pressure"
 * component[=].valueQuantity = 45 'mm[Hg]' "mm[Hg]"
