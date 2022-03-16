@@ -1,9 +1,9 @@
 ﻿VkpObservation : Validation Results
 =========================================
 
-err = 98, warn = 53, info = 6
+err = 94, warn = 53, info = 6
 IG Publisher Version: 1.1.112
-Generated Wed Mar 16 11:38:30 UTC 2022. FHIR version 4.0.1 for ehelse.fhir.no.vkp.observation#0.1.0 (canonical = http://ehelse.no/fhir)
+Generated Wed Mar 16 12:03:43 UTC 2022. FHIR version 4.0.1 for ehelse.fhir.no.vkp.observation#0.1.0 (canonical = http://ehelse.no/fhir)
  Build Errors : 106 / 13 / 0
  /github/workspace/VkpObservation/fsh-generated/resources/CodeSystem-vkp-subject-identifiers.codesystem : 0 / 0 / 2
  /github/workspace/VkpObservation/fsh-generated/resources/ImplementationGuide-ehelse.fhir.no.vkp.observation : 0 / 0 / 1
@@ -18,7 +18,7 @@ Generated Wed Mar 16 11:38:30 UTC 2022. FHIR version 4.0.1 for ehelse.fhir.no.vk
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-oxygen-saturation-create : 11 / 4 / 1
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-respiratory-rate-create : 16 / 7 / 1
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-blood-pressure-create : 1 / 1 / 2
- /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-blood-pressure-profile-create : 5 / 0 / 3
+ /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-blood-pressure-profile-create : 1 / 0 / 3
  /github/workspace/VkpObservation/fsh-generated/resources/StructureDefinition-vkp-Observation-Bloodpressure : 0 / 0 / 1
  /github/workspace/VkpObservation/fsh-generated/resources/StructureDefinition-vkp-Observation-Oxygensat : 0 / 1 / 1
  /github/workspace/VkpObservation/fsh-generated/resources/ValueSet-NoDomainVitalSignsObservationBloodPressureBodySiteValueSet : 0 / 0 / 1
@@ -102,18 +102,18 @@ ERROR: /github/workspace/VkpObservation/output/Observation-vkp-blood-pressure-cr
 ERROR: /github/workspace/VkpObservation/output/Observation-vkp-blood-pressure-create.xml.html#/html/body/div/div/div/p/a at Line 322, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/VkpObservation/output/Observation-vkp-blood-pressure-profile-create.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/VkpObservation/output/Observation-vkp-blood-pressure-profile-create.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/VkpObservation/output/Observation-vkp-blood-pressure-profile-create.json.html#/html/body/div/div/div/p/a at Line 355, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/VkpObservation/output/Observation-vkp-blood-pressure-profile-create.ttl.html#/html/body/div/div/div/p/a at Line 347, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/VkpObservation/output/Observation-vkp-blood-pressure-profile-create.xml.html#/html/body/div/div/div/p/a at Line 329, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/VkpObservation/output/Observation-vkp-blood-pressure-profile-create.json.html#/html/body/div/div/div/p/a at Line 349, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/VkpObservation/output/Observation-vkp-blood-pressure-profile-create.ttl.html#/html/body/div/div/div/p/a at Line 342, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/VkpObservation/output/Observation-vkp-blood-pressure-profile-create.xml.html#/html/body/div/div/div/p/a at Line 323, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/VkpObservation/output/StructureDefinition-vkp-Observation-Bloodpressure-definitions.html#/html/body/div/div/div/div/div/table/tr/td/p/a at Line 860, column 565: The link 'http://hl7.org/fhir/extension-observation-focuscode.html' for "focusCode" cannot be resolved
-ERROR: /github/workspace/VkpObservation/output/StructureDefinition-vkp-Observation-Bloodpressure-definitions.html#/html/body/div/div/div/p/a at Line 2466, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/VkpObservation/output/StructureDefinition-vkp-Observation-Bloodpressure-definitions.html#/html/body/div/div/div/p/a at Line 2468, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/VkpObservation/output/StructureDefinition-vkp-Observation-Bloodpressure-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/VkpObservation/output/StructureDefinition-vkp-Observation-Bloodpressure-mappings.html#/html/body/div/div/div/p/a at Line 677, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/VkpObservation/output/StructureDefinition-vkp-Observation-Bloodpressure.html#/html/body/div/div/div/p/a at Line 1910, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/VkpObservation/output/StructureDefinition-vkp-Observation-Bloodpressure.html#/html/body/div/div/div/p/a at Line 1914, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/VkpObservation/output/StructureDefinition-vkp-Observation-Bloodpressure.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/VkpObservation/output/StructureDefinition-vkp-Observation-Bloodpressure.profile.json.html#/html/body/div/div/div/p/a at Line 10731, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/VkpObservation/output/StructureDefinition-vkp-Observation-Bloodpressure.profile.ttl.html#/html/body/div/div/div/p/a at Line 9167, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/VkpObservation/output/StructureDefinition-vkp-Observation-Bloodpressure.profile.xml.html#/html/body/div/div/div/p/a at Line 9684, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/VkpObservation/output/StructureDefinition-vkp-Observation-Bloodpressure.profile.json.html#/html/body/div/div/div/p/a at Line 10743, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/VkpObservation/output/StructureDefinition-vkp-Observation-Bloodpressure.profile.ttl.html#/html/body/div/div/div/p/a at Line 9177, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/VkpObservation/output/StructureDefinition-vkp-Observation-Bloodpressure.profile.xml.html#/html/body/div/div/div/p/a at Line 9696, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/VkpObservation/output/StructureDefinition-vkp-Observation-Oxygensat-definitions.html#/html/body/div/div/div/div/div/table/tr/td/p/a at Line 850, column 565: The link 'http://hl7.org/fhir/extension-observation-focuscode.html' for "focusCode" cannot be resolved
 ERROR: /github/workspace/VkpObservation/output/StructureDefinition-vkp-Observation-Oxygensat-definitions.html#/html/body/div/div/div/div/div/table/tr/td/p/a at Line 1210, column 147: The link 'http://hl7.org/fhir/extension-bodysite.html' for "bodySite" cannot be resolved
 ERROR: /github/workspace/VkpObservation/output/StructureDefinition-vkp-Observation-Oxygensat-definitions.html#/html/body/div/div/div/p/a at Line 1533, column 28: The link '' for "" cannot be resolved
@@ -293,10 +293,6 @@ ERROR: Observation/vkp-blood-pressure-create: Observation.component[3].code.codi
 == fsh-generated/resources/Observation-vkp-blood-pressure-profile-create.json ==
 INFORMATION: Observation/vkp-blood-pressure-profile-create: Observation.component[2]: This element does not match any known slice defined in the profile http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bloodpressure
 INFORMATION: Observation/vkp-blood-pressure-profile-create: Observation.component[3]: This element does not match any known slice defined in the profile http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bloodpressure
-ERROR: Observation/vkp-blood-pressure-profile-create: Observation.subject.identifier.system: The value provided ('http://dips.no/fhir/namingsystem/dips-patientid') is not in the value set 'VKP Subject Identifier systems ValueSet' (http://ehelse.no/fhir/ValueSet/vkp-subject-identifiers.valueset), and a code is required from this value set) (error message = Unknown Code http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem#http://dips.no/fhir/namingsystem/dips-patientid in http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem)
-ERROR: Observation/vkp-blood-pressure-profile-create: Observation.performer[0].identifier.system: The value provided ('urn:oid:1.3.6.1.4.1.9038.70.3') is not in the value set 'VKP Subject Identifier systems ValueSet' (http://ehelse.no/fhir/ValueSet/vkp-subject-identifiers.valueset), and a code is required from this value set) (error message = Unknown Code http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem#urn:oid:1.3.6.1.4.1.9038.70.3 in http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem)
-ERROR: Observation/vkp-blood-pressure-profile-create: Observation.bodySite.coding[0].system: The value provided ('http://snomed.info/sct') is not in the value set 'NoDomainVitalSignsObservationBloodPressureBodySiteValueSet' (http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodysitevalueset), and a code is required from this value set) (error message = Error from server: Concept not found (next char = "h", in "http://snomed.info/sct") at character 1)
-ERROR: Observation/vkp-blood-pressure-profile-create: Observation.method.coding[0].system: The value provided ('http://snomed.info/sct') is not in the value set 'NoDomainVitalSignsObservationBloodPressureMeasurementMethodValueSet' (http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-measurementmethodvalueSet), and a code is required from this value set) (error message = Error from server: Concept not found (next char = "h", in "http://snomed.info/sct") at character 1)
 ERROR: Observation/vkp-blood-pressure-profile-create: Observation.component[3].code.coding[0]: Unable to find code 4461000202102 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20210731); The code "4461000202102" is not valid in the system http://snomed.info/sct; The code provided (http://snomed.info/sct#4461000202102) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://snomed.info/sct#4461000202102'
 == fsh-generated/resources/StructureDefinition-vkp-Observation-Bloodpressure.json ==
 == fsh-generated/resources/StructureDefinition-vkp-Observation-Oxygensat.json ==
