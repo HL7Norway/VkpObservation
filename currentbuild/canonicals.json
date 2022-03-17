@@ -28,6 +28,13 @@
     "name": "VkpSubjectIdentifiersValueSet"
   },
   {
+    "id": "vkp-Observation",
+    "type": "StructureDefinition",
+    "url": "http://hl7.no/fhir/StructureDefinition/vkp-Observation",
+    "version": "0.1.0",
+    "name": "VkpObservation"
+  },
+  {
     "id": "vkp-Observation-Bodytemp",
     "type": "StructureDefinition",
     "url": "http://hl7.no/fhir/StructureDefinition/vkp-Observation-Bodytemp",
