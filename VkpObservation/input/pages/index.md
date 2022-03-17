@@ -25,6 +25,9 @@ Information exchange defined as the scope of delivery of Observation profiles in
 |temperatur||VkpObservationBodytemp|8310-5 Body temperature|276885007 Core body temperature (observable entity)|
 |kroppsvekt||VkpObservationBodyweight|29563-7 Body weight|27113001 Body weight (observable entity)|
 
+## LOINC innspill
+
+oxygensat: https://loinc.org/59408-5/
 
 ## Scope stage 2
 
