@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>EHELSE.FHIR.NO.VKP.OBSERVATION\body-weight-create - XML Representation - FHIR v4.0.1</title>
+    <title>EHELSE.FHIR.NO.VKP.OBSERVATION\vkp-body-weight-create - XML Representation - FHIR v4.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -39,8 +39,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"2.12"}
-    h3,h4,h5,h6{--heading-prefix:"2.12"}</style>
+    <style type="text/css">h2{--heading-prefix:"2.20"}
+    h3,h4,h5,h6{--heading-prefix:"2.20"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
           <!-- Placeholder for child template header declarations -->
@@ -88,7 +88,7 @@
     <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
       <div class="container">    <!-- container -->
         <ul class="breadcrumb">
-          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>body-weight-create</b></li>
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>vkp-body-weight-create</b></li>
 
         </ul>
       </div>    <!-- /container -->
@@ -112,7 +112,7 @@
 <ul class="nav nav-tabs">
 
   <li>
-    <a href="Observation-body-weight-create.html">Narrative Content</a>
+    <a href="Observation-vkp-body-weight-create.html">Narrative Content</a>
   </li>
 
 
@@ -125,14 +125,14 @@
 
   
     <li>
-      <a href="Observation-body-weight-create.json.html">JSON</a>
+      <a href="Observation-vkp-body-weight-create.json.html">JSON</a>
     </li>
   
 
 
   
     <li>
-      <a href="Observation-body-weight-create.ttl.html">TTL</a>
+      <a href="Observation-vkp-body-weight-create.ttl.html">TTL</a>
     </li>
   
 
@@ -144,9 +144,9 @@
 <a name="root"> </a>
 
 
-<h2 id="root">: body-weight-create - XML Representation</h2>
+<h2 id="root">: vkp-body-weight-create - XML Representation</h2>
 
-<p><a href="Observation-body-weight-create.xml" no-download="true">Raw xml</a> | <a download="null" href="Observation-body-weight-create.xml">Download</a></p>
+<p><a href="Observation-vkp-body-weight-create.xml" no-download="true">Raw xml</a> | <a download="null" href="Observation-vkp-body-weight-create.xml">Download</a></p>
 
     <!-- insert intro if present -->
   
@@ -156,38 +156,28 @@
   <pre class="xml"><code class="language-xml">
 
 &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation">Observation</a> xmlns="http://hl7.org/fhir"&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="body-weight-create"/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="vkp-body-weight-create"/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.meta">meta</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.versionId">versionId</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>="0"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.lastUpdated">lastUpdated</a> <a href="http://hl7.org/fhir/R4/datatypes.html#instant">value</a>="2014-01-30T22:35:23+11:00"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.source">source</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>="META_VISION"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.versionId">versionId</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>="1"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.lastUpdated">lastUpdated</a> <a href="http://hl7.org/fhir/R4/datatypes.html#instant">value</a>="2022-03-17T22:35:23+11:00"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.source">source</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>="Thomas"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>
+             <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>="http://hl7.no/fhir/StructureDefinition/vkp-Observation-Bodyweight"/&gt;
   &lt;/meta&gt;
   &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.text">text</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="generated"/&gt;
-    &lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;p&gt;&lt;b&gt;Generated Narrative&lt;/b&gt;&lt;/p&gt;&lt;div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"&gt;&lt;p style="margin-bottom: 0px"&gt;Resource "body-weight-create" Version "0" Updated "2014-01-30 11:35:23+0000" &lt;/p&gt;&lt;p style="margin-bottom: 0px"&gt;Information Source: META_VISION!&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: id: External Id: testBWexternalId3&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: final&lt;/p&gt;&lt;p&gt;&lt;b&gt;category&lt;/b&gt;: vital-signs &lt;span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"&gt; (&lt;a href="http://terminology.hl7.org/3.1.0/CodeSystem-observation-category.html"&gt;Observation Category Codes&lt;/a&gt;#vital-signs)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: Body weight &lt;span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"&gt; (&lt;a href="https://loinc.org/"&gt;LOINC&lt;/a&gt;#29463-7)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;encounter&lt;/b&gt;: &lt;span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;effective&lt;/b&gt;: 2021-05-10&lt;/p&gt;&lt;p&gt;&lt;b&gt;performer&lt;/b&gt;: &lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.1.1&amp;amp;canonical=http://hl7.no/fhir//Organization/afa22"&gt;Organization/afa22&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: 49000 g&lt;span style="background: LightGoldenRodYellow"&gt; (Details: UCUM code g = 'g')&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;note&lt;/b&gt;: Demo Body Weight&lt;/p&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+    &lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;&lt;p&gt;&lt;b&gt;Generated Narrative&lt;/b&gt;&lt;/p&gt;&lt;div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"&gt;&lt;p style="margin-bottom: 0px"&gt;Resource "vkp-body-weight-create" Version "1" Updated "2022-03-17 11:35:23+0000" &lt;/p&gt;&lt;p style="margin-bottom: 0px"&gt;Information Source: Thomas!&lt;/p&gt;&lt;p style="margin-bottom: 0px"&gt;Profile: &lt;a href="StructureDefinition-vkp-Observation-Bodyweight.html"&gt;Vkp VitalSigns Observation - Body weight&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: id: testBWexternalId3&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: final&lt;/p&gt;&lt;p&gt;&lt;b&gt;category&lt;/b&gt;: Vital Signs &lt;span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"&gt; (&lt;a href="http://terminology.hl7.org/3.1.0/CodeSystem-observation-category.html"&gt;Observation Category Codes&lt;/a&gt;#vital-signs)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: Body weight &lt;span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"&gt; (&lt;a href="https://loinc.org/"&gt;LOINC&lt;/a&gt;#29463-7; &lt;a href="https://browser.ihtsdotools.org/"&gt;SNOMED CT&lt;/a&gt;#27113001 "Body weight (observable entity)")&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;effective&lt;/b&gt;: 2022-03-17&lt;/p&gt;&lt;p&gt;&lt;b&gt;performer&lt;/b&gt;: &lt;span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: 49000 g&lt;span style="background: LightGoldenRodYellow"&gt; (Details: UCUM code g = 'g')&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;note&lt;/b&gt;: Test Body Weight&lt;/p&gt;&lt;/div&gt;<a name="end-xhtml"></a>
   &lt;/text&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.extension">extension</a>
-             <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>="http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-clothingstateextension"&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCoding</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>="http://snomed.info/sct"/&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="1081791000202103"/&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Fullt påkledd uten sko"/&gt;
-    &lt;/valueCoding&gt;
-  &lt;/extension&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.extension">extension</a>
-             <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>="http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-confoundingfactorextension"&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="sample confounding factor"/&gt;
-  &lt;/extension&gt;
   &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.identifier">identifier</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>="http://dips.no/fhir/namingsystem/externalId"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="External Id: testBWexternalId3"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="testBWexternalId3"/&gt;
   &lt;/identifier&gt;
   &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="final"/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.category">category</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>="http://terminology.hl7.org/CodeSystem/observation-category"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="vital-signs"/&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="vital-signs"/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Vital Signs"/&gt;
     &lt;/coding&gt;
   &lt;/category&gt;
   &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.code">code</a>&gt;
@@ -196,31 +186,23 @@
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="29463-7"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Body weight"/&gt;
     &lt;/coding&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>="http://snomed.info/sct"/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="27113001"/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Body weight (observable entity)"/&gt;
+    &lt;/coding&gt;
   &lt;/code&gt;
   &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.subject">subject</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.identifier">identifier</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>="http://dips.no/fhir/namingsystem/dips-patientid"/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>="urn:oid:2.16.578.1.12.4.1.4.1"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="1000807"/&gt;
     &lt;/identifier&gt;
   &lt;/subject&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.encounter">encounter</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.identifier">identifier</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>="http://dips.no/fhir/namingsystem/dips-omsorgsepisodeid"/&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="1002679"/&gt;
-    &lt;/identifier&gt;
-  &lt;/encounter&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.effective[x]">effectiveDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2021-05-10"/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.effective[x]">effectiveDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>="2022-03-17"/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.performer">performer</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.identifier">identifier</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>="urn:oid:2.16.578.1.12.4.1.2"/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>="urn:oid:2.16.578.1.12.4.1.4.1"/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="889911"/&gt;
-    &lt;/identifier&gt;
-  &lt;/performer&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.performer">performer</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="Organization/afa22"/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.identifier">identifier</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>="urn:oid:1.3.6.1.4.1.9038.70.3"/&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>="22"/&gt;
     &lt;/identifier&gt;
   &lt;/performer&gt;
   &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.value[x]">valueQuantity</a>&gt;
@@ -230,7 +212,7 @@
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>="g"/&gt;
   &lt;/valueQuantity&gt;
   &lt;<a href="http://hl7.org/fhir/R4/observation.html#Observation.note">note</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Annotation#Annotation.text">text</a> <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>="Demo Body Weight"/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Annotation#Annotation.text">text</a> <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>="Test Body Weight"/&gt;
   &lt;/note&gt;
 &lt;/Observation&gt;</code></pre>
 
@@ -261,8 +243,8 @@
     <div class="container">    <!-- container -->
 
       <div class="inner-wrapper">
-        <p><a name="l565">​</a>
-          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="null"></a>.  Package ehelse.fhir.no.vkp.observation#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Mar 17, 2022 13:23+0000">2022-03-17</span>
+        <p><a name="l511">​</a>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="null"></a>.  Package ehelse.fhir.no.vkp.observation#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Mar 17, 2022 15:52+0000">2022-03-17</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

@@ -19,6 +19,10 @@
         "title": "Vkp VitalSigns Observation - Body temperature"
       },
       {
+        "url": "http://hl7.no/fhir/StructureDefinition/vkp-Observation-Bodyweight",
+        "title": "Vkp VitalSigns Observation - Body weight"
+      },
+      {
         "url": "http://hl7.no/fhir/StructureDefinition/vkp-Observation-Oxygensat",
         "title": "Vkp VitalSigns Observation - Oxygen saturation"
       }
@@ -53,9 +57,6 @@
       "Observation"
     ],
     "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-clinicaldescriptionextension": [
-      "Observation"
-    ],
-    "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-clothingstateextension": [
       "Observation"
     ],
     "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-confoundingfactorextension": [

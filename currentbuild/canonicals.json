@@ -42,6 +42,13 @@
     "name": "VkpObservationBodytemp"
   },
   {
+    "id": "vkp-Observation-Bodyweight",
+    "type": "StructureDefinition",
+    "url": "http://hl7.no/fhir/StructureDefinition/vkp-Observation-Bodyweight",
+    "version": "0.1.0",
+    "name": "VkpObservationBodyweight"
+  },
+  {
     "id": "vkp-Observation-Oxygensat",
     "type": "StructureDefinition",
     "url": "http://hl7.no/fhir/StructureDefinition/vkp-Observation-Oxygensat",

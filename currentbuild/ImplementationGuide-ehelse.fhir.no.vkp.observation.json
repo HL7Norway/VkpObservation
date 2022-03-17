@@ -9,7 +9,7 @@
   "version": "0.1.0",
   "name": "VkpObservation",
   "status": "draft",
-  "date": "2022-03-17T13:23:56+00:00",
+  "date": "2022-03-17T15:52:39+00:00",
   "jurisdiction": [
     {
       "coding": [
@@ -335,6 +335,20 @@
           }
         ],
         "reference": {
+          "reference": "StructureDefinition/vkp-Observation-Bodyweight"
+        },
+        "name": "Vkp VitalSigns Observation - Body weight",
+        "description": "Profile for Body weight in VKP.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
           "reference": "StructureDefinition/vkp-Observation-Oxygensat"
         },
         "name": "Vkp VitalSigns Observation - Oxygen saturation",
@@ -444,19 +458,6 @@
           }
         ],
         "reference": {
-          "reference": "Observation/body-weight-create"
-        },
-        "name": "body-weight-create",
-        "exampleBoolean": true
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Observation"
-          }
-        ],
-        "reference": {
           "reference": "Observation/heart-rate-create"
         },
         "name": "heart-rate-create",
@@ -539,6 +540,19 @@
         },
         "name": "vkp-body-temperature-create",
         "exampleCanonical": "http://hl7.no/fhir/StructureDefinition/vkp-Observation-Bodytemp"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/vkp-body-weight-create"
+        },
+        "name": "vkp-body-weight-create",
+        "exampleCanonical": "http://hl7.no/fhir/StructureDefinition/vkp-Observation-Bodyweight"
       },
       {
         "extension": [

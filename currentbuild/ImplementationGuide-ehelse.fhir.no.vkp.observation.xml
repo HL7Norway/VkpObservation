@@ -9,7 +9,7 @@
   <version value="0.1.0"/>
   <name value="VkpObservation"/>
   <status value="draft"/>
-  <date value="2022-03-17T13:23:56+00:00"/>
+  <date value="2022-03-17T15:52:39+00:00"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -216,6 +216,17 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/vkp-Observation-Bodyweight"/>
+      </reference>
+      <name value="Vkp VitalSigns Observation - Body weight"/>
+      <description value="Profile for Body weight in VKP."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/vkp-Observation-Oxygensat"/>
       </reference>
       <name value="Vkp VitalSigns Observation - Oxygen saturation"/>
@@ -301,16 +312,6 @@
         <valueString value="Observation"/>
       </extension>
       <reference>
-        <reference value="Observation/body-weight-create"/>
-      </reference>
-      <name value="body-weight-create"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
-      </extension>
-      <reference>
         <reference value="Observation/heart-rate-create"/>
       </reference>
       <name value="heart-rate-create"/>
@@ -375,6 +376,16 @@
       </reference>
       <name value="vkp-body-temperature-create"/>
       <exampleCanonical value="http://hl7.no/fhir/StructureDefinition/vkp-Observation-Bodytemp"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/vkp-body-weight-create"/>
+      </reference>
+      <name value="vkp-body-weight-create"/>
+      <exampleCanonical value="http://hl7.no/fhir/StructureDefinition/vkp-Observation-Bodyweight"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
