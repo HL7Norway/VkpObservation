@@ -3,8 +3,8 @@
 
 err = 78, warn = 49, info = 6
 IG Publisher Version: 1.1.112
-Generated Thu Mar 17 12:49:30 UTC 2022. FHIR version 4.0.1 for ehelse.fhir.no.vkp.observation#0.1.0 (canonical = http://ehelse.no/fhir)
- Build Errors : 124 / 13 / 0
+Generated Thu Mar 17 13:26:44 UTC 2022. FHIR version 4.0.1 for ehelse.fhir.no.vkp.observation#0.1.0 (canonical = http://ehelse.no/fhir)
+ Build Errors : 129 / 14 / 0
  /github/workspace/VkpObservation/fsh-generated/resources/CodeSystem-vkp-subject-identifiers.codesystem : 0 / 0 / 2
  /github/workspace/VkpObservation/fsh-generated/resources/ImplementationGuide-ehelse.fhir.no.vkp.observation : 0 / 0 / 1
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-blood-pressure-create : 18 / 5 / 2
@@ -18,8 +18,9 @@ Generated Thu Mar 17 12:49:30 UTC 2022. FHIR version 4.0.1 for ehelse.fhir.no.vk
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-blood-pressure-create : 0 / 1 / 2
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-blood-pressure-profile-create : 0 / 0 / 3
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-body-temperature-create : 1 / 1 / 1
+ /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-glucose-create : 0 / 0 / 1
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-oxygen-saturation-create : 1 / 0 / 1
- /github/workspace/VkpObservation/fsh-generated/resources/StructureDefinition-vkp-Observation : 0 / 1 / 1
+ /github/workspace/VkpObservation/fsh-generated/resources/StructureDefinition-vkp-Observation : 0 / 0 / 1
  /github/workspace/VkpObservation/fsh-generated/resources/StructureDefinition-vkp-Observation-Bloodpressure : 0 / 0 / 1
  /github/workspace/VkpObservation/fsh-generated/resources/StructureDefinition-vkp-Observation-Bodytemp : 0 / 0 / 1
  /github/workspace/VkpObservation/fsh-generated/resources/StructureDefinition-vkp-Observation-Oxygensat : 0 / 0 / 1
@@ -41,6 +42,7 @@ WARNING: Unable to find ImplementationGuide.definition.resource.description for 
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/vkp-blood-pressure-create.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/vkp-blood-pressure-profile-create.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/vkp-body-temperature-create.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/vkp-glucose-create.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/vkp-oxygen-saturation-create.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: /github/workspace/VkpObservation/output/CodeSystem-vkp-subject-identifiers.codesystem.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/VkpObservation/output/CodeSystem-vkp-subject-identifiers.codesystem.html#/html/body/div/div/div/p/a at Line 211, column 28: The link '' for "" cannot be resolved
@@ -102,6 +104,11 @@ ERROR: /github/workspace/VkpObservation/output/Observation-vkp-body-temperature-
 ERROR: /github/workspace/VkpObservation/output/Observation-vkp-body-temperature-create.json.html#/html/body/div/div/div/p/a at Line 272, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/VkpObservation/output/Observation-vkp-body-temperature-create.ttl.html#/html/body/div/div/div/p/a at Line 279, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/VkpObservation/output/Observation-vkp-body-temperature-create.xml.html#/html/body/div/div/div/p/a at Line 257, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/VkpObservation/output/Observation-vkp-glucose-create.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/VkpObservation/output/Observation-vkp-glucose-create.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/VkpObservation/output/Observation-vkp-glucose-create.json.html#/html/body/div/div/div/p/a at Line 263, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/VkpObservation/output/Observation-vkp-glucose-create.ttl.html#/html/body/div/div/div/p/a at Line 271, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/VkpObservation/output/Observation-vkp-glucose-create.xml.html#/html/body/div/div/div/p/a at Line 249, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/VkpObservation/output/Observation-vkp-oxygen-saturation-create.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/VkpObservation/output/Observation-vkp-oxygen-saturation-create.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/VkpObservation/output/Observation-vkp-oxygen-saturation-create.json.html#/html/body/div/div/div/p/a at Line 266, column 28: The link '' for "" cannot be resolved
@@ -136,14 +143,14 @@ ERROR: /github/workspace/VkpObservation/output/StructureDefinition-vkp-Observati
 ERROR: /github/workspace/VkpObservation/output/StructureDefinition-vkp-Observation-Oxygensat.profile.json.html#/html/body/div/div/div/p/a at Line 6355, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/VkpObservation/output/StructureDefinition-vkp-Observation-Oxygensat.profile.ttl.html#/html/body/div/div/div/p/a at Line 5489, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/VkpObservation/output/StructureDefinition-vkp-Observation-Oxygensat.profile.xml.html#/html/body/div/div/div/p/a at Line 5762, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/VkpObservation/output/StructureDefinition-vkp-Observation-definitions.html#/html/body/div/div/div/p/a at Line 1294, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/VkpObservation/output/StructureDefinition-vkp-Observation-examples.html#/html/body/div/div/div/p/a at Line 233, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/VkpObservation/output/StructureDefinition-vkp-Observation-mappings.html#/html/body/div/div/div/p/a at Line 467, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/VkpObservation/output/StructureDefinition-vkp-Observation.html#/html/body/div/div/div/p/a at Line 1311, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/VkpObservation/output/StructureDefinition-vkp-Observation.profile.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/VkpObservation/output/StructureDefinition-vkp-Observation.profile.json.html#/html/body/div/div/div/p/a at Line 5363, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/VkpObservation/output/StructureDefinition-vkp-Observation.profile.ttl.html#/html/body/div/div/div/p/a at Line 4641, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/VkpObservation/output/StructureDefinition-vkp-Observation.profile.xml.html#/html/body/div/div/div/p/a at Line 4884, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/VkpObservation/output/StructureDefinition-vkp-Observation-definitions.html#/html/body/div/div/div/p/a at Line 1304, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/VkpObservation/output/StructureDefinition-vkp-Observation-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/VkpObservation/output/StructureDefinition-vkp-Observation-mappings.html#/html/body/div/div/div/p/a at Line 477, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/VkpObservation/output/StructureDefinition-vkp-Observation.html#/html/body/div/div/div/p/a at Line 1321, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/VkpObservation/output/StructureDefinition-vkp-Observation.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/VkpObservation/output/StructureDefinition-vkp-Observation.profile.json.html#/html/body/div/div/div/p/a at Line 5373, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/VkpObservation/output/StructureDefinition-vkp-Observation.profile.ttl.html#/html/body/div/div/div/p/a at Line 4651, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/VkpObservation/output/StructureDefinition-vkp-Observation.profile.xml.html#/html/body/div/div/div/p/a at Line 4894, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/VkpObservation/output/ValueSet-NoDomainVitalSignsObservationBloodPressureBodySiteValueSet.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/VkpObservation/output/ValueSet-NoDomainVitalSignsObservationBloodPressureBodySiteValueSet.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 153, column 66: The link 'http://hl7.org/fhir/codesystem-standards-status.html#draft' for "Standards Status" cannot be resolved
 ERROR: /github/workspace/VkpObservation/output/ValueSet-NoDomainVitalSignsObservationBloodPressureBodySiteValueSet.html#/html/body/div/div/div/p/a at Line 250, column 28: The link '' for "" cannot be resolved
@@ -162,7 +169,7 @@ ERROR: /github/workspace/VkpObservation/output/ValueSet-vkp-subject-identifiers.
 ERROR: /github/workspace/VkpObservation/output/ValueSet-vkp-subject-identifiers.valueset.json.html#/html/body/div/div/div/p/a at Line 249, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/VkpObservation/output/ValueSet-vkp-subject-identifiers.valueset.ttl.html#/html/body/div/div/div/p/a at Line 255, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/VkpObservation/output/ValueSet-vkp-subject-identifiers.valueset.xml.html#/html/body/div/div/div/p/a at Line 236, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/VkpObservation/output/artifacts.html#/html/body/div/div/div/p/a at Line 353, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/VkpObservation/output/artifacts.html#/html/body/div/div/div/p/a at Line 359, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/VkpObservation/output/index.html#/html/body/div/div/div/p/a at Line 286, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/VkpObservation/output/toc.html#/html/body/div/div/div/p/a at Line 137, column 28: The link '' for "" cannot be resolved
 == fsh-generated/resources/CodeSystem-vkp-subject-identifiers.codesystem.json ==
@@ -292,10 +299,10 @@ INFORMATION: Observation/vkp-blood-pressure-profile-create: Observation.componen
 == fsh-generated/resources/Observation-vkp-body-temperature-create.json ==
 ERROR: Observation/vkp-body-temperature-create: Observation.performer[0].identifier.system: The value provided ('urn:oid:1.3.6.1.4.1.9038.70.3') is not in the value set 'VKP Subject Identifier systems ValueSet' (http://ehelse.no/fhir/ValueSet/vkp-subject-identifiers.valueset), and a code is required from this value set) (error message = Unknown Code http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem#urn:oid:1.3.6.1.4.1.9038.70.3 in http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem)
 WARNING: Observation/vkp-body-temperature-create: Observation.bodySite.coding[0]: The display "Endetarm" is not a valid display for the code {http://snomed.info/sct}34402009 - should be one of ['Rectum', 'Rectum structure', 'Rectum structure (body structure)', 'Rectal structure'] (from http://tx.fhir.org/r4) for 'http://snomed.info/sct#34402009'
+== fsh-generated/resources/Observation-vkp-glucose-create.json ==
 == fsh-generated/resources/Observation-vkp-oxygen-saturation-create.json ==
 ERROR: Observation/vkp-oxygen-saturation-create: Observation.performer[0].identifier.system: The value provided ('urn:oid:1.3.6.1.4.1.9038.70.3') is not in the value set 'VKP Subject Identifier systems ValueSet' (http://ehelse.no/fhir/ValueSet/vkp-subject-identifiers.valueset), and a code is required from this value set) (error message = Unknown Code http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem#urn:oid:1.3.6.1.4.1.9038.70.3 in http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem)
 == fsh-generated/resources/StructureDefinition-vkp-Observation.json ==
-WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/vkp-Observation'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-vkp-Observation-Bloodpressure.json ==
 == fsh-generated/resources/StructureDefinition-vkp-Observation-Bodytemp.json ==
 == fsh-generated/resources/StructureDefinition-vkp-Observation-Oxygensat.json ==

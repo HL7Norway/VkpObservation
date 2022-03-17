@@ -9,7 +9,7 @@
   "version": "0.1.0",
   "name": "VkpObservation",
   "status": "draft",
-  "date": "2022-03-17T12:46:44+00:00",
+  "date": "2022-03-17T13:23:56+00:00",
   "jurisdiction": [
     {
       "coding": [
@@ -539,6 +539,19 @@
         },
         "name": "vkp-body-temperature-create",
         "exampleCanonical": "http://hl7.no/fhir/StructureDefinition/vkp-Observation-Bodytemp"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/vkp-glucose-create"
+        },
+        "name": "vkp-glucose-create",
+        "exampleCanonical": "http://hl7.no/fhir/StructureDefinition/vkp-Observation"
       },
       {
         "extension": [

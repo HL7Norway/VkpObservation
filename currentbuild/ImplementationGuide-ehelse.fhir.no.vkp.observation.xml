@@ -9,7 +9,7 @@
   <version value="0.1.0"/>
   <name value="VkpObservation"/>
   <status value="draft"/>
-  <date value="2022-03-17T12:46:44+00:00"/>
+  <date value="2022-03-17T13:23:56+00:00"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -375,6 +375,16 @@
       </reference>
       <name value="vkp-body-temperature-create"/>
       <exampleCanonical value="http://hl7.no/fhir/StructureDefinition/vkp-Observation-Bodytemp"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/vkp-glucose-create"/>
+      </reference>
+      <name value="vkp-glucose-create"/>
+      <exampleCanonical value="http://hl7.no/fhir/StructureDefinition/vkp-Observation"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
