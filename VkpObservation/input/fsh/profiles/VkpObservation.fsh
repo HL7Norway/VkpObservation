@@ -1,21 +1,23 @@
-Profile: VkpObservationGlucose
+Profile: VkpObservation
 Parent: Observation
-Id: vkp-Observation-Glucose
-Title: "Vkp VitalSigns Observation - Glucose"
-Description: "Profile for glucose observation in VKP."
-* ^url = "http://hl7.no/fhir/StructureDefinition/vkp-Observation-Glucose"
+Id: vkp-Observation
+Title: "Vkp VitalSigns Observation"
+Description: "Profile general observations in VKP."
+* ^url = "http://hl7.no/fhir/StructureDefinition/vkp-Observation"
 * ^version = "0.1.0"
 * ^status = #draft
 * ^date = "2022-02-17"
-* ^purpose = "To record the Blood glucose status of an individual."
-* . ^short = "FHIR Blood glucose status Profile VKP"
+* ^purpose = "To record general Observations of an individual."
+* . ^short = "FHIR general Observations Profile VKP"
+* code.coding ^slicing.discriminator.type = #pattern
+* code.coding ^slicing.discriminator.path = "system"
+* code.coding ^slicing.rules = #open
+* code.coding ^slicing.description = "Slices for LOINC anc SCT coding of Observation.code"
 * code.coding contains
-  GLUCOSELOINC 0..* MS
-  GLUCOSESCT 0..* MS
-* code.coding[GLUCOSELOINC].system = $loinc
-* code.coding[GLUCOSELOINC].code = #15074-8
-* code.coding[GLUCOSESCT].system = $sct
-* code.coding[GLUCOSESCT].code = #431314004
+  LOINC 0..* MS and
+  SCT 0..* MS
+* code.coding[LOINC].system = $loinc
+* code.coding[SCT].system = $sct
 * subject 1.. MS
 * subject only Reference(Patient or $no-basis-Patient)
 * subject ^definition = "Reference to the patient that is subject to the encounter, identified by Norwegian national id number (Fødselsnummer or DNR).\r\n\r\nA link to a resource representing the person or the group to whom the medication will be given.\r\n\r\nVKP always references a Patient Resource using a norwegian national id number (Fødselsnummer or DNR) in a logical identifier in the subject.identifier element.\r\nThe Name of the patient should be given in the subject.display element.\r\n\r\nExample:\r\n~~~~\r\n\"subject\":{\r\n   \"identifier\":{\r\n      \"system\":\"urn:oid:2.16.578.1.12.4.1.4.1\",\r\n      \"value\":\"05073500186\"\r\n     },\r\n     \"display\":\"Ærlend Sørgård\"\r\n}\r\n~~~~"
