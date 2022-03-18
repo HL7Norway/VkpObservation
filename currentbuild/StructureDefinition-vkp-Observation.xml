@@ -45,7 +45,7 @@ Example:
     <valueCode value="patient"/>
   </extension>
   <url value="http://hl7.no/fhir/StructureDefinition/vkp-Observation"/>
-  <version value="0.1.0"/>
+  <version value="0.2.0"/>
   <name value="VkpObservation"/>
   <title value="General Vkp Observation"/>
   <status value="draft"/>

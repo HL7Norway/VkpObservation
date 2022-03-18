@@ -13,10 +13,10 @@
      fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>VkpObservation</h2><p>The official URL for this implementation guide is: </p><pre>http://ehelse.no/fhir/ImplementationGuide/ehelse.fhir.no.vkp.observation</pre></div>"
   ];
   fhir:ImplementationGuide.url [ fhir:value "http://ehelse.no/fhir/ImplementationGuide/ehelse.fhir.no.vkp.observation"];
-  fhir:ImplementationGuide.version [ fhir:value "0.1.0"];
+  fhir:ImplementationGuide.version [ fhir:value "0.2.0"];
   fhir:ImplementationGuide.name [ fhir:value "VkpObservation"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-03-18T09:46:22+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-03-18T10:16:20+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [
@@ -539,19 +539,6 @@
          fhir:Extension.valueString [ fhir:value "Observation" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://ehelse.no/fhir/Observation/vkp-blood-pressure-create>;
-         fhir:Reference.reference [ fhir:value "Observation/vkp-blood-pressure-create" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "vkp-blood-pressure-create" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
-     ], [
-       fhir:index 20;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Observation" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
          fhir:link <http://ehelse.no/fhir/Observation/vkp-blood-pressure-profile-create>;
          fhir:Reference.reference [ fhir:value "Observation/vkp-blood-pressure-profile-create" ]
        ];
@@ -561,7 +548,7 @@
          fhir:link <http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bloodpressure>
        ]
      ], [
-       fhir:index 21;
+       fhir:index 20;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -577,7 +564,7 @@
          fhir:link <http://hl7.no/fhir/StructureDefinition/vkp-Observation-Bodytemp>
        ]
      ], [
-       fhir:index 22;
+       fhir:index 21;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -593,7 +580,7 @@
          fhir:link <http://hl7.no/fhir/StructureDefinition/vkp-Observation-Bodyweight>
        ]
      ], [
-       fhir:index 23;
+       fhir:index 22;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -609,7 +596,7 @@
          fhir:link <http://hl7.no/fhir/StructureDefinition/vkp-Observation>
        ]
      ], [
-       fhir:index 24;
+       fhir:index 23;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -625,7 +612,7 @@
          fhir:link <http://hl7.no/fhir/StructureDefinition/vkp-Observation-Heartrate>
        ]
      ], [
-       fhir:index 25;
+       fhir:index 24;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];

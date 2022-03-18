@@ -1,10 +1,10 @@
 ﻿VkpObservation : Validation Results
 =========================================
 
-err = 73, warn = 49, info = 7
+err = 73, warn = 47, info = 6
 IG Publisher Version: 1.1.113
-Generated Fri Mar 18 09:49:15 UTC 2022. FHIR version 4.0.1 for ehelse.fhir.no.vkp.observation#0.1.0 (canonical = http://ehelse.no/fhir)
- Build Errors : 165 / 15 / 0
+Generated Fri Mar 18 10:19:47 UTC 2022. FHIR version 4.0.1 for ehelse.fhir.no.vkp.observation#0.2.0 (canonical = http://ehelse.no/fhir)
+ Build Errors : 160 / 14 / 0
  /github/workspace/VkpObservation/fsh-generated/resources/CodeSystem-vkp-performer-identifiers.codesystem : 0 / 0 / 2
  /github/workspace/VkpObservation/fsh-generated/resources/CodeSystem-vkp-subject-identifiers.codesystem : 0 / 0 / 2
  /github/workspace/VkpObservation/fsh-generated/resources/ImplementationGuide-ehelse.fhir.no.vkp.observation : 0 / 0 / 1
@@ -15,7 +15,6 @@ Generated Fri Mar 18 09:49:15 UTC 2022. FHIR version 4.0.1 for ehelse.fhir.no.vk
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-level-of-consciousness-create : 3 / 1 / 2
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-news2-create : 13 / 8 / 1
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-respiratory-rate-create : 16 / 7 / 1
- /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-blood-pressure-create : 0 / 1 / 2
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-blood-pressure-profile-create : 0 / 0 / 3
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-body-temperature-create : 1 / 1 / 1
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-body-weight-create : 0 / 0 / 1
@@ -43,7 +42,6 @@ WARNING: Unable to find ImplementationGuide.definition.resource.description for 
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/level-of-consciousness-create.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/news2-create.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/respiratory-rate-create.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/vkp-blood-pressure-create.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/vkp-blood-pressure-profile-create.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/vkp-body-temperature-create.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/vkp-body-weight-create.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
@@ -95,11 +93,6 @@ ERROR: /github/workspace/VkpObservation/output/Observation-respiratory-rate-crea
 ERROR: /github/workspace/VkpObservation/output/Observation-respiratory-rate-create.json.html#/html/body/div/div/div/p/a at Line 357, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/VkpObservation/output/Observation-respiratory-rate-create.ttl.html#/html/body/div/div/div/p/a at Line 348, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/VkpObservation/output/Observation-respiratory-rate-create.xml.html#/html/body/div/div/div/p/a at Line 336, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/VkpObservation/output/Observation-vkp-blood-pressure-create.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/VkpObservation/output/Observation-vkp-blood-pressure-create.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/VkpObservation/output/Observation-vkp-blood-pressure-create.json.html#/html/body/div/div/div/p/a at Line 347, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/VkpObservation/output/Observation-vkp-blood-pressure-create.ttl.html#/html/body/div/div/div/p/a at Line 337, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/VkpObservation/output/Observation-vkp-blood-pressure-create.xml.html#/html/body/div/div/div/p/a at Line 321, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/VkpObservation/output/Observation-vkp-blood-pressure-profile-create.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/VkpObservation/output/Observation-vkp-blood-pressure-profile-create.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/VkpObservation/output/Observation-vkp-blood-pressure-profile-create.json.html#/html/body/div/div/div/p/a at Line 349, column 28: The link '' for "" cannot be resolved
@@ -211,7 +204,7 @@ ERROR: /github/workspace/VkpObservation/output/ValueSet-vkp-subject-identifiers.
 ERROR: /github/workspace/VkpObservation/output/ValueSet-vkp-subject-identifiers.valueset.json.html#/html/body/div/div/div/p/a at Line 249, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/VkpObservation/output/ValueSet-vkp-subject-identifiers.valueset.ttl.html#/html/body/div/div/div/p/a at Line 255, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/VkpObservation/output/ValueSet-vkp-subject-identifiers.valueset.xml.html#/html/body/div/div/div/p/a at Line 236, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/VkpObservation/output/artifacts.html#/html/body/div/div/div/p/a at Line 401, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/VkpObservation/output/artifacts.html#/html/body/div/div/div/p/a at Line 395, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/VkpObservation/output/index.html#/html/body/div/div/div/p/a at Line 286, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/VkpObservation/output/toc.html#/html/body/div/div/div/p/a at Line 137, column 28: The link '' for "" cannot be resolved
 == fsh-generated/resources/CodeSystem-vkp-performer-identifiers.codesystem.json ==
@@ -328,9 +321,6 @@ ERROR: Observation/respiratory-rate-create: Observation.encounter: Unable to res
 ERROR: Observation/respiratory-rate-create: Observation.performer[0]: Unable to resolve resource 'Practitioner/agb27'
 ERROR: Observation/respiratory-rate-create: Observation.performer[1]: Unable to resolve resource 'Organization/afa22'
 WARNING: Observation/respiratory-rate-create: Observation.interpretation[0]: No code provided, and a code should be provided from the value set 'Observation Interpretation Codes' (http://hl7.org/fhir/ValueSet/observation-interpretation)
-== fsh-generated/resources/Observation-vkp-blood-pressure-create.json ==
-INFORMATION: Observation/vkp-blood-pressure-create: Observation.component[0].code.coding[1]: Code System URI 'http://acme.org/devices/clinical-codes' is unknown so the code cannot be validated
-WARNING: Observation/vkp-blood-pressure-create: Observation.component[2].code.coding[0]: The display "Mean arterial pressure (observable entity)" is not a valid display for the code {http://loinc.org}8478-0 - should be one of ['Mean blood pressure', 'BP mean', '一般血压' (zh-CN), '血压.原子型' (zh-CN), '血压指标.原子型 压力' (zh-CN), '压强 可用数量表示的' (zh-CN), '定量性' (zh-CN), '数值型' (zh-CN), '数量型' (zh-CN), '连续数值型标尺 时刻' (zh-CN), '随机' (zh-CN), '随意' (zh-CN), '瞬间 血管内均值 血管内的' (zh-CN), '' (zh-CN), 'Pressure' (pt-BR), 'Point in time' (pt-BR), 'Random' (pt-BR), 'Art sys' (pt-BR), 'Quantitative' (pt-BR), 'QNT' (pt-BR), 'Quant' (pt-BR), 'Quan' (pt-BR), 'Average' (pt-BR), 'Avg' (pt-BR), 'IV' (pt-BR), 'Intravenous' (pt-BR), 'BLOOD PRESSURE MEASUREMENTS.ATOM' (pt-BR), 'Blood pressure mean' (pt-BR), 'MBP' (pt-BR), 'Pressione Pressione arteriosa - atomica Punto nel tempo (episodio)' (it-IT), 'Внутрисосудистый средний Давление Количественный Точка во времени' (ru-RU), 'Момент' (ru-RU), 'Mittlerer Blutdruck' (de-AT)] (from http://tx.fhir.org/r4) for 'http://loinc.org#8478-0'
 == fsh-generated/resources/Observation-vkp-blood-pressure-profile-create.json ==
 INFORMATION: Observation/vkp-blood-pressure-profile-create: Observation.component[2]: This element does not match any known slice defined in the profile http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bloodpressure
 INFORMATION: Observation/vkp-blood-pressure-profile-create: Observation.component[3]: This element does not match any known slice defined in the profile http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bloodpressure

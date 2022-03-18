@@ -6,10 +6,10 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>VkpObservation</h2><p>The official URL for this implementation guide is: </p><pre>http://ehelse.no/fhir/ImplementationGuide/ehelse.fhir.no.vkp.observation</pre></div>"
   },
   "url": "http://ehelse.no/fhir/ImplementationGuide/ehelse.fhir.no.vkp.observation",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "name": "VkpObservation",
   "status": "draft",
-  "date": "2022-03-18T09:46:22+00:00",
+  "date": "2022-03-18T10:16:20+00:00",
   "jurisdiction": [
     {
       "coding": [
@@ -542,19 +542,6 @@
           "reference": "Observation/respiratory-rate-create"
         },
         "name": "respiratory-rate-create",
-        "exampleBoolean": true
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Observation"
-          }
-        ],
-        "reference": {
-          "reference": "Observation/vkp-blood-pressure-create"
-        },
-        "name": "vkp-blood-pressure-create",
         "exampleBoolean": true
       },
       {
