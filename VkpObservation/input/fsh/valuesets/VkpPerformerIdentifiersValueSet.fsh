@@ -1,7 +1,7 @@
 ValueSet: VkpPerfomerIdentifiersValueSet
 Id: vkp-performer-identifiers.valueset
 Title: "VKP Performer Identifier systems ValueSet"
-Description: "Identifier Systems allowed for performer identifications in Vkp Observations"
+Description: "Identifier Systems allowed for performer identification systems in Vkp Observations"
 * ^meta.lastUpdated = "2022-02-10T00:00:00+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"
