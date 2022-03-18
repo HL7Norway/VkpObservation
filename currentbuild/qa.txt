@@ -3,7 +3,7 @@
 
 err = 73, warn = 48, info = 7
 IG Publisher Version: 1.1.113
-Generated Fri Mar 18 08:19:05 UTC 2022. FHIR version 4.0.1 for ehelse.fhir.no.vkp.observation#0.1.0 (canonical = http://ehelse.no/fhir)
+Generated Fri Mar 18 08:39:53 UTC 2022. FHIR version 4.0.1 for ehelse.fhir.no.vkp.observation#0.1.0 (canonical = http://ehelse.no/fhir)
  Build Errors : 150 / 14 / 0
  /github/workspace/VkpObservation/fsh-generated/resources/CodeSystem-vkp-performer-identifiers.codesystem : 0 / 0 / 2
  /github/workspace/VkpObservation/fsh-generated/resources/CodeSystem-vkp-subject-identifiers.codesystem : 0 / 0 / 2
@@ -183,7 +183,7 @@ ERROR: /github/workspace/VkpObservation/output/ValueSet-NoDomainVitalSignsObserv
 ERROR: /github/workspace/VkpObservation/output/ValueSet-NoDomainVitalSignsObservationBloodPressureMeasurementMethodValue.xml.html#/html/body/div/div/div/p/a at Line 256, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/VkpObservation/output/ValueSet-vkp-performer-identifiers.valueset.change.history.html#/html/body/div/div/div/p/a at Line 201, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/VkpObservation/output/ValueSet-vkp-performer-identifiers.valueset.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 154, column 66: The link 'http://hl7.org/fhir/codesystem-standards-status.html#draft' for "Standards Status" cannot be resolved
-ERROR: /github/workspace/VkpObservation/output/ValueSet-vkp-performer-identifiers.valueset.html#/html/body/div/div/div/p/a at Line 248, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/VkpObservation/output/ValueSet-vkp-performer-identifiers.valueset.html#/html/body/div/div/div/p/a at Line 254, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/VkpObservation/output/ValueSet-vkp-performer-identifiers.valueset.json.html#/html/body/div/div/div/p/a at Line 249, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/VkpObservation/output/ValueSet-vkp-performer-identifiers.valueset.ttl.html#/html/body/div/div/div/p/a at Line 255, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/VkpObservation/output/ValueSet-vkp-performer-identifiers.valueset.xml.html#/html/body/div/div/div/p/a at Line 237, column 28: The link '' for "" cannot be resolved
@@ -317,7 +317,7 @@ WARNING: Observation/vkp-blood-pressure-create: Observation.component[2].code.co
 INFORMATION: Observation/vkp-blood-pressure-profile-create: Observation.component[2]: This element does not match any known slice defined in the profile http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bloodpressure
 INFORMATION: Observation/vkp-blood-pressure-profile-create: Observation.component[3]: This element does not match any known slice defined in the profile http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bloodpressure
 == fsh-generated/resources/Observation-vkp-body-temperature-create.json ==
-ERROR: Observation/vkp-body-temperature-create: Observation.performer[0].identifier.system: The value provided ('urn:oid:1.3.6.1.4.1.9038.70.3') is not in the value set 'VKP Subject Identifier systems ValueSet' (http://ehelse.no/fhir/ValueSet/vkp-subject-identifiers.valueset), and a code is required from this value set) (error message = Unknown Code http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem#urn:oid:1.3.6.1.4.1.9038.70.3 in http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem)
+ERROR: Observation/vkp-body-temperature-create: Observation.performer[0].identifier.system: The value provided ('urn:oid:1.3.6.1.4.1.9038.70.3') is not in the value set 'VKP Performer Identifier systems ValueSet' (http://ehelse.no/fhir/ValueSet/vkp-performer-identifiers.valueset), and a code is required from this value set) (error message = Unknown Code http://ehelse.no/fhir/CodeSystem/vkp-performer-identifiers.codesystem#urn:oid:1.3.6.1.4.1.9038.70.3 in http://ehelse.no/fhir/CodeSystem/vkp-performer-identifiers.codesystem)
 WARNING: Observation/vkp-body-temperature-create: Observation.bodySite.coding[0]: The display "Endetarm" is not a valid display for the code {http://snomed.info/sct}34402009 - should be one of ['Rectum', 'Rectum structure', 'Rectum structure (body structure)', 'Rectal structure'] (from http://tx.fhir.org/r4) for 'http://snomed.info/sct#34402009'
 == fsh-generated/resources/Observation-vkp-body-weight-create.json ==
 == fsh-generated/resources/Observation-vkp-glucose-create.json ==
