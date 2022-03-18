@@ -1,6 +1,6 @@
 {
 	"package-id" : "ehelse.fhir.no.vkp.observation",
-    "title" :  "Profiles for FHIR R4 Vital Signs Observation used by VKP",
+    "title" :  "Profiles for FHIR R4 Observation used by VKP",
     "canonical" : "http://ehelse.no/fhir", 
     "introduction" : "md",
     "category" : "Clinical Records",
