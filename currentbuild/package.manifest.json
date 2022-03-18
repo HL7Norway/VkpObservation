@@ -1,6 +1,6 @@
 {
   "version": "0.2.0",
   "fhirVersion": "[4.0.1]",
-  "date": "20220318101553",
+  "date": "20220318104947",
   "name": "ehelse.fhir.no.vkp.observation"
 }
