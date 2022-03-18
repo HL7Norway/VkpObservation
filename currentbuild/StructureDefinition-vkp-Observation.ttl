@@ -24,10 +24,10 @@
   fhir:StructureDefinition.url [ fhir:value "http://hl7.no/fhir/StructureDefinition/vkp-Observation"];
   fhir:StructureDefinition.version [ fhir:value "0.1.0"];
   fhir:StructureDefinition.name [ fhir:value "VkpObservation"];
-  fhir:StructureDefinition.title [ fhir:value "Vkp VitalSigns Observation"];
+  fhir:StructureDefinition.title [ fhir:value "General Vkp Observation"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
   fhir:StructureDefinition.date [ fhir:value "2022-02-17"^^xsd:date];
-  fhir:StructureDefinition.description [ fhir:value "Profile general observations in VKP."];
+  fhir:StructureDefinition.description [ fhir:value "Profile for general observations in VKP."];
   fhir:StructureDefinition.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [

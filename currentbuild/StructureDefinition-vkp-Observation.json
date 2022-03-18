@@ -18,10 +18,10 @@
   "url": "http://hl7.no/fhir/StructureDefinition/vkp-Observation",
   "version": "0.1.0",
   "name": "VkpObservation",
-  "title": "Vkp VitalSigns Observation",
+  "title": "General Vkp Observation",
   "status": "draft",
   "date": "2022-02-17",
-  "description": "Profile general observations in VKP.",
+  "description": "Profile for general observations in VKP.",
   "jurisdiction": [
     {
       "coding": [

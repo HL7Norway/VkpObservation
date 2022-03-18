@@ -9,7 +9,7 @@
   "version": "0.1.0",
   "name": "VkpObservation",
   "status": "draft",
-  "date": "2022-03-17T15:52:39+00:00",
+  "date": "2022-03-18T08:15:59+00:00",
   "jurisdiction": [
     {
       "coding": [
@@ -295,8 +295,8 @@
         "reference": {
           "reference": "StructureDefinition/vkp-Observation"
         },
-        "name": "Vkp VitalSigns Observation",
-        "description": "Profile general observations in VKP.",
+        "name": "General Vkp Observation",
+        "description": "Profile for general observations in VKP.",
         "exampleBoolean": false
       },
       {
@@ -391,6 +391,20 @@
           }
         ],
         "reference": {
+          "reference": "ValueSet/vkp-performer-identifiers.valueset"
+        },
+        "name": "VKP Performer Identifier systems ValueSet",
+        "description": "Identifier Systems allowed for performer identification systems in Vkp Observations",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
           "reference": "ValueSet/vkp-subject-identifiers.valueset"
         },
         "name": "VKP Subject Identifier systems ValueSet",
@@ -405,10 +419,24 @@
           }
         ],
         "reference": {
+          "reference": "CodeSystem/vkp-performer-identifiers.codesystem"
+        },
+        "name": "Vkp Performer Identifier Systems CodeSystem",
+        "description": "The CodeSystem contains all codes allowed for Observation.performer.system for use with VKP",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
           "reference": "CodeSystem/vkp-subject-identifiers.codesystem"
         },
         "name": "Vkp Subject Identifier Systems CodeSystem",
-        "description": "Dette kodeverket inneholder koder med lovlige koder for subject identifier til bruk i VKP",
+        "description": "The CodeSystem contains all codes allowed for Observation.subject.system, for use with VKP",
         "exampleBoolean": false
       },
       {

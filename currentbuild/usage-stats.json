@@ -12,7 +12,7 @@
       },
       {
         "url": "http://hl7.no/fhir/StructureDefinition/vkp-Observation",
-        "title": "Vkp VitalSigns Observation"
+        "title": "General Vkp Observation"
       },
       {
         "url": "http://hl7.no/fhir/StructureDefinition/vkp-Observation-Bodytemp",

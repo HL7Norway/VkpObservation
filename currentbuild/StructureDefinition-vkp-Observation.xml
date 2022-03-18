@@ -47,10 +47,10 @@ Example:
   <url value="http://hl7.no/fhir/StructureDefinition/vkp-Observation"/>
   <version value="0.1.0"/>
   <name value="VkpObservation"/>
-  <title value="Vkp VitalSigns Observation"/>
+  <title value="General Vkp Observation"/>
   <status value="draft"/>
   <date value="2022-02-17"/>
-  <description value="Profile general observations in VKP."/>
+  <description value="Profile for general observations in VKP."/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>

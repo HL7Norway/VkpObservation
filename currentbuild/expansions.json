@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "8b319cf4-e4f6-4e26-9c91-a33dde5abb61",
+  "id" : "25d263c9-60bb-49ce-8f5d-bb7f1c4c43b6",
   "meta" : {
-    "lastUpdated" : "2022-03-17T15:52:39.089+00:00"
+    "lastUpdated" : "2022-03-18T08:15:59.312+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -52,8 +52,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:a8de3291-28ae-40f5-88d2-6c3b2a87a3ca",
-        "timestamp" : "2022-03-17T15:53:08+00:00",
+        "identifier" : "urn:uuid:f501840c-6aa9-4b2e-aff4-d24202c955b9",
+        "timestamp" : "2022-03-18T08:16:36+00:00",
         "total" : 12,
         "parameter" : [{
           "name" : "excludeNested",
@@ -131,6 +131,69 @@
     }
   },
   {
+    "fullUrl" : "http://ehelse.no/fhir/ValueSet/vkp-performer-identifiers.valueset",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "vkp-performer-identifiers.valueset",
+      "meta" : {
+        "lastUpdated" : "2022-02-10T00:00:00.000+00:00",
+        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-vkp-performer-identifiers.codesystem.html\">Vkp Performer Identifier Systems CodeSystem v0.1.0 (CodeSystem)</a></p><p>All codes in this table are from the system <a href=\"CodeSystem-vkp-performer-identifiers.codesystem.html\"><code>http://ehelse.no/fhir/CodeSystem/vkp-performer-identifiers.codesystem</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ehelse.no-fhir-CodeSystem-vkp-performer-identifiers.codesystem-urn-oid-2.16.578.1.12.4.1.4.1\"> </a>  <a href=\"CodeSystem-vkp-performer-identifiers.codesystem.html#vkp-performer-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.461\">urn:oid:2.16.578.1.12.4.1.4.1</a></td><td>FNR</td><td>Fødselsnummer</td></tr></table></div>"
+      },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode" : "draft"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger" : 1
+      }],
+      "url" : "http://ehelse.no/fhir/ValueSet/vkp-performer-identifiers.valueset",
+      "version" : "0.1.0",
+      "name" : "VkpPerfomerIdentifiersValueSet",
+      "title" : "VKP Performer Identifier systems ValueSet",
+      "status" : "draft",
+      "experimental" : false,
+      "date" : "2021-03-17T00:00:00+00:00",
+      "publisher" : "Direktoratet for e-helse",
+      "contact" : [{
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://ehelse.no/"
+        }]
+      }],
+      "description" : "Identifier Systems allowed for performer identification systems in Vkp Observations",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "NO",
+          "display" : "Norway"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:252a8caf-77e4-46f6-9799-9b39462be156",
+        "timestamp" : "2022-03-18T08:16:37+00:00",
+        "total" : 1,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://ehelse.no/fhir/CodeSystem/vkp-performer-identifiers.codesystem|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://ehelse.no/fhir/CodeSystem/vkp-performer-identifiers.codesystem",
+          "code" : "urn:oid:2.16.578.1.12.4.1.4.1",
+          "display" : "FNR"
+        }]
+      }
+    }
+  },
+  {
     "fullUrl" : "http://ehelse.no/fhir/ValueSet/vkp-subject-identifiers.valueset",
     "resource" : {
       "resourceType" : "ValueSet",
@@ -174,8 +237,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:51235a9f-2142-4a11-a261-cb58e6a3bfee",
-        "timestamp" : "2022-03-17T15:53:08+00:00",
+        "identifier" : "urn:uuid:bceef7b7-e206-45ee-b90a-600afb789766",
+        "timestamp" : "2022-03-18T08:16:37+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
