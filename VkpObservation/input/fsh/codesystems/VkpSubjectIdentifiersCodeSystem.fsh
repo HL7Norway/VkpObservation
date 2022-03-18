@@ -1,7 +1,7 @@
 CodeSystem: VkpSubjectIdentifiersCodeSystem
 Id: vkp-subject-identifiers.codesystem
 Title: "Vkp Subject Identifier Systems CodeSystem"
-Description: "Dette kodeverket inneholder koder med lovlige koder for subject identifier til bruk i VKP"
+Description: "The CodeSystem contains all codes allowed for Observation.subject.system, for use with VKP"
 * ^url = "http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem"
 * ^status = #draft
 * ^date = "2022-02-10"
