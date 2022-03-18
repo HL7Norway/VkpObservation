@@ -19,7 +19,7 @@
   fhir:CodeSystem.status [ fhir:value "draft"];
   fhir:CodeSystem.date [ fhir:value "2022-02-10"^^xsd:date];
   fhir:CodeSystem.publisher [ fhir:value "Direktoratet for e-helse"];
-  fhir:CodeSystem.description [ fhir:value "The CodeSystem contains all codes allowed for Observation.subject.system, for use with VKP"];
+  fhir:CodeSystem.description [ fhir:value "Dette kodeverket inneholder koder med lovlige koder for subject identifier til bruk i VKP"];
   fhir:CodeSystem.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [

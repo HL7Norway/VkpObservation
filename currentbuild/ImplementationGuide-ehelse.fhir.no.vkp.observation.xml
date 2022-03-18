@@ -9,7 +9,7 @@
   <version value="0.1.0"/>
   <name value="VkpObservation"/>
   <status value="draft"/>
-  <date value="2022-03-18T08:37:04+00:00"/>
+  <date value="2022-03-18T09:20:52+00:00"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -185,8 +185,8 @@
       <reference>
         <reference value="StructureDefinition/vkp-Observation"/>
       </reference>
-      <name value="General Vkp Observation"/>
-      <description value="Profile for general observations in VKP."/>
+      <name value="Vkp VitalSigns Observation"/>
+      <description value="Profile general observations in VKP."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -227,6 +227,17 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/vkp-Observation-Heartrate"/>
+      </reference>
+      <name value="Vkp VitalSigns Observation - Heart rate"/>
+      <description value="Profile for heart rate in VKP."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/vkp-Observation-Oxygensat"/>
       </reference>
       <name value="Vkp VitalSigns Observation - Oxygen saturation"/>
@@ -260,17 +271,6 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/vkp-performer-identifiers.valueset"/>
-      </reference>
-      <name value="VKP Performer Identifier systems ValueSet"/>
-      <description value="Identifier Systems allowed for performer identification systems in Vkp Observations"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
         <reference value="ValueSet/vkp-subject-identifiers.valueset"/>
       </reference>
       <name value="VKP Subject Identifier systems ValueSet"/>
@@ -282,21 +282,10 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/vkp-performer-identifiers.codesystem"/>
-      </reference>
-      <name value="Vkp Performer Identifier Systems CodeSystem"/>
-      <description value="The CodeSystem contains all codes allowed for Observation.performer.system for use with VKP"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
         <reference value="CodeSystem/vkp-subject-identifiers.codesystem"/>
       </reference>
       <name value="Vkp Subject Identifier Systems CodeSystem"/>
-      <description value="The CodeSystem contains all codes allowed for Observation.subject.system, for use with VKP"/>
+      <description value="Dette kodeverket inneholder koder med lovlige koder for subject identifier til bruk i VKP"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -418,6 +407,16 @@
       </reference>
       <name value="vkp-glucose-create"/>
       <exampleCanonical value="http://hl7.no/fhir/StructureDefinition/vkp-Observation"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/vkp-heartrate-create"/>
+      </reference>
+      <name value="vkp-heartrate-create"/>
+      <exampleCanonical value="http://hl7.no/fhir/StructureDefinition/vkp-Observation-Heartrate"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

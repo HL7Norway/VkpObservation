@@ -12,7 +12,7 @@
       },
       {
         "url": "http://hl7.no/fhir/StructureDefinition/vkp-Observation",
-        "title": "General Vkp Observation"
+        "title": "Vkp VitalSigns Observation"
       },
       {
         "url": "http://hl7.no/fhir/StructureDefinition/vkp-Observation-Bodytemp",
@@ -21,6 +21,10 @@
       {
         "url": "http://hl7.no/fhir/StructureDefinition/vkp-Observation-Bodyweight",
         "title": "Vkp VitalSigns Observation - Body weight"
+      },
+      {
+        "url": "http://hl7.no/fhir/StructureDefinition/vkp-Observation-Heartrate",
+        "title": "Vkp VitalSigns Observation - Heart rate"
       },
       {
         "url": "http://hl7.no/fhir/StructureDefinition/vkp-Observation-Oxygensat",

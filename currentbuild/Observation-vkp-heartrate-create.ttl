@@ -1,0 +1,89 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <http://loinc.org/rdf#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://ehelse.no/fhir/Observation/vkp-heartrate-create> a fhir:Observation;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "vkp-heartrate-create"];
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "0" ];
+     fhir:Meta.lastUpdated [ fhir:value "2022-03-18T22:35:23+11:00"^^xsd:dateTime ];
+     fhir:Meta.source [ fhir:value "Thomas" ];
+     fhir:Meta.profile [
+       fhir:value "http://hl7.no/fhir/StructureDefinition/vkp-Observation-Heartrate";
+       fhir:index 0;
+       fhir:link <http://hl7.no/fhir/StructureDefinition/vkp-Observation-Heartrate>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"vkp-heartrate-create\" Version \"0\" Updated \"2022-03-18 11:35:23+0000\" </p><p style=\"margin-bottom: 0px\">Information Source: Thomas!</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-vkp-Observation-Heartrate.html\">Vkp VitalSigns Observation - Heart rate</a></p></div><p><b>identifier</b>: id: testheartrateexternalId4</p><p><b>status</b>: final</p><p><b>category</b>: Vital Signs <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#vital-signs)</span></p><p><b>code</b>: Heartrate <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#8867-4 \"Heart rate\"; <a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#364075005 \"Heart Rate\")</span></p><p><b>subject</b>: <span></span></p><p><b>effective</b>: 2022-03-16</p><p><b>performer</b>: <span></span></p><p><b>value</b>: 50 /min<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code /min = '/min')</span></p><p><b>note</b>: Demo Heartrate</p></div>"
+  ];
+  fhir:Observation.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "http://dips.no/fhir/namingsystem/externalId" ];
+     fhir:Identifier.value [ fhir:value "testheartrateexternalId4" ]
+  ];
+  fhir:Observation.status [ fhir:value "final"];
+  fhir:Observation.category [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/observation-category" ];
+       fhir:Coding.code [ fhir:value "vital-signs" ];
+       fhir:Coding.display [ fhir:value "Vital Signs" ]
+     ]
+  ];
+  fhir:Observation.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a loinc:8867-4;
+       fhir:Coding.system [ fhir:value "http://loinc.org" ];
+       fhir:Coding.code [ fhir:value "8867-4" ];
+       fhir:Coding.display [ fhir:value "Heart rate" ]
+     ], [
+       fhir:index 1;
+       a sct:364075005;
+       fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:Coding.code [ fhir:value "364075005" ];
+       fhir:Coding.display [ fhir:value "Heart Rate" ]
+     ];
+     fhir:CodeableConcept.text [ fhir:value "Heartrate" ]
+  ];
+  fhir:Observation.subject [
+     fhir:Reference.identifier [
+       fhir:Identifier.system [ fhir:value "urn:oid:2.16.578.1.12.4.1.4.1" ];
+       fhir:Identifier.value [ fhir:value "1000239" ]
+     ]
+  ];
+  fhir:Observation.effectiveDateTime [ fhir:value "2022-03-16"^^xsd:date];
+  fhir:Observation.performer [
+     fhir:index 0;
+     fhir:Reference.identifier [
+       fhir:Identifier.system [ fhir:value "urn:oid:2.16.578.1.12.4.1.4.1" ];
+       fhir:Identifier.value [ fhir:value "889911" ]
+     ]
+  ];
+  fhir:Observation.valueQuantity [
+     fhir:Quantity.value [ fhir:value "50"^^xsd:decimal ];
+     fhir:Quantity.unit [ fhir:value "/min" ];
+     fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ];
+     fhir:Quantity.code [ fhir:value "/min" ]
+  ];
+  fhir:Observation.note [
+     fhir:index 0;
+     fhir:Annotation.text [ fhir:value "Demo Heartrate" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://ehelse.no/fhir/Observation/vkp-heartrate-create.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

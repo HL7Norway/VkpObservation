@@ -12,7 +12,7 @@
   <status value="draft"/>
   <date value="2022-02-10"/>
   <publisher value="Direktoratet for e-helse"/>
-  <description value="The CodeSystem contains all codes allowed for Observation.subject.system, for use with VKP"/>
+  <description value="Dette kodeverket inneholder koder med lovlige koder for subject identifier til bruk i VKP"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>

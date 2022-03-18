@@ -12,7 +12,7 @@
   "status": "draft",
   "date": "2022-02-10",
   "publisher": "Direktoratet for e-helse",
-  "description": "The CodeSystem contains all codes allowed for Observation.subject.system, for use with VKP",
+  "description": "Dette kodeverket inneholder koder med lovlige koder for subject identifier til bruk i VKP",
   "jurisdiction": [
     {
       "coding": [
