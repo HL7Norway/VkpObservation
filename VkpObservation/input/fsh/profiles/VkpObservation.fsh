@@ -1,8 +1,8 @@
 Profile: VkpObservation
 Parent: Observation
 Id: vkp-Observation
-Title: "Vkp VitalSigns Observation"
-Description: "Profile general observations in VKP."
+Title: "General Vkp Observation"
+Description: "Profile for general observations in VKP."
 * ^url = "http://hl7.no/fhir/StructureDefinition/vkp-Observation"
 * ^version = "0.1.0"
 * ^status = #draft
