@@ -1,4 +1,4 @@
-name: VkpObservation-gh-pages
+name: VkpObservation-gh-pages-wpackage
 
 on:
   workflow_dispatch:
