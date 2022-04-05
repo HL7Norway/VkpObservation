@@ -2,7 +2,7 @@
   "resourceType": "ValueSet",
   "id": "NoDomainVitalSignsObservationBloodPressureMeasurementMethodValue",
   "meta": {
-    "lastUpdated": "2021-03-17T11:28:17.239+00:00",
+    "lastUpdated": "2021-03-17T13:28:17.239+02:00",
     "profile": [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
     ]
@@ -26,7 +26,7 @@
     }
   ],
   "url": "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-measurementmethodvalueSet",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "name": "NoDomainVitalSignsObservationBloodPressureMeasurementMethodValueSet",
   "status": "draft",
   "experimental": false,

@@ -6,10 +6,10 @@
     <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>VkpObservation</h2><p>The official URL for this implementation guide is: </p><pre>http://ehelse.no/fhir/ImplementationGuide/ehelse.fhir.no.vkp.observation</pre></div>
   </text>
   <url value="http://ehelse.no/fhir/ImplementationGuide/ehelse.fhir.no.vkp.observation"/>
-  <version value="0.2.0"/>
+  <version value="0.2.1"/>
   <name value="VkpObservation"/>
   <status value="draft"/>
-  <date value="2022-03-18T10:50:15+00:00"/>
+  <date value="2022-04-05T13:08:47+00:00"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>

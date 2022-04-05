@@ -2,7 +2,7 @@
   "resourceType": "ValueSet",
   "id": "vkp-subject-identifiers.valueset",
   "meta": {
-    "lastUpdated": "2022-02-10T00:00:00.000+00:00",
+    "lastUpdated": "2022-02-10T00:00:00+00:00",
     "profile": [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
     ]
@@ -22,7 +22,7 @@
     }
   ],
   "url": "http://ehelse.no/fhir/ValueSet/vkp-subject-identifiers.valueset",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "name": "VkpSubjectIdentifiersValueSet",
   "title": "VKP Subject Identifier systems ValueSet",
   "status": "draft",

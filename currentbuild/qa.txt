@@ -1,9 +1,9 @@
 ﻿VkpObservation : Validation Results
 =========================================
 
-err = 73, warn = 47, info = 6
-IG Publisher Version: 1.1.113
-Generated Fri Mar 18 10:53:08 UTC 2022. FHIR version 4.0.1 for ehelse.fhir.no.vkp.observation#0.2.0 (canonical = http://ehelse.no/fhir)
+err = 73, warn = 48, info = 6
+IG Publisher Version: 1.1.114
+Generated Tue Apr 05 13:11:56 UTC 2022. FHIR version 4.0.1 for ehelse.fhir.no.vkp.observation#0.2.1 (canonical = http://ehelse.no/fhir)
  Build Errors : 160 / 14 / 0
  /github/workspace/VkpObservation/fsh-generated/resources/CodeSystem-vkp-performer-identifiers.codesystem : 0 / 0 / 2
  /github/workspace/VkpObservation/fsh-generated/resources/CodeSystem-vkp-subject-identifiers.codesystem : 0 / 0 / 2
@@ -18,7 +18,7 @@ Generated Fri Mar 18 10:53:08 UTC 2022. FHIR version 4.0.1 for ehelse.fhir.no.vk
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-blood-pressure-profile-create : 0 / 0 / 3
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-body-temperature-create : 1 / 1 / 1
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-body-weight-create : 0 / 0 / 1
- /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-glucose-create : 0 / 0 / 1
+ /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-glucose-create : 0 / 1 / 1
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-heartrate-create : 0 / 0 / 1
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-oxygen-saturation-create : 0 / 0 / 1
  /github/workspace/VkpObservation/fsh-generated/resources/StructureDefinition-vkp-Observation : 0 / 0 / 1
@@ -205,7 +205,7 @@ ERROR: /github/workspace/VkpObservation/output/ValueSet-vkp-subject-identifiers.
 ERROR: /github/workspace/VkpObservation/output/ValueSet-vkp-subject-identifiers.valueset.ttl.html#/html/body/div/div/div/p/a at Line 255, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/VkpObservation/output/ValueSet-vkp-subject-identifiers.valueset.xml.html#/html/body/div/div/div/p/a at Line 236, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/VkpObservation/output/artifacts.html#/html/body/div/div/div/p/a at Line 395, column 28: The link '' for "" cannot be resolved
-ERROR: /github/workspace/VkpObservation/output/index.html#/html/body/div/div/div/p/a at Line 286, column 28: The link '' for "" cannot be resolved
+ERROR: /github/workspace/VkpObservation/output/index.html#/html/body/div/div/div/p/a at Line 295, column 28: The link '' for "" cannot be resolved
 ERROR: /github/workspace/VkpObservation/output/toc.html#/html/body/div/div/div/p/a at Line 137, column 28: The link '' for "" cannot be resolved
 == fsh-generated/resources/CodeSystem-vkp-performer-identifiers.codesystem.json ==
 INFORMATION: CodeSystem/vkp-performer-identifiers.codesystem: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
@@ -329,6 +329,7 @@ ERROR: Observation/vkp-body-temperature-create: Observation.performer[0].identif
 WARNING: Observation/vkp-body-temperature-create: Observation.bodySite.coding[0]: The display "Endetarm" is not a valid display for the code {http://snomed.info/sct}34402009 - should be one of ['Rectum', 'Rectum structure', 'Rectum structure (body structure)', 'Rectal structure'] (from http://tx.fhir.org/r4) for 'http://snomed.info/sct#34402009'
 == fsh-generated/resources/Observation-vkp-body-weight-create.json ==
 == fsh-generated/resources/Observation-vkp-glucose-create.json ==
+WARNING: Observation/vkp-glucose-create: Observation.code.coding[1]: The display "Blood glucose concentration (observable entity)|" is not a valid display for the code {http://snomed.info/sct}434912009 - should be one of ['Blood glucose concentration', 'Blood glucose concentration (observable entity)'] (from http://tx.fhir.org/r4) for 'http://snomed.info/sct#434912009'
 == fsh-generated/resources/Observation-vkp-heartrate-create.json ==
 == fsh-generated/resources/Observation-vkp-oxygen-saturation-create.json ==
 == fsh-generated/resources/StructureDefinition-vkp-Observation.json ==

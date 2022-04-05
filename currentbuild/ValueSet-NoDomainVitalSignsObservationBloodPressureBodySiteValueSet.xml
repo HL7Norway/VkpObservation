@@ -3,7 +3,7 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="NoDomainVitalSignsObservationBloodPressureBodySiteValueSet"/>
   <meta>
-    <lastUpdated value="2021-03-17T00:00:00.000+00:00"/>
+    <lastUpdated value="2021-03-17T00:00:00+00:00"/>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
   </meta>
   <text>
@@ -19,7 +19,7 @@
     <valueInteger value="1"/>
   </extension>
   <url value="http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodysitevalueset"/>
-  <version value="0.2.0"/>
+  <version value="0.2.1"/>
   <name value="NoDomainVitalSignsObservationBloodPressureBodySiteValueSet"/>
   <status value="draft"/>
   <experimental value="false"/>

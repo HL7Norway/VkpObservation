@@ -3,7 +3,7 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="vkp-subject-identifiers.valueset"/>
   <meta>
-    <lastUpdated value="2022-02-10T00:00:00.000+00:00"/>
+    <lastUpdated value="2022-02-10T00:00:00+00:00"/>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
   </meta>
   <text>
@@ -16,7 +16,7 @@
     <valueInteger value="1"/>
   </extension>
   <url value="http://ehelse.no/fhir/ValueSet/vkp-subject-identifiers.valueset"/>
-  <version value="0.2.0"/>
+  <version value="0.2.1"/>
   <name value="VkpSubjectIdentifiersValueSet"/>
   <title value="VKP Subject Identifier systems ValueSet"/>
   <status value="draft"/>
