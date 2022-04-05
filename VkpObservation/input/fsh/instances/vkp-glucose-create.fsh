@@ -10,7 +10,7 @@ Usage: #example
 * category = $observation-category#vital-signs "Vital Signs"
 * category.text = "Vital Signs"
 * code.coding[0] = $loinc#15074-8 "Glucose [Moles/volume] in Blood"
-* code.coding[1] = $sct#405176005 "Blood glucose status (observable entity)"
+* code.coding[1] = $sct#434912009 "Blood glucose concentration (observable entity)|"
 * subject.identifier.system = "urn:oid:2.16.578.1.12.4.1.4.1"
 * subject.identifier.value = "1000239"
 * effectiveDateTime = "2022-03-17"
