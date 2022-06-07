@@ -21,7 +21,7 @@ Information exchange defined as the scope of delivery of Observation profiles in
 ||blodtrykk (systolisk)|(component)|8480-6 Systolic blood-pressure|271649006 Systolic blood pressure (observable entity)|
 ||blodtrykk (diastolisk)|(component)|8462-4 Diastolic blood-pressure|271650006 Diastolic blood pressure (observable entity)|
 |oksygenmetning||VkpObservationOxygensat|2708-6 Oxygen saturation in arterial blood|431314004 Peripheral oxygen saturation (observable entity)|
-|blodsukker||VkpObservation|15074-8 Glucose [Moles/volume] in Blood|434912009 Blood glucose concentration: 370134009 Time aspect=123029007 Single point in time,370132008 Scale type=258813002 mmol/L|NPU02187 B—Glucose; subst.c. = ? mmol/L|
+|blodsukker||VkpObservation|15074-8 Glucose [Moles/volume] in Blood|434912009 Blood glucose concentration|NPU02187 B—Glucose; subst.c. = ? mmol/L|
 |temperatur||VkpObservationBodytemp|8310-5 Body temperature|276885007 Core body temperature (observable entity)|
 |kroppsvekt||VkpObservationBodyweight|29563-7 Body weight|27113001 Body weight (observable entity)|
 
