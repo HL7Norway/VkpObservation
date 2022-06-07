@@ -26,7 +26,7 @@
     }
   ],
   "url": "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-measurementmethodvalueSet",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "name": "NoDomainVitalSignsObservationBloodPressureMeasurementMethodValueSet",
   "status": "draft",
   "experimental": false,

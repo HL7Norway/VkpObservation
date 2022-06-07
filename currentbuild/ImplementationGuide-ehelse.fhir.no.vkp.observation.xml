@@ -6,10 +6,10 @@
     <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>VkpObservation</h2><p>The official URL for this implementation guide is: </p><pre>http://ehelse.no/fhir/ImplementationGuide/ehelse.fhir.no.vkp.observation</pre></div>
   </text>
   <url value="http://ehelse.no/fhir/ImplementationGuide/ehelse.fhir.no.vkp.observation"/>
-  <version value="0.2.1"/>
+  <version value="0.2.2"/>
   <name value="VkpObservation"/>
   <status value="draft"/>
-  <date value="2022-04-05T13:08:47+00:00"/>
+  <date value="2022-06-07T08:18:33+00:00"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -20,6 +20,11 @@
   <packageId value="ehelse.fhir.no.vkp.observation"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
+  <dependsOn id="hl7tx">
+    <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
+    <packageId value="hl7.terminology.r4"/>
+    <version value="3.1.0"/>
+  </dependsOn>
   <dependsOn id="hl7_fhir_no_basis">
     <uri value="http://hl7.no/fhir/"/>
     <packageId value="hl7.fhir.no.basis"/>

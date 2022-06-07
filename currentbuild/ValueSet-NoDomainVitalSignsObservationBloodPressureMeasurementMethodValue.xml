@@ -19,7 +19,7 @@
     <valueInteger value="1"/>
   </extension>
   <url value="http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-measurementmethodvalueSet"/>
-  <version value="0.2.1"/>
+  <version value="0.2.2"/>
   <name value="NoDomainVitalSignsObservationBloodPressureMeasurementMethodValueSet"/>
   <status value="draft"/>
   <experimental value="false"/>
