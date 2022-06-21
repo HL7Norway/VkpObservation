@@ -1,13 +1,19 @@
 # Vkp Observation profiles
 
 Profiles for use in Vkp.
-Scope of use is Personal connected health and care domain.
+Scope of use is Personal connected health and care domain to exchange simple medical observations (mostly vital-signs) for patients receiving care services at home. The profiles should be suitable for exchgange between many different kind of client systems owned by different actors providing care to the patient, including:
+
+* Municipality services
+* Hospital
+* General Practitioner
+
+
 
 Based on FHIR VitalSigns where appropriate.
 
 ## Interoperability methods
 
-The interactions from client to receiver.  
+The interactions from client to server.  
 * FHIR RESTful API 
 
 ## Scope stage 1
