@@ -22,3 +22,6 @@ dependencies:
 menu:
   Home: index.html
   Artifacts: artifacts.html
+  
+parameters:
+  show-inherited-invariants: false
