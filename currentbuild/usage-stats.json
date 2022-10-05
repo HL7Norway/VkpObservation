@@ -1,6 +1,6 @@
 {
   "package": "ehelse.fhir.no.vkp.observation",
-  "version": "0.2.2",
+  "version": "0.2.1",
   "fhirVersion": "4.0.1",
   "jurisdiction": "NO",
   "extensions": [],
@@ -141,6 +141,10 @@
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg": [
       "ValueSet"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name": [
+      "ImplementationGuide.definition.page",
+      "ImplementationGuide.definition.page.page"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
       "ImplementationGuide.definition"

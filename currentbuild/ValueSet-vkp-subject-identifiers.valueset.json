@@ -22,7 +22,7 @@
     }
   ],
   "url": "http://ehelse.no/fhir/ValueSet/vkp-subject-identifiers.valueset",
-  "version": "0.2.2",
+  "version": "0.2.1",
   "name": "VkpSubjectIdentifiersValueSet",
   "title": "VKP Subject Identifier systems ValueSet",
   "status": "draft",

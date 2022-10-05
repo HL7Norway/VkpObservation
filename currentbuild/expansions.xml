@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="35d811e4-8d57-47e0-bab9-0c714a275947"/>
+  <id value="c770fcf4-9469-4b0e-9db5-1a23f47de21e"/>
   <meta>
-    <lastUpdated value="2022-06-07T09:36:35.894+00:00"/>
+    <lastUpdated value="2022-10-05T06:20:52.705+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -19,16 +19,14 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 12 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Mar 2022</p>
-            <p>All codes in this table are from the system 
-              <a href="http://hl7.org/fhir/R4/codesystem-snomedct.html">
-                <code>http://snomed.info/sct</code>
-              </a>
-            </p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jul 2022</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
                   <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
                 </td>
                 <td>
                   <b>Display</b>
@@ -39,6 +37,7 @@
                   <a name="http---snomed.info-sct-368209003"> </a>  
                   <a href="http://snomed.info/id/368209003">368209003</a>
                 </td>
+                <td>http://snomed.info/sct</td>
                 <td>Overarm, høyre</td>
               </tr>
               <tr>
@@ -46,6 +45,7 @@
                   <a name="http---snomed.info-sct-368208006"> </a>  
                   <a href="http://snomed.info/id/368208006">368208006</a>
                 </td>
+                <td>http://snomed.info/sct</td>
                 <td>Overarm, venstre</td>
               </tr>
               <tr>
@@ -53,6 +53,7 @@
                   <a name="http---snomed.info-sct-11207009"> </a>  
                   <a href="http://snomed.info/id/11207009">11207009</a>
                 </td>
+                <td>http://snomed.info/sct</td>
                 <td>Lår, høyre</td>
               </tr>
               <tr>
@@ -60,6 +61,7 @@
                   <a name="http---snomed.info-sct-61396006"> </a>  
                   <a href="http://snomed.info/id/61396006">61396006</a>
                 </td>
+                <td>http://snomed.info/sct</td>
                 <td>Lår, venstre</td>
               </tr>
               <tr>
@@ -67,6 +69,7 @@
                   <a name="http---snomed.info-sct-9736006"> </a>  
                   <a href="http://snomed.info/id/9736006">9736006</a>
                 </td>
+                <td>http://snomed.info/sct</td>
                 <td>Håndledd, høyre</td>
               </tr>
               <tr>
@@ -74,6 +77,7 @@
                   <a name="http---snomed.info-sct-5951000"> </a>  
                   <a href="http://snomed.info/id/5951000">5951000</a>
                 </td>
+                <td>http://snomed.info/sct</td>
                 <td>Håndledd, venstre</td>
               </tr>
               <tr>
@@ -81,6 +85,7 @@
                   <a name="http---snomed.info-sct-6685009"> </a>  
                   <a href="http://snomed.info/id/6685009">6685009</a>
                 </td>
+                <td>http://snomed.info/sct</td>
                 <td>Ankel, høyre</td>
               </tr>
               <tr>
@@ -88,6 +93,7 @@
                   <a name="http---snomed.info-sct-51636004"> </a>  
                   <a href="http://snomed.info/id/51636004">51636004</a>
                 </td>
+                <td>http://snomed.info/sct</td>
                 <td>Ankel, venstre</td>
               </tr>
               <tr>
@@ -95,6 +101,7 @@
                   <a name="http---snomed.info-sct-7569003"> </a>  
                   <a href="http://snomed.info/id/7569003">7569003</a>
                 </td>
+                <td>http://snomed.info/sct</td>
                 <td>Finger</td>
               </tr>
               <tr>
@@ -102,6 +109,7 @@
                   <a name="http---snomed.info-sct-29707007"> </a>  
                   <a href="http://snomed.info/id/29707007">29707007</a>
                 </td>
+                <td>http://snomed.info/sct</td>
                 <td>Tå</td>
               </tr>
               <tr>
@@ -109,6 +117,7 @@
                   <a name="http---snomed.info-sct-2402003"> </a>  
                   <a href="http://snomed.info/id/2402003">2402003</a>
                 </td>
+                <td>http://snomed.info/sct</td>
                 <td>Fotrygg</td>
               </tr>
               <tr>
@@ -116,6 +125,7 @@
                   <a name="http---snomed.info-sct-51114001"> </a>  
                   <a href="http://snomed.info/id/51114001">51114001</a>
                 </td>
+                <td>http://snomed.info/sct</td>
                 <td>Intra-arterielt</td>
               </tr>
             </table>
@@ -131,7 +141,7 @@
           <valueInteger value="1"/>
         </extension>
         <url value="http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodysitevalueset"/>
-        <version value="0.2.2"/>
+        <version value="0.2.1"/>
         <name value="NoDomainVitalSignsObservationBloodPressureBodySiteValueSet"/>
         <status value="draft"/>
         <experimental value="false"/>
@@ -152,8 +162,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:c845b1b5-7e74-46f6-8f2d-0a00c71159d8"/>
-          <timestamp value="2022-06-07T09:37:01+00:00"/>
+          <identifier value="urn:uuid:a4ef1cb4-9d47-49b9-93b9-5c660ccf544b"/>
+          <timestamp value="2022-10-05T06:21:41+00:00"/>
           <total value="12"/>
           <parameter>
             <name value="excludeNested"/>
@@ -165,7 +175,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220331"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"/>
           </parameter>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -245,17 +255,15 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 1 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-vkp-performer-identifiers.codesystem.html">Vkp Performer Identifier Systems CodeSystem v0.2.2 (CodeSystem)</a>
-            </p>
-            <p>All codes in this table are from the system 
-              <a href="CodeSystem-vkp-performer-identifiers.codesystem.html">
-                <code>http://ehelse.no/fhir/CodeSystem/vkp-performer-identifiers.codesystem</code>
-              </a>
+              <a href="CodeSystem-vkp-performer-identifiers.codesystem.html">Vkp Performer Identifier Systems CodeSystem v0.2.1 (CodeSystem)</a>
             </p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
                   <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
                 </td>
                 <td>
                   <b>Display</b>
@@ -269,8 +277,14 @@
                   <a name="http---ehelse.no-fhir-CodeSystem-vkp-performer-identifiers.codesystem-urn-oid-2.16.578.1.12.4.1.4.1"> </a>  
                   <a href="CodeSystem-vkp-performer-identifiers.codesystem.html#vkp-performer-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.461">urn:oid:2.16.578.1.12.4.1.4.1</a>
                 </td>
+                <td>http://ehelse.no/fhir/CodeSystem/vkp-performer-identifiers.codesystem</td>
                 <td>FNR</td>
-                <td>Fødselsnummer</td>
+                <td>
+                  <div>
+                    <p>Fødselsnummer</p>
+
+                  </div>
+                </td>
               </tr>
             </table>
           </div>
@@ -282,7 +296,7 @@
           <valueInteger value="1"/>
         </extension>
         <url value="http://ehelse.no/fhir/ValueSet/vkp-performer-identifiers.valueset"/>
-        <version value="0.2.2"/>
+        <version value="0.2.1"/>
         <name value="VkpPerfomerIdentifiersValueSet"/>
         <title value="VKP Performer Identifier systems ValueSet"/>
         <status value="draft"/>
@@ -304,8 +318,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:84427597-18fe-440d-a53e-204c11fb43ff"/>
-          <timestamp value="2022-06-07T09:37:01+00:00"/>
+          <identifier value="urn:uuid:26389e51-a4d5-4513-89e2-a228e61dd61c"/>
+          <timestamp value="2022-10-05T06:21:43+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -313,7 +327,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://ehelse.no/fhir/CodeSystem/vkp-performer-identifiers.codesystem|0.2.2"/>
+            <valueUri value="http://ehelse.no/fhir/CodeSystem/vkp-performer-identifiers.codesystem|0.2.1"/>
           </parameter>
           <contains>
             <system value="http://ehelse.no/fhir/CodeSystem/vkp-performer-identifiers.codesystem"/>
@@ -338,17 +352,15 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 3 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-vkp-subject-identifiers.codesystem.html">Vkp Subject Identifier Systems CodeSystem v0.2.2 (CodeSystem)</a>
-            </p>
-            <p>All codes in this table are from the system 
-              <a href="CodeSystem-vkp-subject-identifiers.codesystem.html">
-                <code>http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem</code>
-              </a>
+              <a href="CodeSystem-vkp-subject-identifiers.codesystem.html">Vkp Subject Identifier Systems CodeSystem v0.2.1 (CodeSystem)</a>
             </p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
                   <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
                 </td>
                 <td>
                   <b>Display</b>
@@ -362,24 +374,42 @@
                   <a name="http---ehelse.no-fhir-CodeSystem-vkp-subject-identifiers.codesystem-urn-oid-2.16.578.1.12.4.1.4.1"> </a>  
                   <a href="CodeSystem-vkp-subject-identifiers.codesystem.html#vkp-subject-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.461">urn:oid:2.16.578.1.12.4.1.4.1</a>
                 </td>
+                <td>http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem</td>
                 <td>FNR</td>
-                <td>Fødselsnummer</td>
+                <td>
+                  <div>
+                    <p>Fødselsnummer</p>
+
+                  </div>
+                </td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
                   <a name="http---ehelse.no-fhir-CodeSystem-vkp-subject-identifiers.codesystem-urn-oid-2.16.578.1.12.4.1.4.2"> </a>  
                   <a href="CodeSystem-vkp-subject-identifiers.codesystem.html#vkp-subject-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.462">urn:oid:2.16.578.1.12.4.1.4.2</a>
                 </td>
+                <td>http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem</td>
                 <td>DNR</td>
-                <td>D-nummer</td>
+                <td>
+                  <div>
+                    <p>D-nummer</p>
+
+                  </div>
+                </td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
                   <a name="http---ehelse.no-fhir-CodeSystem-vkp-subject-identifiers.codesystem-urn-oid-2.16.578.1.12.4.1.4.3"> </a>  
                   <a href="CodeSystem-vkp-subject-identifiers.codesystem.html#vkp-subject-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.463">urn:oid:2.16.578.1.12.4.1.4.3</a>
                 </td>
+                <td>http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem</td>
                 <td>FHN</td>
-                <td>Felles hjelpenummer</td>
+                <td>
+                  <div>
+                    <p>Felles hjelpenummer</p>
+
+                  </div>
+                </td>
               </tr>
             </table>
           </div>
@@ -391,7 +421,7 @@
           <valueInteger value="1"/>
         </extension>
         <url value="http://ehelse.no/fhir/ValueSet/vkp-subject-identifiers.valueset"/>
-        <version value="0.2.2"/>
+        <version value="0.2.1"/>
         <name value="VkpSubjectIdentifiersValueSet"/>
         <title value="VKP Subject Identifier systems ValueSet"/>
         <status value="draft"/>
@@ -413,8 +443,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:c43e0c89-1617-4c05-aeaf-2b2d3ecb5e71"/>
-          <timestamp value="2022-06-07T09:37:01+00:00"/>
+          <identifier value="urn:uuid:7a8226a6-f43c-4210-9594-8dcaaecb4fda"/>
+          <timestamp value="2022-10-05T06:21:43+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -422,7 +452,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem|0.2.2"/>
+            <valueUri value="http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem|0.2.1"/>
           </parameter>
           <contains>
             <system value="http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem"/>

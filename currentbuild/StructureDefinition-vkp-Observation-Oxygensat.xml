@@ -38,7 +38,7 @@ Example:
 <tr><td colspan="5" class="hierarchy"><br/><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table></div>
   </text>
   <url value="http://hl7.no/fhir/StructureDefinition/vkp-Observation-Oxygensat"/>
-  <version value="0.2.2"/>
+  <version value="0.2.1"/>
   <name value="VkpObservationOxygensat"/>
   <title value="Vkp VitalSigns Observation - Oxygen saturation"/>
   <status value="draft"/>
@@ -212,7 +212,7 @@ Example:
       </base>
       <type>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type">
-          <valueUrl value="string"/>
+          <valueUrl value="id"/>
         </extension>
         <code value="http://hl7.org/fhirpath/System.String"/>
       </type>

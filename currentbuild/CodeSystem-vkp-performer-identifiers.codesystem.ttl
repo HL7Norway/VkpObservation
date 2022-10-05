@@ -10,10 +10,10 @@
   fhir:Resource.id [ fhir:value "vkp-performer-identifiers.codesystem"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://ehelse.no/fhir/CodeSystem/vkp-performer-identifiers.codesystem defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">urn:oid:2.16.578.1.12.4.1.4.1<a name=\"vkp-performer-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.461\"> </a></td><td>FNR</td><td>Fødselsnummer</td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://ehelse.no/fhir/CodeSystem/vkp-performer-identifiers.codesystem</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">urn:oid:2.16.578.1.12.4.1.4.1<a name=\"vkp-performer-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.461\"> </a></td><td>FNR</td><td>Fødselsnummer</td></tr></table></div>"
   ];
   fhir:CodeSystem.url [ fhir:value "http://ehelse.no/fhir/CodeSystem/vkp-performer-identifiers.codesystem"];
-  fhir:CodeSystem.version [ fhir:value "0.2.2"];
+  fhir:CodeSystem.version [ fhir:value "0.2.1"];
   fhir:CodeSystem.name [ fhir:value "VkpPerformerIdentifiersCodeSystem"];
   fhir:CodeSystem.title [ fhir:value "Vkp Performer Identifier Systems CodeSystem"];
   fhir:CodeSystem.status [ fhir:value "draft"];

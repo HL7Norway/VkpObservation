@@ -17,7 +17,7 @@
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"heart-rate-create\" Version \"0\" Updated \"2014-01-30 10:35:23+1100\" </p><p style=\"margin-bottom: 0px\">Information Source: META_VISION!</p></div><p><b style=\"color: maroon\">Exception generating Narrative: unknown extension http://hl7.org/fhir/StructureDefinition/no-domain-vitalsignsobservation-heartrhythmextension</b></p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"heart-rate-create\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation \"heart-rate-create\" Version \"0\" Updated \"2014-01-30 10:35:23+1100\" </p><p style=\"margin-bottom: 0px\">Information Source: META_VISION!</p></div><p><b style=\"color: maroon\">Exception generating Narrative: unknown extension http://hl7.org/fhir/StructureDefinition/no-domain-vitalsignsobservation-heartrhythmextension</b></p></div>"
   ];
   fhir:DomainResource.extension [
      fhir:index 0;

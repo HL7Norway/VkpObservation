@@ -16,7 +16,7 @@
     }
   ],
   "url": "http://hl7.no/fhir/StructureDefinition/vkp-Observation",
-  "version": "0.2.2",
+  "version": "0.2.1",
   "name": "VkpObservation",
   "title": "General Vkp Observation",
   "status": "draft",
@@ -204,7 +204,7 @@
             "extension": [
               {
                 "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type",
-                "valueUrl": "string"
+                "valueUrl": "id"
               }
             ],
             "code": "http://hl7.org/fhirpath/System.String"
