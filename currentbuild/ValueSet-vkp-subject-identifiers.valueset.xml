@@ -16,7 +16,7 @@
     <valueInteger value="1"/>
   </extension>
   <url value="http://ehelse.no/fhir/ValueSet/vkp-subject-identifiers.valueset"/>
-  <version value="0.2.1"/>
+  <version value="0.2.2"/>
   <name value="VkpSubjectIdentifiersValueSet"/>
   <title value="VKP Subject Identifier systems ValueSet"/>
   <status value="draft"/>

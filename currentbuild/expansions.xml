@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="c770fcf4-9469-4b0e-9db5-1a23f47de21e"/>
+  <id value="6e0c1ef7-0e83-4bcc-b0c4-81c25af66954"/>
   <meta>
-    <lastUpdated value="2022-10-05T06:20:52.705+00:00"/>
+    <lastUpdated value="2022-10-27T10:51:27.858+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -141,7 +141,7 @@
           <valueInteger value="1"/>
         </extension>
         <url value="http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodysitevalueset"/>
-        <version value="0.2.1"/>
+        <version value="0.2.2"/>
         <name value="NoDomainVitalSignsObservationBloodPressureBodySiteValueSet"/>
         <status value="draft"/>
         <experimental value="false"/>
@@ -162,8 +162,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:a4ef1cb4-9d47-49b9-93b9-5c660ccf544b"/>
-          <timestamp value="2022-10-05T06:21:41+00:00"/>
+          <identifier value="urn:uuid:4ebc563e-a2b8-40f3-a7f0-0c2757e644d9"/>
+          <timestamp value="2022-10-27T10:52:13+00:00"/>
           <total value="12"/>
           <parameter>
             <name value="excludeNested"/>
@@ -255,7 +255,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 1 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-vkp-performer-identifiers.codesystem.html">Vkp Performer Identifier Systems CodeSystem v0.2.1 (CodeSystem)</a>
+              <a href="CodeSystem-vkp-performer-identifiers.codesystem.html">Vkp Performer Identifier Systems CodeSystem v0.2.2 (CodeSystem)</a>
             </p>
             <table class="codes">
               <tr>
@@ -296,7 +296,7 @@
           <valueInteger value="1"/>
         </extension>
         <url value="http://ehelse.no/fhir/ValueSet/vkp-performer-identifiers.valueset"/>
-        <version value="0.2.1"/>
+        <version value="0.2.2"/>
         <name value="VkpPerfomerIdentifiersValueSet"/>
         <title value="VKP Performer Identifier systems ValueSet"/>
         <status value="draft"/>
@@ -318,8 +318,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:26389e51-a4d5-4513-89e2-a228e61dd61c"/>
-          <timestamp value="2022-10-05T06:21:43+00:00"/>
+          <identifier value="urn:uuid:965640f2-7055-4217-ab48-4303ad343175"/>
+          <timestamp value="2022-10-27T10:52:15+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -327,7 +327,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://ehelse.no/fhir/CodeSystem/vkp-performer-identifiers.codesystem|0.2.1"/>
+            <valueUri value="http://ehelse.no/fhir/CodeSystem/vkp-performer-identifiers.codesystem|0.2.2"/>
           </parameter>
           <contains>
             <system value="http://ehelse.no/fhir/CodeSystem/vkp-performer-identifiers.codesystem"/>
@@ -352,7 +352,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 3 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-vkp-subject-identifiers.codesystem.html">Vkp Subject Identifier Systems CodeSystem v0.2.1 (CodeSystem)</a>
+              <a href="CodeSystem-vkp-subject-identifiers.codesystem.html">Vkp Subject Identifier Systems CodeSystem v0.2.2 (CodeSystem)</a>
             </p>
             <table class="codes">
               <tr>
@@ -421,7 +421,7 @@
           <valueInteger value="1"/>
         </extension>
         <url value="http://ehelse.no/fhir/ValueSet/vkp-subject-identifiers.valueset"/>
-        <version value="0.2.1"/>
+        <version value="0.2.2"/>
         <name value="VkpSubjectIdentifiersValueSet"/>
         <title value="VKP Subject Identifier systems ValueSet"/>
         <status value="draft"/>
@@ -443,8 +443,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:7a8226a6-f43c-4210-9594-8dcaaecb4fda"/>
-          <timestamp value="2022-10-05T06:21:43+00:00"/>
+          <identifier value="urn:uuid:809c6e06-f1e0-4229-aa5a-43b882a77198"/>
+          <timestamp value="2022-10-27T10:52:15+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -452,7 +452,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem|0.2.1"/>
+            <valueUri value="http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem|0.2.2"/>
           </parameter>
           <contains>
             <system value="http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem"/>

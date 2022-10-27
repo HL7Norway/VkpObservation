@@ -22,7 +22,7 @@
      fhir:Extension.valueCode [ fhir:value "patient" ]
   ];
   fhir:StructureDefinition.url [ fhir:value "http://hl7.no/fhir/StructureDefinition/vkp-Observation"];
-  fhir:StructureDefinition.version [ fhir:value "0.2.1"];
+  fhir:StructureDefinition.version [ fhir:value "0.2.2"];
   fhir:StructureDefinition.name [ fhir:value "VkpObservation"];
   fhir:StructureDefinition.title [ fhir:value "General Vkp Observation"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
