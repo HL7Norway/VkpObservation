@@ -1,0 +1,93 @@
+[
+  {
+    "id": "vkp-performer-identifiers.codesystem",
+    "type": "CodeSystem",
+    "url": "http://ehelse.no/fhir/CodeSystem/vkp-performer-identifiers.codesystem",
+    "version": "0.2.1",
+    "name": "VkpPerformerIdentifiersCodeSystem"
+  },
+  {
+    "id": "vkp-subject-identifiers.codesystem",
+    "type": "CodeSystem",
+    "url": "http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem",
+    "version": "0.2.1",
+    "name": "VkpSubjectIdentifiersCodeSystem"
+  },
+  {
+    "id": "ehelse.fhir.no.vkp.observation",
+    "type": "ImplementationGuide",
+    "url": "http://ehelse.no/fhir/ImplementationGuide/ehelse.fhir.no.vkp.observation",
+    "version": "0.2.1",
+    "name": "VkpObservation"
+  },
+  {
+    "id": "vkp-Observation-Bloodpressure",
+    "type": "StructureDefinition",
+    "url": "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bloodpressure",
+    "version": "0.2.1",
+    "name": "VkpObservationBloodpressure"
+  },
+  {
+    "id": "vkp-performer-identifiers.valueset",
+    "type": "ValueSet",
+    "url": "http://ehelse.no/fhir/ValueSet/vkp-performer-identifiers.valueset",
+    "version": "0.2.1",
+    "name": "VkpPerfomerIdentifiersValueSet"
+  },
+  {
+    "id": "vkp-subject-identifiers.valueset",
+    "type": "ValueSet",
+    "url": "http://ehelse.no/fhir/ValueSet/vkp-subject-identifiers.valueset",
+    "version": "0.2.1",
+    "name": "VkpSubjectIdentifiersValueSet"
+  },
+  {
+    "id": "vkp-Observation",
+    "type": "StructureDefinition",
+    "url": "http://hl7.no/fhir/StructureDefinition/vkp-Observation",
+    "version": "0.2.1",
+    "name": "VkpObservation"
+  },
+  {
+    "id": "vkp-Observation-Bodytemp",
+    "type": "StructureDefinition",
+    "url": "http://hl7.no/fhir/StructureDefinition/vkp-Observation-Bodytemp",
+    "version": "0.2.1",
+    "name": "VkpObservationBodytemp"
+  },
+  {
+    "id": "vkp-Observation-Bodyweight",
+    "type": "StructureDefinition",
+    "url": "http://hl7.no/fhir/StructureDefinition/vkp-Observation-Bodyweight",
+    "version": "0.2.1",
+    "name": "VkpObservationBodyweight"
+  },
+  {
+    "id": "vkp-Observation-Heartrate",
+    "type": "StructureDefinition",
+    "url": "http://hl7.no/fhir/StructureDefinition/vkp-Observation-Heartrate",
+    "version": "0.2.1",
+    "name": "VkpObservationHeartrate"
+  },
+  {
+    "id": "vkp-Observation-Oxygensat",
+    "type": "StructureDefinition",
+    "url": "http://hl7.no/fhir/StructureDefinition/vkp-Observation-Oxygensat",
+    "version": "0.2.1",
+    "name": "VkpObservationOxygensat"
+  },
+  {
+    "id": "NoDomainVitalSignsObservationBloodPressureBodySiteValueSet",
+    "type": "ValueSet",
+    "url": "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodysitevalueset",
+    "version": "0.2.1",
+    "name": "NoDomainVitalSignsObservationBloodPressureBodySiteValueSet"
+  },
+  {
+    "id": "NoDomainVitalSignsObservationBloodPressureMeasurementMethodValue",
+    "type": "ValueSet",
+    "url": "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-measurementmethodvalueSet",
+    "version": "0.2.1",
+    "name": "NoDomainVitalSignsObservationBloodPressureMeasurementMethodValueSet"
+  }
+]

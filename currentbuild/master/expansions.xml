@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="9e10cc43-9ec5-4d1e-a761-6304e703daf0"/>
+  <meta>
+    <lastUpdated value="2022-10-27T11:29:43.048+00:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodysitevalueset"/>
+    <resource>
+      <ValueSet>
+        <id value="NoDomainVitalSignsObservationBloodPressureBodySiteValueSet"/>
+        <meta>
+          <lastUpdated value="2021-03-17T00:00:00+00:00"/>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 12 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jul 2022</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-368209003"> </a>  
+                  <a href="http://snomed.info/id/368209003">368209003</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Overarm, høyre</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-368208006"> </a>  
+                  <a href="http://snomed.info/id/368208006">368208006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Overarm, venstre</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-11207009"> </a>  
+                  <a href="http://snomed.info/id/11207009">11207009</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Lår, høyre</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-61396006"> </a>  
+                  <a href="http://snomed.info/id/61396006">61396006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Lår, venstre</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-9736006"> </a>  
+                  <a href="http://snomed.info/id/9736006">9736006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Håndledd, høyre</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-5951000"> </a>  
+                  <a href="http://snomed.info/id/5951000">5951000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Håndledd, venstre</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-6685009"> </a>  
+                  <a href="http://snomed.info/id/6685009">6685009</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Ankel, høyre</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-51636004"> </a>  
+                  <a href="http://snomed.info/id/51636004">51636004</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Ankel, venstre</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-7569003"> </a>  
+                  <a href="http://snomed.info/id/7569003">7569003</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Finger</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-29707007"> </a>  
+                  <a href="http://snomed.info/id/29707007">29707007</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Tå</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-2402003"> </a>  
+                  <a href="http://snomed.info/id/2402003">2402003</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Fotrygg</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-51114001"> </a>  
+                  <a href="http://snomed.info/id/51114001">51114001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Intra-arterielt</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+          <valueCode value="oo"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="draft"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+          <valueInteger value="1"/>
+        </extension>
+        <url value="http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodysitevalueset"/>
+        <version value="0.2.1"/>
+        <name value="NoDomainVitalSignsObservationBloodPressureBodySiteValueSet"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2021-03-17T00:00:00+00:00"/>
+        <publisher value="HL7 Norway"/>
+        <contact>
+          <telecom>
+            <system value="url"/>
+            <value value="http://hl7.org/fhir"/>
+          </telecom>
+        </contact>
+        <description value="Codes representing body site for blood pressure"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="NO"/>
+            <display value="Norway"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:a8ba8e2e-6471-48dc-8c57-b6c8e53f2ef0"/>
+          <timestamp value="2022-10-27T11:30:34+00:00"/>
+          <total value="12"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="368209003"/>
+            <display value="Overarm, høyre"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="368208006"/>
+            <display value="Overarm, venstre"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="11207009"/>
+            <display value="Lår, høyre"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="61396006"/>
+            <display value="Lår, venstre"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="9736006"/>
+            <display value="Håndledd, høyre"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="5951000"/>
+            <display value="Håndledd, venstre"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="6685009"/>
+            <display value="Ankel, høyre"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="51636004"/>
+            <display value="Ankel, venstre"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="7569003"/>
+            <display value="Finger"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="29707007"/>
+            <display value="Tå"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="2402003"/>
+            <display value="Fotrygg"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="51114001"/>
+            <display value="Intra-arterielt"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://ehelse.no/fhir/ValueSet/vkp-performer-identifiers.valueset"/>
+    <resource>
+      <ValueSet>
+        <id value="vkp-performer-identifiers.valueset"/>
+        <meta>
+          <lastUpdated value="2022-02-10T00:00:00+00:00"/>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 1 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-vkp-performer-identifiers.codesystem.html">Vkp Performer Identifier Systems CodeSystem v0.2.1 (CodeSystem)</a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---ehelse.no-fhir-CodeSystem-vkp-performer-identifiers.codesystem-urn-oid-2.16.578.1.12.4.1.4.1"> </a>  
+                  <a href="CodeSystem-vkp-performer-identifiers.codesystem.html#vkp-performer-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.461">urn:oid:2.16.578.1.12.4.1.4.1</a>
+                </td>
+                <td>http://ehelse.no/fhir/CodeSystem/vkp-performer-identifiers.codesystem</td>
+                <td>FNR</td>
+                <td>
+                  <div>
+                    <p>Fødselsnummer</p>
+
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="draft"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+          <valueInteger value="1"/>
+        </extension>
+        <url value="http://ehelse.no/fhir/ValueSet/vkp-performer-identifiers.valueset"/>
+        <version value="0.2.1"/>
+        <name value="VkpPerfomerIdentifiersValueSet"/>
+        <title value="VKP Performer Identifier systems ValueSet"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2021-03-17T00:00:00+00:00"/>
+        <publisher value="Direktoratet for e-helse"/>
+        <contact>
+          <telecom>
+            <system value="url"/>
+            <value value="http://ehelse.no/"/>
+          </telecom>
+        </contact>
+        <description value="Identifier Systems allowed for performer identification systems in Vkp Observations"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="NO"/>
+            <display value="Norway"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:77a70e2d-8371-42b4-a798-c8289419b97e"/>
+          <timestamp value="2022-10-27T11:30:37+00:00"/>
+          <total value="1"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://ehelse.no/fhir/CodeSystem/vkp-performer-identifiers.codesystem|0.2.1"/>
+          </parameter>
+          <contains>
+            <system value="http://ehelse.no/fhir/CodeSystem/vkp-performer-identifiers.codesystem"/>
+            <code value="urn:oid:2.16.578.1.12.4.1.4.1"/>
+            <display value="FNR"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://ehelse.no/fhir/ValueSet/vkp-subject-identifiers.valueset"/>
+    <resource>
+      <ValueSet>
+        <id value="vkp-subject-identifiers.valueset"/>
+        <meta>
+          <lastUpdated value="2022-02-10T00:00:00+00:00"/>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 3 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-vkp-subject-identifiers.codesystem.html">Vkp Subject Identifier Systems CodeSystem v0.2.1 (CodeSystem)</a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---ehelse.no-fhir-CodeSystem-vkp-subject-identifiers.codesystem-urn-oid-2.16.578.1.12.4.1.4.1"> </a>  
+                  <a href="CodeSystem-vkp-subject-identifiers.codesystem.html#vkp-subject-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.461">urn:oid:2.16.578.1.12.4.1.4.1</a>
+                </td>
+                <td>http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem</td>
+                <td>FNR</td>
+                <td>
+                  <div>
+                    <p>Fødselsnummer</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---ehelse.no-fhir-CodeSystem-vkp-subject-identifiers.codesystem-urn-oid-2.16.578.1.12.4.1.4.2"> </a>  
+                  <a href="CodeSystem-vkp-subject-identifiers.codesystem.html#vkp-subject-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.462">urn:oid:2.16.578.1.12.4.1.4.2</a>
+                </td>
+                <td>http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem</td>
+                <td>DNR</td>
+                <td>
+                  <div>
+                    <p>D-nummer</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---ehelse.no-fhir-CodeSystem-vkp-subject-identifiers.codesystem-urn-oid-2.16.578.1.12.4.1.4.3"> </a>  
+                  <a href="CodeSystem-vkp-subject-identifiers.codesystem.html#vkp-subject-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.463">urn:oid:2.16.578.1.12.4.1.4.3</a>
+                </td>
+                <td>http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem</td>
+                <td>FHN</td>
+                <td>
+                  <div>
+                    <p>Felles hjelpenummer</p>
+
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="draft"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+          <valueInteger value="1"/>
+        </extension>
+        <url value="http://ehelse.no/fhir/ValueSet/vkp-subject-identifiers.valueset"/>
+        <version value="0.2.1"/>
+        <name value="VkpSubjectIdentifiersValueSet"/>
+        <title value="VKP Subject Identifier systems ValueSet"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2021-03-17T00:00:00+00:00"/>
+        <publisher value="Direktoratet for e-helse"/>
+        <contact>
+          <telecom>
+            <system value="url"/>
+            <value value="http://ehelse.no/"/>
+          </telecom>
+        </contact>
+        <description value="Identifier Systems allowed for subject identifications"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="NO"/>
+            <display value="Norway"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:dedc59e1-5dcf-4c21-870f-5b313ce08bf7"/>
+          <timestamp value="2022-10-27T11:30:37+00:00"/>
+          <total value="3"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem|0.2.1"/>
+          </parameter>
+          <contains>
+            <system value="http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem"/>
+            <code value="urn:oid:2.16.578.1.12.4.1.4.1"/>
+            <display value="FNR"/>
+          </contains>
+          <contains>
+            <system value="http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem"/>
+            <code value="urn:oid:2.16.578.1.12.4.1.4.2"/>
+            <display value="DNR"/>
+          </contains>
+          <contains>
+            <system value="http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem"/>
+            <code value="urn:oid:2.16.578.1.12.4.1.4.3"/>
+            <display value="FHN"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>

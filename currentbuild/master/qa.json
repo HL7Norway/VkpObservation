@@ -1,0 +1,12 @@
+{
+  "url": "http://ehelse.no/fhir/ImplementationGuide/ehelse.fhir.no.vkp.observation",
+  "name": "VkpObservation",
+  "package-id": "ehelse.fhir.no.vkp.observation",
+  "ig-ver": "0.2.1",
+  "date": "Thu, 27 Oct, 2022 11:29:43 +0000",
+  "errs": 89,
+  "warnings": 56,
+  "hints": 6,
+  "version": "4.0.1",
+  "tool": "5.0.0-ballot (3)"
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="vkp-performer-identifiers.codesystem"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://ehelse.no/fhir/CodeSystem/vkp-performer-identifiers.codesystem</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">urn:oid:2.16.578.1.12.4.1.4.1<a name="vkp-performer-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.461"> </a></td><td>FNR</td><td>Fødselsnummer</td></tr></table></div>
+  </text>
+  <url value="http://ehelse.no/fhir/CodeSystem/vkp-performer-identifiers.codesystem"/>
+  <version value="0.2.1"/>
+  <name value="VkpPerformerIdentifiersCodeSystem"/>
+  <title value="Vkp Performer Identifier Systems CodeSystem"/>
+  <status value="draft"/>
+  <date value="2022-03-18"/>
+  <publisher value="Direktoratet for e-helse"/>
+  <description value="The CodeSystem contains all codes allowed for Observation.performer.system for use with VKP"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NO"/>
+      <display value="Norway"/>
+    </coding>
+  </jurisdiction>
+  <content value="complete"/>
+  <count value="1"/>
+  <concept>
+    <code value="urn:oid:2.16.578.1.12.4.1.4.1"/>
+    <display value="FNR"/>
+    <definition value="Fødselsnummer"/>
+  </concept>
+</CodeSystem>
