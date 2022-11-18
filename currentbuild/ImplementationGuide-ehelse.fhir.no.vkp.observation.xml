@@ -6,10 +6,10 @@
     <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>VkpObservation</h2><p>The official URL for this implementation guide is: </p><pre>http://ehelse.no/fhir/ImplementationGuide/ehelse.fhir.no.vkp.observation</pre></div>
   </text>
   <url value="http://ehelse.no/fhir/ImplementationGuide/ehelse.fhir.no.vkp.observation"/>
-  <version value="0.2.2"/>
+  <version value="0.1.0"/>
   <name value="VkpObservation"/>
   <status value="draft"/>
-  <date value="2022-10-27T10:51:27+00:00"/>
+  <date value="2022-11-18T08:50:41+00:00"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -21,9 +21,12 @@
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
   <dependsOn id="hl7tx">
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
+      <valueMarkdown value="Automatically added as a dependency - all IGs depend on HL7 Terminology"/>
+    </extension>
     <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
     <packageId value="hl7.terminology.r4"/>
-    <version value="4.0.0"/>
+    <version value="5.0.0"/>
   </dependsOn>
   <dependsOn id="hl7_fhir_no_basis">
     <uri value="http://hl7.no/fhir/"/>
@@ -190,8 +193,8 @@
       <reference>
         <reference value="StructureDefinition/vkp-Observation"/>
       </reference>
-      <name value="General Vkp Observation"/>
-      <description value="Profile for general observations in VKP."/>
+      <name value="Vkp VitalSigns Observation"/>
+      <description value="Profile general observations in VKP."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -276,17 +279,6 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/vkp-performer-identifiers.valueset"/>
-      </reference>
-      <name value="VKP Performer Identifier systems ValueSet"/>
-      <description value="Identifier Systems allowed for performer identification systems in Vkp Observations"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
         <reference value="ValueSet/vkp-subject-identifiers.valueset"/>
       </reference>
       <name value="VKP Subject Identifier systems ValueSet"/>
@@ -298,21 +290,10 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/vkp-performer-identifiers.codesystem"/>
-      </reference>
-      <name value="Vkp Performer Identifier Systems CodeSystem"/>
-      <description value="The CodeSystem contains all codes allowed for Observation.performer.system for use with VKP"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
         <reference value="CodeSystem/vkp-subject-identifiers.codesystem"/>
       </reference>
       <name value="Vkp Subject Identifier Systems CodeSystem"/>
-      <description value="The CodeSystem contains all codes allowed for Observation.subject.system, for use with VKP"/>
+      <description value="Dette kodeverket inneholder koder med lovlige koder for subject identifier til bruk i VKP"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -383,6 +364,16 @@
         <reference value="Observation/respiratory-rate-create"/>
       </reference>
       <name value="respiratory-rate-create"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/vkp-blood-pressure-create"/>
+      </reference>
+      <name value="vkp-blood-pressure-create"/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>

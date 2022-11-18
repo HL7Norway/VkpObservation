@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "6e0c1ef7-0e83-4bcc-b0c4-81c25af66954",
+  "id" : "240b14ed-c06f-4aa9-81d8-9c372931a652",
   "meta" : {
-    "lastUpdated" : "2022-10-27T10:51:27.858+00:00"
+    "lastUpdated" : "2022-11-18T08:50:41.321+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -31,7 +31,7 @@
         "valueInteger" : 1
       }],
       "url" : "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodysitevalueset",
-      "version" : "0.2.2",
+      "version" : "0.1.0",
       "name" : "NoDomainVitalSignsObservationBloodPressureBodySiteValueSet",
       "status" : "draft",
       "experimental" : false,
@@ -52,8 +52,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:4ebc563e-a2b8-40f3-a7f0-0c2757e644d9",
-        "timestamp" : "2022-10-27T10:52:13+00:00",
+        "identifier" : "urn:uuid:6bba8039-99e3-4f87-a98c-01d5011daa12",
+        "timestamp" : "2022-11-18T08:51:37+00:00",
         "total" : 12,
         "parameter" : [{
           "name" : "excludeNested",
@@ -131,69 +131,6 @@
     }
   },
   {
-    "fullUrl" : "http://ehelse.no/fhir/ValueSet/vkp-performer-identifiers.valueset",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "id" : "vkp-performer-identifiers.valueset",
-      "meta" : {
-        "lastUpdated" : "2022-02-10T00:00:00+00:00",
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
-      },
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-vkp-performer-identifiers.codesystem.html\">Vkp Performer Identifier Systems CodeSystem v0.2.2 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ehelse.no-fhir-CodeSystem-vkp-performer-identifiers.codesystem-urn-oid-2.16.578.1.12.4.1.4.1\"> </a>  <a href=\"CodeSystem-vkp-performer-identifiers.codesystem.html#vkp-performer-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.461\">urn:oid:2.16.578.1.12.4.1.4.1</a></td><td>http://ehelse.no/fhir/CodeSystem/vkp-performer-identifiers.codesystem</td><td>FNR</td><td><div><p>Fødselsnummer</p>\n</div></td></tr></table></div>"
-      },
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-        "valueCode" : "draft"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
-        "valueInteger" : 1
-      }],
-      "url" : "http://ehelse.no/fhir/ValueSet/vkp-performer-identifiers.valueset",
-      "version" : "0.2.2",
-      "name" : "VkpPerfomerIdentifiersValueSet",
-      "title" : "VKP Performer Identifier systems ValueSet",
-      "status" : "draft",
-      "experimental" : false,
-      "date" : "2021-03-17T00:00:00+00:00",
-      "publisher" : "Direktoratet for e-helse",
-      "contact" : [{
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://ehelse.no/"
-        }]
-      }],
-      "description" : "Identifier Systems allowed for performer identification systems in Vkp Observations",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "NO",
-          "display" : "Norway"
-        }]
-      }],
-      "expansion" : {
-        "identifier" : "urn:uuid:965640f2-7055-4217-ab48-4303ad343175",
-        "timestamp" : "2022-10-27T10:52:15+00:00",
-        "total" : 1,
-        "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "version",
-          "valueUri" : "http://ehelse.no/fhir/CodeSystem/vkp-performer-identifiers.codesystem|0.2.2"
-        }],
-        "contains" : [{
-          "system" : "http://ehelse.no/fhir/CodeSystem/vkp-performer-identifiers.codesystem",
-          "code" : "urn:oid:2.16.578.1.12.4.1.4.1",
-          "display" : "FNR"
-        }]
-      }
-    }
-  },
-  {
     "fullUrl" : "http://ehelse.no/fhir/ValueSet/vkp-subject-identifiers.valueset",
     "resource" : {
       "resourceType" : "ValueSet",
@@ -204,7 +141,7 @@
       },
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-vkp-subject-identifiers.codesystem.html\">Vkp Subject Identifier Systems CodeSystem v0.2.2 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ehelse.no-fhir-CodeSystem-vkp-subject-identifiers.codesystem-urn-oid-2.16.578.1.12.4.1.4.1\"> </a>  <a href=\"CodeSystem-vkp-subject-identifiers.codesystem.html#vkp-subject-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.461\">urn:oid:2.16.578.1.12.4.1.4.1</a></td><td>http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem</td><td>FNR</td><td><div><p>Fødselsnummer</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ehelse.no-fhir-CodeSystem-vkp-subject-identifiers.codesystem-urn-oid-2.16.578.1.12.4.1.4.2\"> </a>  <a href=\"CodeSystem-vkp-subject-identifiers.codesystem.html#vkp-subject-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.462\">urn:oid:2.16.578.1.12.4.1.4.2</a></td><td>http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem</td><td>DNR</td><td><div><p>D-nummer</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ehelse.no-fhir-CodeSystem-vkp-subject-identifiers.codesystem-urn-oid-2.16.578.1.12.4.1.4.3\"> </a>  <a href=\"CodeSystem-vkp-subject-identifiers.codesystem.html#vkp-subject-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.463\">urn:oid:2.16.578.1.12.4.1.4.3</a></td><td>http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem</td><td>FHN</td><td><div><p>Felles hjelpenummer</p>\n</div></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-vkp-subject-identifiers.codesystem.html\">Vkp Subject Identifier Systems CodeSystem v0.1.0 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ehelse.no-fhir-CodeSystem-vkp-subject-identifiers.codesystem-urn-oid-2.16.578.1.12.4.1.4.1\"> </a>  <a href=\"CodeSystem-vkp-subject-identifiers.codesystem.html#vkp-subject-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.461\">urn:oid:2.16.578.1.12.4.1.4.1</a></td><td>http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem</td><td>FNR</td><td><div><p>Fødselsnummer</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ehelse.no-fhir-CodeSystem-vkp-subject-identifiers.codesystem-urn-oid-2.16.578.1.12.4.1.4.2\"> </a>  <a href=\"CodeSystem-vkp-subject-identifiers.codesystem.html#vkp-subject-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.462\">urn:oid:2.16.578.1.12.4.1.4.2</a></td><td>http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem</td><td>DNR</td><td><div><p>D-nummer</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---ehelse.no-fhir-CodeSystem-vkp-subject-identifiers.codesystem-urn-oid-2.16.578.1.12.4.1.4.3\"> </a>  <a href=\"CodeSystem-vkp-subject-identifiers.codesystem.html#vkp-subject-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.463\">urn:oid:2.16.578.1.12.4.1.4.3</a></td><td>http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem</td><td>FHN</td><td><div><p>Felles hjelpenummer</p>\n</div></td></tr></table></div>"
       },
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
@@ -215,7 +152,7 @@
         "valueInteger" : 1
       }],
       "url" : "http://ehelse.no/fhir/ValueSet/vkp-subject-identifiers.valueset",
-      "version" : "0.2.2",
+      "version" : "0.1.0",
       "name" : "VkpSubjectIdentifiersValueSet",
       "title" : "VKP Subject Identifier systems ValueSet",
       "status" : "draft",
@@ -237,8 +174,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:809c6e06-f1e0-4229-aa5a-43b882a77198",
-        "timestamp" : "2022-10-27T10:52:15+00:00",
+        "identifier" : "urn:uuid:916e40d9-1869-4006-96b4-89750cba034a",
+        "timestamp" : "2022-11-18T08:51:38+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -246,7 +183,7 @@
         },
         {
           "name" : "version",
-          "valueUri" : "http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem|0.2.2"
+          "valueUri" : "http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem|0.1.0"
         }],
         "contains" : [{
           "system" : "http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem",

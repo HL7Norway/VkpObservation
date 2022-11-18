@@ -13,10 +13,10 @@
      fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>VkpObservation</h2><p>The official URL for this implementation guide is: </p><pre>http://ehelse.no/fhir/ImplementationGuide/ehelse.fhir.no.vkp.observation</pre></div>"
   ];
   fhir:ImplementationGuide.url [ fhir:value "http://ehelse.no/fhir/ImplementationGuide/ehelse.fhir.no.vkp.observation"];
-  fhir:ImplementationGuide.version [ fhir:value "0.2.2"];
+  fhir:ImplementationGuide.version [ fhir:value "0.1.0"];
   fhir:ImplementationGuide.name [ fhir:value "VkpObservation"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-10-27T10:51:27+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-11-18T08:50:41+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [
@@ -35,12 +35,17 @@
   fhir:ImplementationGuide.dependsOn [
      fhir:index 0;
      fhir:Element.id [ fhir:value "hl7tx" ];
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment" ];
+       fhir:Extension.valueMarkdown [ fhir:value "Automatically added as a dependency - all IGs depend on HL7 Terminology" ]
+     ];
      fhir:ImplementationGuide.dependsOn.uri [
        fhir:value "http://terminology.hl7.org/ImplementationGuide/hl7.terminology";
        fhir:link <http://terminology.hl7.org/ImplementationGuide/hl7.terminology>
      ];
      fhir:ImplementationGuide.dependsOn.packageId [ fhir:value "hl7.terminology.r4" ];
-     fhir:ImplementationGuide.dependsOn.version [ fhir:value "4.0.0" ]
+     fhir:ImplementationGuide.dependsOn.version [ fhir:value "5.0.0" ]
   ], [
      fhir:index 1;
      fhir:Element.id [ fhir:value "hl7_fhir_no_basis" ];
@@ -292,8 +297,8 @@
          fhir:link <http://ehelse.no/fhir/StructureDefinition/vkp-Observation>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/vkp-Observation" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "General Vkp Observation" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Profile for general observations in VKP." ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Vkp VitalSigns Observation" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Profile general observations in VKP." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 1;
@@ -401,20 +406,6 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://ehelse.no/fhir/ValueSet/vkp-performer-identifiers.valueset>;
-         fhir:Reference.reference [ fhir:value "ValueSet/vkp-performer-identifiers.valueset" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "VKP Performer Identifier systems ValueSet" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Identifier Systems allowed for performer identification systems in Vkp Observations" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 9;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "ValueSet" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
          fhir:link <http://ehelse.no/fhir/ValueSet/vkp-subject-identifiers.valueset>;
          fhir:Reference.reference [ fhir:value "ValueSet/vkp-subject-identifiers.valueset" ]
        ];
@@ -422,21 +413,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Identifier Systems allowed for subject identifications" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 10;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://ehelse.no/fhir/CodeSystem/vkp-performer-identifiers.codesystem>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/vkp-performer-identifiers.codesystem" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Vkp Performer Identifier Systems CodeSystem" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The CodeSystem contains all codes allowed for Observation.performer.system for use with VKP" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 11;
+       fhir:index 9;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -447,10 +424,10 @@
          fhir:Reference.reference [ fhir:value "CodeSystem/vkp-subject-identifiers.codesystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Vkp Subject Identifier Systems CodeSystem" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The CodeSystem contains all codes allowed for Observation.subject.system, for use with VKP" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dette kodeverket inneholder koder med lovlige koder for subject identifier til bruk i VKP" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 12;
+       fhir:index 10;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -463,7 +440,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "blood-pressure-create" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 13;
+       fhir:index 11;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -476,7 +453,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "body-height-create" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 14;
+       fhir:index 12;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -489,7 +466,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "body-mass-index-create" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 15;
+       fhir:index 13;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -502,7 +479,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "heart-rate-create" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 16;
+       fhir:index 14;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -515,7 +492,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "level-of-consciousness-create" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 17;
+       fhir:index 15;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -528,7 +505,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "news2-create" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 18;
+       fhir:index 16;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -541,7 +518,20 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "respiratory-rate-create" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 19;
+       fhir:index 17;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ehelse.no/fhir/Observation/vkp-blood-pressure-create>;
+         fhir:Reference.reference [ fhir:value "Observation/vkp-blood-pressure-create" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "vkp-blood-pressure-create" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 18;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -557,7 +547,7 @@
          fhir:link <http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bloodpressure>
        ]
      ], [
-       fhir:index 20;
+       fhir:index 19;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -573,7 +563,7 @@
          fhir:link <http://hl7.no/fhir/StructureDefinition/vkp-Observation-Bodytemp>
        ]
      ], [
-       fhir:index 21;
+       fhir:index 20;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -589,7 +579,7 @@
          fhir:link <http://hl7.no/fhir/StructureDefinition/vkp-Observation-Bodyweight>
        ]
      ], [
-       fhir:index 22;
+       fhir:index 21;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -605,7 +595,7 @@
          fhir:link <http://hl7.no/fhir/StructureDefinition/vkp-Observation>
        ]
      ], [
-       fhir:index 23;
+       fhir:index 22;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -621,7 +611,7 @@
          fhir:link <http://hl7.no/fhir/StructureDefinition/vkp-Observation-Heartrate>
        ]
      ], [
-       fhir:index 24;
+       fhir:index 23;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];

@@ -6,10 +6,10 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>VkpObservation</h2><p>The official URL for this implementation guide is: </p><pre>http://ehelse.no/fhir/ImplementationGuide/ehelse.fhir.no.vkp.observation</pre></div>"
   },
   "url": "http://ehelse.no/fhir/ImplementationGuide/ehelse.fhir.no.vkp.observation",
-  "version": "0.2.2",
+  "version": "0.1.0",
   "name": "VkpObservation",
   "status": "draft",
-  "date": "2022-10-27T10:51:27+00:00",
+  "date": "2022-11-18T08:50:41+00:00",
   "jurisdiction": [
     {
       "coding": [
@@ -29,9 +29,15 @@
   "dependsOn": [
     {
       "id": "hl7tx",
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment",
+          "valueMarkdown": "Automatically added as a dependency - all IGs depend on HL7 Terminology"
+        }
+      ],
       "uri": "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
       "packageId": "hl7.terminology.r4",
-      "version": "4.0.0"
+      "version": "5.0.0"
     },
     {
       "id": "hl7_fhir_no_basis",
@@ -301,8 +307,8 @@
         "reference": {
           "reference": "StructureDefinition/vkp-Observation"
         },
-        "name": "General Vkp Observation",
-        "description": "Profile for general observations in VKP.",
+        "name": "Vkp VitalSigns Observation",
+        "description": "Profile general observations in VKP.",
         "exampleBoolean": false
       },
       {
@@ -411,20 +417,6 @@
           }
         ],
         "reference": {
-          "reference": "ValueSet/vkp-performer-identifiers.valueset"
-        },
-        "name": "VKP Performer Identifier systems ValueSet",
-        "description": "Identifier Systems allowed for performer identification systems in Vkp Observations",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ValueSet"
-          }
-        ],
-        "reference": {
           "reference": "ValueSet/vkp-subject-identifiers.valueset"
         },
         "name": "VKP Subject Identifier systems ValueSet",
@@ -439,24 +431,10 @@
           }
         ],
         "reference": {
-          "reference": "CodeSystem/vkp-performer-identifiers.codesystem"
-        },
-        "name": "Vkp Performer Identifier Systems CodeSystem",
-        "description": "The CodeSystem contains all codes allowed for Observation.performer.system for use with VKP",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "CodeSystem"
-          }
-        ],
-        "reference": {
           "reference": "CodeSystem/vkp-subject-identifiers.codesystem"
         },
         "name": "Vkp Subject Identifier Systems CodeSystem",
-        "description": "The CodeSystem contains all codes allowed for Observation.subject.system, for use with VKP",
+        "description": "Dette kodeverket inneholder koder med lovlige koder for subject identifier til bruk i VKP",
         "exampleBoolean": false
       },
       {
@@ -548,6 +526,19 @@
           "reference": "Observation/respiratory-rate-create"
         },
         "name": "respiratory-rate-create",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/vkp-blood-pressure-create"
+        },
+        "name": "vkp-blood-pressure-create",
         "exampleBoolean": true
       },
       {
