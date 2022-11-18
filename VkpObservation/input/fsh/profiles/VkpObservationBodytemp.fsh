@@ -3,8 +3,8 @@ Parent: http://hl7.org/fhir/StructureDefinition/bodytemp
 Id: vkp-Observation-Bodytemp
 Title: "Vkp VitalSigns Observation - Body temperature"
 Description: "Profile for Body temperature in VKP."
-* ^url = "http://hl7.no/fhir/StructureDefinition/vkp-Observation-Bodytemp"
-* ^version = "0.1.0"
+* ^url = "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bodytemp"
+* ^version = "0.2.2"
 * ^status = #draft
 * ^date = "2022-03-16"
 * ^purpose = "To record the body temperature of an individual."
