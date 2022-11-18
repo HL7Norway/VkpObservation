@@ -15,9 +15,9 @@
      fhir:Meta.lastUpdated [ fhir:value "2022-03-17T22:35:23+11:00"^^xsd:dateTime ];
      fhir:Meta.source [ fhir:value "Thomas" ];
      fhir:Meta.profile [
-       fhir:value "http://hl7.no/fhir/StructureDefinition/vkp-Observation-Bodyweight";
+       fhir:value "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bodyweight";
        fhir:index 0;
-       fhir:link <http://hl7.no/fhir/StructureDefinition/vkp-Observation-Bodyweight>
+       fhir:link <http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bodyweight>
      ]
   ];
   fhir:DomainResource.text [

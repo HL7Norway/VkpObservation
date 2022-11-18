@@ -6,7 +6,7 @@
     "lastUpdated": "2022-03-18T22:35:23+11:00",
     "source": "Thomas",
     "profile": [
-      "http://hl7.no/fhir/StructureDefinition/vkp-Observation-Heartrate"
+      "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Heartrate"
     ]
   },
   "text": {

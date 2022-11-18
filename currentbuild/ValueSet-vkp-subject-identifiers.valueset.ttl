@@ -30,7 +30,7 @@
      fhir:Extension.valueInteger [ fhir:value "1"^^xsd:integer ]
   ];
   fhir:ValueSet.url [ fhir:value "http://ehelse.no/fhir/ValueSet/vkp-subject-identifiers.valueset"];
-  fhir:ValueSet.version [ fhir:value "0.1.0"];
+  fhir:ValueSet.version [ fhir:value "0.2.2"];
   fhir:ValueSet.name [ fhir:value "VkpSubjectIdentifiersValueSet"];
   fhir:ValueSet.title [ fhir:value "VKP Subject Identifier systems ValueSet"];
   fhir:ValueSet.status [ fhir:value "draft"];

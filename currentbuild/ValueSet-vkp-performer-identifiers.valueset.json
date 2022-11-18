@@ -1,0 +1,61 @@
+{
+  "resourceType": "ValueSet",
+  "id": "vkp-performer-identifiers.valueset",
+  "meta": {
+    "lastUpdated": "2022-02-10T00:00:00+00:00",
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-vkp-performer-identifiers.codesystem.html\"><code>http://ehelse.no/fhir/CodeSystem/vkp-performer-identifiers.codesystem</code></a></li></ul></div>"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "draft"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+      "valueInteger": 1
+    }
+  ],
+  "url": "http://ehelse.no/fhir/ValueSet/vkp-performer-identifiers.valueset",
+  "version": "0.2.2",
+  "name": "VkpPerfomerIdentifiersValueSet",
+  "title": "VKP Performer Identifier systems ValueSet",
+  "status": "draft",
+  "experimental": false,
+  "date": "2021-03-17T00:00:00+00:00",
+  "publisher": "Direktoratet for e-helse",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://ehelse.no/"
+        }
+      ]
+    }
+  ],
+  "description": "Identifier Systems allowed for performer identification systems in Vkp Observations",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "NO",
+          "display": "Norway"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "http://ehelse.no/fhir/CodeSystem/vkp-performer-identifiers.codesystem"
+      }
+    ]
+  }
+}

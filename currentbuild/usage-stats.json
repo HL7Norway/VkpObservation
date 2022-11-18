@@ -1,33 +1,33 @@
 {
   "package": "ehelse.fhir.no.vkp.observation",
-  "version": "0.1.0",
+  "version": "0.2.2",
   "fhirVersion": "4.0.1",
   "jurisdiction": "NO",
   "extensions": [],
   "profiles": {
     "Observation": [
       {
+        "url": "http://ehelse.no/fhir/StructureDefinition/vkp-Observation",
+        "title": "General Vkp Observation"
+      },
+      {
         "url": "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bloodpressure",
         "title": "Vkp VitalSigns Observation - Blood pressure"
       },
       {
-        "url": "http://hl7.no/fhir/StructureDefinition/vkp-Observation",
-        "title": "Vkp VitalSigns Observation"
-      },
-      {
-        "url": "http://hl7.no/fhir/StructureDefinition/vkp-Observation-Bodytemp",
+        "url": "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bodytemp",
         "title": "Vkp VitalSigns Observation - Body temperature"
       },
       {
-        "url": "http://hl7.no/fhir/StructureDefinition/vkp-Observation-Bodyweight",
+        "url": "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bodyweight",
         "title": "Vkp VitalSigns Observation - Body weight"
       },
       {
-        "url": "http://hl7.no/fhir/StructureDefinition/vkp-Observation-Heartrate",
+        "url": "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Heartrate",
         "title": "Vkp VitalSigns Observation - Heart rate"
       },
       {
-        "url": "http://hl7.no/fhir/StructureDefinition/vkp-Observation-Oxygensat",
+        "url": "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Oxygensat",
         "title": "Vkp VitalSigns Observation - Oxygen saturation"
       }
     ]

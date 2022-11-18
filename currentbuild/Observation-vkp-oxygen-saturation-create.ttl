@@ -15,9 +15,9 @@
      fhir:Meta.lastUpdated [ fhir:value "2022-03-16T22:35:23+11:00"^^xsd:dateTime ];
      fhir:Meta.source [ fhir:value "Thomas" ];
      fhir:Meta.profile [
-       fhir:value "http://hl7.no/fhir/StructureDefinition/vkp-Observation-Oxygensat";
+       fhir:value "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Oxygensat";
        fhir:index 0;
-       fhir:link <http://hl7.no/fhir/StructureDefinition/vkp-Observation-Oxygensat>
+       fhir:link <http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Oxygensat>
      ]
   ];
   fhir:DomainResource.text [

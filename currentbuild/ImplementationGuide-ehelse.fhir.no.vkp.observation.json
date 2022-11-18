@@ -6,10 +6,10 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>VkpObservation</h2><p>The official URL for this implementation guide is: </p><pre>http://ehelse.no/fhir/ImplementationGuide/ehelse.fhir.no.vkp.observation</pre></div>"
   },
   "url": "http://ehelse.no/fhir/ImplementationGuide/ehelse.fhir.no.vkp.observation",
-  "version": "0.1.0",
+  "version": "0.2.2",
   "name": "VkpObservation",
   "status": "draft",
-  "date": "2022-11-18T08:50:41+00:00",
+  "date": "2022-11-18T08:59:26+00:00",
   "jurisdiction": [
     {
       "coding": [
@@ -307,8 +307,8 @@
         "reference": {
           "reference": "StructureDefinition/vkp-Observation"
         },
-        "name": "Vkp VitalSigns Observation",
-        "description": "Profile general observations in VKP.",
+        "name": "General Vkp Observation",
+        "description": "Profile for general observations in VKP.",
         "exampleBoolean": false
       },
       {
@@ -417,6 +417,20 @@
           }
         ],
         "reference": {
+          "reference": "ValueSet/vkp-performer-identifiers.valueset"
+        },
+        "name": "VKP Performer Identifier systems ValueSet",
+        "description": "Identifier Systems allowed for performer identification systems in Vkp Observations",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
           "reference": "ValueSet/vkp-subject-identifiers.valueset"
         },
         "name": "VKP Subject Identifier systems ValueSet",
@@ -431,10 +445,24 @@
           }
         ],
         "reference": {
+          "reference": "CodeSystem/vkp-performer-identifiers.codesystem"
+        },
+        "name": "Vkp Performer Identifier Systems CodeSystem",
+        "description": "The CodeSystem contains all codes allowed for Observation.performer.system for use with VKP",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
           "reference": "CodeSystem/vkp-subject-identifiers.codesystem"
         },
         "name": "Vkp Subject Identifier Systems CodeSystem",
-        "description": "Dette kodeverket inneholder koder med lovlige koder for subject identifier til bruk i VKP",
+        "description": "The CodeSystem contains all codes allowed for Observation.subject.system, for use with VKP",
         "exampleBoolean": false
       },
       {
@@ -536,19 +564,6 @@
           }
         ],
         "reference": {
-          "reference": "Observation/vkp-blood-pressure-create"
-        },
-        "name": "vkp-blood-pressure-create",
-        "exampleBoolean": true
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Observation"
-          }
-        ],
-        "reference": {
           "reference": "Observation/vkp-blood-pressure-profile-create"
         },
         "name": "vkp-blood-pressure-profile-create",
@@ -565,7 +580,7 @@
           "reference": "Observation/vkp-body-temperature-create"
         },
         "name": "vkp-body-temperature-create",
-        "exampleCanonical": "http://hl7.no/fhir/StructureDefinition/vkp-Observation-Bodytemp"
+        "exampleCanonical": "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bodytemp"
       },
       {
         "extension": [
@@ -578,7 +593,7 @@
           "reference": "Observation/vkp-body-weight-create"
         },
         "name": "vkp-body-weight-create",
-        "exampleCanonical": "http://hl7.no/fhir/StructureDefinition/vkp-Observation-Bodyweight"
+        "exampleCanonical": "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bodyweight"
       },
       {
         "extension": [
@@ -591,7 +606,7 @@
           "reference": "Observation/vkp-glucose-create"
         },
         "name": "vkp-glucose-create",
-        "exampleCanonical": "http://hl7.no/fhir/StructureDefinition/vkp-Observation"
+        "exampleCanonical": "http://ehelse.no/fhir/StructureDefinition/vkp-Observation"
       },
       {
         "extension": [
@@ -604,7 +619,7 @@
           "reference": "Observation/vkp-heartrate-create"
         },
         "name": "vkp-heartrate-create",
-        "exampleCanonical": "http://hl7.no/fhir/StructureDefinition/vkp-Observation-Heartrate"
+        "exampleCanonical": "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Heartrate"
       },
       {
         "extension": [
@@ -617,7 +632,7 @@
           "reference": "Observation/vkp-oxygen-saturation-create"
         },
         "name": "vkp-oxygen-saturation-create",
-        "exampleCanonical": "http://hl7.no/fhir/StructureDefinition/vkp-Observation-Oxygensat"
+        "exampleCanonical": "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Oxygensat"
       }
     ],
     "page": {
