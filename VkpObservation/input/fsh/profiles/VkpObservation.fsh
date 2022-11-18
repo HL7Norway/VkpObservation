@@ -19,7 +19,7 @@ Description: "Profile for general observations in VKP."
   NPU/NLK 0..* MS
 * code.coding[LOINC].system = $loinc
 * code.coding[SCT].system = $sct
-* code.coding[NPU/NLK].system = urn:oid:2.16.578.1.12.4.1.1.7280
+* code.coding[NPU/NLK].system = "urn:oid:2.16.578.1.12.4.1.1.7280" (exactly)
 * code.coding[NPU/NLK].
 * subject 1.. MS
 * subject only Reference(Patient or $no-basis-Patient)
