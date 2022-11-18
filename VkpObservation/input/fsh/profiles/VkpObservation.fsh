@@ -3,10 +3,10 @@ Parent: Observation
 Id: vkp-Observation
 Title: "General Vkp Observation"
 Description: "Profile for general observations in VKP."
-* ^url = "http://hl7.no/fhir/StructureDefinition/vkp-Observation"
-* ^version = "0.1.0"
+* ^url = "http://ehelse.no/fhir/StructureDefinition/vkp-Observation"
+* ^version = "0.2.2"
 * ^status = #draft
-* ^date = "2022-02-17"
+* ^date = "2022-11-18"
 * ^purpose = "To record general Observations of an individual."
 * . ^short = "FHIR general Observations Profile VKP"
 * code.coding ^slicing.discriminator.type = #pattern

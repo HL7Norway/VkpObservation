@@ -3,8 +3,8 @@ Parent: http://hl7.org/fhir/StructureDefinition/oxygensat
 Id: vkp-Observation-Oxygensat
 Title: "Vkp VitalSigns Observation - Oxygen saturation"
 Description: "Profile for oxygen saturation in VKP."
-* ^url = "http://hl7.no/fhir/StructureDefinition/vkp-Observation-Oxygensat"
-* ^version = "0.1.0000"
+* ^url = "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Oxygensat"
+* ^version = "0.2.2"
 * ^status = #draft
 * ^date = "2022-02-16"
 * ^purpose = "To record the eripheral oxygen saturation of an individual."

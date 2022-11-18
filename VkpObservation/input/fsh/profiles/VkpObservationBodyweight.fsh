@@ -3,8 +3,8 @@ Parent: http://hl7.org/fhir/StructureDefinition/bodyweight
 Id: vkp-Observation-Bodyweight
 Title: "Vkp VitalSigns Observation - Body weight"
 Description: "Profile for Body weight in VKP."
-* ^url = "http://hl7.no/fhir/StructureDefinition/vkp-Observation-Bodyweight"
-* ^version = "0.1.0"
+* ^url = "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bodyweight"
+* ^version = "0.2.2"
 * ^status = #draft
 * ^date = "2022-03-16"
 * ^purpose = "To record the body weight of an individual."
