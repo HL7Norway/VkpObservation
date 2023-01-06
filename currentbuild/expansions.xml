@@ -1,11 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="298c5de9-6a25-4870-a2a0-c1f6ad6dc1bd"/>
+  <id value="28919132-5b5d-4b39-b5e3-03e50d563fea"/>
   <meta>
-    <lastUpdated value="2022-11-18T08:59:26.773+00:00"/>
+    <lastUpdated value="2023-01-06T11:21:48.104+00:00"/>
   </meta>
   <type value="collection"/>
+  <entry>
+    <fullUrl value="http://ehelse.no/fhir/ValueSet/vkp-performer-identifiers.valueset"/>
+    <resource>
+      <ValueSet>
+        <id value="vkp-performer-identifiers.valueset"/>
+        <meta>
+          <lastUpdated value="2022-02-10T00:00:00+00:00"/>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 1 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-vkp-performer-identifiers.codesystem.html">Vkp Performer Identifier Systems CodeSystem v0.2.2 (CodeSystem)</a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---ehelse.no-fhir-CodeSystem-vkp-performer-identifiers.codesystem-urn-oid-2.16.578.1.12.4.1.4.1"> </a>  
+                  <a href="CodeSystem-vkp-performer-identifiers.codesystem.html#vkp-performer-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.461">urn:oid:2.16.578.1.12.4.1.4.1</a>
+                </td>
+                <td>http://ehelse.no/fhir/CodeSystem/vkp-performer-identifiers.codesystem</td>
+                <td>FNR</td>
+                <td>
+                  <div>
+                    <p>Fødselsnummer</p>
+
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="draft"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+          <valueInteger value="1"/>
+        </extension>
+        <url value="http://ehelse.no/fhir/ValueSet/vkp-performer-identifiers.valueset"/>
+        <version value="0.2.2"/>
+        <name value="VkpPerfomerIdentifiersValueSet"/>
+        <title value="VKP Performer Identifier systems ValueSet"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2021-03-17T00:00:00+00:00"/>
+        <publisher value="Direktoratet for e-helse"/>
+        <contact>
+          <telecom>
+            <system value="url"/>
+            <value value="http://ehelse.no/"/>
+          </telecom>
+        </contact>
+        <description value="Identifier Systems allowed for performer identification systems in Vkp Observations"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="NO"/>
+            <display value="Norway"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:3531d770-f260-4dcb-8806-61b63cc9ddfe"/>
+          <timestamp value="2023-01-06T11:22:34+00:00"/>
+          <total value="1"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://ehelse.no/fhir/CodeSystem/vkp-performer-identifiers.codesystem|0.2.2"/>
+          </parameter>
+          <contains>
+            <system value="http://ehelse.no/fhir/CodeSystem/vkp-performer-identifiers.codesystem"/>
+            <code value="urn:oid:2.16.578.1.12.4.1.4.1"/>
+            <display value="FNR"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
   <entry>
     <fullUrl value="http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodysitevalueset"/>
     <resource>
@@ -162,8 +259,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:badf13c6-f5dd-4d8e-a322-7b6fe0a6679a"/>
-          <timestamp value="2022-11-18T09:00:11+00:00"/>
+          <identifier value="urn:uuid:df3a6108-d981-4e3c-a893-c3eff3e0a9cf"/>
+          <timestamp value="2023-01-06T11:22:34+00:00"/>
           <total value="12"/>
           <parameter>
             <name value="excludeNested"/>
@@ -236,103 +333,6 @@
             <system value="http://snomed.info/sct"/>
             <code value="51114001"/>
             <display value="Intra-arterielt"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="http://ehelse.no/fhir/ValueSet/vkp-performer-identifiers.valueset"/>
-    <resource>
-      <ValueSet>
-        <id value="vkp-performer-identifiers.valueset"/>
-        <meta>
-          <lastUpdated value="2022-02-10T00:00:00+00:00"/>
-          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
-        </meta>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 1 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-vkp-performer-identifiers.codesystem.html">Vkp Performer Identifier Systems CodeSystem v0.2.2 (CodeSystem)</a>
-            </p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-                <td>
-                  <b>Definition</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---ehelse.no-fhir-CodeSystem-vkp-performer-identifiers.codesystem-urn-oid-2.16.578.1.12.4.1.4.1"> </a>  
-                  <a href="CodeSystem-vkp-performer-identifiers.codesystem.html#vkp-performer-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.461">urn:oid:2.16.578.1.12.4.1.4.1</a>
-                </td>
-                <td>http://ehelse.no/fhir/CodeSystem/vkp-performer-identifiers.codesystem</td>
-                <td>FNR</td>
-                <td>
-                  <div>
-                    <p>Fødselsnummer</p>
-
-                  </div>
-                </td>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-          <valueCode value="draft"/>
-        </extension>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
-          <valueInteger value="1"/>
-        </extension>
-        <url value="http://ehelse.no/fhir/ValueSet/vkp-performer-identifiers.valueset"/>
-        <version value="0.2.2"/>
-        <name value="VkpPerfomerIdentifiersValueSet"/>
-        <title value="VKP Performer Identifier systems ValueSet"/>
-        <status value="draft"/>
-        <experimental value="false"/>
-        <date value="2021-03-17T00:00:00+00:00"/>
-        <publisher value="Direktoratet for e-helse"/>
-        <contact>
-          <telecom>
-            <system value="url"/>
-            <value value="http://ehelse.no/"/>
-          </telecom>
-        </contact>
-        <description value="Identifier Systems allowed for performer identification systems in Vkp Observations"/>
-        <jurisdiction>
-          <coding>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="NO"/>
-            <display value="Norway"/>
-          </coding>
-        </jurisdiction>
-        <expansion>
-          <identifier value="urn:uuid:aecf64ff-789b-43a0-8339-94280a2a4538"/>
-          <timestamp value="2022-11-18T09:00:12+00:00"/>
-          <total value="1"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="http://ehelse.no/fhir/CodeSystem/vkp-performer-identifiers.codesystem|0.2.2"/>
-          </parameter>
-          <contains>
-            <system value="http://ehelse.no/fhir/CodeSystem/vkp-performer-identifiers.codesystem"/>
-            <code value="urn:oid:2.16.578.1.12.4.1.4.1"/>
-            <display value="FNR"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -443,8 +443,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:98c43b7c-7294-4f91-8999-20e872b393ff"/>
-          <timestamp value="2022-11-18T09:00:12+00:00"/>
+          <identifier value="urn:uuid:a593e076-fe3b-46f0-af39-54b1d08b0a25"/>
+          <timestamp value="2023-01-06T11:22:49+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>

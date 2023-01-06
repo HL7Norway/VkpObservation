@@ -7,7 +7,7 @@
 
 <http://ehelse.no/fhir/ValueSet/vkp-performer-identifiers.valueset> a fhir:ValueSet;
   fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "vkp-performer-identifiers.valueset"];
+  fhir:Resource.id [ fhir:value "vkp-performer-identifiers.valueset"]; # 
   fhir:Resource.meta [
      fhir:Meta.lastUpdated [ fhir:value "2022-02-10T00:00:00+00:00"^^xsd:dateTime ];
      fhir:Meta.profile [
@@ -15,11 +15,11 @@
        fhir:index 0;
        fhir:link <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
      ]
-  ];
+  ]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
      fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-vkp-performer-identifiers.codesystem.html\"><code>http://ehelse.no/fhir/CodeSystem/vkp-performer-identifiers.codesystem</code></a></li></ul></div>"
-  ];
+  ]; # 
   fhir:DomainResource.extension [
      fhir:index 0;
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status" ];
@@ -28,15 +28,15 @@
      fhir:index 1;
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm" ];
      fhir:Extension.valueInteger [ fhir:value "1"^^xsd:integer ]
-  ];
-  fhir:ValueSet.url [ fhir:value "http://ehelse.no/fhir/ValueSet/vkp-performer-identifiers.valueset"];
-  fhir:ValueSet.version [ fhir:value "0.2.2"];
-  fhir:ValueSet.name [ fhir:value "VkpPerfomerIdentifiersValueSet"];
-  fhir:ValueSet.title [ fhir:value "VKP Performer Identifier systems ValueSet"];
-  fhir:ValueSet.status [ fhir:value "draft"];
-  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:ValueSet.date [ fhir:value "2021-03-17T00:00:00+00:00"^^xsd:dateTime];
-  fhir:ValueSet.publisher [ fhir:value "Direktoratet for e-helse"];
+  ]; # 
+  fhir:ValueSet.url [ fhir:value "http://ehelse.no/fhir/ValueSet/vkp-performer-identifiers.valueset"]; # 
+  fhir:ValueSet.version [ fhir:value "0.2.2"]; # 
+  fhir:ValueSet.name [ fhir:value "VkpPerfomerIdentifiersValueSet"]; # 
+  fhir:ValueSet.title [ fhir:value "VKP Performer Identifier systems ValueSet"]; # 
+  fhir:ValueSet.status [ fhir:value "draft"]; # 
+  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean]; # 
+  fhir:ValueSet.date [ fhir:value "2021-03-17T00:00:00+00:00"^^xsd:dateTime]; # 
+  fhir:ValueSet.publisher [ fhir:value "Direktoratet for e-helse"]; # 
   fhir:ValueSet.contact [
      fhir:index 0;
      fhir:ContactDetail.telecom [
@@ -44,8 +44,8 @@
        fhir:ContactPoint.system [ fhir:value "url" ];
        fhir:ContactPoint.value [ fhir:value "http://ehelse.no/" ]
      ]
-  ];
-  fhir:ValueSet.description [ fhir:value "Identifier Systems allowed for performer identification systems in Vkp Observations"];
+  ]; # 
+  fhir:ValueSet.description [ fhir:value "Identifier Systems allowed for performer identification systems in Vkp Observations"]; # 
   fhir:ValueSet.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [
@@ -54,13 +54,13 @@
        fhir:Coding.code [ fhir:value "NO" ];
        fhir:Coding.display [ fhir:value "Norway" ]
      ]
-  ];
+  ]; # 
   fhir:ValueSet.compose [
      fhir:ValueSet.compose.include [
        fhir:index 0;
        fhir:ValueSet.compose.include.system [ fhir:value "http://ehelse.no/fhir/CodeSystem/vkp-performer-identifiers.codesystem" ]
      ]
-  ] .
+  ] . # 
 
 # - ontology header ------------------------------------------------------------
 

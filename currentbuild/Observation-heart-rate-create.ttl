@@ -9,16 +9,16 @@
 
 <http://ehelse.no/fhir/Observation/heart-rate-create> a fhir:Observation;
   fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "heart-rate-create"];
+  fhir:Resource.id [ fhir:value "heart-rate-create"]; # 
   fhir:Resource.meta [
      fhir:Meta.versionId [ fhir:value "0" ];
      fhir:Meta.lastUpdated [ fhir:value "2014-01-30T22:35:23+11:00"^^xsd:dateTime ];
      fhir:Meta.source [ fhir:value "META_VISION" ]
-  ];
+  ]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"heart-rate-create\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation \"heart-rate-create\" Version \"0\" Updated \"2014-01-30 10:35:23+1100\" </p><p style=\"margin-bottom: 0px\">Information Source: META_VISION!</p></div><p><b style=\"color: maroon\">Exception generating Narrative: unknown extension http://hl7.org/fhir/StructureDefinition/no-domain-vitalsignsobservation-heartrhythmextension</b></p></div>"
-  ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"heart-rate-create\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;heart-rate-create&quot; Version &quot;0&quot; Updated &quot;2014-01-30 22:35:23+1100&quot; </p><p style=\"margin-bottom: 0px\">Information Source: META_VISION!</p></div><p><b style=\"color: maroon\">Exception generating Narrative: unknown extension http://hl7.org/fhir/StructureDefinition/no-domain-vitalsignsobservation-heartrhythmextension</b></p></div>"
+  ]; # 
   fhir:DomainResource.extension [
      fhir:index 0;
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/no-domain-vitalsignsobservation-heartrhythmextension" ];
@@ -67,13 +67,13 @@
        fhir:Coding.code [ fhir:value "251894003" ];
        fhir:Coding.display [ fhir:value "Level of Exertion (attribute)" ]
      ]
-  ];
+  ]; # 
   fhir:Observation.identifier [
      fhir:index 0;
      fhir:Identifier.system [ fhir:value "http://dips.no/fhir/namingsystem/externalId" ];
      fhir:Identifier.value [ fhir:value "External Id: testpulseExternalId6" ]
-  ];
-  fhir:Observation.status [ fhir:value "final"];
+  ]; # 
+  fhir:Observation.status [ fhir:value "final"]; # 
   fhir:Observation.category [
      fhir:index 0;
      fhir:CodeableConcept.coding [
@@ -81,7 +81,7 @@
        fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/observation-category" ];
        fhir:Coding.code [ fhir:value "vital-signs" ]
      ]
-  ];
+  ]; # 
   fhir:Observation.code [
      fhir:CodeableConcept.coding [
        fhir:index 0;
@@ -90,7 +90,7 @@
        fhir:Coding.code [ fhir:value "8867-4" ];
        fhir:Coding.display [ fhir:value "Heart rate (observable entity)" ]
      ]
-  ];
+  ]; # 
   fhir:Observation.subject [
      fhir:link <http://ehelse.no/fhir/patient/cdp1000239>;
      fhir:Reference.reference [ fhir:value "patient/cdp1000239" ];
@@ -98,12 +98,12 @@
        fhir:Identifier.system [ fhir:value "http://dips.no/fhir/namingsystem/dips-patientid" ];
        fhir:Identifier.value [ fhir:value "1000239" ]
      ]
-  ];
+  ]; # 
   fhir:Observation.encounter [
      fhir:link <http://ehelse.no/fhir/Encounter/agy1000245>;
      fhir:Reference.reference [ fhir:value "Encounter/agy1000245" ]
-  ];
-  fhir:Observation.effectiveDateTime [ fhir:value "2021-05-10"^^xsd:date];
+  ]; # 
+  fhir:Observation.effectiveDateTime [ fhir:value "2021-05-10"^^xsd:date]; # 
   fhir:Observation.performer [
      fhir:index 0;
      fhir:Reference.identifier [
@@ -118,17 +118,17 @@
        fhir:Identifier.system [ fhir:value "urn:oid:1.3.6.1.4.1.9038.70.3" ];
        fhir:Identifier.value [ fhir:value "22" ]
      ]
-  ];
+  ]; # 
   fhir:Observation.valueQuantity [
      fhir:Quantity.value [ fhir:value "61"^^xsd:decimal ];
      fhir:Quantity.unit [ fhir:value "/min" ];
      fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ];
      fhir:Quantity.code [ fhir:value "/min" ]
-  ];
+  ]; # 
   fhir:Observation.note [
      fhir:index 0;
      fhir:Annotation.text [ fhir:value "Demo heart rate" ]
-  ];
+  ]; # 
   fhir:Observation.bodySite [
      fhir:CodeableConcept.coding [
        fhir:index 0;
@@ -137,7 +137,7 @@
        fhir:Coding.code [ fhir:value "7569003" ];
        fhir:Coding.display [ fhir:value "Finger structure (body structure)" ]
      ]
-  ];
+  ]; # 
   fhir:Observation.method [
      fhir:CodeableConcept.coding [
        fhir:index 0;
@@ -146,7 +146,7 @@
        fhir:Coding.code [ fhir:value "129434008" ];
        fhir:Coding.display [ fhir:value "Palpation" ]
      ]
-  ] .
+  ] . # 
 
 # - ontology header ------------------------------------------------------------
 
