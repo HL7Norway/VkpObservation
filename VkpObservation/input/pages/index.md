@@ -32,13 +32,13 @@ Information exchange defined as the scope of delivery of Observation profiles in
 
 ## Scope stage 2
 
-Observations for NEWS2 score, respiration rate and alertness.  
+Observations for NEWS2 score, respiration rate and conciousness.  
 
 |Type observasjon|undertype|Profil|LOINC|SNOMED|
 |----------------|---------|------|-----|------|
-|NEWS2-score||VkpObservation|-|code: 1104051000000101 Royal College of Physicians NEWS2 (National Early Warning Score 2) total score|
+|NEWS2-score||VkpObservationNEWS2score|-|code: 1104051000000101 Royal College of Physicians NEWS2 (National Early Warning Score 2) total score|
 |respirasjonsrate||VkpObservationResprate|9279-1 Respiratory rate|86290005 Respiratory rate (observable entity)|
-|bevisthetsnivå||VkpObservation|-|code: 1104441000000107 Alert Confusion Voice Pain Unresponsive scale score (observable entity)|
+|bevisthetsnivå||VkpObservationConciousness|-|code: 1104441000000107 Alert Confusion Voice Pain Unresponsive scale score (observable entity)|
 
 ## Scope stage 3
 
