@@ -1,5 +1,5 @@
 Profile: VkpObservationConsciousness
-Parent: http://hl7.org/fhir/StructureDefinition/VkpObservation
+Parent: Observation
 Id: vkp-Observation-Consciousness
 Title: "Vkp Observation - Consciousness"
 Description: "Profile for Consciousness in VKP."
