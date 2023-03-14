@@ -3,7 +3,7 @@
 
 err = 78, warn = 56, info = 7
 IG Publisher Version: 1.2.45
-Generated Tue Mar 14 11:40:34 UTC 2023. FHIR version 4.0.1 for ehelse.fhir.no.vkp.observation#0.3.0 (canonical = http://ehelse.no/fhir)
+Generated Tue Mar 14 12:08:30 UTC 2023. FHIR version 4.0.1 for ehelse.fhir.no.vkp.observation#0.3.0 (canonical = http://ehelse.no/fhir)
  Build Errors : 1 / 17 / 0
  /github/workspace/VkpObservation/fsh-generated/resources/CodeSystem-vkp-performer-identifiers.codesystem : 0 / 2 / 2
  /github/workspace/VkpObservation/fsh-generated/resources/CodeSystem-vkp-subject-identifiers.codesystem : 0 / 2 / 2

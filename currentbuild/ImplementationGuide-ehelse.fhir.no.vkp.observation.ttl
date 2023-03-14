@@ -16,7 +16,7 @@
   fhir:version [ fhir:v "0.3.0"] ; # 
   fhir:name [ fhir:v "VkpObservation"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-03-14T11:36:49+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-03-14T12:07:24+00:00"^^xsd:dateTime] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
