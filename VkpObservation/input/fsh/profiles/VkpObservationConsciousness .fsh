@@ -9,6 +9,10 @@ Description: "Profile for Consciousness in VKP."
 * ^date = "2023-03-14"
 * ^purpose = "To record the consciousness rate of an individual."
 * . ^short = "FHIR consciousness rate Profile VKP"
+* code.coding ^slicing.discriminator.type = #pattern
+* code.coding ^slicing.discriminator.path = "system"
+* code.coding ^slicing.rules = #open
+* code.coding ^slicing.description = "Slices for SCT coding of Observation.code"
 * code.coding contains
   ConsciousnessSCTCode 0..* MS
 * code.coding[ConsciousnessSCTCode].system = $sct

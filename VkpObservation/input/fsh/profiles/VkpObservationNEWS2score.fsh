@@ -9,6 +9,10 @@ Description: "Profile for NEWS2 score in VKP."
 * ^date = "2023-03-14"
 * ^purpose = "To record the NEWS2 score of an individual (will be updated with norwegian NEWS2 score code when this is established)"
 * . ^short = "FHIR NEWS2 score Profile VKP"
+* code.coding ^slicing.discriminator.type = #pattern
+* code.coding ^slicing.discriminator.path = "system"
+* code.coding ^slicing.rules = #open
+* code.coding ^slicing.description = "Slices for SCT coding of Observation.code"
 * code.coding contains
   NEWS2scoreSCTCode 0..* MS
 * code.coding[NEWS2scoreSCTCode].system = $sct
