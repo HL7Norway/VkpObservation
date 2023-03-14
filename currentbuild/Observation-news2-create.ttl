@@ -6,232 +6,207 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://ehelse.no/fhir/Observation/news2-create> a fhir:Observation;
-  fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "news2-create"]; # 
-  fhir:Resource.meta [
-     fhir:Meta.versionId [ fhir:value "0" ];
-     fhir:Meta.lastUpdated [ fhir:value "2014-01-30T11:35:23+00:00"^^xsd:dateTime ];
-     fhir:Meta.source [ fhir:value "MEDANETS" ]
-  ]; # 
-  fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"news2-create\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;news2-create&quot; Version &quot;0&quot; Updated &quot;2014-01-30 11:35:23+0000&quot; </p><p style=\"margin-bottom: 0px\">Information Source: MEDANETS!</p></div><p><b>identifier</b>: id: External Id: testNEWS2</p><p><b>status</b>: final</p><p><b>category</b>: Survey <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#survey)</span></p><p><b>code</b>: NEWS2 (National Early Warning Score 2) total score <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#1104051000000101)</span></p><p><b>subject</b>: <a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.1.1&amp;canonical=http://hl7.no/fhir//Patient/cdp1000807\">Patient/cdp1000807</a></p><p><b>effective</b>: 2021-11-02</p><p><b>performer</b>: </p><ul><li><a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.1.1&amp;canonical=http://hl7.no/fhir//Organization/afa22\">Organization/afa22</a></li><li><a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.1.1&amp;canonical=http://hl7.no/fhir//PractitionerRole/agb103\">PractitionerRole/agb103</a></li></ul><p><b>value</b>: 20 score<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code score = 'score')</span></p><blockquote><p><b>component</b></p><p><b>code</b>: NEWS2 (National Early Warning Score 2) - respiration rate score <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#1104301000000104)</span></p><p><b>value</b>: 3 ScoreOf<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code {ScoreOf} = '{ScoreOf}')</span></p><p><b>interpretation</b>: ≥25 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>:  NEWS2 (National Early Warning Score 2) - oxygen saturation scale 2 score <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#1104321000000108)</span></p><p><b>value</b>: 3 ScoreOf<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code {ScoreOf} = '{ScoreOf}')</span></p><p><b>interpretation</b>: 93–94 med oksygentilførsel <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: NEWS2 (National Early Warning Score 2) - air or oxygen score <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#1104331000000105)</span></p><p><b>value</b>: 2 ScoreOf<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code {ScoreOf} = '{ScoreOf}')</span></p><p><b>interpretation</b>: Oksygen <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: NEWS2 (National Early Warning Score 2) - pulse score <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#1104351000000103)</span></p><p><b>value</b>: 3 ScoreOf<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code {ScoreOf} = '{ScoreOf}')</span></p><p><b>interpretation</b>: ≤40 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: NEWS2 (National Early Warning Score 2) - systolic blood pressure score <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#1104341000000101)</span></p><p><b>value</b>: 3 ScoreOf<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code {ScoreOf} = '{ScoreOf}')</span></p><p><b>interpretation</b>: ≤90 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: NEWS2 (National Early Warning Score 2) - consciousness score <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#1104361000000100)</span></p><p><b>value</b>: 3 ScoreOf<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code {ScoreOf} = '{ScoreOf}')</span></p><p><b>interpretation</b>: C, V, P eller U <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: NEWS2 (National Early Warning Score 2) - temperature score <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#1104371000000107)</span></p><p><b>value</b>: 3 ScoreOf<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code {ScoreOf} = '{ScoreOf}')</span></p><p><b>interpretation</b>: ≤35.0 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></p></blockquote></div>"
-  ]; # 
-  fhir:DomainResource.extension [
-     fhir:index 0;
-     fhir:Extension.url [ fhir:value "http://hl7.no/fhir/StructureDefinition/hn-domain-vitalsignsobservation-news2score-clinical-ratio-extension" ];
-     fhir:Extension.valueString [ fhir:value "Høy" ]
-  ]; # 
-  fhir:Observation.identifier [
-     fhir:index 0;
-     fhir:Identifier.system [ fhir:value "http://dips.no/fhir/namingsystem/externalId" ];
-     fhir:Identifier.value [ fhir:value "External Id: testNEWS2" ]
-  ]; # 
-  fhir:Observation.status [ fhir:value "final"]; # 
-  fhir:Observation.category [
-     fhir:index 0;
-     fhir:CodeableConcept.coding [
-       fhir:index 0;
-       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/observation-category" ];
-       fhir:Coding.code [ fhir:value "survey" ];
-       fhir:Coding.display [ fhir:value "Survey" ]
+<http://ehelse.no/fhir/Observation/news2-create> a fhir:Observation ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "news2-create"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "0" ] ;
+     fhir:lastUpdated [ fhir:v "2014-01-30T11:35:23+00:00"^^xsd:dateTime ] ;
+     fhir:source [ fhir:v "MEDANETS"^^xsd:anyURI ]
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"news2-create\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;news2-create&quot; Version &quot;0&quot; Updated &quot;2014-01-30 11:35:23+0000&quot; </p><p style=\"margin-bottom: 0px\">Information Source: MEDANETS!</p></div><p><b>identifier</b>: id: External Id: testNEWS2</p><p><b>status</b>: final</p><p><b>category</b>: Survey <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#survey)</span></p><p><b>code</b>: NEWS2 (National Early Warning Score 2) total score <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#1104051000000101)</span></p><p><b>subject</b>: <a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.1.2&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/Patient/cdp1000807\">Patient/cdp1000807</a></p><p><b>effective</b>: 2021-11-02</p><p><b>performer</b>: </p><ul><li><a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.1.2&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/Organization/afa22\">Organization/afa22</a></li><li><a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.1.2&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/PractitionerRole/agb103\">PractitionerRole/agb103</a></li></ul><p><b>value</b>: 20 score<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code score = 'score')</span></p><blockquote><p><b>component</b></p><p><b>code</b>: NEWS2 (National Early Warning Score 2) - respiration rate score <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#1104301000000104)</span></p><p><b>value</b>: 3 ScoreOf<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code {ScoreOf} = '{ScoreOf}')</span></p><p><b>interpretation</b>: ≥25 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>:  NEWS2 (National Early Warning Score 2) - oxygen saturation scale 2 score <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#1104321000000108)</span></p><p><b>value</b>: 3 ScoreOf<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code {ScoreOf} = '{ScoreOf}')</span></p><p><b>interpretation</b>: 93–94 med oksygentilførsel <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: NEWS2 (National Early Warning Score 2) - air or oxygen score <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#1104331000000105)</span></p><p><b>value</b>: 2 ScoreOf<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code {ScoreOf} = '{ScoreOf}')</span></p><p><b>interpretation</b>: Oksygen <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: NEWS2 (National Early Warning Score 2) - pulse score <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#1104351000000103)</span></p><p><b>value</b>: 3 ScoreOf<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code {ScoreOf} = '{ScoreOf}')</span></p><p><b>interpretation</b>: ≤40 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: NEWS2 (National Early Warning Score 2) - systolic blood pressure score <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#1104341000000101)</span></p><p><b>value</b>: 3 ScoreOf<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code {ScoreOf} = '{ScoreOf}')</span></p><p><b>interpretation</b>: ≤90 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: NEWS2 (National Early Warning Score 2) - consciousness score <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#1104361000000100)</span></p><p><b>value</b>: 3 ScoreOf<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code {ScoreOf} = '{ScoreOf}')</span></p><p><b>interpretation</b>: C, V, P eller U <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: NEWS2 (National Early Warning Score 2) - temperature score <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#1104371000000107)</span></p><p><b>value</b>: 3 ScoreOf<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code {ScoreOf} = '{ScoreOf}')</span></p><p><b>interpretation</b>: ≤35.0 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></p></blockquote></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.no/fhir/StructureDefinition/hn-domain-vitalsignsobservation-news2score-clinical-ratio-extension"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "Høy" ]
+  ] ) ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "http://dips.no/fhir/namingsystem/externalId"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "External Id: testNEWS2" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:category ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "survey" ] ;
+       fhir:display [ fhir:v "Survey" ]
+     ] )
+  ] ) ; # 
+  fhir:code [
+     fhir:coding ( [
+       a sct:1104051000000101 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "1104051000000101" ] ;
+       fhir:display [ fhir:v "NEWS2 (National Early Warning Score 2) total score" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://ehelse.no/fhir/Patient/cdp1000807> ;
+     fhir:reference [ fhir:v "Patient/cdp1000807" ] ;
+     fhir:identifier [
+       fhir:system [ fhir:v "http://dips.no/fhir/namingsystem/dips-patientid"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "1000807" ]
      ]
-  ]; # 
-  fhir:Observation.code [
-     fhir:CodeableConcept.coding [
-       fhir:index 0;
-       a sct:1104051000000101;
-       fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
-       fhir:Coding.code [ fhir:value "1104051000000101" ];
-       fhir:Coding.display [ fhir:value "NEWS2 (National Early Warning Score 2) total score" ]
+  ] ; # 
+  fhir:effective [ fhir:v "2021-11-02"^^xsd:date] ; # 
+  fhir:performer ( [
+     fhir:link <http://ehelse.no/fhir/Organization/afa22> ;
+     fhir:reference [ fhir:v "Organization/afa22" ] ;
+     fhir:identifier [
+       fhir:system [ fhir:v "urn:oid:1.3.6.1.4.1.9038.70.3"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "22" ]
      ]
-  ]; # 
-  fhir:Observation.subject [
-     fhir:link <http://ehelse.no/fhir/Patient/cdp1000807>;
-     fhir:Reference.reference [ fhir:value "Patient/cdp1000807" ];
-     fhir:Reference.identifier [
-       fhir:Identifier.system [ fhir:value "http://dips.no/fhir/namingsystem/dips-patientid" ];
-       fhir:Identifier.value [ fhir:value "1000807" ]
+  ] [
+     fhir:link <http://ehelse.no/fhir/PractitionerRole/agb103> ;
+     fhir:reference [ fhir:v "PractitionerRole/agb103" ] ;
+     fhir:identifier [
+       fhir:system [ fhir:v "urn:oid:1.3.6.1.4.1.9038.51.1"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "103" ]
      ]
-  ]; # 
-  fhir:Observation.effectiveDateTime [ fhir:value "2021-11-02"^^xsd:date]; # 
-  fhir:Observation.performer [
-     fhir:index 0;
-     fhir:link <http://ehelse.no/fhir/Organization/afa22>;
-     fhir:Reference.reference [ fhir:value "Organization/afa22" ];
-     fhir:Reference.identifier [
-       fhir:Identifier.system [ fhir:value "urn:oid:1.3.6.1.4.1.9038.70.3" ];
-       fhir:Identifier.value [ fhir:value "22" ]
-     ]
-  ], [
-     fhir:index 1;
-     fhir:link <http://ehelse.no/fhir/PractitionerRole/agb103>;
-     fhir:Reference.reference [ fhir:value "PractitionerRole/agb103" ];
-     fhir:Reference.identifier [
-       fhir:Identifier.system [ fhir:value "urn:oid:1.3.6.1.4.1.9038.51.1" ];
-       fhir:Identifier.value [ fhir:value "103" ]
-     ]
-  ]; # 
-  fhir:Observation.valueQuantity [
-     fhir:Quantity.value [ fhir:value "20"^^xsd:decimal ];
-     fhir:Quantity.unit [ fhir:value "score" ];
-     fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ];
-     fhir:Quantity.code [ fhir:value "score" ]
-  ]; # 
-  fhir:Observation.component [
-     fhir:index 0;
-     fhir:Observation.component.code [
-       fhir:CodeableConcept.coding [
-         fhir:index 0;
-         a sct:1104301000000104;
-         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
-         fhir:Coding.code [ fhir:value "1104301000000104" ];
-         fhir:Coding.display [ fhir:value "NEWS2 (National Early Warning Score 2) - respiration rate score" ]
-       ]
-     ];
-     fhir:Observation.component.valueQuantity [
-       fhir:Quantity.value [ fhir:value "3"^^xsd:decimal ];
-       fhir:Quantity.unit [ fhir:value "ScoreOf" ];
-       fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ];
-       fhir:Quantity.code [ fhir:value "{ScoreOf}" ]
-     ];
-     fhir:Observation.component.interpretation [
-       fhir:index 0;
-       fhir:CodeableConcept.text [ fhir:value "≥25" ]
-     ]
-  ], [
-     fhir:index 1;
-     fhir:Observation.component.code [
-       fhir:CodeableConcept.coding [
-         fhir:index 0;
-         a sct:1104321000000108;
-         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
-         fhir:Coding.code [ fhir:value "1104321000000108" ];
-         fhir:Coding.display [ fhir:value " NEWS2 (National Early Warning Score 2) - oxygen saturation scale 2 score" ]
-       ]
-     ];
-     fhir:Observation.component.valueQuantity [
-       fhir:Quantity.value [ fhir:value "3"^^xsd:decimal ];
-       fhir:Quantity.unit [ fhir:value "ScoreOf" ];
-       fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ];
-       fhir:Quantity.code [ fhir:value "{ScoreOf}" ]
-     ];
-     fhir:Observation.component.interpretation [
-       fhir:index 0;
-       fhir:CodeableConcept.text [ fhir:value "93–94 med oksygentilførsel" ]
-     ]
-  ], [
-     fhir:index 2;
-     fhir:Observation.component.code [
-       fhir:CodeableConcept.coding [
-         fhir:index 0;
-         a sct:1104331000000105;
-         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
-         fhir:Coding.code [ fhir:value "1104331000000105" ];
-         fhir:Coding.display [ fhir:value "NEWS2 (National Early Warning Score 2) - air or oxygen score" ]
-       ]
-     ];
-     fhir:Observation.component.valueQuantity [
-       fhir:Quantity.value [ fhir:value "2"^^xsd:decimal ];
-       fhir:Quantity.unit [ fhir:value "ScoreOf" ];
-       fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ];
-       fhir:Quantity.code [ fhir:value "{ScoreOf}" ]
-     ];
-     fhir:Observation.component.interpretation [
-       fhir:index 0;
-       fhir:CodeableConcept.text [ fhir:value "Oksygen" ]
-     ]
-  ], [
-     fhir:index 3;
-     fhir:Observation.component.code [
-       fhir:CodeableConcept.coding [
-         fhir:index 0;
-         a sct:1104351000000103;
-         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
-         fhir:Coding.code [ fhir:value "1104351000000103" ];
-         fhir:Coding.display [ fhir:value "NEWS2 (National Early Warning Score 2) - pulse score" ]
-       ]
-     ];
-     fhir:Observation.component.valueQuantity [
-       fhir:Quantity.value [ fhir:value "3"^^xsd:decimal ];
-       fhir:Quantity.unit [ fhir:value "ScoreOf" ];
-       fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ];
-       fhir:Quantity.code [ fhir:value "{ScoreOf}" ]
-     ];
-     fhir:Observation.component.interpretation [
-       fhir:index 0;
-       fhir:CodeableConcept.text [ fhir:value "≤40" ]
-     ]
-  ], [
-     fhir:index 4;
-     fhir:Observation.component.code [
-       fhir:CodeableConcept.coding [
-         fhir:index 0;
-         a sct:1104341000000101;
-         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
-         fhir:Coding.code [ fhir:value "1104341000000101" ];
-         fhir:Coding.display [ fhir:value "NEWS2 (National Early Warning Score 2) - systolic blood pressure score" ]
-       ]
-     ];
-     fhir:Observation.component.valueQuantity [
-       fhir:Quantity.value [ fhir:value "3"^^xsd:decimal ];
-       fhir:Quantity.unit [ fhir:value "ScoreOf" ];
-       fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ];
-       fhir:Quantity.code [ fhir:value "{ScoreOf}" ]
-     ];
-     fhir:Observation.component.interpretation [
-       fhir:index 0;
-       fhir:CodeableConcept.text [ fhir:value "≤90" ]
-     ]
-  ], [
-     fhir:index 5;
-     fhir:Observation.component.code [
-       fhir:CodeableConcept.coding [
-         fhir:index 0;
-         a sct:1104361000000100;
-         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
-         fhir:Coding.code [ fhir:value "1104361000000100" ];
-         fhir:Coding.display [ fhir:value "NEWS2 (National Early Warning Score 2) - consciousness score" ]
-       ]
-     ];
-     fhir:Observation.component.valueQuantity [
-       fhir:Quantity.value [ fhir:value "3"^^xsd:decimal ];
-       fhir:Quantity.unit [ fhir:value "ScoreOf" ];
-       fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ];
-       fhir:Quantity.code [ fhir:value "{ScoreOf}" ]
-     ];
-     fhir:Observation.component.interpretation [
-       fhir:index 0;
-       fhir:CodeableConcept.text [ fhir:value "C, V, P eller U" ]
-     ]
-  ], [
-     fhir:index 6;
-     fhir:Observation.component.code [
-       fhir:CodeableConcept.coding [
-         fhir:index 0;
-         a sct:1104371000000107;
-         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
-         fhir:Coding.code [ fhir:value "1104371000000107" ];
-         fhir:Coding.display [ fhir:value "NEWS2 (National Early Warning Score 2) - temperature score" ]
-       ]
-     ];
-     fhir:Observation.component.valueQuantity [
-       fhir:Quantity.value [ fhir:value "3"^^xsd:decimal ];
-       fhir:Quantity.unit [ fhir:value "ScoreOf" ];
-       fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ];
-       fhir:Quantity.code [ fhir:value "{ScoreOf}" ]
-     ];
-     fhir:Observation.component.interpretation [
-       fhir:index 0;
-       fhir:CodeableConcept.text [ fhir:value "≤35.0" ]
-     ]
-  ] . # 
-
-# - ontology header ------------------------------------------------------------
-
-<http://ehelse.no/fhir/Observation/news2-create.ttl> a owl:Ontology;
-  owl:imports fhir:fhir.ttl .
+  ] ) ; # 
+  fhir:value [
+     a fhir:Quantity ;
+     fhir:value [ fhir:v "20"^^xsd:decimal ] ;
+     fhir:unit [ fhir:v "score" ] ;
+     fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
+     fhir:code [ fhir:v "score" ]
+  ] ; # 
+  fhir:component ( [
+     fhir:code [
+       fhir:coding ( [
+         a sct:1104301000000104 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "1104301000000104" ] ;
+         fhir:display [ fhir:v "NEWS2 (National Early Warning Score 2) - respiration rate score" ]
+       ] )
+     ] ;
+     fhir:value [
+       a fhir:Quantity ;
+       fhir:value [ fhir:v "3"^^xsd:decimal ] ;
+       fhir:unit [ fhir:v "ScoreOf" ] ;
+       fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "{ScoreOf}" ]
+     ] ;
+     fhir:interpretation ( [
+       fhir:text [ fhir:v "≥25" ]
+     ] )
+  ] [
+     fhir:code [
+       fhir:coding ( [
+         a sct:1104321000000108 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "1104321000000108" ] ;
+         fhir:display [ fhir:v " NEWS2 (National Early Warning Score 2) - oxygen saturation scale 2 score" ]
+       ] )
+     ] ;
+     fhir:value [
+       a fhir:Quantity ;
+       fhir:value [ fhir:v "3"^^xsd:decimal ] ;
+       fhir:unit [ fhir:v "ScoreOf" ] ;
+       fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "{ScoreOf}" ]
+     ] ;
+     fhir:interpretation ( [
+       fhir:text [ fhir:v "93–94 med oksygentilførsel" ]
+     ] )
+  ] [
+     fhir:code [
+       fhir:coding ( [
+         a sct:1104331000000105 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "1104331000000105" ] ;
+         fhir:display [ fhir:v "NEWS2 (National Early Warning Score 2) - air or oxygen score" ]
+       ] )
+     ] ;
+     fhir:value [
+       a fhir:Quantity ;
+       fhir:value [ fhir:v "2"^^xsd:decimal ] ;
+       fhir:unit [ fhir:v "ScoreOf" ] ;
+       fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "{ScoreOf}" ]
+     ] ;
+     fhir:interpretation ( [
+       fhir:text [ fhir:v "Oksygen" ]
+     ] )
+  ] [
+     fhir:code [
+       fhir:coding ( [
+         a sct:1104351000000103 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "1104351000000103" ] ;
+         fhir:display [ fhir:v "NEWS2 (National Early Warning Score 2) - pulse score" ]
+       ] )
+     ] ;
+     fhir:value [
+       a fhir:Quantity ;
+       fhir:value [ fhir:v "3"^^xsd:decimal ] ;
+       fhir:unit [ fhir:v "ScoreOf" ] ;
+       fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "{ScoreOf}" ]
+     ] ;
+     fhir:interpretation ( [
+       fhir:text [ fhir:v "≤40" ]
+     ] )
+  ] [
+     fhir:code [
+       fhir:coding ( [
+         a sct:1104341000000101 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "1104341000000101" ] ;
+         fhir:display [ fhir:v "NEWS2 (National Early Warning Score 2) - systolic blood pressure score" ]
+       ] )
+     ] ;
+     fhir:value [
+       a fhir:Quantity ;
+       fhir:value [ fhir:v "3"^^xsd:decimal ] ;
+       fhir:unit [ fhir:v "ScoreOf" ] ;
+       fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "{ScoreOf}" ]
+     ] ;
+     fhir:interpretation ( [
+       fhir:text [ fhir:v "≤90" ]
+     ] )
+  ] [
+     fhir:code [
+       fhir:coding ( [
+         a sct:1104361000000100 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "1104361000000100" ] ;
+         fhir:display [ fhir:v "NEWS2 (National Early Warning Score 2) - consciousness score" ]
+       ] )
+     ] ;
+     fhir:value [
+       a fhir:Quantity ;
+       fhir:value [ fhir:v "3"^^xsd:decimal ] ;
+       fhir:unit [ fhir:v "ScoreOf" ] ;
+       fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "{ScoreOf}" ]
+     ] ;
+     fhir:interpretation ( [
+       fhir:text [ fhir:v "C, V, P eller U" ]
+     ] )
+  ] [
+     fhir:code [
+       fhir:coding ( [
+         a sct:1104371000000107 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "1104371000000107" ] ;
+         fhir:display [ fhir:v "NEWS2 (National Early Warning Score 2) - temperature score" ]
+       ] )
+     ] ;
+     fhir:value [
+       a fhir:Quantity ;
+       fhir:value [ fhir:v "3"^^xsd:decimal ] ;
+       fhir:unit [ fhir:v "ScoreOf" ] ;
+       fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "{ScoreOf}" ]
+     ] ;
+     fhir:interpretation ( [
+       fhir:text [ fhir:v "≤35.0" ]
+     ] )
+  ] ) . # 
 
 # -------------------------------------------------------------------------------------
 

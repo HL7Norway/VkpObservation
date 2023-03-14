@@ -1,5 +1,5 @@
 @prefix fhir: <http://hl7.org/fhir/> .
-@prefix loinc: <http://loinc.org/rdf#> .
+@prefix loinc: <https://loinc.org/rdf/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sct: <http://snomed.info/id/> .
@@ -7,169 +7,149 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://ehelse.no/fhir/Observation/vkp-blood-pressure-profile-create> a fhir:Observation;
-  fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "vkp-blood-pressure-profile-create"]; # 
-  fhir:Resource.meta [
-     fhir:Meta.versionId [ fhir:value "1" ];
-     fhir:Meta.lastUpdated [ fhir:value "2021-02-15T22:35:23+11:00"^^xsd:dateTime ];
-     fhir:Meta.source [ fhir:value "META_VISION" ];
-     fhir:Meta.profile [
-       fhir:value "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bloodpressure";
-       fhir:index 0;
+<http://ehelse.no/fhir/Observation/vkp-blood-pressure-profile-create> a fhir:Observation ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "vkp-blood-pressure-profile-create"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "1" ] ;
+     fhir:lastUpdated [ fhir:v "2021-02-15T22:35:23+11:00"^^xsd:dateTime ] ;
+     fhir:source [ fhir:v "META_VISION"^^xsd:anyURI ] ;
+     fhir:profile ( [
+       fhir:v "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bloodpressure"^^xsd:anyURI ;
        fhir:link <http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bloodpressure>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"vkp-blood-pressure-profile-create\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;vkp-blood-pressure-profile-create&quot; Version &quot;1&quot; Updated &quot;2021-02-15 22:35:23+1100&quot; </p><p style=\"margin-bottom: 0px\">Information Source: META_VISION!</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-vkp-Observation-Bloodpressure.html\">Vkp VitalSigns Observation - Blood pressure</a></p></div><p><b>identifier</b>: id: testprofileBPexternalId1</p><p><b>status</b>: final</p><p><b>category</b>: Vital Signs <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#vital-signs)</span></p><p><b>code</b>: Blood pressure panel with all children optional <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#85354-9)</span></p><p><b>subject</b>: <span/></p><p><b>effective</b>: 2021-05-10</p><p><b>performer</b>: <span/></p><p><b>note</b>: Test VKP Blood Pressure</p><p><b>bodySite</b>: Finger structure (body structure) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#7569003)</span></p><p><b>method</b>: Auscultation - action (qualifier value) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#129436005)</span></p><blockquote><p><b>component</b></p><p><b>code</b>: Systolic blood pressure <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#8480-6; <a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#271649006 &quot;Systolic Blood pressure&quot;)</span></p><p><b>value</b>: 123 mm[Hg]<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mm[Hg] = 'mm[Hg]')</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: Diastolic blood pressure <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#8462-4; <a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#271650006 &quot;Diastolic Blood pressure&quot;)</span></p><p><b>value</b>: 78 mm[Hg]<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mm[Hg] = 'mm[Hg]')</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: Mean blood pressure <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#8478-0)</span></p><p><b>value</b>: 93 mm[Hg]<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mm[Hg] = 'mm[Hg]')</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: Arterial pulse pressure <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#87179004)</span></p><p><b>value</b>: 45 mm[Hg]<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mm[Hg] = 'mm[Hg]')</span></p></blockquote></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "http://dips.no/fhir/namingsystem/externalId"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "testprofileBPexternalId1" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:category ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "vital-signs" ] ;
+       fhir:display [ fhir:v "Vital Signs" ]
+     ] )
+  ] ) ; # 
+  fhir:code [
+     fhir:coding ( [
+       a loinc:85354-9 ;
+       fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "85354-9" ] ;
+       fhir:display [ fhir:v "Blood pressure panel with all children optional" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:identifier [
+       fhir:system [ fhir:v "urn:oid:2.16.578.1.12.4.1.4.1"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "1000807" ]
      ]
-  ]; # 
-  fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"vkp-blood-pressure-profile-create\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;vkp-blood-pressure-profile-create&quot; Version &quot;1&quot; Updated &quot;2021-02-15 22:35:23+1100&quot; </p><p style=\"margin-bottom: 0px\">Information Source: META_VISION!</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-vkp-Observation-Bloodpressure.html\">Vkp VitalSigns Observation - Blood pressure</a></p></div><p><b>identifier</b>: id: testprofileBPexternalId1</p><p><b>status</b>: final</p><p><b>category</b>: Vital Signs <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#vital-signs)</span></p><p><b>code</b>: Blood pressure panel with all children optional <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#85354-9)</span></p><p><b>subject</b>: <span/></p><p><b>effective</b>: 2021-05-10</p><p><b>performer</b>: <span/></p><p><b>note</b>: Test VKP Blood Pressure</p><p><b>bodySite</b>: Finger structure (body structure) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#7569003)</span></p><p><b>method</b>: Auscultation - action (qualifier value) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#129436005)</span></p><blockquote><p><b>component</b></p><p><b>code</b>: Systolic blood pressure <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#8480-6; <a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#271649006 &quot;Systolic Blood pressure&quot;)</span></p><p><b>value</b>: 123 mm[Hg]<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mm[Hg] = 'mm[Hg]')</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: Diastolic blood pressure <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#8462-4; <a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#271650006 &quot;Diastolic Blood pressure&quot;)</span></p><p><b>value</b>: 78 mm[Hg]<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mm[Hg] = 'mm[Hg]')</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: Mean blood pressure <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#8478-0)</span></p><p><b>value</b>: 93 mm[Hg]<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mm[Hg] = 'mm[Hg]')</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: Arterial pulse pressure <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#87179004)</span></p><p><b>value</b>: 45 mm[Hg]<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mm[Hg] = 'mm[Hg]')</span></p></blockquote></div>"
-  ]; # 
-  fhir:Observation.identifier [
-     fhir:index 0;
-     fhir:Identifier.system [ fhir:value "http://dips.no/fhir/namingsystem/externalId" ];
-     fhir:Identifier.value [ fhir:value "testprofileBPexternalId1" ]
-  ]; # 
-  fhir:Observation.status [ fhir:value "final"]; # 
-  fhir:Observation.category [
-     fhir:index 0;
-     fhir:CodeableConcept.coding [
-       fhir:index 0;
-       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/observation-category" ];
-       fhir:Coding.code [ fhir:value "vital-signs" ];
-       fhir:Coding.display [ fhir:value "Vital Signs" ]
+  ] ; # 
+  fhir:effective [ fhir:v "2021-05-10"^^xsd:date] ; # 
+  fhir:performer ( [
+     fhir:identifier [
+       fhir:system [ fhir:v "urn:oid:2.16.578.1.12.4.1.4.1"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "103" ]
      ]
-  ]; # 
-  fhir:Observation.code [
-     fhir:CodeableConcept.coding [
-       fhir:index 0;
-       a loinc:85354-9;
-       fhir:Coding.system [ fhir:value "http://loinc.org" ];
-       fhir:Coding.code [ fhir:value "85354-9" ];
-       fhir:Coding.display [ fhir:value "Blood pressure panel with all children optional" ]
+  ] ) ; # 
+  fhir:note ( [
+     fhir:text [ fhir:v "Test VKP Blood Pressure" ]
+  ] ) ; # 
+  fhir:bodySite [
+     fhir:coding ( [
+       a sct:7569003 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "7569003" ] ;
+       fhir:display [ fhir:v "Finger structure (body structure)" ]
+     ] )
+  ] ; # 
+  fhir:method [
+     fhir:coding ( [
+       a sct:129436005 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "129436005" ] ;
+       fhir:display [ fhir:v "Auscultation - action (qualifier value)" ]
+     ] )
+  ] ; # 
+  fhir:component ( [
+     fhir:code [
+       fhir:coding ( [
+         a loinc:8480-6 ;
+         fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "8480-6" ] ;
+         fhir:display [ fhir:v "Systolic blood pressure" ]
+       ] [
+         a sct:271649006 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "271649006" ] ;
+         fhir:display [ fhir:v "Systolic Blood pressure" ]
+       ] )
+     ] ;
+     fhir:value [
+       a fhir:Quantity ;
+       fhir:value [ fhir:v "123"^^xsd:decimal ] ;
+       fhir:unit [ fhir:v "mm[Hg]" ] ;
+       fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "mm[Hg]" ]
      ]
-  ]; # 
-  fhir:Observation.subject [
-     fhir:Reference.identifier [
-       fhir:Identifier.system [ fhir:value "urn:oid:2.16.578.1.12.4.1.4.1" ];
-       fhir:Identifier.value [ fhir:value "1000807" ]
+  ] [
+     fhir:code [
+       fhir:coding ( [
+         a loinc:8462-4 ;
+         fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "8462-4" ] ;
+         fhir:display [ fhir:v "Diastolic blood pressure" ]
+       ] [
+         a sct:271650006 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "271650006" ] ;
+         fhir:display [ fhir:v "Diastolic Blood pressure" ]
+       ] )
+     ] ;
+     fhir:value [
+       a fhir:Quantity ;
+       fhir:value [ fhir:v "78"^^xsd:decimal ] ;
+       fhir:unit [ fhir:v "mm[Hg]" ] ;
+       fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "mm[Hg]" ]
      ]
-  ]; # 
-  fhir:Observation.effectiveDateTime [ fhir:value "2021-05-10"^^xsd:date]; # 
-  fhir:Observation.performer [
-     fhir:index 0;
-     fhir:Reference.identifier [
-       fhir:Identifier.system [ fhir:value "urn:oid:2.16.578.1.12.4.1.4.1" ];
-       fhir:Identifier.value [ fhir:value "103" ]
+  ] [
+     fhir:code [
+       fhir:coding ( [
+         a loinc:8478-0 ;
+         fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "8478-0" ] ;
+         fhir:display [ fhir:v "Mean blood pressure" ]
+       ] )
+     ] ;
+     fhir:value [
+       a fhir:Quantity ;
+       fhir:value [ fhir:v "93"^^xsd:decimal ] ;
+       fhir:unit [ fhir:v "mm[Hg]" ] ;
+       fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "mm[Hg]" ]
      ]
-  ]; # 
-  fhir:Observation.note [
-     fhir:index 0;
-     fhir:Annotation.text [ fhir:value "Test VKP Blood Pressure" ]
-  ]; # 
-  fhir:Observation.bodySite [
-     fhir:CodeableConcept.coding [
-       fhir:index 0;
-       a sct:7569003;
-       fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
-       fhir:Coding.code [ fhir:value "7569003" ];
-       fhir:Coding.display [ fhir:value "Finger structure (body structure)" ]
+  ] [
+     fhir:code [
+       fhir:coding ( [
+         a sct:87179004 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "87179004" ] ;
+         fhir:display [ fhir:v "Arterial pulse pressure" ]
+       ] )
+     ] ;
+     fhir:value [
+       a fhir:Quantity ;
+       fhir:value [ fhir:v "45"^^xsd:decimal ] ;
+       fhir:unit [ fhir:v "mm[Hg]" ] ;
+       fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "mm[Hg]" ]
      ]
-  ]; # 
-  fhir:Observation.method [
-     fhir:CodeableConcept.coding [
-       fhir:index 0;
-       a sct:129436005;
-       fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
-       fhir:Coding.code [ fhir:value "129436005" ];
-       fhir:Coding.display [ fhir:value "Auscultation - action (qualifier value)" ]
-     ]
-  ]; # 
-  fhir:Observation.component [
-     fhir:index 0;
-     fhir:Observation.component.code [
-       fhir:CodeableConcept.coding [
-         fhir:index 0;
-         a loinc:8480-6;
-         fhir:Coding.system [ fhir:value "http://loinc.org" ];
-         fhir:Coding.code [ fhir:value "8480-6" ];
-         fhir:Coding.display [ fhir:value "Systolic blood pressure" ]
-       ], [
-         fhir:index 1;
-         a sct:271649006;
-         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
-         fhir:Coding.code [ fhir:value "271649006" ];
-         fhir:Coding.display [ fhir:value "Systolic Blood pressure" ]
-       ]
-     ];
-     fhir:Observation.component.valueQuantity [
-       fhir:Quantity.value [ fhir:value "123"^^xsd:decimal ];
-       fhir:Quantity.unit [ fhir:value "mm[Hg]" ];
-       fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ];
-       fhir:Quantity.code [ fhir:value "mm[Hg]" ]
-     ]
-  ], [
-     fhir:index 1;
-     fhir:Observation.component.code [
-       fhir:CodeableConcept.coding [
-         fhir:index 0;
-         a loinc:8462-4;
-         fhir:Coding.system [ fhir:value "http://loinc.org" ];
-         fhir:Coding.code [ fhir:value "8462-4" ];
-         fhir:Coding.display [ fhir:value "Diastolic blood pressure" ]
-       ], [
-         fhir:index 1;
-         a sct:271650006;
-         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
-         fhir:Coding.code [ fhir:value "271650006" ];
-         fhir:Coding.display [ fhir:value "Diastolic Blood pressure" ]
-       ]
-     ];
-     fhir:Observation.component.valueQuantity [
-       fhir:Quantity.value [ fhir:value "78"^^xsd:decimal ];
-       fhir:Quantity.unit [ fhir:value "mm[Hg]" ];
-       fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ];
-       fhir:Quantity.code [ fhir:value "mm[Hg]" ]
-     ]
-  ], [
-     fhir:index 2;
-     fhir:Observation.component.code [
-       fhir:CodeableConcept.coding [
-         fhir:index 0;
-         a loinc:8478-0;
-         fhir:Coding.system [ fhir:value "http://loinc.org" ];
-         fhir:Coding.code [ fhir:value "8478-0" ];
-         fhir:Coding.display [ fhir:value "Mean blood pressure" ]
-       ]
-     ];
-     fhir:Observation.component.valueQuantity [
-       fhir:Quantity.value [ fhir:value "93"^^xsd:decimal ];
-       fhir:Quantity.unit [ fhir:value "mm[Hg]" ];
-       fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ];
-       fhir:Quantity.code [ fhir:value "mm[Hg]" ]
-     ]
-  ], [
-     fhir:index 3;
-     fhir:Observation.component.code [
-       fhir:CodeableConcept.coding [
-         fhir:index 0;
-         a sct:87179004;
-         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
-         fhir:Coding.code [ fhir:value "87179004" ];
-         fhir:Coding.display [ fhir:value "Arterial pulse pressure" ]
-       ]
-     ];
-     fhir:Observation.component.valueQuantity [
-       fhir:Quantity.value [ fhir:value "45"^^xsd:decimal ];
-       fhir:Quantity.unit [ fhir:value "mm[Hg]" ];
-       fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ];
-       fhir:Quantity.code [ fhir:value "mm[Hg]" ]
-     ]
-  ] . # 
-
-# - ontology header ------------------------------------------------------------
-
-<http://ehelse.no/fhir/Observation/vkp-blood-pressure-profile-create.ttl> a owl:Ontology;
-  owl:imports fhir:fhir.ttl .
+  ] ) . # 
 
 # -------------------------------------------------------------------------------------
 

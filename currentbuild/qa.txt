@@ -1,10 +1,10 @@
 ﻿VkpObservation : Validation Results
 =========================================
 
-err = 78, warn = 54, info = 7
-IG Publisher Version: 1.2.26
-Generated Fri Jan 06 11:25:28 UTC 2023. FHIR version 4.0.1 for ehelse.fhir.no.vkp.observation#0.2.2 (canonical = http://ehelse.no/fhir)
- Build Errors : 1 / 18 / 0
+err = 78, warn = 56, info = 7
+IG Publisher Version: 1.2.45
+Generated Tue Mar 14 11:40:34 UTC 2023. FHIR version 4.0.1 for ehelse.fhir.no.vkp.observation#0.3.0 (canonical = http://ehelse.no/fhir)
+ Build Errors : 1 / 17 / 0
  /github/workspace/VkpObservation/fsh-generated/resources/CodeSystem-vkp-performer-identifiers.codesystem : 0 / 2 / 2
  /github/workspace/VkpObservation/fsh-generated/resources/CodeSystem-vkp-subject-identifiers.codesystem : 0 / 2 / 2
  /github/workspace/VkpObservation/fsh-generated/resources/ImplementationGuide-ehelse.fhir.no.vkp.observation : 0 / 0 / 1
@@ -25,8 +25,11 @@ Generated Fri Jan 06 11:25:28 UTC 2023. FHIR version 4.0.1 for ehelse.fhir.no.vk
  /github/workspace/VkpObservation/fsh-generated/resources/StructureDefinition-vkp-Observation-Bloodpressure : 0 / 0 / 1
  /github/workspace/VkpObservation/fsh-generated/resources/StructureDefinition-vkp-Observation-Bodytemp : 0 / 0 / 1
  /github/workspace/VkpObservation/fsh-generated/resources/StructureDefinition-vkp-Observation-Bodyweight : 0 / 0 / 1
+ /github/workspace/VkpObservation/fsh-generated/resources/StructureDefinition-vkp-Observation-Consciousness : 0 / 1 / 1
  /github/workspace/VkpObservation/fsh-generated/resources/StructureDefinition-vkp-Observation-Heartrate : 0 / 0 / 1
+ /github/workspace/VkpObservation/fsh-generated/resources/StructureDefinition-vkp-Observation-NEWS2score : 0 / 1 / 1
  /github/workspace/VkpObservation/fsh-generated/resources/StructureDefinition-vkp-Observation-Oxygensat : 0 / 0 / 1
+ /github/workspace/VkpObservation/fsh-generated/resources/StructureDefinition-vkp-Observation-Resprate : 0 / 1 / 1
  /github/workspace/VkpObservation/fsh-generated/resources/ValueSet-NoDomainVitalSignsObservationBloodPressureBodySiteValueSet : 3 / 0 / 1
  /github/workspace/VkpObservation/fsh-generated/resources/ValueSet-NoDomainVitalSignsObservationBloodPressureMeasurementMethodValue : 4 / 1 / 1
  /github/workspace/VkpObservation/fsh-generated/resources/ValueSet-vkp-performer-identifiers.valueset : 0 / 0 / 1
@@ -34,7 +37,6 @@ Generated Fri Jan 06 11:25:28 UTC 2023. FHIR version 4.0.1 for ehelse.fhir.no.vk
 </table>
 == n/a ==
 ERROR: ImplementationGuide.definition.parameter[24].value: Supressed messages file not found
-WARNING: ImplementationGuide.dependency[1].url: The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/blood-pressure-create.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/body-height-create.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/body-mass-index-create.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
@@ -134,7 +136,7 @@ ERROR: Observation/news2-create: Observation.value.ofType(Quantity): Local Error
 ERROR: Observation/news2-create: Observation.component[0].code.coding[0]: Local Error: Resolved system http://snomed.info/sct, but the definition is not complete. Server Error: Unable to find code 1104301000000104 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20220731); The code "1104301000000104" is not valid in the system http://snomed.info/sct; The code provided (http://snomed.info/sct#1104301000000104) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://snomed.info/sct#1104301000000104'
 WARNING: Observation/news2-create: Observation.component[0].interpretation[0]: No code provided, and a code should be provided from the value set 'Observation Interpretation Codes' (http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1)
 ERROR: Observation/news2-create: Observation.component[1].code.coding[0]: Local Error: Resolved system http://snomed.info/sct, but the definition is not complete. Server Error: Unable to find code 1104321000000108 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20220731); The code "1104321000000108" is not valid in the system http://snomed.info/sct; The code provided (http://snomed.info/sct#1104321000000108) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://snomed.info/sct#1104321000000108'
-WARNING: Observation/news2-create: Observation.component[1].code.coding[0].display: value should not start or finish with whitespace ' NEWS2...score'
+WARNING: Observation/news2-create: Observation.component[1].code.coding[0].display: value should not start or finish with whitespace ' NEWS2 (National Early Warning Score 2) - oxygen saturation scale 2 score'
 WARNING: Observation/news2-create: Observation.component[1].interpretation[0]: No code provided, and a code should be provided from the value set 'Observation Interpretation Codes' (http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1)
 ERROR: Observation/news2-create: Observation.component[2].code.coding[0]: Local Error: Resolved system http://snomed.info/sct, but the definition is not complete. Server Error: Unable to find code 1104331000000105 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20220731); The code "1104331000000105" is not valid in the system http://snomed.info/sct; The code provided (http://snomed.info/sct#1104331000000105) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://snomed.info/sct#1104331000000105'
 WARNING: Observation/news2-create: Observation.component[2].interpretation[0]: No code provided, and a code should be provided from the value set 'Observation Interpretation Codes' (http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1)
@@ -171,8 +173,8 @@ ERROR: Observation/respiratory-rate-create: Observation.performer[0]: Unable to 
 ERROR: Observation/respiratory-rate-create: Observation.performer[1]: Unable to resolve resource with reference 'Organization/afa22'
 WARNING: Observation/respiratory-rate-create: Observation.interpretation[0]: No code provided, and a code should be provided from the value set 'Observation Interpretation Codes' (http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1)
 == fsh-generated/resources/Observation-vkp-blood-pressure-profile-create.json ==
-INFORMATION: Observation/vkp-blood-pressure-profile-create: Observation.component[2]: This element does not match any known slice defined in the profile http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bloodpressure|0.2.2
-INFORMATION: Observation/vkp-blood-pressure-profile-create: Observation.component[3]: This element does not match any known slice defined in the profile http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bloodpressure|0.2.2
+INFORMATION: Observation/vkp-blood-pressure-profile-create: Observation.component[2]: This element does not match any known slice defined in the profile http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bloodpressure|0.3.0
+INFORMATION: Observation/vkp-blood-pressure-profile-create: Observation.component[3]: This element does not match any known slice defined in the profile http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bloodpressure|0.3.0
 == fsh-generated/resources/Observation-vkp-body-temperature-create.json ==
 WARNING: Observation/vkp-body-temperature-create: Observation.bodySite.coding[0]: The display "Endetarm" is not a valid display for the code {http://snomed.info/sct}34402009 - should be one of ['Rectum', 'Rectum structure', 'Rectum structure (body structure)', 'Rectal structure'] (from http://tx.fhir.org/r4) for 'http://snomed.info/sct#34402009'
 == fsh-generated/resources/Observation-vkp-body-weight-create.json ==
@@ -184,8 +186,14 @@ INFORMATION: Observation/vkp-glucose-create: Observation.code.coding[2]: Code Sy
 == fsh-generated/resources/StructureDefinition-vkp-Observation-Bloodpressure.json ==
 == fsh-generated/resources/StructureDefinition-vkp-Observation-Bodytemp.json ==
 == fsh-generated/resources/StructureDefinition-vkp-Observation-Bodyweight.json ==
+== fsh-generated/resources/StructureDefinition-vkp-Observation-Consciousness.json ==
+WARNING: StructureDefinition.where(url = 'http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Consciousness'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-vkp-Observation-Heartrate.json ==
+== fsh-generated/resources/StructureDefinition-vkp-Observation-NEWS2score.json ==
+WARNING: StructureDefinition.where(url = 'http://ehelse.no/fhir/StructureDefinition/vkp-Observation-NEWS2score'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-vkp-Observation-Oxygensat.json ==
+== fsh-generated/resources/StructureDefinition-vkp-Observation-Resprate.json ==
+WARNING: StructureDefinition.where(url = 'http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Resprate'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/ValueSet-NoDomainVitalSignsObservationBloodPressureBodySiteValueSet.json ==
 ERROR: ValueSet.where(url = 'http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodysitevalueset'): Conformance resource /github/workspace/VkpObservation/fsh-generated/resources/ValueSet-NoDomainVitalSignsObservationBloodPressureBodySiteValueSet.json - the canonical URL (http://ehelse.no/fhir/ValueSet/NoDomainVitalSignsObservationBloodPressureBodySiteValueSet) does not match the URL (http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodysitevalueset)
 ERROR: ValueSet/NoDomainVitalSignsObservationBloodPressureBodySiteValueSet: ValueSet: The ShareableValueSet profile says that the title element is mandatory, but it is not found. HL7 Published value sets SHALL conform to the ShareableValueSet profile

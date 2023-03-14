@@ -1,6 +1,6 @@
 {
   "package": "ehelse.fhir.no.vkp.observation",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "fhirVersion": "4.0.1",
   "jurisdiction": "NO",
   "extensions": [],
@@ -23,12 +23,24 @@
         "title": "Vkp VitalSigns Observation - Body weight"
       },
       {
+        "url": "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Consciousness",
+        "title": "Vkp Observation - Consciousness"
+      },
+      {
         "url": "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Heartrate",
         "title": "Vkp VitalSigns Observation - Heart rate"
       },
       {
+        "url": "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-NEWS2score",
+        "title": "Vkp VitalSigns Observation - NEWS2 score"
+      },
+      {
         "url": "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Oxygensat",
         "title": "Vkp VitalSigns Observation - Oxygen saturation"
+      },
+      {
+        "url": "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Resprate",
+        "title": "Vkp VitalSigns Observation - Respiratory rate"
       }
     ]
   },
@@ -120,9 +132,6 @@
     "http://hl7.org/fhir/StructureDefinition/no-domain-vitalsignsobservation-sleepstatusextension": [
       "Observation"
     ],
-    "http://hl7.org/fhir/StructureDefinition/structuredefinition-category": [
-      "StructureDefinition"
-    ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint": [
       "StructureDefinition.snapshot.element"
     ],
@@ -131,9 +140,6 @@
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm": [
       "ValueSet"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category": [
-      "StructureDefinition"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status": [
       "StructureDefinition.snapshot.element",

@@ -6,10 +6,10 @@
     <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>VkpObservation</h2><p>The official URL for this implementation guide is: </p><pre>http://ehelse.no/fhir/ImplementationGuide/ehelse.fhir.no.vkp.observation</pre></div>
   </text>
   <url value="http://ehelse.no/fhir/ImplementationGuide/ehelse.fhir.no.vkp.observation"/>
-  <version value="0.2.2"/>
+  <version value="0.3.0"/>
   <name value="VkpObservation"/>
   <status value="draft"/>
-  <date value="2023-01-06T11:21:48+00:00"/>
+  <date value="2023-03-14T11:36:49+00:00"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -29,9 +29,9 @@
     <version value="5.0.0"/>
   </dependsOn>
   <dependsOn id="hl7_fhir_no_basis">
-    <uri value="http://hl7.no/fhir/"/>
+    <uri value="http://fhir.org/packages/hl7.fhir.no.basis/ImplementationGuide/hl7.fhir.no.basis"/>
     <packageId value="hl7.fhir.no.basis"/>
-    <version value="2.1.1"/>
+    <version value="2.1.2"/>
   </dependsOn>
   <definition>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -483,6 +483,17 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/vkp-Observation-Consciousness"/>
+      </reference>
+      <name value="Vkp Observation - Consciousness"/>
+      <description value="Profile for Consciousness in VKP."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/vkp-Observation-Heartrate"/>
       </reference>
       <name value="Vkp VitalSigns Observation - Heart rate"/>
@@ -494,10 +505,32 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/vkp-Observation-NEWS2score"/>
+      </reference>
+      <name value="Vkp VitalSigns Observation - NEWS2 score"/>
+      <description value="Profile for NEWS2 score in VKP."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/vkp-Observation-Oxygensat"/>
       </reference>
       <name value="Vkp VitalSigns Observation - Oxygen saturation"/>
       <description value="Profile for oxygen saturation in VKP."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/vkp-Observation-Resprate"/>
+      </reference>
+      <name value="Vkp VitalSigns Observation - Respiratory rate"/>
+      <description value="Profile for Respiratory rate in VKP."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

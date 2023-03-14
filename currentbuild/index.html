@@ -49,7 +49,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold"></span>
             <br/>
-            <span style="display:inline-block;">0.2.2 - ci-build
+            <span style="display:inline-block;">0.3.0 - ci-build
 
 
 
@@ -118,7 +118,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">VkpObservation - Local Development build (v0.2.2). See the <a href="http://ehelse.no/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">VkpObservation - Local Development build (v0.3.0). See the <a href="http://ehelse.no/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Home</h2>
   
 
@@ -133,7 +133,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <td colspan="4"><i>Official URL</i>: <span class="copy-text">http://ehelse.no/fhir/ImplementationGuide/ehelse.fhir.no.vkp.observation<button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://ehelse.no/fhir/ImplementationGuide/ehelse.fhir.no.vkp.observation"/></span>
       </td>
       <td><i>Version</i>:
-      <span class="copy-text">0.2.2<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://ehelse.no/fhir/ImplementationGuide/ehelse.fhir.no.vkp.observation|0.2.2"/></span>
+      <span class="copy-text">0.3.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://ehelse.no/fhir/ImplementationGuide/ehelse.fhir.no.vkp.observation|0.3.0"/></span>
       </td>
     </tr>
 
@@ -149,7 +149,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         
           Draft
           
-            as of 2023-01-06
+            as of 2023-03-14
           
         
       </td>
@@ -192,6 +192,7 @@ Scope of use is Personal connected health and care domain to exchange simple med
 <h2 id="interoperability-methods">Interoperability methods</h2>
 
 <p>The interactions from client to server.</p>
+
 <ul>
   <li>FHIR RESTful API</li>
 </ul>
@@ -281,7 +282,7 @@ Scope of use is Personal connected health and care domain to exchange simple med
 
 <h2 id="scope-stage-2">Scope stage 2</h2>
 
-<p>The next observations we want to specify</p>
+<p>Observations for NEWS2 score, respiration rate and alertness.</p>
 
 <table>
   <thead>
@@ -294,13 +295,6 @@ Scope of use is Personal connected health and care domain to exchange simple med
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>poengsum skjema</td>
-      <td> </td>
-      <td>VkpObservation</td>
-      <td>code: 74465-6 Questionnaire response document</td>
-      <td>?</td>
-    </tr>
     <tr>
       <td>NEWS2-score</td>
       <td> </td>
@@ -325,6 +319,30 @@ Scope of use is Personal connected health and care domain to exchange simple med
   </tbody>
 </table>
 
+<h2 id="scope-stage-3">Scope stage 3</h2>
+
+<p>Questionaire scores. Question, different coding for different questionnaire types? (COPD etc.)</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Type observasjon</th>
+      <th>undertype</th>
+      <th>Profil</th>
+      <th>LOINC</th>
+      <th>SNOMED</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>poengsum skjema</td>
+      <td> </td>
+      <td>VkpObservation</td>
+      <td>code: 74465-6 Questionnaire response document</td>
+      <td>?</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
@@ -350,7 +368,7 @@ Scope of use is Personal connected health and care domain to exchange simple med
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href=""></a>.  Package ehelse.fhir.no.vkp.observation#0.2.2 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jan 6, 2023 11:21+0000">2023-01-06</span>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href=""></a>.  Package ehelse.fhir.no.vkp.observation#0.3.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Mar 14, 2023 11:36+0000">2023-03-14</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

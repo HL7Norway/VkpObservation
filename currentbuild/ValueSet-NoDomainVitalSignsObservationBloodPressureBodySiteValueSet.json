@@ -22,7 +22,7 @@
     "valueInteger" : 1
   }],
   "url" : "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodysitevalueset",
-  "version" : "0.2.2",
+  "version" : "0.3.0",
   "name" : "NoDomainVitalSignsObservationBloodPressureBodySiteValueSet",
   "status" : "draft",
   "experimental" : false,

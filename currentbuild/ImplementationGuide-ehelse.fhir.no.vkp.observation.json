@@ -6,10 +6,10 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>VkpObservation</h2><p>The official URL for this implementation guide is: </p><pre>http://ehelse.no/fhir/ImplementationGuide/ehelse.fhir.no.vkp.observation</pre></div>"
   },
   "url" : "http://ehelse.no/fhir/ImplementationGuide/ehelse.fhir.no.vkp.observation",
-  "version" : "0.2.2",
+  "version" : "0.3.0",
   "name" : "VkpObservation",
   "status" : "draft",
-  "date" : "2023-01-06T11:21:48+00:00",
+  "date" : "2023-03-14T11:36:49+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -32,9 +32,9 @@
   },
   {
     "id" : "hl7_fhir_no_basis",
-    "uri" : "http://hl7.no/fhir/",
+    "uri" : "http://fhir.org/packages/hl7.fhir.no.basis/ImplementationGuide/hl7.fhir.no.basis",
     "packageId" : "hl7.fhir.no.basis",
-    "version" : "2.1.1"
+    "version" : "2.1.2"
   }],
   "definition" : {
     "extension" : [{
@@ -641,6 +641,18 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
+        "reference" : "StructureDefinition/vkp-Observation-Consciousness"
+      },
+      "name" : "Vkp Observation - Consciousness",
+      "description" : "Profile for Consciousness in VKP.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
         "reference" : "StructureDefinition/vkp-Observation-Heartrate"
       },
       "name" : "Vkp VitalSigns Observation - Heart rate",
@@ -653,10 +665,34 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
+        "reference" : "StructureDefinition/vkp-Observation-NEWS2score"
+      },
+      "name" : "Vkp VitalSigns Observation - NEWS2 score",
+      "description" : "Profile for NEWS2 score in VKP.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
         "reference" : "StructureDefinition/vkp-Observation-Oxygensat"
       },
       "name" : "Vkp VitalSigns Observation - Oxygen saturation",
       "description" : "Profile for oxygen saturation in VKP.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/vkp-Observation-Resprate"
+      },
+      "name" : "Vkp VitalSigns Observation - Respiratory rate",
+      "description" : "Profile for Respiratory rate in VKP.",
       "exampleBoolean" : false
     },
     {

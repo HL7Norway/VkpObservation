@@ -1,5 +1,5 @@
 @prefix fhir: <http://hl7.org/fhir/> .
-@prefix loinc: <http://loinc.org/rdf#> .
+@prefix loinc: <https://loinc.org/rdf/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sct: <http://snomed.info/id/> .
@@ -7,82 +7,70 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://ehelse.no/fhir/Observation/vkp-body-weight-create> a fhir:Observation;
-  fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "vkp-body-weight-create"]; # 
-  fhir:Resource.meta [
-     fhir:Meta.versionId [ fhir:value "1" ];
-     fhir:Meta.lastUpdated [ fhir:value "2022-03-17T22:35:23+11:00"^^xsd:dateTime ];
-     fhir:Meta.source [ fhir:value "Thomas" ];
-     fhir:Meta.profile [
-       fhir:value "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bodyweight";
-       fhir:index 0;
+<http://ehelse.no/fhir/Observation/vkp-body-weight-create> a fhir:Observation ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "vkp-body-weight-create"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "1" ] ;
+     fhir:lastUpdated [ fhir:v "2022-03-17T22:35:23+11:00"^^xsd:dateTime ] ;
+     fhir:source [ fhir:v "Thomas"^^xsd:anyURI ] ;
+     fhir:profile ( [
+       fhir:v "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bodyweight"^^xsd:anyURI ;
        fhir:link <http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bodyweight>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"vkp-body-weight-create\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;vkp-body-weight-create&quot; Version &quot;1&quot; Updated &quot;2022-03-17 22:35:23+1100&quot; </p><p style=\"margin-bottom: 0px\">Information Source: Thomas!</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-vkp-Observation-Bodyweight.html\">Vkp VitalSigns Observation - Body weight</a></p></div><p><b>identifier</b>: id: testBWexternalId3</p><p><b>status</b>: final</p><p><b>category</b>: Vital Signs <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#vital-signs)</span></p><p><b>code</b>: Body weight <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#29463-7; <a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#27113001 &quot;Body weight (observable entity)&quot;)</span></p><p><b>subject</b>: <span/></p><p><b>effective</b>: 2022-03-17</p><p><b>performer</b>: <span/></p><p><b>value</b>: 49000 g<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code g = 'g')</span></p><p><b>note</b>: Test Body Weight</p></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "http://dips.no/fhir/namingsystem/externalId"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "testBWexternalId3" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:category ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "vital-signs" ] ;
+       fhir:display [ fhir:v "Vital Signs" ]
+     ] )
+  ] ) ; # 
+  fhir:code [
+     fhir:coding ( [
+       a loinc:29463-7 ;
+       fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "29463-7" ] ;
+       fhir:display [ fhir:v "Body weight" ]
+     ] [
+       a sct:27113001 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "27113001" ] ;
+       fhir:display [ fhir:v "Body weight (observable entity)" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:identifier [
+       fhir:system [ fhir:v "urn:oid:2.16.578.1.12.4.1.4.1"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "1000807" ]
      ]
-  ]; # 
-  fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"vkp-body-weight-create\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;vkp-body-weight-create&quot; Version &quot;1&quot; Updated &quot;2022-03-17 22:35:23+1100&quot; </p><p style=\"margin-bottom: 0px\">Information Source: Thomas!</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-vkp-Observation-Bodyweight.html\">Vkp VitalSigns Observation - Body weight</a></p></div><p><b>identifier</b>: id: testBWexternalId3</p><p><b>status</b>: final</p><p><b>category</b>: Vital Signs <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#vital-signs)</span></p><p><b>code</b>: Body weight <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#29463-7; <a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#27113001 &quot;Body weight (observable entity)&quot;)</span></p><p><b>subject</b>: <span/></p><p><b>effective</b>: 2022-03-17</p><p><b>performer</b>: <span/></p><p><b>value</b>: 49000 g<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code g = 'g')</span></p><p><b>note</b>: Test Body Weight</p></div>"
-  ]; # 
-  fhir:Observation.identifier [
-     fhir:index 0;
-     fhir:Identifier.system [ fhir:value "http://dips.no/fhir/namingsystem/externalId" ];
-     fhir:Identifier.value [ fhir:value "testBWexternalId3" ]
-  ]; # 
-  fhir:Observation.status [ fhir:value "final"]; # 
-  fhir:Observation.category [
-     fhir:index 0;
-     fhir:CodeableConcept.coding [
-       fhir:index 0;
-       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/observation-category" ];
-       fhir:Coding.code [ fhir:value "vital-signs" ];
-       fhir:Coding.display [ fhir:value "Vital Signs" ]
+  ] ; # 
+  fhir:effective [ fhir:v "2022-03-17"^^xsd:date] ; # 
+  fhir:performer ( [
+     fhir:identifier [
+       fhir:system [ fhir:v "urn:oid:2.16.578.1.12.4.1.4.1"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "889911" ]
      ]
-  ]; # 
-  fhir:Observation.code [
-     fhir:CodeableConcept.coding [
-       fhir:index 0;
-       a loinc:29463-7;
-       fhir:Coding.system [ fhir:value "http://loinc.org" ];
-       fhir:Coding.code [ fhir:value "29463-7" ];
-       fhir:Coding.display [ fhir:value "Body weight" ]
-     ], [
-       fhir:index 1;
-       a sct:27113001;
-       fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
-       fhir:Coding.code [ fhir:value "27113001" ];
-       fhir:Coding.display [ fhir:value "Body weight (observable entity)" ]
-     ]
-  ]; # 
-  fhir:Observation.subject [
-     fhir:Reference.identifier [
-       fhir:Identifier.system [ fhir:value "urn:oid:2.16.578.1.12.4.1.4.1" ];
-       fhir:Identifier.value [ fhir:value "1000807" ]
-     ]
-  ]; # 
-  fhir:Observation.effectiveDateTime [ fhir:value "2022-03-17"^^xsd:date]; # 
-  fhir:Observation.performer [
-     fhir:index 0;
-     fhir:Reference.identifier [
-       fhir:Identifier.system [ fhir:value "urn:oid:2.16.578.1.12.4.1.4.1" ];
-       fhir:Identifier.value [ fhir:value "889911" ]
-     ]
-  ]; # 
-  fhir:Observation.valueQuantity [
-     fhir:Quantity.value [ fhir:value "49000"^^xsd:decimal ];
-     fhir:Quantity.unit [ fhir:value "g" ];
-     fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ];
-     fhir:Quantity.code [ fhir:value "g" ]
-  ]; # 
-  fhir:Observation.note [
-     fhir:index 0;
-     fhir:Annotation.text [ fhir:value "Test Body Weight" ]
-  ] . # 
-
-# - ontology header ------------------------------------------------------------
-
-<http://ehelse.no/fhir/Observation/vkp-body-weight-create.ttl> a owl:Ontology;
-  owl:imports fhir:fhir.ttl .
+  ] ) ; # 
+  fhir:value [
+     a fhir:Quantity ;
+     fhir:value [ fhir:v "49000"^^xsd:decimal ] ;
+     fhir:unit [ fhir:v "g" ] ;
+     fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
+     fhir:code [ fhir:v "g" ]
+  ] ; # 
+  fhir:note ( [
+     fhir:text [ fhir:v "Test Body Weight" ]
+  ] ) . # 
 
 # -------------------------------------------------------------------------------------
 
