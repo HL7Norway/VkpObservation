@@ -16,7 +16,7 @@ Usage: #example
 * performer[=].identifier.value = "22"
 * performer[+].identifier.system = "urn:oid:1.3.6.1.4.1.9038.51.1"
 * performer[=].identifier.value = "103"
-* valueQuantity = 20 'score' "score"
+* valueQuantity.value = 20
 * component[0].code = $sct#1104301000000104 "NEWS2 (National Early Warning Score 2) - respiration rate score"
 * component[=].valueQuantity.value = 3
 * component[=].interpretation.text = "≥25"
