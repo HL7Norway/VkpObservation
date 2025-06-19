@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="body-height-create"/>
+  <meta>
+    <lastUpdated value="2014-01-30T22:35:23+11:00"/>
+    <source value="META_VISION"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Observation body-height-create</b></p><a name="body-height-create"> </a><a name="hcbody-height-create"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Last updated: 2014-01-30 22:35:23+1100; </p><p style="margin-bottom: 0px">Information Source: <a href="https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.0&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/META_VISION">META_VISION</a></p></div><p><b>no/fhir/StructureDefinition/no-domain-vitalsignsobservation-bodyheight-bodypositionextension</b>: <a href="http://snomed.info/id/4801000202104">SNOMED CT 4801000202104</a>: Lying flat without tilt (finding)</p><p><b>identifier</b>: <code>http://dips.no/fhir/namingsystem/externalId</code>/External Id: testBHexternalId2</p><p><b>status</b>: Final</p><p><b>category</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}">vital-signs</span></p><p><b>code</b>: <span title="Codes:{http://loinc.org 8302-2}">Body height measure (observable entity)</span></p><p><b>subject</b>: Identifier: <code>http://dips.no/fhir/namingsystem/dips-patientid</code>/1000807</p><p><b>encounter</b>: <a href="https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.0&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/Encounter/agy1002679">Encounter/agy1002679</a></p><p><b>effective</b>: 2021-05-10</p><p><b>performer</b>: </p><ul><li>Identifier: <code>urn:oid:2.16.578.1.12.4.1.2</code>/889911</li><li><a href="https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.0&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/Organization/afa22">Organization/afa22</a></li></ul><p><b>value</b>: 156 cm<span style="background: LightGoldenRodYellow"> (Details: UCUM  codecm = 'cm')</span></p><p><b>note</b>: </p><blockquote><div><p>Demo Body Height</p>
+</div></blockquote></div>
+  </text>
+  <extension url="http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-bodyheight-bodypositionextension">
+    <valueCoding>
+      <system value="http://snomed.info/sct"/>
+      <code value="4801000202104"/>
+      <display value="Lying flat without tilt (finding)"/>
+    </valueCoding>
+  </extension>
+  <identifier>
+    <system value="http://dips.no/fhir/namingsystem/externalId"/>
+    <value value="External Id: testBHexternalId2"/>
+  </identifier>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+      <code value="vital-signs"/>
+      <display value="vital-signs"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="8302-2"/>
+      <display value="Body height measure (observable entity)"/>
+    </coding>
+  </code>
+  <subject>
+    <identifier>
+      <system value="http://dips.no/fhir/namingsystem/dips-patientid"/>
+      <value value="1000807"/>
+    </identifier>
+  </subject>
+  <encounter>
+    <reference value="Encounter/agy1002679"/>
+    <identifier>
+      <system value="http://dips.no/fhir/namingsystem/dips-omsorgsepisodeid"/>
+      <value value="1002679"/>
+    </identifier>
+  </encounter>
+  <effectiveDateTime value="2021-05-10"/>
+  <performer>
+    <identifier>
+      <system value="urn:oid:2.16.578.1.12.4.1.2"/>
+      <value value="889911"/>
+    </identifier>
+  </performer>
+  <performer>
+    <reference value="Organization/afa22"/>
+    <identifier>
+      <system value="urn:oid:1.3.6.1.4.1.9038.70.3"/>
+      <value value="22"/>
+    </identifier>
+  </performer>
+  <valueQuantity>
+    <value value="156"/>
+    <unit value="cm"/>
+    <system value="http://unitsofmeasure.org"/>
+    <code value="cm"/>
+  </valueQuantity>
+  <note>
+    <text value="Demo Body Height"/>
+  </note>
+</Observation>

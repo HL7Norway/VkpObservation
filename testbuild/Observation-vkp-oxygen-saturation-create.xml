@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="vkp-oxygen-saturation-create"/>
+  <meta>
+    <versionId value="1"/>
+    <lastUpdated value="2022-03-16T22:35:23+11:00"/>
+    <source value="Thomas"/>
+    <profile value="http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Oxygensat"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Observation vkp-oxygen-saturation-create</b></p><a name="vkp-oxygen-saturation-create"> </a><a name="hcvkp-oxygen-saturation-create"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version: 1; Last updated: 2022-03-16 22:35:23+1100; </p><p style="margin-bottom: 0px">Information Source: <a href="https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.0&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/Thomas">Thomas</a></p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-vkp-Observation-Oxygensat.html">Vkp VitalSigns Observation - Oxygen saturation</a></p></div><p><b>identifier</b>: <code>http://dips.no/fhir/namingsystem/externalId</code>/testOxySatexternalId5</p><p><b>status</b>: Final</p><p><b>category</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}">Vital Signs</span></p><p><b>code</b>: <span title="Codes:{http://loinc.org 2708-6}, {http://snomed.info/sct 431314004}">Oxygen saturation in Arterial blood</span></p><p><b>subject</b>: Identifier: <code>urn:oid:2.16.578.1.12.4.1.4.1</code>/1000239</p><p><b>effective</b>: 2022-03-16</p><p><b>performer</b>: Identifier: <code>urn:oid:2.16.578.1.12.4.1.4.1</code>/889911</p><p><b>value</b>: 99 %<span style="background: LightGoldenRodYellow"> (Details: UCUM  code% = '%')</span></p><p><b>note</b>: </p><blockquote><div><p>Test Vkp oxygen saturation</p>
+</div></blockquote></div>
+  </text>
+  <identifier>
+    <system value="http://dips.no/fhir/namingsystem/externalId"/>
+    <value value="testOxySatexternalId5"/>
+  </identifier>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+      <code value="vital-signs"/>
+      <display value="Vital Signs"/>
+    </coding>
+    <text value="Vital Signs"/>
+  </category>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="2708-6"/>
+      <display value="Oxygen saturation in Arterial blood"/>
+    </coding>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="431314004"/>
+      <display value="Peripheral oxygen saturation (observable entity)"/>
+    </coding>
+  </code>
+  <subject>
+    <identifier>
+      <system value="urn:oid:2.16.578.1.12.4.1.4.1"/>
+      <value value="1000239"/>
+    </identifier>
+  </subject>
+  <effectiveDateTime value="2022-03-16"/>
+  <performer>
+    <identifier>
+      <system value="urn:oid:2.16.578.1.12.4.1.4.1"/>
+      <value value="889911"/>
+    </identifier>
+  </performer>
+  <valueQuantity>
+    <value value="99"/>
+    <unit value="%"/>
+    <system value="http://unitsofmeasure.org"/>
+    <code value="%"/>
+  </valueQuantity>
+  <note>
+    <text value="Test Vkp oxygen saturation"/>
+  </note>
+</Observation>

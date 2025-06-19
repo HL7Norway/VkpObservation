@@ -1,0 +1,46 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "vkp-performer-identifiers.valueset",
+  "meta" : {
+    "lastUpdated" : "2022-02-10T00:00:00+00:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet vkp-performer-identifiers.valueset</b></p><a name=\"vkp-performer-identifiers.valueset\"> </a><a name=\"hcvkp-performer-identifiers.valueset\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Last updated: 2022-02-10 00:00:00+0000</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include all codes defined in <a href=\"CodeSystem-vkp-performer-identifiers.codesystem.html\"><code>http://ehelse.no/fhir/CodeSystem/vkp-performer-identifiers.codesystem</code></a></li></ul></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "draft"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 1
+  }],
+  "url" : "http://ehelse.no/fhir/ValueSet/vkp-performer-identifiers.valueset",
+  "version" : "0.3.0",
+  "name" : "VkpPerfomerIdentifiersValueSet",
+  "title" : "VKP Performer Identifier systems ValueSet",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2021-03-17T00:00:00+00:00",
+  "contact" : [{
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://ehelse.no/"
+    }]
+  }],
+  "description" : "Identifier Systems allowed for performer identification systems in Vkp Observations",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NO",
+      "display" : "Norway"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://ehelse.no/fhir/CodeSystem/vkp-performer-identifiers.codesystem"
+    }]
+  }
+}

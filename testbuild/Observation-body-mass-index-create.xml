@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="body-mass-index-create"/>
+  <meta>
+    <versionId value="0"/>
+    <lastUpdated value="2021-05-31T22:35:00+00:00"/>
+    <source value="META_VISION"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Observation body-mass-index-create</b></p><a name="body-mass-index-create"> </a><a name="hcbody-mass-index-create"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version: 0; Last updated: 2021-05-31 22:35:00+0000; </p><p style="margin-bottom: 0px">Information Source: <a href="https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.0&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/META_VISION">META_VISION</a></p></div><p><b>no/fhir/StructureDefinition/no-domain-vitalsignsobservation-bodymassindex-formulaExtension</b>: sample formula</p><p><b>no/fhir/StructureDefinition/no-domain-vitalsignsobservation-confoundingfactorextension</b>: sample confounding factor</p><p><b>identifier</b>: <code>http://dips.no/fhir/namingsystem/externalId</code>/External Id: testBMIexternalId8</p><p><b>status</b>: Final</p><p><b>category</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}">vital-signs</span></p><p><b>code</b>: <span title="Codes:{http://loinc.org 39156-5}">Body mass index (BMI) [Ratio]</span></p><p><b>subject</b>: <a href="https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.0&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/patient/cdp1000239">patient/cdp1000239</a></p><p><b>encounter</b>: <a href="https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.0&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/Encounter/agy1000245">Encounter/agy1000245</a></p><p><b>effective</b>: 2021-05-31</p><p><b>performer</b>: </p><ul><li>Identifier: <code>urn:oid:1.3.6.1.4.1.9038.51.1</code>/27</li><li>Identifier: <code>urn:oid:1.3.6.1.4.1.9038.70.3</code>/22</li></ul><p><b>value</b>: 32 kg/m2<span style="background: LightGoldenRodYellow"> (Details: UCUM  codekg/m2 = 'kg/m2')</span></p><p><b>interpretation</b>: <span title="Codes:">Obese</span></p><p><b>note</b>: </p><blockquote><div><p>Demo BMI</p>
+</div></blockquote><p><b>method</b>: <span title="Codes:{http://snomed.info/sct 1xxxx}">Automatisk registrering</span></p></div>
+  </text>
+  <extension url="http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-bodymassindex-formulaExtension">
+    <valueString value="sample formula"/>
+  </extension>
+  <extension url="http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-confoundingfactorextension">
+    <valueString value="sample confounding factor"/>
+  </extension>
+  <identifier>
+    <system value="http://dips.no/fhir/namingsystem/externalId"/>
+    <value value="External Id: testBMIexternalId8"/>
+  </identifier>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+      <code value="vital-signs"/>
+      <display value="vital-signs"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="39156-5"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="patient/cdp1000239"/>
+    <identifier>
+      <system value="http://dips.no/fhir/namingsystem/dips-patientid"/>
+      <value value="1000239"/>
+    </identifier>
+  </subject>
+  <encounter>
+    <reference value="Encounter/agy1000245"/>
+  </encounter>
+  <effectiveDateTime value="2021-05-31"/>
+  <performer>
+    <identifier>
+      <system value="urn:oid:1.3.6.1.4.1.9038.51.1"/>
+      <value value="27"/>
+    </identifier>
+  </performer>
+  <performer>
+    <identifier>
+      <system value="urn:oid:1.3.6.1.4.1.9038.70.3"/>
+      <value value="22"/>
+    </identifier>
+  </performer>
+  <valueQuantity>
+    <value value="32"/>
+    <unit value="kg/m2"/>
+    <system value="http://unitsofmeasure.org"/>
+    <code value="kg/m2"/>
+  </valueQuantity>
+  <interpretation>
+    <text value="Obese"/>
+  </interpretation>
+  <note>
+    <text value="Demo BMI"/>
+  </note>
+  <method>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="1xxxx"/>
+      <display value="Automatisk registrering"/>
+    </coding>
+  </method>
+</Observation>

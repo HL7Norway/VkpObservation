@@ -1,0 +1,44 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://ehelse.no/fhir/ValueSet/vkp-performer-identifiers.valueset",
+      "version" : "0.3.0",
+      "status" : "draft",
+      "name" : "VkpPerfomerIdentifiersValueSet",
+      "title" : "VKP Performer Identifier systems ValueSet",
+      "description" : "Identifier Systems allowed for performer identification systems in Vkp Observations",
+      "systems" : [
+        "http://ehelse.no/fhir/CodeSystem/vkp-performer-identifiers.codesystem"
+      ]
+    },
+    {
+      "url" : "http://ehelse.no/fhir/ValueSet/vkp-subject-identifiers.valueset",
+      "version" : "0.3.0",
+      "status" : "draft",
+      "name" : "VkpSubjectIdentifiersValueSet",
+      "title" : "VKP Subject Identifier systems ValueSet",
+      "description" : "Identifier Systems allowed for subject identifications",
+      "systems" : [
+        "http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem"
+      ]
+    },
+    {
+      "url" : "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodysitevalueset",
+      "version" : "0.3.0",
+      "status" : "draft",
+      "name" : "NoDomainVitalSignsObservationBloodPressureBodySiteValueSet",
+      "title" : null,
+      "description" : "Codes representing body site for blood pressure",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-measurementmethodvalueSet",
+      "version" : "0.3.0",
+      "status" : "draft",
+      "name" : "NoDomainVitalSignsObservationBloodPressureMeasurementMethodValueSet",
+      "title" : null,
+      "description" : "Codes representing measurement method for blood pressure",
+      "systems" : ["http://snomed.info/sct"]
+    }
+  ]
+}

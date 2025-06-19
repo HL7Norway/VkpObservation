@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="vkp-blood-pressure-profile-create"/>
+  <meta>
+    <versionId value="1"/>
+    <lastUpdated value="2021-02-15T22:35:23+11:00"/>
+    <source value="META_VISION"/>
+    <profile value="http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bloodpressure"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Observation vkp-blood-pressure-profile-create</b></p><a name="vkp-blood-pressure-profile-create"> </a><a name="hcvkp-blood-pressure-profile-create"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version: 1; Last updated: 2021-02-15 22:35:23+1100; </p><p style="margin-bottom: 0px">Information Source: <a href="https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.0&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/META_VISION">META_VISION</a></p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-vkp-Observation-Bloodpressure.html">Vkp VitalSigns Observation - Blood pressure</a></p></div><p><b>identifier</b>: <code>http://dips.no/fhir/namingsystem/externalId</code>/testprofileBPexternalId1</p><p><b>status</b>: Final</p><p><b>category</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}">Vital Signs</span></p><p><b>code</b>: <span title="Codes:{http://loinc.org 85354-9}">Blood pressure panel with all children optional</span></p><p><b>subject</b>: Identifier: <code>urn:oid:2.16.578.1.12.4.1.4.1</code>/1000807</p><p><b>effective</b>: 2021-05-10</p><p><b>performer</b>: Identifier: <code>urn:oid:2.16.578.1.12.4.1.4.1</code>/103</p><p><b>note</b>: </p><blockquote><div><p>Test VKP Blood Pressure</p>
+</div></blockquote><p><b>bodySite</b>: <span title="Codes:{http://snomed.info/sct 7569003}">Finger structure (body structure)</span></p><p><b>method</b>: <span title="Codes:{http://snomed.info/sct 129436005}">Auscultation - action (qualifier value)</span></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 8480-6}, {http://snomed.info/sct 271649006}">Systolic blood pressure</span></p><p><b>value</b>: 123 mm[Hg]<span style="background: LightGoldenRodYellow"> (Details: UCUM  codemm[Hg] = 'mm[Hg]')</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 8462-4}, {http://snomed.info/sct 271650006}">Diastolic blood pressure</span></p><p><b>value</b>: 78 mm[Hg]<span style="background: LightGoldenRodYellow"> (Details: UCUM  codemm[Hg] = 'mm[Hg]')</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://loinc.org 8478-0}">Mean blood pressure</span></p><p><b>value</b>: 93 mm[Hg]<span style="background: LightGoldenRodYellow"> (Details: UCUM  codemm[Hg] = 'mm[Hg]')</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://snomed.info/sct 87179004}">Arterial pulse pressure</span></p><p><b>value</b>: 45 mm[Hg]<span style="background: LightGoldenRodYellow"> (Details: UCUM  codemm[Hg] = 'mm[Hg]')</span></p></blockquote></div>
+  </text>
+  <identifier>
+    <system value="http://dips.no/fhir/namingsystem/externalId"/>
+    <value value="testprofileBPexternalId1"/>
+  </identifier>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+      <code value="vital-signs"/>
+      <display value="Vital Signs"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="85354-9"/>
+      <display value="Blood pressure panel with all children optional"/>
+    </coding>
+  </code>
+  <subject>
+    <identifier>
+      <system value="urn:oid:2.16.578.1.12.4.1.4.1"/>
+      <value value="1000807"/>
+    </identifier>
+  </subject>
+  <effectiveDateTime value="2021-05-10"/>
+  <performer>
+    <identifier>
+      <system value="urn:oid:2.16.578.1.12.4.1.4.1"/>
+      <value value="103"/>
+    </identifier>
+  </performer>
+  <note>
+    <text value="Test VKP Blood Pressure"/>
+  </note>
+  <bodySite>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="7569003"/>
+      <display value="Finger structure (body structure)"/>
+    </coding>
+  </bodySite>
+  <method>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="129436005"/>
+      <display value="Auscultation - action (qualifier value)"/>
+    </coding>
+  </method>
+  <component>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="8480-6"/>
+        <display value="Systolic blood pressure"/>
+      </coding>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="271649006"/>
+        <display value="Systolic Blood pressure"/>
+      </coding>
+    </code>
+    <valueQuantity>
+      <value value="123"/>
+      <unit value="mm[Hg]"/>
+      <system value="http://unitsofmeasure.org"/>
+      <code value="mm[Hg]"/>
+    </valueQuantity>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="8462-4"/>
+        <display value="Diastolic blood pressure"/>
+      </coding>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="271650006"/>
+        <display value="Diastolic Blood pressure"/>
+      </coding>
+    </code>
+    <valueQuantity>
+      <value value="78"/>
+      <unit value="mm[Hg]"/>
+      <system value="http://unitsofmeasure.org"/>
+      <code value="mm[Hg]"/>
+    </valueQuantity>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://loinc.org"/>
+        <code value="8478-0"/>
+        <display value="Mean blood pressure"/>
+      </coding>
+    </code>
+    <valueQuantity>
+      <value value="93"/>
+      <unit value="mm[Hg]"/>
+      <system value="http://unitsofmeasure.org"/>
+      <code value="mm[Hg]"/>
+    </valueQuantity>
+  </component>
+  <component>
+    <code>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="87179004"/>
+        <display value="Arterial pulse pressure"/>
+      </coding>
+    </code>
+    <valueQuantity>
+      <value value="45"/>
+      <unit value="mm[Hg]"/>
+      <system value="http://unitsofmeasure.org"/>
+      <code value="mm[Hg]"/>
+    </valueQuantity>
+  </component>
+</Observation>

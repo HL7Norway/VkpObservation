@@ -1,0 +1,66 @@
+{
+  "resourceType" : "Observation",
+  "id" : "vkp-glucose-create",
+  "meta" : {
+    "versionId" : "1",
+    "lastUpdated" : "2022-06-07T22:35:23+11:00",
+    "source" : "Thomas",
+    "profile" : ["http://ehelse.no/fhir/StructureDefinition/vkp-Observation"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation vkp-glucose-create</b></p><a name=\"vkp-glucose-create\"> </a><a name=\"hcvkp-glucose-create\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Last updated: 2022-06-07 22:35:23+1100; </p><p style=\"margin-bottom: 0px\">Information Source: <a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.0&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/Thomas\">Thomas</a></p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-vkp-Observation.html\">General Vkp Observation</a></p></div><p><b>identifier</b>: <code>http://dips.no/fhir/namingsystem/externalId</code>/testGlucoseexternalId5</p><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}\">Vital Signs</span></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 15074-8}, {http://snomed.info/sct 434912009}, {urn:oid:2.16.578.1.12.4.1.1.7280 NPU02187}\">Glucose [Moles/volume] in Blood</span></p><p><b>subject</b>: Identifier: <code>urn:oid:2.16.578.1.12.4.1.4.1</code>/1000239</p><p><b>effective</b>: 2022-03-17</p><p><b>performer</b>: Identifier: <code>urn:oid:2.16.578.1.12.4.1.4.1</code>/889911</p><p><b>value</b>: 6.3 mmol/L<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codemmol/l = 'mmol/l')</span></p><p><b>note</b>: </p><blockquote><div><p>Test Vkp glucose</p>\n</div></blockquote></div>"
+  },
+  "identifier" : [{
+    "system" : "http://dips.no/fhir/namingsystem/externalId",
+    "value" : "testGlucoseexternalId5"
+  }],
+  "status" : "final",
+  "category" : [{
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+      "code" : "vital-signs",
+      "display" : "Vital Signs"
+    }],
+    "text" : "Vital Signs"
+  }],
+  "code" : {
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "15074-8",
+      "display" : "Glucose [Moles/volume] in Blood"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "434912009",
+      "display" : "Blood glucose concentration (observable entity)"
+    },
+    {
+      "system" : "urn:oid:2.16.578.1.12.4.1.1.7280",
+      "code" : "NPU02187",
+      "display" : "B—Glucose"
+    }]
+  },
+  "subject" : {
+    "identifier" : {
+      "system" : "urn:oid:2.16.578.1.12.4.1.4.1",
+      "value" : "1000239"
+    }
+  },
+  "effectiveDateTime" : "2022-03-17",
+  "performer" : [{
+    "identifier" : {
+      "system" : "urn:oid:2.16.578.1.12.4.1.4.1",
+      "value" : "889911"
+    }
+  }],
+  "valueQuantity" : {
+    "value" : 6.3,
+    "unit" : "mmol/L",
+    "system" : "http://unitsofmeasure.org",
+    "code" : "mmol/l"
+  },
+  "note" : [{
+    "text" : "Test Vkp glucose"
+  }]
+}
