@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "a825c719-c18c-4da4-bd89-968153cc4075",
+  "id" : "a0ba4f1b-d694-4771-9123-9a0a9fb1c90a",
   "meta" : {
-    "lastUpdated" : "2025-06-19T12:24:10.750+00:00"
+    "lastUpdated" : "2025-06-19T12:37:51.169+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -23,7 +23,7 @@
       "title" : "NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-06-19T12:23:32+00:00",
+      "date" : "2025-06-19T12:37:09+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -32,8 +32,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:4fa5d24f-a240-4c34-bc70-4ab45dc0746f",
-        "timestamp" : "2025-06-19T12:24:51+00:00",
+        "identifier" : "urn:uuid:fc892492-68f7-41af-881f-c9835938ca89",
+        "timestamp" : "2025-06-19T12:38:24+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -95,7 +95,7 @@
       "title" : "NoDomainVitalSignsBloodpressureBodySite-ValueSet",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-06-19T12:23:32+00:00",
+      "date" : "2025-06-19T12:37:09+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -104,8 +104,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:01806f79-1e14-4770-ba67-09dd63ab4e08",
-        "timestamp" : "2025-06-19T12:24:51+00:00",
+        "identifier" : "urn:uuid:8c149e2e-c432-40a6-ac9e-d18efb929ae8",
+        "timestamp" : "2025-06-19T12:38:24+00:00",
         "total" : 12,
         "offset" : 0,
         "parameter" : [{
@@ -226,8 +226,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:7c5350cc-992b-4776-a77a-daf0df497629",
-        "timestamp" : "2025-06-19T12:24:51+00:00",
+        "identifier" : "urn:uuid:88dbd109-0c09-4488-a445-9ed9d137e253",
+        "timestamp" : "2025-06-19T12:38:25+00:00",
         "total" : 1,
         "offset" : 0,
         "parameter" : [{
@@ -245,6 +245,10 @@
         {
           "name" : "excludeNested",
           "valueBoolean" : false
+        },
+        {
+          "name" : "warning-experimental",
+          "valueUri" : "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem|0.3.1"
         },
         {
           "name" : "used-codesystem",
@@ -284,8 +288,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:d4af7d3a-d297-4d03-acee-817620a76c4a",
-        "timestamp" : "2025-06-19T12:24:51+00:00",
+        "identifier" : "urn:uuid:526e1eed-311e-4bf2-91c2-28871aa15d34",
+        "timestamp" : "2025-06-19T12:38:25+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{

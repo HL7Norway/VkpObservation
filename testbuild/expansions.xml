@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="a825c719-c18c-4da4-bd89-968153cc4075"/>
+  <id value="a0ba4f1b-d694-4771-9123-9a0a9fb1c90a"/>
   <meta>
-    <lastUpdated value="2025-06-19T12:24:10.750+00:00"/>
+    <lastUpdated value="2025-06-19T12:37:51.169+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -57,7 +57,7 @@
         <title value="NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-06-19T12:23:32+00:00"/>
+        <date value="2025-06-19T12:37:09+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -66,8 +66,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:4fa5d24f-a240-4c34-bc70-4ab45dc0746f"/>
-          <timestamp value="2025-06-19T12:24:51+00:00"/>
+          <identifier value="urn:uuid:fc892492-68f7-41af-881f-c9835938ca89"/>
+          <timestamp value="2025-06-19T12:38:24+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -243,7 +243,7 @@
         <title value="NoDomainVitalSignsBloodpressureBodySite-ValueSet"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-06-19T12:23:32+00:00"/>
+        <date value="2025-06-19T12:37:09+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -252,8 +252,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:01806f79-1e14-4770-ba67-09dd63ab4e08"/>
-          <timestamp value="2025-06-19T12:24:51+00:00"/>
+          <identifier value="urn:uuid:8c149e2e-c432-40a6-ac9e-d18efb929ae8"/>
+          <timestamp value="2025-06-19T12:38:24+00:00"/>
           <total value="12"/>
           <offset value="0"/>
           <parameter>
@@ -406,8 +406,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:7c5350cc-992b-4776-a77a-daf0df497629"/>
-          <timestamp value="2025-06-19T12:24:51+00:00"/>
+          <identifier value="urn:uuid:88dbd109-0c09-4488-a445-9ed9d137e253"/>
+          <timestamp value="2025-06-19T12:38:25+00:00"/>
           <total value="1"/>
           <offset value="0"/>
           <parameter>
@@ -425,6 +425,10 @@
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="warning-experimental"/>
+            <valueUri value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem|0.3.1"/>
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
@@ -514,8 +518,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:d4af7d3a-d297-4d03-acee-817620a76c4a"/>
-          <timestamp value="2025-06-19T12:24:51+00:00"/>
+          <identifier value="urn:uuid:526e1eed-311e-4bf2-91c2-28871aa15d34"/>
+          <timestamp value="2025-06-19T12:38:25+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>

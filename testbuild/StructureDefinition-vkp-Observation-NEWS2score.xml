@@ -42,7 +42,7 @@ Example:
   <name value="VkpObservationNEWS2score"/>
   <title value="Vkp VitalSigns Observation - NEWS2 score"/>
   <status value="draft"/>
-  <date value="2025-06-19T12:23:32+00:00"/>
+  <date value="2025-06-19T12:37:09+00:00"/>
   <description value="Profile for NEWS2 score in VKP."/>
   <jurisdiction>
     <coding>

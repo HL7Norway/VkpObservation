@@ -33,7 +33,10 @@
       "description" : "Identifier Systems allowed for performer identification systems in Vkp Observations",
       "systems" : [
         "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem"
-      ]
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure"
     },
     {
       "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/vkp-subject-identifiers.valueset",
@@ -44,7 +47,10 @@
       "description" : "Identifier Systems allowed for subject identifications",
       "systems" : [
         "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem"
-      ]
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/body-site",
