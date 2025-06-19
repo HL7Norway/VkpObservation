@@ -6,10 +6,18 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide hl7.fhir.no.vkp.observation</b></p><a name="hl7.fhir.no.vkp.observation"> </a><a name="hchl7.fhir.no.vkp.observation"> </a><h2>VkpObservation</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/vkpobservation/ImplementationGuide/hl7.fhir.no.vkp.observation</pre></div>
   </text>
   <url value="http://hl7.no/fhir/vkpobservation/ImplementationGuide/hl7.fhir.no.vkp.observation"/>
-  <version value="0.2.3"/>
+  <version value="0.3.1"/>
   <name value="VkpObservation"/>
   <status value="draft"/>
-  <date value="2025-06-19T06:55:16+00:00"/>
+  <date value="2025-06-19T19:05:31+00:00"/>
+  <publisher value="HL7 Norway"/>
+  <contact>
+    <name value="HL7 Norway"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.no"/>
+    </telecom>
+  </contact>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -537,9 +545,9 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/NoDomainVitalSignsObservationBloodPressureBodySiteValueSet"/>
+        <reference value="ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet"/>
       </reference>
-      <name value="NoDomainVitalSignsObservationBloodPressureBodySiteValueSet"/>
+      <name value="NoDomainVitalSignsBloodpressureBodySite-ValueSet"/>
       <description value="Codes representing body site for blood pressure"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -548,10 +556,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/NoDomainVitalSignsObservationBloodPressureMeasurementMethodValue"/>
+        <reference value="ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet"/>
       </reference>
-      <name value="NoDomainVitalSignsObservationBloodPressureMeasurementMethodValueSet"/>
-      <description value="Codes representing measurement method for blood pressure"/>
+      <name value="NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet"/>
+      <description value="Codes representing measurement method for HeartRate"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -563,6 +571,17 @@
       </reference>
       <name value="respiratory-rate-create"/>
       <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/vkp-Observation-Consciousness"/>
+      </reference>
+      <name value="Vkp Observation - Consciousness"/>
+      <description value="Profile for Consciousness in VKP."/>
+      <exampleBoolean value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -646,10 +665,32 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/vkp-Observation-CFSscore"/>
+      </reference>
+      <name value="Vkp VitalSigns Observation - CFS score"/>
+      <description value="Profile for Clinical Frailty Scale score in VKP."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/vkp-Observation-Heartrate"/>
       </reference>
       <name value="Vkp VitalSigns Observation - Heart rate"/>
       <description value="Profile for heart rate in VKP."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/vkp-Observation-NEWS2score"/>
+      </reference>
+      <name value="Vkp VitalSigns Observation - NEWS2 score"/>
+      <description value="Profile for NEWS2 score in VKP."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -665,13 +706,24 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/vkp-Observation-Resprate"/>
+      </reference>
+      <name value="Vkp VitalSigns Observation - Respiratory rate"/>
+      <description value="Profile for Respiratory rate in VKP."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Observation"/>
       </extension>
       <reference>
         <reference value="Observation/vkp-blood-pressure-profile-create"/>
       </reference>
       <name value="vkp-blood-pressure-profile-create"/>
-      <exampleCanonical value="http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bloodpressure"/>
+      <exampleCanonical value="http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Bloodpressure"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -681,7 +733,7 @@
         <reference value="Observation/vkp-body-temperature-create"/>
       </reference>
       <name value="vkp-body-temperature-create"/>
-      <exampleCanonical value="http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bodytemp"/>
+      <exampleCanonical value="http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Bodytemp"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -691,7 +743,7 @@
         <reference value="Observation/vkp-body-weight-create"/>
       </reference>
       <name value="vkp-body-weight-create"/>
-      <exampleCanonical value="http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bodyweight"/>
+      <exampleCanonical value="http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Bodyweight"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -701,7 +753,7 @@
         <reference value="Observation/vkp-glucose-create"/>
       </reference>
       <name value="vkp-glucose-create"/>
-      <exampleCanonical value="http://ehelse.no/fhir/StructureDefinition/vkp-Observation"/>
+      <exampleCanonical value="http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -711,7 +763,7 @@
         <reference value="Observation/vkp-heartrate-create"/>
       </reference>
       <name value="vkp-heartrate-create"/>
-      <exampleCanonical value="http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Heartrate"/>
+      <exampleCanonical value="http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Heartrate"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -721,7 +773,7 @@
         <reference value="Observation/vkp-oxygen-saturation-create"/>
       </reference>
       <name value="vkp-oxygen-saturation-create"/>
-      <exampleCanonical value="http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Oxygensat"/>
+      <exampleCanonical value="http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Oxygensat"/>
     </resource>
     <page>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">

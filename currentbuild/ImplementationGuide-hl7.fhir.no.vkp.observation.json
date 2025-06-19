@@ -6,10 +6,18 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide hl7.fhir.no.vkp.observation</b></p><a name=\"hl7.fhir.no.vkp.observation\"> </a><a name=\"hchl7.fhir.no.vkp.observation\"> </a><h2>VkpObservation</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/vkpobservation/ImplementationGuide/hl7.fhir.no.vkp.observation</pre></div>"
   },
   "url" : "http://hl7.no/fhir/vkpobservation/ImplementationGuide/hl7.fhir.no.vkp.observation",
-  "version" : "0.2.3",
+  "version" : "0.3.1",
   "name" : "VkpObservation",
   "status" : "draft",
-  "date" : "2025-06-19T06:55:16+00:00",
+  "date" : "2025-06-19T19:05:31+00:00",
+  "publisher" : "HL7 Norway",
+  "contact" : [{
+    "name" : "HL7 Norway",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.hl7.no"
+    }]
+  }],
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -707,9 +715,9 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/NoDomainVitalSignsObservationBloodPressureBodySiteValueSet"
+        "reference" : "ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet"
       },
-      "name" : "NoDomainVitalSignsObservationBloodPressureBodySiteValueSet",
+      "name" : "NoDomainVitalSignsBloodpressureBodySite-ValueSet",
       "description" : "Codes representing body site for blood pressure",
       "exampleBoolean" : false
     },
@@ -719,10 +727,10 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/NoDomainVitalSignsObservationBloodPressureMeasurementMethodValue"
+        "reference" : "ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet"
       },
-      "name" : "NoDomainVitalSignsObservationBloodPressureMeasurementMethodValueSet",
-      "description" : "Codes representing measurement method for blood pressure",
+      "name" : "NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet",
+      "description" : "Codes representing measurement method for HeartRate",
       "exampleBoolean" : false
     },
     {
@@ -735,6 +743,18 @@
       },
       "name" : "respiratory-rate-create",
       "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/vkp-Observation-Consciousness"
+      },
+      "name" : "Vkp Observation - Consciousness",
+      "description" : "Profile for Consciousness in VKP.",
+      "exampleBoolean" : false
     },
     {
       "extension" : [{
@@ -826,10 +846,34 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
+        "reference" : "StructureDefinition/vkp-Observation-CFSscore"
+      },
+      "name" : "Vkp VitalSigns Observation - CFS score",
+      "description" : "Profile for Clinical Frailty Scale score in VKP.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
         "reference" : "StructureDefinition/vkp-Observation-Heartrate"
       },
       "name" : "Vkp VitalSigns Observation - Heart rate",
       "description" : "Profile for heart rate in VKP.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/vkp-Observation-NEWS2score"
+      },
+      "name" : "Vkp VitalSigns Observation - NEWS2 score",
+      "description" : "Profile for NEWS2 score in VKP.",
       "exampleBoolean" : false
     },
     {
@@ -847,13 +891,25 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/vkp-Observation-Resprate"
+      },
+      "name" : "Vkp VitalSigns Observation - Respiratory rate",
+      "description" : "Profile for Respiratory rate in VKP.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Observation"
       }],
       "reference" : {
         "reference" : "Observation/vkp-blood-pressure-profile-create"
       },
       "name" : "vkp-blood-pressure-profile-create",
-      "exampleCanonical" : "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bloodpressure"
+      "exampleCanonical" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Bloodpressure"
     },
     {
       "extension" : [{
@@ -864,7 +920,7 @@
         "reference" : "Observation/vkp-body-temperature-create"
       },
       "name" : "vkp-body-temperature-create",
-      "exampleCanonical" : "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bodytemp"
+      "exampleCanonical" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Bodytemp"
     },
     {
       "extension" : [{
@@ -875,7 +931,7 @@
         "reference" : "Observation/vkp-body-weight-create"
       },
       "name" : "vkp-body-weight-create",
-      "exampleCanonical" : "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bodyweight"
+      "exampleCanonical" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Bodyweight"
     },
     {
       "extension" : [{
@@ -886,7 +942,7 @@
         "reference" : "Observation/vkp-glucose-create"
       },
       "name" : "vkp-glucose-create",
-      "exampleCanonical" : "http://ehelse.no/fhir/StructureDefinition/vkp-Observation"
+      "exampleCanonical" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation"
     },
     {
       "extension" : [{
@@ -897,7 +953,7 @@
         "reference" : "Observation/vkp-heartrate-create"
       },
       "name" : "vkp-heartrate-create",
-      "exampleCanonical" : "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Heartrate"
+      "exampleCanonical" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Heartrate"
     },
     {
       "extension" : [{
@@ -908,7 +964,7 @@
         "reference" : "Observation/vkp-oxygen-saturation-create"
       },
       "name" : "vkp-oxygen-saturation-create",
-      "exampleCanonical" : "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Oxygensat"
+      "exampleCanonical" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Oxygensat"
     }],
     "page" : {
       "extension" : [{

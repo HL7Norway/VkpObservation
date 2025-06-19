@@ -1,16 +1,28 @@
 {
   "resourceType" : "CodeSystem",
   "id" : "vkp-subject-identifiers.codesystem",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
+  },
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem vkp-subject-identifiers.codesystem</b></p><a name=\"vkp-subject-identifiers.codesystem\"> </a><a name=\"hcvkp-subject-identifiers.codesystem\"> </a><p>This  code system <code>http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">urn:oid:2.16.578.1.12.4.1.4.1<a name=\"vkp-subject-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.461\"> </a></td><td>FNR</td><td>Fødselsnummer</td></tr><tr><td style=\"white-space:nowrap\">urn:oid:2.16.578.1.12.4.1.4.2<a name=\"vkp-subject-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.462\"> </a></td><td>DNR</td><td>D-nummer</td></tr><tr><td style=\"white-space:nowrap\">urn:oid:2.16.578.1.12.4.1.4.3<a name=\"vkp-subject-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.463\"> </a></td><td>FHN</td><td>Felles hjelpenummer</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem vkp-subject-identifiers.codesystem</b></p><a name=\"vkp-subject-identifiers.codesystem\"> </a><a name=\"hcvkp-subject-identifiers.codesystem\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p>This case-sensitive code system <code>http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">urn:oid:2.16.578.1.12.4.1.4.1<a name=\"vkp-subject-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.461\"> </a></td><td>FNR</td><td>Fødselsnummer</td></tr><tr><td style=\"white-space:nowrap\">urn:oid:2.16.578.1.12.4.1.4.2<a name=\"vkp-subject-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.462\"> </a></td><td>DNR</td><td>D-nummer</td></tr><tr><td style=\"white-space:nowrap\">urn:oid:2.16.578.1.12.4.1.4.3<a name=\"vkp-subject-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.463\"> </a></td><td>FHN</td><td>Felles hjelpenummer</td></tr></table></div>"
   },
-  "url" : "http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem",
-  "version" : "0.2.3",
+  "url" : "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem",
+  "version" : "0.3.1",
   "name" : "VkpSubjectIdentifiersCodeSystem",
   "title" : "Vkp Subject Identifier Systems CodeSystem",
   "status" : "draft",
+  "experimental" : true,
   "date" : "2022-02-10",
+  "publisher" : "HL7 Norway",
+  "contact" : [{
+    "name" : "HL7 Norway",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.hl7.no"
+    }]
+  }],
   "description" : "The CodeSystem contains all codes allowed for Observation.subject.system, for use with VKP",
   "jurisdiction" : [{
     "coding" : [{
@@ -19,6 +31,7 @@
       "display" : "Norway"
     }]
   }],
+  "caseSensitive" : true,
   "content" : "complete",
   "count" : 3,
   "concept" : [{

@@ -5,7 +5,7 @@
     "versionId" : "0",
     "lastUpdated" : "2014-01-30T22:35:23+11:00",
     "source" : "Thomas",
-    "profile" : ["http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bodytemp"]
+    "profile" : ["http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Bodytemp"]
   },
   "text" : {
     "status" : "generated",

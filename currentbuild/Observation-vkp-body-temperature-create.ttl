@@ -16,8 +16,8 @@
      fhir:lastUpdated [ fhir:v "2014-01-30T22:35:23+11:00"^^xsd:dateTime ] ;
      fhir:source [ fhir:v "Thomas"^^xsd:anyURI ] ;
      fhir:profile ( [
-       fhir:v "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bodytemp"^^xsd:anyURI ;
-       fhir:link <http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bodytemp>
+       fhir:v "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Bodytemp"^^xsd:anyURI ;
+       fhir:link <http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Bodytemp>
      ] )
   ] ; # 
   fhir:text [

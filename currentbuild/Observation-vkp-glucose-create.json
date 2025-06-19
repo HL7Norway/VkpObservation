@@ -5,7 +5,7 @@
     "versionId" : "1",
     "lastUpdated" : "2022-06-07T22:35:23+11:00",
     "source" : "Thomas",
-    "profile" : ["http://ehelse.no/fhir/StructureDefinition/vkp-Observation"]
+    "profile" : ["http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation"]
   },
   "text" : {
     "status" : "generated",

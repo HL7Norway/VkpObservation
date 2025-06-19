@@ -2,92 +2,120 @@
   {
     "id" : "vkp-performer-identifiers.codesystem",
     "type" : "CodeSystem",
-    "url" : "http://ehelse.no/fhir/CodeSystem/vkp-performer-identifiers.codesystem",
-    "version" : "0.2.3",
+    "url" : "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem",
+    "version" : "0.3.1",
     "name" : "VkpPerformerIdentifiersCodeSystem"
   },
   {
     "id" : "vkp-subject-identifiers.codesystem",
     "type" : "CodeSystem",
-    "url" : "http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem",
-    "version" : "0.2.3",
+    "url" : "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem",
+    "version" : "0.3.1",
     "name" : "VkpSubjectIdentifiersCodeSystem"
-  },
-  {
-    "id" : "vkp-Observation",
-    "type" : "StructureDefinition",
-    "url" : "http://ehelse.no/fhir/StructureDefinition/vkp-Observation",
-    "version" : "0.2.3",
-    "name" : "VkpObservation"
-  },
-  {
-    "id" : "vkp-Observation-Bloodpressure",
-    "type" : "StructureDefinition",
-    "url" : "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bloodpressure",
-    "version" : "0.2.3",
-    "name" : "VkpObservationBloodpressure"
-  },
-  {
-    "id" : "vkp-Observation-Bodytemp",
-    "type" : "StructureDefinition",
-    "url" : "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bodytemp",
-    "version" : "0.2.3",
-    "name" : "VkpObservationBodytemp"
-  },
-  {
-    "id" : "vkp-Observation-Bodyweight",
-    "type" : "StructureDefinition",
-    "url" : "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bodyweight",
-    "version" : "0.2.3",
-    "name" : "VkpObservationBodyweight"
-  },
-  {
-    "id" : "vkp-Observation-Heartrate",
-    "type" : "StructureDefinition",
-    "url" : "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Heartrate",
-    "version" : "0.2.3",
-    "name" : "VkpObservationHeartrate"
-  },
-  {
-    "id" : "vkp-Observation-Oxygensat",
-    "type" : "StructureDefinition",
-    "url" : "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Oxygensat",
-    "version" : "0.2.3",
-    "name" : "VkpObservationOxygensat"
-  },
-  {
-    "id" : "vkp-performer-identifiers.valueset",
-    "type" : "ValueSet",
-    "url" : "http://ehelse.no/fhir/ValueSet/vkp-performer-identifiers.valueset",
-    "version" : "0.2.3",
-    "name" : "VkpPerfomerIdentifiersValueSet"
-  },
-  {
-    "id" : "vkp-subject-identifiers.valueset",
-    "type" : "ValueSet",
-    "url" : "http://ehelse.no/fhir/ValueSet/vkp-subject-identifiers.valueset",
-    "version" : "0.2.3",
-    "name" : "VkpSubjectIdentifiersValueSet"
-  },
-  {
-    "id" : "NoDomainVitalSignsObservationBloodPressureBodySiteValueSet",
-    "type" : "ValueSet",
-    "url" : "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodysitevalueset",
-    "version" : "0.2.3",
-    "name" : "NoDomainVitalSignsObservationBloodPressureBodySiteValueSet"
-  },
-  {
-    "id" : "NoDomainVitalSignsObservationBloodPressureMeasurementMethodValue",
-    "type" : "ValueSet",
-    "url" : "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-measurementmethodvalueSet",
-    "version" : "0.2.3",
-    "name" : "NoDomainVitalSignsObservationBloodPressureMeasurementMethodValueSet"
   },
   {
     "id" : "hl7.fhir.no.vkp.observation",
     "type" : "ImplementationGuide",
     "url" : "http://hl7.no/fhir/vkpobservation/ImplementationGuide/hl7.fhir.no.vkp.observation",
-    "version" : "0.2.3",
+    "version" : "0.3.1",
     "name" : "VkpObservation"
+  },
+  {
+    "id" : "vkp-Observation",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation",
+    "version" : "0.3.1",
+    "name" : "VkpObservation"
+  },
+  {
+    "id" : "vkp-Observation-Bloodpressure",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Bloodpressure",
+    "version" : "0.3.1",
+    "name" : "VkpObservationBloodpressure"
+  },
+  {
+    "id" : "vkp-Observation-Bodytemp",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Bodytemp",
+    "version" : "0.3.1",
+    "name" : "VkpObservationBodytemp"
+  },
+  {
+    "id" : "vkp-Observation-Bodyweight",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Bodyweight",
+    "version" : "0.3.1",
+    "name" : "VkpObservationBodyweight"
+  },
+  {
+    "id" : "vkp-Observation-CFSscore",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-CFSscore",
+    "version" : "0.3.1",
+    "name" : "VkpObservationCFSscore"
+  },
+  {
+    "id" : "vkp-Observation-Consciousness",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Consciousness",
+    "version" : "0.3.1",
+    "name" : "VkpObservationConsciousness"
+  },
+  {
+    "id" : "vkp-Observation-Heartrate",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Heartrate",
+    "version" : "0.3.1",
+    "name" : "VkpObservationHeartrate"
+  },
+  {
+    "id" : "vkp-Observation-NEWS2score",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-NEWS2score",
+    "version" : "0.3.1",
+    "name" : "VkpObservationNEWS2score"
+  },
+  {
+    "id" : "vkp-Observation-Oxygensat",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Oxygensat",
+    "version" : "0.3.1",
+    "name" : "VkpObservationOxygensat"
+  },
+  {
+    "id" : "vkp-Observation-Resprate",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Resprate",
+    "version" : "0.3.1",
+    "name" : "VkpObservationResprate"
+  },
+  {
+    "id" : "NoDomainVitalSignsBloodPressureMeasurementMethodValueSet",
+    "type" : "ValueSet",
+    "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet",
+    "version" : "0.3.1",
+    "name" : "NoDomainVitalSignsBloodPressureMeasurementMethodValueSet"
+  },
+  {
+    "id" : "NoDomainVitalSignsBloodpressureBodySiteValueSet",
+    "type" : "ValueSet",
+    "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet",
+    "version" : "0.3.1",
+    "name" : "NoDomainVitalSignsBloodpressureBodySiteValueSet"
+  },
+  {
+    "id" : "vkp-performer-identifiers.valueset",
+    "type" : "ValueSet",
+    "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-identifiers.valueset",
+    "version" : "0.3.1",
+    "name" : "VkpPerformerIdentifiersValueSet"
+  },
+  {
+    "id" : "vkp-subject-identifiers.valueset",
+    "type" : "ValueSet",
+    "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/vkp-subject-identifiers.valueset",
+    "version" : "0.3.1",
+    "name" : "VkpSubjectIdentifiersValueSet"
   }
 ]

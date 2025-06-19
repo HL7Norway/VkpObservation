@@ -1,44 +1,44 @@
 {
   "codeSystems" : [
     {
-      "url" : "http://ehelse.no/fhir/ValueSet/vkp-performer-identifiers.valueset",
-      "version" : "0.2.3",
+      "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet",
+      "version" : "0.3.1",
       "status" : "draft",
-      "name" : "VkpPerfomerIdentifiersValueSet",
+      "name" : "NoDomainVitalSignsBloodPressureMeasurementMethodValueSet",
+      "title" : "NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet",
+      "description" : "Codes representing measurement method for HeartRate",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet",
+      "version" : "0.3.1",
+      "status" : "draft",
+      "name" : "NoDomainVitalSignsBloodpressureBodySiteValueSet",
+      "title" : "NoDomainVitalSignsBloodpressureBodySite-ValueSet",
+      "description" : "Codes representing body site for blood pressure",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-identifiers.valueset",
+      "version" : "0.3.1",
+      "status" : "draft",
+      "name" : "VkpPerformerIdentifiersValueSet",
       "title" : "VKP Performer Identifier systems ValueSet",
       "description" : "Identifier Systems allowed for performer identification systems in Vkp Observations",
       "systems" : [
-        "http://ehelse.no/fhir/CodeSystem/vkp-performer-identifiers.codesystem"
+        "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem"
       ]
     },
     {
-      "url" : "http://ehelse.no/fhir/ValueSet/vkp-subject-identifiers.valueset",
-      "version" : "0.2.3",
+      "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/vkp-subject-identifiers.valueset",
+      "version" : "0.3.1",
       "status" : "draft",
       "name" : "VkpSubjectIdentifiersValueSet",
       "title" : "VKP Subject Identifier systems ValueSet",
       "description" : "Identifier Systems allowed for subject identifications",
       "systems" : [
-        "http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem"
+        "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem"
       ]
-    },
-    {
-      "url" : "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodysitevalueset",
-      "version" : "0.2.3",
-      "status" : "draft",
-      "name" : "NoDomainVitalSignsObservationBloodPressureBodySiteValueSet",
-      "title" : null,
-      "description" : "Codes representing body site for blood pressure",
-      "systems" : ["http://snomed.info/sct"]
-    },
-    {
-      "url" : "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-measurementmethodvalueSet",
-      "version" : "0.2.3",
-      "status" : "draft",
-      "name" : "NoDomainVitalSignsObservationBloodPressureMeasurementMethodValueSet",
-      "title" : null,
-      "description" : "Codes representing measurement method for blood pressure",
-      "systems" : ["http://snomed.info/sct"]
     }
   ]
 }

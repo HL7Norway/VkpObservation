@@ -14,10 +14,18 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide hl7.fhir.no.vkp.observation</b></p><a name=\"hl7.fhir.no.vkp.observation\"> </a><a name=\"hchl7.fhir.no.vkp.observation\"> </a><h2>VkpObservation</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/vkpobservation/ImplementationGuide/hl7.fhir.no.vkp.observation</pre></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:url [ fhir:v "http://hl7.no/fhir/vkpobservation/ImplementationGuide/hl7.fhir.no.vkp.observation"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.2.3"] ; # 
+  fhir:version [ fhir:v "0.3.1"] ; # 
   fhir:name [ fhir:v "VkpObservation"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-06-19T06:55:16+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-06-19T19:05:31+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 Norway"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 Norway" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.no" ]
+     ] )
+  ] ) ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
@@ -984,10 +992,10 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsObservationBloodPressureBodySiteValueSet> ;
-         fhir:reference [ fhir:v "ValueSet/NoDomainVitalSignsObservationBloodPressureBodySiteValueSet" ]
+         fhir:link <http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet> ;
+         fhir:reference [ fhir:v "ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet" ]
        ] ;
-       fhir:name [ fhir:v "NoDomainVitalSignsObservationBloodPressureBodySiteValueSet" ] ;
+       fhir:name [ fhir:v "NoDomainVitalSignsBloodpressureBodySite-ValueSet" ] ;
        fhir:description [ fhir:v "Codes representing body site for blood pressure" ] ;
        fhir:example [
          a fhir:boolean ;
@@ -1002,11 +1010,11 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsObservationBloodPressureMeasurementMethodValue> ;
-         fhir:reference [ fhir:v "ValueSet/NoDomainVitalSignsObservationBloodPressureMeasurementMethodValue" ]
+         fhir:link <http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet> ;
+         fhir:reference [ fhir:v "ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet" ]
        ] ;
-       fhir:name [ fhir:v "NoDomainVitalSignsObservationBloodPressureMeasurementMethodValueSet" ] ;
-       fhir:description [ fhir:v "Codes representing measurement method for blood pressure" ] ;
+       fhir:name [ fhir:v "NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet" ] ;
+       fhir:description [ fhir:v "Codes representing measurement method for HeartRate" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -1027,6 +1035,24 @@
        fhir:example [
          a fhir:boolean ;
          fhir:v true
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Consciousness> ;
+         fhir:reference [ fhir:v "StructureDefinition/vkp-Observation-Consciousness" ]
+       ] ;
+       fhir:name [ fhir:v "Vkp Observation - Consciousness" ] ;
+       fhir:description [ fhir:v "Profile for Consciousness in VKP." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -1163,11 +1189,47 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:link <http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-CFSscore> ;
+         fhir:reference [ fhir:v "StructureDefinition/vkp-Observation-CFSscore" ]
+       ] ;
+       fhir:name [ fhir:v "Vkp VitalSigns Observation - CFS score" ] ;
+       fhir:description [ fhir:v "Profile for Clinical Frailty Scale score in VKP." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:link <http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Heartrate> ;
          fhir:reference [ fhir:v "StructureDefinition/vkp-Observation-Heartrate" ]
        ] ;
        fhir:name [ fhir:v "Vkp VitalSigns Observation - Heart rate" ] ;
        fhir:description [ fhir:v "Profile for heart rate in VKP." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-NEWS2score> ;
+         fhir:reference [ fhir:v "StructureDefinition/vkp-Observation-NEWS2score" ]
+       ] ;
+       fhir:name [ fhir:v "Vkp VitalSigns Observation - NEWS2 score" ] ;
+       fhir:description [ fhir:v "Profile for NEWS2 score in VKP." ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -1195,6 +1257,24 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Resprate> ;
+         fhir:reference [ fhir:v "StructureDefinition/vkp-Observation-Resprate" ]
+       ] ;
+       fhir:name [ fhir:v "Vkp VitalSigns Observation - Respiratory rate" ] ;
+       fhir:description [ fhir:v "Profile for Respiratory rate in VKP." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
            fhir:v "Observation"
          ]
        ] ) ;
@@ -1205,8 +1285,8 @@
        fhir:name [ fhir:v "vkp-blood-pressure-profile-create" ] ;
        fhir:example [
          a fhir:canonical ;
-         fhir:v "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bloodpressure"^^xsd:anyURI ;
-         fhir:link <http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bloodpressure>
+         fhir:v "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Bloodpressure"^^xsd:anyURI ;
+         fhir:link <http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Bloodpressure>
        ]
      ] [
        fhir:extension ( [
@@ -1223,8 +1303,8 @@
        fhir:name [ fhir:v "vkp-body-temperature-create" ] ;
        fhir:example [
          a fhir:canonical ;
-         fhir:v "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bodytemp"^^xsd:anyURI ;
-         fhir:link <http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bodytemp>
+         fhir:v "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Bodytemp"^^xsd:anyURI ;
+         fhir:link <http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Bodytemp>
        ]
      ] [
        fhir:extension ( [
@@ -1241,8 +1321,8 @@
        fhir:name [ fhir:v "vkp-body-weight-create" ] ;
        fhir:example [
          a fhir:canonical ;
-         fhir:v "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bodyweight"^^xsd:anyURI ;
-         fhir:link <http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bodyweight>
+         fhir:v "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Bodyweight"^^xsd:anyURI ;
+         fhir:link <http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Bodyweight>
        ]
      ] [
        fhir:extension ( [
@@ -1259,8 +1339,8 @@
        fhir:name [ fhir:v "vkp-glucose-create" ] ;
        fhir:example [
          a fhir:canonical ;
-         fhir:v "http://ehelse.no/fhir/StructureDefinition/vkp-Observation"^^xsd:anyURI ;
-         fhir:link <http://ehelse.no/fhir/StructureDefinition/vkp-Observation>
+         fhir:v "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation"^^xsd:anyURI ;
+         fhir:link <http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation>
        ]
      ] [
        fhir:extension ( [
@@ -1277,8 +1357,8 @@
        fhir:name [ fhir:v "vkp-heartrate-create" ] ;
        fhir:example [
          a fhir:canonical ;
-         fhir:v "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Heartrate"^^xsd:anyURI ;
-         fhir:link <http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Heartrate>
+         fhir:v "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Heartrate"^^xsd:anyURI ;
+         fhir:link <http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Heartrate>
        ]
      ] [
        fhir:extension ( [
@@ -1295,8 +1375,8 @@
        fhir:name [ fhir:v "vkp-oxygen-saturation-create" ] ;
        fhir:example [
          a fhir:canonical ;
-         fhir:v "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Oxygensat"^^xsd:anyURI ;
-         fhir:link <http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Oxygensat>
+         fhir:v "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Oxygensat"^^xsd:anyURI ;
+         fhir:link <http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Oxygensat>
        ]
      ] ) ;
      fhir:page [
