@@ -27,15 +27,15 @@ Description: "Profile for blood pressure in VKP."
 * performer.identifier.system MS
 * performer.identifier.value MS
 * performer.display MS
-* bodySite from NoDomainVitalSignsObservationBloodPressureBodySiteValueSet (required)
+* bodySite from NoDomainVitalSignsBloodpressureBodySiteValueSet (required)
 * bodySite ^short = "Simple body site where blood pressure was measured."
 * bodySite ^comment = "Only used if not implicit in code found in Observation.code.  In many systems, this may be represented as a related observation instead of an inline component."
-* bodySite.coding from NoDomainVitalSignsObservationBloodPressureBodySiteValueSet (required)
+* bodySite.coding from NoDomainVitalSignsBloodpressureBodySiteValueSet (required)
 * bodySite.coding.system = $sct (exactly)
 * bodySite.coding.code from $no-bloodpressurebodysite-valueset (required)
-* method from NoDomainVitalSignsObservationBloodPressureMeasurementMethodValueSet (required)
+* method from NoDomainVitalSignsBloodPressureMeasurementMethodValueSet (required)
 * method ^short = "Method of measurement of blood pressure."
-* method.coding from NoDomainVitalSignsObservationBloodPressureMeasurementMethodValueSet (required)
+* method.coding from NoDomainVitalSignsBloodPressureMeasurementMethodValueSet (required)
 * method.coding.system = $sct (exactly)
 * method.coding.code from $no-domain-vitalsignsobservation-measurementmethodvalueSet (required)
 * component[SystolicBP].code.coding contains SBPSCTCode 0..* MS
