@@ -1,4 +1,4 @@
-Instance: vkp-news2-create
+Instance: vkp-cfs-create
 InstanceOf: Observation
 Usage: #example
 * meta.versionId = "0"
@@ -17,4 +17,4 @@ Usage: #example
 * performer[+].identifier.system = "urn:oid:1.3.6.1.4.1.9038.51.1"
 * performer[=].identifier.value = "103"
 * valueQuantity.value = 2
-* note = "Evaluering gjort i brukerens hjem, normalt sprek for sin aldersgruppe."
+* note.text = "Evaluering gjort i brukerens hjem, normalt sprek for sin aldersgruppe."
