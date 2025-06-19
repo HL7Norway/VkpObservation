@@ -6,10 +6,10 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide hl7.fhir.no.vkp.observation</b></p><a name="hl7.fhir.no.vkp.observation"> </a><a name="hchl7.fhir.no.vkp.observation"> </a><h2>VkpObservation</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/vkpobservation/ImplementationGuide/hl7.fhir.no.vkp.observation</pre></div>
   </text>
   <url value="http://hl7.no/fhir/vkpobservation/ImplementationGuide/hl7.fhir.no.vkp.observation"/>
-  <version value="0.3.1"/>
+  <version value="0.3.2"/>
   <name value="VkpObservation"/>
   <status value="draft"/>
-  <date value="2025-06-19T19:05:31+00:00"/>
+  <date value="2025-06-19T19:58:19+00:00"/>
   <publisher value="HL7 Norway"/>
   <contact>
     <name value="HL7 Norway"/>
@@ -532,16 +532,6 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
-      </extension>
-      <reference>
-        <reference value="Observation/news2-create"/>
-      </reference>
-      <name value="news2-create"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
@@ -750,6 +740,16 @@
         <valueString value="Observation"/>
       </extension>
       <reference>
+        <reference value="Observation/vkp-cfs-create"/>
+      </reference>
+      <name value="vkp-cfs-create"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
         <reference value="Observation/vkp-glucose-create"/>
       </reference>
       <name value="vkp-glucose-create"/>
@@ -764,6 +764,16 @@
       </reference>
       <name value="vkp-heartrate-create"/>
       <exampleCanonical value="http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Heartrate"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/vkp-news2-create"/>
+      </reference>
+      <name value="vkp-news2-create"/>
+      <exampleBoolean value="true"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

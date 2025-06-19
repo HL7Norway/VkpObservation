@@ -2,7 +2,7 @@
   "codeSystems" : [
     {
       "url" : "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem",
-      "version" : "0.3.1",
+      "version" : "0.3.2",
       "status" : "draft",
       "name" : "VkpPerformerIdentifiersCodeSystem",
       "title" : "Vkp Performer Identifier Systems CodeSystem",
@@ -10,7 +10,7 @@
     },
     {
       "url" : "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem",
-      "version" : "0.3.1",
+      "version" : "0.3.2",
       "status" : "draft",
       "name" : "VkpSubjectIdentifiersCodeSystem",
       "title" : "Vkp Subject Identifier Systems CodeSystem",

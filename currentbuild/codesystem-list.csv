@@ -1,3 +1,3 @@
 URL,Version,Status,OIDs,Name,Title,Description,Used
-http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem,0.3.1,draft,,VkpPerformerIdentifiersCodeSystem,Vkp Performer Identifier Systems CodeSystem,"The CodeSystem contains all codes allowed for Observation.performer.system for use with VKP",
-http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem,0.3.1,draft,,VkpSubjectIdentifiersCodeSystem,Vkp Subject Identifier Systems CodeSystem,"The CodeSystem contains all codes allowed for Observation.subject.system, for use with VKP",
+http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem,0.3.2,draft,,VkpPerformerIdentifiersCodeSystem,Vkp Performer Identifier Systems CodeSystem,"The CodeSystem contains all codes allowed for Observation.performer.system for use with VKP",
+http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem,0.3.2,draft,,VkpSubjectIdentifiersCodeSystem,Vkp Subject Identifier Systems CodeSystem,"The CodeSystem contains all codes allowed for Observation.subject.system, for use with VKP",

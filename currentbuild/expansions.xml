@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="ae458743-1a45-4a36-93d2-097eedac485f"/>
+  <id value="bf4bc77a-e9d8-47a1-9648-8c543d6f7fd5"/>
   <meta>
-    <lastUpdated value="2025-06-19T19:06:10.754+00:00"/>
+    <lastUpdated value="2025-06-19T19:58:59.234+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -52,12 +52,12 @@
           </div>
         </text>
         <url value="http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet"/>
-        <version value="0.3.1"/>
+        <version value="0.3.2"/>
         <name value="NoDomainVitalSignsBloodPressureMeasurementMethodValueSet"/>
         <title value="NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-06-19T19:05:31+00:00"/>
+        <date value="2025-06-19T19:58:19+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -66,8 +66,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:f561bd89-a393-4c6f-abf2-45f30d6abcaa"/>
-          <timestamp value="2025-06-19T19:06:46+00:00"/>
+          <identifier value="urn:uuid:6fb93e05-a3ab-445b-8306-5f3e72ad19d3"/>
+          <timestamp value="2025-06-19T19:59:36+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -238,12 +238,12 @@
           </div>
         </text>
         <url value="http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet"/>
-        <version value="0.3.1"/>
+        <version value="0.3.2"/>
         <name value="NoDomainVitalSignsBloodpressureBodySiteValueSet"/>
         <title value="NoDomainVitalSignsBloodpressureBodySite-ValueSet"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-06-19T19:05:31+00:00"/>
+        <date value="2025-06-19T19:58:19+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -252,8 +252,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:3f8a2fa6-9dd5-4cde-8156-41ecb8fe461e"/>
-          <timestamp value="2025-06-19T19:06:47+00:00"/>
+          <identifier value="urn:uuid:a6ce5783-bd08-4b18-b6af-f2d8def8567f"/>
+          <timestamp value="2025-06-19T19:59:36+00:00"/>
           <total value="12"/>
           <offset value="0"/>
           <parameter>
@@ -361,7 +361,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
-              <a href="CodeSystem-vkp-performer-identifiers.codesystem.html">codesystem Vkp Performer Identifier Systems CodeSystem v0.3.1 (CodeSystem)</a>
+              <a href="CodeSystem-vkp-performer-identifiers.codesystem.html">codesystem Vkp Performer Identifier Systems CodeSystem v0.3.2 (CodeSystem)</a>
             </p>
             <p>This value set contains 1 concepts</p>
             <table class="codes">
@@ -392,7 +392,7 @@
           </div>
         </text>
         <url value="http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-identifiers.valueset"/>
-        <version value="0.3.1"/>
+        <version value="0.3.2"/>
         <name value="VkpPerformerIdentifiersValueSet"/>
         <title value="VKP Performer Identifier systems ValueSet"/>
         <status value="draft"/>
@@ -406,8 +406,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:acba6101-e000-46e4-98ad-5b95cfabec75"/>
-          <timestamp value="2025-06-19T19:06:47+00:00"/>
+          <identifier value="urn:uuid:ac7d7b01-5b06-4f37-9827-39e41550591c"/>
+          <timestamp value="2025-06-19T19:59:37+00:00"/>
           <total value="1"/>
           <offset value="0"/>
           <parameter>
@@ -428,11 +428,11 @@
           </parameter>
           <parameter>
             <name value="warning-experimental"/>
-            <valueUri value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem|0.3.1"/>
+            <valueUri value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem|0.3.2"/>
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem|0.3.1"/>
+            <valueUri value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem|0.3.2"/>
           </parameter>
           <contains>
             <system value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem"/>
@@ -455,7 +455,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
-              <a href="CodeSystem-vkp-subject-identifiers.codesystem.html">codesystem Vkp Subject Identifier Systems CodeSystem v0.3.1 (CodeSystem)</a>
+              <a href="CodeSystem-vkp-subject-identifiers.codesystem.html">codesystem Vkp Subject Identifier Systems CodeSystem v0.3.2 (CodeSystem)</a>
             </p>
             <p>This value set contains 3 concepts</p>
             <table class="codes">
@@ -504,7 +504,7 @@
           </div>
         </text>
         <url value="http://hl7.no/fhir/vkpobservation/ValueSet/vkp-subject-identifiers.valueset"/>
-        <version value="0.3.1"/>
+        <version value="0.3.2"/>
         <name value="VkpSubjectIdentifiersValueSet"/>
         <title value="VKP Subject Identifier systems ValueSet"/>
         <status value="draft"/>
@@ -518,8 +518,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:02509c37-7668-467f-9571-463127d99b32"/>
-          <timestamp value="2025-06-19T19:06:47+00:00"/>
+          <identifier value="urn:uuid:fc85e7d5-4afd-4fd5-ad70-16d064647429"/>
+          <timestamp value="2025-06-19T19:59:37+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -540,11 +540,11 @@
           </parameter>
           <parameter>
             <name value="warning-experimental"/>
-            <valueUri value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem|0.3.1"/>
+            <valueUri value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem|0.3.2"/>
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem|0.3.1"/>
+            <valueUri value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem|0.3.2"/>
           </parameter>
           <contains>
             <system value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem"/>

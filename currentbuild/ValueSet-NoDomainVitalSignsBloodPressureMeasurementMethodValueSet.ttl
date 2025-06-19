@@ -40,12 +40,12 @@
      ]
   ] ) ; # 
   fhir:url [ fhir:v "http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.3.1"] ; # 
+  fhir:version [ fhir:v "0.3.2"] ; # 
   fhir:name [ fhir:v "NoDomainVitalSignsBloodPressureMeasurementMethodValueSet"] ; # 
   fhir:title [ fhir:v "NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-06-19T19:05:31+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-06-19T19:58:19+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Norway"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Norway" ] ;
