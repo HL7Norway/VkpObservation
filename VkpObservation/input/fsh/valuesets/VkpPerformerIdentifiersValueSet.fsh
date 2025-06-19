@@ -1,4 +1,4 @@
-ValueSet: VkpPerfomerIdentifiersValueSet
+ValueSet: VkpPerformerIdentifiersValueSet
 Id: vkp-performer-identifiers.valueset
 Title: "VKP Performer Identifier systems ValueSet"
 Description: "Identifier Systems allowed for performer identification systems in Vkp Observations"
