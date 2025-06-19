@@ -3,10 +3,7 @@ Parent: Observation
 Id: vkp-Observation-NEWS2score
 Title: "Vkp VitalSigns Observation - NEWS2 score"
 Description: "Profile for NEWS2 score in VKP."
-* ^url = "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-NEWS2score"
-* ^version = "0.2.2"
 * ^status = #draft
-* ^date = "2023-03-14"
 * ^purpose = "To record the NEWS2 score of an individual (will be updated with norwegian NEWS2 score code when this is established)"
 * . ^short = "FHIR NEWS2 score Profile VKP"
 * code.coding ^slicing.discriminator.type = #pattern

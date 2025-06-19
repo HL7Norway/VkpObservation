@@ -3,8 +3,6 @@ Parent: http://hl7.org/fhir/StructureDefinition/resprate
 Id: vkp-Observation-Resprate
 Title: "Vkp VitalSigns Observation - Respiratory rate"
 Description: "Profile for Respiratory rate in VKP."
-* ^url = "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Resprate"
-* ^version = "0.2.2"
 * ^status = #draft
 * ^date = "2023-03-14"
 * ^purpose = "To record the respiratory rate of an individual."

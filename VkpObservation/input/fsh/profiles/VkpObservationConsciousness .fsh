@@ -3,8 +3,6 @@ Parent: Observation
 Id: vkp-Observation-Consciousness
 Title: "Vkp Observation - Consciousness"
 Description: "Profile for Consciousness in VKP."
-* ^url = "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Consciousness"
-* ^version = "0.2.2"
 * ^status = #draft
 * ^date = "2023-03-14"
 * ^purpose = "To record the consciousness rate of an individual."

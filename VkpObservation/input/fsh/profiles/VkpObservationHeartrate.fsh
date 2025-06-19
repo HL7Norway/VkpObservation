@@ -3,8 +3,6 @@ Parent: http://hl7.org/fhir/StructureDefinition/heartrate
 Id: vkp-Observation-Heartrate
 Title: "Vkp VitalSigns Observation - Heart rate"
 Description: "Profile for heart rate in VKP."
-* ^url = "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Heartrate"
-* ^version = "0.2.2"
 * ^status = #draft
 * ^date = "2022-03-16"
 * ^purpose = "To record the heartrate of an individual."
