@@ -1,12 +1,19 @@
 {
-  "url" : "http://ehelse.no/fhir/ImplementationGuide/ehelse.fhir.no.vkp.observation",
+  "url" : "http://hl7.no/fhir/vkpobservation/ImplementationGuide/hl7.fhir.no.vkp.observation",
   "name" : "VkpObservation",
-  "package-id" : "ehelse.fhir.no.vkp.observation",
-  "ig-ver" : "0.3.0",
-  "date" : "Tue, 14 Mar, 2023 12:07:24 +0000",
-  "errs" : 78,
-  "warnings" : 56,
-  "hints" : 7,
+  "title" : null,
+  "description" : null,
+  "status" : "draft",
+  "package-id" : "hl7.fhir.no.vkp.observation",
+  "ig-ver" : "0.2.3",
+  "date" : "Thu, 19 Jun, 2025 06:55:53 +0000",
+  "dateISO8601" : "2025-06-19T06:55:53+00:00",
+  "errs" : 123,
+  "warnings" : 97,
+  "hints" : 63,
+  "suppressed-hints" : 0,
+  "suppressed-warnings" : 0,
   "version" : "4.0.1",
-  "tool" : "5.0.0-draft-final (3)"
+  "tool" : "5.0.0 (3)",
+  "maxMemory" : 1069152000
 }

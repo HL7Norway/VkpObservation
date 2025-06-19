@@ -1,0 +1,66 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://ehelse.no/fhir/ValueSet/vkp-performer-identifiers.valueset",
+      "version" : "0.2.3",
+      "status" : "draft",
+      "name" : "VkpPerfomerIdentifiersValueSet",
+      "title" : "VKP Performer Identifier systems ValueSet",
+      "description" : "Identifier Systems allowed for performer identification systems in Vkp Observations",
+      "systems" : [
+        "http://ehelse.no/fhir/CodeSystem/vkp-performer-identifiers.codesystem"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-vkp-Observation-Heartrate.html" : "Vkp VitalSigns Observation - Heart rate",
+      "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
+      "StructureDefinition-vkp-Observation-Bodyweight.html" : "Vkp VitalSigns Observation - Body weight",
+      "StructureDefinition-vkp-Observation-Bodytemp.html" : "Vkp VitalSigns Observation - Body temperature",
+      "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
+      "StructureDefinition-vkp-Observation.html" : "General Vkp Observation"
+    },
+    {
+      "url" : "http://ehelse.no/fhir/ValueSet/vkp-subject-identifiers.valueset",
+      "version" : "0.2.3",
+      "status" : "draft",
+      "name" : "VkpSubjectIdentifiersValueSet",
+      "title" : "VKP Subject Identifier systems ValueSet",
+      "description" : "Identifier Systems allowed for subject identifications",
+      "systems" : [
+        "http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-vkp-Observation-Heartrate.html" : "Vkp VitalSigns Observation - Heart rate",
+      "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
+      "StructureDefinition-vkp-Observation-Bodyweight.html" : "Vkp VitalSigns Observation - Body weight",
+      "StructureDefinition-vkp-Observation-Bodytemp.html" : "Vkp VitalSigns Observation - Body temperature",
+      "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
+      "StructureDefinition-vkp-Observation.html" : "General Vkp Observation"
+    },
+    {
+      "url" : "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodysitevalueset",
+      "version" : "0.2.3",
+      "status" : "draft",
+      "name" : "NoDomainVitalSignsObservationBloodPressureBodySiteValueSet",
+      "title" : null,
+      "description" : "Codes representing body site for blood pressure",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure"
+    },
+    {
+      "url" : "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-measurementmethodvalueSet",
+      "version" : "0.2.3",
+      "status" : "draft",
+      "name" : "NoDomainVitalSignsObservationBloodPressureMeasurementMethodValueSet",
+      "title" : null,
+      "description" : "Codes representing measurement method for blood pressure",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure"
+    }
+  ]
+}

@@ -1,13 +1,14 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix loinc: <https://loinc.org/rdf/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sct: <http://snomed.info/id/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 # - resource -------------------------------------------------------------------
 
-<http://ehelse.no/fhir/Observation/blood-pressure-create> a fhir:Observation ;
+<http://hl7.no/fhir/vkpobservation/Observation/blood-pressure-create> a fhir:Observation ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "blood-pressure-create"] ; # 
   fhir:meta [
@@ -16,8 +17,8 @@
      fhir:source [ fhir:v "META_VISION"^^xsd:anyURI ]
   ] ; # 
   fhir:text [
-     fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"blood-pressure-create\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;blood-pressure-create&quot; Version &quot;0&quot; Updated &quot;2014-01-30 22:35:23+1100&quot; </p><p style=\"margin-bottom: 0px\">Information Source: META_VISION!</p></div><p><b style=\"color: maroon\">Exception generating Narrative: unknown extension http://hl7.org/fhir/StructureDefinition/no-domain-vitalsignsobservation-cuffsizeextension</b></p></div>"
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation blood-pressure-create</b></p><a name=\"blood-pressure-create\"> </a><a name=\"hcblood-pressure-create\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 0; Last updated: 2014-01-30 22:35:23+1100; </p><p style=\"margin-bottom: 0px\">Information Source: <a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.0&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/META_VISION\">META_VISION</a></p></div><p><b>no/fhir/StructureDefinition/no-domain-vitalsignsobservation-bloodpressure-bodypositionextension</b>: <a href=\"http://snomed.info/id/33586001\">SNOMED CT 33586001</a>: Sitting position</p><p><b>org/fhir/StructureDefinition/no-domain-vitalsignsobservation-cuffsizeextension</b>: <a href=\"http://snomed.info/id/720740000\">SNOMED CT 720740000</a>: Lår voksne</p><p><b>org/fhir/StructureDefinition/no-domain-vitalsignsobservation-diastolicendpointextension</b>: <a href=\"http://snomed.info/id/1081871000202109\">SNOMED CT 1081871000202109</a>: Phase IV</p><p><b>org/fhir/StructureDefinition/no-domain-vitalsignsobservation-sleepstatusextension</b>: <a href=\"http://snomed.info/id/248218005\">SNOMED CT 248218005</a>: awake</p><p><b>no/fhir/StructureDefinition/no-domain-vitalsignsobservation-headtiltextension</b>: 14 deg</p><p><b>no/fhir/StructureDefinition/no-domain-vitalsignsobservation-levelofexertionextension</b>: <a href=\"http://snomed.info/id/154h\">SNOMED CT 154h</a>: Hvile</p><p><b>no/fhir/StructureDefinition/no-domain-vitalsignsobservation-bloodpressure-systolicformulaextension</b>: sample formula 1</p><p><b>no/fhir/StructureDefinition/no-domain-vitalsignsobservation-bloodpressure-diastolicformulaextension</b>: sample formula 2</p><p><b>no/fhir/StructureDefinition/no-domain-vitalsignsobservation-bloodpressure-meanarterialformulaextension</b>: sample formula 3</p><p><b>identifier</b>: <code>http://dips.no/fhir/namingsystem/externalId</code>/External Id: testBPexternalId1</p><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}\">vital-signs</span></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 85354-9}\">Blood pressure (observable entity)</span></p><p><b>subject</b>: <a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.0&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/Patient/cdp1000807\">Patient/cdp1000807</a></p><p><b>encounter</b>: <a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.0&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/Encounter/agy1002679\">Encounter/agy1002679</a></p><p><b>effective</b>: 2021-05-10</p><p><b>performer</b>: </p><ul><li><a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.0&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/PractitionerRole/agb103\">PractitionerRole/agb103</a></li><li><a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.0&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/Organization/afa22\">Organization/afa22</a></li></ul><p><b>note</b>: </p><blockquote><div><p>Demo Blood Pressure</p>\n</div></blockquote><p><b>bodySite</b>: <span title=\"Codes:{http://snomed.info/sct 7569003}\">Finger structure (body structure)</span></p><p><b>method</b>: <span title=\"Codes:{http://snomed.info/sct 129436005}\">Auscultation - action (qualifier value)</span></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 8480-6}, {http://acme.org/devices/clinical-codes bp-s}\">Systolic blood pressure</span></p><p><b>value</b>: 123 mm[Hg]<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codemm[Hg] = 'mm[Hg]')</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 8462-4}\">Diastolic blood pressure</span></p><p><b>value</b>: 78 mm[Hg]<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codemm[Hg] = 'mm[Hg]')</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 8478-0}\">Mean arterial pressure (observable entity)</span></p><p><b>value</b>: 93 mm[Hg]<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codemm[Hg] = 'mm[Hg]')</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 4461000202102}\">The difference between the systolic and diastolic pressure.</span></p><p><b>value</b>: 45 mm[Hg]<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codemm[Hg] = 'mm[Hg]')</span></p></blockquote></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-bloodpressure-bodypositionextension"^^xsd:anyURI ] ;
@@ -68,13 +69,22 @@
      ]
   ] [
      fhir:url [ fhir:v "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-bloodpressure-systolicformulaextension"^^xsd:anyURI ] ;
-     fhir:value [ fhir:v "sample formula 1" ]
+     fhir:value [
+       a fhir:string ;
+       fhir:v "sample formula 1"
+     ]
   ] [
      fhir:url [ fhir:v "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-bloodpressure-diastolicformulaextension"^^xsd:anyURI ] ;
-     fhir:value [ fhir:v "sample formula 2" ]
+     fhir:value [
+       a fhir:string ;
+       fhir:v "sample formula 2"
+     ]
   ] [
      fhir:url [ fhir:v "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-bloodpressure-meanarterialformulaextension"^^xsd:anyURI ] ;
-     fhir:value [ fhir:v "sample formula 3" ]
+     fhir:value [
+       a fhir:string ;
+       fhir:v "sample formula 3"
+     ]
   ] ) ; # 
   fhir:identifier ( [
      fhir:system [ fhir:v "http://dips.no/fhir/namingsystem/externalId"^^xsd:anyURI ] ;
@@ -97,7 +107,7 @@
      ] )
   ] ; # 
   fhir:subject [
-     fhir:link <http://ehelse.no/fhir/Patient/cdp1000807> ;
+     fhir:link <http://hl7.no/fhir/vkpobservation/Patient/cdp1000807> ;
      fhir:reference [ fhir:v "Patient/cdp1000807" ] ;
      fhir:identifier [
        fhir:system [ fhir:v "http://dips.no/fhir/namingsystem/dips-patientid"^^xsd:anyURI ] ;
@@ -105,23 +115,26 @@
      ]
   ] ; # 
   fhir:encounter [
-     fhir:link <http://ehelse.no/fhir/Encounter/agy1002679> ;
+     fhir:link <http://hl7.no/fhir/vkpobservation/Encounter/agy1002679> ;
      fhir:reference [ fhir:v "Encounter/agy1002679" ] ;
      fhir:identifier [
        fhir:system [ fhir:v "http://dips.no/fhir/namingsystem/dips-omsorgsepisodeid"^^xsd:anyURI ] ;
        fhir:value [ fhir:v "1002679" ]
      ]
   ] ; # 
-  fhir:effective [ fhir:v "2021-05-10"^^xsd:date] ; # 
+  fhir:effective [
+     a fhir:dateTime ;
+     fhir:v "2021-05-10"^^xsd:date
+  ] ; # 
   fhir:performer ( [
-     fhir:link <http://ehelse.no/fhir/PractitionerRole/agb103> ;
+     fhir:link <http://hl7.no/fhir/vkpobservation/PractitionerRole/agb103> ;
      fhir:reference [ fhir:v "PractitionerRole/agb103" ] ;
      fhir:identifier [
        fhir:system [ fhir:v "urn:oid:1.3.6.1.4.1.9038.51.1"^^xsd:anyURI ] ;
        fhir:value [ fhir:v "103" ]
      ]
   ] [
-     fhir:link <http://ehelse.no/fhir/Organization/afa22> ;
+     fhir:link <http://hl7.no/fhir/vkpobservation/Organization/afa22> ;
      fhir:reference [ fhir:v "Organization/afa22" ] ;
      fhir:identifier [
        fhir:system [ fhir:v "urn:oid:1.3.6.1.4.1.9038.70.3"^^xsd:anyURI ] ;

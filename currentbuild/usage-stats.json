@@ -1,6 +1,6 @@
 {
-  "package": "ehelse.fhir.no.vkp.observation",
-  "version": "0.3.0",
+  "package": "hl7.fhir.no.vkp.observation",
+  "version": "0.2.3",
   "fhirVersion": "4.0.1",
   "jurisdiction": "NO",
   "extensions": [],
@@ -23,24 +23,12 @@
         "title": "Vkp VitalSigns Observation - Body weight"
       },
       {
-        "url": "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Consciousness",
-        "title": "Vkp Observation - Consciousness"
-      },
-      {
         "url": "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Heartrate",
         "title": "Vkp VitalSigns Observation - Heart rate"
       },
       {
-        "url": "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-NEWS2score",
-        "title": "Vkp VitalSigns Observation - NEWS2 score"
-      },
-      {
         "url": "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Oxygensat",
         "title": "Vkp VitalSigns Observation - Oxygen saturation"
-      },
-      {
-        "url": "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Resprate",
-        "title": "Vkp VitalSigns Observation - Respiratory rate"
       }
     ]
   },
@@ -102,9 +90,6 @@
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName": [
       "StructureDefinition.snapshot.element.binding"
     ],
-    "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding": [
-      "StructureDefinition.snapshot.element.binding"
-    ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
       "StructureDefinition.snapshot.element.binding"
     ],
@@ -142,11 +127,13 @@
       "ValueSet"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status": [
-      "StructureDefinition.snapshot.element",
       "ValueSet"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg": [
       "ValueSet"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency": [
+      "ImplementationGuide.definition"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name": [
       "ImplementationGuide.definition.page",
@@ -160,6 +147,9 @@
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version": [
+      "StructureDefinition.snapshot"
     ]
   }
 }

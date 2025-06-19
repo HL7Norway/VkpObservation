@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>EHELSE.FHIR.NO.VKP.OBSERVATION\news2-create - FHIR v4.0.1</title>
+    <title>news2-create -  v0.2.3</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -29,18 +29,18 @@
     <![endif]-->
 
     <!-- Favicons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
-    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
     <link rel="shortcut icon" href="assets/ico/favicon.png"/>
   </head>
   <body onload="document.body.style.opacity='1'">
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"2.21"}
-    h3,h4,h5,h6{--heading-prefix:"2.21"}</style>
+    <style type="text/css">h2{--heading-prefix:"2.18"}
+    h3,h4,h5,h6{--heading-prefix:"2.18"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -49,7 +49,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold"></span>
             <br/>
-            <span style="display:inline-block;">0.3.0 - ci-build
+            <span style="display:inline-block;">0.2.3 - ci-build
 
 
 
@@ -111,7 +111,7 @@
           <div class="inner-wrapper">
 
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">VkpObservation - Local Development build (v0.3.0). See the <a href="http://ehelse.no/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">VkpObservation - Local Development build (v0.2.3) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.no/fhir/vkpobservation/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
 
   
 
@@ -160,18 +160,6 @@
 
   <h2 id="root">Example Observation: news2-create</h2>
 
-  <table class="colsi">
-    <tr>
-
-      <td colspan="2">
-        
-          
-          
-        
-      </td>
-
-    </tr>
-  </table>
 
 
 
@@ -180,7 +168,7 @@
 
 
 
-  <div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="news2-create"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;news2-create&quot; Version &quot;0&quot; Updated &quot;2014-01-30 11:35:23+0000&quot; </p><p style="margin-bottom: 0px">Information Source: MEDANETS!</p></div><p><b>identifier</b>: id: External Id: testNEWS2</p><p><b>status</b>: final</p><p><b>category</b>: Survey <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-observation-category.html">Observation Category Codes</a>#survey)</span></p><p><b>code</b>: NEWS2 (National Early Warning Score 2) total score <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#1104051000000101)</span></p><p><b>subject</b>: <a href="https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.1.2&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/Patient/cdp1000807">Patient/cdp1000807</a></p><p><b>effective</b>: 2021-11-02</p><p><b>performer</b>: </p><ul><li><a href="https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.1.2&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/Organization/afa22">Organization/afa22</a></li><li><a href="https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.1.2&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/PractitionerRole/agb103">PractitionerRole/agb103</a></li></ul><p><b>value</b>: 20 score<span style="background: LightGoldenRodYellow"> (Details: UCUM code score = 'score')</span></p><blockquote><p><b>component</b></p><p><b>code</b>: NEWS2 (National Early Warning Score 2) - respiration rate score <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#1104301000000104)</span></p><p><b>value</b>: 3 ScoreOf<span style="background: LightGoldenRodYellow"> (Details: UCUM code {ScoreOf} = '{ScoreOf}')</span></p><p><b>interpretation</b>: ≥25 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> ()</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>:  NEWS2 (National Early Warning Score 2) - oxygen saturation scale 2 score <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#1104321000000108)</span></p><p><b>value</b>: 3 ScoreOf<span style="background: LightGoldenRodYellow"> (Details: UCUM code {ScoreOf} = '{ScoreOf}')</span></p><p><b>interpretation</b>: 93–94 med oksygentilførsel <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> ()</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: NEWS2 (National Early Warning Score 2) - air or oxygen score <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#1104331000000105)</span></p><p><b>value</b>: 2 ScoreOf<span style="background: LightGoldenRodYellow"> (Details: UCUM code {ScoreOf} = '{ScoreOf}')</span></p><p><b>interpretation</b>: Oksygen <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> ()</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: NEWS2 (National Early Warning Score 2) - pulse score <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#1104351000000103)</span></p><p><b>value</b>: 3 ScoreOf<span style="background: LightGoldenRodYellow"> (Details: UCUM code {ScoreOf} = '{ScoreOf}')</span></p><p><b>interpretation</b>: ≤40 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> ()</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: NEWS2 (National Early Warning Score 2) - systolic blood pressure score <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#1104341000000101)</span></p><p><b>value</b>: 3 ScoreOf<span style="background: LightGoldenRodYellow"> (Details: UCUM code {ScoreOf} = '{ScoreOf}')</span></p><p><b>interpretation</b>: ≤90 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> ()</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: NEWS2 (National Early Warning Score 2) - consciousness score <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#1104361000000100)</span></p><p><b>value</b>: 3 ScoreOf<span style="background: LightGoldenRodYellow"> (Details: UCUM code {ScoreOf} = '{ScoreOf}')</span></p><p><b>interpretation</b>: C, V, P eller U <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> ()</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: NEWS2 (National Early Warning Score 2) - temperature score <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#1104371000000107)</span></p><p><b>value</b>: 3 ScoreOf<span style="background: LightGoldenRodYellow"> (Details: UCUM code {ScoreOf} = '{ScoreOf}')</span></p><p><b>interpretation</b>: ≤35.0 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> ()</span></p></blockquote></div>
+  <div xmlns="http://www.w3.org/1999/xhtml"><a name="news2-create"> </a><a name="hcnews2-create"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version: 0; Last updated: 2014-01-30 11:35:23+0000; </p><p style="margin-bottom: 0px">Information Source: <a href="https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.0&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/MEDANETS">MEDANETS</a></p></div><p><b>no/fhir/StructureDefinition/hn-domain-vitalsignsobservation-news2score-clinical-ratio-extension</b>: Høy</p><p><b>identifier</b>: <code>http://dips.no/fhir/namingsystem/externalId</code>/External Id: testNEWS2</p><p><b>status</b>: Final</p><p><b>category</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/observation-category survey}">Survey</span></p><p><b>code</b>: <span title="Codes:{http://snomed.info/sct 1104051000000101}">NEWS2 (National Early Warning Score 2) total score</span></p><p><b>subject</b>: <a href="https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.0&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/Patient/cdp1000807">Patient/cdp1000807</a></p><p><b>effective</b>: 2021-11-02</p><p><b>performer</b>: </p><ul><li><a href="https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.0&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/Organization/afa22">Organization/afa22</a></li><li><a href="https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.0&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/PractitionerRole/agb103">PractitionerRole/agb103</a></li></ul><p><b>value</b>: 20 score<span style="background: LightGoldenRodYellow"> (Details: UCUM  codescore = 'score')</span></p><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://snomed.info/sct 1104301000000104}">NEWS2 (National Early Warning Score 2) - respiration rate score</span></p><p><b>value</b>: 3 ScoreOf<span style="background: LightGoldenRodYellow"> (Details: UCUM  code{ScoreOf} = '{ScoreOf}')</span></p><p><b>interpretation</b>: <span title="Codes:">≥25</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://snomed.info/sct 1104321000000108}"> NEWS2 (National Early Warning Score 2) - oxygen saturation scale 2 score</span></p><p><b>value</b>: 3 ScoreOf<span style="background: LightGoldenRodYellow"> (Details: UCUM  code{ScoreOf} = '{ScoreOf}')</span></p><p><b>interpretation</b>: <span title="Codes:">93–94 med oksygentilførsel</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://snomed.info/sct 1104331000000105}">NEWS2 (National Early Warning Score 2) - air or oxygen score</span></p><p><b>value</b>: 2 ScoreOf<span style="background: LightGoldenRodYellow"> (Details: UCUM  code{ScoreOf} = '{ScoreOf}')</span></p><p><b>interpretation</b>: <span title="Codes:">Oksygen</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://snomed.info/sct 1104351000000103}">NEWS2 (National Early Warning Score 2) - pulse score</span></p><p><b>value</b>: 3 ScoreOf<span style="background: LightGoldenRodYellow"> (Details: UCUM  code{ScoreOf} = '{ScoreOf}')</span></p><p><b>interpretation</b>: <span title="Codes:">≤40</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://snomed.info/sct 1104341000000101}">NEWS2 (National Early Warning Score 2) - systolic blood pressure score</span></p><p><b>value</b>: 3 ScoreOf<span style="background: LightGoldenRodYellow"> (Details: UCUM  code{ScoreOf} = '{ScoreOf}')</span></p><p><b>interpretation</b>: <span title="Codes:">≤90</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://snomed.info/sct 1104361000000100}">NEWS2 (National Early Warning Score 2) - consciousness score</span></p><p><b>value</b>: 3 ScoreOf<span style="background: LightGoldenRodYellow"> (Details: UCUM  code{ScoreOf} = '{ScoreOf}')</span></p><p><b>interpretation</b>: <span title="Codes:">C, V, P eller U</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title="Codes:{http://snomed.info/sct 1104371000000107}">NEWS2 (National Early Warning Score 2) - temperature score</span></p><p><b>value</b>: 3 ScoreOf<span style="background: LightGoldenRodYellow"> (Details: UCUM  code{ScoreOf} = '{ScoreOf}')</span></p><p><b>interpretation</b>: <span title="Codes:">≤35.0</span></p></blockquote></div>
 
   
 
@@ -198,20 +186,14 @@
   <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
 
-  <script type="text/javascript">
-    $(document).ready(function(){
-      if(window.location.hash != "") {
-          $('a[href="' + window.location.hash + '"]').click()
-      }
-    });
-  </script>
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
   <a name="bottom"> </a>
   <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
     <div class="container">  <!-- container -->
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href=""></a>.  Package ehelse.fhir.no.vkp.observation#0.3.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Mar 14, 2023 12:07+0000">2023-03-14</span>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href=""></a>.  Package hl7.fhir.no.vkp.observation#0.2.3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Jun 19, 2025 06:55+0000">2025-06-19</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
@@ -238,16 +220,8 @@
   <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
   <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
   <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
-  <script>anchors.options.visible = 'hover'
-anchors.add()</script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
   
-<!-- feedback form - Google forms -->
-<!-- v0.1, 2021-01-09 -->
-
-
-
-<!-- / feedback form  -->
-
   <!-- Analytics Below
   ================================================== -->
   </body>

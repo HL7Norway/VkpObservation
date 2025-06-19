@@ -1,0 +1,5 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+http://ehelse.no/fhir/ValueSet/vkp-performer-identifiers.valueset,0.2.3,draft,,VkpPerfomerIdentifiersValueSet,VKP Performer Identifier systems ValueSet,"Identifier Systems allowed for performer identification systems in Vkp Observations",,"Internal"
+http://ehelse.no/fhir/ValueSet/vkp-subject-identifiers.valueset,0.2.3,draft,,VkpSubjectIdentifiersValueSet,VKP Subject Identifier systems ValueSet,"Identifier Systems allowed for subject identifications",,"Internal"
+http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodysitevalueset,0.2.3,draft,,NoDomainVitalSignsObservationBloodPressureBodySiteValueSet,,"Codes representing body site for blood pressure",,"SCT"
+http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-measurementmethodvalueSet,0.2.3,draft,,NoDomainVitalSignsObservationBloodPressureMeasurementMethodValueSet,,"Codes representing measurement method for blood pressure",,"SCT"
