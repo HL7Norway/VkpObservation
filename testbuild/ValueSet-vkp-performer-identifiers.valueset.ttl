@@ -35,7 +35,7 @@
   ] ) ; # 
   fhir:url [ fhir:v "http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-identifiers.valueset"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.3.1"] ; # 
-  fhir:name [ fhir:v "VkpPerfomerIdentifiersValueSet"] ; # 
+  fhir:name [ fhir:v "VkpPerformerIdentifiersValueSet"] ; # 
   fhir:title [ fhir:v "VKP Performer Identifier systems ValueSet"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v false] ; # 

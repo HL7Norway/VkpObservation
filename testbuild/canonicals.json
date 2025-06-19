@@ -109,7 +109,7 @@
     "type" : "ValueSet",
     "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-identifiers.valueset",
     "version" : "0.3.1",
-    "name" : "VkpPerfomerIdentifiersValueSet"
+    "name" : "VkpPerformerIdentifiersValueSet"
   },
   {
     "id" : "vkp-subject-identifiers.valueset",

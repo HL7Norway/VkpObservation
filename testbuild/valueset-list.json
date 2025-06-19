@@ -22,7 +22,7 @@
       "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-identifiers.valueset",
       "version" : "0.3.1",
       "status" : "draft",
-      "name" : "VkpPerfomerIdentifiersValueSet",
+      "name" : "VkpPerformerIdentifiersValueSet",
       "title" : "VKP Performer Identifier systems ValueSet",
       "description" : "Identifier Systems allowed for performer identification systems in Vkp Observations",
       "systems" : [
