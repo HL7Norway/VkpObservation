@@ -7,8 +7,6 @@ Scope of use is Personal connected health and care domain to exchange simple med
 * Hospital
 * General Practitioner
 
-
-
 Based on FHIR VitalSigns where appropriate.
 
 ## Interoperability methods
@@ -39,6 +37,7 @@ The next observations we want to specify
 |----------------|---------|------|-----|------|
 |poengsum skjema||VkpObservation|code: 74465-6 Questionnaire response document|?|
 |NEWS2-score||VkpObservation|-|code: 1104051000000101 Royal College of Physicians NEWS2 (National Early Warning Score 2) total score|
+|CFS-score||VkpObservation|-|code: 763264000 Canadian Study of Health and Aging Clinical Frailty Scale score (observable entity)|
 |respirasjonsrate||VkpObservationResprate|9279-1 Respiratory rate|86290005 Respiratory rate (observable entity)|
 |bevisthetsnivå||VkpObservation|-|code: 1104441000000107 Alert Confusion Voice Pain Unresponsive scale score (observable entity)|
 
