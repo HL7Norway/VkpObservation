@@ -9,9 +9,9 @@ Description: "Profile for Clinical Frailty Scale score in VKP."
 * code.coding ^slicing.discriminator.type = #pattern
 * code.coding ^slicing.discriminator.path = "system"
 * code.coding ^slicing.rules = #open
-* code.coding ^slicing.description = "Slices for SCT coding of Observation.code"
+* code.coding ^slicing.description = "Slices for SCT coding of Observation.code for CFS score"
 * code.coding contains
-  NEWS2scoreSCTCode 0..* MS
+  CFSscoreSCTCode 0..* MS
 * code.coding[CFSscoreSCTCode].system = $sct
 * code.coding[CFSscoreSCTCode].code = #763264000 "Canadian Study of Health and Aging Clinical Frailty Scale score (observable entity)"
 * subject 1.. MS
