@@ -32,12 +32,12 @@ Description: "Profile for blood pressure in VKP."
 * bodySite ^comment = "Only used if not implicit in code found in Observation.code.  In many systems, this may be represented as a related observation instead of an inline component."
 * bodySite.coding from NoDomainVitalSignsBloodpressureBodySiteValueSet (required)
 * bodySite.coding.system = $sct (exactly)
-* bodySite.coding.code from $no-bloodpressurebodysite-valueset (required)
+* bodySite.coding.code from NoDomainVitalSignsBloodpressureBodySiteValueSet (required)
 * method from NoDomainVitalSignsBloodPressureMeasurementMethodValueSet (required)
 * method ^short = "Method of measurement of blood pressure."
 * method.coding from NoDomainVitalSignsBloodPressureMeasurementMethodValueSet (required)
 * method.coding.system = $sct (exactly)
-* method.coding.code from $no-domain-vitalsignsobservation-measurementmethodvalueSet (required)
+* method.coding.code from NoDomainVitalSignsBloodPressureMeasurementMethodValueSet (required)
 * component[SystolicBP].code.coding contains SBPSCTCode 0..* MS
 * component[SystolicBP].code.coding[SBPSCTCode] ^short = "Systolic Blood Pressure SNOMED CT code"
 * component[SystolicBP].code.coding[SBPSCTCode].system 1..1 MS
