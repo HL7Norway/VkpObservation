@@ -1,7 +1,7 @@
 VkpObservation : Validation Results
 =========================================
 
-err = 176, warn = 121, info = 69
+err = 177, warn = 115, info = 69
 $--
 Generated $--. FHIR version $-- for hl7.fhir.no.vkp.observation#$-- (canonical = http://hl7.no/fhir/vkpobservation)
  Build Errors : 1 / 288 / 0
@@ -15,14 +15,14 @@ Generated $--. FHIR version $-- for hl7.fhir.no.vkp.observation#$-- (canonical =
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-level-of-consciousness-create : 4 / 6 / 2
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-news2-create : 13 / 13 / 3
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-respiratory-rate-create : 22 / 14 / 5
- /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-blood-pressure-profile-create : 2 / 3 / 20
+ /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-blood-pressure-profile-create : 3 / 1 / 20
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-body-temperature-create : 3 / 1 / 5
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-body-weight-create : 2 / 1 / 5
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-glucose-create : 2 / 3 / 4
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-heartrate-create : 2 / 1 / 5
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-oxygen-saturation-create : 2 / 1 / 5
  /github/workspace/VkpObservation/fsh-generated/resources/StructureDefinition-vkp-Observation : 8 / 2 / 3
- /github/workspace/VkpObservation/fsh-generated/resources/StructureDefinition-vkp-Observation-Bloodpressure : 0 / 4 / 2
+ /github/workspace/VkpObservation/fsh-generated/resources/StructureDefinition-vkp-Observation-Bloodpressure : 0 / 0 / 2
  /github/workspace/VkpObservation/fsh-generated/resources/StructureDefinition-vkp-Observation-Bodytemp : 8 / 2 / 1
  /github/workspace/VkpObservation/fsh-generated/resources/StructureDefinition-vkp-Observation-Bodyweight : 8 / 2 / 1
  /github/workspace/VkpObservation/fsh-generated/resources/StructureDefinition-vkp-Observation-CFSscore : 8 / 3 / 3
@@ -529,11 +529,10 @@ INFORMATION: Observation/vkp-blood-pressure-profile-create: Observation.code.cod
 INFORMATION: Observation/vkp-blood-pressure-profile-create: Observation.subject.identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem|0.3.1
 INFORMATION: Observation/vkp-blood-pressure-profile-create: Observation.performer[0].identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem|0.3.1
 INFORMATION: Observation/vkp-blood-pressure-profile-create: Observation.bodySite.coding[0].display: 'Finger structure (body structure)' is the default display; the code system http://snomed.info/sct has no Display Names for the language no-NO
-WARNING: Observation/vkp-blood-pressure-profile-create: Observation.bodySite.coding[0].code: ValueSet 'http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodysitevalueset' not found
 INFORMATION: Observation/vkp-blood-pressure-profile-create: Observation.method.coding[0].display: 'Auscultation - action (qualifier value)' is the default display; the code system http://snomed.info/sct has no Display Names for the language no-NO
 ERROR: Observation/vkp-blood-pressure-profile-create: Observation.method: None of the codings provided are in the value set 'NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet' (http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet|0.3.1), and a coding from this value set is required) (codes = http://snomed.info/sct#129436005)
 ERROR: Observation/vkp-blood-pressure-profile-create: Observation.method.coding[0]: The code provided (http://snomed.info/sct#129436005) was not found in the value set 'NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet' (http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet|0.3.1), and a code from this value set is required: The provided code 'http://snomed.info/sct#129436005 ('Auscultation - action (qualifier value)')' was not found in the value set 'http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet|0.3.1'
-WARNING: Observation/vkp-blood-pressure-profile-create: Observation.method.coding[0].code: ValueSet 'http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-measurementmethodvalueSet' not found
+ERROR: Observation/vkp-blood-pressure-profile-create: Observation.method.coding[0].code: The value provided ('129436005') was not found in the value set 'NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet' (http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet|0.3.1), and a code is required from this value set  (error message = The System URI could not be determined for the code '129436005' in the ValueSet 'http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet|0.3.1'; The provided code '#129436005' was not found in the value set 'http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet|0.3.1')
 INFORMATION: Observation/vkp-blood-pressure-profile-create: Observation.component[0].code.coding[0].display: There are no valid display names found for the code http://loinc.org#8480-6 for language(s) 'no-NO'. The display is 'Systolic blood pressure' the default language display
 INFORMATION: Observation/vkp-blood-pressure-profile-create: Observation.component[0].code.coding[1].display: 'Systolic Blood pressure' is the default display; the code system http://snomed.info/sct has no Display Names for the language no-NO
 INFORMATION: Observation/vkp-blood-pressure-profile-create: Observation.component[1].code.coding[0].display: There are no valid display names found for the code http://loinc.org#8462-4 for language(s) 'no-NO'. The display is 'Diastolic blood pressure' the default language display
@@ -597,10 +596,6 @@ WARNING: StructureDefinition.text.div: Hyperlink 'http://hl7.no/fhir/vkpobservat
 WARNING: StructureDefinition.text.div: Hyperlink 'http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem' at 'div/table/tr/td/a' for 'http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem' is a canonical reference, and is unsafe because of version handling (points to the current version, not this version)
 == fsh-generated/resources/StructureDefinition-vkp-Observation-Bloodpressure.json ==
 INFORMATION: StructureDefinition/vkp-Observation-Bloodpressure: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
-WARNING: StructureDefinition/vkp-Observation-Bloodpressure: StructureDefinition.snapshot.element[94].binding.valueSet: A definition could not be found for Canonical URL 'http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodysitevalueset'
-WARNING: StructureDefinition/vkp-Observation-Bloodpressure: StructureDefinition.snapshot.element[106].binding.valueSet: A definition could not be found for Canonical URL 'http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-measurementmethodvalueSet'
-WARNING: StructureDefinition/vkp-Observation-Bloodpressure: StructureDefinition.differential.element[18].binding.valueSet: A definition could not be found for Canonical URL 'http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodysitevalueset'
-WARNING: StructureDefinition/vkp-Observation-Bloodpressure: StructureDefinition.differential.element[22].binding.valueSet: A definition could not be found for Canonical URL 'http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-measurementmethodvalueSet'
 == fsh-generated/resources/StructureDefinition-vkp-Observation-Bodytemp.json ==
 ERROR: StructureDefinition/vkp-Observation-Bodytemp: StructureDefinition.snapshot.element[57].binding.valueSet: Canonical URL 'http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet]
 ERROR: StructureDefinition/vkp-Observation-Bodytemp: StructureDefinition.snapshot.element[76].binding.valueSet: Canonical URL 'http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet]
