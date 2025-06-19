@@ -18,22 +18,22 @@ Usage: #example
 * performer[=].identifier.value = "103"
 * valueQuantity = 20 'score' "score"
 * component[0].code = $sct#1104301000000104 "NEWS2 (National Early Warning Score 2) - respiration rate score"
-* component[=].valueQuantity = 3
+* component[=].valueQuantity = 3 '{score}' "Score"
 * component[=].interpretation.text = "≥25"
 * component[+].code = $sct#1104321000000108 " NEWS2 (National Early Warning Score 2) - oxygen saturation scale 2 score"
-* component[=].valueQuantity = 3
+* component[=].valueQuantity = 3 '{score}' "Score"
 * component[=].interpretation.text = "93–94 med oksygentilførsel"
 * component[+].code = $sct#1104331000000105 "NEWS2 (National Early Warning Score 2) - air or oxygen score"
-* component[=].valueQuantity = 2
+* component[=].valueQuantity = 2 '{score}' "Score"
 * component[=].interpretation.text = "Oksygen"
 * component[+].code = $sct#1104351000000103 "NEWS2 (National Early Warning Score 2) - pulse score"
-* component[=].valueQuantity = 3
+* component[=].valueQuantity = 3 '{score}' "Score"
 * component[=].interpretation.text = "≤40"
 * component[+].code = $sct#1104341000000101 "NEWS2 (National Early Warning Score 2) - systolic blood pressure score"
-* component[=].valueQuantity = 3
+* component[=].valueQuantity = 3 '{score}' "Score"
 * component[=].interpretation.text = "≤90"
 * component[+].code = $sct#1104361000000100 "NEWS2 (National Early Warning Score 2) - consciousness score"
-* component[=].valueQuantity = 3
+* component[=].valueQuantity = 3 '{score}' "Score"
 * component[=].interpretation.text = "C, V, P eller U"
 * component[+].code = $sct#1104371000000107 "NEWS2 (National Early Warning Score 2) - temperature score"
 * component[=].valueQuantity = 3 '{score}' "Score"
