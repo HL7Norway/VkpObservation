@@ -19,6 +19,14 @@
   fhir:title [ fhir:v "Vkp VitalSigns Observation - Heart rate"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:date [ fhir:v "2022-03-16"^^xsd:date] ; # 
+  fhir:publisher [ fhir:v "HL7 Norway"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 Norway" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.no" ]
+     ] )
+  ] ) ; # 
   fhir:description [ fhir:v "Profile for heart rate in VKP."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [

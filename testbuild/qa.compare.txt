@@ -1,12 +1,12 @@
 VkpObservation : Validation Results
 =========================================
 
-err = 182, warn = 121, info = 69
+err = 176, warn = 121, info = 69
 $--
 Generated $--. FHIR version $-- for hl7.fhir.no.vkp.observation#$-- (canonical = http://hl7.no/fhir/vkpobservation)
  Build Errors : 1 / 288 / 0
- /github/workspace/VkpObservation/fsh-generated/resources/CodeSystem-vkp-performer-identifiers.codesystem : 1 / 0 / 1
- /github/workspace/VkpObservation/fsh-generated/resources/CodeSystem-vkp-subject-identifiers.codesystem : 1 / 0 / 1
+ /github/workspace/VkpObservation/fsh-generated/resources/CodeSystem-vkp-performer-identifiers.codesystem : 0 / 0 / 1
+ /github/workspace/VkpObservation/fsh-generated/resources/CodeSystem-vkp-subject-identifiers.codesystem : 0 / 0 / 1
  /github/workspace/VkpObservation/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.vkp.observation : 0 / 2 / 1
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-blood-pressure-create : 23 / 13 / 14
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-body-height-create : 6 / 6 / 4
@@ -31,10 +31,10 @@ Generated $--. FHIR version $-- for hl7.fhir.no.vkp.observation#$-- (canonical =
  /github/workspace/VkpObservation/fsh-generated/resources/StructureDefinition-vkp-Observation-NEWS2score : 8 / 3 / 3
  /github/workspace/VkpObservation/fsh-generated/resources/StructureDefinition-vkp-Observation-Oxygensat : 8 / 2 / 1
  /github/workspace/VkpObservation/fsh-generated/resources/StructureDefinition-vkp-Observation-Resprate : 8 / 3 / 1
- /github/workspace/VkpObservation/fsh-generated/resources/ValueSet-NoDomainVitalSignsBloodPressureMeasurementMethodValueSet : 1 / 0 / 1
- /github/workspace/VkpObservation/fsh-generated/resources/ValueSet-NoDomainVitalSignsBloodpressureBodySiteValueSet : 1 / 0 / 1
- /github/workspace/VkpObservation/fsh-generated/resources/ValueSet-vkp-performer-identifiers.valueset : 1 / 0 / 1
- /github/workspace/VkpObservation/fsh-generated/resources/ValueSet-vkp-subject-identifiers.valueset : 1 / 0 / 1
+ /github/workspace/VkpObservation/fsh-generated/resources/ValueSet-NoDomainVitalSignsBloodPressureMeasurementMethodValueSet : 0 / 0 / 1
+ /github/workspace/VkpObservation/fsh-generated/resources/ValueSet-NoDomainVitalSignsBloodpressureBodySiteValueSet : 0 / 0 / 1
+ /github/workspace/VkpObservation/fsh-generated/resources/ValueSet-vkp-performer-identifiers.valueset : 0 / 0 / 1
+ /github/workspace/VkpObservation/fsh-generated/resources/ValueSet-vkp-subject-identifiers.valueset : 0 / 0 / 1
 </table>
 == n/a ==
 ERROR: ImplementationGuide.definition.parameter[24].value: Supressed messages file not found
@@ -327,9 +327,7 @@ WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-ta
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 WARNING: IG: The IG is not for the international realm, and it uses SNOMED CT, so it should fix the SCT edition in the expansion parameters
 == fsh-generated/resources/CodeSystem-vkp-performer-identifiers.codesystem.json ==
-ERROR: CodeSystem/vkp-performer-identifiers.codesystem: CodeSystem: CodeSystem.publisher: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1)
 == fsh-generated/resources/CodeSystem-vkp-subject-identifiers.codesystem.json ==
-ERROR: CodeSystem/vkp-subject-identifiers.codesystem: CodeSystem: CodeSystem.publisher: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1)
 == fsh-generated/resources/ImplementationGuide-hl7.fhir.no.vkp.observation.json ==
 WARNING: ImplementationGuide/hl7.fhir.no.vkp.observation: ImplementationGuide.dependsOn[2].uri: A definition could not be found for Canonical URL 'http://fhir.org/packages/hl7.fhir.no.basis/ImplementationGuide/hl7.fhir.no.basis'
 WARNING: ImplementationGuide/hl7.fhir.no.vkp.observation: ImplementationGuide.dependsOn[2]: The canonical URL http://fhir.org/packages/hl7.fhir.no.basis/ImplementationGuide/hl7.fhir.no.basis doesn't point to an actual ImplementationGuide resource
@@ -702,10 +700,6 @@ WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/vkpobservation/Stru
 WARNING: StructureDefinition.text.div: Hyperlink 'http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem' at 'div/table/tr/td/a' for 'http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem' is a canonical reference, and is unsafe because of version handling (points to the current version, not this version)
 WARNING: StructureDefinition.text.div: Hyperlink 'http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem' at 'div/table/tr/td/a' for 'http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem' is a canonical reference, and is unsafe because of version handling (points to the current version, not this version)
 == fsh-generated/resources/ValueSet-NoDomainVitalSignsBloodPressureMeasurementMethodValueSet.json ==
-ERROR: ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet: ValueSet: ValueSet.publisher: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1)
 == fsh-generated/resources/ValueSet-NoDomainVitalSignsBloodpressureBodySiteValueSet.json ==
-ERROR: ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet: ValueSet: ValueSet.publisher: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1)
 == fsh-generated/resources/ValueSet-vkp-performer-identifiers.valueset.json ==
-ERROR: ValueSet/vkp-performer-identifiers.valueset: ValueSet: ValueSet.publisher: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1)
 == fsh-generated/resources/ValueSet-vkp-subject-identifiers.valueset.json ==
-ERROR: ValueSet/vkp-subject-identifiers.valueset: ValueSet: ValueSet.publisher: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1)

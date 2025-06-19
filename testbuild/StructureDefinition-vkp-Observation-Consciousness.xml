@@ -43,6 +43,14 @@ Example:
   <title value="Vkp Observation - Consciousness"/>
   <status value="draft"/>
   <date value="2023-03-14"/>
+  <publisher value="HL7 Norway"/>
+  <contact>
+    <name value="HL7 Norway"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.no"/>
+    </telecom>
+  </contact>
   <description value="Profile for Consciousness in VKP."/>
   <jurisdiction>
     <coding>

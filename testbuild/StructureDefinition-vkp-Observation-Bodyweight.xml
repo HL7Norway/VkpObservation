@@ -44,6 +44,14 @@ Example:
   <title value="Vkp VitalSigns Observation - Body weight"/>
   <status value="draft"/>
   <date value="2022-03-16"/>
+  <publisher value="HL7 Norway"/>
+  <contact>
+    <name value="HL7 Norway"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.no"/>
+    </telecom>
+  </contact>
   <description value="Profile for Body weight in VKP."/>
   <jurisdiction>
     <coding>

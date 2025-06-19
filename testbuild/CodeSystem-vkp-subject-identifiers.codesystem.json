@@ -15,6 +15,14 @@
   "status" : "draft",
   "experimental" : true,
   "date" : "2022-02-10",
+  "publisher" : "HL7 Norway",
+  "contact" : [{
+    "name" : "HL7 Norway",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.hl7.no"
+    }]
+  }],
   "description" : "The CodeSystem contains all codes allowed for Observation.subject.system, for use with VKP",
   "jurisdiction" : [{
     "coding" : [{

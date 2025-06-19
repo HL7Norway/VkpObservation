@@ -11,6 +11,14 @@
   "title" : "Vkp VitalSigns Observation - Heart rate",
   "status" : "draft",
   "date" : "2022-03-16",
+  "publisher" : "HL7 Norway",
+  "contact" : [{
+    "name" : "HL7 Norway",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.hl7.no"
+    }]
+  }],
   "description" : "Profile for heart rate in VKP.",
   "jurisdiction" : [{
     "coding" : [{

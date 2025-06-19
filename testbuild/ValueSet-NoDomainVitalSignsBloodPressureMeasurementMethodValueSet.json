@@ -27,7 +27,15 @@
   "title" : "NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-06-19T12:46:29+00:00",
+  "date" : "2025-06-19T16:12:12+00:00",
+  "publisher" : "HL7 Norway",
+  "contact" : [{
+    "name" : "HL7 Norway",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.hl7.no"
+    }]
+  }],
   "description" : "Codes representing measurement method for HeartRate",
   "jurisdiction" : [{
     "coding" : [{

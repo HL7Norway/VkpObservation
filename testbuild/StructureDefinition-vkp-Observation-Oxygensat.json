@@ -11,6 +11,14 @@
   "title" : "Vkp VitalSigns Observation - Oxygen saturation",
   "status" : "draft",
   "date" : "2022-02-16",
+  "publisher" : "HL7 Norway",
+  "contact" : [{
+    "name" : "HL7 Norway",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.hl7.no"
+    }]
+  }],
   "description" : "Profile for oxygen saturation in VKP.",
   "jurisdiction" : [{
     "coding" : [{

@@ -46,6 +46,14 @@ Example:
   <title value="General Vkp Observation"/>
   <status value="draft"/>
   <date value="2022-11-18"/>
+  <publisher value="HL7 Norway"/>
+  <contact>
+    <name value="HL7 Norway"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.no"/>
+    </telecom>
+  </contact>
   <description value="Profile for general observations in VKP."/>
   <jurisdiction>
     <coding>

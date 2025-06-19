@@ -10,7 +10,15 @@
   "name" : "VkpObservationCFSscore",
   "title" : "Vkp VitalSigns Observation - CFS score",
   "status" : "draft",
-  "date" : "2025-06-19T12:46:29+00:00",
+  "date" : "2025-06-19T16:12:12+00:00",
+  "publisher" : "HL7 Norway",
+  "contact" : [{
+    "name" : "HL7 Norway",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.hl7.no"
+    }]
+  }],
   "description" : "Profile for Clinical Frailty Scale score in VKP.",
   "jurisdiction" : [{
     "coding" : [{

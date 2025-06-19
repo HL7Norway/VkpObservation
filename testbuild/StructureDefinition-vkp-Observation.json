@@ -11,6 +11,14 @@
   "title" : "General Vkp Observation",
   "status" : "draft",
   "date" : "2022-11-18",
+  "publisher" : "HL7 Norway",
+  "contact" : [{
+    "name" : "HL7 Norway",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.hl7.no"
+    }]
+  }],
   "description" : "Profile for general observations in VKP.",
   "jurisdiction" : [{
     "coding" : [{

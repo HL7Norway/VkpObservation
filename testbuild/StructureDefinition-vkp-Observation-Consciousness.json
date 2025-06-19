@@ -11,6 +11,14 @@
   "title" : "Vkp Observation - Consciousness",
   "status" : "draft",
   "date" : "2023-03-14",
+  "publisher" : "HL7 Norway",
+  "contact" : [{
+    "name" : "HL7 Norway",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.hl7.no"
+    }]
+  }],
   "description" : "Profile for Consciousness in VKP.",
   "jurisdiction" : [{
     "coding" : [{

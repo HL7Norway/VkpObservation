@@ -26,6 +26,14 @@
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v true] ; # 
   fhir:date [ fhir:v "2022-02-10"^^xsd:date] ; # 
+  fhir:publisher [ fhir:v "HL7 Norway"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 Norway" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.no" ]
+     ] )
+  ] ) ; # 
   fhir:description [ fhir:v "The CodeSystem contains all codes allowed for Observation.subject.system, for use with VKP"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
