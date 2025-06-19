@@ -16,7 +16,7 @@ Usage: #example
 * performer[=].identifier.value = "103"
 * note.text = "Test VKP Blood Pressure"
 * bodySite = $sct#7569003 "Finger structure (body structure)"
-* method = $sct#129436005 "Auscultation - action (qualifier value)"
+* method = $sct#37931006 "Auscultation - action (qualifier value)"
 * component[0].code.coding[0] = $loinc#8480-6 "Systolic blood pressure"
 * component[=].code.coding[+] = $sct#271649006 "Systolic Blood pressure"
 * component[=].valueQuantity = 123 'mm[Hg]' "mm[Hg]"
