@@ -1,25 +1,22 @@
-Profile: VkpObservation
+Profile: VkpObservationConsciousness
 Parent: Observation
-Id: vkp-Observation
-Title: "General Vkp Observation"
-Description: "Profile for general observations in VKP."
-* ^url = "http://ehelse.no/fhir/StructureDefinition/vkp-Observation"
+Id: vkp-Observation-Consciousness
+Title: "Vkp Observation - Consciousness"
+Description: "Profile for Consciousness in VKP."
+* ^url = "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Consciousness"
 * ^version = "0.2.2"
 * ^status = #draft
-* ^date = "2022-11-18"
-* ^purpose = "To record general Observations of an individual."
-* . ^short = "FHIR general Observations Profile VKP"
+* ^date = "2023-03-14"
+* ^purpose = "To record the consciousness rate of an individual."
+* . ^short = "FHIR consciousness rate Profile VKP"
 * code.coding ^slicing.discriminator.type = #pattern
 * code.coding ^slicing.discriminator.path = "system"
 * code.coding ^slicing.rules = #open
-* code.coding ^slicing.description = "Slices for LOINC, SCT and NPU/NLK coding of Observation.code"
+* code.coding ^slicing.description = "Slices for SCT coding of Observation.code"
 * code.coding contains
-  LOINC 0..* MS and
-  SCT 0..* MS and
-  NPU/NLK 0..* MS
-* code.coding[LOINC].system = $loinc
-* code.coding[SCT].system = $sct
-* code.coding[NPU/NLK].system = "urn:oid:2.16.578.1.12.4.1.1.7280" (exactly)
+  ConsciousnessSCTCode 0..* MS
+* code.coding[ConsciousnessSCTCode].system = $sct
+* code.coding[ConsciousnessSCTCode].code = #1104441000000107 "Alert Confusion Voice Pain Unresponsive scale score (observable entity)"
 * subject 1.. MS
 * subject only Reference(Patient or $no-basis-Patient)
 * subject ^definition = "Reference to the patient that is subject to the encounter, identified by Norwegian national id number (Fødselsnummer or DNR).\r\n\r\nA link to a resource representing the person or the group to whom the medication will be given.\r\n\r\nVKP always references a Patient Resource using a norwegian national id number (Fødselsnummer or DNR) in a logical identifier in the subject.identifier element.\r\nThe Name of the patient should be given in the subject.display element.\r\n\r\nExample:\r\n~~~~\r\n\"subject\":{\r\n   \"identifier\":{\r\n      \"system\":\"urn:oid:2.16.578.1.12.4.1.4.1\",\r\n      \"value\":\"05073500186\"\r\n     },\r\n     \"display\":\"Ærlend Sørgård\"\r\n}\r\n~~~~"
