@@ -1,6 +1,6 @@
 {
   "package": "hl7.fhir.no.vkp.observation",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "fhirVersion": "4.0.1",
   "jurisdiction": "NO",
   "extensions": [],
@@ -21,6 +21,10 @@
       {
         "url": "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Bodyweight",
         "title": "Vkp VitalSigns Observation - Body weight"
+      },
+      {
+        "url": "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-CFSscore",
+        "title": "Vkp VitalSigns Observation - CFS score"
       },
       {
         "url": "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Consciousness",

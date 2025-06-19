@@ -9,7 +9,7 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem vkp-performer-identifiers.codesystem</b></p><a name=\"vkp-performer-identifiers.codesystem\"> </a><a name=\"hcvkp-performer-identifiers.codesystem\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p>This  code system <code>http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem</code> defines the following code:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">urn:oid:2.16.578.1.12.4.1.4.1<a name=\"vkp-performer-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.461\"> </a></td><td>FNR</td><td>Fødselsnummer</td></tr></table></div>"
   },
   "url" : "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem",
-  "version" : "0.3.0",
+  "version" : "0.3.1",
   "name" : "VkpPerformerIdentifiersCodeSystem",
   "title" : "Vkp Performer Identifier Systems CodeSystem",
   "status" : "draft",

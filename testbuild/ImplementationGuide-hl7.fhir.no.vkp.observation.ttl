@@ -14,10 +14,10 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide hl7.fhir.no.vkp.observation</b></p><a name=\"hl7.fhir.no.vkp.observation\"> </a><a name=\"hchl7.fhir.no.vkp.observation\"> </a><h2>VkpObservation</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/vkpobservation/ImplementationGuide/hl7.fhir.no.vkp.observation</pre></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:url [ fhir:v "http://hl7.no/fhir/vkpobservation/ImplementationGuide/hl7.fhir.no.vkp.observation"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.3.0"] ; # 
+  fhir:version [ fhir:v "0.3.1"] ; # 
   fhir:name [ fhir:v "VkpObservation"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-06-19T08:13:38+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-06-19T12:23:32+00:00"^^xsd:dateTime] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
@@ -1168,6 +1168,24 @@
        ] ;
        fhir:name [ fhir:v "Vkp VitalSigns Observation - Body weight" ] ;
        fhir:description [ fhir:v "Profile for Body weight in VKP." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-CFSscore> ;
+         fhir:reference [ fhir:v "StructureDefinition/vkp-Observation-CFSscore" ]
+       ] ;
+       fhir:name [ fhir:v "Vkp VitalSigns Observation - CFS score" ] ;
+       fhir:description [ fhir:v "Profile for Clinical Frailty Scale score in VKP." ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false

@@ -22,12 +22,12 @@
     "valueInteger" : 1
   }],
   "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet",
-  "version" : "0.3.0",
+  "version" : "0.3.1",
   "name" : "NoDomainVitalSignsBloodPressureMeasurementMethodValueSet",
   "title" : "NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-06-19T08:13:38+00:00",
+  "date" : "2025-06-19T12:23:32+00:00",
   "description" : "Codes representing measurement method for HeartRate",
   "jurisdiction" : [{
     "coding" : [{

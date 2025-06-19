@@ -2,7 +2,7 @@
   "codeSystems" : [
     {
       "url" : "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem",
-      "version" : "0.3.0",
+      "version" : "0.3.1",
       "status" : "draft",
       "name" : "VkpPerformerIdentifiersCodeSystem",
       "title" : "Vkp Performer Identifier Systems CodeSystem",
@@ -13,7 +13,7 @@
     },
     {
       "url" : "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem",
-      "version" : "0.3.0",
+      "version" : "0.3.1",
       "status" : "draft",
       "name" : "VkpSubjectIdentifiersCodeSystem",
       "title" : "Vkp Subject Identifier Systems CodeSystem",
@@ -32,8 +32,8 @@
       "oids" : ["2.16.840.1.113883.6.96"],
       "uses" : {
       },
-      "ValueSet-NoDomainVitalSignsBloodPressureMeasurementMethodValueSet.html" : "NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet",
-      "ValueSet-NoDomainVitalSignsBloodpressureBodySiteValueSet.html" : "NoDomainVitalSignsBloodpressureBodySite-ValueSet"
+      "ValueSet-NoDomainVitalSignsBloodpressureBodySiteValueSet.html" : "NoDomainVitalSignsBloodpressureBodySite-ValueSet",
+      "ValueSet-NoDomainVitalSignsBloodPressureMeasurementMethodValueSet.html" : "NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet"
     }
   ]
 }
