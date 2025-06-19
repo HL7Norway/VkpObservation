@@ -1,252 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="78d352f0-deb3-4a16-92d1-98b0ad57cf18"/>
+  <id value="ef5b271c-8ab9-4a10-8a10-ef7089f0e42f"/>
   <meta>
-    <lastUpdated value="2025-06-19T07:10:34.309+00:00"/>
+    <lastUpdated value="2025-06-19T07:53:39.735+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
-    <fullUrl value="http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodysitevalueset"/>
+    <fullUrl value="http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet"/>
     <resource>
       <ValueSet>
         <meta>
-          <lastUpdated value="2021-03-17T00:00:00+00:00"/>
-          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
-        </meta>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p class="res-header-id"/>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p>
-            <p>This value set contains 12 concepts</p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display (no-NO)</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://snomed.info/sct-368209003"> </a>  
-                  <a href="http://snomed.info/id/368209003">368209003</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Right upper arm</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://snomed.info/sct-368208006"> </a>  
-                  <a href="http://snomed.info/id/368208006">368208006</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Left upper arm structure</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://snomed.info/sct-11207009"> </a>  
-                  <a href="http://snomed.info/id/11207009">11207009</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Right thigh</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://snomed.info/sct-61396006"> </a>  
-                  <a href="http://snomed.info/id/61396006">61396006</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Left thigh</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://snomed.info/sct-9736006"> </a>  
-                  <a href="http://snomed.info/id/9736006">9736006</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Right wrist</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://snomed.info/sct-5951000"> </a>  
-                  <a href="http://snomed.info/id/5951000">5951000</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Left wrist</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://snomed.info/sct-6685009"> </a>  
-                  <a href="http://snomed.info/id/6685009">6685009</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Right ankle</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://snomed.info/sct-51636004"> </a>  
-                  <a href="http://snomed.info/id/51636004">51636004</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Left ankle</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://snomed.info/sct-7569003"> </a>  
-                  <a href="http://snomed.info/id/7569003">7569003</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Finger</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://snomed.info/sct-29707007"> </a>  
-                  <a href="http://snomed.info/id/29707007">29707007</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Toe</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://snomed.info/sct-2402003"> </a>  
-                  <a href="http://snomed.info/id/2402003">2402003</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Dorsum of foot</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://snomed.info/sct-51114001"> </a>  
-                  <a href="http://snomed.info/id/51114001">51114001</a>
-                </td>
-                <td>http://snomed.info/sct</td>
-                <td>Artery</td>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <url value="http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodysitevalueset"/>
-        <version value="0.3.0"/>
-        <name value="NoDomainVitalSignsObservationBloodPressureBodySiteValueSet"/>
-        <status value="draft"/>
-        <experimental value="false"/>
-        <date value="2021-03-17T00:00:00+00:00"/>
-        <jurisdiction>
-          <coding>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="NO"/>
-            <display value="Norway"/>
-          </coding>
-        </jurisdiction>
-        <expansion>
-          <identifier value="urn:uuid:b5bda32f-fbd9-41ed-9721-88b376d15ccd"/>
-          <timestamp value="2025-06-19T07:11:12+00:00"/>
-          <total value="12"/>
-          <offset value="0"/>
-          <parameter>
-            <name value="displayLanguage"/>
-            <valueCode value="no-NO"/>
-          </parameter>
-          <parameter>
-            <name value="count"/>
-            <valueInteger value="1000"/>
-          </parameter>
-          <parameter>
-            <name value="offset"/>
-            <valueInteger value="0"/>
-          </parameter>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="used-valueset"/>
-            <valueUri value="null"/>
-          </parameter>
-          <parameter>
-            <name value="used-codesystem"/>
-            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"/>
-          </parameter>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="368209003"/>
-            <display value="Right upper arm"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="368208006"/>
-            <display value="Left upper arm structure"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="11207009"/>
-            <display value="Right thigh"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="61396006"/>
-            <display value="Left thigh"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="9736006"/>
-            <display value="Right wrist"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="5951000"/>
-            <display value="Left wrist"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="6685009"/>
-            <display value="Right ankle"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="51636004"/>
-            <display value="Left ankle"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="7569003"/>
-            <display value="Finger"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="29707007"/>
-            <display value="Toe"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="2402003"/>
-            <display value="Dorsum of foot"/>
-          </contains>
-          <contains>
-            <system value="http://snomed.info/sct"/>
-            <code value="51114001"/>
-            <display value="Artery"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-measurementmethodvalueSet"/>
-    <resource>
-      <ValueSet>
-        <meta>
-          <lastUpdated value="2021-03-17T13:28:17.239+02:00"/>
+          <lastUpdated value="2025-01-28T00:00:00+00:00"/>
           <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
         </meta>
         <text>
@@ -269,29 +34,30 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://snomed.info/sct-129436005"> </a>  
-                  <a href="http://snomed.info/id/129436005">129436005</a>
+                  <a name="x-http://snomed.info/sct-37931006"> </a>  
+                  <a href="http://snomed.info/id/37931006">37931006</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Auscultation - action</td>
+                <td>Auscultation</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://snomed.info/sct-129434008"> </a>  
-                  <a href="http://snomed.info/id/129434008">129434008</a>
+                  <a name="x-http://snomed.info/sct-113011001"> </a>  
+                  <a href="http://snomed.info/id/113011001">113011001</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Palpation - action</td>
+                <td>Palpation</td>
               </tr>
             </table>
           </div>
         </text>
-        <url value="http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-measurementmethodvalueSet"/>
+        <url value="http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet"/>
         <version value="0.3.0"/>
-        <name value="NoDomainVitalSignsObservationBloodPressureMeasurementMethodValueSet"/>
+        <name value="NoDomainVitalSignsBloodPressureMeasurementMethodValueSet"/>
+        <title value="NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2021-03-17"/>
+        <date value="2025-06-19T07:53:00+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -300,8 +66,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:8c15fefe-b038-4a85-8dda-7b45f3686ed8"/>
-          <timestamp value="2025-06-19T07:11:12+00:00"/>
+          <identifier value="urn:uuid:c146966e-dffc-4bbc-b361-13baed7ef804"/>
+          <timestamp value="2025-06-19T07:54:21+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -334,20 +100,256 @@
           </parameter>
           <contains>
             <system value="http://snomed.info/sct"/>
-            <code value="129436005"/>
-            <display value="Auscultation - action"/>
+            <code value="37931006"/>
+            <display value="Auscultation"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
-            <code value="129434008"/>
-            <display value="Palpation - action"/>
+            <code value="113011001"/>
+            <display value="Palpation"/>
           </contains>
         </expansion>
       </ValueSet>
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://ehelse.no/fhir/ValueSet/vkp-performer-identifiers.valueset"/>
+    <fullUrl value="http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet"/>
+    <resource>
+      <ValueSet>
+        <meta>
+          <lastUpdated value="2025-01-28T00:00:00+00:00"/>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p>
+            <p>This value set contains 12 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display (no-NO)</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-6685009"> </a>  
+                  <a href="http://snomed.info/id/6685009">6685009</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Right ankle</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-51636004"> </a>  
+                  <a href="http://snomed.info/id/51636004">51636004</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Left ankle</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-7569003"> </a>  
+                  <a href="http://snomed.info/id/7569003">7569003</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Finger</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-2402003"> </a>  
+                  <a href="http://snomed.info/id/2402003">2402003</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Dorsum of foot</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-9736006"> </a>  
+                  <a href="http://snomed.info/id/9736006">9736006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Right wrist</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-5951000"> </a>  
+                  <a href="http://snomed.info/id/5951000">5951000</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Left wrist</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-51114001"> </a>  
+                  <a href="http://snomed.info/id/51114001">51114001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Artery</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-11207009"> </a>  
+                  <a href="http://snomed.info/id/11207009">11207009</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Right thigh</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-61396006"> </a>  
+                  <a href="http://snomed.info/id/61396006">61396006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Left thigh</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-368209003"> </a>  
+                  <a href="http://snomed.info/id/368209003">368209003</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Right upper arm</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-368208006"> </a>  
+                  <a href="http://snomed.info/id/368208006">368208006</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Left upper arm structure</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-29707007"> </a>  
+                  <a href="http://snomed.info/id/29707007">29707007</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Toe</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet"/>
+        <version value="0.3.0"/>
+        <name value="NoDomainVitalSignsBloodpressureBodySiteValueSet"/>
+        <title value="NoDomainVitalSignsBloodpressureBodySite-ValueSet"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2025-06-19T07:53:00+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="NO"/>
+            <display value="Norway"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:d5ce4bf2-53a3-416b-bde0-27bdd216f6c1"/>
+          <timestamp value="2025-06-19T07:54:21+00:00"/>
+          <total value="12"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="no-NO"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="6685009"/>
+            <display value="Right ankle"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="51636004"/>
+            <display value="Left ankle"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="7569003"/>
+            <display value="Finger"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="2402003"/>
+            <display value="Dorsum of foot"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="9736006"/>
+            <display value="Right wrist"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="5951000"/>
+            <display value="Left wrist"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="51114001"/>
+            <display value="Artery"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="11207009"/>
+            <display value="Right thigh"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="61396006"/>
+            <display value="Left thigh"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="368209003"/>
+            <display value="Right upper arm"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="368208006"/>
+            <display value="Left upper arm structure"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="29707007"/>
+            <display value="Toe"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-identifiers.valueset"/>
     <resource>
       <ValueSet>
         <meta>
@@ -379,17 +381,17 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehelse.no/fhir/CodeSystem/vkp-performer-identifiers.codesystem-urn:oid:2.16.578.1.12.4.1.4.1"> </a>  
+                  <a name="x-http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem-urn:oid:2.16.578.1.12.4.1.4.1"> </a>  
                   <a href="CodeSystem-vkp-performer-identifiers.codesystem.html#vkp-performer-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.461">urn:oid:2.16.578.1.12.4.1.4.1</a>
                 </td>
-                <td>http://ehelse.no/fhir/CodeSystem/vkp-performer-identifiers.codesystem</td>
+                <td>http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem</td>
                 <td/>
                 <td>Fødselsnummer</td>
               </tr>
             </table>
           </div>
         </text>
-        <url value="http://ehelse.no/fhir/ValueSet/vkp-performer-identifiers.valueset"/>
+        <url value="http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-identifiers.valueset"/>
         <version value="0.3.0"/>
         <name value="VkpPerfomerIdentifiersValueSet"/>
         <title value="VKP Performer Identifier systems ValueSet"/>
@@ -404,8 +406,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:4ef16711-fa52-4895-94dd-53876f960644"/>
-          <timestamp value="2025-06-19T07:11:12+00:00"/>
+          <identifier value="urn:uuid:2fe3efbb-dce3-47fd-b81a-aa71d8072c45"/>
+          <timestamp value="2025-06-19T07:54:22+00:00"/>
           <total value="1"/>
           <offset value="0"/>
           <parameter>
@@ -426,10 +428,10 @@
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://ehelse.no/fhir/CodeSystem/vkp-performer-identifiers.codesystem|0.3.0"/>
+            <valueUri value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem|0.3.0"/>
           </parameter>
           <contains>
-            <system value="http://ehelse.no/fhir/CodeSystem/vkp-performer-identifiers.codesystem"/>
+            <system value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem"/>
             <code value="urn:oid:2.16.578.1.12.4.1.4.1"/>
           </contains>
         </expansion>
@@ -437,7 +439,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://ehelse.no/fhir/ValueSet/vkp-subject-identifiers.valueset"/>
+    <fullUrl value="http://hl7.no/fhir/vkpobservation/ValueSet/vkp-subject-identifiers.valueset"/>
     <resource>
       <ValueSet>
         <meta>
@@ -469,35 +471,35 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem-urn:oid:2.16.578.1.12.4.1.4.1"> </a>  
+                  <a name="x-http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem-urn:oid:2.16.578.1.12.4.1.4.1"> </a>  
                   <a href="CodeSystem-vkp-subject-identifiers.codesystem.html#vkp-subject-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.461">urn:oid:2.16.578.1.12.4.1.4.1</a>
                 </td>
-                <td>http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem</td>
+                <td>http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem</td>
                 <td/>
                 <td>Fødselsnummer</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem-urn:oid:2.16.578.1.12.4.1.4.2"> </a>  
+                  <a name="x-http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem-urn:oid:2.16.578.1.12.4.1.4.2"> </a>  
                   <a href="CodeSystem-vkp-subject-identifiers.codesystem.html#vkp-subject-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.462">urn:oid:2.16.578.1.12.4.1.4.2</a>
                 </td>
-                <td>http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem</td>
+                <td>http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem</td>
                 <td/>
                 <td>D-nummer</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem-urn:oid:2.16.578.1.12.4.1.4.3"> </a>  
+                  <a name="x-http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem-urn:oid:2.16.578.1.12.4.1.4.3"> </a>  
                   <a href="CodeSystem-vkp-subject-identifiers.codesystem.html#vkp-subject-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.463">urn:oid:2.16.578.1.12.4.1.4.3</a>
                 </td>
-                <td>http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem</td>
+                <td>http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem</td>
                 <td/>
                 <td>Felles hjelpenummer</td>
               </tr>
             </table>
           </div>
         </text>
-        <url value="http://ehelse.no/fhir/ValueSet/vkp-subject-identifiers.valueset"/>
+        <url value="http://hl7.no/fhir/vkpobservation/ValueSet/vkp-subject-identifiers.valueset"/>
         <version value="0.3.0"/>
         <name value="VkpSubjectIdentifiersValueSet"/>
         <title value="VKP Subject Identifier systems ValueSet"/>
@@ -512,8 +514,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:38eabd46-c97f-4d3a-b675-02327de70d3b"/>
-          <timestamp value="2025-06-19T07:11:12+00:00"/>
+          <identifier value="urn:uuid:850c754b-6e53-44bc-8ff7-a7339fe41914"/>
+          <timestamp value="2025-06-19T07:54:22+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -534,18 +536,18 @@
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem|0.3.0"/>
+            <valueUri value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem|0.3.0"/>
           </parameter>
           <contains>
-            <system value="http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem"/>
+            <system value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem"/>
             <code value="urn:oid:2.16.578.1.12.4.1.4.1"/>
           </contains>
           <contains>
-            <system value="http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem"/>
+            <system value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem"/>
             <code value="urn:oid:2.16.578.1.12.4.1.4.2"/>
           </contains>
           <contains>
-            <system value="http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem"/>
+            <system value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem"/>
             <code value="urn:oid:2.16.578.1.12.4.1.4.3"/>
           </contains>
         </expansion>

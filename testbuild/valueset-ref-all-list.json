@@ -1,55 +1,23 @@
 {
   "codeSystems" : [
     {
-      "url" : "http://ehelse.no/fhir/ValueSet/vkp-performer-identifiers.valueset",
+      "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet",
       "version" : "0.3.0",
       "status" : "draft",
-      "name" : "VkpPerfomerIdentifiersValueSet",
-      "title" : "VKP Performer Identifier systems ValueSet",
-      "description" : "Identifier Systems allowed for performer identification systems in Vkp Observations",
-      "systems" : [
-        "http://ehelse.no/fhir/CodeSystem/vkp-performer-identifiers.codesystem"
-      ],
+      "name" : "NoDomainVitalSignsBloodPressureMeasurementMethodValueSet",
+      "title" : "NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet",
+      "description" : "Codes representing measurement method for HeartRate",
+      "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
-      "StructureDefinition-vkp-Observation.html" : "General Vkp Observation",
-      "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness",
-      "StructureDefinition-vkp-Observation-Heartrate.html" : "Vkp VitalSigns Observation - Heart rate",
-      "StructureDefinition-vkp-Observation-Bodytemp.html" : "Vkp VitalSigns Observation - Body temperature",
-      "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
-      "StructureDefinition-vkp-Observation-Bodyweight.html" : "Vkp VitalSigns Observation - Body weight",
-      "StructureDefinition-vkp-Observation-NEWS2score.html" : "Vkp VitalSigns Observation - NEWS2 score",
-      "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
-      "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate"
+      "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure"
     },
     {
-      "url" : "http://ehelse.no/fhir/ValueSet/vkp-subject-identifiers.valueset",
+      "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet",
       "version" : "0.3.0",
       "status" : "draft",
-      "name" : "VkpSubjectIdentifiersValueSet",
-      "title" : "VKP Subject Identifier systems ValueSet",
-      "description" : "Identifier Systems allowed for subject identifications",
-      "systems" : [
-        "http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem"
-      ],
-      "uses" : {
-      },
-      "StructureDefinition-vkp-Observation.html" : "General Vkp Observation",
-      "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness",
-      "StructureDefinition-vkp-Observation-Heartrate.html" : "Vkp VitalSigns Observation - Heart rate",
-      "StructureDefinition-vkp-Observation-Bodytemp.html" : "Vkp VitalSigns Observation - Body temperature",
-      "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
-      "StructureDefinition-vkp-Observation-Bodyweight.html" : "Vkp VitalSigns Observation - Body weight",
-      "StructureDefinition-vkp-Observation-NEWS2score.html" : "Vkp VitalSigns Observation - NEWS2 score",
-      "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
-      "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate"
-    },
-    {
-      "url" : "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodysitevalueset",
-      "version" : "0.3.0",
-      "status" : "draft",
-      "name" : "NoDomainVitalSignsObservationBloodPressureBodySiteValueSet",
-      "title" : null,
+      "name" : "NoDomainVitalSignsBloodpressureBodySiteValueSet",
+      "title" : "NoDomainVitalSignsBloodpressureBodySite-ValueSet",
       "description" : "Codes representing body site for blood pressure",
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
@@ -57,16 +25,26 @@
       "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure"
     },
     {
-      "url" : "http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-measurementmethodvalueSet",
+      "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-identifiers.valueset",
       "version" : "0.3.0",
       "status" : "draft",
-      "name" : "NoDomainVitalSignsObservationBloodPressureMeasurementMethodValueSet",
-      "title" : null,
-      "description" : "Codes representing measurement method for blood pressure",
-      "systems" : ["http://snomed.info/sct"],
-      "uses" : {
-      },
-      "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure"
+      "name" : "VkpPerfomerIdentifiersValueSet",
+      "title" : "VKP Performer Identifier systems ValueSet",
+      "description" : "Identifier Systems allowed for performer identification systems in Vkp Observations",
+      "systems" : [
+        "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem"
+      ]
+    },
+    {
+      "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/vkp-subject-identifiers.valueset",
+      "version" : "0.3.0",
+      "status" : "draft",
+      "name" : "VkpSubjectIdentifiersValueSet",
+      "title" : "VKP Subject Identifier systems ValueSet",
+      "description" : "Identifier Systems allowed for subject identifications",
+      "systems" : [
+        "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem"
+      ]
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/body-site",
@@ -80,14 +58,14 @@
       "sources" : ["2.16.840.1.113883.4.642.3.141"],
       "uses" : {
       },
-      "StructureDefinition-vkp-Observation.html" : "General Vkp Observation",
-      "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness",
-      "StructureDefinition-vkp-Observation-Heartrate.html" : "Vkp VitalSigns Observation - Heart rate",
-      "StructureDefinition-vkp-Observation-Bodytemp.html" : "Vkp VitalSigns Observation - Body temperature",
+      "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate",
+      "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
       "StructureDefinition-vkp-Observation-Bodyweight.html" : "Vkp VitalSigns Observation - Body weight",
       "StructureDefinition-vkp-Observation-NEWS2score.html" : "Vkp VitalSigns Observation - NEWS2 score",
-      "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
-      "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate"
+      "StructureDefinition-vkp-Observation-Bodytemp.html" : "Vkp VitalSigns Observation - Body temperature",
+      "StructureDefinition-vkp-Observation.html" : "General Vkp Observation",
+      "StructureDefinition-vkp-Observation-Heartrate.html" : "Vkp VitalSigns Observation - Heart rate",
+      "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/data-absent-reason",
@@ -101,15 +79,15 @@
       "sources" : ["2.16.840.1.113883.4.642.3.5"],
       "uses" : {
       },
-      "StructureDefinition-vkp-Observation.html" : "General Vkp Observation",
-      "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness",
-      "StructureDefinition-vkp-Observation-Heartrate.html" : "Vkp VitalSigns Observation - Heart rate",
-      "StructureDefinition-vkp-Observation-Bodytemp.html" : "Vkp VitalSigns Observation - Body temperature",
-      "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
+      "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate",
+      "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
       "StructureDefinition-vkp-Observation-Bodyweight.html" : "Vkp VitalSigns Observation - Body weight",
       "StructureDefinition-vkp-Observation-NEWS2score.html" : "Vkp VitalSigns Observation - NEWS2 score",
-      "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
-      "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate"
+      "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
+      "StructureDefinition-vkp-Observation-Bodytemp.html" : "Vkp VitalSigns Observation - Body temperature",
+      "StructureDefinition-vkp-Observation.html" : "General Vkp Observation",
+      "StructureDefinition-vkp-Observation-Heartrate.html" : "Vkp VitalSigns Observation - Heart rate",
+      "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/identifier-type",
@@ -123,15 +101,15 @@
       "sources" : ["2.16.840.1.113883.4.642.3.45"],
       "uses" : {
       },
-      "StructureDefinition-vkp-Observation.html" : "General Vkp Observation",
-      "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness",
-      "StructureDefinition-vkp-Observation-Heartrate.html" : "Vkp VitalSigns Observation - Heart rate",
-      "StructureDefinition-vkp-Observation-Bodytemp.html" : "Vkp VitalSigns Observation - Body temperature",
-      "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
+      "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate",
+      "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
       "StructureDefinition-vkp-Observation-Bodyweight.html" : "Vkp VitalSigns Observation - Body weight",
       "StructureDefinition-vkp-Observation-NEWS2score.html" : "Vkp VitalSigns Observation - NEWS2 score",
-      "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
-      "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate"
+      "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
+      "StructureDefinition-vkp-Observation-Bodytemp.html" : "Vkp VitalSigns Observation - Body temperature",
+      "StructureDefinition-vkp-Observation.html" : "General Vkp Observation",
+      "StructureDefinition-vkp-Observation-Heartrate.html" : "Vkp VitalSigns Observation - Heart rate",
+      "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
@@ -145,15 +123,15 @@
       "sources" : ["2.16.840.1.113883.4.642.3.57"],
       "uses" : {
       },
-      "StructureDefinition-vkp-Observation.html" : "General Vkp Observation",
-      "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness",
-      "StructureDefinition-vkp-Observation-Heartrate.html" : "Vkp VitalSigns Observation - Heart rate",
-      "StructureDefinition-vkp-Observation-Bodytemp.html" : "Vkp VitalSigns Observation - Body temperature",
-      "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
+      "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate",
+      "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
       "StructureDefinition-vkp-Observation-Bodyweight.html" : "Vkp VitalSigns Observation - Body weight",
       "StructureDefinition-vkp-Observation-NEWS2score.html" : "Vkp VitalSigns Observation - NEWS2 score",
-      "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
-      "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate"
+      "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
+      "StructureDefinition-vkp-Observation-Bodytemp.html" : "Vkp VitalSigns Observation - Body temperature",
+      "StructureDefinition-vkp-Observation.html" : "General Vkp Observation",
+      "StructureDefinition-vkp-Observation-Heartrate.html" : "Vkp VitalSigns Observation - Heart rate",
+      "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/languages",
@@ -167,15 +145,15 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
-      "StructureDefinition-vkp-Observation.html" : "General Vkp Observation",
-      "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness",
-      "StructureDefinition-vkp-Observation-Heartrate.html" : "Vkp VitalSigns Observation - Heart rate",
-      "StructureDefinition-vkp-Observation-Bodytemp.html" : "Vkp VitalSigns Observation - Body temperature",
-      "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
+      "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate",
+      "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
       "StructureDefinition-vkp-Observation-Bodyweight.html" : "Vkp VitalSigns Observation - Body weight",
       "StructureDefinition-vkp-Observation-NEWS2score.html" : "Vkp VitalSigns Observation - NEWS2 score",
-      "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
-      "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate"
+      "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
+      "StructureDefinition-vkp-Observation-Bodytemp.html" : "Vkp VitalSigns Observation - Body temperature",
+      "StructureDefinition-vkp-Observation.html" : "General Vkp Observation",
+      "StructureDefinition-vkp-Observation-Heartrate.html" : "Vkp VitalSigns Observation - Heart rate",
+      "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-category",
@@ -189,15 +167,15 @@
       "sources" : ["2.16.840.1.113883.4.642.3.403"],
       "uses" : {
       },
-      "StructureDefinition-vkp-Observation.html" : "General Vkp Observation",
-      "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness",
-      "StructureDefinition-vkp-Observation-Heartrate.html" : "Vkp VitalSigns Observation - Heart rate",
-      "StructureDefinition-vkp-Observation-Bodytemp.html" : "Vkp VitalSigns Observation - Body temperature",
-      "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
+      "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate",
+      "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
       "StructureDefinition-vkp-Observation-Bodyweight.html" : "Vkp VitalSigns Observation - Body weight",
       "StructureDefinition-vkp-Observation-NEWS2score.html" : "Vkp VitalSigns Observation - NEWS2 score",
-      "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
-      "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate"
+      "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
+      "StructureDefinition-vkp-Observation-Bodytemp.html" : "Vkp VitalSigns Observation - Body temperature",
+      "StructureDefinition-vkp-Observation.html" : "General Vkp Observation",
+      "StructureDefinition-vkp-Observation-Heartrate.html" : "Vkp VitalSigns Observation - Heart rate",
+      "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-codes",
@@ -211,9 +189,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.396"],
       "uses" : {
       },
+      "StructureDefinition-vkp-Observation-NEWS2score.html" : "Vkp VitalSigns Observation - NEWS2 score",
       "StructureDefinition-vkp-Observation.html" : "General Vkp Observation",
-      "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness",
-      "StructureDefinition-vkp-Observation-NEWS2score.html" : "Vkp VitalSigns Observation - NEWS2 score"
+      "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-interpretation",
@@ -229,15 +207,15 @@
       "sources" : ["2.16.840.1.113883.4.642.3.399"],
       "uses" : {
       },
-      "StructureDefinition-vkp-Observation.html" : "General Vkp Observation",
-      "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness",
-      "StructureDefinition-vkp-Observation-Heartrate.html" : "Vkp VitalSigns Observation - Heart rate",
-      "StructureDefinition-vkp-Observation-Bodytemp.html" : "Vkp VitalSigns Observation - Body temperature",
-      "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
+      "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate",
+      "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
       "StructureDefinition-vkp-Observation-Bodyweight.html" : "Vkp VitalSigns Observation - Body weight",
       "StructureDefinition-vkp-Observation-NEWS2score.html" : "Vkp VitalSigns Observation - NEWS2 score",
-      "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
-      "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate"
+      "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
+      "StructureDefinition-vkp-Observation-Bodytemp.html" : "Vkp VitalSigns Observation - Body temperature",
+      "StructureDefinition-vkp-Observation.html" : "General Vkp Observation",
+      "StructureDefinition-vkp-Observation-Heartrate.html" : "Vkp VitalSigns Observation - Heart rate",
+      "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-methods",
@@ -251,14 +229,14 @@
       "sources" : ["2.16.840.1.113883.4.642.3.395"],
       "uses" : {
       },
-      "StructureDefinition-vkp-Observation.html" : "General Vkp Observation",
-      "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness",
-      "StructureDefinition-vkp-Observation-Heartrate.html" : "Vkp VitalSigns Observation - Heart rate",
-      "StructureDefinition-vkp-Observation-Bodytemp.html" : "Vkp VitalSigns Observation - Body temperature",
+      "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate",
+      "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
       "StructureDefinition-vkp-Observation-Bodyweight.html" : "Vkp VitalSigns Observation - Body weight",
       "StructureDefinition-vkp-Observation-NEWS2score.html" : "Vkp VitalSigns Observation - NEWS2 score",
-      "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
-      "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate"
+      "StructureDefinition-vkp-Observation-Bodytemp.html" : "Vkp VitalSigns Observation - Body temperature",
+      "StructureDefinition-vkp-Observation.html" : "General Vkp Observation",
+      "StructureDefinition-vkp-Observation-Heartrate.html" : "Vkp VitalSigns Observation - Heart rate",
+      "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-status",
@@ -272,15 +250,15 @@
       "sources" : ["2.16.840.1.113883.4.642.3.400"],
       "uses" : {
       },
-      "StructureDefinition-vkp-Observation.html" : "General Vkp Observation",
-      "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness",
-      "StructureDefinition-vkp-Observation-Heartrate.html" : "Vkp VitalSigns Observation - Heart rate",
-      "StructureDefinition-vkp-Observation-Bodytemp.html" : "Vkp VitalSigns Observation - Body temperature",
-      "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
+      "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate",
+      "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
       "StructureDefinition-vkp-Observation-Bodyweight.html" : "Vkp VitalSigns Observation - Body weight",
       "StructureDefinition-vkp-Observation-NEWS2score.html" : "Vkp VitalSigns Observation - NEWS2 score",
-      "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
-      "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate"
+      "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
+      "StructureDefinition-vkp-Observation-Bodytemp.html" : "Vkp VitalSigns Observation - Body temperature",
+      "StructureDefinition-vkp-Observation.html" : "General Vkp Observation",
+      "StructureDefinition-vkp-Observation-Heartrate.html" : "Vkp VitalSigns Observation - Heart rate",
+      "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-vitalsignresult",
@@ -294,12 +272,12 @@
       "sources" : ["2.16.840.1.113883.3.88.12.80.62"],
       "uses" : {
       },
-      "StructureDefinition-vkp-Observation-Heartrate.html" : "Vkp VitalSigns Observation - Heart rate",
-      "StructureDefinition-vkp-Observation-Bodytemp.html" : "Vkp VitalSigns Observation - Body temperature",
-      "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
-      "StructureDefinition-vkp-Observation-Bodyweight.html" : "Vkp VitalSigns Observation - Body weight",
+      "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate",
       "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
-      "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate"
+      "StructureDefinition-vkp-Observation-Bodyweight.html" : "Vkp VitalSigns Observation - Body weight",
+      "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
+      "StructureDefinition-vkp-Observation-Bodytemp.html" : "Vkp VitalSigns Observation - Body temperature",
+      "StructureDefinition-vkp-Observation-Heartrate.html" : "Vkp VitalSigns Observation - Heart rate"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/quantity-comparator",
@@ -313,12 +291,12 @@
       "sources" : ["2.16.840.1.113883.4.642.3.59"],
       "uses" : {
       },
-      "StructureDefinition-vkp-Observation-Heartrate.html" : "Vkp VitalSigns Observation - Heart rate",
-      "StructureDefinition-vkp-Observation-Bodytemp.html" : "Vkp VitalSigns Observation - Body temperature",
-      "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
-      "StructureDefinition-vkp-Observation-Bodyweight.html" : "Vkp VitalSigns Observation - Body weight",
+      "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate",
       "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
-      "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate"
+      "StructureDefinition-vkp-Observation-Bodyweight.html" : "Vkp VitalSigns Observation - Body weight",
+      "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
+      "StructureDefinition-vkp-Observation-Bodytemp.html" : "Vkp VitalSigns Observation - Body temperature",
+      "StructureDefinition-vkp-Observation-Heartrate.html" : "Vkp VitalSigns Observation - Heart rate"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/referencerange-appliesto",
@@ -335,15 +313,15 @@
       "sources" : ["2.16.840.1.113883.4.642.3.407"],
       "uses" : {
       },
-      "StructureDefinition-vkp-Observation.html" : "General Vkp Observation",
-      "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness",
-      "StructureDefinition-vkp-Observation-Heartrate.html" : "Vkp VitalSigns Observation - Heart rate",
-      "StructureDefinition-vkp-Observation-Bodytemp.html" : "Vkp VitalSigns Observation - Body temperature",
-      "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
+      "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate",
+      "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
       "StructureDefinition-vkp-Observation-Bodyweight.html" : "Vkp VitalSigns Observation - Body weight",
       "StructureDefinition-vkp-Observation-NEWS2score.html" : "Vkp VitalSigns Observation - NEWS2 score",
-      "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
-      "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate"
+      "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
+      "StructureDefinition-vkp-Observation-Bodytemp.html" : "Vkp VitalSigns Observation - Body temperature",
+      "StructureDefinition-vkp-Observation.html" : "General Vkp Observation",
+      "StructureDefinition-vkp-Observation-Heartrate.html" : "Vkp VitalSigns Observation - Heart rate",
+      "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/referencerange-meaning",
@@ -359,15 +337,15 @@
       "sources" : ["2.16.840.1.113883.4.642.3.397"],
       "uses" : {
       },
-      "StructureDefinition-vkp-Observation.html" : "General Vkp Observation",
-      "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness",
-      "StructureDefinition-vkp-Observation-Heartrate.html" : "Vkp VitalSigns Observation - Heart rate",
-      "StructureDefinition-vkp-Observation-Bodytemp.html" : "Vkp VitalSigns Observation - Body temperature",
-      "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
+      "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate",
+      "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
       "StructureDefinition-vkp-Observation-Bodyweight.html" : "Vkp VitalSigns Observation - Body weight",
       "StructureDefinition-vkp-Observation-NEWS2score.html" : "Vkp VitalSigns Observation - NEWS2 score",
-      "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
-      "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate"
+      "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
+      "StructureDefinition-vkp-Observation-Bodytemp.html" : "Vkp VitalSigns Observation - Body temperature",
+      "StructureDefinition-vkp-Observation.html" : "General Vkp Observation",
+      "StructureDefinition-vkp-Observation-Heartrate.html" : "Vkp VitalSigns Observation - Heart rate",
+      "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/resource-types",
@@ -381,15 +359,15 @@
       "sources" : ["2.16.840.1.113883.4.642.3.27"],
       "uses" : {
       },
-      "StructureDefinition-vkp-Observation.html" : "General Vkp Observation",
-      "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness",
-      "StructureDefinition-vkp-Observation-Heartrate.html" : "Vkp VitalSigns Observation - Heart rate",
-      "StructureDefinition-vkp-Observation-Bodytemp.html" : "Vkp VitalSigns Observation - Body temperature",
-      "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
+      "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate",
+      "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
       "StructureDefinition-vkp-Observation-Bodyweight.html" : "Vkp VitalSigns Observation - Body weight",
       "StructureDefinition-vkp-Observation-NEWS2score.html" : "Vkp VitalSigns Observation - NEWS2 score",
-      "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
-      "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate"
+      "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
+      "StructureDefinition-vkp-Observation-Bodytemp.html" : "Vkp VitalSigns Observation - Body temperature",
+      "StructureDefinition-vkp-Observation.html" : "General Vkp Observation",
+      "StructureDefinition-vkp-Observation-Heartrate.html" : "Vkp VitalSigns Observation - Heart rate",
+      "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/ucum-bodytemp",
@@ -431,12 +409,12 @@
       "sources" : ["2.16.840.1.113883.4.642.3.955"],
       "uses" : {
       },
-      "StructureDefinition-vkp-Observation-Heartrate.html" : "Vkp VitalSigns Observation - Heart rate",
-      "StructureDefinition-vkp-Observation-Bodytemp.html" : "Vkp VitalSigns Observation - Body temperature",
-      "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
-      "StructureDefinition-vkp-Observation-Bodyweight.html" : "Vkp VitalSigns Observation - Body weight",
+      "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate",
       "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
-      "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate"
+      "StructureDefinition-vkp-Observation-Bodyweight.html" : "Vkp VitalSigns Observation - Body weight",
+      "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
+      "StructureDefinition-vkp-Observation-Bodytemp.html" : "Vkp VitalSigns Observation - Body temperature",
+      "StructureDefinition-vkp-Observation-Heartrate.html" : "Vkp VitalSigns Observation - Heart rate"
     }
   ]
 }

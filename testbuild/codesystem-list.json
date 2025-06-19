@@ -1,7 +1,7 @@
 {
   "codeSystems" : [
     {
-      "url" : "http://ehelse.no/fhir/CodeSystem/vkp-performer-identifiers.codesystem",
+      "url" : "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem",
       "version" : "0.3.0",
       "status" : "draft",
       "name" : "VkpPerformerIdentifiersCodeSystem",
@@ -9,7 +9,7 @@
       "description" : "The CodeSystem contains all codes allowed for Observation.performer.system for use with VKP"
     },
     {
-      "url" : "http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem",
+      "url" : "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem",
       "version" : "0.3.0",
       "status" : "draft",
       "name" : "VkpSubjectIdentifiersCodeSystem",

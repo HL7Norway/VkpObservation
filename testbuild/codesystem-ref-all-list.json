@@ -1,7 +1,7 @@
 {
   "codeSystems" : [
     {
-      "url" : "http://ehelse.no/fhir/CodeSystem/vkp-performer-identifiers.codesystem",
+      "url" : "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem",
       "version" : "0.3.0",
       "status" : "draft",
       "name" : "VkpPerformerIdentifiersCodeSystem",
@@ -12,7 +12,7 @@
       "ValueSet-vkp-performer-identifiers.valueset.html" : "VKP Performer Identifier systems ValueSet"
     },
     {
-      "url" : "http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem",
+      "url" : "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem",
       "version" : "0.3.0",
       "status" : "draft",
       "name" : "VkpSubjectIdentifiersCodeSystem",
@@ -79,8 +79,8 @@
       "oids" : ["2.16.840.1.113883.6.1"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R4/valueset-observation-codes.html" : "LOINC Codes",
-      "http://hl7.org/fhir/R4/valueset-observation-vitalsignresult.html" : "Vital Signs"
+      "http://hl7.org/fhir/R4/valueset-observation-vitalsignresult.html" : "Vital Signs",
+      "http://hl7.org/fhir/R4/valueset-observation-codes.html" : "LOINC Codes"
     },
     {
       "url" : "http://snomed.info/sct",
@@ -92,11 +92,11 @@
       "oids" : ["2.16.840.1.113883.6.96"],
       "uses" : {
       },
-      "ValueSet-NoDomainVitalSignsObservationBloodPressureMeasurementMethodValue.html" : "NoDomainVitalSignsObservationBloodPressureMeasurementMethodValueSet",
+      "ValueSet-NoDomainVitalSignsBloodPressureMeasurementMethodValueSet.html" : "NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet",
+      "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures",
       "http://hl7.org/fhir/R4/valueset-referencerange-appliesto.html" : "Observation Reference Range Applies To Codes",
-      "ValueSet-NoDomainVitalSignsObservationBloodPressureBodySiteValueSet.html" : "NoDomainVitalSignsObservationBloodPressureBodySiteValueSet",
       "http://hl7.org/fhir/R4/valueset-observation-methods.html" : "Observation Methods",
-      "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures"
+      "ValueSet-NoDomainVitalSignsBloodpressureBodySiteValueSet.html" : "NoDomainVitalSignsBloodpressureBodySite-ValueSet"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/data-absent-reason",
@@ -169,8 +169,8 @@
       "uses" : {
       },
       "http://hl7.org/fhir/R4/valueset-ucum-vitals-common.html" : "Vital Signs Units",
-      "http://hl7.org/fhir/R4/valueset-ucum-bodytemp.html" : "Body Temperature Units",
-      "http://hl7.org/fhir/R4/valueset-ucum-bodyweight.html" : "Body Weight Units"
+      "http://hl7.org/fhir/R4/valueset-ucum-bodyweight.html" : "Body Weight Units",
+      "http://hl7.org/fhir/R4/valueset-ucum-bodytemp.html" : "Body Temperature Units"
     },
     {
       "url" : "urn:ietf:bcp:47",

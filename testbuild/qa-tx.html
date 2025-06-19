@@ -14,22 +14,249 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:4010
 content-type:application/fhir+json
-date:Thu, 19 Jun 2025 07:10:23 GMT
+date:Thu, 19 Jun 2025 07:53:29 GMT
 pragma:no-cache
 server:nginx
-x-request-id:228-3144876
+x-request-id:228-3178552
 
-{&quot;resourceType&quot; : &quot;CapabilityStatement&quot;,&quot;id&quot; : &quot;FhirServer&quot;,&quot;text&quot; : {&quot;status&quot; : &quot;generated&quot;,&quot;div&quot; : &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h2&gt;Local User Conformance Statement&lt;/h2&gt;&lt;p&gt;FHIR v4.0.1 released 20250530211510.681Z. Server version 3.7.19 built 20250530211510.681Z&lt;/p&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;th&gt;Resource Type&lt;/th&gt;&lt;th&gt;Profile&lt;/th&gt;&lt;th&gt;Read&lt;/th&gt;&lt;th&gt;V-Read&lt;/th&gt;&lt;th&gt;Search&lt;/th&gt;&lt;th&gt;Update&lt;/th&gt;&lt;th&gt;Updates&lt;/th&gt;&lt;th&gt;Create&lt;/th&gt;&lt;th&gt;Delete&lt;/th&gt;&lt;th&gt;History&lt;/th&gt;&lt;/tr&gt;\n&lt;/table&gt;\n&lt;p&gt;Operations&lt;/p&gt;\n&lt;ul&gt;\n &lt;li&gt;expand: see OperationDefinition/fso-expand&lt;/li&gt;\n &lt;li&gt;lookup: see OperationDefinition/fso-lookup&lt;/li&gt;\n &lt;li&gt;validate-code: see OperationDefinition/fso-validate-code&lt;/li&gt;\n &lt;li&gt;translate: see OperationDefinition/fso-translate&lt;/li&gt;\n &lt;li&gt;closure: see OperationDefinition/fso-closure&lt;/li&gt;\n &lt;li&gt;versions: see OperationDefinition/fso-versions&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/div&gt;&quot;},&quot;extension&quot; : [{&quot;extension&quot; : [{&quot;url&quot; : &quot;definition&quot;,&quot;valueCanonical&quot; : &quot;http://hl7.org/fhir/uv/tx-tests/FeatureDefinition/test-version&quot;},{&quot;url&quot; : &quot;value&quot;,&quot;valueCode&quot; : &quot;1.7.7&quot;},{&quot;extension&quot; : [{&quot;url&quot; : &quot;name&quot;,&quot;valueCode&quot; : &quot;mode&quot;},{&quot;url&quot; : &quot;value&quot;,&quot;valueCode&quot; : &quot;tx.fhir.org&quot;}],&quot;url&quot; : &quot;qualifier&quot;}],&quot;url&quot; : &quot;http://hl7.org/fhir/uv/application-feature/StructureDefinition/feature&quot;},{&quot;extension&quot; : [{&quot;url&quot; : &quot;definition&quot;,&quot;valueCanonical&quot; : &quot;http://hl7.org/fhir/uv/tx-ecosystem/FeatureDefinition/CodeSystemAsParameter&quot;},{&quot;url&quot; : &quot;value&quot;,&quot;valueBoolean&quot; : true}],&quot;url&quot; : &quot;http://hl7.org/fhir/uv/application-feature/StructureDefinition/feature&quot;}],&quot;url&quot; : &quot;http://tx.fhir.org/r4/CapabilityStatement/tx&quot;,&quot;version&quot; : &quot;4.0.1-3.7.19&quot;,&quot;name&quot; : &quot;FHIRReferenceServer&quot;,&quot;title&quot; : &quot;FHIR Reference Server Conformance Statement&quot;,&quot;status&quot; : &quot;active&quot;,&quot;date&quot; : &quot;2025-06-19T07:10:23.738Z&quot;,&quot;contact&quot; : [{&quot;telecom&quot; : [{&quot;system&quot; : &quot;other&quot;,&quot;value&quot; : &quot;http://healthintersections.com.au/&quot;}]}],&quot;description&quot; : &quot;Standard Conformance Statement for the open source Reference FHIR Server provided by Health Intersections&quot;,&quot;kind&quot; : &quot;instance&quot;,&quot;instantiates&quot; : [&quot;http://hl7.org/fhir/CapabilityStatement/terminology-server&quot;,&quot;http://hl7.org/fhir/CapabilityStatement/terminology-server&quot;],&quot;software&quot; : {&quot;name&quot; : &quot;Reference Server&quot;,&quot;version&quot; : &quot;3.7.19&quot;,&quot;releaseDate&quot; : &quot;2025-05-30T21:15:10.681Z&quot;},&quot;implementation&quot; : {&quot;description&quot; : &quot;FHIR Server running at http://tx.fhir.org/r4&quot;,&quot;url&quot; : &quot;http://tx.fhir.org/r4&quot;},&quot;fhirVersion&quot; : &quot;4.0.1&quot;,&quot;format&quot; : [&quot;application/fhir+xml&quot;,&quot;application/fhir+json&quot;],&quot;rest&quot; : [{&quot;mode&quot; : &quot;server&quot;,&quot;security&quot; : {&quot;cors&quot; : true},&quot;resource&quot; : [{&quot;type&quot; : &quot;CodeSystem&quot;,&quot;interaction&quot; : [{&quot;code&quot; : &quot;read&quot;,&quot;documentation&quot; : &quot;Read a code system&quot;},{&quot;code&quot; : &quot;search-type&quot;,&quot;documentation&quot; : &quot;Search the code systems. Not that there a few major code systems that are not available through this API (SCT, LOINC etc)&quot;}],&quot;operation&quot; : [{&quot;name&quot; : &quot;validate-code&quot;,&quot;definition&quot; : &quot;http://hl7.org/fhir/OperationDefinition/CodeSystem-validate-code&quot;},{&quot;name&quot; : &quot;lookup&quot;,&quot;definition&quot; : &quot;http://hl7.org/fhir/OperationDefinition/CodeSystem-lookup&quot;}]},{&quot;type&quot; : &quot;ValueSet&quot;,&quot;interaction&quot; : [{&quot;code&quot; : &quot;read&quot;,&quot;documentation&quot; : &quot;Read a ValueSet&quot;},{&quot;code&quot; : &quot;search-type&quot;,&quot;documentation&quot; : &quot;Search the value sets&quot;}],&quot;operation&quot; : [{&quot;name&quot; : &quot;validate-code&quot;,&quot;definition&quot; : &quot;http://hl7.org/fhir/OperationDefinition/ValueSet-validate-code&quot;},{&quot;name&quot; : &quot;expand&quot;,&quot;definition&quot; : &quot;http://hl7.org/fhir/OperationDefinition/ValueSet-expand&quot;}]}],&quot;interaction&quot; : [{&quot;code&quot; : &quot;transaction&quot;}],&quot;operation&quot; : [{&quot;name&quot; : &quot;expand&quot;,&quot;definition&quot; : &quot;http://hl7.org/fhir/OperationDefinition/ValueSet-expand&quot;},{&quot;name&quot; : &quot;lookup&quot;,&quot;definition&quot; : &quot;http://hl7.org/fhir/OperationDefinition/ValueSet-lookup&quot;},{&quot;name&quot; : &quot;validate-code&quot;,&quot;definition&quot; : &quot;http://hl7.org/fhir/OperationDefinition/Resource-validate&quot;},{&quot;name&quot; : &quot;translate&quot;,&quot;definition&quot; : &quot;http://hl7.org/fhir/OperationDefinition/ConceptMap-translate&quot;},{&quot;name&quot; : &quot;closure&quot;,&quot;definition&quot; : &quot;http://hl7.org/fhir/OperationDefinition/ConceptMap-closure&quot;},{&quot;name&quot; : &quot;versions&quot;,&quot;definition&quot; : &quot;http://tx.fhir.org/r4/OperationDefinition/fso-versions&quot;}]}]}
+{&quot;resourceType&quot; : &quot;CapabilityStatement&quot;,&quot;id&quot; : &quot;FhirServer&quot;,&quot;text&quot; : {&quot;status&quot; : &quot;generated&quot;,&quot;div&quot; : &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h2&gt;Local User Conformance Statement&lt;/h2&gt;&lt;p&gt;FHIR v4.0.1 released 20250530211510.681Z. Server version 3.7.19 built 20250530211510.681Z&lt;/p&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;th&gt;Resource Type&lt;/th&gt;&lt;th&gt;Profile&lt;/th&gt;&lt;th&gt;Read&lt;/th&gt;&lt;th&gt;V-Read&lt;/th&gt;&lt;th&gt;Search&lt;/th&gt;&lt;th&gt;Update&lt;/th&gt;&lt;th&gt;Updates&lt;/th&gt;&lt;th&gt;Create&lt;/th&gt;&lt;th&gt;Delete&lt;/th&gt;&lt;th&gt;History&lt;/th&gt;&lt;/tr&gt;\n&lt;/table&gt;\n&lt;p&gt;Operations&lt;/p&gt;\n&lt;ul&gt;\n &lt;li&gt;expand: see OperationDefinition/fso-expand&lt;/li&gt;\n &lt;li&gt;lookup: see OperationDefinition/fso-lookup&lt;/li&gt;\n &lt;li&gt;validate-code: see OperationDefinition/fso-validate-code&lt;/li&gt;\n &lt;li&gt;translate: see OperationDefinition/fso-translate&lt;/li&gt;\n &lt;li&gt;closure: see OperationDefinition/fso-closure&lt;/li&gt;\n &lt;li&gt;versions: see OperationDefinition/fso-versions&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/div&gt;&quot;},&quot;extension&quot; : [{&quot;extension&quot; : [{&quot;url&quot; : &quot;definition&quot;,&quot;valueCanonical&quot; : &quot;http://hl7.org/fhir/uv/tx-tests/FeatureDefinition/test-version&quot;},{&quot;url&quot; : &quot;value&quot;,&quot;valueCode&quot; : &quot;1.7.7&quot;},{&quot;extension&quot; : [{&quot;url&quot; : &quot;name&quot;,&quot;valueCode&quot; : &quot;mode&quot;},{&quot;url&quot; : &quot;value&quot;,&quot;valueCode&quot; : &quot;tx.fhir.org&quot;}],&quot;url&quot; : &quot;qualifier&quot;}],&quot;url&quot; : &quot;http://hl7.org/fhir/uv/application-feature/StructureDefinition/feature&quot;},{&quot;extension&quot; : [{&quot;url&quot; : &quot;definition&quot;,&quot;valueCanonical&quot; : &quot;http://hl7.org/fhir/uv/tx-ecosystem/FeatureDefinition/CodeSystemAsParameter&quot;},{&quot;url&quot; : &quot;value&quot;,&quot;valueBoolean&quot; : true}],&quot;url&quot; : &quot;http://hl7.org/fhir/uv/application-feature/StructureDefinition/feature&quot;}],&quot;url&quot; : &quot;http://tx.fhir.org/r4/CapabilityStatement/tx&quot;,&quot;version&quot; : &quot;4.0.1-3.7.19&quot;,&quot;name&quot; : &quot;FHIRReferenceServer&quot;,&quot;title&quot; : &quot;FHIR Reference Server Conformance Statement&quot;,&quot;status&quot; : &quot;active&quot;,&quot;date&quot; : &quot;2025-06-19T07:53:29.314Z&quot;,&quot;contact&quot; : [{&quot;telecom&quot; : [{&quot;system&quot; : &quot;other&quot;,&quot;value&quot; : &quot;http://healthintersections.com.au/&quot;}]}],&quot;description&quot; : &quot;Standard Conformance Statement for the open source Reference FHIR Server provided by Health Intersections&quot;,&quot;kind&quot; : &quot;instance&quot;,&quot;instantiates&quot; : [&quot;http://hl7.org/fhir/CapabilityStatement/terminology-server&quot;,&quot;http://hl7.org/fhir/CapabilityStatement/terminology-server&quot;],&quot;software&quot; : {&quot;name&quot; : &quot;Reference Server&quot;,&quot;version&quot; : &quot;3.7.19&quot;,&quot;releaseDate&quot; : &quot;2025-05-30T21:15:10.681Z&quot;},&quot;implementation&quot; : {&quot;description&quot; : &quot;FHIR Server running at http://tx.fhir.org/r4&quot;,&quot;url&quot; : &quot;http://tx.fhir.org/r4&quot;},&quot;fhirVersion&quot; : &quot;4.0.1&quot;,&quot;format&quot; : [&quot;application/fhir+xml&quot;,&quot;application/fhir+json&quot;],&quot;rest&quot; : [{&quot;mode&quot; : &quot;server&quot;,&quot;security&quot; : {&quot;cors&quot; : true},&quot;resource&quot; : [{&quot;type&quot; : &quot;CodeSystem&quot;,&quot;interaction&quot; : [{&quot;code&quot; : &quot;read&quot;,&quot;documentation&quot; : &quot;Read a code system&quot;},{&quot;code&quot; : &quot;search-type&quot;,&quot;documentation&quot; : &quot;Search the code systems. Not that there a few major code systems that are not available through this API (SCT, LOINC etc)&quot;}],&quot;operation&quot; : [{&quot;name&quot; : &quot;validate-code&quot;,&quot;definition&quot; : &quot;http://hl7.org/fhir/OperationDefinition/CodeSystem-validate-code&quot;},{&quot;name&quot; : &quot;lookup&quot;,&quot;definition&quot; : &quot;http://hl7.org/fhir/OperationDefinition/CodeSystem-lookup&quot;}]},{&quot;type&quot; : &quot;ValueSet&quot;,&quot;interaction&quot; : [{&quot;code&quot; : &quot;read&quot;,&quot;documentation&quot; : &quot;Read a ValueSet&quot;},{&quot;code&quot; : &quot;search-type&quot;,&quot;documentation&quot; : &quot;Search the value sets&quot;}],&quot;operation&quot; : [{&quot;name&quot; : &quot;validate-code&quot;,&quot;definition&quot; : &quot;http://hl7.org/fhir/OperationDefinition/ValueSet-validate-code&quot;},{&quot;name&quot; : &quot;expand&quot;,&quot;definition&quot; : &quot;http://hl7.org/fhir/OperationDefinition/ValueSet-expand&quot;}]}],&quot;interaction&quot; : [{&quot;code&quot; : &quot;transaction&quot;}],&quot;operation&quot; : [{&quot;name&quot; : &quot;expand&quot;,&quot;definition&quot; : &quot;http://hl7.org/fhir/OperationDefinition/ValueSet-expand&quot;},{&quot;name&quot; : &quot;lookup&quot;,&quot;definition&quot; : &quot;http://hl7.org/fhir/OperationDefinition/ValueSet-lookup&quot;},{&quot;name&quot; : &quot;validate-code&quot;,&quot;definition&quot; : &quot;http://hl7.org/fhir/OperationDefinition/Resource-validate&quot;},{&quot;name&quot; : &quot;translate&quot;,&quot;definition&quot; : &quot;http://hl7.org/fhir/OperationDefinition/ConceptMap-translate&quot;},{&quot;name&quot; : &quot;closure&quot;,&quot;definition&quot; : &quot;http://hl7.org/fhir/OperationDefinition/ConceptMap-closure&quot;},{&quot;name&quot; : &quot;versions&quot;,&quot;definition&quot; : &quot;http://tx.fhir.org/r4/OperationDefinition/fso-versions&quot;}]}]}
 </pre>
 <hr/><a name="l2"> </a>
 <p>#2</p>
+<pre>
+GET https://tx.fhir.org/r4/ValueSet?_format=json&url=http%3A%2F%2Fehelse.no%2Ffhir%2FValueSet%2Fvkp-subject-identifiers.valueset HTTP/1.0
+User-Agent: hapi-fhir-tooling-client
+Accept: application/fhir+json; fhirVersion=4.0
+</pre>
+<pre>
+200
+access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
+access-control-allow-origin:*
+access-control-expose-headers:Content-Location, Location
+cache-control:public, max-age=600
+connection:keep-alive
+content-length:279
+content-type:application/fhir+json
+date:Thu, 19 Jun 2025 07:53:47 GMT
+pragma:no-cache
+server:nginx
+x-request-id:228-3178677
+
+{&quot;resourceType&quot; : &quot;Bundle&quot;,&quot;id&quot; : &quot;931cfc25-124d-4c13-a6ad-f11f47be7c&quot;,&quot;meta&quot; : {&quot;lastUpdated&quot; : &quot;2025-06-19T07:53:47.020Z&quot;},&quot;type&quot; : &quot;searchset&quot;,&quot;total&quot; : 0,&quot;link&quot; : [{&quot;relation&quot; : &quot;self&quot;,&quot;url&quot; : &quot;ValueSet?&amp;url=http://ehelse.no/fhir/ValueSet/vkp-subject-identifiers.valueset&quot;}]}
+</pre>
+<hr/><a name="l3"> </a>
+<p>#3</p>
+<pre>
+GET https://tx.fhir.org/r4/ValueSet?_format=json&url=http%3A%2F%2Fehelse.no%2Ffhir%2FValueSet%2Fvkp-performer-identifiers.valueset HTTP/1.0
+User-Agent: hapi-fhir-tooling-client
+Accept: application/fhir+json; fhirVersion=4.0
+</pre>
+<pre>
+200
+access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
+access-control-allow-origin:*
+access-control-expose-headers:Content-Location, Location
+cache-control:public, max-age=600
+connection:keep-alive
+content-length:281
+content-type:application/fhir+json
+date:Thu, 19 Jun 2025 07:53:47 GMT
+pragma:no-cache
+server:nginx
+x-request-id:228-3178689
+
+{&quot;resourceType&quot; : &quot;Bundle&quot;,&quot;id&quot; : &quot;844f4ed2-abc6-4f0b-b81a-8e373a4298&quot;,&quot;meta&quot; : {&quot;lastUpdated&quot; : &quot;2025-06-19T07:53:47.471Z&quot;},&quot;type&quot; : &quot;searchset&quot;,&quot;total&quot; : 0,&quot;link&quot; : [{&quot;relation&quot; : &quot;self&quot;,&quot;url&quot; : &quot;ValueSet?&amp;url=http://ehelse.no/fhir/ValueSet/vkp-performer-identifiers.valueset&quot;}]}
+</pre>
+<hr/><a name="l4"> </a>
+<p>#4</p>
+<pre>
+GET https://tx.fhir.org/r4/ValueSet?_format=json&url=http%3A%2F%2Fhl7.no%2Ffhir%2FValueSet%2Fno-domain-vitalsignsobservation-bloodpressure-bodysitevalueset HTTP/1.0
+User-Agent: hapi-fhir-tooling-client
+Accept: application/fhir+json; fhirVersion=4.0
+</pre>
+<pre>
+200
+access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
+access-control-allow-origin:*
+access-control-expose-headers:Content-Location, Location
+cache-control:public, max-age=600
+connection:keep-alive
+content-length:306
+content-type:application/fhir+json
+date:Thu, 19 Jun 2025 07:53:47 GMT
+pragma:no-cache
+server:nginx
+x-request-id:228-3178701
+
+{&quot;resourceType&quot; : &quot;Bundle&quot;,&quot;id&quot; : &quot;a1201bcc-f5a3-45c4-a05a-4bdf7028ef&quot;,&quot;meta&quot; : {&quot;lastUpdated&quot; : &quot;2025-06-19T07:53:47.903Z&quot;},&quot;type&quot; : &quot;searchset&quot;,&quot;total&quot; : 0,&quot;link&quot; : [{&quot;relation&quot; : &quot;self&quot;,&quot;url&quot; : &quot;ValueSet?&amp;url=http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodysitevalueset&quot;}]}
+</pre>
+<hr/><a name="l5"> </a>
+<p>#5</p>
+<pre>
+GET https://tx.fhir.org/r4/ValueSet?_format=json&url=http%3A%2F%2Fhl7.no%2Ffhir%2FValueSet%2Fno-domain-vitalsignsobservation-bloodpressure-measurementmethodvalueSet HTTP/1.0
+User-Agent: hapi-fhir-tooling-client
+Accept: application/fhir+json; fhirVersion=4.0
+</pre>
+<pre>
+200
+access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
+access-control-allow-origin:*
+access-control-expose-headers:Content-Location, Location
+cache-control:public, max-age=600
+connection:keep-alive
+content-length:315
+content-type:application/fhir+json
+date:Thu, 19 Jun 2025 07:53:48 GMT
+pragma:no-cache
+server:nginx
+x-request-id:228-3178711
+
+{&quot;resourceType&quot; : &quot;Bundle&quot;,&quot;id&quot; : &quot;3b0a70ad-8de4-4618-9619-8d85d9bafe&quot;,&quot;meta&quot; : {&quot;lastUpdated&quot; : &quot;2025-06-19T07:53:48.328Z&quot;},&quot;type&quot; : &quot;searchset&quot;,&quot;total&quot; : 0,&quot;link&quot; : [{&quot;relation&quot; : &quot;self&quot;,&quot;url&quot; : &quot;ValueSet?&amp;url=http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-measurementmethodvalueSet&quot;}]}
+</pre>
+<hr/><a name="l6"> </a>
+<p>#6</p>
+<pre>
+POST https://tx.fhir.org/r4/ValueSet/$expand HTTP/1.0
+Accept: application/fhir+json; fhirVersion=4.0
+Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
+User-Agent: fhir/publisher
+
+{"resourceType":"Parameters","parameter":[{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"displayLanguage","valueCode":"no-NO"},{"name":"includeDefinition","valueBoolean":false},{"name":"excludeNested","valueBoolean":true},{"name":"cache-id","valueId":"6f6cefc1-94b1-4e20-852b-c2a70bc99839"},{"name":"count","valueInteger":1000},{"name":"offset","valueInteger":0},{"name":"valueSet","resource":{"resourceType":"ValueSet","status":"active","compose":{"inactive":false,"include":[{"system":"http://snomed.info/sct","concept":[{"code":"37931006","display":"Auskultasjon"},{"code":"113011001","display":"Palpasjon"}]}]}}}]}
+</pre>
+<pre>
+200
+access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
+access-control-allow-origin:*
+access-control-expose-headers:Content-Location, Location
+cache-control:public, max-age=600
+connection:keep-alive
+content-length:817
+content-type:application/fhir+json
+date:Thu, 19 Jun 2025 07:53:49 GMT
+last-modified:Thu, 19 Jun 2025 07:53:49 GMT
+pragma:no-cache
+server:nginx
+x-request-id:228-3178738
+
+{&quot;resourceType&quot; : &quot;ValueSet&quot;,&quot;status&quot; : &quot;active&quot;,&quot;expansion&quot; : {&quot;identifier&quot; : &quot;urn:uuid:1ef12576-665f-477f-8294-5f1736f7b79f&quot;,&quot;timestamp&quot; : &quot;2025-06-19T07:53:49.147Z&quot;,&quot;total&quot; : 2,&quot;offset&quot; : 0,&quot;parameter&quot; : [{&quot;name&quot; : &quot;displayLanguage&quot;,&quot;valueCode&quot; : &quot;no-NO&quot;},{&quot;name&quot; : &quot;excludeNested&quot;,&quot;valueBoolean&quot; : true},{&quot;name&quot; : &quot;offset&quot;,&quot;valueInteger&quot; : 0},{&quot;name&quot; : &quot;count&quot;,&quot;valueInteger&quot; : 1000},{&quot;name&quot; : &quot;used-codesystem&quot;,&quot;valueUri&quot; : &quot;http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201&quot;},{&quot;name&quot; : &quot;version&quot;,&quot;valueUri&quot; : &quot;http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201&quot;}],&quot;contains&quot; : [{&quot;system&quot; : &quot;http://snomed.info/sct&quot;,&quot;code&quot; : &quot;37931006&quot;,&quot;display&quot; : &quot;Auscultation&quot;},{&quot;system&quot; : &quot;http://snomed.info/sct&quot;,&quot;code&quot; : &quot;113011001&quot;,&quot;display&quot; : &quot;Palpation&quot;}]}}
+</pre>
+<hr/><a name="l7"> </a>
+<p>#7</p>
+<pre>
+POST https://tx.fhir.org/r4/ValueSet/$expand HTTP/1.0
+Accept: application/fhir+json; fhirVersion=4.0
+Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
+User-Agent: fhir/publisher
+
+{"resourceType":"Parameters","parameter":[{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"displayLanguage","valueCode":"no-NO"},{"name":"includeDefinition","valueBoolean":false},{"name":"excludeNested","valueBoolean":true},{"name":"cache-id","valueId":"6f6cefc1-94b1-4e20-852b-c2a70bc99839"},{"name":"count","valueInteger":1000},{"name":"offset","valueInteger":0},{"name":"valueSet","resource":{"resourceType":"ValueSet","status":"active","compose":{"inactive":false,"include":[{"system":"http://snomed.info/sct","concept":[{"code":"6685009","display":"Ankel, høyre"},{"code":"51636004","display":"Ankel, venstre"},{"code":"7569003","display":"Finger"},{"code":"2402003","display":"Fotrygg"},{"code":"9736006","display":"Håndledd, høyre"},{"code":"5951000","display":"Håndledd, venstre"},{"code":"51114001","display":"Intraarterielt"},{"code":"11207009","display":"Lår, høyre"},{"code":"61396006","display":"Lår, venstre"},{"code":"368209003","display":"Overarm, høyre"},{"code":"368208006","display":"Overarm, venstre"},{"code":"29707007","display":"Tå"}]}]}}}]}
+</pre>
+<pre>
+200
+access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
+access-control-allow-origin:*
+access-control-expose-headers:Content-Location, Location
+cache-control:public, max-age=600
+connection:keep-alive
+content-length:1654
+content-type:application/fhir+json
+date:Thu, 19 Jun 2025 07:53:49 GMT
+last-modified:Thu, 19 Jun 2025 07:53:49 GMT
+pragma:no-cache
+server:nginx
+x-request-id:228-3178751
+
+{&quot;resourceType&quot; : &quot;ValueSet&quot;,&quot;status&quot; : &quot;active&quot;,&quot;expansion&quot; : {&quot;identifier&quot; : &quot;urn:uuid:553e7a70-d902-4b0c-a6da-b7f5a2bb2276&quot;,&quot;timestamp&quot; : &quot;2025-06-19T07:53:49.534Z&quot;,&quot;total&quot; : 12,&quot;offset&quot; : 0,&quot;parameter&quot; : [{&quot;name&quot; : &quot;displayLanguage&quot;,&quot;valueCode&quot; : &quot;no-NO&quot;},{&quot;name&quot; : &quot;excludeNested&quot;,&quot;valueBoolean&quot; : true},{&quot;name&quot; : &quot;offset&quot;,&quot;valueInteger&quot; : 0},{&quot;name&quot; : &quot;count&quot;,&quot;valueInteger&quot; : 1000},{&quot;name&quot; : &quot;used-codesystem&quot;,&quot;valueUri&quot; : &quot;http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201&quot;},{&quot;name&quot; : &quot;version&quot;,&quot;valueUri&quot; : &quot;http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201&quot;}],&quot;contains&quot; : [{&quot;system&quot; : &quot;http://snomed.info/sct&quot;,&quot;code&quot; : &quot;6685009&quot;,&quot;display&quot; : &quot;Right ankle&quot;},{&quot;system&quot; : &quot;http://snomed.info/sct&quot;,&quot;code&quot; : &quot;51636004&quot;,&quot;display&quot; : &quot;Left ankle&quot;},{&quot;system&quot; : &quot;http://snomed.info/sct&quot;,&quot;code&quot; : &quot;7569003&quot;,&quot;display&quot; : &quot;Finger&quot;},{&quot;system&quot; : &quot;http://snomed.info/sct&quot;,&quot;code&quot; : &quot;2402003&quot;,&quot;display&quot; : &quot;Dorsum of foot&quot;},{&quot;system&quot; : &quot;http://snomed.info/sct&quot;,&quot;code&quot; : &quot;9736006&quot;,&quot;display&quot; : &quot;Right wrist&quot;},{&quot;system&quot; : &quot;http://snomed.info/sct&quot;,&quot;code&quot; : &quot;5951000&quot;,&quot;display&quot; : &quot;Left wrist&quot;},{&quot;system&quot; : &quot;http://snomed.info/sct&quot;,&quot;code&quot; : &quot;51114001&quot;,&quot;display&quot; : &quot;Artery&quot;},{&quot;system&quot; : &quot;http://snomed.info/sct&quot;,&quot;code&quot; : &quot;11207009&quot;,&quot;display&quot; : &quot;Right thigh&quot;},{&quot;system&quot; : &quot;http://snomed.info/sct&quot;,&quot;code&quot; : &quot;61396006&quot;,&quot;display&quot; : &quot;Left thigh&quot;},{&quot;system&quot; : &quot;http://snomed.info/sct&quot;,&quot;code&quot; : &quot;368209003&quot;,&quot;display&quot; : &quot;Right upper arm&quot;},{&quot;system&quot; : &quot;http://snomed.info/sct&quot;,&quot;code&quot; : &quot;368208006&quot;,&quot;display&quot; : &quot;Left upper arm structure&quot;},{&quot;system&quot; : &quot;http://snomed.info/sct&quot;,&quot;code&quot; : &quot;29707007&quot;,&quot;display&quot; : &quot;Toe&quot;}]}}
+</pre>
+<hr/><a name="l8"> </a>
+<p>#8</p>
 <pre>
 POST https://tx.fhir.org/r4/CodeSystem/$validate-code? HTTP/1.0
 Accept: application/fhir+json; fhirVersion=4.0
 Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 User-Agent: fhir/publisher
 
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://acme.org/devices/clinical-codes","code":"bp-s","display":"Systolic Blood pressure"}},{"name":"displayLanguage","valueCode":"no-NO"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"0d54313a-5f4d-4392-925f-46abb44b5b68"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://snomed.info/sct","code":"37931006"}},{"name":"displayLanguage","valueCode":"no-NO"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"6f6cefc1-94b1-4e20-852b-c2a70bc99839"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
+</pre>
+<pre>
+200
+access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
+access-control-allow-origin:*
+access-control-expose-headers:Content-Location, Location
+cache-control:public, max-age=600
+connection:keep-alive
+content-length:925
+content-type:application/fhir+json
+date:Thu, 19 Jun 2025 07:53:50 GMT
+last-modified:Thu, 19 Jun 2025 07:53:50 GMT
+pragma:no-cache
+server:nginx
+x-request-id:228-3178764
+
+{&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : true},{&quot;name&quot; : &quot;system&quot;,&quot;valueUri&quot; : &quot;http://snomed.info/sct&quot;},{&quot;name&quot; : &quot;code&quot;,&quot;valueCode&quot; : &quot;37931006&quot;},{&quot;name&quot; : &quot;version&quot;,&quot;valueString&quot; : &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;},{&quot;name&quot; : &quot;display&quot;,&quot;valueString&quot; : &quot;Auscultation&quot;},{&quot;name&quot; : &quot;diagnostics&quot;,&quot;valueString&quot; : &quot;0 0 : start\r\n0 0: tx-op\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Analysing\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Parameters: disp-lang=no-NO, default-to-latest\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Validate \&quot;[http://snomed.info/sct#37931006 (\&quot;\&quot;)]\&quot;\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Check \&quot;http://snomed.info/sct#37931006\&quot;\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Using CodeSystem \&quot;http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201\&quot; (content = complete)\r\n&quot;}]}
+</pre>
+<hr/><a name="l9"> </a>
+<p>#9</p>
+<pre>
+POST https://tx.fhir.org/r4/ HTTP/1.0
+User-Agent: hapi-fhir-tooling-client
+Accept: application/fhir+json; fhirVersion=4.0
+Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
+
+{"resourceType":"Bundle","type":"batch","entry":[{"resource":{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://snomed.info/sct","code":"113011001"}},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"displayLanguage","valueCode":"no-NO"},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true}]},"request":{"method":"POST","url":"CodeSystem/$validate-code"}}]}
+</pre>
+<pre>
+200
+access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
+access-control-allow-origin:*
+access-control-expose-headers:Content-Location, Location
+cache-control:public, max-age=600
+connection:keep-alive
+content-length:555
+content-type:application/fhir+json
+date:Thu, 19 Jun 2025 07:53:50 GMT
+last-modified:Thu, 19 Jun 2025 07:53:50 GMT
+pragma:no-cache
+server:nginx
+x-request-id:228-3178774
+
+{&quot;resourceType&quot; : &quot;Bundle&quot;,&quot;id&quot; : &quot;eb49ce4c-1bc8-45e1-9a28-e490a5b2b509&quot;,&quot;type&quot; : &quot;batch-response&quot;,&quot;entry&quot; : [{&quot;resource&quot; : {&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : true},{&quot;name&quot; : &quot;system&quot;,&quot;valueUri&quot; : &quot;http://snomed.info/sct&quot;},{&quot;name&quot; : &quot;code&quot;,&quot;valueCode&quot; : &quot;113011001&quot;},{&quot;name&quot; : &quot;version&quot;,&quot;valueString&quot; : &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;},{&quot;name&quot; : &quot;display&quot;,&quot;valueString&quot; : &quot;Palpation&quot;}]},&quot;response&quot; : {&quot;status&quot; : &quot;200&quot;,&quot;etag&quot; : &quot;W/&quot;,&quot;lastModified&quot; : &quot;2025-06-19T07:53:50.469Z&quot;}}]}
+</pre>
+<hr/><a name="l10"> </a>
+<p>#10</p>
+<pre>
+POST https://tx.fhir.org/r4/ValueSet/$validate-code? HTTP/1.0
+Accept: application/fhir+json; fhirVersion=4.0
+Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
+User-Agent: fhir/publisher
+
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://loinc.org","code":"5792-7"}},{"name":"valueset-membership-only","valueBoolean":true},{"name":"default-to-latest-version","valueBoolean":true},{"name":"valueSet","resource":{"resourceType":"ValueSet","url":"http://ehelse.no/fhir/ValueSet/vkp-subject-identifiers.valueset"}},{"name":"cache-id","valueId":"6f6cefc1-94b1-4e20-852b-c2a70bc99839"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"displayLanguage","valueCode":"no-NO"},{"name":"diagnostics","valueBoolean":true}]}
+</pre>
+<pre>
+200
+access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
+access-control-allow-origin:*
+access-control-expose-headers:Content-Location, Location
+cache-control:public, max-age=600
+connection:keep-alive
+content-length:1526
+content-type:application/fhir+json
+date:Thu, 19 Jun 2025 07:53:51 GMT
+last-modified:Thu, 19 Jun 2025 07:53:51 GMT
+pragma:no-cache
+server:nginx
+x-request-id:228-3178805
+
+{&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : false},{&quot;name&quot; : &quot;system&quot;,&quot;valueUri&quot; : &quot;http://loinc.org&quot;},{&quot;name&quot; : &quot;code&quot;,&quot;valueCode&quot; : &quot;5792-7&quot;},{&quot;name&quot; : &quot;message&quot;,&quot;valueString&quot; : &quot;The provided code 'http://loinc.org#5792-7' was not found in the value set 'http://ehelse.no/fhir/ValueSet/vkp-subject-identifiers.valueset'&quot;},{&quot;name&quot; : &quot;issues&quot;,&quot;resource&quot; : {&quot;resourceType&quot; : &quot;OperationOutcome&quot;,&quot;issue&quot; : [{&quot;extension&quot; : [{&quot;url&quot; : &quot;http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id&quot;,&quot;valueString&quot; : &quot;None_of_the_provided_codes_are_in_the_value_set_one&quot;}],&quot;severity&quot; : &quot;error&quot;,&quot;code&quot; : &quot;code-invalid&quot;,&quot;details&quot; : {&quot;coding&quot; : [{&quot;system&quot; : &quot;http://hl7.org/fhir/tools/CodeSystem/tx-issue-type&quot;,&quot;code&quot; : &quot;not-in-vs&quot;}],&quot;text&quot; : &quot;The provided code 'http://loinc.org#5792-7' was not found in the value set 'http://ehelse.no/fhir/ValueSet/vkp-subject-identifiers.valueset'&quot;},&quot;location&quot; : [&quot;Coding.code&quot;],&quot;expression&quot; : [&quot;Coding.code&quot;]}]}},{&quot;name&quot; : &quot;diagnostics&quot;,&quot;valueString&quot; : &quot;0 0 : start\r\n15 15: tx-op\r\n15 0: 0ms http://ehelse.no/fhir/ValueSet/vkp-subject-identifiers.valueset: Analysing\r\n15 0: 0ms http://ehelse.no/fhir/ValueSet/vkp-subject-identifiers.valueset: Parameters: disp-lang=no-NO, membership-only, default-to-latest\r\n15 0: 0ms http://ehelse.no/fhir/ValueSet/vkp-subject-identifiers.valueset: Validate \&quot;[http://loinc.org#5792-7 (\&quot;\&quot;)]\&quot;\r\n15 0: 0ms http://ehelse.no/fhir/ValueSet/vkp-subject-identifiers.valueset: Check \&quot;http://loinc.org#5792-7\&quot;\r\n&quot;}]}
+</pre>
+<hr/><a name="l11"> </a>
+<p>#11</p>
+<pre>
+POST https://tx.fhir.org/r4/CodeSystem/$validate-code? HTTP/1.0
+Accept: application/fhir+json; fhirVersion=4.0
+Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
+User-Agent: fhir/publisher
+
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://acme.org/devices/clinical-codes","code":"bp-s","display":"Systolic Blood pressure"}},{"name":"displayLanguage","valueCode":"no-NO"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"6f6cefc1-94b1-4e20-852b-c2a70bc99839"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
 </pre>
 <pre>
 200
@@ -40,23 +267,23 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:1607
 content-type:application/fhir+json
-date:Thu, 19 Jun 2025 07:10:58 GMT
-last-modified:Thu, 19 Jun 2025 07:10:58 GMT
+date:Thu, 19 Jun 2025 07:54:04 GMT
+last-modified:Thu, 19 Jun 2025 07:54:04 GMT
 pragma:no-cache
 server:nginx
-x-request-id:228-3145513
+x-request-id:228-3179111
 
 {&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : false},{&quot;name&quot; : &quot;system&quot;,&quot;valueUri&quot; : &quot;http://acme.org/devices/clinical-codes&quot;},{&quot;name&quot; : &quot;x-caused-by-unknown-system&quot;,&quot;valueCanonical&quot; : &quot;http://acme.org/devices/clinical-codes&quot;},{&quot;name&quot; : &quot;code&quot;,&quot;valueCode&quot; : &quot;bp-s&quot;},{&quot;name&quot; : &quot;message&quot;,&quot;valueString&quot; : &quot;A definition for CodeSystem 'http://acme.org/devices/clinical-codes' could not be found, so the code cannot be validated&quot;},{&quot;name&quot; : &quot;issues&quot;,&quot;resource&quot; : {&quot;resourceType&quot; : &quot;OperationOutcome&quot;,&quot;issue&quot; : [{&quot;extension&quot; : [{&quot;url&quot; : &quot;http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id&quot;,&quot;valueString&quot; : &quot;UNKNOWN_CODESYSTEM&quot;}],&quot;severity&quot; : &quot;error&quot;,&quot;code&quot; : &quot;not-found&quot;,&quot;details&quot; : {&quot;coding&quot; : [{&quot;system&quot; : &quot;http://hl7.org/fhir/tools/CodeSystem/tx-issue-type&quot;,&quot;code&quot; : &quot;not-found&quot;}],&quot;text&quot; : &quot;A definition for CodeSystem 'http://acme.org/devices/clinical-codes' could not be found, so the code cannot be validated&quot;},&quot;location&quot; : [&quot;Coding.system&quot;],&quot;expression&quot; : [&quot;Coding.system&quot;]}]}},{&quot;name&quot; : &quot;diagnostics&quot;,&quot;valueString&quot; : &quot;0 0 : start\r\n0 0: tx-op\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Analysing\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Parameters: disp-lang=no-NO, default-to-latest\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Validate \&quot;[http://acme.org/devices/clinical-codes#bp-s (\&quot;Systolic Blood pressure\&quot;)]\&quot;\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Check \&quot;http://acme.org/devices/clinical-codes#bp-s\&quot;\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Didn't find CodeSystem \&quot;http://acme.org/devices/clinical-codes\&quot;\r\n&quot;}]}
 </pre>
-<hr/><a name="l3"> </a>
-<p>#3</p>
+<hr/><a name="l12"> </a>
+<p>#12</p>
 <pre>
 POST https://tx.fhir.org/r4/CodeSystem/$validate-code? HTTP/1.0
 Accept: application/fhir+json; fhirVersion=4.0
 Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 User-Agent: fhir/publisher
 
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://dips.no/fhir/code","code":"5","display":"Våken"}},{"name":"displayLanguage","valueCode":"no-NO"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"0d54313a-5f4d-4392-925f-46abb44b5b68"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://dips.no/fhir/code","code":"5","display":"Våken"}},{"name":"displayLanguage","valueCode":"no-NO"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"6f6cefc1-94b1-4e20-852b-c2a70bc99839"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
 </pre>
 <pre>
 200
@@ -65,25 +292,25 @@ access-control-allow-origin:*
 access-control-expose-headers:Content-Location, Location
 cache-control:public, max-age=600
 connection:keep-alive
-content-length:1483
+content-length:1490
 content-type:application/fhir+json
-date:Thu, 19 Jun 2025 07:10:58 GMT
-last-modified:Thu, 19 Jun 2025 07:10:58 GMT
+date:Thu, 19 Jun 2025 07:54:05 GMT
+last-modified:Thu, 19 Jun 2025 07:54:05 GMT
 pragma:no-cache
 server:nginx
-x-request-id:228-3145522
+x-request-id:228-3179114
 
-{&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : false},{&quot;name&quot; : &quot;system&quot;,&quot;valueUri&quot; : &quot;http://dips.no/fhir/code&quot;},{&quot;name&quot; : &quot;x-caused-by-unknown-system&quot;,&quot;valueCanonical&quot; : &quot;http://dips.no/fhir/code&quot;},{&quot;name&quot; : &quot;code&quot;,&quot;valueCode&quot; : &quot;5&quot;},{&quot;name&quot; : &quot;message&quot;,&quot;valueString&quot; : &quot;A definition for CodeSystem 'http://dips.no/fhir/code' could not be found, so the code cannot be validated&quot;},{&quot;name&quot; : &quot;issues&quot;,&quot;resource&quot; : {&quot;resourceType&quot; : &quot;OperationOutcome&quot;,&quot;issue&quot; : [{&quot;extension&quot; : [{&quot;url&quot; : &quot;http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id&quot;,&quot;valueString&quot; : &quot;UNKNOWN_CODESYSTEM&quot;}],&quot;severity&quot; : &quot;error&quot;,&quot;code&quot; : &quot;not-found&quot;,&quot;details&quot; : {&quot;coding&quot; : [{&quot;system&quot; : &quot;http://hl7.org/fhir/tools/CodeSystem/tx-issue-type&quot;,&quot;code&quot; : &quot;not-found&quot;}],&quot;text&quot; : &quot;A definition for CodeSystem 'http://dips.no/fhir/code' could not be found, so the code cannot be validated&quot;},&quot;location&quot; : [&quot;Coding.system&quot;],&quot;expression&quot; : [&quot;Coding.system&quot;]}]}},{&quot;name&quot; : &quot;diagnostics&quot;,&quot;valueString&quot; : &quot;0 0 : start\r\n0 0: tx-op\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Analysing\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Parameters: disp-lang=no-NO, default-to-latest\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Validate \&quot;[http://dips.no/fhir/code#5 (\&quot;Våken\&quot;)]\&quot;\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Check \&quot;http://dips.no/fhir/code#5\&quot;\r\n0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Didn't find CodeSystem \&quot;http://dips.no/fhir/code\&quot;\r\n&quot;}]}
+{&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : false},{&quot;name&quot; : &quot;system&quot;,&quot;valueUri&quot; : &quot;http://dips.no/fhir/code&quot;},{&quot;name&quot; : &quot;x-caused-by-unknown-system&quot;,&quot;valueCanonical&quot; : &quot;http://dips.no/fhir/code&quot;},{&quot;name&quot; : &quot;code&quot;,&quot;valueCode&quot; : &quot;5&quot;},{&quot;name&quot; : &quot;message&quot;,&quot;valueString&quot; : &quot;A definition for CodeSystem 'http://dips.no/fhir/code' could not be found, so the code cannot be validated&quot;},{&quot;name&quot; : &quot;issues&quot;,&quot;resource&quot; : {&quot;resourceType&quot; : &quot;OperationOutcome&quot;,&quot;issue&quot; : [{&quot;extension&quot; : [{&quot;url&quot; : &quot;http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id&quot;,&quot;valueString&quot; : &quot;UNKNOWN_CODESYSTEM&quot;}],&quot;severity&quot; : &quot;error&quot;,&quot;code&quot; : &quot;not-found&quot;,&quot;details&quot; : {&quot;coding&quot; : [{&quot;system&quot; : &quot;http://hl7.org/fhir/tools/CodeSystem/tx-issue-type&quot;,&quot;code&quot; : &quot;not-found&quot;}],&quot;text&quot; : &quot;A definition for CodeSystem 'http://dips.no/fhir/code' could not be found, so the code cannot be validated&quot;},&quot;location&quot; : [&quot;Coding.system&quot;],&quot;expression&quot; : [&quot;Coding.system&quot;]}]}},{&quot;name&quot; : &quot;diagnostics&quot;,&quot;valueString&quot; : &quot;0 0 : start\r\n16 16: tx-op\r\n16 0: 0ms http://hl7.org/fhir/ValueSet/@all: Analysing\r\n16 0: 0ms http://hl7.org/fhir/ValueSet/@all: Parameters: disp-lang=no-NO, default-to-latest\r\n16 0: 0ms http://hl7.org/fhir/ValueSet/@all: Validate \&quot;[http://dips.no/fhir/code#5 (\&quot;Våken\&quot;)]\&quot;\r\n16 0: 0ms http://hl7.org/fhir/ValueSet/@all: Check \&quot;http://dips.no/fhir/code#5\&quot;\r\n16 0: 0ms http://hl7.org/fhir/ValueSet/@all: Didn't find CodeSystem \&quot;http://dips.no/fhir/code\&quot;\r\n&quot;}]}
 </pre>
-<hr/><a name="l4"> </a>
-<p>#4</p>
+<hr/><a name="l13"> </a>
+<p>#13</p>
 <pre>
 POST https://tx.fhir.org/r4/ValueSet/$validate-code? HTTP/1.0
 Accept: application/fhir+json; fhirVersion=4.0
 Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 User-Agent: fhir/publisher
 
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://snomed.info/sct","code":"7569003"}},{"name":"displayLanguage","valueCode":"no-NO"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"valueSet","resource":{"resourceType":"ValueSet","url":"http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodysitevalueset--0","version":"0.3.0","status":"active","compose":{"include":[{"system":"http://snomed.info/sct","concept":[{"code":"368209003","display":"Overarm, høyre"},{"code":"368208006","display":"Overarm, venstre"},{"code":"11207009","display":"Lår, høyre"},{"code":"61396006","display":"Lår, venstre"},{"code":"9736006","display":"Håndledd, høyre"},{"code":"5951000","display":"Håndledd, venstre"},{"code":"6685009","display":"Ankel, høyre"},{"code":"51636004","display":"Ankel, venstre"},{"code":"7569003","display":"Finger"},{"code":"29707007","display":"Tå"},{"code":"2402003","display":"Fotrygg"},{"code":"51114001","display":"Intra-arterielt"}]}]}}},{"name":"cache-id","valueId":"0d54313a-5f4d-4392-925f-46abb44b5b68"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://snomed.info/sct","code":"7569003"}},{"name":"displayLanguage","valueCode":"no-NO"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"valueSet","resource":{"resourceType":"ValueSet","url":"http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet--0","version":"0.3.0","status":"active","compose":{"include":[{"system":"http://snomed.info/sct","concept":[{"code":"6685009","display":"Ankel, høyre"},{"code":"51636004","display":"Ankel, venstre"},{"code":"7569003","display":"Finger"},{"code":"2402003","display":"Fotrygg"},{"code":"9736006","display":"Håndledd, høyre"},{"code":"5951000","display":"Håndledd, venstre"},{"code":"51114001","display":"Intraarterielt"},{"code":"11207009","display":"Lår, høyre"},{"code":"61396006","display":"Lår, venstre"},{"code":"368209003","display":"Overarm, høyre"},{"code":"368208006","display":"Overarm, venstre"},{"code":"29707007","display":"Tå"}]}]}}},{"name":"cache-id","valueId":"6f6cefc1-94b1-4e20-852b-c2a70bc99839"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
 </pre>
 <pre>
 200
@@ -92,25 +319,25 @@ access-control-allow-origin:*
 access-control-expose-headers:Content-Location, Location
 cache-control:public, max-age=600
 connection:keep-alive
-content-length:1696
+content-length:1687
 content-type:application/fhir+json
-date:Thu, 19 Jun 2025 07:10:59 GMT
-last-modified:Thu, 19 Jun 2025 07:10:59 GMT
+date:Thu, 19 Jun 2025 07:54:05 GMT
+last-modified:Thu, 19 Jun 2025 07:54:05 GMT
 pragma:no-cache
 server:nginx
-x-request-id:228-3145529
+x-request-id:228-3179116
 
-{&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : true},{&quot;name&quot; : &quot;system&quot;,&quot;valueUri&quot; : &quot;http://snomed.info/sct&quot;},{&quot;name&quot; : &quot;code&quot;,&quot;valueCode&quot; : &quot;7569003&quot;},{&quot;name&quot; : &quot;version&quot;,&quot;valueString&quot; : &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;},{&quot;name&quot; : &quot;display&quot;,&quot;valueString&quot; : &quot;Finger&quot;},{&quot;name&quot; : &quot;diagnostics&quot;,&quot;valueString&quot; : &quot;0 0 : start\r\n15 15: tx-op\r\n15 0: 0ms http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodysitevalueset--0|0.3.0: Analysing\r\n15 0: 0ms http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodysitevalueset--0|0.3.0: Parameters: disp-lang=no-NO, default-to-latest\r\n15 0: 0ms http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodysitevalueset--0|0.3.0: CodeSystem found: \&quot;http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201\&quot;\r\n15 0: 0ms http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodysitevalueset--0|0.3.0: Validate \&quot;[http://snomed.info/sct#7569003 (\&quot;\&quot;)]\&quot;\r\n15 0: 0ms http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodysitevalueset--0|0.3.0: Check \&quot;http://snomed.info/sct#7569003\&quot;\r\n15 0: 0ms http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodysitevalueset--0|0.3.0: CodeSystem found: http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201 for http://snomed.info/sct\r\n15 0: 0ms http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodysitevalueset--0|0.3.0: Code \&quot;7569003\&quot; found in http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201\r\n&quot;}]}
+{&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : true},{&quot;name&quot; : &quot;system&quot;,&quot;valueUri&quot; : &quot;http://snomed.info/sct&quot;},{&quot;name&quot; : &quot;code&quot;,&quot;valueCode&quot; : &quot;7569003&quot;},{&quot;name&quot; : &quot;version&quot;,&quot;valueString&quot; : &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;},{&quot;name&quot; : &quot;display&quot;,&quot;valueString&quot; : &quot;Finger&quot;},{&quot;name&quot; : &quot;diagnostics&quot;,&quot;valueString&quot; : &quot;0 0 : start\r\n0 0: tx-op\r\n0 0: 0ms http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet--0|0.3.0: Analysing\r\n0 0: 0ms http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet--0|0.3.0: Parameters: disp-lang=no-NO, default-to-latest\r\n0 0: 0ms http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet--0|0.3.0: CodeSystem found: \&quot;http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201\&quot;\r\n0 0: 0ms http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet--0|0.3.0: Validate \&quot;[http://snomed.info/sct#7569003 (\&quot;\&quot;)]\&quot;\r\n0 0: 0ms http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet--0|0.3.0: Check \&quot;http://snomed.info/sct#7569003\&quot;\r\n0 0: 0ms http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet--0|0.3.0: CodeSystem found: http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201 for http://snomed.info/sct\r\n0 0: 0ms http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet--0|0.3.0: Code \&quot;7569003\&quot; found in http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201\r\n&quot;}]}
 </pre>
-<hr/><a name="l5"> </a>
-<p>#5</p>
+<hr/><a name="l14"> </a>
+<p>#14</p>
 <pre>
 POST https://tx.fhir.org/r4/ValueSet/$validate-code? HTTP/1.0
 Accept: application/fhir+json; fhirVersion=4.0
 Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 User-Agent: fhir/publisher
 
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://snomed.info/sct","code":"7569003","display":"Finger structure (body structure)"}},{"name":"displayLanguage","valueCode":"no-NO"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"valueSet","resource":{"resourceType":"ValueSet","id":"NoDomainVitalSignsObservationBloodPressureBodySiteValueSet","meta":{"lastUpdated":"2021-03-17T00:00:00+00:00","profile":["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]},"text":{"status":"generated","div":"&lt;div&gt;!-- Narrative removed --&gt;&lt;/div&gt;"},"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-wg","valueCode":"oo"},{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status","valueCode":"draft"},{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm","valueInteger":1}],"url":"http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodysitevalueset","version":"0.3.0","name":"NoDomainVitalSignsObservationBloodPressureBodySiteValueSet","status":"draft","experimental":false,"date":"2021-03-17T00:00:00+00:00","contact":[{"telecom":[{"system":"url","value":"http://hl7.org/fhir"}]}],"description":"Codes representing body site for blood pressure","jurisdiction":[{"coding":[{"system":"urn:iso:std:iso:3166","code":"NO","display":"Norway"}]}],"compose":{"include":[{"system":"http://snomed.info/sct","concept":[{"code":"368209003","display":"Overarm, høyre"},{"code":"368208006","display":"Overarm, venstre"},{"code":"11207009","display":"Lår, høyre"},{"code":"61396006","display":"Lår, venstre"},{"code":"9736006","display":"Håndledd, høyre"},{"code":"5951000","display":"Håndledd, venstre"},{"code":"6685009","display":"Ankel, høyre"},{"code":"51636004","display":"Ankel, venstre"},{"code":"7569003","display":"Finger"},{"code":"29707007","display":"Tå"},{"code":"2402003","display":"Fotrygg"},{"code":"51114001","display":"Intra-arterielt"}]}]}}},{"name":"cache-id","valueId":"0d54313a-5f4d-4392-925f-46abb44b5b68"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://snomed.info/sct","code":"7569003","display":"Finger structure (body structure)"}},{"name":"displayLanguage","valueCode":"no-NO"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"valueSet","resource":{"resourceType":"ValueSet","id":"NoDomainVitalSignsBloodpressureBodySiteValueSet","meta":{"lastUpdated":"2025-01-28T00:00:00+00:00","profile":["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]},"text":{"status":"generated","div":"&lt;div&gt;!-- Narrative removed --&gt;&lt;/div&gt;"},"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-wg","valueCode":"oo"},{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status","valueCode":"draft"},{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm","valueInteger":1}],"url":"http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet","version":"0.3.0","name":"NoDomainVitalSignsBloodpressureBodySiteValueSet","title":"NoDomainVitalSignsBloodpressureBodySite-ValueSet","status":"draft","experimental":false,"date":"2025-06-19T07:53:00+00:00","contact":[{"telecom":[{"system":"url","value":"http://hl7.org/fhir"}]}],"description":"Codes representing body site for blood pressure","jurisdiction":[{"coding":[{"system":"urn:iso:std:iso:3166","code":"NO","display":"Norway"}]}],"copyright":"This resource includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org","compose":{"include":[{"system":"http://snomed.info/sct","concept":[{"code":"6685009","display":"Ankel, høyre"},{"code":"51636004","display":"Ankel, venstre"},{"code":"7569003","display":"Finger"},{"code":"2402003","display":"Fotrygg"},{"code":"9736006","display":"Håndledd, høyre"},{"code":"5951000","display":"Håndledd, venstre"},{"code":"51114001","display":"Intraarterielt"},{"code":"11207009","display":"Lår, høyre"},{"code":"61396006","display":"Lår, venstre"},{"code":"368209003","display":"Overarm, høyre"},{"code":"368208006","display":"Overarm, venstre"},{"code":"29707007","display":"Tå"}]}]}}},{"name":"cache-id","valueId":"6f6cefc1-94b1-4e20-852b-c2a70bc99839"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
 </pre>
 <pre>
 200
@@ -121,23 +348,23 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:2326
 content-type:application/fhir+json
-date:Thu, 19 Jun 2025 07:10:59 GMT
-last-modified:Thu, 19 Jun 2025 07:10:59 GMT
+date:Thu, 19 Jun 2025 07:54:06 GMT
+last-modified:Thu, 19 Jun 2025 07:54:06 GMT
 pragma:no-cache
 server:nginx
-x-request-id:228-3145533
+x-request-id:228-3179118
 
-{&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : true},{&quot;name&quot; : &quot;system&quot;,&quot;valueUri&quot; : &quot;http://snomed.info/sct&quot;},{&quot;name&quot; : &quot;code&quot;,&quot;valueCode&quot; : &quot;7569003&quot;},{&quot;name&quot; : &quot;version&quot;,&quot;valueString&quot; : &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;},{&quot;name&quot; : &quot;display&quot;,&quot;valueString&quot; : &quot;Finger&quot;},{&quot;name&quot; : &quot;issues&quot;,&quot;resource&quot; : {&quot;resourceType&quot; : &quot;OperationOutcome&quot;,&quot;issue&quot; : [{&quot;extension&quot; : [{&quot;url&quot; : &quot;http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id&quot;,&quot;valueString&quot; : &quot;NO_VALID_DISPLAY_FOUND_LANG_NONE&quot;}],&quot;severity&quot; : &quot;information&quot;,&quot;code&quot; : &quot;invalid&quot;,&quot;details&quot; : {&quot;coding&quot; : [{&quot;system&quot; : &quot;http://hl7.org/fhir/tools/CodeSystem/tx-issue-type&quot;,&quot;code&quot; : &quot;display-comment&quot;}],&quot;text&quot; : &quot;'Finger structure (body structure)' is the default display; the code system http://snomed.info/sct has no Display Names for the language no-NO&quot;},&quot;location&quot; : [&quot;Coding.display&quot;],&quot;expression&quot; : [&quot;Coding.display&quot;]}]}},{&quot;name&quot; : &quot;diagnostics&quot;,&quot;valueString&quot; : &quot;0 0 : start\r\n15 15: tx-op\r\n15 0: 0ms http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodysitevalueset|0.3.0: Analysing\r\n15 0: 0ms http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodysitevalueset|0.3.0: Parameters: disp-lang=no-NO, default-to-latest\r\n15 0: 0ms http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodysitevalueset|0.3.0: CodeSystem found: \&quot;http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201\&quot;\r\n15 0: 0ms http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodysitevalueset|0.3.0: Validate \&quot;[http://snomed.info/sct#7569003 (\&quot;Finger structure (body structure)\&quot;)]\&quot;\r\n15 0: 0ms http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodysitevalueset|0.3.0: Check \&quot;http://snomed.info/sct#7569003\&quot;\r\n15 0: 0ms http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodysitevalueset|0.3.0: CodeSystem found: http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201 for http://snomed.info/sct\r\n15 0: 0ms http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodysitevalueset|0.3.0: Code \&quot;7569003\&quot; found in http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201\r\n&quot;}]}
+{&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : true},{&quot;name&quot; : &quot;system&quot;,&quot;valueUri&quot; : &quot;http://snomed.info/sct&quot;},{&quot;name&quot; : &quot;code&quot;,&quot;valueCode&quot; : &quot;7569003&quot;},{&quot;name&quot; : &quot;version&quot;,&quot;valueString&quot; : &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;},{&quot;name&quot; : &quot;display&quot;,&quot;valueString&quot; : &quot;Finger&quot;},{&quot;name&quot; : &quot;issues&quot;,&quot;resource&quot; : {&quot;resourceType&quot; : &quot;OperationOutcome&quot;,&quot;issue&quot; : [{&quot;extension&quot; : [{&quot;url&quot; : &quot;http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id&quot;,&quot;valueString&quot; : &quot;NO_VALID_DISPLAY_FOUND_LANG_NONE&quot;}],&quot;severity&quot; : &quot;information&quot;,&quot;code&quot; : &quot;invalid&quot;,&quot;details&quot; : {&quot;coding&quot; : [{&quot;system&quot; : &quot;http://hl7.org/fhir/tools/CodeSystem/tx-issue-type&quot;,&quot;code&quot; : &quot;display-comment&quot;}],&quot;text&quot; : &quot;'Finger structure (body structure)' is the default display; the code system http://snomed.info/sct has no Display Names for the language no-NO&quot;},&quot;location&quot; : [&quot;Coding.display&quot;],&quot;expression&quot; : [&quot;Coding.display&quot;]}]}},{&quot;name&quot; : &quot;diagnostics&quot;,&quot;valueString&quot; : &quot;0 0 : start\r\n16 16: tx-op\r\n16 0: 0ms http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet|0.3.0: Analysing\r\n16 0: 0ms http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet|0.3.0: Parameters: disp-lang=no-NO, default-to-latest\r\n16 0: 0ms http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet|0.3.0: CodeSystem found: \&quot;http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201\&quot;\r\n16 0: 0ms http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet|0.3.0: Validate \&quot;[http://snomed.info/sct#7569003 (\&quot;Finger structure (body structure)\&quot;)]\&quot;\r\n16 0: 0ms http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet|0.3.0: Check \&quot;http://snomed.info/sct#7569003\&quot;\r\n16 0: 0ms http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet|0.3.0: CodeSystem found: http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201 for http://snomed.info/sct\r\n16 0: 0ms http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet|0.3.0: Code \&quot;7569003\&quot; found in http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201\r\n&quot;}]}
 </pre>
-<hr/><a name="l6"> </a>
-<p>#6</p>
+<hr/><a name="l15"> </a>
+<p>#15</p>
 <pre>
 POST https://tx.fhir.org/r4/ValueSet/$validate-code? HTTP/1.0
 Accept: application/fhir+json; fhirVersion=4.0
 Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 User-Agent: fhir/publisher
 
-{"resourceType":"Parameters","parameter":[{"name":"inferSystem","valueBoolean":true},{"name":"code","valueCode":"7569003"},{"name":"displayLanguage","valueCode":"no-NO"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"valueSet","resource":{"resourceType":"ValueSet","id":"NoDomainVitalSignsObservationBloodPressureBodySiteValueSet","meta":{"lastUpdated":"2021-03-17T00:00:00+00:00","profile":["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]},"text":{"status":"generated","div":"&lt;div&gt;!-- Narrative removed --&gt;&lt;/div&gt;"},"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-wg","valueCode":"oo"},{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status","valueCode":"draft"},{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm","valueInteger":1}],"url":"http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodysitevalueset","version":"0.3.0","name":"NoDomainVitalSignsObservationBloodPressureBodySiteValueSet","status":"draft","experimental":false,"date":"2021-03-17T00:00:00+00:00","contact":[{"telecom":[{"system":"url","value":"http://hl7.org/fhir"}]}],"description":"Codes representing body site for blood pressure","jurisdiction":[{"coding":[{"system":"urn:iso:std:iso:3166","code":"NO","display":"Norway"}]}],"compose":{"include":[{"system":"http://snomed.info/sct","concept":[{"code":"368209003","display":"Overarm, høyre"},{"code":"368208006","display":"Overarm, venstre"},{"code":"11207009","display":"Lår, høyre"},{"code":"61396006","display":"Lår, venstre"},{"code":"9736006","display":"Håndledd, høyre"},{"code":"5951000","display":"Håndledd, venstre"},{"code":"6685009","display":"Ankel, høyre"},{"code":"51636004","display":"Ankel, venstre"},{"code":"7569003","display":"Finger"},{"code":"29707007","display":"Tå"},{"code":"2402003","display":"Fotrygg"},{"code":"51114001","display":"Intra-arterielt"}]}]}}},{"name":"cache-id","valueId":"0d54313a-5f4d-4392-925f-46abb44b5b68"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://snomed.info/sct","code":"129436005"}},{"name":"displayLanguage","valueCode":"no-NO"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"valueSet","resource":{"resourceType":"ValueSet","url":"http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet--0","version":"0.3.0","status":"active","compose":{"include":[{"system":"http://snomed.info/sct","concept":[{"code":"37931006","display":"Auskultasjon"},{"code":"113011001","display":"Palpasjon"}]}]}}},{"name":"cache-id","valueId":"6f6cefc1-94b1-4e20-852b-c2a70bc99839"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
 </pre>
 <pre>
 200
@@ -146,25 +373,25 @@ access-control-allow-origin:*
 access-control-expose-headers:Content-Location, Location
 cache-control:public, max-age=600
 connection:keep-alive
-content-length:1798
+content-length:2452
 content-type:application/fhir+json
-date:Thu, 19 Jun 2025 07:10:59 GMT
-last-modified:Thu, 19 Jun 2025 07:10:59 GMT
+date:Thu, 19 Jun 2025 07:54:06 GMT
+last-modified:Thu, 19 Jun 2025 07:54:06 GMT
 pragma:no-cache
 server:nginx
-x-request-id:228-3145541
+x-request-id:228-3179126
 
-{&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : true},{&quot;name&quot; : &quot;system&quot;,&quot;valueUri&quot; : &quot;http://snomed.info/sct&quot;},{&quot;name&quot; : &quot;code&quot;,&quot;valueCode&quot; : &quot;7569003&quot;},{&quot;name&quot; : &quot;version&quot;,&quot;valueString&quot; : &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;},{&quot;name&quot; : &quot;display&quot;,&quot;valueString&quot; : &quot;Finger&quot;},{&quot;name&quot; : &quot;diagnostics&quot;,&quot;valueString&quot; : &quot;0 0 : start\r\n0 0: tx-op\r\n0 0: 0ms http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodysitevalueset|0.3.0: Analysing\r\n0 0: 0ms http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodysitevalueset|0.3.0: Parameters: disp-lang=no-NO, default-to-latest\r\n0 0: 0ms http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodysitevalueset|0.3.0: CodeSystem found: \&quot;http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201\&quot;\r\n0 0: 0ms http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodysitevalueset|0.3.0: Validate \&quot;[#7569003 (\&quot;\&quot;)]\&quot; and infer system\r\n0 0: 0ms http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodysitevalueset|0.3.0: Check \&quot;#7569003\&quot;\r\n0 0: 0ms http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodysitevalueset|0.3.0: Inferred CodeSystem = \&quot;http://snomed.info/sct\&quot;\r\n0 0: 0ms http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodysitevalueset|0.3.0: CodeSystem found: http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201 for http://snomed.info/sct\r\n0 0: 0ms http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodysitevalueset|0.3.0: Code \&quot;7569003\&quot; found in http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201\r\n&quot;}]}
+{&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;version&quot;,&quot;valueString&quot; : &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;},{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : false},{&quot;name&quot; : &quot;system&quot;,&quot;valueUri&quot; : &quot;http://snomed.info/sct&quot;},{&quot;name&quot; : &quot;code&quot;,&quot;valueCode&quot; : &quot;129436005&quot;},{&quot;name&quot; : &quot;display&quot;,&quot;valueString&quot; : &quot;Auscultation - action&quot;},{&quot;name&quot; : &quot;message&quot;,&quot;valueString&quot; : &quot;The provided code 'http://snomed.info/sct#129436005' was not found in the value set 'http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet--0|0.3.0'&quot;},{&quot;name&quot; : &quot;issues&quot;,&quot;resource&quot; : {&quot;resourceType&quot; : &quot;OperationOutcome&quot;,&quot;issue&quot; : [{&quot;extension&quot; : [{&quot;url&quot; : &quot;http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id&quot;,&quot;valueString&quot; : &quot;None_of_the_provided_codes_are_in_the_value_set_one&quot;}],&quot;severity&quot; : &quot;error&quot;,&quot;code&quot; : &quot;code-invalid&quot;,&quot;details&quot; : {&quot;coding&quot; : [{&quot;system&quot; : &quot;http://hl7.org/fhir/tools/CodeSystem/tx-issue-type&quot;,&quot;code&quot; : &quot;not-in-vs&quot;}],&quot;text&quot; : &quot;The provided code 'http://snomed.info/sct#129436005' was not found in the value set 'http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet--0|0.3.0'&quot;},&quot;location&quot; : [&quot;Coding.code&quot;],&quot;expression&quot; : [&quot;Coding.code&quot;]}]}},{&quot;name&quot; : &quot;diagnostics&quot;,&quot;valueString&quot; : &quot;0 0 : start\r\n0 0: tx-op\r\n0 0: 0ms http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet--0|0.3.0: Analysing\r\n0 0: 0ms http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet--0|0.3.0: Parameters: disp-lang=no-NO, default-to-latest\r\n0 0: 0ms http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet--0|0.3.0: CodeSystem found: \&quot;http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201\&quot;\r\n0 0: 0ms http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet--0|0.3.0: Validate \&quot;[http://snomed.info/sct#129436005 (\&quot;\&quot;)]\&quot;\r\n0 0: 0ms http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet--0|0.3.0: Check \&quot;http://snomed.info/sct#129436005\&quot;\r\n0 0: 0ms http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet--0|0.3.0: CodeSystem found: http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201 for http://snomed.info/sct\r\n&quot;}]}
 </pre>
-<hr/><a name="l7"> </a>
-<p>#7</p>
+<hr/><a name="l16"> </a>
+<p>#16</p>
 <pre>
 POST https://tx.fhir.org/r4/ValueSet/$validate-code? HTTP/1.0
 Accept: application/fhir+json; fhirVersion=4.0
 Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 User-Agent: fhir/publisher
 
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://snomed.info/sct","code":"129436005"}},{"name":"displayLanguage","valueCode":"no-NO"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"valueSet","resource":{"resourceType":"ValueSet","url":"http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-measurementmethodvalueSet--0","version":"0.3.0","status":"active","compose":{"include":[{"system":"http://snomed.info/sct","concept":[{"code":"129436005","display":"Auskultasjon"},{"code":"129434008","display":"Palpasjon"},{"code":"xxx","display":"Automatisk, non-invasivt"}]}]}}},{"name":"cache-id","valueId":"0d54313a-5f4d-4392-925f-46abb44b5b68"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://snomed.info/sct","code":"129436005","display":"Auscultation - action (qualifier value)"}},{"name":"displayLanguage","valueCode":"no-NO"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"valueSet","resource":{"resourceType":"ValueSet","id":"NoDomainVitalSignsBloodPressureMeasurementMethodValueSet","meta":{"lastUpdated":"2025-01-28T00:00:00+00:00","profile":["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]},"text":{"status":"generated","div":"&lt;div&gt;!-- Narrative removed --&gt;&lt;/div&gt;"},"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-wg","valueCode":"fhir"},{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status","valueCode":"draft"},{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm","valueInteger":1}],"url":"http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet","version":"0.3.0","name":"NoDomainVitalSignsBloodPressureMeasurementMethodValueSet","title":"NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet","status":"draft","experimental":false,"date":"2025-06-19T07:53:00+00:00","description":"Codes representing measurement method for HeartRate","jurisdiction":[{"coding":[{"system":"urn:iso:std:iso:3166","code":"NO","display":"Norway"}]}],"copyright":"This resource includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org","compose":{"include":[{"system":"http://snomed.info/sct","concept":[{"code":"37931006","display":"Auskultasjon"},{"code":"113011001","display":"Palpasjon"}]}]}}},{"name":"cache-id","valueId":"6f6cefc1-94b1-4e20-852b-c2a70bc99839"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
 </pre>
 <pre>
 200
@@ -173,79 +400,25 @@ access-control-allow-origin:*
 access-control-expose-headers:Content-Location, Location
 cache-control:public, max-age=600
 connection:keep-alive
-content-length:1776
+content-length:2563
 content-type:application/fhir+json
-date:Thu, 19 Jun 2025 07:10:59 GMT
-last-modified:Thu, 19 Jun 2025 07:10:59 GMT
+date:Thu, 19 Jun 2025 07:54:06 GMT
+last-modified:Thu, 19 Jun 2025 07:54:06 GMT
 pragma:no-cache
 server:nginx
-x-request-id:228-3145553
+x-request-id:228-3179133
 
-{&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : true},{&quot;name&quot; : &quot;system&quot;,&quot;valueUri&quot; : &quot;http://snomed.info/sct&quot;},{&quot;name&quot; : &quot;code&quot;,&quot;valueCode&quot; : &quot;129436005&quot;},{&quot;name&quot; : &quot;version&quot;,&quot;valueString&quot; : &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;},{&quot;name&quot; : &quot;display&quot;,&quot;valueString&quot; : &quot;Auscultation - action&quot;},{&quot;name&quot; : &quot;diagnostics&quot;,&quot;valueString&quot; : &quot;0 0 : start\r\n0 0: tx-op\r\n0 0: 0ms http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-measurementmethodvalueSet--0|0.3.0: Analysing\r\n0 0: 0ms http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-measurementmethodvalueSet--0|0.3.0: Parameters: disp-lang=no-NO, default-to-latest\r\n0 0: 0ms http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-measurementmethodvalueSet--0|0.3.0: CodeSystem found: \&quot;http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201\&quot;\r\n0 0: 0ms http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-measurementmethodvalueSet--0|0.3.0: Validate \&quot;[http://snomed.info/sct#129436005 (\&quot;\&quot;)]\&quot;\r\n0 0: 0ms http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-measurementmethodvalueSet--0|0.3.0: Check \&quot;http://snomed.info/sct#129436005\&quot;\r\n0 0: 0ms http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-measurementmethodvalueSet--0|0.3.0: CodeSystem found: http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201 for http://snomed.info/sct\r\n15 15: 15ms http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-measurementmethodvalueSet--0|0.3.0: Code \&quot;129436005\&quot; found in http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201\r\n&quot;}]}
+{&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;version&quot;,&quot;valueString&quot; : &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;},{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : false},{&quot;name&quot; : &quot;system&quot;,&quot;valueUri&quot; : &quot;http://snomed.info/sct&quot;},{&quot;name&quot; : &quot;code&quot;,&quot;valueCode&quot; : &quot;129436005&quot;},{&quot;name&quot; : &quot;display&quot;,&quot;valueString&quot; : &quot;Auscultation - action&quot;},{&quot;name&quot; : &quot;message&quot;,&quot;valueString&quot; : &quot;The provided code 'http://snomed.info/sct#129436005 ('Auscultation - action (qualifier value)')' was not found in the value set 'http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet|0.3.0'&quot;},{&quot;name&quot; : &quot;issues&quot;,&quot;resource&quot; : {&quot;resourceType&quot; : &quot;OperationOutcome&quot;,&quot;issue&quot; : [{&quot;extension&quot; : [{&quot;url&quot; : &quot;http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id&quot;,&quot;valueString&quot; : &quot;None_of_the_provided_codes_are_in_the_value_set_one&quot;}],&quot;severity&quot; : &quot;error&quot;,&quot;code&quot; : &quot;code-invalid&quot;,&quot;details&quot; : {&quot;coding&quot; : [{&quot;system&quot; : &quot;http://hl7.org/fhir/tools/CodeSystem/tx-issue-type&quot;,&quot;code&quot; : &quot;not-in-vs&quot;}],&quot;text&quot; : &quot;The provided code 'http://snomed.info/sct#129436005 ('Auscultation - action (qualifier value)')' was not found in the value set 'http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet|0.3.0'&quot;},&quot;location&quot; : [&quot;Coding.code&quot;],&quot;expression&quot; : [&quot;Coding.code&quot;]}]}},{&quot;name&quot; : &quot;diagnostics&quot;,&quot;valueString&quot; : &quot;0 0 : start\r\n16 16: tx-op\r\n16 0: 0ms http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet|0.3.0: Analysing\r\n16 0: 0ms http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet|0.3.0: Parameters: disp-lang=no-NO, default-to-latest\r\n16 0: 0ms http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet|0.3.0: CodeSystem found: \&quot;http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201\&quot;\r\n16 0: 0ms http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet|0.3.0: Validate \&quot;[http://snomed.info/sct#129436005 (\&quot;Auscultation - action (qualifier value)\&quot;)]\&quot;\r\n16 0: 0ms http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet|0.3.0: Check \&quot;http://snomed.info/sct#129436005\&quot;\r\n16 0: 0ms http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet|0.3.0: CodeSystem found: http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201 for http://snomed.info/sct\r\n&quot;}]}
 </pre>
-<hr/><a name="l8"> </a>
-<p>#8</p>
-<pre>
-POST https://tx.fhir.org/r4/ValueSet/$validate-code? HTTP/1.0
-Accept: application/fhir+json; fhirVersion=4.0
-Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
-User-Agent: fhir/publisher
-
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://snomed.info/sct","code":"129436005","display":"Auscultation - action (qualifier value)"}},{"name":"displayLanguage","valueCode":"no-NO"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"valueSet","resource":{"resourceType":"ValueSet","id":"NoDomainVitalSignsObservationBloodPressureMeasurementMethodValue","meta":{"lastUpdated":"2021-03-17T13:28:17.239+02:00","profile":["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]},"text":{"status":"generated","div":"&lt;div&gt;!-- Narrative removed --&gt;&lt;/div&gt;"},"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-wg","valueCode":"oo"},{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status","valueCode":"draft"},{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm","valueInteger":1}],"url":"http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-measurementmethodvalueSet","version":"0.3.0","name":"NoDomainVitalSignsObservationBloodPressureMeasurementMethodValueSet","status":"draft","experimental":false,"date":"2021-03-17","contact":[{"telecom":[{"system":"url","value":"http://hl7.org/fhir"}]}],"description":"Codes representing measurement method for blood pressure","jurisdiction":[{"coding":[{"system":"urn:iso:std:iso:3166","code":"NO","display":"Norway"}]}],"compose":{"include":[{"system":"http://snomed.info/sct","concept":[{"code":"129436005","display":"Auskultasjon"},{"code":"129434008","display":"Palpasjon"},{"code":"xxx","display":"Automatisk, non-invasivt"}]}]}}},{"name":"cache-id","valueId":"0d54313a-5f4d-4392-925f-46abb44b5b68"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
-</pre>
-<pre>
-200
-access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
-access-control-allow-origin:*
-access-control-expose-headers:Content-Location, Location
-cache-control:public, max-age=600
-connection:keep-alive
-content-length:2415
-content-type:application/fhir+json
-date:Thu, 19 Jun 2025 07:10:59 GMT
-last-modified:Thu, 19 Jun 2025 07:10:59 GMT
-pragma:no-cache
-server:nginx
-x-request-id:228-3145557
-
-{&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : true},{&quot;name&quot; : &quot;system&quot;,&quot;valueUri&quot; : &quot;http://snomed.info/sct&quot;},{&quot;name&quot; : &quot;code&quot;,&quot;valueCode&quot; : &quot;129436005&quot;},{&quot;name&quot; : &quot;version&quot;,&quot;valueString&quot; : &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;},{&quot;name&quot; : &quot;display&quot;,&quot;valueString&quot; : &quot;Auscultation - action&quot;},{&quot;name&quot; : &quot;issues&quot;,&quot;resource&quot; : {&quot;resourceType&quot; : &quot;OperationOutcome&quot;,&quot;issue&quot; : [{&quot;extension&quot; : [{&quot;url&quot; : &quot;http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id&quot;,&quot;valueString&quot; : &quot;NO_VALID_DISPLAY_FOUND_LANG_NONE&quot;}],&quot;severity&quot; : &quot;information&quot;,&quot;code&quot; : &quot;invalid&quot;,&quot;details&quot; : {&quot;coding&quot; : [{&quot;system&quot; : &quot;http://hl7.org/fhir/tools/CodeSystem/tx-issue-type&quot;,&quot;code&quot; : &quot;display-comment&quot;}],&quot;text&quot; : &quot;'Auscultation - action (qualifier value)' is the default display; the code system http://snomed.info/sct has no Display Names for the language no-NO&quot;},&quot;location&quot; : [&quot;Coding.display&quot;],&quot;expression&quot; : [&quot;Coding.display&quot;]}]}},{&quot;name&quot; : &quot;diagnostics&quot;,&quot;valueString&quot; : &quot;0 0 : start\r\n0 0: tx-op\r\n0 0: 0ms http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-measurementmethodvalueSet|0.3.0: Analysing\r\n0 0: 0ms http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-measurementmethodvalueSet|0.3.0: Parameters: disp-lang=no-NO, default-to-latest\r\n0 0: 0ms http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-measurementmethodvalueSet|0.3.0: CodeSystem found: \&quot;http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201\&quot;\r\n0 0: 0ms http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-measurementmethodvalueSet|0.3.0: Validate \&quot;[http://snomed.info/sct#129436005 (\&quot;Auscultation - action (qualifier value)\&quot;)]\&quot;\r\n0 0: 0ms http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-measurementmethodvalueSet|0.3.0: Check \&quot;http://snomed.info/sct#129436005\&quot;\r\n0 0: 0ms http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-measurementmethodvalueSet|0.3.0: CodeSystem found: http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201 for http://snomed.info/sct\r\n0 0: 0ms http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-measurementmethodvalueSet|0.3.0: Code \&quot;129436005\&quot; found in http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201\r\n&quot;}]}
-</pre>
-<hr/><a name="l9"> </a>
-<p>#9</p>
-<pre>
-POST https://tx.fhir.org/r4/ValueSet/$validate-code? HTTP/1.0
-Accept: application/fhir+json; fhirVersion=4.0
-Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
-User-Agent: fhir/publisher
-
-{"resourceType":"Parameters","parameter":[{"name":"inferSystem","valueBoolean":true},{"name":"code","valueCode":"129436005"},{"name":"displayLanguage","valueCode":"no-NO"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"valueSet","resource":{"resourceType":"ValueSet","id":"NoDomainVitalSignsObservationBloodPressureMeasurementMethodValue","meta":{"lastUpdated":"2021-03-17T13:28:17.239+02:00","profile":["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]},"text":{"status":"generated","div":"&lt;div&gt;!-- Narrative removed --&gt;&lt;/div&gt;"},"extension":[{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-wg","valueCode":"oo"},{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status","valueCode":"draft"},{"url":"http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm","valueInteger":1}],"url":"http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-measurementmethodvalueSet","version":"0.3.0","name":"NoDomainVitalSignsObservationBloodPressureMeasurementMethodValueSet","status":"draft","experimental":false,"date":"2021-03-17","contact":[{"telecom":[{"system":"url","value":"http://hl7.org/fhir"}]}],"description":"Codes representing measurement method for blood pressure","jurisdiction":[{"coding":[{"system":"urn:iso:std:iso:3166","code":"NO","display":"Norway"}]}],"compose":{"include":[{"system":"http://snomed.info/sct","concept":[{"code":"129436005","display":"Auskultasjon"},{"code":"129434008","display":"Palpasjon"},{"code":"xxx","display":"Automatisk, non-invasivt"}]}]}}},{"name":"cache-id","valueId":"0d54313a-5f4d-4392-925f-46abb44b5b68"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
-</pre>
-<pre>
-200
-access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
-access-control-allow-origin:*
-access-control-expose-headers:Content-Location, Location
-cache-control:public, max-age=600
-connection:keep-alive
-content-length:1903
-content-type:application/fhir+json
-date:Thu, 19 Jun 2025 07:11:00 GMT
-last-modified:Thu, 19 Jun 2025 07:11:00 GMT
-pragma:no-cache
-server:nginx
-x-request-id:228-3145565
-
-{&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : true},{&quot;name&quot; : &quot;system&quot;,&quot;valueUri&quot; : &quot;http://snomed.info/sct&quot;},{&quot;name&quot; : &quot;code&quot;,&quot;valueCode&quot; : &quot;129436005&quot;},{&quot;name&quot; : &quot;version&quot;,&quot;valueString&quot; : &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;},{&quot;name&quot; : &quot;display&quot;,&quot;valueString&quot; : &quot;Auscultation - action&quot;},{&quot;name&quot; : &quot;diagnostics&quot;,&quot;valueString&quot; : &quot;0 0 : start\r\n15 15: tx-op\r\n15 0: 0ms http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-measurementmethodvalueSet|0.3.0: Analysing\r\n15 0: 0ms http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-measurementmethodvalueSet|0.3.0: Parameters: disp-lang=no-NO, default-to-latest\r\n15 0: 0ms http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-measurementmethodvalueSet|0.3.0: CodeSystem found: \&quot;http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201\&quot;\r\n15 0: 0ms http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-measurementmethodvalueSet|0.3.0: Validate \&quot;[#129436005 (\&quot;\&quot;)]\&quot; and infer system\r\n15 0: 0ms http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-measurementmethodvalueSet|0.3.0: Check \&quot;#129436005\&quot;\r\n15 0: 0ms http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-measurementmethodvalueSet|0.3.0: Inferred CodeSystem = \&quot;http://snomed.info/sct\&quot;\r\n15 0: 0ms http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-measurementmethodvalueSet|0.3.0: CodeSystem found: http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201 for http://snomed.info/sct\r\n15 0: 0ms http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-measurementmethodvalueSet|0.3.0: Code \&quot;129436005\&quot; found in http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201\r\n&quot;}]}
-</pre>
-<hr/><a name="l10"> </a>
-<p>#10</p>
+<hr/><a name="l17"> </a>
+<p>#17</p>
 <pre>
 POST https://tx.fhir.org/r4/CodeSystem/$validate-code? HTTP/1.0
 Accept: application/fhir+json; fhirVersion=4.0
 Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
 User-Agent: fhir/publisher
 
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"urn:oid:2.16.578.1.12.4.1.1.7280","code":"NPU02187","display":"B—Glucose"}},{"name":"displayLanguage","valueCode":"no-NO"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"0d54313a-5f4d-4392-925f-46abb44b5b68"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"urn:oid:2.16.578.1.12.4.1.1.7280","code":"NPU02187","display":"B—Glucose"}},{"name":"displayLanguage","valueCode":"no-NO"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"6f6cefc1-94b1-4e20-852b-c2a70bc99839"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"diagnostics","valueBoolean":true}]}
 </pre>
 <pre>
 200
@@ -256,11 +429,119 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:1572
 content-type:application/fhir+json
-date:Thu, 19 Jun 2025 07:11:00 GMT
-last-modified:Thu, 19 Jun 2025 07:11:00 GMT
+date:Thu, 19 Jun 2025 07:54:07 GMT
+last-modified:Thu, 19 Jun 2025 07:54:07 GMT
 pragma:no-cache
 server:nginx
-x-request-id:228-3145573
+x-request-id:228-3179144
 
 {&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : false},{&quot;name&quot; : &quot;system&quot;,&quot;valueUri&quot; : &quot;urn:oid:2.16.578.1.12.4.1.1.7280&quot;},{&quot;name&quot; : &quot;x-caused-by-unknown-system&quot;,&quot;valueCanonical&quot; : &quot;urn:oid:2.16.578.1.12.4.1.1.7280&quot;},{&quot;name&quot; : &quot;code&quot;,&quot;valueCode&quot; : &quot;NPU02187&quot;},{&quot;name&quot; : &quot;message&quot;,&quot;valueString&quot; : &quot;A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.7280' could not be found, so the code cannot be validated&quot;},{&quot;name&quot; : &quot;issues&quot;,&quot;resource&quot; : {&quot;resourceType&quot; : &quot;OperationOutcome&quot;,&quot;issue&quot; : [{&quot;extension&quot; : [{&quot;url&quot; : &quot;http://hl7.org/fhir/StructureDefinition/operationoutcome-message-id&quot;,&quot;valueString&quot; : &quot;UNKNOWN_CODESYSTEM&quot;}],&quot;severity&quot; : &quot;error&quot;,&quot;code&quot; : &quot;not-found&quot;,&quot;details&quot; : {&quot;coding&quot; : [{&quot;system&quot; : &quot;http://hl7.org/fhir/tools/CodeSystem/tx-issue-type&quot;,&quot;code&quot; : &quot;not-found&quot;}],&quot;text&quot; : &quot;A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.7280' could not be found, so the code cannot be validated&quot;},&quot;location&quot; : [&quot;Coding.system&quot;],&quot;expression&quot; : [&quot;Coding.system&quot;]}]}},{&quot;name&quot; : &quot;diagnostics&quot;,&quot;valueString&quot; : &quot;0 0 : start\r\n16 16: tx-op\r\n16 0: 0ms http://hl7.org/fhir/ValueSet/@all: Analysing\r\n16 0: 0ms http://hl7.org/fhir/ValueSet/@all: Parameters: disp-lang=no-NO, default-to-latest\r\n16 0: 0ms http://hl7.org/fhir/ValueSet/@all: Validate \&quot;[urn:oid:2.16.578.1.12.4.1.1.7280#NPU02187 (\&quot;B—Glucose\&quot;)]\&quot;\r\n16 0: 0ms http://hl7.org/fhir/ValueSet/@all: Check \&quot;urn:oid:2.16.578.1.12.4.1.1.7280#NPU02187\&quot;\r\n16 0: 0ms http://hl7.org/fhir/ValueSet/@all: Didn't find CodeSystem \&quot;urn:oid:2.16.578.1.12.4.1.1.7280\&quot;\r\n&quot;}]}
+</pre>
+<hr/><a name="l18"> </a>
+<p>#18</p>
+<pre>
+POST https://tx.fhir.org/r4/ValueSet/$expand HTTP/1.0
+Accept: application/fhir+json; fhirVersion=4.0
+Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
+User-Agent: fhir/publisher
+
+{"resourceType":"Parameters","parameter":[{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"displayLanguage","valueCode":"no-NO"},{"name":"includeDefinition","valueBoolean":false},{"name":"excludeNested","valueBoolean":true},{"name":"cache-id","valueId":"6f6cefc1-94b1-4e20-852b-c2a70bc99839"},{"name":"count","valueInteger":1000},{"name":"offset","valueInteger":0},{"name":"valueSet","resource":{"resourceType":"ValueSet","status":"active","compose":{"inactive":true,"include":[{"system":"http://snomed.info/sct","concept":[{"code":"6685009","display":"Ankel, høyre"},{"code":"51636004","display":"Ankel, venstre"},{"code":"7569003","display":"Finger"},{"code":"2402003","display":"Fotrygg"},{"code":"9736006","display":"Håndledd, høyre"},{"code":"5951000","display":"Håndledd, venstre"},{"code":"51114001","display":"Intraarterielt"},{"code":"11207009","display":"Lår, høyre"},{"code":"61396006","display":"Lår, venstre"},{"code":"368209003","display":"Overarm, høyre"},{"code":"368208006","display":"Overarm, venstre"},{"code":"29707007","display":"Tå"}]}]}}}]}
+</pre>
+<pre>
+200
+access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
+access-control-allow-origin:*
+access-control-expose-headers:Content-Location, Location
+cache-control:public, max-age=600
+connection:keep-alive
+content-length:1654
+content-type:application/fhir+json
+date:Thu, 19 Jun 2025 07:54:14 GMT
+last-modified:Thu, 19 Jun 2025 07:54:14 GMT
+pragma:no-cache
+server:nginx
+x-request-id:228-3179194
+
+{&quot;resourceType&quot; : &quot;ValueSet&quot;,&quot;status&quot; : &quot;active&quot;,&quot;expansion&quot; : {&quot;identifier&quot; : &quot;urn:uuid:b7e61467-3276-45fe-9608-2775cf97ae05&quot;,&quot;timestamp&quot; : &quot;2025-06-19T07:54:14.444Z&quot;,&quot;total&quot; : 12,&quot;offset&quot; : 0,&quot;parameter&quot; : [{&quot;name&quot; : &quot;displayLanguage&quot;,&quot;valueCode&quot; : &quot;no-NO&quot;},{&quot;name&quot; : &quot;excludeNested&quot;,&quot;valueBoolean&quot; : true},{&quot;name&quot; : &quot;offset&quot;,&quot;valueInteger&quot; : 0},{&quot;name&quot; : &quot;count&quot;,&quot;valueInteger&quot; : 1000},{&quot;name&quot; : &quot;used-codesystem&quot;,&quot;valueUri&quot; : &quot;http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201&quot;},{&quot;name&quot; : &quot;version&quot;,&quot;valueUri&quot; : &quot;http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201&quot;}],&quot;contains&quot; : [{&quot;system&quot; : &quot;http://snomed.info/sct&quot;,&quot;code&quot; : &quot;6685009&quot;,&quot;display&quot; : &quot;Right ankle&quot;},{&quot;system&quot; : &quot;http://snomed.info/sct&quot;,&quot;code&quot; : &quot;51636004&quot;,&quot;display&quot; : &quot;Left ankle&quot;},{&quot;system&quot; : &quot;http://snomed.info/sct&quot;,&quot;code&quot; : &quot;7569003&quot;,&quot;display&quot; : &quot;Finger&quot;},{&quot;system&quot; : &quot;http://snomed.info/sct&quot;,&quot;code&quot; : &quot;2402003&quot;,&quot;display&quot; : &quot;Dorsum of foot&quot;},{&quot;system&quot; : &quot;http://snomed.info/sct&quot;,&quot;code&quot; : &quot;9736006&quot;,&quot;display&quot; : &quot;Right wrist&quot;},{&quot;system&quot; : &quot;http://snomed.info/sct&quot;,&quot;code&quot; : &quot;5951000&quot;,&quot;display&quot; : &quot;Left wrist&quot;},{&quot;system&quot; : &quot;http://snomed.info/sct&quot;,&quot;code&quot; : &quot;51114001&quot;,&quot;display&quot; : &quot;Artery&quot;},{&quot;system&quot; : &quot;http://snomed.info/sct&quot;,&quot;code&quot; : &quot;11207009&quot;,&quot;display&quot; : &quot;Right thigh&quot;},{&quot;system&quot; : &quot;http://snomed.info/sct&quot;,&quot;code&quot; : &quot;61396006&quot;,&quot;display&quot; : &quot;Left thigh&quot;},{&quot;system&quot; : &quot;http://snomed.info/sct&quot;,&quot;code&quot; : &quot;368209003&quot;,&quot;display&quot; : &quot;Right upper arm&quot;},{&quot;system&quot; : &quot;http://snomed.info/sct&quot;,&quot;code&quot; : &quot;368208006&quot;,&quot;display&quot; : &quot;Left upper arm structure&quot;},{&quot;system&quot; : &quot;http://snomed.info/sct&quot;,&quot;code&quot; : &quot;29707007&quot;,&quot;display&quot; : &quot;Toe&quot;}]}}
+</pre>
+<hr/><a name="l19"> </a>
+<p>#19</p>
+<pre>
+POST https://tx.fhir.org/r4/ValueSet/$expand HTTP/1.0
+Accept: application/fhir+json; fhirVersion=4.0
+Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
+User-Agent: fhir/publisher
+
+{"resourceType":"Parameters","parameter":[{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"displayLanguage","valueCode":"no-NO"},{"name":"includeDefinition","valueBoolean":false},{"name":"excludeNested","valueBoolean":true},{"name":"cache-id","valueId":"6f6cefc1-94b1-4e20-852b-c2a70bc99839"},{"name":"count","valueInteger":1000},{"name":"offset","valueInteger":0},{"name":"valueSet","resource":{"resourceType":"ValueSet","status":"active","compose":{"inactive":true,"include":[{"system":"http://snomed.info/sct","concept":[{"code":"37931006","display":"Auskultasjon"},{"code":"113011001","display":"Palpasjon"}]}]}}}]}
+</pre>
+<pre>
+200
+access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
+access-control-allow-origin:*
+access-control-expose-headers:Content-Location, Location
+cache-control:public, max-age=600
+connection:keep-alive
+content-length:817
+content-type:application/fhir+json
+date:Thu, 19 Jun 2025 07:54:14 GMT
+last-modified:Thu, 19 Jun 2025 07:54:14 GMT
+pragma:no-cache
+server:nginx
+x-request-id:228-3179196
+
+{&quot;resourceType&quot; : &quot;ValueSet&quot;,&quot;status&quot; : &quot;active&quot;,&quot;expansion&quot; : {&quot;identifier&quot; : &quot;urn:uuid:4763dbb9-6101-4a90-9d4e-8f436ce61d72&quot;,&quot;timestamp&quot; : &quot;2025-06-19T07:54:14.831Z&quot;,&quot;total&quot; : 2,&quot;offset&quot; : 0,&quot;parameter&quot; : [{&quot;name&quot; : &quot;displayLanguage&quot;,&quot;valueCode&quot; : &quot;no-NO&quot;},{&quot;name&quot; : &quot;excludeNested&quot;,&quot;valueBoolean&quot; : true},{&quot;name&quot; : &quot;offset&quot;,&quot;valueInteger&quot; : 0},{&quot;name&quot; : &quot;count&quot;,&quot;valueInteger&quot; : 1000},{&quot;name&quot; : &quot;used-codesystem&quot;,&quot;valueUri&quot; : &quot;http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201&quot;},{&quot;name&quot; : &quot;version&quot;,&quot;valueUri&quot; : &quot;http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201&quot;}],&quot;contains&quot; : [{&quot;system&quot; : &quot;http://snomed.info/sct&quot;,&quot;code&quot; : &quot;37931006&quot;,&quot;display&quot; : &quot;Auscultation&quot;},{&quot;system&quot; : &quot;http://snomed.info/sct&quot;,&quot;code&quot; : &quot;113011001&quot;,&quot;display&quot; : &quot;Palpation&quot;}]}}
+</pre>
+<hr/><a name="l20"> </a>
+<p>#20</p>
+<pre>
+POST https://tx.fhir.org/r4/ValueSet/$expand HTTP/1.0
+Accept: application/fhir+json; fhirVersion=4.0
+Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
+User-Agent: fhir/publisher
+
+{"resourceType":"Parameters","parameter":[{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"displayLanguage","valueCode":"no-NO"},{"name":"includeDefinition","valueBoolean":false},{"name":"excludeNested","valueBoolean":false},{"name":"cache-id","valueId":"6f6cefc1-94b1-4e20-852b-c2a70bc99839"},{"name":"count","valueInteger":1000},{"name":"offset","valueInteger":0},{"name":"valueSet","resource":{"resourceType":"ValueSet","status":"active","compose":{"inactive":true,"include":[{"system":"http://snomed.info/sct","concept":[{"code":"37931006","display":"Auskultasjon"},{"code":"113011001","display":"Palpasjon"}]}]}}}]}
+</pre>
+<pre>
+200
+access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
+access-control-allow-origin:*
+access-control-expose-headers:Content-Location, Location
+cache-control:public, max-age=600
+connection:keep-alive
+content-length:818
+content-type:application/fhir+json
+date:Thu, 19 Jun 2025 07:54:21 GMT
+last-modified:Thu, 19 Jun 2025 07:54:21 GMT
+pragma:no-cache
+server:nginx
+x-request-id:228-3179302
+
+{&quot;resourceType&quot; : &quot;ValueSet&quot;,&quot;status&quot; : &quot;active&quot;,&quot;expansion&quot; : {&quot;identifier&quot; : &quot;urn:uuid:c2f06bf4-60c9-437c-ac7a-c942278674d8&quot;,&quot;timestamp&quot; : &quot;2025-06-19T07:54:21.576Z&quot;,&quot;total&quot; : 2,&quot;offset&quot; : 0,&quot;parameter&quot; : [{&quot;name&quot; : &quot;displayLanguage&quot;,&quot;valueCode&quot; : &quot;no-NO&quot;},{&quot;name&quot; : &quot;excludeNested&quot;,&quot;valueBoolean&quot; : false},{&quot;name&quot; : &quot;offset&quot;,&quot;valueInteger&quot; : 0},{&quot;name&quot; : &quot;count&quot;,&quot;valueInteger&quot; : 1000},{&quot;name&quot; : &quot;used-codesystem&quot;,&quot;valueUri&quot; : &quot;http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201&quot;},{&quot;name&quot; : &quot;version&quot;,&quot;valueUri&quot; : &quot;http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201&quot;}],&quot;contains&quot; : [{&quot;system&quot; : &quot;http://snomed.info/sct&quot;,&quot;code&quot; : &quot;37931006&quot;,&quot;display&quot; : &quot;Auscultation&quot;},{&quot;system&quot; : &quot;http://snomed.info/sct&quot;,&quot;code&quot; : &quot;113011001&quot;,&quot;display&quot; : &quot;Palpation&quot;}]}}
+</pre>
+<hr/><a name="l21"> </a>
+<p>#21</p>
+<pre>
+POST https://tx.fhir.org/r4/ValueSet/$expand HTTP/1.0
+Accept: application/fhir+json; fhirVersion=4.0
+Content-Type: application/fhir+json; fhirVersion=4.0;charset=UTF-8
+User-Agent: fhir/publisher
+
+{"resourceType":"Parameters","parameter":[{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"displayLanguage","valueCode":"no-NO"},{"name":"includeDefinition","valueBoolean":false},{"name":"excludeNested","valueBoolean":false},{"name":"cache-id","valueId":"6f6cefc1-94b1-4e20-852b-c2a70bc99839"},{"name":"count","valueInteger":1000},{"name":"offset","valueInteger":0},{"name":"valueSet","resource":{"resourceType":"ValueSet","status":"active","compose":{"inactive":true,"include":[{"system":"http://snomed.info/sct","concept":[{"code":"6685009","display":"Ankel, høyre"},{"code":"51636004","display":"Ankel, venstre"},{"code":"7569003","display":"Finger"},{"code":"2402003","display":"Fotrygg"},{"code":"9736006","display":"Håndledd, høyre"},{"code":"5951000","display":"Håndledd, venstre"},{"code":"51114001","display":"Intraarterielt"},{"code":"11207009","display":"Lår, høyre"},{"code":"61396006","display":"Lår, venstre"},{"code":"368209003","display":"Overarm, høyre"},{"code":"368208006","display":"Overarm, venstre"},{"code":"29707007","display":"Tå"}]}]}}}]}
+</pre>
+<pre>
+200
+access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
+access-control-allow-origin:*
+access-control-expose-headers:Content-Location, Location
+cache-control:public, max-age=600
+connection:keep-alive
+content-length:1655
+content-type:application/fhir+json
+date:Thu, 19 Jun 2025 07:54:22 GMT
+last-modified:Thu, 19 Jun 2025 07:54:22 GMT
+pragma:no-cache
+server:nginx
+x-request-id:228-3179315
+
+{&quot;resourceType&quot; : &quot;ValueSet&quot;,&quot;status&quot; : &quot;active&quot;,&quot;expansion&quot; : {&quot;identifier&quot; : &quot;urn:uuid:c2d9232a-04c5-4df7-8ab5-1bae554fbef0&quot;,&quot;timestamp&quot; : &quot;2025-06-19T07:54:22.005Z&quot;,&quot;total&quot; : 12,&quot;offset&quot; : 0,&quot;parameter&quot; : [{&quot;name&quot; : &quot;displayLanguage&quot;,&quot;valueCode&quot; : &quot;no-NO&quot;},{&quot;name&quot; : &quot;excludeNested&quot;,&quot;valueBoolean&quot; : false},{&quot;name&quot; : &quot;offset&quot;,&quot;valueInteger&quot; : 0},{&quot;name&quot; : &quot;count&quot;,&quot;valueInteger&quot; : 1000},{&quot;name&quot; : &quot;used-codesystem&quot;,&quot;valueUri&quot; : &quot;http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201&quot;},{&quot;name&quot; : &quot;version&quot;,&quot;valueUri&quot; : &quot;http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201&quot;}],&quot;contains&quot; : [{&quot;system&quot; : &quot;http://snomed.info/sct&quot;,&quot;code&quot; : &quot;6685009&quot;,&quot;display&quot; : &quot;Right ankle&quot;},{&quot;system&quot; : &quot;http://snomed.info/sct&quot;,&quot;code&quot; : &quot;51636004&quot;,&quot;display&quot; : &quot;Left ankle&quot;},{&quot;system&quot; : &quot;http://snomed.info/sct&quot;,&quot;code&quot; : &quot;7569003&quot;,&quot;display&quot; : &quot;Finger&quot;},{&quot;system&quot; : &quot;http://snomed.info/sct&quot;,&quot;code&quot; : &quot;2402003&quot;,&quot;display&quot; : &quot;Dorsum of foot&quot;},{&quot;system&quot; : &quot;http://snomed.info/sct&quot;,&quot;code&quot; : &quot;9736006&quot;,&quot;display&quot; : &quot;Right wrist&quot;},{&quot;system&quot; : &quot;http://snomed.info/sct&quot;,&quot;code&quot; : &quot;5951000&quot;,&quot;display&quot; : &quot;Left wrist&quot;},{&quot;system&quot; : &quot;http://snomed.info/sct&quot;,&quot;code&quot; : &quot;51114001&quot;,&quot;display&quot; : &quot;Artery&quot;},{&quot;system&quot; : &quot;http://snomed.info/sct&quot;,&quot;code&quot; : &quot;11207009&quot;,&quot;display&quot; : &quot;Right thigh&quot;},{&quot;system&quot; : &quot;http://snomed.info/sct&quot;,&quot;code&quot; : &quot;61396006&quot;,&quot;display&quot; : &quot;Left thigh&quot;},{&quot;system&quot; : &quot;http://snomed.info/sct&quot;,&quot;code&quot; : &quot;368209003&quot;,&quot;display&quot; : &quot;Right upper arm&quot;},{&quot;system&quot; : &quot;http://snomed.info/sct&quot;,&quot;code&quot; : &quot;368208006&quot;,&quot;display&quot; : &quot;Left upper arm structure&quot;},{&quot;system&quot; : &quot;http://snomed.info/sct&quot;,&quot;code&quot; : &quot;29707007&quot;,&quot;display&quot; : &quot;Toe&quot;}]}}
 </pre>

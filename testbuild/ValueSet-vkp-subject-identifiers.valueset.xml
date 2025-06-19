@@ -7,7 +7,7 @@
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet vkp-subject-identifiers.valueset</b></p><a name="vkp-subject-identifiers.valueset"> </a><a name="hcvkp-subject-identifiers.valueset"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Last updated: 2022-02-10 00:00:00+0000</p><p style="margin-bottom: 0px">Profile: <a href="http://hl7.org/fhir/R4/shareablevalueset.html">Shareable ValueSet</a></p></div><ul><li>Include all codes defined in <a href="CodeSystem-vkp-subject-identifiers.codesystem.html"><code>http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem</code></a></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet vkp-subject-identifiers.valueset</b></p><a name="vkp-subject-identifiers.valueset"> </a><a name="hcvkp-subject-identifiers.valueset"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Last updated: 2022-02-10 00:00:00+0000</p><p style="margin-bottom: 0px">Profile: <a href="http://hl7.org/fhir/R4/shareablevalueset.html">Shareable ValueSet</a></p></div><ul><li>Include all codes defined in <a href="CodeSystem-vkp-subject-identifiers.codesystem.html"><code>http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem</code></a></li></ul></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
     <valueCode value="draft"/>
@@ -15,7 +15,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="1"/>
   </extension>
-  <url value="http://ehelse.no/fhir/ValueSet/vkp-subject-identifiers.valueset"/>
+  <url value="http://hl7.no/fhir/vkpobservation/ValueSet/vkp-subject-identifiers.valueset"/>
   <version value="0.3.0"/>
   <name value="VkpSubjectIdentifiersValueSet"/>
   <title value="VKP Subject Identifier systems ValueSet"/>
@@ -25,7 +25,7 @@
   <contact>
     <telecom>
       <system value="url"/>
-      <value value="http://ehelse.no/"/>
+      <value value="http://hl7.no/"/>
     </telecom>
   </contact>
   <description value="Identifier Systems allowed for subject identifications"/>
@@ -38,7 +38,7 @@
   </jurisdiction>
   <compose>
     <include>
-      <system value="http://ehelse.no/fhir/CodeSystem/vkp-subject-identifiers.codesystem"/>
+      <system value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem"/>
     </include>
   </compose>
 </ValueSet>

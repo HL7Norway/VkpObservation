@@ -9,7 +9,7 @@
   "version" : "0.3.0",
   "name" : "VkpObservation",
   "status" : "draft",
-  "date" : "2025-06-19T07:09:53+00:00",
+  "date" : "2025-06-19T07:53:00+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -707,9 +707,9 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/NoDomainVitalSignsObservationBloodPressureBodySiteValueSet"
+        "reference" : "ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet"
       },
-      "name" : "NoDomainVitalSignsObservationBloodPressureBodySiteValueSet",
+      "name" : "NoDomainVitalSignsBloodpressureBodySite-ValueSet",
       "description" : "Codes representing body site for blood pressure",
       "exampleBoolean" : false
     },
@@ -719,10 +719,10 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/NoDomainVitalSignsObservationBloodPressureMeasurementMethodValue"
+        "reference" : "ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet"
       },
-      "name" : "NoDomainVitalSignsObservationBloodPressureMeasurementMethodValueSet",
-      "description" : "Codes representing measurement method for blood pressure",
+      "name" : "NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet",
+      "description" : "Codes representing measurement method for HeartRate",
       "exampleBoolean" : false
     },
     {
@@ -889,7 +889,7 @@
         "reference" : "Observation/vkp-blood-pressure-profile-create"
       },
       "name" : "vkp-blood-pressure-profile-create",
-      "exampleCanonical" : "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bloodpressure"
+      "exampleCanonical" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Bloodpressure"
     },
     {
       "extension" : [{
@@ -900,7 +900,7 @@
         "reference" : "Observation/vkp-body-temperature-create"
       },
       "name" : "vkp-body-temperature-create",
-      "exampleCanonical" : "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bodytemp"
+      "exampleCanonical" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Bodytemp"
     },
     {
       "extension" : [{
@@ -911,7 +911,7 @@
         "reference" : "Observation/vkp-body-weight-create"
       },
       "name" : "vkp-body-weight-create",
-      "exampleCanonical" : "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bodyweight"
+      "exampleCanonical" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Bodyweight"
     },
     {
       "extension" : [{
@@ -922,7 +922,7 @@
         "reference" : "Observation/vkp-glucose-create"
       },
       "name" : "vkp-glucose-create",
-      "exampleCanonical" : "http://ehelse.no/fhir/StructureDefinition/vkp-Observation"
+      "exampleCanonical" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation"
     },
     {
       "extension" : [{
@@ -933,7 +933,7 @@
         "reference" : "Observation/vkp-heartrate-create"
       },
       "name" : "vkp-heartrate-create",
-      "exampleCanonical" : "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Heartrate"
+      "exampleCanonical" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Heartrate"
     },
     {
       "extension" : [{
@@ -944,7 +944,7 @@
         "reference" : "Observation/vkp-oxygen-saturation-create"
       },
       "name" : "vkp-oxygen-saturation-create",
-      "exampleCanonical" : "http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Oxygensat"
+      "exampleCanonical" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Oxygensat"
     }],
     "page" : {
       "extension" : [{

@@ -5,7 +5,7 @@
     "versionId" : "1",
     "lastUpdated" : "2021-02-15T22:35:23+11:00",
     "source" : "META_VISION",
-    "profile" : ["http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bloodpressure"]
+    "profile" : ["http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Bloodpressure"]
   },
   "text" : {
     "status" : "generated",

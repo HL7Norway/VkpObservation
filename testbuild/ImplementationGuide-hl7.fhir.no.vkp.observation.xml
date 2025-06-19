@@ -9,7 +9,7 @@
   <version value="0.3.0"/>
   <name value="VkpObservation"/>
   <status value="draft"/>
-  <date value="2025-06-19T07:09:53+00:00"/>
+  <date value="2025-06-19T07:53:00+00:00"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -537,9 +537,9 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/NoDomainVitalSignsObservationBloodPressureBodySiteValueSet"/>
+        <reference value="ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet"/>
       </reference>
-      <name value="NoDomainVitalSignsObservationBloodPressureBodySiteValueSet"/>
+      <name value="NoDomainVitalSignsBloodpressureBodySite-ValueSet"/>
       <description value="Codes representing body site for blood pressure"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -548,10 +548,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/NoDomainVitalSignsObservationBloodPressureMeasurementMethodValue"/>
+        <reference value="ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet"/>
       </reference>
-      <name value="NoDomainVitalSignsObservationBloodPressureMeasurementMethodValueSet"/>
-      <description value="Codes representing measurement method for blood pressure"/>
+      <name value="NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet"/>
+      <description value="Codes representing measurement method for HeartRate"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -704,7 +704,7 @@
         <reference value="Observation/vkp-blood-pressure-profile-create"/>
       </reference>
       <name value="vkp-blood-pressure-profile-create"/>
-      <exampleCanonical value="http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bloodpressure"/>
+      <exampleCanonical value="http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Bloodpressure"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -714,7 +714,7 @@
         <reference value="Observation/vkp-body-temperature-create"/>
       </reference>
       <name value="vkp-body-temperature-create"/>
-      <exampleCanonical value="http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bodytemp"/>
+      <exampleCanonical value="http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Bodytemp"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -724,7 +724,7 @@
         <reference value="Observation/vkp-body-weight-create"/>
       </reference>
       <name value="vkp-body-weight-create"/>
-      <exampleCanonical value="http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Bodyweight"/>
+      <exampleCanonical value="http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Bodyweight"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -734,7 +734,7 @@
         <reference value="Observation/vkp-glucose-create"/>
       </reference>
       <name value="vkp-glucose-create"/>
-      <exampleCanonical value="http://ehelse.no/fhir/StructureDefinition/vkp-Observation"/>
+      <exampleCanonical value="http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -744,7 +744,7 @@
         <reference value="Observation/vkp-heartrate-create"/>
       </reference>
       <name value="vkp-heartrate-create"/>
-      <exampleCanonical value="http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Heartrate"/>
+      <exampleCanonical value="http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Heartrate"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -754,7 +754,7 @@
         <reference value="Observation/vkp-oxygen-saturation-create"/>
       </reference>
       <name value="vkp-oxygen-saturation-create"/>
-      <exampleCanonical value="http://ehelse.no/fhir/StructureDefinition/vkp-Observation-Oxygensat"/>
+      <exampleCanonical value="http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Oxygensat"/>
     </resource>
     <page>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
