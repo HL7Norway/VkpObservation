@@ -2,6 +2,7 @@ CodeSystem: VkpPerformerIdentifiersCodeSystem
 Id: vkp-performer-identifiers.codesystem
 Title: "Vkp Performer Identifier Systems CodeSystem"
 Description: "The CodeSystem contains all codes allowed for Observation.performer.system for use with VKP"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^status = #draft
 * ^date = "2022-03-18"
 * ^publisher = "HL7 Norge"
