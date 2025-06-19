@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "VkpObservationNEWS2score"] ; # 
   fhir:title [ fhir:v "Vkp VitalSigns Observation - NEWS2 score"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-06-19T07:53:00+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-06-19T08:13:38+00:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Profile for NEWS2 score in VKP."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
