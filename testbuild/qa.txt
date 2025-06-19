@@ -3,7 +3,7 @@ VkpObservation : Validation Results
 
 err = 182, warn = 121, info = 69
 IG Publisher Version: 2.0.7
-Generated Thu Jun 19 12:38:57 UTC 2025. FHIR version 4.0.1 for hl7.fhir.no.vkp.observation#0.3.1 (canonical = http://hl7.no/fhir/vkpobservation)
+Generated Thu Jun 19 12:48:19 UTC 2025. FHIR version 4.0.1 for hl7.fhir.no.vkp.observation#0.3.1 (canonical = http://hl7.no/fhir/vkpobservation)
  Build Errors : 1 / 288 / 0
  /github/workspace/VkpObservation/fsh-generated/resources/CodeSystem-vkp-performer-identifiers.codesystem : 1 / 0 / 1
  /github/workspace/VkpObservation/fsh-generated/resources/CodeSystem-vkp-subject-identifiers.codesystem : 1 / 0 / 1
@@ -528,8 +528,8 @@ INFORMATION: Observation/vkp-blood-pressure-profile-create: Observation.componen
 INFORMATION: Observation/vkp-blood-pressure-profile-create: Observation.meta.source: No definition could be found for URL value 'META_VISION'
 WARNING: Observation/vkp-blood-pressure-profile-create: Observation.identifier[0].system: No definition could be found for URL value 'http://dips.no/fhir/namingsystem/externalId'
 INFORMATION: Observation/vkp-blood-pressure-profile-create: Observation.code.coding[0].display: There are no valid display names found for the code http://loinc.org#85354-9 for language(s) 'no-NO'. The display is 'Blood pressure panel with all children optional' the default language display
-INFORMATION: Observation/vkp-blood-pressure-profile-create: Observation.subject.identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem|0.3.1
-INFORMATION: Observation/vkp-blood-pressure-profile-create: Observation.performer[0].identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem|0.3.1
+INFORMATION: Observation/vkp-blood-pressure-profile-create: Observation.subject.identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem|0.3.1
+INFORMATION: Observation/vkp-blood-pressure-profile-create: Observation.performer[0].identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem|0.3.1
 INFORMATION: Observation/vkp-blood-pressure-profile-create: Observation.bodySite.coding[0].display: 'Finger structure (body structure)' is the default display; the code system http://snomed.info/sct has no Display Names for the language no-NO
 WARNING: Observation/vkp-blood-pressure-profile-create: Observation.bodySite.coding[0].code: ValueSet 'http://hl7.no/fhir/ValueSet/no-domain-vitalsignsobservation-bloodpressure-bodysitevalueset' not found
 INFORMATION: Observation/vkp-blood-pressure-profile-create: Observation.method.coding[0].display: 'Auscultation - action (qualifier value)' is the default display; the code system http://snomed.info/sct has no Display Names for the language no-NO

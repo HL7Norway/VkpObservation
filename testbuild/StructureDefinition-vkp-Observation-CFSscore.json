@@ -10,7 +10,7 @@
   "name" : "VkpObservationCFSscore",
   "title" : "Vkp VitalSigns Observation - CFS score",
   "status" : "draft",
-  "date" : "2025-06-19T12:37:09+00:00",
+  "date" : "2025-06-19T12:46:29+00:00",
   "description" : "Profile for Clinical Frailty Scale score in VKP.",
   "jurisdiction" : [{
     "coding" : [{
