@@ -1,5 +1,5 @@
 Profile: VkpObservationCFSscore
-Parent: Observation
+Parent: VkpObservation
 Id: vkp-Observation-CFSscore
 Title: "Vkp VitalSigns Observation - CFS score"
 Description: "Profile for Clinical Frailty Scale score in VKP."
