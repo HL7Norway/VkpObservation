@@ -14,10 +14,10 @@ Usage: #example
 * subject.identifier.system = "urn:oid:2.16.578.1.12.4.1.4.1"
 * subject.identifier.value = "1000807"
 * effectiveDateTime = "2021-11-02"
-* performer[0].identifier.system = "urn:oid:1.3.6.1.4.1.9038.70.3"
+* performer[0].identifier.system = "urn:oid:2.16.578.1.12.4.1.4.1"
 * performer[=].type = "Practitioner"
 * performer[=].identifier.value = "22"
-* performer[+].identifier.system = "urn:oid:1.3.6.1.4.1.9038.51.1"
+* performer[+].identifier.system = "urn:oid:2.16.578.1.12.4.1.4.1"
 * performer[=].type = "Practitioner"
 * performer[=].identifier.value = "103"
 * valueQuantity.value = 2

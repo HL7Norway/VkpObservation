@@ -8,7 +8,7 @@ Description: "The Valueset contains all codes allowed for Observation.performer.
 * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
 * ^extension[=].valueInteger = 1
 * ^status = #draft
-* ^experimental = true
+* ^experimental = false
 * ^publisher = "HL7 Norge"
 * $resourcetypes#Practitioner "A person who is directly or indirectly involved in the provisioning of healthcare."
 * $resourcetypes#PractitionerRole "A specific set of Roles/Locations/specialties/services that a practitioner may perform at an organization for a period of time."
