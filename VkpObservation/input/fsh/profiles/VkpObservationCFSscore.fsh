@@ -24,6 +24,7 @@ Description: "Profile for Clinical Frailty Scale score in VKP."
 * subject.display MS
 * performer[author].type MS
 * performer[author].type from VkpPerformerReferenceTypesValueSet (required)
+* performer[author].type ^definition = "The type of author if the CFS score (usually a Practitioner, Patient or RelatedPerson)"
 * performer[author].display MS
 * note MS
 * note ^comment = "Utfyllende informasjon om konteksten for vurderingen"
