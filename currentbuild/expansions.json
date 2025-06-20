@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "fe1abe44-ea9e-4913-b19b-34fa6d3b5a94",
+  "id" : "dd3122c2-7488-4084-9d27-d2936f14ee9e",
   "meta" : {
-    "lastUpdated" : "2025-06-20T06:38:49.490+00:00"
+    "lastUpdated" : "2025-06-20T10:53:40.250+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -23,7 +23,7 @@
       "title" : "NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-06-20T06:38:10+00:00",
+      "date" : "2025-06-20T10:52:57+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -32,8 +32,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:51909771-8c00-414e-8728-958124345cde",
-        "timestamp" : "2025-06-20T06:39:26+00:00",
+        "identifier" : "urn:uuid:ba48fd58-bd7a-4c98-8f78-32d46210a4b6",
+        "timestamp" : "2025-06-20T10:54:19+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -95,7 +95,7 @@
       "title" : "NoDomainVitalSignsBloodpressureBodySite-ValueSet",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-06-20T06:38:10+00:00",
+      "date" : "2025-06-20T10:52:57+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -104,8 +104,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:c12bc6da-a987-45a9-9ecb-f647f33099ce",
-        "timestamp" : "2025-06-20T06:39:26+00:00",
+        "identifier" : "urn:uuid:d3e119d8-8d4c-4283-858f-6735fab08d79",
+        "timestamp" : "2025-06-20T10:54:20+00:00",
         "total" : 12,
         "offset" : 0,
         "parameter" : [{
@@ -226,8 +226,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:f9ea5914-562f-4c56-b08d-c0ff05d85b61",
-        "timestamp" : "2025-06-20T06:39:27+00:00",
+        "identifier" : "urn:uuid:cace5b29-b154-48b5-9e2a-f9b4dfcc4e59",
+        "timestamp" : "2025-06-20T10:54:20+00:00",
         "total" : 1,
         "offset" : 0,
         "parameter" : [{
@@ -262,6 +262,89 @@
     }
   },
   {
+    "fullUrl" : "http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-reference-types.valueset",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"http://hl7.org/fhir/R4/codesystem-resource-types.html\">codesystem ResourceType v4.0.1 (CodeSystem)</a></p><p>This value set contains 6 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display (no-NO)</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.org/fhir/resource-types-Practitioner\"> </a>\u00a0\u00a0<a href=\"http://hl7.org/fhir/R4/codesystem-resource-types.html#resource-types-Practitioner\">Practitioner</a></td><td>http://hl7.org/fhir/resource-types</td><td>Practitioner</td><td><div><p>A person who is directly or indirectly involved in the provisioning of healthcare.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.org/fhir/resource-types-PractitionerRole\"> </a>\u00a0\u00a0<a href=\"http://hl7.org/fhir/R4/codesystem-resource-types.html#resource-types-PractitionerRole\">PractitionerRole</a></td><td>http://hl7.org/fhir/resource-types</td><td>PractitionerRole</td><td><div><p>A specific set of Roles/Locations/specialties/services that a practitioner may perform at an organization for a period of time.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.org/fhir/resource-types-Patient\"> </a>\u00a0\u00a0<a href=\"http://hl7.org/fhir/R4/codesystem-resource-types.html#resource-types-Patient\">Patient</a></td><td>http://hl7.org/fhir/resource-types</td><td>Patient</td><td><div><p>Demographics and other administrative information about an individual or animal receiving care or other health-related services.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.org/fhir/resource-types-RelatedPerson\"> </a>\u00a0\u00a0<a href=\"http://hl7.org/fhir/R4/codesystem-resource-types.html#resource-types-RelatedPerson\">RelatedPerson</a></td><td>http://hl7.org/fhir/resource-types</td><td>RelatedPerson</td><td><div><p>Information about a person that is involved in the care for a patient, but who is not the target of healthcare, nor has a formal responsibility in the care process.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.org/fhir/resource-types-CareTeam\"> </a>\u00a0\u00a0<a href=\"http://hl7.org/fhir/R4/codesystem-resource-types.html#resource-types-CareTeam\">CareTeam</a></td><td>http://hl7.org/fhir/resource-types</td><td>CareTeam</td><td><div><p>The Care Team includes all the people and organizations who plan to participate in the coordination and delivery of care for a patient.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.org/fhir/resource-types-Organization\"> </a>\u00a0\u00a0<a href=\"http://hl7.org/fhir/R4/codesystem-resource-types.html#resource-types-Organization\">Organization</a></td><td>http://hl7.org/fhir/resource-types</td><td>Organization</td><td><div><p>A formally or informally recognized grouping of people or organizations formed for the purpose of achieving some form of collective action.  Includes companies, institutions, corporations, departments, community groups, healthcare practice groups, payer/insurer, etc.</p>\n</div></td></tr></table></div>"
+      },
+      "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-reference-types.valueset",
+      "version" : "0.3.2",
+      "name" : "VkpPerformerReferenceTypesValueSet",
+      "title" : "Vkp Performer reference types Systems ValueSet",
+      "status" : "draft",
+      "experimental" : true,
+      "date" : "2025-06-20T10:52:57+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "NO",
+          "display" : "Norway"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:1eaf1e5f-c45c-406e-9496-f91c942c3c88",
+        "timestamp" : "2025-06-20T10:54:20+00:00",
+        "total" : 6,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "no-NO"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://hl7.org/fhir/resource-types|4.0.1"
+        }],
+        "contains" : [{
+          "system" : "http://hl7.org/fhir/resource-types",
+          "code" : "Practitioner",
+          "display" : "Practitioner"
+        },
+        {
+          "system" : "http://hl7.org/fhir/resource-types",
+          "code" : "PractitionerRole",
+          "display" : "PractitionerRole"
+        },
+        {
+          "system" : "http://hl7.org/fhir/resource-types",
+          "code" : "Patient",
+          "display" : "Patient"
+        },
+        {
+          "system" : "http://hl7.org/fhir/resource-types",
+          "code" : "RelatedPerson",
+          "display" : "RelatedPerson"
+        },
+        {
+          "system" : "http://hl7.org/fhir/resource-types",
+          "code" : "CareTeam",
+          "display" : "CareTeam"
+        },
+        {
+          "system" : "http://hl7.org/fhir/resource-types",
+          "code" : "Organization",
+          "display" : "Organization"
+        }]
+      }
+    }
+  },
+  {
     "fullUrl" : "http://hl7.no/fhir/vkpobservation/ValueSet/vkp-subject-identifiers.valueset",
     "resource" : {
       "resourceType" : "ValueSet",
@@ -288,8 +371,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:ae3571f3-7bf1-42e6-a4e2-18c38c46111d",
-        "timestamp" : "2025-06-20T06:39:27+00:00",
+        "identifier" : "urn:uuid:0f769a66-d458-439c-ab2f-7ce4ce42dfbf",
+        "timestamp" : "2025-06-20T10:54:20+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{

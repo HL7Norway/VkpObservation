@@ -30,6 +30,15 @@
       ]
     },
     {
+      "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-reference-types.valueset",
+      "version" : "0.3.2",
+      "status" : "draft",
+      "name" : "VkpPerformerReferenceTypesValueSet",
+      "title" : "Vkp Performer reference types Systems ValueSet",
+      "description" : "The Valueset contains all codes allowed for Observation.performer.type for use with VKP",
+      "systems" : ["http://hl7.org/fhir/resource-types"]
+    },
+    {
       "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/vkp-subject-identifiers.valueset",
       "version" : "0.3.2",
       "status" : "draft",

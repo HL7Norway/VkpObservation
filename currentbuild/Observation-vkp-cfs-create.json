@@ -38,12 +38,14 @@
   },
   "effectiveDateTime" : "2021-11-02",
   "performer" : [{
+    "type" : "Practitioner",
     "identifier" : {
       "system" : "urn:oid:1.3.6.1.4.1.9038.70.3",
       "value" : "22"
     }
   },
   {
+    "type" : "Practitioner",
     "identifier" : {
       "system" : "urn:oid:1.3.6.1.4.1.9038.51.1",
       "value" : "103"

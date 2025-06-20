@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="fe1abe44-ea9e-4913-b19b-34fa6d3b5a94"/>
+  <id value="dd3122c2-7488-4084-9d27-d2936f14ee9e"/>
   <meta>
-    <lastUpdated value="2025-06-20T06:38:49.490+00:00"/>
+    <lastUpdated value="2025-06-20T10:53:40.250+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -57,7 +57,7 @@
         <title value="NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-06-20T06:38:10+00:00"/>
+        <date value="2025-06-20T10:52:57+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -66,8 +66,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:51909771-8c00-414e-8728-958124345cde"/>
-          <timestamp value="2025-06-20T06:39:26+00:00"/>
+          <identifier value="urn:uuid:ba48fd58-bd7a-4c98-8f78-32d46210a4b6"/>
+          <timestamp value="2025-06-20T10:54:19+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -243,7 +243,7 @@
         <title value="NoDomainVitalSignsBloodpressureBodySite-ValueSet"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-06-20T06:38:10+00:00"/>
+        <date value="2025-06-20T10:52:57+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -252,8 +252,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:c12bc6da-a987-45a9-9ecb-f647f33099ce"/>
-          <timestamp value="2025-06-20T06:39:26+00:00"/>
+          <identifier value="urn:uuid:d3e119d8-8d4c-4283-858f-6735fab08d79"/>
+          <timestamp value="2025-06-20T10:54:20+00:00"/>
           <total value="12"/>
           <offset value="0"/>
           <parameter>
@@ -406,8 +406,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:f9ea5914-562f-4c56-b08d-c0ff05d85b61"/>
-          <timestamp value="2025-06-20T06:39:27+00:00"/>
+          <identifier value="urn:uuid:cace5b29-b154-48b5-9e2a-f9b4dfcc4e59"/>
+          <timestamp value="2025-06-20T10:54:20+00:00"/>
           <total value="1"/>
           <offset value="0"/>
           <parameter>
@@ -437,6 +437,196 @@
           <contains>
             <system value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem"/>
             <code value="urn:oid:2.16.578.1.12.4.1.4.1"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-reference-types.valueset"/>
+    <resource>
+      <ValueSet>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="http://hl7.org/fhir/R4/codesystem-resource-types.html">codesystem ResourceType v4.0.1 (CodeSystem)</a>
+            </p>
+            <p>This value set contains 6 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display (no-NO)</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://hl7.org/fhir/resource-types-Practitioner"> </a>  
+                  <a href="http://hl7.org/fhir/R4/codesystem-resource-types.html#resource-types-Practitioner">Practitioner</a>
+                </td>
+                <td>http://hl7.org/fhir/resource-types</td>
+                <td>Practitioner</td>
+                <td>
+                  <div>
+                    <p>A person who is directly or indirectly involved in the provisioning of healthcare.</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://hl7.org/fhir/resource-types-PractitionerRole"> </a>  
+                  <a href="http://hl7.org/fhir/R4/codesystem-resource-types.html#resource-types-PractitionerRole">PractitionerRole</a>
+                </td>
+                <td>http://hl7.org/fhir/resource-types</td>
+                <td>PractitionerRole</td>
+                <td>
+                  <div>
+                    <p>A specific set of Roles/Locations/specialties/services that a practitioner may perform at an organization for a period of time.</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://hl7.org/fhir/resource-types-Patient"> </a>  
+                  <a href="http://hl7.org/fhir/R4/codesystem-resource-types.html#resource-types-Patient">Patient</a>
+                </td>
+                <td>http://hl7.org/fhir/resource-types</td>
+                <td>Patient</td>
+                <td>
+                  <div>
+                    <p>Demographics and other administrative information about an individual or animal receiving care or other health-related services.</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://hl7.org/fhir/resource-types-RelatedPerson"> </a>  
+                  <a href="http://hl7.org/fhir/R4/codesystem-resource-types.html#resource-types-RelatedPerson">RelatedPerson</a>
+                </td>
+                <td>http://hl7.org/fhir/resource-types</td>
+                <td>RelatedPerson</td>
+                <td>
+                  <div>
+                    <p>Information about a person that is involved in the care for a patient, but who is not the target of healthcare, nor has a formal responsibility in the care process.</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://hl7.org/fhir/resource-types-CareTeam"> </a>  
+                  <a href="http://hl7.org/fhir/R4/codesystem-resource-types.html#resource-types-CareTeam">CareTeam</a>
+                </td>
+                <td>http://hl7.org/fhir/resource-types</td>
+                <td>CareTeam</td>
+                <td>
+                  <div>
+                    <p>The Care Team includes all the people and organizations who plan to participate in the coordination and delivery of care for a patient.</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://hl7.org/fhir/resource-types-Organization"> </a>  
+                  <a href="http://hl7.org/fhir/R4/codesystem-resource-types.html#resource-types-Organization">Organization</a>
+                </td>
+                <td>http://hl7.org/fhir/resource-types</td>
+                <td>Organization</td>
+                <td>
+                  <div>
+                    <p>A formally or informally recognized grouping of people or organizations formed for the purpose of achieving some form of collective action.  Includes companies, institutions, corporations, departments, community groups, healthcare practice groups, payer/insurer, etc.</p>
+
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-reference-types.valueset"/>
+        <version value="0.3.2"/>
+        <name value="VkpPerformerReferenceTypesValueSet"/>
+        <title value="Vkp Performer reference types Systems ValueSet"/>
+        <status value="draft"/>
+        <experimental value="true"/>
+        <date value="2025-06-20T10:52:57+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="NO"/>
+            <display value="Norway"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:1eaf1e5f-c45c-406e-9496-f91c942c3c88"/>
+          <timestamp value="2025-06-20T10:54:20+00:00"/>
+          <total value="6"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="no-NO"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://hl7.org/fhir/resource-types|4.0.1"/>
+          </parameter>
+          <contains>
+            <system value="http://hl7.org/fhir/resource-types"/>
+            <code value="Practitioner"/>
+            <display value="Practitioner"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/resource-types"/>
+            <code value="PractitionerRole"/>
+            <display value="PractitionerRole"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/resource-types"/>
+            <code value="Patient"/>
+            <display value="Patient"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/resource-types"/>
+            <code value="RelatedPerson"/>
+            <display value="RelatedPerson"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/resource-types"/>
+            <code value="CareTeam"/>
+            <display value="CareTeam"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/resource-types"/>
+            <code value="Organization"/>
+            <display value="Organization"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -518,8 +708,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:ae3571f3-7bf1-42e6-a4e2-18c38c46111d"/>
-          <timestamp value="2025-06-20T06:39:27+00:00"/>
+          <identifier value="urn:uuid:0f769a66-d458-439c-ab2f-7ce4ce42dfbf"/>
+          <timestamp value="2025-06-20T10:54:20+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>

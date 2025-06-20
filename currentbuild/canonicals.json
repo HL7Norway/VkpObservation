@@ -112,6 +112,13 @@
     "name" : "VkpPerformerIdentifiersValueSet"
   },
   {
+    "id" : "vkp-performer-reference-types.valueset",
+    "type" : "ValueSet",
+    "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-reference-types.valueset",
+    "version" : "0.3.2",
+    "name" : "VkpPerformerReferenceTypesValueSet"
+  },
+  {
     "id" : "vkp-subject-identifiers.valueset",
     "type" : "ValueSet",
     "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/vkp-subject-identifiers.valueset",

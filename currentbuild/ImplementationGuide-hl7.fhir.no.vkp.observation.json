@@ -9,7 +9,7 @@
   "version" : "0.3.2",
   "name" : "VkpObservation",
   "status" : "draft",
-  "date" : "2025-06-20T06:38:10+00:00",
+  "date" : "2025-06-20T10:52:57+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",
@@ -779,6 +779,18 @@
       },
       "name" : "VKP Performer Identifier systems ValueSet",
       "description" : "Identifier Systems allowed for performer identification systems in Vkp Observations",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vkp-performer-reference-types.valueset"
+      },
+      "name" : "Vkp Performer reference types Systems ValueSet",
+      "description" : "The Valueset contains all codes allowed for Observation.performer.type for use with VKP",
       "exampleBoolean" : false
     },
     {

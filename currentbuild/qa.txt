@@ -1,9 +1,9 @@
 VkpObservation : Validation Results
 =========================================
 
-err = 93, warn = 90, info = 80
+err = 93, warn = 90, info = 81
 IG Publisher Version: 2.0.7
-Generated Fri Jun 20 06:39:59 UTC 2025. FHIR version 4.0.1 for hl7.fhir.no.vkp.observation#0.3.2 (canonical = http://hl7.no/fhir/vkpobservation)
+Generated Fri Jun 20 10:54:57 UTC 2025. FHIR version 4.0.1 for hl7.fhir.no.vkp.observation#0.3.2 (canonical = http://hl7.no/fhir/vkpobservation)
  Build Errors : 1 / 18 / 0
  /github/workspace/VkpObservation/fsh-generated/resources/CodeSystem-vkp-performer-identifiers.codesystem : 0 / 0 / 1
  /github/workspace/VkpObservation/fsh-generated/resources/CodeSystem-vkp-subject-identifiers.codesystem : 0 / 0 / 1
@@ -35,6 +35,7 @@ Generated Fri Jun 20 06:39:59 UTC 2025. FHIR version 4.0.1 for hl7.fhir.no.vkp.o
  /github/workspace/VkpObservation/fsh-generated/resources/ValueSet-NoDomainVitalSignsBloodPressureMeasurementMethodValueSet : 0 / 0 / 1
  /github/workspace/VkpObservation/fsh-generated/resources/ValueSet-NoDomainVitalSignsBloodpressureBodySiteValueSet : 0 / 0 / 1
  /github/workspace/VkpObservation/fsh-generated/resources/ValueSet-vkp-performer-identifiers.valueset : 0 / 0 / 1
+ /github/workspace/VkpObservation/fsh-generated/resources/ValueSet-vkp-performer-reference-types.valueset : 0 / 0 / 2
  /github/workspace/VkpObservation/fsh-generated/resources/ValueSet-vkp-subject-identifiers.valueset : 0 / 0 / 1
 </table>
 == n/a ==
@@ -331,4 +332,6 @@ WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/vkpobservation/Stru
 == fsh-generated/resources/ValueSet-NoDomainVitalSignsBloodPressureMeasurementMethodValueSet.json ==
 == fsh-generated/resources/ValueSet-NoDomainVitalSignsBloodpressureBodySiteValueSet.json ==
 == fsh-generated/resources/ValueSet-vkp-performer-identifiers.valueset.json ==
+== fsh-generated/resources/ValueSet-vkp-performer-reference-types.valueset.json ==
+INFORMATION: ValueSet/vkp-performer-reference-types.valueset: ValueSet.compose.include[0]: This include has some concepts with displays and some without - check that this is what is intended
 == fsh-generated/resources/ValueSet-vkp-subject-identifiers.valueset.json ==

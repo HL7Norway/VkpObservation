@@ -17,7 +17,7 @@
   fhir:version [ fhir:v "0.3.2"] ; # 
   fhir:name [ fhir:v "VkpObservation"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-06-20T06:38:10+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-06-20T10:52:57+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Norway"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Norway" ] ;
@@ -1088,6 +1088,24 @@
        ] ;
        fhir:name [ fhir:v "VKP Performer Identifier systems ValueSet" ] ;
        fhir:description [ fhir:v "Identifier Systems allowed for performer identification systems in Vkp Observations" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-reference-types.valueset> ;
+         fhir:reference [ fhir:v "ValueSet/vkp-performer-reference-types.valueset" ]
+       ] ;
+       fhir:name [ fhir:v "Vkp Performer reference types Systems ValueSet" ] ;
+       fhir:description [ fhir:v "The Valueset contains all codes allowed for Observation.performer.type for use with VKP" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false

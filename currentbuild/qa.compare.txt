@@ -1,7 +1,7 @@
 VkpObservation : Validation Results
 =========================================
 
-err = 93, warn = 90, info = 80
+err = 93, warn = 90, info = 81
 $--
 Generated $--. FHIR version $-- for hl7.fhir.no.vkp.observation#$-- (canonical = http://hl7.no/fhir/vkpobservation)
  Build Errors : 1 / 18 / 0
@@ -35,6 +35,7 @@ Generated $--. FHIR version $-- for hl7.fhir.no.vkp.observation#$-- (canonical =
  /github/workspace/VkpObservation/fsh-generated/resources/ValueSet-NoDomainVitalSignsBloodPressureMeasurementMethodValueSet : 0 / 0 / 1
  /github/workspace/VkpObservation/fsh-generated/resources/ValueSet-NoDomainVitalSignsBloodpressureBodySiteValueSet : 0 / 0 / 1
  /github/workspace/VkpObservation/fsh-generated/resources/ValueSet-vkp-performer-identifiers.valueset : 0 / 0 / 1
+ /github/workspace/VkpObservation/fsh-generated/resources/ValueSet-vkp-performer-reference-types.valueset : 0 / 0 / 2
  /github/workspace/VkpObservation/fsh-generated/resources/ValueSet-vkp-subject-identifiers.valueset : 0 / 0 / 1
 </table>
 == n/a ==
@@ -331,4 +332,6 @@ WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/vkpobservation/Stru
 == fsh-generated/resources/ValueSet-NoDomainVitalSignsBloodPressureMeasurementMethodValueSet.json ==
 == fsh-generated/resources/ValueSet-NoDomainVitalSignsBloodpressureBodySiteValueSet.json ==
 == fsh-generated/resources/ValueSet-vkp-performer-identifiers.valueset.json ==
+== fsh-generated/resources/ValueSet-vkp-performer-reference-types.valueset.json ==
+INFORMATION: ValueSet/vkp-performer-reference-types.valueset: ValueSet.compose.include[0]: This include has some concepts with displays and some without - check that this is what is intended
 == fsh-generated/resources/ValueSet-vkp-subject-identifiers.valueset.json ==
