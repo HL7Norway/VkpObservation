@@ -33,12 +33,12 @@
      ]
   ] ) ; # 
   fhir:url [ fhir:v "http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-reference-types.valueset"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.3.2"] ; # 
+  fhir:version [ fhir:v "0.3.3"] ; # 
   fhir:name [ fhir:v "VkpPerformerReferenceTypesValueSet"] ; # 
   fhir:title [ fhir:v "Vkp Performer reference types Systems ValueSet"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-06-20T16:59:22+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-06-20T17:02:13+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Norway"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Norway" ] ;

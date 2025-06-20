@@ -18,7 +18,7 @@
     "valueInteger" : 1
   }],
   "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-identifiers.valueset",
-  "version" : "0.3.2",
+  "version" : "0.3.3",
   "name" : "VkpPerformerIdentifiersValueSet",
   "title" : "VKP Performer Identifier systems ValueSet",
   "status" : "draft",

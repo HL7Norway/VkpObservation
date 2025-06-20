@@ -34,7 +34,7 @@
      ]
   ] ) ; # 
   fhir:url [ fhir:v "http://hl7.no/fhir/vkpobservation/ValueSet/vkp-subject-identifiers.valueset"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.3.2"] ; # 
+  fhir:version [ fhir:v "0.3.3"] ; # 
   fhir:name [ fhir:v "VkpSubjectIdentifiersValueSet"] ; # 
   fhir:title [ fhir:v "VKP Subject Identifier systems ValueSet"] ; # 
   fhir:status [ fhir:v "draft"] ; # 

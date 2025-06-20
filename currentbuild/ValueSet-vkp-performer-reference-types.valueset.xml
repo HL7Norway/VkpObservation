@@ -15,12 +15,12 @@
     <valueInteger value="1"/>
   </extension>
   <url value="http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-reference-types.valueset"/>
-  <version value="0.3.2"/>
+  <version value="0.3.3"/>
   <name value="VkpPerformerReferenceTypesValueSet"/>
   <title value="Vkp Performer reference types Systems ValueSet"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2025-06-20T16:59:22+00:00"/>
+  <date value="2025-06-20T17:02:13+00:00"/>
   <publisher value="HL7 Norway"/>
   <contact>
     <name value="HL7 Norway"/>

@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "4498d88b-02c2-4b16-ab41-acebc6344e5a",
+  "id" : "e86c247d-4f29-4d62-83cc-e73532ac8ae5",
   "meta" : {
-    "lastUpdated" : "2025-06-20T17:00:01.630+00:00"
+    "lastUpdated" : "2025-06-20T17:02:54.086+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -18,12 +18,12 @@
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p><p>This value set contains 2 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display (no-NO)</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-37931006\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/37931006\">37931006</a></td><td>http://snomed.info/sct</td><td>Auscultation</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-113011001\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/113011001\">113011001</a></td><td>http://snomed.info/sct</td><td>Palpation</td></tr></table></div>"
       },
       "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet",
-      "version" : "0.3.2",
+      "version" : "0.3.3",
       "name" : "NoDomainVitalSignsBloodPressureMeasurementMethodValueSet",
       "title" : "NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-06-20T16:59:22+00:00",
+      "date" : "2025-06-20T17:02:13+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -32,8 +32,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:98d5a734-daae-409b-a54e-47be5d45ab43",
-        "timestamp" : "2025-06-20T17:00:35+00:00",
+        "identifier" : "urn:uuid:2663513d-d1de-483d-8db8-f87076319f96",
+        "timestamp" : "2025-06-20T17:03:31+00:00",
         "total" : 2,
         "offset" : 0,
         "parameter" : [{
@@ -90,12 +90,12 @@
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p><p>This value set contains 12 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display (no-NO)</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-6685009\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/6685009\">6685009</a></td><td>http://snomed.info/sct</td><td>Right ankle</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-51636004\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/51636004\">51636004</a></td><td>http://snomed.info/sct</td><td>Left ankle</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-7569003\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/7569003\">7569003</a></td><td>http://snomed.info/sct</td><td>Finger</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-2402003\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/2402003\">2402003</a></td><td>http://snomed.info/sct</td><td>Dorsum of foot</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-9736006\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/9736006\">9736006</a></td><td>http://snomed.info/sct</td><td>Right wrist</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-5951000\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/5951000\">5951000</a></td><td>http://snomed.info/sct</td><td>Left wrist</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-51114001\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/51114001\">51114001</a></td><td>http://snomed.info/sct</td><td>Artery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-11207009\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/11207009\">11207009</a></td><td>http://snomed.info/sct</td><td>Right thigh</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-61396006\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/61396006\">61396006</a></td><td>http://snomed.info/sct</td><td>Left thigh</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-368209003\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/368209003\">368209003</a></td><td>http://snomed.info/sct</td><td>Right upper arm</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-368208006\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/368208006\">368208006</a></td><td>http://snomed.info/sct</td><td>Left upper arm structure</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-29707007\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/29707007\">29707007</a></td><td>http://snomed.info/sct</td><td>Toe</td></tr></table></div>"
       },
       "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet",
-      "version" : "0.3.2",
+      "version" : "0.3.3",
       "name" : "NoDomainVitalSignsBloodpressureBodySiteValueSet",
       "title" : "NoDomainVitalSignsBloodpressureBodySite-ValueSet",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-06-20T16:59:22+00:00",
+      "date" : "2025-06-20T17:02:13+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -104,8 +104,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:38e8643f-4e4e-4a46-a29b-4332f43846d3",
-        "timestamp" : "2025-06-20T17:00:35+00:00",
+        "identifier" : "urn:uuid:29a41ab5-9c3a-47d8-9f7a-1153b283b91f",
+        "timestamp" : "2025-06-20T17:03:31+00:00",
         "total" : 12,
         "offset" : 0,
         "parameter" : [{
@@ -209,10 +209,10 @@
       },
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-vkp-performer-identifiers.codesystem.html\">codesystem Vkp Performer Identifier Systems CodeSystem v0.3.2 (CodeSystem)</a></p><p>This value set contains 1 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display (no-NO)</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem-urn:oid:2.16.578.1.12.4.1.4.1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-vkp-performer-identifiers.codesystem.html#vkp-performer-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.461\">urn:oid:2.16.578.1.12.4.1.4.1</a></td><td>http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem</td><td/><td>Fødselsnummer</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-vkp-performer-identifiers.codesystem.html\">codesystem Vkp Performer Identifier Systems CodeSystem v0.3.3 (CodeSystem)</a></p><p>This value set contains 1 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display (no-NO)</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem-urn:oid:2.16.578.1.12.4.1.4.1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-vkp-performer-identifiers.codesystem.html#vkp-performer-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.461\">urn:oid:2.16.578.1.12.4.1.4.1</a></td><td>http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem</td><td/><td>Fødselsnummer</td></tr></table></div>"
       },
       "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-identifiers.valueset",
-      "version" : "0.3.2",
+      "version" : "0.3.3",
       "name" : "VkpPerformerIdentifiersValueSet",
       "title" : "VKP Performer Identifier systems ValueSet",
       "status" : "draft",
@@ -226,8 +226,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:86d06111-e430-4308-a43d-9737b5cf48a0",
-        "timestamp" : "2025-06-20T17:00:35+00:00",
+        "identifier" : "urn:uuid:3232b563-b687-4a52-8ed2-7a08097fcc8c",
+        "timestamp" : "2025-06-20T17:03:31+00:00",
         "total" : 1,
         "offset" : 0,
         "parameter" : [{
@@ -248,11 +248,11 @@
         },
         {
           "name" : "warning-experimental",
-          "valueUri" : "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem|0.3.2"
+          "valueUri" : "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem|0.3.3"
         },
         {
           "name" : "used-codesystem",
-          "valueUri" : "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem|0.3.2"
+          "valueUri" : "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem|0.3.3"
         }],
         "contains" : [{
           "system" : "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem",
@@ -273,12 +273,12 @@
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"http://hl7.org/fhir/R4/codesystem-resource-types.html\">codesystem ResourceType v4.0.1 (CodeSystem)</a></p><p>This value set contains 6 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display (no-NO)</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.org/fhir/resource-types-Practitioner\"> </a>\u00a0\u00a0<a href=\"http://hl7.org/fhir/R4/codesystem-resource-types.html#resource-types-Practitioner\">Practitioner</a></td><td>http://hl7.org/fhir/resource-types</td><td>Practitioner</td><td><div><p>A person who is directly or indirectly involved in the provisioning of healthcare.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.org/fhir/resource-types-PractitionerRole\"> </a>\u00a0\u00a0<a href=\"http://hl7.org/fhir/R4/codesystem-resource-types.html#resource-types-PractitionerRole\">PractitionerRole</a></td><td>http://hl7.org/fhir/resource-types</td><td>PractitionerRole</td><td><div><p>A specific set of Roles/Locations/specialties/services that a practitioner may perform at an organization for a period of time.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.org/fhir/resource-types-Patient\"> </a>\u00a0\u00a0<a href=\"http://hl7.org/fhir/R4/codesystem-resource-types.html#resource-types-Patient\">Patient</a></td><td>http://hl7.org/fhir/resource-types</td><td>Patient</td><td><div><p>Demographics and other administrative information about an individual or animal receiving care or other health-related services.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.org/fhir/resource-types-RelatedPerson\"> </a>\u00a0\u00a0<a href=\"http://hl7.org/fhir/R4/codesystem-resource-types.html#resource-types-RelatedPerson\">RelatedPerson</a></td><td>http://hl7.org/fhir/resource-types</td><td>RelatedPerson</td><td><div><p>Information about a person that is involved in the care for a patient, but who is not the target of healthcare, nor has a formal responsibility in the care process.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.org/fhir/resource-types-CareTeam\"> </a>\u00a0\u00a0<a href=\"http://hl7.org/fhir/R4/codesystem-resource-types.html#resource-types-CareTeam\">CareTeam</a></td><td>http://hl7.org/fhir/resource-types</td><td>CareTeam</td><td><div><p>The Care Team includes all the people and organizations who plan to participate in the coordination and delivery of care for a patient.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.org/fhir/resource-types-Organization\"> </a>\u00a0\u00a0<a href=\"http://hl7.org/fhir/R4/codesystem-resource-types.html#resource-types-Organization\">Organization</a></td><td>http://hl7.org/fhir/resource-types</td><td>Organization</td><td><div><p>A formally or informally recognized grouping of people or organizations formed for the purpose of achieving some form of collective action.  Includes companies, institutions, corporations, departments, community groups, healthcare practice groups, payer/insurer, etc.</p>\n</div></td></tr></table></div>"
       },
       "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-reference-types.valueset",
-      "version" : "0.3.2",
+      "version" : "0.3.3",
       "name" : "VkpPerformerReferenceTypesValueSet",
       "title" : "Vkp Performer reference types Systems ValueSet",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-06-20T16:59:22+00:00",
+      "date" : "2025-06-20T17:02:13+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -287,8 +287,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:f0472131-3905-403e-ad22-def0b365f616",
-        "timestamp" : "2025-06-20T17:00:35+00:00",
+        "identifier" : "urn:uuid:58a27253-39bf-4011-8d18-3fc3d0a24155",
+        "timestamp" : "2025-06-20T17:03:31+00:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -354,10 +354,10 @@
       },
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-vkp-subject-identifiers.codesystem.html\">codesystem Vkp Subject Identifier Systems CodeSystem v0.3.2 (CodeSystem)</a></p><p>This value set contains 3 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display (no-NO)</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem-urn:oid:2.16.578.1.12.4.1.4.1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-vkp-subject-identifiers.codesystem.html#vkp-subject-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.461\">urn:oid:2.16.578.1.12.4.1.4.1</a></td><td>http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem</td><td/><td>Fødselsnummer</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem-urn:oid:2.16.578.1.12.4.1.4.2\"> </a>\u00a0\u00a0<a href=\"CodeSystem-vkp-subject-identifiers.codesystem.html#vkp-subject-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.462\">urn:oid:2.16.578.1.12.4.1.4.2</a></td><td>http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem</td><td/><td>D-nummer</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem-urn:oid:2.16.578.1.12.4.1.4.3\"> </a>\u00a0\u00a0<a href=\"CodeSystem-vkp-subject-identifiers.codesystem.html#vkp-subject-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.463\">urn:oid:2.16.578.1.12.4.1.4.3</a></td><td>http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem</td><td/><td>Felles hjelpenummer</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-vkp-subject-identifiers.codesystem.html\">codesystem Vkp Subject Identifier Systems CodeSystem v0.3.3 (CodeSystem)</a></p><p>This value set contains 3 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display (no-NO)</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem-urn:oid:2.16.578.1.12.4.1.4.1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-vkp-subject-identifiers.codesystem.html#vkp-subject-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.461\">urn:oid:2.16.578.1.12.4.1.4.1</a></td><td>http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem</td><td/><td>Fødselsnummer</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem-urn:oid:2.16.578.1.12.4.1.4.2\"> </a>\u00a0\u00a0<a href=\"CodeSystem-vkp-subject-identifiers.codesystem.html#vkp-subject-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.462\">urn:oid:2.16.578.1.12.4.1.4.2</a></td><td>http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem</td><td/><td>D-nummer</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem-urn:oid:2.16.578.1.12.4.1.4.3\"> </a>\u00a0\u00a0<a href=\"CodeSystem-vkp-subject-identifiers.codesystem.html#vkp-subject-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.463\">urn:oid:2.16.578.1.12.4.1.4.3</a></td><td>http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem</td><td/><td>Felles hjelpenummer</td></tr></table></div>"
       },
       "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/vkp-subject-identifiers.valueset",
-      "version" : "0.3.2",
+      "version" : "0.3.3",
       "name" : "VkpSubjectIdentifiersValueSet",
       "title" : "VKP Subject Identifier systems ValueSet",
       "status" : "draft",
@@ -371,8 +371,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:ccbbd15b-df61-46b6-bb66-50d47062fa8d",
-        "timestamp" : "2025-06-20T17:00:35+00:00",
+        "identifier" : "urn:uuid:ddebe413-3317-4944-a9e1-18fda63e8f59",
+        "timestamp" : "2025-06-20T17:03:31+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -393,11 +393,11 @@
         },
         {
           "name" : "warning-experimental",
-          "valueUri" : "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem|0.3.2"
+          "valueUri" : "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem|0.3.3"
         },
         {
           "name" : "used-codesystem",
-          "valueUri" : "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem|0.3.2"
+          "valueUri" : "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem|0.3.3"
         }],
         "contains" : [{
           "system" : "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem",
