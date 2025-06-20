@@ -1,5 +1,5 @@
 Instance: vkp-cfs-create
-InstanceOf: Observation
+InstanceOf: VkpObservationCFSscore
 Title: "CFS score example"
 Description: "Eksempel CFS score med notat, dato og hvordan man koder CFS i FHIR"
 Usage: #example
