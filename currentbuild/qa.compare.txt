@@ -1,7 +1,7 @@
 VkpObservation : Validation Results
 =========================================
 
-err = 104, warn = 87, info = 83
+err = 91, warn = 87, info = 88
 $--
 Generated $--. FHIR version $-- for hl7.fhir.no.vkp.observation#$-- (canonical = http://hl7.no/fhir/vkpobservation)
  Build Errors : 1 / 18 / 0
@@ -18,19 +18,19 @@ Generated $--. FHIR version $-- for hl7.fhir.no.vkp.observation#$-- (canonical =
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-blood-pressure-profile-create : 4 / 1 / 19
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-body-temperature-create : 1 / 1 / 7
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-body-weight-create : 0 / 1 / 7
- /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-cfs-create : 4 / 2 / 4
- /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-glucose-create : 2 / 3 / 5
+ /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-cfs-create : 0 / 2 / 6
+ /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-glucose-create : 0 / 3 / 6
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-heartrate-create : 0 / 1 / 7
- /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-news2-create : 12 / 3 / 3
+ /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-news2-create : 8 / 3 / 5
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-oxygen-saturation-create : 0 / 1 / 7
- /github/workspace/VkpObservation/fsh-generated/resources/StructureDefinition-vkp-Observation : 1 / 0 / 5
+ /github/workspace/VkpObservation/fsh-generated/resources/StructureDefinition-vkp-Observation : 0 / 0 / 5
  /github/workspace/VkpObservation/fsh-generated/resources/StructureDefinition-vkp-Observation-Bloodpressure : 0 / 0 / 2
  /github/workspace/VkpObservation/fsh-generated/resources/StructureDefinition-vkp-Observation-Bodytemp : 0 / 0 / 1
  /github/workspace/VkpObservation/fsh-generated/resources/StructureDefinition-vkp-Observation-Bodyweight : 0 / 0 / 1
- /github/workspace/VkpObservation/fsh-generated/resources/StructureDefinition-vkp-Observation-CFSscore : 1 / 0 / 3
+ /github/workspace/VkpObservation/fsh-generated/resources/StructureDefinition-vkp-Observation-CFSscore : 0 / 0 / 3
  /github/workspace/VkpObservation/fsh-generated/resources/StructureDefinition-vkp-Observation-Consciousness : 0 / 1 / 3
  /github/workspace/VkpObservation/fsh-generated/resources/StructureDefinition-vkp-Observation-Heartrate : 0 / 0 / 1
- /github/workspace/VkpObservation/fsh-generated/resources/StructureDefinition-vkp-Observation-NEWS2score : 1 / 0 / 3
+ /github/workspace/VkpObservation/fsh-generated/resources/StructureDefinition-vkp-Observation-NEWS2score : 0 / 0 / 3
  /github/workspace/VkpObservation/fsh-generated/resources/StructureDefinition-vkp-Observation-Oxygensat : 0 / 0 / 1
  /github/workspace/VkpObservation/fsh-generated/resources/StructureDefinition-vkp-Observation-Resprate : 0 / 1 / 1
  /github/workspace/VkpObservation/fsh-generated/resources/ValueSet-NoDomainVitalSignsBloodPressureMeasurementMethodValueSet : 0 / 0 / 1
@@ -265,18 +265,14 @@ INFORMATION: Observation/vkp-body-weight-create: Observation.code.coding[1].disp
 INFORMATION: Observation/vkp-body-weight-create: Observation.subject.identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem|0.3.3
 INFORMATION: Observation/vkp-body-weight-create: Observation.performer[0].identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem|0.3.3
 == fsh-generated/resources/Observation-vkp-cfs-create.json ==
-ERROR: Observation/vkp-cfs-create: Observation.performer[0]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: 'system' in profile 'http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-CFSscore' on element 'Observation.performer:author', looking in profile 'http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-CFSscore' (@char 1)
-ERROR: Observation/vkp-cfs-create: Observation.performer[1]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: 'system' in profile 'http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-CFSscore' on element 'Observation.performer:author', looking in profile 'http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-CFSscore' (@char 1)
-ERROR: Observation/vkp-cfs-create: Observation.performer[0]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: 'system' in profile 'http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-CFSscore' on element 'Observation.performer:organization', looking in profile 'http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-CFSscore' (@char 1)
-ERROR: Observation/vkp-cfs-create: Observation.performer[1]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: 'system' in profile 'http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-CFSscore' on element 'Observation.performer:organization', looking in profile 'http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-CFSscore' (@char 1)
 INFORMATION: Observation/vkp-cfs-create: Observation.meta.source: No definition could be found for URL value 'MEDANETS'
 WARNING: Observation/vkp-cfs-create: Observation.identifier[0].system: No definition could be found for URL value 'http://dips.no/fhir/namingsystem/externalId'
 INFORMATION: Observation/vkp-cfs-create: Observation.code.coding[0].display: 'Canadian Study of Health and Aging Clinical Frailty Scale score (observable entity)' is the default display; the code system http://snomed.info/sct has no Display Names for the language no-NO
 INFORMATION: Observation/vkp-cfs-create: Observation.subject.identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem|0.3.3
+INFORMATION: Observation/vkp-cfs-create: Observation.performer[0].identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem|0.3.3
 WARNING: Observation/vkp-cfs-create: Observation.performer[1].identifier.system: No definition could be found for URL value 'urn:oid:2.16.578.1.12.4.1.4.101'
+INFORMATION: Observation/vkp-cfs-create: Observation.performer[1].identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem|0.3.3
 == fsh-generated/resources/Observation-vkp-glucose-create.json ==
-ERROR: Observation/vkp-glucose-create: Observation.performer[0]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: 'system' in profile 'http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation' on element 'Observation.performer:author', looking in profile 'http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation' (@char 1)
-ERROR: Observation/vkp-glucose-create: Observation.performer[0]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: 'system' in profile 'http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation' on element 'Observation.performer:organization', looking in profile 'http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation' (@char 1)
 INFORMATION: Observation/vkp-glucose-create: Observation.meta.source: No definition could be found for URL value 'Thomas'
 WARNING: Observation/vkp-glucose-create: Observation.identifier[0].system: No definition could be found for URL value 'http://dips.no/fhir/namingsystem/externalId'
 INFORMATION: Observation/vkp-glucose-create: Observation.code.coding[0].display: There are no valid display names found for the code http://loinc.org#15074-8 for language(s) 'no-NO'. The display is 'Glucose [Moles/volume] in Blood' the default language display
@@ -284,6 +280,7 @@ INFORMATION: Observation/vkp-glucose-create: Observation.code.coding[1].display:
 WARNING: Observation/vkp-glucose-create: Observation.code.coding[2].system: A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.7280' could not be found, so the code cannot be validated
 WARNING: Observation/vkp-glucose-create: Observation.code.coding[2].system: No definition could be found for URL value 'urn:oid:2.16.578.1.12.4.1.1.7280'
 INFORMATION: Observation/vkp-glucose-create: Observation.subject.identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem|0.3.3
+INFORMATION: Observation/vkp-glucose-create: Observation.performer[0].identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem|0.3.3
 == fsh-generated/resources/Observation-vkp-heartrate-create.json ==
 INFORMATION: Observation/vkp-heartrate-create: Observation.meta.source: No definition could be found for URL value 'Thomas'
 WARNING: Observation/vkp-heartrate-create: Observation.identifier[0].system: No definition could be found for URL value 'http://dips.no/fhir/namingsystem/externalId'
@@ -292,15 +289,13 @@ INFORMATION: Observation/vkp-heartrate-create: Observation.code.coding[1].displa
 INFORMATION: Observation/vkp-heartrate-create: Observation.subject.identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem|0.3.3
 INFORMATION: Observation/vkp-heartrate-create: Observation.performer[0].identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem|0.3.3
 == fsh-generated/resources/Observation-vkp-news2-create.json ==
-ERROR: Observation/vkp-news2-create: Observation.performer[0]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: 'system' in profile 'http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-NEWS2score' on element 'Observation.performer:author', looking in profile 'http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-NEWS2score' (@char 1)
-ERROR: Observation/vkp-news2-create: Observation.performer[1]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: 'system' in profile 'http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-NEWS2score' on element 'Observation.performer:author', looking in profile 'http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-NEWS2score' (@char 1)
-ERROR: Observation/vkp-news2-create: Observation.performer[0]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: 'system' in profile 'http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-NEWS2score' on element 'Observation.performer:organization', looking in profile 'http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-NEWS2score' (@char 1)
-ERROR: Observation/vkp-news2-create: Observation.performer[1]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: 'system' in profile 'http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-NEWS2score' on element 'Observation.performer:organization', looking in profile 'http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-NEWS2score' (@char 1)
 INFORMATION: Observation/vkp-news2-create: Observation.meta.source: No definition could be found for URL value 'MEDANETS'
 WARNING: Observation/vkp-news2-create: Observation.identifier[0].system: No definition could be found for URL value 'http://dips.no/fhir/namingsystem/externalId'
 ERROR: Observation/vkp-news2-create: Observation.code.coding[0].code: Unknown code '1104051000000101' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20250201'
 INFORMATION: Observation/vkp-news2-create: Observation.subject.identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem|0.3.3
+INFORMATION: Observation/vkp-news2-create: Observation.performer[0].identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem|0.3.3
 WARNING: Observation/vkp-news2-create: Observation.performer[1].identifier.system: No definition could be found for URL value 'urn:oid:2.16.578.1.12.4.1.4.101'
+INFORMATION: Observation/vkp-news2-create: Observation.performer[1].identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem|0.3.3
 ERROR: Observation/vkp-news2-create: Observation.component[0].code.coding[0].code: Unknown code '1104301000000104' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20250201'
 ERROR: Observation/vkp-news2-create: Observation.component[1].code.coding[0].code: Unknown code '1104321000000108' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20250201'
 WARNING: Observation/vkp-news2-create: Observation.component[1].code.coding[0].display: value should not start or finish with whitespace ' NEWS2 (National Early Warning Score 2) - oxygen saturation scale 2 score'
@@ -321,7 +316,6 @@ INFORMATION: StructureDefinition/vkp-Observation: StructureDefinition.differenti
 INFORMATION: StructureDefinition/vkp-Observation: StructureDefinition.differential.element[13].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 INFORMATION: StructureDefinition/vkp-Observation: StructureDefinition.snapshot.element[17].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 INFORMATION: StructureDefinition/vkp-Observation: StructureDefinition.snapshot.element[62].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
-ERROR: StructureDefinition/vkp-Observation: StructureDefinition.snapshot.element[62].slicing.discriminator[0]: The discriminator path 'system' does not appear to be valid for the element that is being sliced 'Observation.performer'
 == fsh-generated/resources/StructureDefinition-vkp-Observation-Bloodpressure.json ==
 INFORMATION: StructureDefinition/vkp-Observation-Bloodpressure: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
 == fsh-generated/resources/StructureDefinition-vkp-Observation-Bodytemp.json ==
@@ -329,7 +323,6 @@ INFORMATION: StructureDefinition/vkp-Observation-Bloodpressure: StructureDefinit
 == fsh-generated/resources/StructureDefinition-vkp-Observation-CFSscore.json ==
 INFORMATION: StructureDefinition/vkp-Observation-CFSscore: StructureDefinition.snapshot.element[17].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 INFORMATION: StructureDefinition/vkp-Observation-CFSscore: StructureDefinition.snapshot.element[62].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
-ERROR: StructureDefinition/vkp-Observation-CFSscore: StructureDefinition.snapshot.element[62].slicing.discriminator[0]: The discriminator path 'system' does not appear to be valid for the element that is being sliced 'Observation.performer'
 == fsh-generated/resources/StructureDefinition-vkp-Observation-Consciousness.json ==
 INFORMATION: StructureDefinition/vkp-Observation-Consciousness: StructureDefinition.differential.element[1].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 INFORMATION: StructureDefinition/vkp-Observation-Consciousness: StructureDefinition.snapshot.element[17].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
@@ -338,7 +331,6 @@ WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/vkpobservation/Stru
 == fsh-generated/resources/StructureDefinition-vkp-Observation-NEWS2score.json ==
 INFORMATION: StructureDefinition/vkp-Observation-NEWS2score: StructureDefinition.snapshot.element[17].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 INFORMATION: StructureDefinition/vkp-Observation-NEWS2score: StructureDefinition.snapshot.element[62].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
-ERROR: StructureDefinition/vkp-Observation-NEWS2score: StructureDefinition.snapshot.element[62].slicing.discriminator[0]: The discriminator path 'system' does not appear to be valid for the element that is being sliced 'Observation.performer'
 == fsh-generated/resources/StructureDefinition-vkp-Observation-Oxygensat.json ==
 == fsh-generated/resources/StructureDefinition-vkp-Observation-Resprate.json ==
 WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Resprate'): The Implementation Guide contains no examples for this profile

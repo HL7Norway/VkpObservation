@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "VkpObservationCFSscore"] ; # 
   fhir:title [ fhir:v "Vkp Observation - CFS score"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-06-20T17:28:06+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-06-20T17:36:29+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Norway"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Norway" ] ;
@@ -2842,7 +2842,7 @@
        fhir:slicing [
          fhir:discriminator ( [
            fhir:type [ fhir:v "pattern" ] ;
-           fhir:path [ fhir:v "system" ]
+           fhir:path [ fhir:v "identifier.system" ]
          ] ) ;
          fhir:rules [ fhir:v "open" ]
        ] ;
