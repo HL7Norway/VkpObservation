@@ -1,5 +1,7 @@
 Instance: vkp-cfs-create
 InstanceOf: Observation
+Title: "CFS score example"
+Description: "Eksempel CFS score med notat, dato og hvordan man koder CFS i FHIR"
 Usage: #example
 * meta.versionId = "0"
 * meta.lastUpdated = "2014-01-30T11:35:23+00:00"
