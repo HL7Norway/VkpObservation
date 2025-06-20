@@ -38,7 +38,7 @@
   fhir:title [ fhir:v "Vkp Performer reference types Systems ValueSet"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-06-20T11:10:44+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-06-20T11:56:46+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Norway"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Norway" ] ;
