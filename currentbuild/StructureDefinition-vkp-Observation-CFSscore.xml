@@ -60,7 +60,7 @@ Example:
   <name value="VkpObservationCFSscore"/>
   <title value="Vkp VitalSigns Observation - CFS score"/>
   <status value="draft"/>
-  <date value="2025-06-20T11:56:46+00:00"/>
+  <date value="2025-06-20T12:07:13+00:00"/>
   <publisher value="HL7 Norway"/>
   <contact>
     <name value="HL7 Norway"/>
@@ -2755,7 +2755,7 @@ Example:
       <path value="Observation.note"/>
       <short value="Comments about the observation"/>
       <definition value="Comments about the observation or the results."/>
-      <comment value="May include general statements about the observation, or statements about significant, unexpected or unreliable results values, or information about its source when relevant to its interpretation."/>
+      <comment value="Utfyllende informasjon om konteksten for vurderingen"/>
       <requirements value="Need to be able to provide free text additional information."/>
       <min value="0"/>
       <max value="*"/>
@@ -3927,6 +3927,7 @@ Example:
     </element>
     <element id="Observation.note">
       <path value="Observation.note"/>
+      <comment value="Utfyllende informasjon om konteksten for vurderingen"/>
       <mustSupport value="true"/>
     </element>
   </differential>

@@ -10,7 +10,7 @@
   "name" : "VkpObservationCFSscore",
   "title" : "Vkp VitalSigns Observation - CFS score",
   "status" : "draft",
-  "date" : "2025-06-20T11:56:46+00:00",
+  "date" : "2025-06-20T12:07:13+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",
@@ -2797,7 +2797,7 @@
       "path" : "Observation.note",
       "short" : "Comments about the observation",
       "definition" : "Comments about the observation or the results.",
-      "comment" : "May include general statements about the observation, or statements about significant, unexpected or unreliable results values, or information about its source when relevant to its interpretation.",
+      "comment" : "Utfyllende informasjon om konteksten for vurderingen",
       "requirements" : "Need to be able to provide free text additional information.",
       "min" : 0,
       "max" : "*",
@@ -4020,6 +4020,7 @@
     {
       "id" : "Observation.note",
       "path" : "Observation.note",
+      "comment" : "Utfyllende informasjon om konteksten for vurderingen",
       "mustSupport" : true
     }]
   }

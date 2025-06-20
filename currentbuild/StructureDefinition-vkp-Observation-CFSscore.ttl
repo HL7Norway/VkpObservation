@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "VkpObservationCFSscore"] ; # 
   fhir:title [ fhir:v "Vkp VitalSigns Observation - CFS score"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-06-20T11:56:46+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-06-20T12:07:13+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Norway"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Norway" ] ;
@@ -3022,7 +3022,7 @@
        fhir:path [ fhir:v "Observation.note" ] ;
        fhir:short [ fhir:v "Comments about the observation" ] ;
        fhir:definition [ fhir:v "Comments about the observation or the results." ] ;
-       fhir:comment [ fhir:v "May include general statements about the observation, or statements about significant, unexpected or unreliable results values, or information about its source when relevant to its interpretation." ] ;
+       fhir:comment [ fhir:v "Utfyllende informasjon om konteksten for vurderingen" ] ;
        fhir:requirements [ fhir:v "Need to be able to provide free text additional information." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
@@ -4354,6 +4354,7 @@
      ] [
        fhir:id [ fhir:v "Observation.note" ] ;
        fhir:path [ fhir:v "Observation.note" ] ;
+       fhir:comment [ fhir:v "Utfyllende informasjon om konteksten for vurderingen" ] ;
        fhir:mustSupport [ fhir:v true ]
      ] )
   ] . # 
