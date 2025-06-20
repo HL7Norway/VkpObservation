@@ -1,7 +1,7 @@
 Profile: VkpObservationCFSscore
 Parent: VkpObservation
 Id: vkp-Observation-CFSscore
-Title: "Vkp VitalSigns Observation - CFS score"
+Title: "Vkp Observation - CFS score"
 Description: "Profile for Clinical Frailty Scale score in VKP."
 * ^status = #draft
 * ^purpose = "To record the CFS score of an individual"
