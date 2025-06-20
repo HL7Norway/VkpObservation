@@ -27,3 +27,4 @@ Alias: $loinc = http://loinc.org
 Alias: $observation-category = http://terminology.hl7.org/CodeSystem/observation-category
 Alias: $clinical-codes = http://acme.org/devices/clinical-codes
 Alias: $code = http://dips.no/fhir/code
+Alias: $resourcetypes = http://hl7.org/fhir/resource-types
