@@ -1,9 +1,9 @@
 VkpObservation : Validation Results
 =========================================
 
-err = 91, warn = 88, info = 83
+err = 94, warn = 88, info = 83
 IG Publisher Version: 2.0.7
-Generated Fri Jun 20 12:08:54 UTC 2025. FHIR version 4.0.1 for hl7.fhir.no.vkp.observation#0.3.2 (canonical = http://hl7.no/fhir/vkpobservation)
+Generated Fri Jun 20 12:36:33 UTC 2025. FHIR version 4.0.1 for hl7.fhir.no.vkp.observation#0.3.2 (canonical = http://hl7.no/fhir/vkpobservation)
  Build Errors : 1 / 18 / 0
  /github/workspace/VkpObservation/fsh-generated/resources/CodeSystem-vkp-performer-identifiers.codesystem : 0 / 0 / 1
  /github/workspace/VkpObservation/fsh-generated/resources/CodeSystem-vkp-subject-identifiers.codesystem : 0 / 0 / 1
@@ -17,7 +17,7 @@ Generated Fri Jun 20 12:08:54 UTC 2025. FHIR version 4.0.1 for hl7.fhir.no.vkp.o
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-blood-pressure-profile-create : 4 / 1 / 19
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-body-temperature-create : 1 / 1 / 7
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-body-weight-create : 0 / 1 / 7
- /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-cfs-create : 0 / 1 / 6
+ /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-cfs-create : 3 / 1 / 6
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-glucose-create : 0 / 3 / 6
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-heartrate-create : 0 / 1 / 7
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-news2-create : 8 / 4 / 2
@@ -262,13 +262,17 @@ INFORMATION: Observation/vkp-body-weight-create: Observation.code.coding[1].disp
 INFORMATION: Observation/vkp-body-weight-create: Observation.subject.identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem|0.3.2
 INFORMATION: Observation/vkp-body-weight-create: Observation.performer[0].identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem|0.3.2
 == fsh-generated/resources/Observation-vkp-cfs-create.json ==
+ERROR: Observation/vkp-cfs-create: Observation.performer[0]: Profile http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-CFSscore|0.3.2, Element matches more than one slice - author, organization
+ERROR: Observation/vkp-cfs-create: Observation.performer[1]: Profile http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-CFSscore|0.3.2, Element matches more than one slice - author, organization
 INFORMATION: Observation/vkp-cfs-create: Observation.meta.source: No definition could be found for URL value 'MEDANETS'
 WARNING: Observation/vkp-cfs-create: Observation.identifier[0].system: No definition could be found for URL value 'http://dips.no/fhir/namingsystem/externalId'
 INFORMATION: Observation/vkp-cfs-create: Observation.code.coding[0].display: 'Canadian Study of Health and Aging Clinical Frailty Scale score (observable entity)' is the default display; the code system http://snomed.info/sct has no Display Names for the language no-NO
+ERROR: Observation/vkp-cfs-create: Observation.code.coding[0]: Profile http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-CFSscore|0.3.2, Element matches more than one slice - SCT, CFSscoreSCTCode
 INFORMATION: Observation/vkp-cfs-create: Observation.subject.identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem|0.3.2
 INFORMATION: Observation/vkp-cfs-create: Observation.performer[0].identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem|0.3.2
 INFORMATION: Observation/vkp-cfs-create: Observation.performer[1].identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem|0.3.2
 == fsh-generated/resources/Observation-vkp-glucose-create.json ==
+INFORMATION: Observation/vkp-glucose-create: Observation.performer[0]: This element does not match any known slice defined in the profile http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation|0.3.2 (this may not be a problem, but you should check that it's not intended to match a slice)
 INFORMATION: Observation/vkp-glucose-create: Observation.meta.source: No definition could be found for URL value 'Thomas'
 WARNING: Observation/vkp-glucose-create: Observation.identifier[0].system: No definition could be found for URL value 'http://dips.no/fhir/namingsystem/externalId'
 INFORMATION: Observation/vkp-glucose-create: Observation.code.coding[0].display: There are no valid display names found for the code http://loinc.org#15074-8 for language(s) 'no-NO'. The display is 'Glucose [Moles/volume] in Blood' the default language display
@@ -276,7 +280,6 @@ INFORMATION: Observation/vkp-glucose-create: Observation.code.coding[1].display:
 WARNING: Observation/vkp-glucose-create: Observation.code.coding[2].system: A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.7280' could not be found, so the code cannot be validated
 WARNING: Observation/vkp-glucose-create: Observation.code.coding[2].system: No definition could be found for URL value 'urn:oid:2.16.578.1.12.4.1.1.7280'
 INFORMATION: Observation/vkp-glucose-create: Observation.subject.identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem|0.3.2
-INFORMATION: Observation/vkp-glucose-create: Observation.performer[0].identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem|0.3.2
 == fsh-generated/resources/Observation-vkp-heartrate-create.json ==
 INFORMATION: Observation/vkp-heartrate-create: Observation.meta.source: No definition could be found for URL value 'Thomas'
 WARNING: Observation/vkp-heartrate-create: Observation.identifier[0].system: No definition could be found for URL value 'http://dips.no/fhir/namingsystem/externalId'
