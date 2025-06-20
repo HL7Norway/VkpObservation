@@ -239,6 +239,7 @@ Generic: line 0, col 0, Warning - The IG is not for the international realm, and
 /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-news2-create.json: line 23, col 62, Warning - No definition could be found for URL value 'http://dips.no/fhir/namingsystem/externalId' (INVALID)
 /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-news2-create.json: line 12, col 4, Error - Unknown code '1104051000000101' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20250201' (CODEINVALID)
 /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-news2-create.json: line 41, col 48, Info - Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem|0.3.3 (BUSINESSRULE)
+/github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-news2-create.json: line 55, col 52, Warning - No definition could be found for URL value 'urn:oid:2.16.578.1.12.4.1.4.101' (INVALID)
 /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-news2-create.json: line 65, col 8, Error - Unknown code '1104301000000104' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20250201' (CODEINVALID)
 /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-news2-create.json: line 84, col 8, Error - Unknown code '1104321000000108' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20250201' (CODEINVALID)
 /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-news2-create.json: line 89, col 99, Warning - value should not start or finish with whitespace ' NEWS2 (National Early Warning Score 2) - oxygen saturation scale 2 score' (INVALID)
@@ -264,5 +265,5 @@ Generic: line 0, col 0, Warning - The IG is not for the international realm, and
 /github/workspace/VkpObservation/fsh-generated/resources/StructureDefinition-vkp-Observation-Resprate.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this profile (BUSINESSRULE)
 /github/workspace/VkpObservation/fsh-generated/resources/ValueSet-vkp-performer-reference-types.valueset.json: line 1, col 4476, Info - This include has some concepts with displays and some without - check that this is what is intended (BUSINESSRULE)
 
-err = 93, warn = 85, info = 84
+err = 93, warn = 86, info = 84
 IG Publisher Version: 2.0.7

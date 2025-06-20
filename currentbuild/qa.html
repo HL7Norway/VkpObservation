@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!-- broken links = 0, errors = 93, warn = 85, info = 84-->
+<!-- broken links = 0, errors = 93, warn = 86, info = 84-->
 <head>
   <title>VkpObservation : Validation Results</title>
   <link href="fhir.css" rel="stylesheet"/>
@@ -47,7 +47,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for VkpObservation</h1>
- <p>Generated Fri Jun 20 17:17:12 UTC 2025, FHIR version 4.0.1 for hl7.fhir.no.vkp.observation#0.3.3 (canonical = <a href="http://hl7.no/fhir/vkpobservation">http://hl7.no/fhir/vkpobservation</a> (<a href="http://hl7.no/fhir/vkpobservation/history.html">history</a>)). See <a href="qa.min.html">Errors Only</a> &amp; <a href="qa-ipreview.html">IP</a></p>
+ <p>Generated Fri Jun 20 17:22:18 UTC 2025, FHIR version 4.0.1 for hl7.fhir.no.vkp.observation#0.3.3 (canonical = <a href="http://hl7.no/fhir/vkpobservation">http://hl7.no/fhir/vkpobservation</a> (<a href="http://hl7.no/fhir/vkpobservation/history.html">history</a>)). See <a href="qa.min.html">Errors Only</a> &amp; <a href="qa-ipreview.html">IP</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
  <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v2.0.7</span></td></tr>
  <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = hl7.fhir.no.vkp.observation, Canonical = http://hl7.no/fhir/vkpobservation</td></tr>
@@ -129,7 +129,7 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
  <tr><td>IPA Comparison:</td><td> n/a</td></tr>
  <tr><td>IPS Comparison:</td><td> n/a</td></tr>
  <tr><td>Validation Flags:</td><td> On: autoLoad; Off: hintAboutNonMustSupport, anyExtensionsAllowed, checkAggregation, showReferenceMessages, noExperimentalContent, displayWarnings</td></tr>
- <tr><td>Summary:</td><td> errors = 93, warn = 85, info = 84, broken links = 0, pinned = n/a.  <button onclick="toggleCodes()">Show Message Ids</button></td></tr>
+ <tr><td>Summary:</td><td> errors = 93, warn = 86, info = 84, broken links = 0, pinned = n/a.  <button onclick="toggleCodes()">Show Message Ids</button></td></tr>
 </table>
  <table class="grid">
    <tr>
@@ -187,7 +187,7 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
      <td><a href="#_github_workspace_VkpObservation_fsh-generated_resources_Observation-vkp-heartrate-create"><b>/github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-heartrate-create</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>5</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><a href="#_github_workspace_VkpObservation_fsh-generated_resources_Observation-vkp-news2-create"><b>/github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-news2-create</b></a></td><td><b>8</b></td><td><b>2</b></td><td><b>4</b></td>
+     <td><a href="#_github_workspace_VkpObservation_fsh-generated_resources_Observation-vkp-news2-create"><b>/github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-news2-create</b></a></td><td><b>8</b></td><td><b>3</b></td><td><b>4</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#_github_workspace_VkpObservation_fsh-generated_resources_Observation-vkp-oxygen-saturation-create"><b>/github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-oxygen-saturation-create</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>5</b></td>
@@ -1130,6 +1130,9 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
    <tr style="background-color: #ffffe6">
      <td><b>Observation&#8203;.subject&#8203;.identifier&#8203;.system (l41&#8203;/c48)</b></td><td><b>information</b></td><td><b>Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem|0.3.3</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">MSG_EXPERIMENTAL</span></td>
    </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Observation&#8203;.performer[1]&#8203;.identifier&#8203;.system (l55&#8203;/c52)</b></td><td><b>warning</b></td><td><b>No definition could be found for URL value 'urn:oid:2.16.578.1.12.4.1.4.101'</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
+   </tr>
    <tr style="background-color: #ffcccc">
      <td><b>Observation&#8203;.component[0]&#8203;.code&#8203;.coding[0]&#8203;.code (l65&#8203;/c8)</b></td><td><b>error</b></td><td><b>Unknown code '1104301000000104' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20250201'</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">Unknown_Code_in_Version</span></td>
    </tr>
@@ -2058,6 +2061,9 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
    </tr>
    <tr style="background-color: #fff4ee">
      <td><a href="Observation-vkp-news2-create.html">fsh-generated/resources/Observation-vkp-news2-create.json</a></td><td><b>No definition could be found for URL value 'http://dips.no/fhir/namingsystem/externalId'</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Observation-vkp-news2-create.html">fsh-generated/resources/Observation-vkp-news2-create.json</a></td><td><b>No definition could be found for URL value 'urn:oid:2.16.578.1.12.4.1.4.101'</b></td>
    </tr>
    <tr style="background-color: #fffff2">
      <td><a href="Observation-vkp-oxygen-saturation-create.html">fsh-generated/resources/Observation-vkp-oxygen-saturation-create.json</a></td><td><b>No definition could be found for URL value 'Thomas'</b></td>
