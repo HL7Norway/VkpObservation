@@ -6,7 +6,7 @@ Description: "Profile for NEWS2 score in VKP."
 * ^status = #draft
 * ^purpose = "To record the NEWS2 score of an individual (will be updated with norwegian NEWS2 score code when this is established)"
 * . ^short = "FHIR NEWS2 score Profile VKP"
-* code.coding[SCT] ^short "Snomed CT term to identify NEWS2 score observation"
+* code.coding[SCT] ^short = "Snomed CT term to identify NEWS2 score observation"
 * code.coding[SCT] 1..*
 * code.coding[SCT].code = #1104051000000101 "Royal College of Physicians NEWS2 (National Early Warning Score 2) total score"
 * subject 1.. MS
@@ -17,6 +17,6 @@ Description: "Profile for NEWS2 score in VKP."
 * subject.identifier.system MS
 * subject.identifier.value MS
 * subject.display MS
-* performer[author] ^short "Reference to the author of the observation"
+* performer[author] ^short = "Reference to the author of the observation"
 * performer[author] only Reference(Practitioner or $no-basis-Practitioner)
-* performer[organization] ^short "Reference to the responsible organization (dataansvarlig)"
+* performer[organization] ^short = "Reference to the responsible organization (dataansvarlig)"
