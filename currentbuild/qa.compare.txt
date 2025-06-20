@@ -6,6 +6,7 @@ $--
 Generated $--. FHIR version $-- for hl7.fhir.no.vkp.observation#$-- (canonical = http://hl7.no/fhir/vkpobservation)
  Build Errors : 1 / 18 / 0
  /github/workspace/VkpObservation/fsh-generated/resources/CodeSystem-vkp-performer-identifiers.codesystem : 0 / 0 / 1
+ /github/workspace/VkpObservation/fsh-generated/resources/CodeSystem-vkp-performer-organization-identifiers.codesystem : 0 / 0 / 1
  /github/workspace/VkpObservation/fsh-generated/resources/CodeSystem-vkp-subject-identifiers.codesystem : 0 / 0 / 1
  /github/workspace/VkpObservation/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.vkp.observation : 0 / 2 / 1
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-blood-pressure-create : 23 / 13 / 14
@@ -35,6 +36,7 @@ Generated $--. FHIR version $-- for hl7.fhir.no.vkp.observation#$-- (canonical =
  /github/workspace/VkpObservation/fsh-generated/resources/ValueSet-NoDomainVitalSignsBloodPressureMeasurementMethodValueSet : 0 / 0 / 1
  /github/workspace/VkpObservation/fsh-generated/resources/ValueSet-NoDomainVitalSignsBloodpressureBodySiteValueSet : 0 / 0 / 1
  /github/workspace/VkpObservation/fsh-generated/resources/ValueSet-vkp-performer-identifiers.valueset : 0 / 0 / 1
+ /github/workspace/VkpObservation/fsh-generated/resources/ValueSet-vkp-performer-organization-identifiers.valueset : 0 / 0 / 1
  /github/workspace/VkpObservation/fsh-generated/resources/ValueSet-vkp-performer-reference-types.valueset : 0 / 0 / 2
  /github/workspace/VkpObservation/fsh-generated/resources/ValueSet-vkp-subject-identifiers.valueset : 0 / 0 / 1
 </table>
@@ -59,6 +61,7 @@ WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-ta
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 WARNING: IG: The IG is not for the international realm, and it uses SNOMED CT, so it should fix the SCT edition in the expansion parameters
 == fsh-generated/resources/CodeSystem-vkp-performer-identifiers.codesystem.json ==
+== fsh-generated/resources/CodeSystem-vkp-performer-organization-identifiers.codesystem.json ==
 == fsh-generated/resources/CodeSystem-vkp-subject-identifiers.codesystem.json ==
 == fsh-generated/resources/ImplementationGuide-hl7.fhir.no.vkp.observation.json ==
 WARNING: ImplementationGuide/hl7.fhir.no.vkp.observation: ImplementationGuide.dependsOn[2].uri: A definition could not be found for Canonical URL 'http://fhir.org/packages/hl7.fhir.no.basis/ImplementationGuide/hl7.fhir.no.basis'
@@ -330,6 +333,7 @@ WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/vkpobservation/Stru
 == fsh-generated/resources/ValueSet-NoDomainVitalSignsBloodPressureMeasurementMethodValueSet.json ==
 == fsh-generated/resources/ValueSet-NoDomainVitalSignsBloodpressureBodySiteValueSet.json ==
 == fsh-generated/resources/ValueSet-vkp-performer-identifiers.valueset.json ==
+== fsh-generated/resources/ValueSet-vkp-performer-organization-identifiers.valueset.json ==
 == fsh-generated/resources/ValueSet-vkp-performer-reference-types.valueset.json ==
 INFORMATION: ValueSet/vkp-performer-reference-types.valueset: ValueSet.compose.include[0]: This include has some concepts with displays and some without - check that this is what is intended
 == fsh-generated/resources/ValueSet-vkp-subject-identifiers.valueset.json ==

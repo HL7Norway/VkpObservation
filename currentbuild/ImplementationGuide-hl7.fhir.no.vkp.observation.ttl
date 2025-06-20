@@ -17,7 +17,7 @@
   fhir:version [ fhir:v "0.3.3"] ; # 
   fhir:name [ fhir:v "VkpObservation"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-06-20T17:06:30+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-06-20T17:15:26+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Norway"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Norway" ] ;
@@ -1070,6 +1070,42 @@
        ] ;
        fhir:name [ fhir:v "Vkp Observation - Consciousness" ] ;
        fhir:description [ fhir:v "Profile for Consciousness in VKP." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem> ;
+         fhir:reference [ fhir:v "CodeSystem/vkp-performer-organization-identifiers.codesystem" ]
+       ] ;
+       fhir:name [ fhir:v "Vkp Performer Identifier for organizations CodeSystem" ] ;
+       fhir:description [ fhir:v "The CodeSystem contains all codes allowed for Observation.performer.system for use with VKP identifying organizations" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-organization-identifiers.valueset> ;
+         fhir:reference [ fhir:v "ValueSet/vkp-performer-organization-identifiers.valueset" ]
+       ] ;
+       fhir:name [ fhir:v "VKP Performer Identifier for organizations ValueSet" ] ;
+       fhir:description [ fhir:v "Identifier Systems allowed for performer identification systems in Vkp Observations for organizations" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false

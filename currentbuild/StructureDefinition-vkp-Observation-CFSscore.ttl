@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "VkpObservationCFSscore"] ; # 
   fhir:title [ fhir:v "Vkp Observation - CFS score"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-06-20T17:06:30+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-06-20T17:15:26+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Norway"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Norway" ] ;
@@ -4049,6 +4049,13 @@
        fhir:mustSupport [ fhir:v true ] ;
        fhir:isModifier [ fhir:v false ] ;
        fhir:isSummary [ fhir:v true ] ;
+       fhir:binding [
+         fhir:strength [ fhir:v "required" ] ;
+         fhir:valueSet [
+           fhir:v "http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-organization-identifiers.valueset"^^xsd:anyURI ;
+           fhir:link <http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-organization-identifiers.valueset>
+         ]
+       ] ;
        fhir:mapping ( [
          fhir:identity [ fhir:v "v2" ] ;
          fhir:map [ fhir:v "CX.4 / EI-2-4" ]

@@ -30,6 +30,17 @@
       ]
     },
     {
+      "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-organization-identifiers.valueset",
+      "version" : "0.3.3",
+      "status" : "draft",
+      "name" : "VkpPerformerOrganizationIdentifiersValueSet",
+      "title" : "VKP Performer Identifier for organizations ValueSet",
+      "description" : "Identifier Systems allowed for performer identification systems in Vkp Observations for organizations",
+      "systems" : [
+        "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem"
+      ]
+    },
+    {
       "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-reference-types.valueset",
       "version" : "0.3.3",
       "status" : "draft",

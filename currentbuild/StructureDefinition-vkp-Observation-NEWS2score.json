@@ -10,7 +10,7 @@
   "name" : "VkpObservationNEWS2score",
   "title" : "Vkp VitalSigns Observation - NEWS2 score",
   "status" : "draft",
-  "date" : "2025-06-20T17:06:30+00:00",
+  "date" : "2025-06-20T17:15:26+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",
@@ -3737,6 +3737,10 @@
       "mustSupport" : true,
       "isModifier" : false,
       "isSummary" : true,
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-organization-identifiers.valueset"
+      },
       "mapping" : [{
         "identity" : "v2",
         "map" : "CX.4 / EI-2-4"

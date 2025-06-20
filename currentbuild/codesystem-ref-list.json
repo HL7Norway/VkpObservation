@@ -12,6 +12,17 @@
       "ValueSet-vkp-performer-identifiers.valueset.html" : "VKP Performer Identifier systems ValueSet"
     },
     {
+      "url" : "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem",
+      "version" : "0.3.3",
+      "status" : "draft",
+      "name" : "VkpPerformerOrganizationIdentifiersCodeSystem",
+      "title" : "Vkp Performer Identifier for organizations CodeSystem",
+      "description" : "The CodeSystem contains all codes allowed for Observation.performer.system for use with VKP identifying organizations",
+      "uses" : {
+      },
+      "ValueSet-vkp-performer-organization-identifiers.valueset.html" : "VKP Performer Identifier for organizations ValueSet"
+    },
+    {
       "url" : "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem",
       "version" : "0.3.3",
       "status" : "draft",
@@ -43,8 +54,8 @@
       "oids" : ["2.16.840.1.113883.6.96"],
       "uses" : {
       },
-      "ValueSet-NoDomainVitalSignsBloodPressureMeasurementMethodValueSet.html" : "NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet",
-      "ValueSet-NoDomainVitalSignsBloodpressureBodySiteValueSet.html" : "NoDomainVitalSignsBloodpressureBodySite-ValueSet"
+      "ValueSet-NoDomainVitalSignsBloodpressureBodySiteValueSet.html" : "NoDomainVitalSignsBloodpressureBodySite-ValueSet",
+      "ValueSet-NoDomainVitalSignsBloodPressureMeasurementMethodValueSet.html" : "NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet"
     }
   ]
 }

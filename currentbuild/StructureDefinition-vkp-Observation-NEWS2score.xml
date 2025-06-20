@@ -36,7 +36,7 @@ Example:
   <name value="VkpObservationNEWS2score"/>
   <title value="Vkp VitalSigns Observation - NEWS2 score"/>
   <status value="draft"/>
-  <date value="2025-06-20T17:06:30+00:00"/>
+  <date value="2025-06-20T17:15:26+00:00"/>
   <publisher value="HL7 Norway"/>
   <contact>
     <name value="HL7 Norway"/>
@@ -3639,6 +3639,10 @@ Example:
       <mustSupport value="true"/>
       <isModifier value="false"/>
       <isSummary value="true"/>
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-organization-identifiers.valueset"/>
+      </binding>
       <mapping>
         <identity value="v2"/>
         <map value="CX.4 / EI-2-4"/>

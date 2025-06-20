@@ -9,7 +9,7 @@
   "version" : "0.3.3",
   "name" : "VkpObservation",
   "status" : "draft",
-  "date" : "2025-06-20T17:06:30+00:00",
+  "date" : "2025-06-20T17:15:26+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",
@@ -767,6 +767,30 @@
       },
       "name" : "Vkp Observation - Consciousness",
       "description" : "Profile for Consciousness in VKP.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/vkp-performer-organization-identifiers.codesystem"
+      },
+      "name" : "Vkp Performer Identifier for organizations CodeSystem",
+      "description" : "The CodeSystem contains all codes allowed for Observation.performer.system for use with VKP identifying organizations",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vkp-performer-organization-identifiers.valueset"
+      },
+      "name" : "VKP Performer Identifier for organizations ValueSet",
+      "description" : "Identifier Systems allowed for performer identification systems in Vkp Observations for organizations",
       "exampleBoolean" : false
     },
     {

@@ -7,6 +7,13 @@
     "name" : "VkpPerformerIdentifiersCodeSystem"
   },
   {
+    "id" : "vkp-performer-organization-identifiers.codesystem",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem",
+    "version" : "0.3.3",
+    "name" : "VkpPerformerOrganizationIdentifiersCodeSystem"
+  },
+  {
     "id" : "vkp-subject-identifiers.codesystem",
     "type" : "CodeSystem",
     "url" : "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem",
@@ -110,6 +117,13 @@
     "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-identifiers.valueset",
     "version" : "0.3.3",
     "name" : "VkpPerformerIdentifiersValueSet"
+  },
+  {
+    "id" : "vkp-performer-organization-identifiers.valueset",
+    "type" : "ValueSet",
+    "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-organization-identifiers.valueset",
+    "version" : "0.3.3",
+    "name" : "VkpPerformerOrganizationIdentifiersValueSet"
   },
   {
     "id" : "vkp-performer-reference-types.valueset",

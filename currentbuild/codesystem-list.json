@@ -9,6 +9,14 @@
       "description" : "The CodeSystem contains all codes allowed for Observation.performer.system for use with VKP"
     },
     {
+      "url" : "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem",
+      "version" : "0.3.3",
+      "status" : "draft",
+      "name" : "VkpPerformerOrganizationIdentifiersCodeSystem",
+      "title" : "Vkp Performer Identifier for organizations CodeSystem",
+      "description" : "The CodeSystem contains all codes allowed for Observation.performer.system for use with VKP identifying organizations"
+    },
+    {
       "url" : "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem",
       "version" : "0.3.3",
       "status" : "draft",
