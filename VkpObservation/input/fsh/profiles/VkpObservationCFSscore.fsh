@@ -6,6 +6,7 @@ Description: "Profile for Clinical Frailty Scale score in VKP."
 * ^status = #draft
 * ^purpose = "To record the CFS score of an individual"
 * . ^short = "FHIR CFS score Profile VKP"
+* code.coding[SCT] 1..*
 * code.coding[SCT].code = #763264000 "Canadian Study of Health and Aging Clinical Frailty Scale score (observable entity)"
 * subject 1.. MS
 * subject only Reference(Patient or $no-basis-Patient)
@@ -15,9 +16,5 @@ Description: "Profile for Clinical Frailty Scale score in VKP."
 * subject.identifier.system MS
 * subject.identifier.value MS
 * subject.display MS
-* performer[author].type MS
-* performer[author].type from VkpPerformerReferenceTypesValueSet (required)
-* performer[author].type ^definition = "The type of author if the CFS score (usually a Practitioner, Patient or RelatedPerson)"
-* performer[author].display MS
 * note MS
 * note ^comment = "Utfyllende informasjon om konteksten for vurderingen"
