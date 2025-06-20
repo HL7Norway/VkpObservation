@@ -26,8 +26,8 @@ Description: "Profile for general observations in VKP."
 * subject.identifier.system MS
 * subject.identifier.value MS
 * subject.display MS
-* performer ^slicing.discriminator.type = #type
-* performer ^slicing.discriminator.path = "type"
+* performer ^slicing.discriminator.type = #pattern
+* performer ^slicing.discriminator.path = "system"
 * performer ^slicing.rules = #open
 * performer contains
     author 0..* and

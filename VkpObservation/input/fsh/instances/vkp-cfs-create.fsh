@@ -17,8 +17,7 @@ Usage: #example
 * performer[0].identifier.system = "urn:oid:2.16.578.1.12.4.1.4.1"
 * performer[=].type = "Practitioner"
 * performer[=].identifier.value = "22"
-* performer[+].identifier.system = "urn:oid:2.16.578.1.12.4.1.4.1"
-* performer[=].type = "Practitioner"
+* performer[+].identifier.system = "urn:oid:2.16.578.1.12.4.1.4.101"
 * performer[=].identifier.value = "103"
 * valueQuantity.value = 2
 * note.text = "Evaluering gjort i brukerens hjem, normalt sprek for sin aldersgruppe."
