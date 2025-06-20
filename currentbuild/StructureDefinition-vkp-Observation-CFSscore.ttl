@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "VkpObservationCFSscore"] ; # 
   fhir:title [ fhir:v "Vkp VitalSigns Observation - CFS score"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-06-20T06:32:13+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-06-20T06:38:10+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Norway"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Norway" ] ;

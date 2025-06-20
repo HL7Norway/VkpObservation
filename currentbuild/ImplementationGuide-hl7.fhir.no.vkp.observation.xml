@@ -9,7 +9,7 @@
   <version value="0.3.2"/>
   <name value="VkpObservation"/>
   <status value="draft"/>
-  <date value="2025-06-20T06:32:13+00:00"/>
+  <date value="2025-06-20T06:38:10+00:00"/>
   <publisher value="HL7 Norway"/>
   <contact>
     <name value="HL7 Norway"/>
@@ -508,7 +508,7 @@
       </reference>
       <name value="CFS score example"/>
       <description value="Eksempel CFS score med notat, dato og hvordan man koder CFS i FHIR"/>
-      <exampleBoolean value="true"/>
+      <exampleCanonical value="http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-CFSscore"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

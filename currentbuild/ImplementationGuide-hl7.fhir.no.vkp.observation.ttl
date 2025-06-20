@@ -17,7 +17,7 @@
   fhir:version [ fhir:v "0.3.2"] ; # 
   fhir:name [ fhir:v "VkpObservation"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-06-20T06:32:13+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-06-20T06:38:10+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Norway"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Norway" ] ;
@@ -929,8 +929,9 @@
        fhir:name [ fhir:v "CFS score example" ] ;
        fhir:description [ fhir:v "Eksempel CFS score med notat, dato og hvordan man koder CFS i FHIR" ] ;
        fhir:example [
-         a fhir:boolean ;
-         fhir:v true
+         a fhir:canonical ;
+         fhir:v "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-CFSscore"^^xsd:anyURI ;
+         fhir:link <http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-CFSscore>
        ]
      ] [
        fhir:extension ( [

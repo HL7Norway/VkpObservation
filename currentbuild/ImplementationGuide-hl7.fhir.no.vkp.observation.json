@@ -9,7 +9,7 @@
   "version" : "0.3.2",
   "name" : "VkpObservation",
   "status" : "draft",
-  "date" : "2025-06-20T06:32:13+00:00",
+  "date" : "2025-06-20T06:38:10+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",
@@ -674,7 +674,7 @@
       },
       "name" : "CFS score example",
       "description" : "Eksempel CFS score med notat, dato og hvordan man koder CFS i FHIR",
-      "exampleBoolean" : true
+      "exampleCanonical" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-CFSscore"
     },
     {
       "extension" : [{
