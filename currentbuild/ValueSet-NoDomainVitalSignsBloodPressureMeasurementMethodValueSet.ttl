@@ -45,7 +45,7 @@
   fhir:title [ fhir:v "NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-06-20T16:50:39+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-06-20T16:59:22+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Norway"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Norway" ] ;
