@@ -12,9 +12,9 @@ Description: "Profile for general observations in VKP."
 * code.coding ^slicing.rules = #open
 * code.coding ^slicing.description = "Slices for LOINC, SCT and NPU/NLK coding of Observation.code"
 * code.coding contains
-  LOINC 0..* MS and
-  SCT 0..* MS and
-  NPU/NLK 0..* MS
+  LOINC 0..* and
+  SCT 0..* and
+  NPU/NLK 0..* 
 * code.coding[LOINC].system = $loinc
 * code.coding[SCT].system = $sct
 * code.coding[NPU/NLK].system = "urn:oid:2.16.578.1.12.4.1.1.7280" (exactly)

@@ -6,6 +6,7 @@ Description: "Profile for Clinical Frailty Scale score in VKP."
 * ^status = #draft
 * ^purpose = "To record the CFS score of an individual"
 * . ^short = "FHIR CFS score Profile VKP"
+* code.coding[SCT] MS
 * code.coding[SCT] ^short = "Snomed CT term to identify CFS score observation"
 * code.coding[SCT] 1..*
 * code.coding[SCT].code = #763264000 "Canadian Study of Health and Aging Clinical Frailty Scale score (observable entity)"
