@@ -10,8 +10,6 @@ Description: "The Valueset contains all codes allowed for Observation.performer.
 * ^status = #draft
 * ^experimental = true
 * ^publisher = "HL7 Norge"
-* ^caseSensitive = true
-* ^content = #complete
 * $resourcetypes#Practitioner "A person who is directly or indirectly involved in the provisioning of healthcare."
 * $resourcetypes#PractitionerRole "A specific set of Roles/Locations/specialties/services that a practitioner may perform at an organization for a period of time."
 * $resourcetypes#Patient 
