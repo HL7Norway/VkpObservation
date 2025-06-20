@@ -14,7 +14,7 @@ Usage: #example
 * effectiveDateTime = "2021-11-02"
 * performer[0].identifier.system = "urn:oid:2.16.578.1.12.4.1.4.1"
 * performer[=].identifier.value = "22"
-* performer[+].identifier.system = "urn:oid:2.16.578.1.12.4.1.4.1"
+* performer[+].identifier.system = "urn:oid:2.16.578.1.12.4.1.4.101"
 * performer[=].identifier.value = "103"
 * valueQuantity.value = 20
 * component[0].code = $sct#1104301000000104 "NEWS2 (National Early Warning Score 2) - respiration rate score"
