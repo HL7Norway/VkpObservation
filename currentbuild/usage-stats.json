@@ -24,7 +24,7 @@
       },
       {
         "url": "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-CFSscore",
-        "title": "Vkp VitalSigns Observation - CFS score"
+        "title": "Vkp Observation - CFS score"
       },
       {
         "url": "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Consciousness",

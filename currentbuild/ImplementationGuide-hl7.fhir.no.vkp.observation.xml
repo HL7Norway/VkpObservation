@@ -9,7 +9,7 @@
   <version value="0.3.2"/>
   <name value="VkpObservation"/>
   <status value="draft"/>
-  <date value="2025-06-20T12:34:45+00:00"/>
+  <date value="2025-06-20T12:45:24+00:00"/>
   <publisher value="HL7 Norway"/>
   <contact>
     <name value="HL7 Norway"/>
@@ -578,6 +578,17 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/vkp-Observation-CFSscore"/>
+      </reference>
+      <name value="Vkp Observation - CFS score"/>
+      <description value="Profile for Clinical Frailty Scale score in VKP."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/vkp-Observation-Consciousness"/>
       </reference>
       <name value="Vkp Observation - Consciousness"/>
@@ -670,17 +681,6 @@
       </reference>
       <name value="Vkp VitalSigns Observation - Body weight"/>
       <description value="Profile for Body weight in VKP."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/vkp-Observation-CFSscore"/>
-      </reference>
-      <name value="Vkp VitalSigns Observation - CFS score"/>
-      <description value="Profile for Clinical Frailty Scale score in VKP."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

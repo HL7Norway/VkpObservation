@@ -9,7 +9,7 @@
   "version" : "0.3.2",
   "name" : "VkpObservation",
   "status" : "draft",
-  "date" : "2025-06-20T12:34:45+00:00",
+  "date" : "2025-06-20T12:45:24+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",
@@ -751,6 +751,18 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
+        "reference" : "StructureDefinition/vkp-Observation-CFSscore"
+      },
+      "name" : "Vkp Observation - CFS score",
+      "description" : "Profile for Clinical Frailty Scale score in VKP.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
         "reference" : "StructureDefinition/vkp-Observation-Consciousness"
       },
       "name" : "Vkp Observation - Consciousness",
@@ -851,18 +863,6 @@
       },
       "name" : "Vkp VitalSigns Observation - Body weight",
       "description" : "Profile for Body weight in VKP.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/vkp-Observation-CFSscore"
-      },
-      "name" : "Vkp VitalSigns Observation - CFS score",
-      "description" : "Profile for Clinical Frailty Scale score in VKP.",
       "exampleBoolean" : false
     },
     {

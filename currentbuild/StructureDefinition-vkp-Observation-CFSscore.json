@@ -8,9 +8,9 @@
   "url" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-CFSscore",
   "version" : "0.3.2",
   "name" : "VkpObservationCFSscore",
-  "title" : "Vkp VitalSigns Observation - CFS score",
+  "title" : "Vkp Observation - CFS score",
   "status" : "draft",
-  "date" : "2025-06-20T12:34:45+00:00",
+  "date" : "2025-06-20T12:45:24+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",

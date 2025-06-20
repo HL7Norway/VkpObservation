@@ -17,7 +17,7 @@
   fhir:version [ fhir:v "0.3.2"] ; # 
   fhir:name [ fhir:v "VkpObservation"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-06-20T12:34:45+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-06-20T12:45:24+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Norway"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Norway" ] ;
@@ -1047,6 +1047,24 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:link <http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-CFSscore> ;
+         fhir:reference [ fhir:v "StructureDefinition/vkp-Observation-CFSscore" ]
+       ] ;
+       fhir:name [ fhir:v "Vkp Observation - CFS score" ] ;
+       fhir:description [ fhir:v "Profile for Clinical Frailty Scale score in VKP." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:link <http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Consciousness> ;
          fhir:reference [ fhir:v "StructureDefinition/vkp-Observation-Consciousness" ]
        ] ;
@@ -1196,24 +1214,6 @@
        ] ;
        fhir:name [ fhir:v "Vkp VitalSigns Observation - Body weight" ] ;
        fhir:description [ fhir:v "Profile for Body weight in VKP." ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "StructureDefinition:resource"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-CFSscore> ;
-         fhir:reference [ fhir:v "StructureDefinition/vkp-Observation-CFSscore" ]
-       ] ;
-       fhir:name [ fhir:v "Vkp VitalSigns Observation - CFS score" ] ;
-       fhir:description [ fhir:v "Profile for Clinical Frailty Scale score in VKP." ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
