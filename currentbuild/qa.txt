@@ -1,10 +1,10 @@
 VkpObservation : Validation Results
 =========================================
 
-err = 91, warn = 92, info = 79
+err = 91, warn = 91, info = 79
 IG Publisher Version: 2.0.7
-Generated Thu Jun 19 20:00:04 UTC 2025. FHIR version 4.0.1 for hl7.fhir.no.vkp.observation#0.3.2 (canonical = http://hl7.no/fhir/vkpobservation)
- Build Errors : 1 / 19 / 0
+Generated Fri Jun 20 06:34:03 UTC 2025. FHIR version 4.0.1 for hl7.fhir.no.vkp.observation#0.3.2 (canonical = http://hl7.no/fhir/vkpobservation)
+ Build Errors : 1 / 18 / 0
  /github/workspace/VkpObservation/fsh-generated/resources/CodeSystem-vkp-performer-identifiers.codesystem : 0 / 0 / 1
  /github/workspace/VkpObservation/fsh-generated/resources/CodeSystem-vkp-subject-identifiers.codesystem : 0 / 0 / 1
  /github/workspace/VkpObservation/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.vkp.observation : 0 / 2 / 1
@@ -48,7 +48,6 @@ WARNING: Unable to find ImplementationGuide.definition.resource.description for 
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/vkp-blood-pressure-profile-create.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/vkp-body-temperature-create.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/vkp-body-weight-create.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/vkp-cfs-create.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/vkp-glucose-create.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/vkp-heartrate-create.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/vkp-news2-create.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.

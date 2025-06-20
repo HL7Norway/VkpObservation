@@ -9,7 +9,7 @@
   "version" : "0.3.2",
   "name" : "VkpObservation",
   "status" : "draft",
-  "date" : "2025-06-19T19:58:19+00:00",
+  "date" : "2025-06-20T06:32:13+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",
@@ -667,6 +667,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/vkp-cfs-create"
+      },
+      "name" : "CFS score example",
+      "description" : "Eksempel CFS score med notat, dato og hvordan man koder CFS i FHIR",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
@@ -921,17 +933,6 @@
       },
       "name" : "vkp-body-weight-create",
       "exampleCanonical" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Bodyweight"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Observation"
-      }],
-      "reference" : {
-        "reference" : "Observation/vkp-cfs-create"
-      },
-      "name" : "vkp-cfs-create",
-      "exampleBoolean" : true
     },
     {
       "extension" : [{

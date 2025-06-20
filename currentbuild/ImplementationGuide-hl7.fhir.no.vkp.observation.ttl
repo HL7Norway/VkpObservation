@@ -17,7 +17,7 @@
   fhir:version [ fhir:v "0.3.2"] ; # 
   fhir:name [ fhir:v "VkpObservation"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-06-19T19:58:19+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-06-20T06:32:13+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Norway"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Norway" ] ;
@@ -919,6 +919,24 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
+           fhir:v "Observation"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.no/fhir/vkpobservation/Observation/vkp-cfs-create> ;
+         fhir:reference [ fhir:v "Observation/vkp-cfs-create" ]
+       ] ;
+       fhir:name [ fhir:v "CFS score example" ] ;
+       fhir:description [ fhir:v "Eksempel CFS score med notat, dato og hvordan man koder CFS i FHIR" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
            fhir:v "StructureDefinition:resource"
          ]
        ] ) ;
@@ -1306,23 +1324,6 @@
          a fhir:canonical ;
          fhir:v "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Bodyweight"^^xsd:anyURI ;
          fhir:link <http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Bodyweight>
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "Observation"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.no/fhir/vkpobservation/Observation/vkp-cfs-create> ;
-         fhir:reference [ fhir:v "Observation/vkp-cfs-create" ]
-       ] ;
-       fhir:name [ fhir:v "vkp-cfs-create" ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v true
        ]
      ] [
        fhir:extension ( [

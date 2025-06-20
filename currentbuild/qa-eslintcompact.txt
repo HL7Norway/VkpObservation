@@ -11,7 +11,6 @@ Generic: line 0, col 0, Warning - Unable to find ImplementationGuide.definition.
 Generic: line 0, col 0, Warning - Unable to find ImplementationGuide.definition.resource.description for the resource Observation/vkp-blood-pressure-profile-create.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list. (INVARIANT)
 Generic: line 0, col 0, Warning - Unable to find ImplementationGuide.definition.resource.description for the resource Observation/vkp-body-temperature-create.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list. (INVARIANT)
 Generic: line 0, col 0, Warning - Unable to find ImplementationGuide.definition.resource.description for the resource Observation/vkp-body-weight-create.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list. (INVARIANT)
-Generic: line 0, col 0, Warning - Unable to find ImplementationGuide.definition.resource.description for the resource Observation/vkp-cfs-create.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list. (INVARIANT)
 Generic: line 0, col 0, Warning - Unable to find ImplementationGuide.definition.resource.description for the resource Observation/vkp-glucose-create.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list. (INVARIANT)
 Generic: line 0, col 0, Warning - Unable to find ImplementationGuide.definition.resource.description for the resource Observation/vkp-heartrate-create.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list. (INVARIANT)
 Generic: line 0, col 0, Warning - Unable to find ImplementationGuide.definition.resource.description for the resource Observation/vkp-news2-create.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list. (INVARIANT)
@@ -264,5 +263,5 @@ Generic: line 0, col 0, Warning - The IG is not for the international realm, and
 /github/workspace/VkpObservation/fsh-generated/resources/StructureDefinition-vkp-Observation-NEWS2score.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this profile (BUSINESSRULE)
 /github/workspace/VkpObservation/fsh-generated/resources/StructureDefinition-vkp-Observation-Resprate.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this profile (BUSINESSRULE)
 
-err = 91, warn = 92, info = 79
+err = 91, warn = 91, info = 79
 IG Publisher Version: 2.0.7
