@@ -33,4 +33,4 @@ Description: "Profile for Clinical Frailty Scale score in VKP."
 * performer.identifier.value MS
 * performer.display MS
 * note MS
-* note comment = "Utfyllende informasjon om konteksten for vurderingen"
+* note ^comment = "Utfyllende informasjon om konteksten for vurderingen"
