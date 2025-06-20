@@ -32,3 +32,4 @@ Description: "Profile for Clinical Frailty Scale score in VKP."
 * performer.identifier.system MS
 * performer.identifier.value MS
 * performer.display MS
+* note MS
