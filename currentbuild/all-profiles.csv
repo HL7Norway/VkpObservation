@@ -1685,16 +1685,16 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Plain text representation of the concept","A human language representation of the concept as seen/selected/uttered by the user who entered the data and/or which represents the intended meaning of the user.","Very often the text is the same as a displayName of one of the codings.","The codes from the terminologies do not always capture the correct meaning with all the nuances of the human using them, or sometimes there is no appropriate code at all. In these cases, the text is used to capture the full meaning of the source.","","","","","","","",,,,,"",,,,"CodeableConcept.text",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "vkp-Observation-CFSscore","Observation.subject","Observation.subject","","","",1,1,"Y","","Y","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient], CanonicalType[http://hl7.no/fhir/StructureDefinition/no-basis-Patient]]}
-","Who and/or what the observation is about","Reference to the practitioner that performed the observation, identified by Norwegian national id number (Fødselsnummer or DNR).
+","Who and/or what the observation is about","Reference to the patient that is subject to the encounter, identified by Norwegian national id number (Fødselsnummer or DNR).
 
 A link to a resource representing the person or the group to whom the medication will be given.
 
-VKP always references a Practitioner Resource using a norwegian national id number (Fødselsnummer or DNR) in a logical identifier in the practitioner.identifier element.
-The Name of the practitioner should be given in the performer.display element.
+VKP always references a Patient Resource using a norwegian national id number (Fødselsnummer or DNR) in a logical identifier in the subject.identifier element.
+The Name of the patient should be given in the subject.display element.
 
 Example:
 ~~~~
-""performer"":{
+""subject"":{
    ""identifier"":{
       ""system"":""urn:oid:2.16.578.1.12.4.1.4.1"",
       ""value"":""05073500186""
@@ -1771,7 +1771,23 @@ Period {[]} {[]}Timing {[]} {[]}instant {[]} {[]}","Clinically relevant time/tim
 ","Date/Time this version was made available","The date and time this version of the observation was made available to providers, typically after the results have been reviewed and verified.","For Observations that don’t require review and verification, it may be the same as the [`lastUpdated` ](http://hl7.org/fhir/R4/resource-definitions.html#Meta.lastUpdated) time of the resource itself.  For Observations that do require review and verification for certain updates, it might not be the same as the `lastUpdated` time of the resource itself due to a non-clinically significant update that doesn’t require the new version to be reviewed and verified again.","","","","","","","","",,,,,"",,,,"Observation.issued",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "vkp-Observation-CFSscore","Observation.performer","Observation.performer","","","",0,*,"Y","","Y","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Practitioner], CanonicalType[http://hl7.no/fhir/StructureDefinition/no-basis-Practitioner], CanonicalType[http://hl7.org/fhir/StructureDefinition/PractitionerRole], CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient], CanonicalType[http://hl7.org/fhir/StructureDefinition/CareTeam], CanonicalType[http://hl7.org/fhir/StructureDefinition/RelatedPerson], CanonicalType[http://hl7.org/fhir/StructureDefinition/Organization]]}
-","Who is responsible for the observation","Who was responsible for asserting the observed value as ""true"".","","May give a degree of confidence in the observation and also indicates where follow-up questions should be directed.","","","","","","","",,,,,"",,,,"Observation.performer",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Who is responsible for the observation","Reference to the practitioner that performed the observation, identified by Norwegian national id number (Fødselsnummer or DNR).
+
+A link to a resource representing the person or the group to whom the medication will be given.
+
+VKP always references a Practitioner Resource using a norwegian national id number (Fødselsnummer or DNR) in a logical identifier in the practitioner.identifier element.
+The Name of the practitioner should be given in the performer.display element.
+
+Example:
+~~~~
+""performer"":{
+   ""identifier"":{
+      ""system"":""urn:oid:2.16.578.1.12.4.1.4.1"",
+      ""value"":""05073500186""
+     },
+     ""display"":""Ærlend Sørgård""
+}
+~~~~","","May give a degree of confidence in the observation and also indicates where follow-up questions should be directed.","","","","","","","",,,,,"",,,,"Observation.performer",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "vkp-Observation-CFSscore","Observation.performer.id","Observation.performer.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"",""
@@ -1784,10 +1800,10 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Literal reference, Relative, internal or absolute URL","A reference to a location at which the other resource is found. The reference may be a relative reference, in which case it is relative to the service base URL, or an absolute URL that resolves to the location where the resource is found. The reference may be version specific or not. If the reference is not to a FHIR RESTful server, then it should be assumed to be version specific. Internal fragment references (start with '#') refer to contained resources.","Using absolute URLs provides a stable scalable approach suitable for a cloud/web context, while using relative/logical references provides a flexible approach suitable for use when trading across closed eco-system boundaries.   Absolute URLs do not need to point to a FHIR RESTful server, though this is the preferred approach. If the URL conforms to the structure ""/[type]/[id]"" then it should be assumed that the reference is to a FHIR RESTful server.","","","","","","","","",,,,,"",,,,"Reference.reference",0,1,"ref-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
-"vkp-Observation-CFSscore","Observation.performer.type","Observation.performer.type","","","",0,1,"","","Y","uri {[]} {[]}
+"vkp-Observation-CFSscore","Observation.performer.type","Observation.performer.type","","","",0,1,"Y","","Y","uri {[]} {[]}
 ","Type the reference refers to (e.g. ""Patient"")","The expected type of the target of the reference. If both Reference.type and Reference.reference are populated and Reference.reference is a FHIR URL, both SHALL be consistent.
 
-The type is the Canonical URL of Resource Definition that is the type this reference refers to. References are URLs that are relative to http://hl7.org/fhir/StructureDefinition/ e.g. ""Patient"" is a reference to http://hl7.org/fhir/StructureDefinition/Patient. Absolute URLs are only allowed for logical models (and can only be used in references in logical models, not resources).","This element is used to indicate the type of  the target of the reference. This may be used which ever of the other elements are populated (or not). In some cases, the type of the target may be determined by inspection of the reference (e.g. a RESTful URL) or by resolving the target of the reference; if both the type and a reference is provided, the reference SHALL resolve to a resource of the same type as that specified.","","","","","","","","",,"extensible","Aa resource (or, for logical models, the URI of the logical model).","http://hl7.org/fhir/ValueSet/resource-types","",,,,"Reference.type",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+The type is the Canonical URL of Resource Definition that is the type this reference refers to. References are URLs that are relative to http://hl7.org/fhir/StructureDefinition/ e.g. ""Patient"" is a reference to http://hl7.org/fhir/StructureDefinition/Patient. Absolute URLs are only allowed for logical models (and can only be used in references in logical models, not resources).","This element is used to indicate the type of  the target of the reference. This may be used which ever of the other elements are populated (or not). In some cases, the type of the target may be determined by inspection of the reference (e.g. a RESTful URL) or by resolving the target of the reference; if both the type and a reference is provided, the reference SHALL resolve to a resource of the same type as that specified.","","","","","","","","",,"required","","http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-reference-types.valueset","",,,,"Reference.type",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "vkp-Observation-CFSscore","Observation.performer.identifier","Observation.performer.identifier","","","",0,1,"Y","","Y","Identifier {[]} {[]}
 ","Logical reference, when literal reference is not known","An identifier for the target resource. This is used when there is no way to reference the other resource directly, either because the entity it represents is not available through a FHIR server, or because there is no way for the author of the resource to convert a known identifier to an actual location. There is no requirement that a Reference.identifier point to something that is actually exposed as a FHIR instance, but it SHALL point to a business concept that would be expected to be exposed as a FHIR instance, and that instance would need to be of a FHIR resource type allowed by the reference.","When an identifier is provided in place of a reference, any system processing the reference will only be able to resolve the identifier to a reference if it understands the business context in which the identifier is used. Sometimes this is global (e.g. a national identifier) but often it is not. For this reason, none of the useful mechanisms described for working with references (e.g. chaining, includes) are possible, nor should servers be expected to be able resolve the reference. Servers may accept an identifier based reference untouched, resolve it, and/or reject it - see CapabilityStatement.rest.resource.referencePolicy. 
