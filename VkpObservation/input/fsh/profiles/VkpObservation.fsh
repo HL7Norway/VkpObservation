@@ -44,7 +44,7 @@ Description: "Profile for general observations in VKP."
 * performer[organization] only Reference(Organization or $no-basis-Organization)
 * performer[organization] 0.. MS
 * performer[organization].identifier MS
-//* performer[organization].identifier.system from VkpPerformerIdentifiersValueSet (required)
+* performer[organization].identifier.system from VkpPerformerOrganizationIdentifiersValueSet (required)
 * performer[organization].identifier.system MS
 * performer[organization].identifier.value MS
 * performer[organization].display MS
