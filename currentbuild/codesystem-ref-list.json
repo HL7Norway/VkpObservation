@@ -43,8 +43,8 @@
       "oids" : ["2.16.840.1.113883.6.96"],
       "uses" : {
       },
-      "ValueSet-NoDomainVitalSignsBloodpressureBodySiteValueSet.html" : "NoDomainVitalSignsBloodpressureBodySite-ValueSet",
-      "ValueSet-NoDomainVitalSignsBloodPressureMeasurementMethodValueSet.html" : "NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet"
+      "ValueSet-NoDomainVitalSignsBloodPressureMeasurementMethodValueSet.html" : "NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet",
+      "ValueSet-NoDomainVitalSignsBloodpressureBodySiteValueSet.html" : "NoDomainVitalSignsBloodpressureBodySite-ValueSet"
     }
   ]
 }

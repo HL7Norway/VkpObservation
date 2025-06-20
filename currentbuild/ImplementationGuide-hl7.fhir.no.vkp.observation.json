@@ -9,7 +9,7 @@
   "version" : "0.3.3",
   "name" : "VkpObservation",
   "status" : "draft",
-  "date" : "2025-06-20T17:02:13+00:00",
+  "date" : "2025-06-20T17:06:30+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",
@@ -977,7 +977,7 @@
         "reference" : "Observation/vkp-news2-create"
       },
       "name" : "vkp-news2-create",
-      "exampleBoolean" : true
+      "exampleCanonical" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-NEWS2score"
     },
     {
       "extension" : [{

@@ -6,14 +6,14 @@
   "status" : "draft",
   "package-id" : "hl7.fhir.no.vkp.observation",
   "ig-ver" : "0.3.3",
-  "date" : "Fri, 20 Jun, 2025 17:02:54 +0000",
-  "dateISO8601" : "2025-06-20T17:02:54+00:00",
+  "date" : "Fri, 20 Jun, 2025 17:07:13 +0000",
+  "dateISO8601" : "2025-06-20T17:07:13+00:00",
   "errs" : 93,
-  "warnings" : 88,
-  "hints" : 81,
+  "warnings" : 85,
+  "hints" : 84,
   "suppressed-hints" : 0,
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 1380959864
+  "maxMemory" : 1134881584
 }

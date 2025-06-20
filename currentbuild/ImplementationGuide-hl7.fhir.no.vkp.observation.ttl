@@ -17,7 +17,7 @@
   fhir:version [ fhir:v "0.3.3"] ; # 
   fhir:name [ fhir:v "VkpObservation"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-06-20T17:02:13+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-06-20T17:06:30+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Norway"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Norway" ] ;
@@ -1394,8 +1394,9 @@
        ] ;
        fhir:name [ fhir:v "vkp-news2-create" ] ;
        fhir:example [
-         a fhir:boolean ;
-         fhir:v true
+         a fhir:canonical ;
+         fhir:v "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-NEWS2score"^^xsd:anyURI ;
+         fhir:link <http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-NEWS2score>
        ]
      ] [
        fhir:extension ( [
