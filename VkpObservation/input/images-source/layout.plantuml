@@ -1,0 +1,52 @@
+@startuml
+
+'rectangle produsenter {
+actor "Pasient" as pasient
+actor "Helsepersonell" as helseinn
+'component "DHO\nløsning" as dho
+component "EPJ/pasient\nløsning" as annen
+
+helseinn -> annen
+'pasient -> dho
+pasient -up-> annen
+
+
+'rectangle "NHN infrastruktur" as NHN #LightGreen {
+'card "API" as apinn
+'component "VKP" as VKP
+'card "API" as apiut
+
+rectangle "NHN privat sky" as NHNPS #LightGreen {
+   component "APIinn" as apinn2
+   database "Pasientens\nmåledata" as pmd
+   component "APIut" as apiut2
+   apinn2 -> pmd
+   pmd -> apiut2
+}
+
+'component "Kommune\nPLO EPJ" as epj
+'rectangle konsumenter {
+component "Helsenorge" as helsenorge #LightGreen
+component "Kommune" as kommune
+component "Sykehus" as syk
+component "Fastlege" as fastlege
+
+'rectangle "konsument" as konsument {
+actor "Pasient" as pasientk
+actor "Behandler" as behandler
+helsenorge -down[hidden]- kommune
+kommune -[hidden]- syk
+syk -[hidden]- fastlege
+helsenorge -right-> pasientk
+kommune -right-> behandler
+syk -right-> behandler
+fastlege -right-> behandler
+
+
+annen -right-> apinn2
+apiut2 -right-> helsenorge
+apiut2 -right-> kommune
+apiut2 -right-> syk
+apiut2 -right-> fastlege
+
+@enduml
