@@ -1,0 +1,65 @@
+@startuml
+
+actor "Pasient" as pasient
+actor "Helsepersonell" as helseinn
+
+'component "DHO\nløsning" as dho
+component "EPJ/pasient\nløsning" as annen
+
+rectangle "NHN infrastruktur" as NHN #LightGreen {
+'card "API" as apinn
+'component "VKP" as VKP
+'card "API" as apiut
+
+rectangle "NHN privat sky" as NHNPS {
+   card "API" as apinn2
+   database "PMD" as pmd
+   card "API" as apiut2
+}
+}
+'component "Kommune\nPLO EPJ" as epj
+
+component "Helsenorge" as helsenorge #LightGreen
+component "Kommune" as kommune
+component "Sykehus" as syk
+component "Fastlege" as fastlege
+
+'rectangle "konsument" as konsument {
+actor "Pasient" as pasientk
+actor "Behandler" as behandler
+'pasientk -down- behandler
+'}
+
+'dho -down[hidden]- annen
+helsenorge -down[hidden]- kommune
+
+apiut2 -up-> helsenorge
+helsenorge -right-> pasientk
+
+helseinn -> annen
+'pasient -> dho
+pasient -up-> annen
+'dho -> apinn
+'apinn -> VKP
+'VKP -> apiut
+annen -right-> apinn2
+
+'VKP -down-> pmd
+apinn2 -> pmd
+pmd -> apiut2
+
+'epj -[hidden]- kommune
+kommune -[hidden]- syk
+syk -[hidden]- fastlege
+
+'apiut -> epj
+
+apiut2 -right-> kommune
+apiut2 -right-> syk
+apiut2 -right-> fastlege
+'epj -> behandler
+kommune -right-> behandler
+syk -right-> behandler
+fastlege -right-> behandler
+
+@enduml
