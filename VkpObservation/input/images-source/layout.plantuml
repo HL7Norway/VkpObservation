@@ -17,9 +17,9 @@ pasient -up-> annen
 'card "API" as apiut
 
 rectangle "NHN privat sky" as NHNPS #LightGreen {
-   component "APIinn" as apinn2
+   component "API-inn" as apinn2
    database "Pasientens\nmåledata" as pmd
-   component "APIut" as apiut2
+   component "API-ut" as apiut2
    apinn2 -> pmd
    pmd -> apiut2
 }
