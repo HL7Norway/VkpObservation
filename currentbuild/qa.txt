@@ -1,28 +1,28 @@
 VkpObservation : Validation Results
 =========================================
 
-err = 91, warn = 87, info = 88
-IG Publisher Version: 2.0.7
-Generated Mon Jun 23 08:03:25 UTC 2025. FHIR version 4.0.1 for hl7.fhir.no.vkp.observation#0.3.3 (canonical = http://hl7.no/fhir/vkpobservation)
+err = 91, warn = 90, info = 96
+IG Publisher Version: 2.0.25
+Generated Thu Oct 30 12:12:30 UTC 2025. FHIR version 4.0.1 for hl7.fhir.no.vkp.observation#0.3.4 (canonical = http://hl7.no/fhir/vkpobservation)
  Build Errors : 1 / 18 / 0
  /github/workspace/VkpObservation/fsh-generated/resources/CodeSystem-vkp-performer-identifiers.codesystem : 0 / 0 / 1
  /github/workspace/VkpObservation/fsh-generated/resources/CodeSystem-vkp-performer-organization-identifiers.codesystem : 0 / 0 / 1
  /github/workspace/VkpObservation/fsh-generated/resources/CodeSystem-vkp-subject-identifiers.codesystem : 0 / 0 / 1
  /github/workspace/VkpObservation/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.vkp.observation : 0 / 2 / 1
- /github/workspace/VkpObservation/fsh-generated/resources/Observation-blood-pressure-create : 23 / 13 / 14
+ /github/workspace/VkpObservation/fsh-generated/resources/Observation-blood-pressure-create : 23 / 12 / 14
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-body-height-create : 6 / 6 / 4
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-body-mass-index-create : 6 / 6 / 5
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-heart-rate-create : 16 / 7 / 6
- /github/workspace/VkpObservation/fsh-generated/resources/Observation-level-of-consciousness-create : 4 / 6 / 2
+ /github/workspace/VkpObservation/fsh-generated/resources/Observation-level-of-consciousness-create : 4 / 5 / 2
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-respiratory-rate-create : 22 / 14 / 5
- /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-blood-pressure-profile-create : 4 / 1 / 19
- /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-body-temperature-create : 1 / 1 / 7
- /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-body-weight-create : 0 / 1 / 7
+ /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-blood-pressure-profile-create : 4 / 3 / 16
+ /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-body-temperature-create : 1 / 2 / 6
+ /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-body-weight-create : 0 / 2 / 6
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-cfs-create : 0 / 2 / 6
- /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-glucose-create : 0 / 3 / 6
- /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-heartrate-create : 0 / 1 / 7
+ /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-glucose-create : 0 / 2 / 6
+ /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-heartrate-create : 0 / 2 / 6
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-news2-create : 8 / 3 / 5
- /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-oxygen-saturation-create : 0 / 1 / 7
+ /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-oxygen-saturation-create : 0 / 2 / 6
  /github/workspace/VkpObservation/fsh-generated/resources/StructureDefinition-vkp-Observation : 0 / 0 / 5
  /github/workspace/VkpObservation/fsh-generated/resources/StructureDefinition-vkp-Observation-Bloodpressure : 0 / 0 / 2
  /github/workspace/VkpObservation/fsh-generated/resources/StructureDefinition-vkp-Observation-Bodytemp : 0 / 0 / 1
@@ -33,11 +33,11 @@ Generated Mon Jun 23 08:03:25 UTC 2025. FHIR version 4.0.1 for hl7.fhir.no.vkp.o
  /github/workspace/VkpObservation/fsh-generated/resources/StructureDefinition-vkp-Observation-NEWS2score : 0 / 0 / 3
  /github/workspace/VkpObservation/fsh-generated/resources/StructureDefinition-vkp-Observation-Oxygensat : 0 / 0 / 1
  /github/workspace/VkpObservation/fsh-generated/resources/StructureDefinition-vkp-Observation-Resprate : 0 / 1 / 1
- /github/workspace/VkpObservation/fsh-generated/resources/ValueSet-NoDomainVitalSignsBloodPressureMeasurementMethodValueSet : 0 / 0 / 1
- /github/workspace/VkpObservation/fsh-generated/resources/ValueSet-NoDomainVitalSignsBloodpressureBodySiteValueSet : 0 / 0 / 1
+ /github/workspace/VkpObservation/fsh-generated/resources/ValueSet-NoDomainVitalSignsBloodPressureMeasurementMethodValueSet : 0 / 0 / 3
+ /github/workspace/VkpObservation/fsh-generated/resources/ValueSet-NoDomainVitalSignsBloodpressureBodySiteValueSet : 0 / 0 / 12
  /github/workspace/VkpObservation/fsh-generated/resources/ValueSet-vkp-performer-identifiers.valueset : 0 / 0 / 1
  /github/workspace/VkpObservation/fsh-generated/resources/ValueSet-vkp-performer-organization-identifiers.valueset : 0 / 0 / 1
- /github/workspace/VkpObservation/fsh-generated/resources/ValueSet-vkp-performer-reference-types.valueset : 0 / 0 / 2
+ /github/workspace/VkpObservation/fsh-generated/resources/ValueSet-vkp-performer-reference-types.valueset : 0 / 0 / 4
  /github/workspace/VkpObservation/fsh-generated/resources/ValueSet-vkp-subject-identifiers.valueset : 0 / 0 / 1
 </table>
 == n/a ==
@@ -113,7 +113,6 @@ ERROR: Observation/blood-pressure-create: Observation.component[2].code.coding[0
 ERROR: Observation/blood-pressure-create: Observation.component[3].code.coding[0].code: Unknown code '4461000202102' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20250201'
 INFORMATION: Observation/blood-pressure-create: Observation.component[2]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/bp|4.0.1 (this may not be a problem, but you should check that it's not intended to match a slice)
 INFORMATION: Observation/blood-pressure-create: Observation.component[3]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/bp|4.0.1 (this may not be a problem, but you should check that it's not intended to match a slice)
-WARNING: Observation/blood-pressure-create: Observation.component[0].code.coding[1]: A definition for CodeSystem 'http://acme.org/devices/clinical-codes' could not be found, so the code cannot be validated
 INFORMATION: Observation/blood-pressure-create: Observation.component[0].code.coding[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/bp|4.0.1 (this may not be a problem, but you should check that it's not intended to match a slice)
 == fsh-generated/resources/Observation-body-height-create.json ==
 INFORMATION: Observation/body-height-create: Observation.meta.source: No definition could be found for URL value 'META_VISION'
@@ -185,7 +184,6 @@ WARNING: Observation/level-of-consciousness-create: Observation.performer[0].ide
 ERROR: Observation/level-of-consciousness-create: Observation.performer[1]: Unable to resolve resource with reference 'PractitionerRole/agb103'
 WARNING: Observation/level-of-consciousness-create: Observation.performer[1].identifier.system: No definition could be found for URL value 'urn:oid:1.3.6.1.4.1.9038.51.1'
 WARNING: Observation/level-of-consciousness-create: Observation.value.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'http://dips.no/fhir/code' could not be found, so the code cannot be validated
-WARNING: Observation/level-of-consciousness-create: Observation.value.ofType(CodeableConcept).coding[0].system: No definition could be found for URL value 'http://dips.no/fhir/code'
 == fsh-generated/resources/Observation-respiratory-rate-create.json ==
 INFORMATION: Observation/respiratory-rate-create: Observation.meta.source: No definition could be found for URL value 'META_VISION'
 ERROR: Observation/respiratory-rate-create: Observation.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/no-domain-vitalsignsobservation-respirationrate-bodypositionextension could not be found so is not allowed here
@@ -227,75 +225,73 @@ WARNING: Observation/respiratory-rate-create: Observation.performer[0].identifie
 ERROR: Observation/respiratory-rate-create: Observation.performer[1]: Unable to resolve resource with reference 'Organization/afa22'
 WARNING: Observation/respiratory-rate-create: Observation.performer[1].identifier.system: No definition could be found for URL value 'urn:oid:1.3.6.1.4.1.9038.70.3'
 == fsh-generated/resources/Observation-vkp-blood-pressure-profile-create.json ==
-INFORMATION: Observation/vkp-blood-pressure-profile-create: Observation.component[2]: This element does not match any known slice defined in the profile http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Bloodpressure|0.3.3 (this may not be a problem, but you should check that it's not intended to match a slice)
-INFORMATION: Observation/vkp-blood-pressure-profile-create: Observation.component[3]: This element does not match any known slice defined in the profile http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Bloodpressure|0.3.3 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Observation/vkp-blood-pressure-profile-create: Observation.component[2]: This element does not match any known slice defined in the profile http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Bloodpressure|0.3.4 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Observation/vkp-blood-pressure-profile-create: Observation.component[3]: This element does not match any known slice defined in the profile http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Bloodpressure|0.3.4 (this may not be a problem, but you should check that it's not intended to match a slice)
 INFORMATION: Observation/vkp-blood-pressure-profile-create: Observation.meta.source: No definition could be found for URL value 'META_VISION'
 WARNING: Observation/vkp-blood-pressure-profile-create: Observation.identifier[0].system: No definition could be found for URL value 'http://dips.no/fhir/namingsystem/externalId'
 INFORMATION: Observation/vkp-blood-pressure-profile-create: Observation.code.coding[0].display: There are no valid display names found for the code http://loinc.org#85354-9 for language(s) 'no-NO'. The display is 'Blood pressure panel with all children optional' the default language display
-INFORMATION: Observation/vkp-blood-pressure-profile-create: Observation.subject.identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem|0.3.3
-INFORMATION: Observation/vkp-blood-pressure-profile-create: Observation.performer[0].identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem|0.3.3
+INFORMATION: Observation/vkp-blood-pressure-profile-create: Observation.subject.identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem|0.3.4
+INFORMATION: Observation/vkp-blood-pressure-profile-create: Observation.performer[0].identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem|0.3.4
 INFORMATION: Observation/vkp-blood-pressure-profile-create: Observation.bodySite.coding[0].display: 'Finger structure (body structure)' is the default display; the code system http://snomed.info/sct has no Display Names for the language no-NO
-ERROR: Observation/vkp-blood-pressure-profile-create: Observation.method.coding[0].display: Wrong Display Name 'Auscultation - action (qualifier value)' for http://snomed.info/sct#37931006. There are no valid display names found for language(s) 'no-NO'. Default display is 'Auscultation'
-ERROR: Observation/vkp-blood-pressure-profile-create: Observation.method: None of the codings provided are in the value set 'NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet' (http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet|0.3.3), and a coding from this value set is required) (codes = http://snomed.info/sct#37931006)
 ERROR: Observation/vkp-blood-pressure-profile-create: Observation.method.coding[0].display: Wrong Display Name 'Auscultation - action (qualifier value)' for http://snomed.info/sct#37931006. Valid display is 'Auskultasjon' (for the language(s) 'no-NO')
-ERROR: Observation/vkp-blood-pressure-profile-create: Observation.method.coding[0]: The code provided (http://snomed.info/sct#37931006) was not found in the value set 'NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet' (http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet|0.3.3), and a code from this value set is required: Wrong Display Name 'Auscultation - action (qualifier value)' for http://snomed.info/sct#37931006. Valid display is 'Auskultasjon' (for the language(s) 'no-NO')
+ERROR: Observation/vkp-blood-pressure-profile-create: Observation.method: None of the codings provided are in the value set 'NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet' (http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet|0.3.4), and a coding from this value set is required) (codes = http://snomed.info/sct#37931006)
+ERROR: Observation/vkp-blood-pressure-profile-create: Observation.method.coding[0]: The code provided (http://snomed.info/sct#37931006) was not found in the value set 'NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet' (http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet|0.3.4), and a code from this value set is required: Wrong Display Name 'Auscultation - action (qualifier value)' for http://snomed.info/sct#37931006. Valid display is 'Auskultasjon' (for the language(s) 'no-NO')
 INFORMATION: Observation/vkp-blood-pressure-profile-create: Observation.component[0].code.coding[0].display: There are no valid display names found for the code http://loinc.org#8480-6 for language(s) 'no-NO'. The display is 'Systolic blood pressure' the default language display
-INFORMATION: Observation/vkp-blood-pressure-profile-create: Observation.component[0].code.coding[1].display: 'Systolic Blood pressure' is the default display; the code system http://snomed.info/sct has no Display Names for the language no-NO
+WARNING: Observation/vkp-blood-pressure-profile-create: Observation.component[0].code: The provided code 'http://snomed.info/sct#271649006 ('Systolic Blood pressure')' was not found in the value set 'http://hl7.org/fhir/ValueSet/observation-vitalsignresult|4.0.1'; There are no valid display names found for the code http://loinc.org#8480-6 for language(s) 'no-NO'. The display is 'Systolic blood pressure' the default language display
 INFORMATION: Observation/vkp-blood-pressure-profile-create: Observation.component[1].code.coding[0].display: There are no valid display names found for the code http://loinc.org#8462-4 for language(s) 'no-NO'. The display is 'Diastolic blood pressure' the default language display
-INFORMATION: Observation/vkp-blood-pressure-profile-create: Observation.component[1].code.coding[1].display: 'Diastolic Blood pressure' is the default display; the code system http://snomed.info/sct has no Display Names for the language no-NO
+WARNING: Observation/vkp-blood-pressure-profile-create: Observation.component[1].code: The provided code 'http://snomed.info/sct#271650006 ('Diastolic Blood pressure')' was not found in the value set 'http://hl7.org/fhir/ValueSet/observation-vitalsignresult|4.0.1'; There are no valid display names found for the code http://loinc.org#8462-4 for language(s) 'no-NO'. The display is 'Diastolic blood pressure' the default language display
 INFORMATION: Observation/vkp-blood-pressure-profile-create: Observation.component[2].code.coding[0].display: There are no valid display names found for the code http://loinc.org#8478-0 for language(s) 'no-NO'. The display is 'Mean blood pressure' the default language display
-INFORMATION: Observation/vkp-blood-pressure-profile-create: Observation.component[3].code.coding[0].display: 'Arterial pulse pressure' is the default display; the code system http://snomed.info/sct has no Display Names for the language no-NO
 INFORMATION: Observation/vkp-blood-pressure-profile-create: Observation.component[2]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/bp|4.0.1 (this may not be a problem, but you should check that it's not intended to match a slice)
 INFORMATION: Observation/vkp-blood-pressure-profile-create: Observation.component[3]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/bp|4.0.1 (this may not be a problem, but you should check that it's not intended to match a slice)
+ERROR: Observation/vkp-blood-pressure-profile-create: Observation.method.coding[0].display: Wrong Display Name 'Auscultation - action (qualifier value)' for http://snomed.info/sct#37931006. There are no valid display names found for language(s) 'no-NO'. Default display is 'Auscultation'
 INFORMATION: Observation/vkp-blood-pressure-profile-create: Observation.component[0].code.coding[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/bp|4.0.1 (this may not be a problem, but you should check that it's not intended to match a slice)
 INFORMATION: Observation/vkp-blood-pressure-profile-create: Observation.component[1].code.coding[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/bp|4.0.1 (this may not be a problem, but you should check that it's not intended to match a slice)
 == fsh-generated/resources/Observation-vkp-body-temperature-create.json ==
 INFORMATION: Observation/vkp-body-temperature-create: Observation.meta.source: No definition could be found for URL value 'Thomas'
 WARNING: Observation/vkp-body-temperature-create: Observation.identifier[0].system: No definition could be found for URL value 'http://dips.no/fhir/namingsystem/externalId'
 INFORMATION: Observation/vkp-body-temperature-create: Observation.code.coding[0].display: There are no valid display names found for the code http://loinc.org#8310-5 for language(s) 'no-NO'. The display is 'Body temperature' the default language display
-INFORMATION: Observation/vkp-body-temperature-create: Observation.code.coding[1].display: 'Core body temperature (observable entity)' is the default display; the code system http://snomed.info/sct has no Display Names for the language no-NO
-INFORMATION: Observation/vkp-body-temperature-create: Observation.subject.identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem|0.3.3
-INFORMATION: Observation/vkp-body-temperature-create: Observation.performer[0].identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem|0.3.3
+WARNING: Observation/vkp-body-temperature-create: Observation.code: The provided code 'http://snomed.info/sct#276885007 ('Core body temperature (observable entity)')' was not found in the value set 'http://hl7.org/fhir/ValueSet/observation-vitalsignresult|4.0.1'; There are no valid display names found for the code http://loinc.org#8310-5 for language(s) 'no-NO'. The display is 'Body temperature' the default language display
+INFORMATION: Observation/vkp-body-temperature-create: Observation.subject.identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem|0.3.4
+INFORMATION: Observation/vkp-body-temperature-create: Observation.performer[0].identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem|0.3.4
 ERROR: Observation/vkp-body-temperature-create: Observation.bodySite.coding[0].display: Wrong Display Name 'Endetarm' for http://snomed.info/sct#34402009. There are no valid display names found for language(s) 'no-NO'. Default display is 'Rectum'
 == fsh-generated/resources/Observation-vkp-body-weight-create.json ==
 INFORMATION: Observation/vkp-body-weight-create: Observation.meta.source: No definition could be found for URL value 'Thomas'
 WARNING: Observation/vkp-body-weight-create: Observation.identifier[0].system: No definition could be found for URL value 'http://dips.no/fhir/namingsystem/externalId'
 INFORMATION: Observation/vkp-body-weight-create: Observation.code.coding[0].display: There are no valid display names found for the code http://loinc.org#29463-7 for language(s) 'no-NO'. The display is 'Body weight' the default language display
-INFORMATION: Observation/vkp-body-weight-create: Observation.code.coding[1].display: 'Body weight (observable entity)' is the default display; the code system http://snomed.info/sct has no Display Names for the language no-NO
-INFORMATION: Observation/vkp-body-weight-create: Observation.subject.identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem|0.3.3
-INFORMATION: Observation/vkp-body-weight-create: Observation.performer[0].identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem|0.3.3
+WARNING: Observation/vkp-body-weight-create: Observation.code: The provided code 'http://snomed.info/sct#27113001 ('Body weight (observable entity)')' was not found in the value set 'http://hl7.org/fhir/ValueSet/observation-vitalsignresult|4.0.1'; There are no valid display names found for the code http://loinc.org#29463-7 for language(s) 'no-NO'. The display is 'Body weight' the default language display
+INFORMATION: Observation/vkp-body-weight-create: Observation.subject.identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem|0.3.4
+INFORMATION: Observation/vkp-body-weight-create: Observation.performer[0].identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem|0.3.4
 == fsh-generated/resources/Observation-vkp-cfs-create.json ==
 INFORMATION: Observation/vkp-cfs-create: Observation.meta.source: No definition could be found for URL value 'MEDANETS'
 WARNING: Observation/vkp-cfs-create: Observation.identifier[0].system: No definition could be found for URL value 'http://dips.no/fhir/namingsystem/externalId'
 INFORMATION: Observation/vkp-cfs-create: Observation.code.coding[0].display: 'Canadian Study of Health and Aging Clinical Frailty Scale score (observable entity)' is the default display; the code system http://snomed.info/sct has no Display Names for the language no-NO
-INFORMATION: Observation/vkp-cfs-create: Observation.subject.identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem|0.3.3
-INFORMATION: Observation/vkp-cfs-create: Observation.performer[0].identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem|0.3.3
+INFORMATION: Observation/vkp-cfs-create: Observation.subject.identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem|0.3.4
+INFORMATION: Observation/vkp-cfs-create: Observation.performer[0].identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem|0.3.4
 WARNING: Observation/vkp-cfs-create: Observation.performer[1].identifier.system: No definition could be found for URL value 'urn:oid:2.16.578.1.12.4.1.4.101'
-INFORMATION: Observation/vkp-cfs-create: Observation.performer[1].identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem|0.3.3
+INFORMATION: Observation/vkp-cfs-create: Observation.performer[1].identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem|0.3.4
 == fsh-generated/resources/Observation-vkp-glucose-create.json ==
 INFORMATION: Observation/vkp-glucose-create: Observation.meta.source: No definition could be found for URL value 'Thomas'
 WARNING: Observation/vkp-glucose-create: Observation.identifier[0].system: No definition could be found for URL value 'http://dips.no/fhir/namingsystem/externalId'
 INFORMATION: Observation/vkp-glucose-create: Observation.code.coding[0].display: There are no valid display names found for the code http://loinc.org#15074-8 for language(s) 'no-NO'. The display is 'Glucose [Moles/volume] in Blood' the default language display
 INFORMATION: Observation/vkp-glucose-create: Observation.code.coding[1].display: 'Blood glucose concentration (observable entity)' is the default display; the code system http://snomed.info/sct has no Display Names for the language no-NO
 WARNING: Observation/vkp-glucose-create: Observation.code.coding[2].system: A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.7280' could not be found, so the code cannot be validated
-WARNING: Observation/vkp-glucose-create: Observation.code.coding[2].system: No definition could be found for URL value 'urn:oid:2.16.578.1.12.4.1.1.7280'
-INFORMATION: Observation/vkp-glucose-create: Observation.subject.identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem|0.3.3
-INFORMATION: Observation/vkp-glucose-create: Observation.performer[0].identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem|0.3.3
+INFORMATION: Observation/vkp-glucose-create: Observation.subject.identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem|0.3.4
+INFORMATION: Observation/vkp-glucose-create: Observation.performer[0].identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem|0.3.4
 == fsh-generated/resources/Observation-vkp-heartrate-create.json ==
 INFORMATION: Observation/vkp-heartrate-create: Observation.meta.source: No definition could be found for URL value 'Thomas'
 WARNING: Observation/vkp-heartrate-create: Observation.identifier[0].system: No definition could be found for URL value 'http://dips.no/fhir/namingsystem/externalId'
 INFORMATION: Observation/vkp-heartrate-create: Observation.code.coding[0].display: There are no valid display names found for the code http://loinc.org#8867-4 for language(s) 'no-NO'. The display is 'Heart rate' the default language display
-INFORMATION: Observation/vkp-heartrate-create: Observation.code.coding[1].display: 'Heart Rate' is the default display; the code system http://snomed.info/sct has no Display Names for the language no-NO
-INFORMATION: Observation/vkp-heartrate-create: Observation.subject.identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem|0.3.3
-INFORMATION: Observation/vkp-heartrate-create: Observation.performer[0].identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem|0.3.3
+WARNING: Observation/vkp-heartrate-create: Observation.code: The provided code 'http://snomed.info/sct#364075005 ('Heart Rate')' was not found in the value set 'http://hl7.org/fhir/ValueSet/observation-vitalsignresult|4.0.1'; There are no valid display names found for the code http://loinc.org#8867-4 for language(s) 'no-NO'. The display is 'Heart rate' the default language display
+INFORMATION: Observation/vkp-heartrate-create: Observation.subject.identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem|0.3.4
+INFORMATION: Observation/vkp-heartrate-create: Observation.performer[0].identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem|0.3.4
 == fsh-generated/resources/Observation-vkp-news2-create.json ==
 INFORMATION: Observation/vkp-news2-create: Observation.meta.source: No definition could be found for URL value 'MEDANETS'
 WARNING: Observation/vkp-news2-create: Observation.identifier[0].system: No definition could be found for URL value 'http://dips.no/fhir/namingsystem/externalId'
 ERROR: Observation/vkp-news2-create: Observation.code.coding[0].code: Unknown code '1104051000000101' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20250201'
-INFORMATION: Observation/vkp-news2-create: Observation.subject.identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem|0.3.3
-INFORMATION: Observation/vkp-news2-create: Observation.performer[0].identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem|0.3.3
+INFORMATION: Observation/vkp-news2-create: Observation.subject.identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem|0.3.4
+INFORMATION: Observation/vkp-news2-create: Observation.performer[0].identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem|0.3.4
 WARNING: Observation/vkp-news2-create: Observation.performer[1].identifier.system: No definition could be found for URL value 'urn:oid:2.16.578.1.12.4.1.4.101'
-INFORMATION: Observation/vkp-news2-create: Observation.performer[1].identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem|0.3.3
+INFORMATION: Observation/vkp-news2-create: Observation.performer[1].identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem|0.3.4
 ERROR: Observation/vkp-news2-create: Observation.component[0].code.coding[0].code: Unknown code '1104301000000104' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20250201'
 ERROR: Observation/vkp-news2-create: Observation.component[1].code.coding[0].code: Unknown code '1104321000000108' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20250201'
 WARNING: Observation/vkp-news2-create: Observation.component[1].code.coding[0].display: value should not start or finish with whitespace ' NEWS2 (National Early Warning Score 2) - oxygen saturation scale 2 score'
@@ -308,9 +304,9 @@ ERROR: Observation/vkp-news2-create: Observation.component[6].code.coding[0].cod
 INFORMATION: Observation/vkp-oxygen-saturation-create: Observation.meta.source: No definition could be found for URL value 'Thomas'
 WARNING: Observation/vkp-oxygen-saturation-create: Observation.identifier[0].system: No definition could be found for URL value 'http://dips.no/fhir/namingsystem/externalId'
 INFORMATION: Observation/vkp-oxygen-saturation-create: Observation.code.coding[0].display: There are no valid display names found for the code http://loinc.org#2708-6 for language(s) 'no-NO'. The display is 'Oxygen saturation in Arterial blood' the default language display
-INFORMATION: Observation/vkp-oxygen-saturation-create: Observation.code.coding[1].display: 'Peripheral oxygen saturation (observable entity)' is the default display; the code system http://snomed.info/sct has no Display Names for the language no-NO
-INFORMATION: Observation/vkp-oxygen-saturation-create: Observation.subject.identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem|0.3.3
-INFORMATION: Observation/vkp-oxygen-saturation-create: Observation.performer[0].identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem|0.3.3
+WARNING: Observation/vkp-oxygen-saturation-create: Observation.code: The provided code 'http://snomed.info/sct#431314004 ('Peripheral oxygen saturation (observable entity)')' was not found in the value set 'http://hl7.org/fhir/ValueSet/observation-vitalsignresult|4.0.1'; There are no valid display names found for the code http://loinc.org#2708-6 for language(s) 'no-NO'. The display is 'Oxygen saturation in Arterial blood' the default language display
+INFORMATION: Observation/vkp-oxygen-saturation-create: Observation.subject.identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem|0.3.4
+INFORMATION: Observation/vkp-oxygen-saturation-create: Observation.performer[0].identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem|0.3.4
 == fsh-generated/resources/StructureDefinition-vkp-Observation.json ==
 INFORMATION: StructureDefinition/vkp-Observation: StructureDefinition.differential.element[1].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 INFORMATION: StructureDefinition/vkp-Observation: StructureDefinition.differential.element[13].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
@@ -335,9 +331,24 @@ INFORMATION: StructureDefinition/vkp-Observation-NEWS2score: StructureDefinition
 == fsh-generated/resources/StructureDefinition-vkp-Observation-Resprate.json ==
 WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Resprate'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/ValueSet-NoDomainVitalSignsBloodPressureMeasurementMethodValueSet.json ==
+INFORMATION: ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet: ValueSet.compose.include[0].concept[0]: The display 'Auskultasjon' is not valid in the Code system 'Auskultasjon'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet: ValueSet.compose.include[0].concept[1]: The display 'Palpasjon' is not valid in the Code system 'Palpasjon'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
 == fsh-generated/resources/ValueSet-NoDomainVitalSignsBloodpressureBodySiteValueSet.json ==
+INFORMATION: ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet: ValueSet.compose.include[0].concept[0]: The display 'Ankel, høyre' is not valid in the Code system 'Ankel, høyre'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet: ValueSet.compose.include[0].concept[1]: The display 'Ankel, venstre' is not valid in the Code system 'Ankel, venstre'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet: ValueSet.compose.include[0].concept[3]: The display 'Fotrygg' is not valid in the Code system 'Fotrygg'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet: ValueSet.compose.include[0].concept[4]: The display 'Håndledd, høyre' is not valid in the Code system 'Håndledd, høyre'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet: ValueSet.compose.include[0].concept[5]: The display 'Håndledd, venstre' is not valid in the Code system 'Håndledd, venstre'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet: ValueSet.compose.include[0].concept[6]: The display 'Intraarterielt' is not valid in the Code system 'Intraarterielt'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet: ValueSet.compose.include[0].concept[7]: The display 'Lår, høyre' is not valid in the Code system 'Lår, høyre'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet: ValueSet.compose.include[0].concept[8]: The display 'Lår, venstre' is not valid in the Code system 'Lår, venstre'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet: ValueSet.compose.include[0].concept[9]: The display 'Overarm, høyre' is not valid in the Code system 'Overarm, høyre'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet: ValueSet.compose.include[0].concept[10]: The display 'Overarm, venstre' is not valid in the Code system 'Overarm, venstre'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet: ValueSet.compose.include[0].concept[11]: The display 'Tå' is not valid in the Code system 'Tå'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
 == fsh-generated/resources/ValueSet-vkp-performer-identifiers.valueset.json ==
 == fsh-generated/resources/ValueSet-vkp-performer-organization-identifiers.valueset.json ==
 == fsh-generated/resources/ValueSet-vkp-performer-reference-types.valueset.json ==
+INFORMATION: ValueSet/vkp-performer-reference-types.valueset: ValueSet.compose.include[0].concept[0]: The display 'A person who is directly or indirectly involved in the provisioning of healthcare.' is not valid in the Code system 'A person who is directly or indirectly involved in the provisioning of healthcare.'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/vkp-performer-reference-types.valueset: ValueSet.compose.include[0].concept[1]: The display 'A specific set of Roles/Locations/specialties/services that a practitioner may perform at an organization for a period of time.' is not valid in the Code system 'A specific set of Roles/Locations/specialties/services that a practitioner may perform at an organization for a period of time.'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
 INFORMATION: ValueSet/vkp-performer-reference-types.valueset: ValueSet.compose.include[0]: This include has some concepts with displays and some without - check that this is what is intended
 == fsh-generated/resources/ValueSet-vkp-subject-identifiers.valueset.json ==

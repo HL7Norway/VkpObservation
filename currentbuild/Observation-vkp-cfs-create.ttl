@@ -13,24 +13,33 @@
   fhir:meta [
      fhir:versionId [ fhir:v "0" ] ;
      fhir:lastUpdated [ fhir:v "2014-01-30T11:35:23+00:00"^^xsd:dateTime ] ;
-     fhir:source [ fhir:v "MEDANETS"^^xsd:anyURI ] ;
+     fhir:source [
+       fhir:v "MEDANETS"^^xsd:anyURI ;
+       fhir:l fhir:MEDANETS
+     ] ;
      fhir:profile ( [
        fhir:v "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-CFSscore"^^xsd:anyURI ;
-       fhir:link <http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-CFSscore>
+       fhir:l <http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-CFSscore>
      ] )
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation vkp-cfs-create</b></p><a name=\"vkp-cfs-create\"> </a><a name=\"hcvkp-cfs-create\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 0; Last updated: 2014-01-30 11:35:23+0000; </p><p style=\"margin-bottom: 0px\">Information Source: <a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.0&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/MEDANETS\">MEDANETS</a></p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-vkp-Observation-CFSscore.html\">Vkp Observation - CFS score</a></p></div><p><b>identifier</b>: <code>http://dips.no/fhir/namingsystem/externalId</code>/External Id: testCFS</p><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 763264000}\">Canadian Study of Health and Aging Clinical Frailty Scale score (observable entity)</span></p><p><b>subject</b>: Identifier: <code>urn:oid:2.16.578.1.12.4.1.4.1</code>/1000807</p><p><b>effective</b>: 2021-11-02</p><p><b>performer</b>: </p><ul><li>Identifier: <code>urn:oid:2.16.578.1.12.4.1.4.1</code>/22</li><li>Identifier: <code>urn:oid:2.16.578.1.12.4.1.4.101</code>/103</li></ul><p><b>value</b>: 2</p><p><b>note</b>: </p><blockquote><div><p>Evaluering gjort i brukerens hjem, normalt sprek for sin aldersgruppe.</p>\n</div></blockquote></div>"^^rdf:XMLLiteral
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation vkp-cfs-create</b></p><a name=\"vkp-cfs-create\"> </a><a name=\"hcvkp-cfs-create\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 0; Last updated: 2014-01-30 11:35:23+0000; </p><p style=\"margin-bottom: 0px\">Information Source: <a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.2&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/MEDANETS\">MEDANETS</a></p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-vkp-Observation-CFSscore.html\">Vkp Observation - CFS score</a></p></div><p><b>identifier</b>: <code>http://dips.no/fhir/namingsystem/externalId</code>/External Id: testCFS</p><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 763264000}\">Canadian Study of Health and Aging Clinical Frailty Scale score (observable entity)</span></p><p><b>subject</b>: Identifier: <code>urn:oid:2.16.578.1.12.4.1.4.1</code>/1000807</p><p><b>effective</b>: 2021-11-02</p><p><b>performer</b>: </p><ul><li>Identifier: <code>urn:oid:2.16.578.1.12.4.1.4.1</code>/22</li><li>Identifier: <code>urn:oid:2.16.578.1.12.4.1.4.101</code>/103</li></ul><p><b>value</b>: 2</p><p><b>note</b>: </p><blockquote><div><p>Evaluering gjort i brukerens hjem, normalt sprek for sin aldersgruppe.</p>\n</div></blockquote></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:identifier ( [
-     fhir:system [ fhir:v "http://dips.no/fhir/namingsystem/externalId"^^xsd:anyURI ] ;
+     fhir:system [
+       fhir:v "http://dips.no/fhir/namingsystem/externalId"^^xsd:anyURI ;
+       fhir:l <http://dips.no/fhir/namingsystem/externalId>
+     ] ;
      fhir:value [ fhir:v "External Id: testCFS" ]
   ] ) ; # 
   fhir:status [ fhir:v "final"] ; # 
   fhir:category ( [
      fhir:coding ( [
-       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/observation-category>
+       ] ;
        fhir:code [ fhir:v "survey" ] ;
        fhir:display [ fhir:v "Survey" ]
      ] )
@@ -38,30 +47,45 @@
   fhir:code [
      fhir:coding ( [
        a sct:763264000 ;
-       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+         fhir:l <http://snomed.info/sct>
+       ] ;
        fhir:code [ fhir:v "763264000" ] ;
        fhir:display [ fhir:v "Canadian Study of Health and Aging Clinical Frailty Scale score (observable entity)" ]
      ] )
   ] ; # 
   fhir:subject [
      fhir:identifier [
-       fhir:system [ fhir:v "urn:oid:2.16.578.1.12.4.1.4.1"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "urn:oid:2.16.578.1.12.4.1.4.1"^^xsd:anyURI ;
+         fhir:l <urn:oid:2.16.578.1.12.4.1.4.1>
+       ] ;
        fhir:value [ fhir:v "1000807" ]
      ]
   ] ; # 
   fhir:effective [
-     a fhir:dateTime ;
+     a fhir:DateTime ;
      fhir:v "2021-11-02"^^xsd:date
   ] ; # 
   fhir:performer ( [
-     fhir:type [ fhir:v "Practitioner"^^xsd:anyURI ] ;
+     fhir:type [
+       fhir:v "Practitioner"^^xsd:anyURI ;
+       fhir:l fhir:Practitioner
+     ] ;
      fhir:identifier [
-       fhir:system [ fhir:v "urn:oid:2.16.578.1.12.4.1.4.1"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "urn:oid:2.16.578.1.12.4.1.4.1"^^xsd:anyURI ;
+         fhir:l <urn:oid:2.16.578.1.12.4.1.4.1>
+       ] ;
        fhir:value [ fhir:v "22" ]
      ]
   ] [
      fhir:identifier [
-       fhir:system [ fhir:v "urn:oid:2.16.578.1.12.4.1.4.101"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "urn:oid:2.16.578.1.12.4.1.4.101"^^xsd:anyURI ;
+         fhir:l <urn:oid:2.16.578.1.12.4.1.4.101>
+       ] ;
        fhir:value [ fhir:v "103" ]
      ]
   ] ) ; # 

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="55d5fff9-c049-4595-89b6-6617da911a8b"/>
+  <id value="7d24eb60-2cd4-443c-b8e5-1e5d57fc5354"/>
   <meta>
-    <lastUpdated value="2025-06-23T08:02:14.709+00:00"/>
+    <lastUpdated value="2025-10-30T12:10:10.199+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -18,46 +18,80 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p class="res-header-id"/>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
             <p>This value set contains 2 concepts</p>
-            <table class="codes">
+            <table class="codes" data-fhir="generated">
               <tr>
+                <td>
+                  <b>System</b>
+                </td>
                 <td style="white-space:nowrap">
                   <b>Code</b>
                 </td>
                 <td>
-                  <b>System</b>
+                  <b>Display (no)</b>
                 </td>
                 <td>
-                  <b>Display (no-NO)</b>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
                 </td>
               </tr>
               <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://snomed.info/sct-37931006"> </a>  
+                <td>
+                  <a name="x-http://snomed.info/sct-37931006"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
                   <a href="http://snomed.info/id/37931006">37931006</a>
                 </td>
-                <td>http://snomed.info/sct</td>
-                <td>Auscultation</td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;37931006&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;37931006&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
               </tr>
               <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://snomed.info/sct-113011001"> </a>  
+                <td>
+                  <a name="x-http://snomed.info/sct-113011001"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
                   <a href="http://snomed.info/id/113011001">113011001</a>
                 </td>
-                <td>http://snomed.info/sct</td>
-                <td>Palpation</td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;113011001&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;113011001&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
               </tr>
             </table>
           </div>
         </text>
         <url value="http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet"/>
-        <version value="0.3.3"/>
+        <version value="0.3.4"/>
         <name value="NoDomainVitalSignsBloodPressureMeasurementMethodValueSet"/>
         <title value="NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-06-23T08:01:32+00:00"/>
+        <date value="2025-10-30T12:10:10+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -66,13 +100,13 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:6122a5f6-668a-4c98-a9ca-34c43f9e655e"/>
-          <timestamp value="2025-06-23T08:02:51+00:00"/>
+          <identifier value="urn:uuid:a8066195-44d5-4062-99e6-f77f1b5c15e3"/>
+          <timestamp value="2025-10-30T12:11:43+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
-            <valueCode value="no-NO"/>
+            <valueCode value="no"/>
           </parameter>
           <parameter>
             <name value="count"/>
@@ -94,19 +128,13 @@
             <name value="used-codesystem"/>
             <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"/>
           </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"/>
-          </parameter>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="37931006"/>
-            <display value="Auscultation"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="113011001"/>
-            <display value="Palpation"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -124,126 +152,280 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p class="res-header-id"/>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
             <p>This value set contains 12 concepts</p>
-            <table class="codes">
+            <table class="codes" data-fhir="generated">
               <tr>
+                <td>
+                  <b>System</b>
+                </td>
                 <td style="white-space:nowrap">
                   <b>Code</b>
                 </td>
                 <td>
-                  <b>System</b>
+                  <b>Display (no)</b>
                 </td>
                 <td>
-                  <b>Display (no-NO)</b>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
                 </td>
               </tr>
               <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://snomed.info/sct-6685009"> </a>  
+                <td>
+                  <a name="x-http://snomed.info/sct-6685009"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
                   <a href="http://snomed.info/id/6685009">6685009</a>
                 </td>
-                <td>http://snomed.info/sct</td>
-                <td>Right ankle</td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;6685009&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;6685009&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
               </tr>
               <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://snomed.info/sct-51636004"> </a>  
+                <td>
+                  <a name="x-http://snomed.info/sct-51636004"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
                   <a href="http://snomed.info/id/51636004">51636004</a>
                 </td>
-                <td>http://snomed.info/sct</td>
-                <td>Left ankle</td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;51636004&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;51636004&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
               </tr>
               <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://snomed.info/sct-7569003"> </a>  
+                <td>
+                  <a name="x-http://snomed.info/sct-7569003"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
                   <a href="http://snomed.info/id/7569003">7569003</a>
                 </td>
-                <td>http://snomed.info/sct</td>
-                <td>Finger</td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;7569003&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;7569003&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
               </tr>
               <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://snomed.info/sct-2402003"> </a>  
+                <td>
+                  <a name="x-http://snomed.info/sct-2402003"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
                   <a href="http://snomed.info/id/2402003">2402003</a>
                 </td>
-                <td>http://snomed.info/sct</td>
-                <td>Dorsum of foot</td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;2402003&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;2402003&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
               </tr>
               <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://snomed.info/sct-9736006"> </a>  
+                <td>
+                  <a name="x-http://snomed.info/sct-9736006"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
                   <a href="http://snomed.info/id/9736006">9736006</a>
                 </td>
-                <td>http://snomed.info/sct</td>
-                <td>Right wrist</td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;9736006&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;9736006&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
               </tr>
               <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://snomed.info/sct-5951000"> </a>  
+                <td>
+                  <a name="x-http://snomed.info/sct-5951000"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
                   <a href="http://snomed.info/id/5951000">5951000</a>
                 </td>
-                <td>http://snomed.info/sct</td>
-                <td>Left wrist</td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;5951000&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;5951000&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
               </tr>
               <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://snomed.info/sct-51114001"> </a>  
+                <td>
+                  <a name="x-http://snomed.info/sct-51114001"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
                   <a href="http://snomed.info/id/51114001">51114001</a>
                 </td>
-                <td>http://snomed.info/sct</td>
-                <td>Artery</td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;51114001&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;51114001&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
               </tr>
               <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://snomed.info/sct-11207009"> </a>  
+                <td>
+                  <a name="x-http://snomed.info/sct-11207009"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
                   <a href="http://snomed.info/id/11207009">11207009</a>
                 </td>
-                <td>http://snomed.info/sct</td>
-                <td>Right thigh</td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;11207009&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;11207009&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
               </tr>
               <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://snomed.info/sct-61396006"> </a>  
+                <td>
+                  <a name="x-http://snomed.info/sct-61396006"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
                   <a href="http://snomed.info/id/61396006">61396006</a>
                 </td>
-                <td>http://snomed.info/sct</td>
-                <td>Left thigh</td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;61396006&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;61396006&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
               </tr>
               <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://snomed.info/sct-368209003"> </a>  
+                <td>
+                  <a name="x-http://snomed.info/sct-368209003"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
                   <a href="http://snomed.info/id/368209003">368209003</a>
                 </td>
-                <td>http://snomed.info/sct</td>
-                <td>Right upper arm</td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;368209003&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;368209003&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
               </tr>
               <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://snomed.info/sct-368208006"> </a>  
+                <td>
+                  <a name="x-http://snomed.info/sct-368208006"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
                   <a href="http://snomed.info/id/368208006">368208006</a>
                 </td>
-                <td>http://snomed.info/sct</td>
-                <td>Left upper arm structure</td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;368208006&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;368208006&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
               </tr>
               <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://snomed.info/sct-29707007"> </a>  
+                <td>
+                  <a name="x-http://snomed.info/sct-29707007"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
                   <a href="http://snomed.info/id/29707007">29707007</a>
                 </td>
-                <td>http://snomed.info/sct</td>
-                <td>Toe</td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;, &quot;code&quot;: &quot;29707007&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/900000000000207008/version/20250201&quot;&gt;&lt;code value=&quot;29707007&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
               </tr>
             </table>
           </div>
         </text>
         <url value="http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet"/>
-        <version value="0.3.3"/>
+        <version value="0.3.4"/>
         <name value="NoDomainVitalSignsBloodpressureBodySiteValueSet"/>
         <title value="NoDomainVitalSignsBloodpressureBodySite-ValueSet"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-06-23T08:01:32+00:00"/>
+        <date value="2025-10-30T12:10:10+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -252,13 +434,13 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:8571f316-8460-4623-bb35-322edd9ae8ef"/>
-          <timestamp value="2025-06-23T08:02:51+00:00"/>
+          <identifier value="urn:uuid:dad3c853-6f53-4267-8b05-905bf8a5f0f2"/>
+          <timestamp value="2025-10-30T12:11:42+00:00"/>
           <total value="12"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
-            <valueCode value="no-NO"/>
+            <valueCode value="no"/>
           </parameter>
           <parameter>
             <name value="count"/>
@@ -280,69 +462,53 @@
             <name value="used-codesystem"/>
             <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"/>
           </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"/>
-          </parameter>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="6685009"/>
-            <display value="Right ankle"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="51636004"/>
-            <display value="Left ankle"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="7569003"/>
-            <display value="Finger"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="2402003"/>
-            <display value="Dorsum of foot"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="9736006"/>
-            <display value="Right wrist"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="5951000"/>
-            <display value="Left wrist"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="51114001"/>
-            <display value="Artery"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="11207009"/>
-            <display value="Right thigh"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="61396006"/>
-            <display value="Left thigh"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="368209003"/>
-            <display value="Right upper arm"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="368208006"/>
-            <display value="Left upper arm structure"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="29707007"/>
-            <display value="Toe"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -361,38 +527,55 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
-              <a href="CodeSystem-vkp-performer-identifiers.codesystem.html">codesystem Vkp Performer Identifier Systems CodeSystem v0.3.3 (CodeSystem)</a>
+              <a href="CodeSystem-vkp-performer-identifiers.codesystem.html">codesystem Vkp Performer Identifier Systems CodeSystem v0.3.4 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem|0.3.4" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
             </p>
             <p>This value set contains 1 concepts</p>
-            <table class="codes">
+            <table class="codes" data-fhir="generated">
               <tr>
+                <td>
+                  <b>System</b>
+                </td>
                 <td style="white-space:nowrap">
                   <b>Code</b>
                 </td>
                 <td>
-                  <b>System</b>
+                  <b>Display (no)</b>
                 </td>
                 <td>
-                  <b>Display (no-NO)</b>
+                  <b>JSON</b>
                 </td>
                 <td>
-                  <b>Definition</b>
+                  <b>XML</b>
                 </td>
               </tr>
               <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem-urn:oid:2.16.578.1.12.4.1.4.1"> </a>  
+                <td>
+                  <a name="x-http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem-urn:oid:2.16.578.1.12.4.1.4.1"> </a>
+                  <code>http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem</code>
+                </td>
+                <td style="white-space:nowrap">  
                   <a href="CodeSystem-vkp-performer-identifiers.codesystem.html#vkp-performer-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.461">urn:oid:2.16.578.1.12.4.1.4.1</a>
                 </td>
-                <td>http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem</td>
                 <td/>
-                <td>Fødselsnummer</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem&quot;, &quot;version&quot;: &quot;0.3.4&quot;, &quot;code&quot;: &quot;urn:oid:2.16.578.1.12.4.1.4.1&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem&quot;&gt;&lt;version value=&quot;0.3.4&quot;&gt;&lt;code value=&quot;urn:oid:2.16.578.1.12.4.1.4.1&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
               </tr>
             </table>
           </div>
         </text>
         <url value="http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-identifiers.valueset"/>
-        <version value="0.3.3"/>
+        <version value="0.3.4"/>
         <name value="VkpPerformerIdentifiersValueSet"/>
         <title value="VKP Performer Identifier systems ValueSet"/>
         <status value="draft"/>
@@ -406,13 +589,13 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:74c31ee8-53db-49e4-8be5-7c36aa684178"/>
-          <timestamp value="2025-06-23T08:02:52+00:00"/>
+          <identifier value="urn:uuid:28d161f3-9cb1-4aa4-b819-471faa3db9e2"/>
+          <timestamp value="2025-10-30T12:11:52+00:00"/>
           <total value="1"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
-            <valueCode value="no-NO"/>
+            <valueCode value="no"/>
           </parameter>
           <parameter>
             <name value="count"/>
@@ -428,11 +611,11 @@
           </parameter>
           <parameter>
             <name value="warning-experimental"/>
-            <valueUri value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem|0.3.3"/>
+            <valueUri value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem|0.3.4"/>
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem|0.3.3"/>
+            <valueUri value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem|0.3.4"/>
           </parameter>
           <contains>
             <system value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem"/>
@@ -455,47 +638,75 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
-              <a href="CodeSystem-vkp-performer-organization-identifiers.codesystem.html">codesystem Vkp Performer Identifier for organizations CodeSystem v0.3.3 (CodeSystem)</a>
+              <a href="CodeSystem-vkp-performer-organization-identifiers.codesystem.html">codesystem Vkp Performer Identifier for organizations CodeSystem v0.3.4 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem|0.3.4" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
             </p>
             <p>This value set contains 2 concepts</p>
-            <table class="codes">
+            <table class="codes" data-fhir="generated">
               <tr>
+                <td>
+                  <b>System</b>
+                </td>
                 <td style="white-space:nowrap">
                   <b>Code</b>
                 </td>
                 <td>
-                  <b>System</b>
+                  <b>Display (no)</b>
                 </td>
                 <td>
-                  <b>Display (no-NO)</b>
+                  <b>JSON</b>
                 </td>
                 <td>
-                  <b>Definition</b>
+                  <b>XML</b>
                 </td>
               </tr>
               <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem-urn:oid:2.16.578.1.12.4.1.4.101"> </a>  
+                <td>
+                  <a name="x-http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem-urn:oid:2.16.578.1.12.4.1.4.101"> </a>
+                  <code>http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem</code>
+                </td>
+                <td style="white-space:nowrap">  
                   <a href="CodeSystem-vkp-performer-organization-identifiers.codesystem.html#vkp-performer-organization-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.46101">urn:oid:2.16.578.1.12.4.1.4.101</a>
                 </td>
-                <td>http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem</td>
                 <td/>
-                <td>Organisasjonsnummer</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem&quot;, &quot;version&quot;: &quot;0.3.4&quot;, &quot;code&quot;: &quot;urn:oid:2.16.578.1.12.4.1.4.101&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem&quot;&gt;&lt;version value=&quot;0.3.4&quot;&gt;&lt;code value=&quot;urn:oid:2.16.578.1.12.4.1.4.101&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
               </tr>
               <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem-urn:oid:2.16.578.1.12.4.1.4.102"> </a>  
+                <td>
+                  <a name="x-http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem-urn:oid:2.16.578.1.12.4.1.4.102"> </a>
+                  <code>http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem</code>
+                </td>
+                <td style="white-space:nowrap">  
                   <a href="CodeSystem-vkp-performer-organization-identifiers.codesystem.html#vkp-performer-organization-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.46102">urn:oid:2.16.578.1.12.4.1.4.102</a>
                 </td>
-                <td>http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem</td>
                 <td/>
-                <td>RESH-nummer</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem&quot;, &quot;version&quot;: &quot;0.3.4&quot;, &quot;code&quot;: &quot;urn:oid:2.16.578.1.12.4.1.4.102&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem&quot;&gt;&lt;version value=&quot;0.3.4&quot;&gt;&lt;code value=&quot;urn:oid:2.16.578.1.12.4.1.4.102&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
               </tr>
             </table>
           </div>
         </text>
         <url value="http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-organization-identifiers.valueset"/>
-        <version value="0.3.3"/>
+        <version value="0.3.4"/>
         <name value="VkpPerformerOrganizationIdentifiersValueSet"/>
         <title value="VKP Performer Identifier for organizations ValueSet"/>
         <status value="draft"/>
@@ -509,13 +720,13 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:da213206-2bfa-4fd1-93d6-ee0fd325e78a"/>
-          <timestamp value="2025-06-23T08:02:52+00:00"/>
+          <identifier value="urn:uuid:0a65ca6d-1488-4352-bb4e-b69e15039ed5"/>
+          <timestamp value="2025-10-30T12:11:52+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
-            <valueCode value="no-NO"/>
+            <valueCode value="no"/>
           </parameter>
           <parameter>
             <name value="count"/>
@@ -531,11 +742,11 @@
           </parameter>
           <parameter>
             <name value="warning-experimental"/>
-            <valueUri value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem|0.3.3"/>
+            <valueUri value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem|0.3.4"/>
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem|0.3.3"/>
+            <valueUri value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem|0.3.4"/>
           </parameter>
           <contains>
             <system value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem"/>
@@ -562,117 +773,159 @@
             <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="http://hl7.org/fhir/R4/codesystem-resource-types.html">codesystem ResourceType v4.0.1 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://hl7.org/fhir/resource-types|4.0.1" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
             </p>
             <p>This value set contains 6 concepts</p>
-            <table class="codes">
+            <table class="codes" data-fhir="generated">
               <tr>
+                <td>
+                  <b>System</b>
+                </td>
                 <td style="white-space:nowrap">
                   <b>Code</b>
                 </td>
                 <td>
-                  <b>System</b>
+                  <b>Display (no)</b>
                 </td>
                 <td>
-                  <b>Display (no-NO)</b>
+                  <b>JSON</b>
                 </td>
                 <td>
-                  <b>Definition</b>
+                  <b>XML</b>
                 </td>
               </tr>
               <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://hl7.org/fhir/resource-types-Practitioner"> </a>  
+                <td>
+                  <a name="x-http://hl7.org/fhir/resource-types-Practitioner"> </a>
+                  <code>http://hl7.org/fhir/resource-types</code>
+                </td>
+                <td style="white-space:nowrap">  
                   <a href="http://hl7.org/fhir/R4/codesystem-resource-types.html#resource-types-Practitioner">Practitioner</a>
                 </td>
-                <td>http://hl7.org/fhir/resource-types</td>
                 <td>Practitioner</td>
                 <td>
-                  <div>
-                    <p>A person who is directly or indirectly involved in the provisioning of healthcare.</p>
-
-                  </div>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.org/fhir/resource-types&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;Practitioner&quot;, &quot;display&quot;: &quot;Practitioner&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/resource-types&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;Practitioner&quot;&gt;&lt;display value=&quot;Practitioner&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
                 </td>
               </tr>
               <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://hl7.org/fhir/resource-types-PractitionerRole"> </a>  
+                <td>
+                  <a name="x-http://hl7.org/fhir/resource-types-PractitionerRole"> </a>
+                  <code>http://hl7.org/fhir/resource-types</code>
+                </td>
+                <td style="white-space:nowrap">  
                   <a href="http://hl7.org/fhir/R4/codesystem-resource-types.html#resource-types-PractitionerRole">PractitionerRole</a>
                 </td>
-                <td>http://hl7.org/fhir/resource-types</td>
                 <td>PractitionerRole</td>
                 <td>
-                  <div>
-                    <p>A specific set of Roles/Locations/specialties/services that a practitioner may perform at an organization for a period of time.</p>
-
-                  </div>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.org/fhir/resource-types&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;PractitionerRole&quot;, &quot;display&quot;: &quot;PractitionerRole&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/resource-types&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;PractitionerRole&quot;&gt;&lt;display value=&quot;PractitionerRole&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
                 </td>
               </tr>
               <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://hl7.org/fhir/resource-types-Patient"> </a>  
+                <td>
+                  <a name="x-http://hl7.org/fhir/resource-types-Patient"> </a>
+                  <code>http://hl7.org/fhir/resource-types</code>
+                </td>
+                <td style="white-space:nowrap">  
                   <a href="http://hl7.org/fhir/R4/codesystem-resource-types.html#resource-types-Patient">Patient</a>
                 </td>
-                <td>http://hl7.org/fhir/resource-types</td>
                 <td>Patient</td>
                 <td>
-                  <div>
-                    <p>Demographics and other administrative information about an individual or animal receiving care or other health-related services.</p>
-
-                  </div>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.org/fhir/resource-types&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;Patient&quot;, &quot;display&quot;: &quot;Patient&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/resource-types&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;Patient&quot;&gt;&lt;display value=&quot;Patient&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
                 </td>
               </tr>
               <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://hl7.org/fhir/resource-types-RelatedPerson"> </a>  
+                <td>
+                  <a name="x-http://hl7.org/fhir/resource-types-RelatedPerson"> </a>
+                  <code>http://hl7.org/fhir/resource-types</code>
+                </td>
+                <td style="white-space:nowrap">  
                   <a href="http://hl7.org/fhir/R4/codesystem-resource-types.html#resource-types-RelatedPerson">RelatedPerson</a>
                 </td>
-                <td>http://hl7.org/fhir/resource-types</td>
                 <td>RelatedPerson</td>
                 <td>
-                  <div>
-                    <p>Information about a person that is involved in the care for a patient, but who is not the target of healthcare, nor has a formal responsibility in the care process.</p>
-
-                  </div>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.org/fhir/resource-types&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;RelatedPerson&quot;, &quot;display&quot;: &quot;RelatedPerson&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/resource-types&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;RelatedPerson&quot;&gt;&lt;display value=&quot;RelatedPerson&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
                 </td>
               </tr>
               <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://hl7.org/fhir/resource-types-CareTeam"> </a>  
+                <td>
+                  <a name="x-http://hl7.org/fhir/resource-types-CareTeam"> </a>
+                  <code>http://hl7.org/fhir/resource-types</code>
+                </td>
+                <td style="white-space:nowrap">  
                   <a href="http://hl7.org/fhir/R4/codesystem-resource-types.html#resource-types-CareTeam">CareTeam</a>
                 </td>
-                <td>http://hl7.org/fhir/resource-types</td>
                 <td>CareTeam</td>
                 <td>
-                  <div>
-                    <p>The Care Team includes all the people and organizations who plan to participate in the coordination and delivery of care for a patient.</p>
-
-                  </div>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.org/fhir/resource-types&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;CareTeam&quot;, &quot;display&quot;: &quot;CareTeam&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/resource-types&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;CareTeam&quot;&gt;&lt;display value=&quot;CareTeam&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
                 </td>
               </tr>
               <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://hl7.org/fhir/resource-types-Organization"> </a>  
+                <td>
+                  <a name="x-http://hl7.org/fhir/resource-types-Organization"> </a>
+                  <code>http://hl7.org/fhir/resource-types</code>
+                </td>
+                <td style="white-space:nowrap">  
                   <a href="http://hl7.org/fhir/R4/codesystem-resource-types.html#resource-types-Organization">Organization</a>
                 </td>
-                <td>http://hl7.org/fhir/resource-types</td>
                 <td>Organization</td>
                 <td>
-                  <div>
-                    <p>A formally or informally recognized grouping of people or organizations formed for the purpose of achieving some form of collective action.  Includes companies, institutions, corporations, departments, community groups, healthcare practice groups, payer/insurer, etc.</p>
-
-                  </div>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.org/fhir/resource-types&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;Organization&quot;, &quot;display&quot;: &quot;Organization&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/resource-types&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;Organization&quot;&gt;&lt;display value=&quot;Organization&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
                 </td>
               </tr>
             </table>
           </div>
         </text>
         <url value="http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-reference-types.valueset"/>
-        <version value="0.3.3"/>
+        <version value="0.3.4"/>
         <name value="VkpPerformerReferenceTypesValueSet"/>
         <title value="Vkp Performer reference types Systems ValueSet"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2025-06-23T08:01:32+00:00"/>
+        <date value="2025-10-30T12:10:10+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -681,13 +934,13 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:6fbb995c-2b8d-42e3-99d7-49fe62c61adb"/>
-          <timestamp value="2025-06-23T08:02:52+00:00"/>
+          <identifier value="urn:uuid:b0f68611-2c4f-4a6d-b80a-9855d4ff7326"/>
+          <timestamp value="2025-10-30T12:11:48+00:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
-            <valueCode value="no-NO"/>
+            <valueCode value="no"/>
           </parameter>
           <parameter>
             <name value="count"/>
@@ -752,56 +1005,95 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
-              <a href="CodeSystem-vkp-subject-identifiers.codesystem.html">codesystem Vkp Subject Identifier Systems CodeSystem v0.3.3 (CodeSystem)</a>
+              <a href="CodeSystem-vkp-subject-identifiers.codesystem.html">codesystem Vkp Subject Identifier Systems CodeSystem v0.3.4 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem|0.3.4" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
             </p>
             <p>This value set contains 3 concepts</p>
-            <table class="codes">
+            <table class="codes" data-fhir="generated">
               <tr>
+                <td>
+                  <b>System</b>
+                </td>
                 <td style="white-space:nowrap">
                   <b>Code</b>
                 </td>
                 <td>
-                  <b>System</b>
+                  <b>Display (no)</b>
                 </td>
                 <td>
-                  <b>Display (no-NO)</b>
+                  <b>JSON</b>
                 </td>
                 <td>
-                  <b>Definition</b>
+                  <b>XML</b>
                 </td>
               </tr>
               <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem-urn:oid:2.16.578.1.12.4.1.4.1"> </a>  
+                <td>
+                  <a name="x-http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem-urn:oid:2.16.578.1.12.4.1.4.1"> </a>
+                  <code>http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem</code>
+                </td>
+                <td style="white-space:nowrap">  
                   <a href="CodeSystem-vkp-subject-identifiers.codesystem.html#vkp-subject-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.461">urn:oid:2.16.578.1.12.4.1.4.1</a>
                 </td>
-                <td>http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem</td>
                 <td/>
-                <td>Fødselsnummer</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem&quot;, &quot;version&quot;: &quot;0.3.4&quot;, &quot;code&quot;: &quot;urn:oid:2.16.578.1.12.4.1.4.1&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem&quot;&gt;&lt;version value=&quot;0.3.4&quot;&gt;&lt;code value=&quot;urn:oid:2.16.578.1.12.4.1.4.1&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
               </tr>
               <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem-urn:oid:2.16.578.1.12.4.1.4.2"> </a>  
+                <td>
+                  <a name="x-http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem-urn:oid:2.16.578.1.12.4.1.4.2"> </a>
+                  <code>http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem</code>
+                </td>
+                <td style="white-space:nowrap">  
                   <a href="CodeSystem-vkp-subject-identifiers.codesystem.html#vkp-subject-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.462">urn:oid:2.16.578.1.12.4.1.4.2</a>
                 </td>
-                <td>http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem</td>
                 <td/>
-                <td>D-nummer</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem&quot;, &quot;version&quot;: &quot;0.3.4&quot;, &quot;code&quot;: &quot;urn:oid:2.16.578.1.12.4.1.4.2&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem&quot;&gt;&lt;version value=&quot;0.3.4&quot;&gt;&lt;code value=&quot;urn:oid:2.16.578.1.12.4.1.4.2&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
               </tr>
               <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem-urn:oid:2.16.578.1.12.4.1.4.3"> </a>  
+                <td>
+                  <a name="x-http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem-urn:oid:2.16.578.1.12.4.1.4.3"> </a>
+                  <code>http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem</code>
+                </td>
+                <td style="white-space:nowrap">  
                   <a href="CodeSystem-vkp-subject-identifiers.codesystem.html#vkp-subject-identifiers.codesystem-urn.58oid.582.4616.46578.461.4612.464.461.464.463">urn:oid:2.16.578.1.12.4.1.4.3</a>
                 </td>
-                <td>http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem</td>
                 <td/>
-                <td>Felles hjelpenummer</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem&quot;, &quot;version&quot;: &quot;0.3.4&quot;, &quot;code&quot;: &quot;urn:oid:2.16.578.1.12.4.1.4.3&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem&quot;&gt;&lt;version value=&quot;0.3.4&quot;&gt;&lt;code value=&quot;urn:oid:2.16.578.1.12.4.1.4.3&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
               </tr>
             </table>
           </div>
         </text>
         <url value="http://hl7.no/fhir/vkpobservation/ValueSet/vkp-subject-identifiers.valueset"/>
-        <version value="0.3.3"/>
+        <version value="0.3.4"/>
         <name value="VkpSubjectIdentifiersValueSet"/>
         <title value="VKP Subject Identifier systems ValueSet"/>
         <status value="draft"/>
@@ -815,13 +1107,13 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:94b85ad9-8fb1-4d5f-9914-1384db972b45"/>
-          <timestamp value="2025-06-23T08:02:52+00:00"/>
+          <identifier value="urn:uuid:f44926ca-09d6-4d5c-aa1a-e9afc087ba40"/>
+          <timestamp value="2025-10-30T12:11:52+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
             <name value="displayLanguage"/>
-            <valueCode value="no-NO"/>
+            <valueCode value="no"/>
           </parameter>
           <parameter>
             <name value="count"/>
@@ -837,11 +1129,11 @@
           </parameter>
           <parameter>
             <name value="warning-experimental"/>
-            <valueUri value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem|0.3.3"/>
+            <valueUri value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem|0.3.4"/>
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem|0.3.3"/>
+            <valueUri value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem|0.3.4"/>
           </parameter>
           <contains>
             <system value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem"/>

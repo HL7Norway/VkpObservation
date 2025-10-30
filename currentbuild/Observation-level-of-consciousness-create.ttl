@@ -13,20 +13,29 @@
   fhir:meta [
      fhir:versionId [ fhir:v "0" ] ;
      fhir:lastUpdated [ fhir:v "2014-01-30T11:35:23+00:00"^^xsd:dateTime ] ;
-     fhir:source [ fhir:v "META_VISION"^^xsd:anyURI ]
+     fhir:source [
+       fhir:v "META_VISION"^^xsd:anyURI ;
+       fhir:l fhir:META_VISION
+     ]
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation level-of-consciousness-create</b></p><a name=\"level-of-consciousness-create\"> </a><a name=\"hclevel-of-consciousness-create\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 0; Last updated: 2014-01-30 11:35:23+0000; </p><p style=\"margin-bottom: 0px\">Information Source: <a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.0&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/META_VISION\">META_VISION</a></p></div><p><b>identifier</b>: <code>http://dips.no/fhir/namingsystem/externalId</code>/External Id: testLCexternalId5</p><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 1104441000000107}\">The observation of the individual's level of consciousness</span></p><p><b>subject</b>: <a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.0&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/Patient/cdp1000807\">Patient/cdp1000807</a></p><p><b>effective</b>: 2021-10-23</p><p><b>performer</b>: </p><ul><li><a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.0&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/Organization/afa22\">Organization/afa22</a></li><li><a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.0&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/PractitionerRole/agb103\">PractitionerRole/agb103</a></li></ul><p><b>value</b>: <span title=\"Codes:{http://dips.no/fhir/code 5}\">Våken</span></p></div>"^^rdf:XMLLiteral
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation level-of-consciousness-create</b></p><a name=\"level-of-consciousness-create\"> </a><a name=\"hclevel-of-consciousness-create\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 0; Last updated: 2014-01-30 11:35:23+0000; </p><p style=\"margin-bottom: 0px\">Information Source: <a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.2&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/META_VISION\">META_VISION</a></p></div><p><b>identifier</b>: <code>http://dips.no/fhir/namingsystem/externalId</code>/External Id: testLCexternalId5</p><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 1104441000000107}\">The observation of the individual's level of consciousness</span></p><p><b>subject</b>: <a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.2&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/Patient/cdp1000807\">Patient/cdp1000807</a></p><p><b>effective</b>: 2021-10-23</p><p><b>performer</b>: </p><ul><li><a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.2&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/Organization/afa22\">Organization/afa22</a></li><li><a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.2&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/PractitionerRole/agb103\">PractitionerRole/agb103</a></li></ul><p><b>value</b>: <span title=\"Codes:{http://dips.no/fhir/code 5}\">Våken</span></p></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:identifier ( [
-     fhir:system [ fhir:v "http://dips.no/fhir/namingsystem/externalId"^^xsd:anyURI ] ;
+     fhir:system [
+       fhir:v "http://dips.no/fhir/namingsystem/externalId"^^xsd:anyURI ;
+       fhir:l <http://dips.no/fhir/namingsystem/externalId>
+     ] ;
      fhir:value [ fhir:v "External Id: testLCexternalId5" ]
   ] ) ; # 
   fhir:status [ fhir:v "final"] ; # 
   fhir:category ( [
      fhir:coding ( [
-       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/observation-category>
+       ] ;
        fhir:code [ fhir:v "survey" ] ;
        fhir:display [ fhir:v "Survey" ]
      ] )
@@ -34,42 +43,57 @@
   fhir:code [
      fhir:coding ( [
        a sct:1104441000000107 ;
-       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+         fhir:l <http://snomed.info/sct>
+       ] ;
        fhir:code [ fhir:v "1104441000000107" ] ;
        fhir:display [ fhir:v "The observation of the individual's level of consciousness" ]
      ] )
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.no/fhir/vkpobservation/Patient/cdp1000807> ;
+     fhir:l <http://hl7.no/fhir/vkpobservation/Patient/cdp1000807> ;
      fhir:reference [ fhir:v "Patient/cdp1000807" ] ;
      fhir:identifier [
-       fhir:system [ fhir:v "http://dips.no/fhir/namingsystem/dips-patientid"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "http://dips.no/fhir/namingsystem/dips-patientid"^^xsd:anyURI ;
+         fhir:l <http://dips.no/fhir/namingsystem/dips-patientid>
+       ] ;
        fhir:value [ fhir:v "1000807" ]
      ]
   ] ; # 
   fhir:effective [
-     a fhir:dateTime ;
+     a fhir:DateTime ;
      fhir:v "2021-10-23"^^xsd:date
   ] ; # 
   fhir:performer ( [
-     fhir:link <http://hl7.no/fhir/vkpobservation/Organization/afa22> ;
+     fhir:l <http://hl7.no/fhir/vkpobservation/Organization/afa22> ;
      fhir:reference [ fhir:v "Organization/afa22" ] ;
      fhir:identifier [
-       fhir:system [ fhir:v "urn:oid:1.3.6.1.4.1.9038.70.3"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "urn:oid:1.3.6.1.4.1.9038.70.3"^^xsd:anyURI ;
+         fhir:l <urn:oid:1.3.6.1.4.1.9038.70.3>
+       ] ;
        fhir:value [ fhir:v "22" ]
      ]
   ] [
-     fhir:link <http://hl7.no/fhir/vkpobservation/PractitionerRole/agb103> ;
+     fhir:l <http://hl7.no/fhir/vkpobservation/PractitionerRole/agb103> ;
      fhir:reference [ fhir:v "PractitionerRole/agb103" ] ;
      fhir:identifier [
-       fhir:system [ fhir:v "urn:oid:1.3.6.1.4.1.9038.51.1"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "urn:oid:1.3.6.1.4.1.9038.51.1"^^xsd:anyURI ;
+         fhir:l <urn:oid:1.3.6.1.4.1.9038.51.1>
+       ] ;
        fhir:value [ fhir:v "103" ]
      ]
   ] ) ; # 
   fhir:value [
      a fhir:CodeableConcept ;
      fhir:coding ( [
-       fhir:system [ fhir:v "http://dips.no/fhir/code"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "http://dips.no/fhir/code"^^xsd:anyURI ;
+         fhir:l <http://dips.no/fhir/code>
+       ] ;
        fhir:code [ fhir:v "5" ] ;
        fhir:display [ fhir:v "Våken" ]
      ] )

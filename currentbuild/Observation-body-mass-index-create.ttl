@@ -14,33 +14,48 @@
   fhir:meta [
      fhir:versionId [ fhir:v "0" ] ;
      fhir:lastUpdated [ fhir:v "2021-05-31T22:35:00+00:00"^^xsd:dateTime ] ;
-     fhir:source [ fhir:v "META_VISION"^^xsd:anyURI ]
+     fhir:source [
+       fhir:v "META_VISION"^^xsd:anyURI ;
+       fhir:l fhir:META_VISION
+     ]
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation body-mass-index-create</b></p><a name=\"body-mass-index-create\"> </a><a name=\"hcbody-mass-index-create\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 0; Last updated: 2021-05-31 22:35:00+0000; </p><p style=\"margin-bottom: 0px\">Information Source: <a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.0&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/META_VISION\">META_VISION</a></p></div><p><b>no/fhir/StructureDefinition/no-domain-vitalsignsobservation-bodymassindex-formulaExtension</b>: sample formula</p><p><b>no/fhir/StructureDefinition/no-domain-vitalsignsobservation-confoundingfactorextension</b>: sample confounding factor</p><p><b>identifier</b>: <code>http://dips.no/fhir/namingsystem/externalId</code>/External Id: testBMIexternalId8</p><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}\">vital-signs</span></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 39156-5}\">Body mass index (BMI) [Ratio]</span></p><p><b>subject</b>: <a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.0&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/patient/cdp1000239\">patient/cdp1000239</a></p><p><b>encounter</b>: <a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.0&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/Encounter/agy1000245\">Encounter/agy1000245</a></p><p><b>effective</b>: 2021-05-31</p><p><b>performer</b>: </p><ul><li>Identifier: <code>urn:oid:1.3.6.1.4.1.9038.51.1</code>/27</li><li>Identifier: <code>urn:oid:1.3.6.1.4.1.9038.70.3</code>/22</li></ul><p><b>value</b>: 32 kg/m2<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codekg/m2 = 'kg/m2')</span></p><p><b>interpretation</b>: <span title=\"Codes:\">Obese</span></p><p><b>note</b>: </p><blockquote><div><p>Demo BMI</p>\n</div></blockquote><p><b>method</b>: <span title=\"Codes:{http://snomed.info/sct 1xxxx}\">Automatisk registrering</span></p></div>"^^rdf:XMLLiteral
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation body-mass-index-create</b></p><a name=\"body-mass-index-create\"> </a><a name=\"hcbody-mass-index-create\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 0; Last updated: 2021-05-31 22:35:00+0000; </p><p style=\"margin-bottom: 0px\">Information Source: <a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.2&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/META_VISION\">META_VISION</a></p></div><p><b>no/fhir/StructureDefinition/no-domain-vitalsignsobservation-bodymassindex-formulaExtension</b>: sample formula</p><p><b>no/fhir/StructureDefinition/no-domain-vitalsignsobservation-confoundingfactorextension</b>: sample confounding factor</p><p><b>identifier</b>: <code>http://dips.no/fhir/namingsystem/externalId</code>/External Id: testBMIexternalId8</p><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}\">vital-signs</span></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 39156-5}\">Body mass index (BMI) [Ratio]</span></p><p><b>subject</b>: <a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.2&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/patient/cdp1000239\">patient/cdp1000239</a></p><p><b>encounter</b>: <a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.2&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/Encounter/agy1000245\">Encounter/agy1000245</a></p><p><b>effective</b>: 2021-05-31</p><p><b>performer</b>: </p><ul><li>Identifier: <code>urn:oid:1.3.6.1.4.1.9038.51.1</code>/27</li><li>Identifier: <code>urn:oid:1.3.6.1.4.1.9038.70.3</code>/22</li></ul><p><b>value</b>: 32 kg/m2<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codekg/m2 = 'kg/m2')</span></p><p><b>interpretation</b>: <span title=\"Codes:\">Obese</span></p><p><b>note</b>: </p><blockquote><div><p>Demo BMI</p>\n</div></blockquote><p><b>method</b>: <span title=\"Codes:{http://snomed.info/sct 1xxxx}\">Automatisk registrering</span></p></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
-     fhir:url [ fhir:v "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-bodymassindex-formulaExtension"^^xsd:anyURI ] ;
+     fhir:url [
+       fhir:v "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-bodymassindex-formulaExtension"^^xsd:anyURI ;
+       fhir:l <http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-bodymassindex-formulaExtension>
+     ] ;
      fhir:value [
-       a fhir:string ;
+       a fhir:String ;
        fhir:v "sample formula"
      ]
   ] [
-     fhir:url [ fhir:v "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-confoundingfactorextension"^^xsd:anyURI ] ;
+     fhir:url [
+       fhir:v "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-confoundingfactorextension"^^xsd:anyURI ;
+       fhir:l <http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-confoundingfactorextension>
+     ] ;
      fhir:value [
-       a fhir:string ;
+       a fhir:String ;
        fhir:v "sample confounding factor"
      ]
   ] ) ; # 
   fhir:identifier ( [
-     fhir:system [ fhir:v "http://dips.no/fhir/namingsystem/externalId"^^xsd:anyURI ] ;
+     fhir:system [
+       fhir:v "http://dips.no/fhir/namingsystem/externalId"^^xsd:anyURI ;
+       fhir:l <http://dips.no/fhir/namingsystem/externalId>
+     ] ;
      fhir:value [ fhir:v "External Id: testBMIexternalId8" ]
   ] ) ; # 
   fhir:status [ fhir:v "final"] ; # 
   fhir:category ( [
      fhir:coding ( [
-       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/observation-category>
+       ] ;
        fhir:code [ fhir:v "vital-signs" ] ;
        fhir:display [ fhir:v "vital-signs" ]
      ] )
@@ -48,34 +63,46 @@
   fhir:code [
      fhir:coding ( [
        a loinc:39156-5 ;
-       fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
        fhir:code [ fhir:v "39156-5" ]
      ] )
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.no/fhir/vkpobservation/patient/cdp1000239> ;
+     fhir:l <http://hl7.no/fhir/vkpobservation/patient/cdp1000239> ;
      fhir:reference [ fhir:v "patient/cdp1000239" ] ;
      fhir:identifier [
-       fhir:system [ fhir:v "http://dips.no/fhir/namingsystem/dips-patientid"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "http://dips.no/fhir/namingsystem/dips-patientid"^^xsd:anyURI ;
+         fhir:l <http://dips.no/fhir/namingsystem/dips-patientid>
+       ] ;
        fhir:value [ fhir:v "1000239" ]
      ]
   ] ; # 
   fhir:encounter [
-     fhir:link <http://hl7.no/fhir/vkpobservation/Encounter/agy1000245> ;
+     fhir:l <http://hl7.no/fhir/vkpobservation/Encounter/agy1000245> ;
      fhir:reference [ fhir:v "Encounter/agy1000245" ]
   ] ; # 
   fhir:effective [
-     a fhir:dateTime ;
+     a fhir:DateTime ;
      fhir:v "2021-05-31"^^xsd:date
   ] ; # 
   fhir:performer ( [
      fhir:identifier [
-       fhir:system [ fhir:v "urn:oid:1.3.6.1.4.1.9038.51.1"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "urn:oid:1.3.6.1.4.1.9038.51.1"^^xsd:anyURI ;
+         fhir:l <urn:oid:1.3.6.1.4.1.9038.51.1>
+       ] ;
        fhir:value [ fhir:v "27" ]
      ]
   ] [
      fhir:identifier [
-       fhir:system [ fhir:v "urn:oid:1.3.6.1.4.1.9038.70.3"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "urn:oid:1.3.6.1.4.1.9038.70.3"^^xsd:anyURI ;
+         fhir:l <urn:oid:1.3.6.1.4.1.9038.70.3>
+       ] ;
        fhir:value [ fhir:v "22" ]
      ]
   ] ) ; # 
@@ -83,7 +110,10 @@
      a fhir:Quantity ;
      fhir:value [ fhir:v "32"^^xsd:decimal ] ;
      fhir:unit [ fhir:v "kg/m2" ] ;
-     fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
+     fhir:system [
+       fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
+       fhir:l <http://unitsofmeasure.org>
+     ] ;
      fhir:code [ fhir:v "kg/m2" ]
   ] ; # 
   fhir:interpretation ( [
@@ -95,7 +125,10 @@
   fhir:method [
      fhir:coding ( [
        a sct:1xxxx ;
-       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+         fhir:l <http://snomed.info/sct>
+       ] ;
        fhir:code [ fhir:v "1xxxx" ] ;
        fhir:display [ fhir:v "Automatisk registrering" ]
      ] )

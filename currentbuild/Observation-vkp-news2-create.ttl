@@ -13,24 +13,33 @@
   fhir:meta [
      fhir:versionId [ fhir:v "0" ] ;
      fhir:lastUpdated [ fhir:v "2014-01-30T11:35:23+00:00"^^xsd:dateTime ] ;
-     fhir:source [ fhir:v "MEDANETS"^^xsd:anyURI ] ;
+     fhir:source [
+       fhir:v "MEDANETS"^^xsd:anyURI ;
+       fhir:l fhir:MEDANETS
+     ] ;
      fhir:profile ( [
        fhir:v "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-NEWS2score"^^xsd:anyURI ;
-       fhir:link <http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-NEWS2score>
+       fhir:l <http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-NEWS2score>
      ] )
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation vkp-news2-create</b></p><a name=\"vkp-news2-create\"> </a><a name=\"hcvkp-news2-create\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 0; Last updated: 2014-01-30 11:35:23+0000; </p><p style=\"margin-bottom: 0px\">Information Source: <a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.0&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/MEDANETS\">MEDANETS</a></p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-vkp-Observation-NEWS2score.html\">Vkp VitalSigns Observation - NEWS2 score</a></p></div><p><b>identifier</b>: <code>http://dips.no/fhir/namingsystem/externalId</code>/External Id: testNEWS2</p><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 1104051000000101}\">NEWS2 (National Early Warning Score 2) total score</span></p><p><b>subject</b>: Identifier: <code>urn:oid:2.16.578.1.12.4.1.4.1</code>/1000807</p><p><b>effective</b>: 2021-11-02</p><p><b>performer</b>: </p><ul><li>Identifier: <code>urn:oid:2.16.578.1.12.4.1.4.1</code>/22</li><li>Identifier: <code>urn:oid:2.16.578.1.12.4.1.4.101</code>/103</li></ul><p><b>value</b>: 20</p><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 1104301000000104}\">NEWS2 (National Early Warning Score 2) - respiration rate score</span></p><p><b>value</b>: 3</p><p><b>interpretation</b>: <span title=\"Codes:\">≥25</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 1104321000000108}\"> NEWS2 (National Early Warning Score 2) - oxygen saturation scale 2 score</span></p><p><b>value</b>: 3</p><p><b>interpretation</b>: <span title=\"Codes:\">93–94 med oksygentilførsel</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 1104331000000105}\">NEWS2 (National Early Warning Score 2) - air or oxygen score</span></p><p><b>value</b>: 2</p><p><b>interpretation</b>: <span title=\"Codes:\">Oksygen</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 1104351000000103}\">NEWS2 (National Early Warning Score 2) - pulse score</span></p><p><b>value</b>: 3</p><p><b>interpretation</b>: <span title=\"Codes:\">≤40</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 1104341000000101}\">NEWS2 (National Early Warning Score 2) - systolic blood pressure score</span></p><p><b>value</b>: 3</p><p><b>interpretation</b>: <span title=\"Codes:\">≤90</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 1104361000000100}\">NEWS2 (National Early Warning Score 2) - consciousness score</span></p><p><b>value</b>: 3</p><p><b>interpretation</b>: <span title=\"Codes:\">C, V, P eller U</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 1104371000000107}\">NEWS2 (National Early Warning Score 2) - temperature score</span></p><p><b>value</b>: 3</p><p><b>interpretation</b>: <span title=\"Codes:\">≤35.0</span></p></blockquote></div>"^^rdf:XMLLiteral
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation vkp-news2-create</b></p><a name=\"vkp-news2-create\"> </a><a name=\"hcvkp-news2-create\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 0; Last updated: 2014-01-30 11:35:23+0000; </p><p style=\"margin-bottom: 0px\">Information Source: <a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.2&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/MEDANETS\">MEDANETS</a></p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-vkp-Observation-NEWS2score.html\">Vkp VitalSigns Observation - NEWS2 score</a></p></div><p><b>identifier</b>: <code>http://dips.no/fhir/namingsystem/externalId</code>/External Id: testNEWS2</p><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 1104051000000101}\">NEWS2 (National Early Warning Score 2) total score</span></p><p><b>subject</b>: Identifier: <code>urn:oid:2.16.578.1.12.4.1.4.1</code>/1000807</p><p><b>effective</b>: 2021-11-02</p><p><b>performer</b>: </p><ul><li>Identifier: <code>urn:oid:2.16.578.1.12.4.1.4.1</code>/22</li><li>Identifier: <code>urn:oid:2.16.578.1.12.4.1.4.101</code>/103</li></ul><p><b>value</b>: 20</p><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 1104301000000104}\">NEWS2 (National Early Warning Score 2) - respiration rate score</span></p><p><b>value</b>: 3</p><p><b>interpretation</b>: <span title=\"Codes:\">≥25</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 1104321000000108}\"> NEWS2 (National Early Warning Score 2) - oxygen saturation scale 2 score</span></p><p><b>value</b>: 3</p><p><b>interpretation</b>: <span title=\"Codes:\">93–94 med oksygentilførsel</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 1104331000000105}\">NEWS2 (National Early Warning Score 2) - air or oxygen score</span></p><p><b>value</b>: 2</p><p><b>interpretation</b>: <span title=\"Codes:\">Oksygen</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 1104351000000103}\">NEWS2 (National Early Warning Score 2) - pulse score</span></p><p><b>value</b>: 3</p><p><b>interpretation</b>: <span title=\"Codes:\">≤40</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 1104341000000101}\">NEWS2 (National Early Warning Score 2) - systolic blood pressure score</span></p><p><b>value</b>: 3</p><p><b>interpretation</b>: <span title=\"Codes:\">≤90</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 1104361000000100}\">NEWS2 (National Early Warning Score 2) - consciousness score</span></p><p><b>value</b>: 3</p><p><b>interpretation</b>: <span title=\"Codes:\">C, V, P eller U</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 1104371000000107}\">NEWS2 (National Early Warning Score 2) - temperature score</span></p><p><b>value</b>: 3</p><p><b>interpretation</b>: <span title=\"Codes:\">≤35.0</span></p></blockquote></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:identifier ( [
-     fhir:system [ fhir:v "http://dips.no/fhir/namingsystem/externalId"^^xsd:anyURI ] ;
+     fhir:system [
+       fhir:v "http://dips.no/fhir/namingsystem/externalId"^^xsd:anyURI ;
+       fhir:l <http://dips.no/fhir/namingsystem/externalId>
+     ] ;
      fhir:value [ fhir:v "External Id: testNEWS2" ]
   ] ) ; # 
   fhir:status [ fhir:v "final"] ; # 
   fhir:category ( [
      fhir:coding ( [
-       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/observation-category>
+       ] ;
        fhir:code [ fhir:v "survey" ] ;
        fhir:display [ fhir:v "Survey" ]
      ] )
@@ -38,29 +47,41 @@
   fhir:code [
      fhir:coding ( [
        a sct:1104051000000101 ;
-       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+         fhir:l <http://snomed.info/sct>
+       ] ;
        fhir:code [ fhir:v "1104051000000101" ] ;
        fhir:display [ fhir:v "NEWS2 (National Early Warning Score 2) total score" ]
      ] )
   ] ; # 
   fhir:subject [
      fhir:identifier [
-       fhir:system [ fhir:v "urn:oid:2.16.578.1.12.4.1.4.1"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "urn:oid:2.16.578.1.12.4.1.4.1"^^xsd:anyURI ;
+         fhir:l <urn:oid:2.16.578.1.12.4.1.4.1>
+       ] ;
        fhir:value [ fhir:v "1000807" ]
      ]
   ] ; # 
   fhir:effective [
-     a fhir:dateTime ;
+     a fhir:DateTime ;
      fhir:v "2021-11-02"^^xsd:date
   ] ; # 
   fhir:performer ( [
      fhir:identifier [
-       fhir:system [ fhir:v "urn:oid:2.16.578.1.12.4.1.4.1"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "urn:oid:2.16.578.1.12.4.1.4.1"^^xsd:anyURI ;
+         fhir:l <urn:oid:2.16.578.1.12.4.1.4.1>
+       ] ;
        fhir:value [ fhir:v "22" ]
      ]
   ] [
      fhir:identifier [
-       fhir:system [ fhir:v "urn:oid:2.16.578.1.12.4.1.4.101"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "urn:oid:2.16.578.1.12.4.1.4.101"^^xsd:anyURI ;
+         fhir:l <urn:oid:2.16.578.1.12.4.1.4.101>
+       ] ;
        fhir:value [ fhir:v "103" ]
      ]
   ] ) ; # 
@@ -72,7 +93,10 @@
      fhir:code [
        fhir:coding ( [
          a sct:1104301000000104 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "1104301000000104" ] ;
          fhir:display [ fhir:v "NEWS2 (National Early Warning Score 2) - respiration rate score" ]
        ] )
@@ -88,7 +112,10 @@
      fhir:code [
        fhir:coding ( [
          a sct:1104321000000108 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "1104321000000108" ] ;
          fhir:display [ fhir:v " NEWS2 (National Early Warning Score 2) - oxygen saturation scale 2 score" ]
        ] )
@@ -104,7 +131,10 @@
      fhir:code [
        fhir:coding ( [
          a sct:1104331000000105 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "1104331000000105" ] ;
          fhir:display [ fhir:v "NEWS2 (National Early Warning Score 2) - air or oxygen score" ]
        ] )
@@ -120,7 +150,10 @@
      fhir:code [
        fhir:coding ( [
          a sct:1104351000000103 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "1104351000000103" ] ;
          fhir:display [ fhir:v "NEWS2 (National Early Warning Score 2) - pulse score" ]
        ] )
@@ -136,7 +169,10 @@
      fhir:code [
        fhir:coding ( [
          a sct:1104341000000101 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "1104341000000101" ] ;
          fhir:display [ fhir:v "NEWS2 (National Early Warning Score 2) - systolic blood pressure score" ]
        ] )
@@ -152,7 +188,10 @@
      fhir:code [
        fhir:coding ( [
          a sct:1104361000000100 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "1104361000000100" ] ;
          fhir:display [ fhir:v "NEWS2 (National Early Warning Score 2) - consciousness score" ]
        ] )
@@ -168,7 +207,10 @@
      fhir:code [
        fhir:coding ( [
          a sct:1104371000000107 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "1104371000000107" ] ;
          fhir:display [ fhir:v "NEWS2 (National Early Warning Score 2) - temperature score" ]
        ] )

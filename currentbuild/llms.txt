@@ -1,0 +1,57 @@
+# hl7.fhir.no.vkp.observation#0.3.4: null
+
+## Pages
+
+* [Home](index.md)
+* [Artifacts Summary](artifacts.md)
+
+## Resources
+
+### CodeSystems
+
+* [Vkp Performer Identifier Systems CodeSystem](CodeSystem-vkp-performer-identifiers.codesystem.md)
+* [Vkp Performer Identifier for organizations CodeSystem](CodeSystem-vkp-performer-organization-identifiers.codesystem.md)
+* [Vkp Subject Identifier Systems CodeSystem](CodeSystem-vkp-subject-identifiers.codesystem.md)
+
+### ValueSets
+
+* [NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet](ValueSet-NoDomainVitalSignsBloodPressureMeasurementMethodValueSet.md)
+* [NoDomainVitalSignsBloodpressureBodySite-ValueSet](ValueSet-NoDomainVitalSignsBloodpressureBodySiteValueSet.md)
+* [VKP Performer Identifier systems ValueSet](ValueSet-vkp-performer-identifiers.valueset.md)
+* [VKP Performer Identifier for organizations ValueSet](ValueSet-vkp-performer-organization-identifiers.valueset.md)
+* [Vkp Performer reference types Systems ValueSet](ValueSet-vkp-performer-reference-types.valueset.md)
+* [VKP Subject Identifier systems ValueSet](ValueSet-vkp-subject-identifiers.valueset.md)
+
+### Resource Profiles
+
+* [Vkp VitalSigns Observation - Blood pressure](StructureDefinition-vkp-Observation-Bloodpressure.md)
+* [Vkp VitalSigns Observation - Body temperature](StructureDefinition-vkp-Observation-Bodytemp.md)
+* [Vkp VitalSigns Observation - Body weight](StructureDefinition-vkp-Observation-Bodyweight.md)
+* [Vkp Observation - CFS score](StructureDefinition-vkp-Observation-CFSscore.md)
+* [Vkp Observation - Consciousness](StructureDefinition-vkp-Observation-Consciousness.md)
+* [Vkp VitalSigns Observation - Heart rate](StructureDefinition-vkp-Observation-Heartrate.md)
+* [Vkp VitalSigns Observation - NEWS2 score](StructureDefinition-vkp-Observation-NEWS2score.md)
+* [Vkp VitalSigns Observation - Oxygen saturation](StructureDefinition-vkp-Observation-Oxygensat.md)
+* [Vkp VitalSigns Observation - Respiratory rate](StructureDefinition-vkp-Observation-Resprate.md)
+* [General Vkp Observation](StructureDefinition-vkp-Observation.md)
+
+### ImplementationGuides
+
+* [VkpObservation](index.md)
+
+### Examples
+
+* [blood-pressure-create (Observation)](Observation-blood-pressure-create.md)
+* [body-height-create (Observation)](Observation-body-height-create.md)
+* [body-mass-index-create (Observation)](Observation-body-mass-index-create.md)
+* [heart-rate-create (Observation)](Observation-heart-rate-create.md)
+* [level-of-consciousness-create (Observation)](Observation-level-of-consciousness-create.md)
+* [respiratory-rate-create (Observation)](Observation-respiratory-rate-create.md)
+* [vkp-blood-pressure-profile-create (Observation)](Observation-vkp-blood-pressure-profile-create.md)
+* [vkp-body-temperature-create (Observation)](Observation-vkp-body-temperature-create.md)
+* [vkp-body-weight-create (Observation)](Observation-vkp-body-weight-create.md)
+* [vkp-cfs-create (Observation)](Observation-vkp-cfs-create.md)
+* [vkp-glucose-create (Observation)](Observation-vkp-glucose-create.md)
+* [vkp-heartrate-create (Observation)](Observation-vkp-heartrate-create.md)
+* [vkp-news2-create (Observation)](Observation-vkp-news2-create.md)
+* [vkp-oxygen-saturation-create (Observation)](Observation-vkp-oxygen-saturation-create.md)
