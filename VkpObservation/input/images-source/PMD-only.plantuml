@@ -7,6 +7,7 @@ actor "Helsepersonell" as helseinn
 component "EPJ/pasient\nløsning" as annen
 
 rectangle "NHN infrastruktur" as NHN #LightGreen {
+   component "Helsenorge" as helsenorge #LightGreen
 'card "API" as apinn
 'component "VKP" as VKP
 'card "API" as apiut
@@ -32,11 +33,12 @@ actor "Behandler" as behandler
 helsenorge -down[hidden]- kommune
 
 apiut2 -up-> helsenorge
-helsenorge -right-> pasientk
+helsenorge <-right- pasientk :personvern\ninnstillinger
+helsenorge -right-> pasientk :read\nCFS
 
-helseinn -> annen
+helseinn -> annen :CFS\nscore
 'pasient -> dho
-pasient -up-> annen
+pasient -up-> annen :CFS\nscore
 'dho -> apinn
 'apinn -> VKP
 'VKP -> apiut

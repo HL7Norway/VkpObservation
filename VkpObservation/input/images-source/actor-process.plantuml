@@ -1,0 +1,40 @@
+@startuml
+   !include <archimate/Archimate>
+   Business_Actor(kommune, "Kommune")
+   Business_Actor(sykehus, "Sykehus")
+   Business_Actor(innbygger, "Innbygger")
+
+   Business_Actor(fastlege, "Fastlege")
+   Business_Actor(hjemme, "Hjemmetjeneste")
+   Business_Actor(sykehjem, "Sykehjem")
+   Business_Actor(legevakt, "Legevakt")
+
+   Business_Actor(pasient, "Pasient")
+   Business_Actor(parorende, "Pårørende")
+   
+   Business_Actor(seng, "Sengepost")
+   Business_Actor(poli, "Poliklinikk")
+
+   Rel_Aggregation(kommune, fastlege)
+   Rel_Aggregation(kommune, hjemme)
+   Rel_Aggregation(kommune, sykehjem)
+   Rel_Aggregation(kommune, legevakt)
+
+   Rel_Aggregation(innbygger, pasient)
+   Rel_Aggregation(innbygger, parorende)
+
+   Rel_Aggregation(sykehus, seng)
+   Rel_Aggregation(sykehus, poli)
+
+   Business_Process(identifiser, "Identifisere pasienter\nmed risiko for funksjonsfall")
+   Business_Process(vurdere, "Vurdere behovet foroppfølging\nog planlegging av helsehjelp​")
+   Business_Process(vurderem, "Vurdere medisinsk\nbehandling")
+   Business_Process(egenbehandling, "Egenbehandling/\negenmestring")
+
+   Rel_Assignment_Up(kommune, identifiser)
+   Rel_Assignment_Up(innbygger, egenbehandling)
+   Rel_Assignment_Up(kommune, vurdere)
+   Rel_Assignment_Up(kommune, vurderem)
+   Rel_Assignment_Up(sykehus, vurderem)
+   Rel_Assignment_Up(sykehus, identifiser)
+@enduml

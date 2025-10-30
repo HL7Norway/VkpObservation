@@ -1,0 +1,29 @@
+@startuml
+class "CFS-score"{
+   score : Integer, tall 1-9
+   tidspunkt : Datetime
+   notat: string, tekst med\n utfyllende informasjon
+}
+
+class Patient {
+   Navn : HumanName
+   Identifikator : FNR, DNR, HNR
+   ...
+}
+
+Class Practitioner {
+   Navn : HumanName
+   Identifikator : HPR, FNR
+   Kategori helsepersonell : code
+}
+
+Class AnsvarligVirksomhet {
+   Navn : Navn på virksomhet
+   Identifikator : orgnr, RESHid
+}
+
+"CFS-score" --> Patient : subject
+"CFS-score" --> Practitioner : performer
+"CFS-score" --> AnsvarligVirksomhet :responsible
+
+@enduml
