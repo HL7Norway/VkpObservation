@@ -22,5 +22,7 @@ Description: "Profile for Clinical Frailty Scale score in VKP."
 * performer[author].type from VkpPerformerReferenceTypesValueSet (required)
 * performer[author].type MS
 * performer[organization] ^short = "Reference to the responsible organization (dataansvarlig)"
+* valueQuantity MS 
+* valueQuantity.value MS
 * note MS
 * note ^comment = "Additional details about the context of the observation in annotation text"
