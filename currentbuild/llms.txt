@@ -1,9 +1,10 @@
-# hl7.fhir.no.vkp.observation#0.3.4: null
+# hl7.fhir.no.vkp.observation#0.3.6: null
 
 ## Pages
 
 * [Home](index.md)
 * [Artifacts Summary](artifacts.md)
+* [CFS](CFS.md)
 
 ## Resources
 

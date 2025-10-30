@@ -1,7 +1,7 @@
 {
-  "version" : "0.3.4",
+  "version" : "0.3.6",
   "fhirVersion" : ["4.0.1"],
-  "date" : "20251030121010",
+  "date" : "20251030211807",
   "name" : "hl7.fhir.no.vkp.observation",
   "jurisdiction" : "urn:iso:std:iso:3166#NO"
 }

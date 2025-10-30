@@ -2,7 +2,7 @@
   "codeSystems" : [
     {
       "url" : "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem",
-      "version" : "0.3.4",
+      "version" : "0.3.6",
       "status" : "draft",
       "name" : "VkpPerformerIdentifiersCodeSystem",
       "title" : "Vkp Performer Identifier Systems CodeSystem",
@@ -13,7 +13,7 @@
     },
     {
       "url" : "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem",
-      "version" : "0.3.4",
+      "version" : "0.3.6",
       "status" : "draft",
       "name" : "VkpPerformerOrganizationIdentifiersCodeSystem",
       "title" : "Vkp Performer Identifier for organizations CodeSystem",
@@ -24,7 +24,7 @@
     },
     {
       "url" : "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem",
-      "version" : "0.3.4",
+      "version" : "0.3.6",
       "status" : "draft",
       "name" : "VkpSubjectIdentifiersCodeSystem",
       "title" : "Vkp Subject Identifier Systems CodeSystem",
@@ -78,8 +78,8 @@
       "description" : "One of the resource types defined as part of this version of FHIR.",
       "uses" : {
       },
-      "http://hl7.org/fhir/R4/valueset-resource-types.html" : "ResourceType",
-      "ValueSet-vkp-performer-reference-types.valueset.html" : "Vkp Performer reference types Systems ValueSet"
+      "ValueSet-vkp-performer-reference-types.valueset.html" : "Vkp Performer reference types Systems ValueSet",
+      "http://hl7.org/fhir/R4/valueset-resource-types.html" : "ResourceType"
     },
     {
       "url" : "http://loinc.org",
@@ -106,9 +106,9 @@
       },
       "http://hl7.org/fhir/R4/valueset-observation-methods.html" : "Observation Methods",
       "ValueSet-NoDomainVitalSignsBloodpressureBodySiteValueSet.html" : "NoDomainVitalSignsBloodpressureBodySite-ValueSet",
-      "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures",
+      "ValueSet-NoDomainVitalSignsBloodPressureMeasurementMethodValueSet.html" : "NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet",
       "http://hl7.org/fhir/R4/valueset-referencerange-appliesto.html" : "Observation Reference Range Applies To Codes",
-      "ValueSet-NoDomainVitalSignsBloodPressureMeasurementMethodValueSet.html" : "NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet"
+      "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/data-absent-reason",

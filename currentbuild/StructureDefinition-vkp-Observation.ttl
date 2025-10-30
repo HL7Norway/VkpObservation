@@ -17,7 +17,7 @@
      fhir:v "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation"^^xsd:anyURI ;
      fhir:l <http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation>
   ] ; # 
-  fhir:version [ fhir:v "0.3.4"] ; # 
+  fhir:version [ fhir:v "0.3.6"] ; # 
   fhir:name [ fhir:v "VkpObservation"] ; # 
   fhir:title [ fhir:v "General Vkp Observation"] ; # 
   fhir:status [ fhir:v "draft"] ; # 

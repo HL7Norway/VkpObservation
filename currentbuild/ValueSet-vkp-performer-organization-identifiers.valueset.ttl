@@ -18,7 +18,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet vkp-performer-organization-identifiers.valueset</b></p><a name=\"vkp-performer-organization-identifiers.valueset\"> </a><a name=\"hcvkp-performer-organization-identifiers.valueset\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Last updated: 2022-02-10 00:00:00+0000</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include all codes defined in <a href=\"CodeSystem-vkp-performer-organization-identifiers.codesystem.html\"><code>http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.3.4</span></li></ul></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet vkp-performer-organization-identifiers.valueset</b></p><a name=\"vkp-performer-organization-identifiers.valueset\"> </a><a name=\"hcvkp-performer-organization-identifiers.valueset\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Last updated: 2022-02-10 00:00:00+0000</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include all codes defined in <a href=\"CodeSystem-vkp-performer-organization-identifiers.codesystem.html\"><code>http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.3.6</span></li></ul></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
      fhir:url [
@@ -43,7 +43,7 @@
      fhir:v "http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-organization-identifiers.valueset"^^xsd:anyURI ;
      fhir:l <http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-organization-identifiers.valueset>
   ] ; # 
-  fhir:version [ fhir:v "0.3.4"] ; # 
+  fhir:version [ fhir:v "0.3.6"] ; # 
   fhir:name [ fhir:v "VkpPerformerOrganizationIdentifiersValueSet"] ; # 
   fhir:title [ fhir:v "VKP Performer Identifier for organizations ValueSet"] ; # 
   fhir:status [ fhir:v "draft"] ; # 

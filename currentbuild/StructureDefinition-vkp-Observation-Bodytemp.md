@@ -1,4 +1,4 @@
-# Vkp VitalSigns Observation - Body temperature - v0.3.4
+# Vkp VitalSigns Observation - Body temperature - v0.3.6
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Bodytemp | *Version*:0.3.4 |
+| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Bodytemp | *Version*:0.3.6 |
 | Draft as of 2022-03-16 | *Computable Name*:VkpObservationBodytemp |
 
  
@@ -40,7 +40,7 @@ Other representations of profile: [CSV](StructureDefinition-vkp-Observation-Body
   "resourceType" : "StructureDefinition",
   "id" : "vkp-Observation-Bodytemp",
   "url" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Bodytemp",
-  "version" : "0.3.4",
+  "version" : "0.3.6",
   "name" : "VkpObservationBodytemp",
   "title" : "Vkp VitalSigns Observation - Body temperature",
   "status" : "draft",

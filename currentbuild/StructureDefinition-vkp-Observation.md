@@ -1,4 +1,4 @@
-# General Vkp Observation - v0.3.4
+# General Vkp Observation - v0.3.6
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation | *Version*:0.3.4 |
+| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation | *Version*:0.3.6 |
 | Draft as of 2022-11-18 | *Computable Name*:VkpObservation |
 
  
@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-vkp-Observation.csv)
   "resourceType" : "StructureDefinition",
   "id" : "vkp-Observation",
   "url" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation",
-  "version" : "0.3.4",
+  "version" : "0.3.6",
   "name" : "VkpObservation",
   "title" : "General Vkp Observation",
   "status" : "draft",

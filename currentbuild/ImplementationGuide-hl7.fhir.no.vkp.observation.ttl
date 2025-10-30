@@ -17,10 +17,10 @@
      fhir:v "http://hl7.no/fhir/vkpobservation/ImplementationGuide/hl7.fhir.no.vkp.observation"^^xsd:anyURI ;
      fhir:l <http://hl7.no/fhir/vkpobservation/ImplementationGuide/hl7.fhir.no.vkp.observation>
   ] ; # 
-  fhir:version [ fhir:v "0.3.4"] ; # 
+  fhir:version [ fhir:v "0.3.6"] ; # 
   fhir:name [ fhir:v "VkpObservation"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-10-30T12:10:10+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-10-30T21:18:07+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Norway"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Norway" ] ;
@@ -2072,6 +2072,25 @@
            fhir:l fhir:index.html
          ] ;
          fhir:title [ fhir:v "Home" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [
+             fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ;
+             fhir:l <http://hl7.org/fhir/tools/StructureDefinition/ig-page-name>
+           ] ;
+           fhir:value [
+             a fhir:Url ;
+             fhir:v "CFS.html"^^xsd:anyURI ;
+             fhir:l fhir:CFS.html
+           ]
+         ] ) ;
+         fhir:name [
+           a fhir:Url ;
+           fhir:v "CFS.html"^^xsd:anyURI ;
+           fhir:l fhir:CFS.html
+         ] ;
+         fhir:title [ fhir:v "CFS" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] )
      ] ;
