@@ -5,7 +5,7 @@
    Business_Actor(innbygger, "Innbygger")
 
    Business_Actor(fastlege, "Fastlege")
-   Business_Actor(hjemme, "Hjemmetjeneste")
+   Business_Actor(hjemme, "Tjenester til\nhjemmeboende")
    Business_Actor(sykehjem, "Sykehjem")
    Business_Actor(legevakt, "Legevakt")
 

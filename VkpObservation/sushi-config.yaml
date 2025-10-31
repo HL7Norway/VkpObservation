@@ -9,7 +9,7 @@ FSHOnly: false
 applyExtensionMetadataToRoot: false
 id: hl7.fhir.no.vkp.observation
 status: draft
-version: 0.3.7
+version: 0.3.8
 releaseLabel: ci-build
 publisher:
   name: HL7 Norway
@@ -24,7 +24,7 @@ dependencies:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
-  CFS score: CFS.html
+  CFS score: CFS-score-use-case.html
   Artifacts: artifacts.html
   
 parameters:
