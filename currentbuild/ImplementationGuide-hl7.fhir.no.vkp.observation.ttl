@@ -17,10 +17,10 @@
      fhir:v "http://hl7.no/fhir/vkpobservation/ImplementationGuide/hl7.fhir.no.vkp.observation"^^xsd:anyURI ;
      fhir:l <http://hl7.no/fhir/vkpobservation/ImplementationGuide/hl7.fhir.no.vkp.observation>
   ] ; # 
-  fhir:version [ fhir:v "0.3.7"] ; # 
+  fhir:version [ fhir:v "0.3.8"] ; # 
   fhir:name [ fhir:v "VkpObservation"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-10-31T07:41:35+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-10-31T08:30:38+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Norway"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Norway" ] ;
@@ -2081,16 +2081,16 @@
            ] ;
            fhir:value [
              a fhir:Url ;
-             fhir:v "CFS.html"^^xsd:anyURI ;
-             fhir:l fhir:CFS.html
+             fhir:v "CFS-score-use-case.html"^^xsd:anyURI ;
+             fhir:l fhir:CFS-score-use-case.html
            ]
          ] ) ;
          fhir:name [
            a fhir:Url ;
-           fhir:v "CFS.html"^^xsd:anyURI ;
-           fhir:l fhir:CFS.html
+           fhir:v "CFS-score-use-case.html"^^xsd:anyURI ;
+           fhir:l fhir:CFS-score-use-case.html
          ] ;
-         fhir:title [ fhir:v "CFS" ] ;
+         fhir:title [ fhir:v "CFS Score Use Case" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] )
      ] ;

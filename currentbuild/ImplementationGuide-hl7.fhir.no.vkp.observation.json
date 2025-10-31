@@ -6,10 +6,10 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide hl7.fhir.no.vkp.observation</b></p><a name=\"hl7.fhir.no.vkp.observation\"> </a><a name=\"hchl7.fhir.no.vkp.observation\"> </a><h2>VkpObservation</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/vkpobservation/ImplementationGuide/hl7.fhir.no.vkp.observation</pre></div>"
   },
   "url" : "http://hl7.no/fhir/vkpobservation/ImplementationGuide/hl7.fhir.no.vkp.observation",
-  "version" : "0.3.7",
+  "version" : "0.3.8",
   "name" : "VkpObservation",
   "status" : "draft",
-  "date" : "2025-10-31T07:41:35+00:00",
+  "date" : "2025-10-31T08:30:38+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",
@@ -1034,10 +1034,10 @@
       {
         "extension" : [{
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "CFS.html"
+          "valueUrl" : "CFS-score-use-case.html"
         }],
-        "nameUrl" : "CFS.html",
-        "title" : "CFS",
+        "nameUrl" : "CFS-score-use-case.html",
+        "title" : "CFS Score Use Case",
         "generation" : "markdown"
       }]
     },

@@ -17,7 +17,7 @@
      fhir:v "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Oxygensat"^^xsd:anyURI ;
      fhir:l <http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Oxygensat>
   ] ; # 
-  fhir:version [ fhir:v "0.3.7"] ; # 
+  fhir:version [ fhir:v "0.3.8"] ; # 
   fhir:name [ fhir:v "VkpObservationOxygensat"] ; # 
   fhir:title [ fhir:v "Vkp VitalSigns Observation - Oxygen saturation"] ; # 
   fhir:status [ fhir:v "draft"] ; # 

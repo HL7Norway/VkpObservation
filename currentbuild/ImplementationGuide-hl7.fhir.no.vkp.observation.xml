@@ -6,10 +6,10 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide hl7.fhir.no.vkp.observation</b></p><a name="hl7.fhir.no.vkp.observation"> </a><a name="hchl7.fhir.no.vkp.observation"> </a><h2>VkpObservation</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/vkpobservation/ImplementationGuide/hl7.fhir.no.vkp.observation</pre></div>
   </text>
   <url value="http://hl7.no/fhir/vkpobservation/ImplementationGuide/hl7.fhir.no.vkp.observation"/>
-  <version value="0.3.7"/>
+  <version value="0.3.8"/>
   <name value="VkpObservation"/>
   <status value="draft"/>
-  <date value="2025-10-31T07:41:35+00:00"/>
+  <date value="2025-10-31T08:30:38+00:00"/>
   <publisher value="HL7 Norway"/>
   <contact>
     <name value="HL7 Norway"/>
@@ -836,10 +836,10 @@
       </page>
       <page>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="CFS.html"/>
+          <valueUrl value="CFS-score-use-case.html"/>
         </extension>
-        <nameUrl value="CFS.html"/>
-        <title value="CFS"/>
+        <nameUrl value="CFS-score-use-case.html"/>
+        <title value="CFS Score Use Case"/>
         <generation value="markdown"/>
       </page>
     </page>

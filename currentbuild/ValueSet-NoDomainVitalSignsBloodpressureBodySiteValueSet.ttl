@@ -52,12 +52,12 @@
      fhir:v "http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet"^^xsd:anyURI ;
      fhir:l <http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet>
   ] ; # 
-  fhir:version [ fhir:v "0.3.7"] ; # 
+  fhir:version [ fhir:v "0.3.8"] ; # 
   fhir:name [ fhir:v "NoDomainVitalSignsBloodpressureBodySiteValueSet"] ; # 
   fhir:title [ fhir:v "NoDomainVitalSignsBloodpressureBodySite-ValueSet"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-10-31T07:41:35+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-10-31T08:30:38+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Norway"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Norway" ] ;

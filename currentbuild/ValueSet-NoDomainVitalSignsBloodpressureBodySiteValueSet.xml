@@ -19,12 +19,12 @@
     <valueInteger value="1"/>
   </extension>
   <url value="http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet"/>
-  <version value="0.3.7"/>
+  <version value="0.3.8"/>
   <name value="NoDomainVitalSignsBloodpressureBodySiteValueSet"/>
   <title value="NoDomainVitalSignsBloodpressureBodySite-ValueSet"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2025-10-31T07:41:35+00:00"/>
+  <date value="2025-10-31T08:30:38+00:00"/>
   <publisher value="HL7 Norway"/>
   <contact>
     <name value="HL7 Norway"/>

@@ -1,9 +1,9 @@
-# CFS - v0.3.7
+# CFS Score Use Case - v0.3.8
 
 * [**Table of Contents**](toc.md)
-* **CFS**
+* **CFS Score Use Case**
 
-## CFS
+## CFS Score Use Case
 
 ### Actors and processes
 

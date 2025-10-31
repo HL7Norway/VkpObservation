@@ -1,4 +1,4 @@
-# Vkp Observation - CFS score - v0.3.7
+# Vkp Observation - CFS score - v0.3.8
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-CFSscore | *Version*:0.3.7 |
+| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-CFSscore | *Version*:0.3.8 |
 | Draft as of 2025-10-31 | *Computable Name*:VkpObservationCFSscore |
 
  
@@ -40,11 +40,11 @@ Other representations of profile: [CSV](StructureDefinition-vkp-Observation-CFSs
   "resourceType" : "StructureDefinition",
   "id" : "vkp-Observation-CFSscore",
   "url" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-CFSscore",
-  "version" : "0.3.7",
+  "version" : "0.3.8",
   "name" : "VkpObservationCFSscore",
   "title" : "Vkp Observation - CFS score",
   "status" : "draft",
-  "date" : "2025-10-31T07:41:35+00:00",
+  "date" : "2025-10-31T08:30:38+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [
     {

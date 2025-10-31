@@ -1,4 +1,4 @@
-# vkp-oxygen-saturation-create - v0.3.7
+# vkp-oxygen-saturation-create - v0.3.8
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

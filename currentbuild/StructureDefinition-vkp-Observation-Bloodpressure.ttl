@@ -17,7 +17,7 @@
      fhir:v "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Bloodpressure"^^xsd:anyURI ;
      fhir:l <http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Bloodpressure>
   ] ; # 
-  fhir:version [ fhir:v "0.3.7"] ; # 
+  fhir:version [ fhir:v "0.3.8"] ; # 
   fhir:name [ fhir:v "VkpObservationBloodpressure"] ; # 
   fhir:title [ fhir:v "Vkp VitalSigns Observation - Blood pressure"] ; # 
   fhir:status [ fhir:v "draft"] ; # 

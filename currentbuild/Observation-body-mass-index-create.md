@@ -1,4 +1,4 @@
-# body-mass-index-create - v0.3.7
+# body-mass-index-create - v0.3.8
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
