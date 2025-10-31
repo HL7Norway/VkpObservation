@@ -5,13 +5,13 @@ class "CFS-score"{
    notat: string, tekst med\n utfyllende informasjon
 }
 
-class Patient {
+class Pasient {
    Navn : HumanName
    Identifikator : FNR, DNR, HNR
    ...
 }
 
-Class Practitioner {
+Class Helsepersonell {
    Navn : HumanName
    Identifikator : HPR, FNR
    Kategori helsepersonell : code
@@ -22,8 +22,12 @@ Class AnsvarligVirksomhet {
    Identifikator : orgnr, RESHid
 }
 
-"CFS-score" --> Patient : subject
-"CFS-score" --> Practitioner : performer
-"CFS-score" --> AnsvarligVirksomhet :responsible
+<> diamond
+
+"CFS-score" --> Pasient :subjekt
+"CFS-score" -- diamond :forfatter
+diamond --> Helsepersonell
+diamond --> Pasient
+"CFS-score" --> AnsvarligVirksomhet :ansvarlig\nvirksomhet
 
 @enduml
