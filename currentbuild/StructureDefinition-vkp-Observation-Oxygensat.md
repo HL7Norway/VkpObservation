@@ -1,4 +1,4 @@
-# Vkp VitalSigns Observation - Oxygen saturation - v0.3.6
+# Vkp VitalSigns Observation - Oxygen saturation - v0.3.7
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Oxygensat | *Version*:0.3.6 |
+| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Oxygensat | *Version*:0.3.7 |
 | Draft as of 2022-02-16 | *Computable Name*:VkpObservationOxygensat |
 
  
@@ -40,7 +40,7 @@ Other representations of profile: [CSV](StructureDefinition-vkp-Observation-Oxyg
   "resourceType" : "StructureDefinition",
   "id" : "vkp-Observation-Oxygensat",
   "url" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Oxygensat",
-  "version" : "0.3.6",
+  "version" : "0.3.7",
   "name" : "VkpObservationOxygensat",
   "title" : "Vkp VitalSigns Observation - Oxygen saturation",
   "status" : "draft",

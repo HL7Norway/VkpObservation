@@ -1,4 +1,4 @@
-# CFS - v0.3.6
+# CFS - v0.3.7
 
 * [**Table of Contents**](toc.md)
 * **CFS**
