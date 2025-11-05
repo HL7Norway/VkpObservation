@@ -17,11 +17,11 @@
      fhir:v "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-CFSscore"^^xsd:anyURI ;
      fhir:l <http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-CFSscore>
   ] ; # 
-  fhir:version [ fhir:v "0.3.8"] ; # 
+  fhir:version [ fhir:v "0.3.9"] ; # 
   fhir:name [ fhir:v "VkpObservationCFSscore"] ; # 
   fhir:title [ fhir:v "Vkp Observation - CFS score"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-10-31T08:30:38+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-11-05T11:46:37+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Norway"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Norway" ] ;
@@ -105,7 +105,7 @@
        ] ;
        fhir:value [
          a fhir:String ;
-         fhir:v "0.3.8"
+         fhir:v "0.3.9"
        ]
      ] ) ;
      fhir:element ( [

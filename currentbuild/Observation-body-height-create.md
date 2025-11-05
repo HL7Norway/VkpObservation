@@ -1,4 +1,4 @@
-# body-height-create - v0.3.8
+# body-height-create - v0.3.9
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

@@ -17,12 +17,12 @@
     "valueInteger" : 1
   }],
   "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-reference-types.valueset",
-  "version" : "0.3.8",
+  "version" : "0.3.9",
   "name" : "VkpPerformerReferenceTypesValueSet",
   "title" : "Vkp Performer reference types Systems ValueSet",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-10-31T08:30:38+00:00",
+  "date" : "2025-11-05T11:46:37+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",
