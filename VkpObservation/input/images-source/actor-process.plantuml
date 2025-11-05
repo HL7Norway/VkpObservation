@@ -27,14 +27,18 @@
    Rel_Aggregation(sykehus, poli)
 
    Business_Process(identifiser, "Identifisere pasienter\nmed risiko for funksjonsfall")
-   Business_Process(vurdere, "Vurdere behovet foroppfølging\nog planlegging av helsehjelp​")
+   Business_Process(vurdere, "Vurdere behovet for oppfølging\nog planlegging av helsehjelp​")
    Business_Process(vurderem, "Vurdere medisinsk\nbehandling")
+   Business_Process(score, "Skåre CFS\n(registrere)")
    Business_Process(egenbehandling, "Egenbehandling/\negenmestring")
-
+   
    Rel_Assignment_Up(kommune, identifiser)
    Rel_Assignment_Up(innbygger, egenbehandling)
    Rel_Assignment_Up(kommune, vurdere)
    Rel_Assignment_Up(kommune, vurderem)
    Rel_Assignment_Up(sykehus, vurderem)
    Rel_Assignment_Up(sykehus, identifiser)
+   Rel_Assignment_Up(kommune, score)
+   Rel_Assignment_Up(sykehus, score)
+   Rel_Assignment_Up(innbygger, score)
 @enduml
