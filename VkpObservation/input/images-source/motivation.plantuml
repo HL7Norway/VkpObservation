@@ -12,4 +12,26 @@
    Motivation_Value(beslutning, "Beslutningsstøtte")
    Motivation_Value(behandling, "Behandlingsstøtte")
    Motivation_Value(forebygge, "Forebygge funksjonsfall")
+
+   Rel_Association(kommune, samhandling)
+   Rel_Association(sykehus, samhandling)
+   Rel_Association(fastlege, samhandling)
+
+   Rel_Association(fastlege, ressurser)
+   Rel_Association(kommune, ressurser)
+   Rel_Association(sykehus, ressurser)
+
+   Rel_Aggregation(ressurser, beslutning)
+   Rel_Aggregation(ressurser, behandling)
+
+   Rel_Association(fastlege, felles)
+   Rel_Association(kommune, felles)
+   Rel_Association(sykehus, felles)
+
+   Rel_Specialization(samhandling, felles)
+   Rel_Specialization(samhandling, identifisere)
+   Rel_Specialization(samhandling, ressurser)
+
+   Rel_Association(innbygger, forebygge)
+
 @enduml
