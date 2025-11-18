@@ -33,5 +33,6 @@
    Rel_Specialization(samhandling, ressurser)
 
    Rel_Association(innbygger, forebygge)
-
+   Rel_Association(fastlege, forebygge)
+   Rel_Association(kommune, forebygge)
 @enduml
