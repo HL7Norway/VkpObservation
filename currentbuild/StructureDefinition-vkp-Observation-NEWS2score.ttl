@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "VkpObservationNEWS2score"] ; # 
   fhir:title [ fhir:v "Vkp VitalSigns Observation - NEWS2 score"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-11-18T16:26:41+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-11-18T18:41:36+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Norway"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Norway" ] ;
