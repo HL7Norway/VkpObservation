@@ -4,6 +4,12 @@ Actors and processess where CFS-score is used.
 
 {% include actor-process.svg %}
 
+### Motivation
+
+Motivation for using the CFS-score as a interoperability tool.  
+
+{% include motivation.svg %}
+
 ### Information model
 
 Semi logical information model for CFS-score.
