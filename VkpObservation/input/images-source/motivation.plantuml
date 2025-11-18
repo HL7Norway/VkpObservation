@@ -1,0 +1,15 @@
+@startuml
+   !include <archimate/Archimate>
+   Motivation_Stakeholder(kommune, "Kommune")
+   Motivation_Stakeholder(sykehus, "Sykehus")
+   Motivation_Stakeholder(innbygger, "Innbygger")
+   Motivation_Stakeholder(fastlege, "Fastlege")
+
+   Motivation_Value(samhandling, "Samhandlingsverktøy")
+   Motivation_Value(felles, "Felles forståelse\nav pasienten")
+   Motivation_Value(identifisere, "Identifisere pasienter\nmed skrøpelighet")
+   Motivation_Value(ressurser, "Ressursfordeling")
+   Motivation_Value(beslutning, "Beslutningsstøtte")
+   Motivation_Value(behandling, "Behandlingsstøtte")
+
+@enduml
