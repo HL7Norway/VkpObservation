@@ -11,5 +11,5 @@
    Motivation_Value(ressurser, "Ressursfordeling")
    Motivation_Value(beslutning, "Beslutningsstøtte")
    Motivation_Value(behandling, "Behandlingsstøtte")
-
+   Motivation_Value(forebygge, "Forebygge funksjonsfall")
 @enduml
