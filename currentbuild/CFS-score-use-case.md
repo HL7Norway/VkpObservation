@@ -1,4 +1,4 @@
-# CFS Score Use Case - v0.3.9
+# CFS Score Use Case - v0.4.1
 
 * [**Table of Contents**](toc.md)
 * **CFS Score Use Case**
@@ -8,6 +8,10 @@
 ### Actors and processes
 
 Actors and processess where CFS-score is used.
+
+### Motivation
+
+Motivation for using the CFS-score as a interoperability tool.
 
 ### Information model
 

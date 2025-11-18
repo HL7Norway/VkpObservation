@@ -1,4 +1,4 @@
-# Home - v0.3.9
+# Home - v0.4.1
 
 * [**Table of Contents**](toc.md)
 * **Home**
@@ -7,8 +7,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/vkpobservation/ImplementationGuide/hl7.fhir.no.vkp.observation | *Version*:0.3.9 |
-| Draft as of 2025-11-05 | *Computable Name*:VkpObservation |
+| *Official URL*:http://hl7.no/fhir/vkpobservation/ImplementationGuide/hl7.fhir.no.vkp.observation | *Version*:0.4.1 |
+| Draft as of 2025-11-18 | *Computable Name*:VkpObservation |
 
 # Vkp Observation profiles
 
@@ -70,10 +70,10 @@ Questionaire scores. Question, different coding for different questionnaire type
   "resourceType" : "ImplementationGuide",
   "id" : "hl7.fhir.no.vkp.observation",
   "url" : "http://hl7.no/fhir/vkpobservation/ImplementationGuide/hl7.fhir.no.vkp.observation",
-  "version" : "0.3.9",
+  "version" : "0.4.1",
   "name" : "VkpObservation",
   "status" : "draft",
-  "date" : "2025-11-05T11:46:37+00:00",
+  "date" : "2025-11-18T16:26:41+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [
     {
@@ -111,7 +111,7 @@ Questionaire scores. Question, different coding for different questionnaire type
       ],
       "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
       "packageId" : "hl7.terminology.r4",
-      "version" : "6.5.0"
+      "version" : "7.0.0"
     },
     {
       "id" : "hl7ext",

@@ -1,4 +1,4 @@
-# vkp-body-temperature-create - v0.3.9
+# vkp-body-temperature-create - v0.4.1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

@@ -1,4 +1,4 @@
-# Vkp VitalSigns Observation - NEWS2 score - v0.3.9
+# Vkp VitalSigns Observation - NEWS2 score - v0.4.1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-NEWS2score | *Version*:0.3.9 |
-| Draft as of 2025-11-05 | *Computable Name*:VkpObservationNEWS2score |
+| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-NEWS2score | *Version*:0.4.1 |
+| Draft as of 2025-11-18 | *Computable Name*:VkpObservationNEWS2score |
 
  
 Profile for NEWS2 score in VKP. 
@@ -40,11 +40,11 @@ Other representations of profile: [CSV](StructureDefinition-vkp-Observation-NEWS
   "resourceType" : "StructureDefinition",
   "id" : "vkp-Observation-NEWS2score",
   "url" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-NEWS2score",
-  "version" : "0.3.9",
+  "version" : "0.4.1",
   "name" : "VkpObservationNEWS2score",
   "title" : "Vkp VitalSigns Observation - NEWS2 score",
   "status" : "draft",
-  "date" : "2025-11-05T11:46:37+00:00",
+  "date" : "2025-11-18T16:26:41+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [
     {

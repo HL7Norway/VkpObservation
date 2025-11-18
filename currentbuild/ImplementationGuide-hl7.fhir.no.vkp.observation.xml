@@ -6,10 +6,10 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide hl7.fhir.no.vkp.observation</b></p><a name="hl7.fhir.no.vkp.observation"> </a><a name="hchl7.fhir.no.vkp.observation"> </a><h2>VkpObservation</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/vkpobservation/ImplementationGuide/hl7.fhir.no.vkp.observation</pre></div>
   </text>
   <url value="http://hl7.no/fhir/vkpobservation/ImplementationGuide/hl7.fhir.no.vkp.observation"/>
-  <version value="0.3.9"/>
+  <version value="0.4.1"/>
   <name value="VkpObservation"/>
   <status value="draft"/>
-  <date value="2025-11-05T11:46:37+00:00"/>
+  <date value="2025-11-18T16:26:41+00:00"/>
   <publisher value="HL7 Norway"/>
   <contact>
     <name value="HL7 Norway"/>
@@ -34,7 +34,7 @@
     </extension>
     <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
     <packageId value="hl7.terminology.r4"/>
-    <version value="6.5.0"/>
+    <version value="7.0.0"/>
   </dependsOn>
   <dependsOn id="hl7ext">
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">

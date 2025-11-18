@@ -1,4 +1,4 @@
-# CFS score example - v0.3.9
+# CFS score example - v0.4.1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

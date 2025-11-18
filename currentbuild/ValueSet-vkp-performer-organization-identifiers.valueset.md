@@ -1,4 +1,4 @@
-# VKP Performer Identifier for organizations ValueSet - v0.3.9
+# VKP Performer Identifier for organizations ValueSet - v0.4.1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-organization-identifiers.valueset | *Version*:0.3.9 | |
+| *Official URL*:http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-organization-identifiers.valueset | *Version*:0.4.1 | |
 | *Standards status:*[Draft](http://hl7.org/fhir/R4/versions.html#std-process) | [Maturity Level](http://hl7.org/fhir/versions.html#maturity): 1 | *Computable Name*:VkpPerformerOrganizationIdentifiersValueSet |
 
  
@@ -24,7 +24,7 @@ Last updated: 2022-02-10 00:00:00+0000
 
 Profile: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
-* Include all codes defined in [`http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem`](CodeSystem-vkp-performer-organization-identifiers.codesystem.md)version 📦0.3.9
+* Include all codes defined in [`http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem`](CodeSystem-vkp-performer-organization-identifiers.codesystem.md)version 📦0.4.1
 
  
 
@@ -66,7 +66,7 @@ Profile: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
     }
   ],
   "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-organization-identifiers.valueset",
-  "version" : "0.3.9",
+  "version" : "0.4.1",
   "name" : "VkpPerformerOrganizationIdentifiersValueSet",
   "title" : "VKP Performer Identifier for organizations ValueSet",
   "status" : "draft",
