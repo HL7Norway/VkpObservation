@@ -1,0 +1,43 @@
+@startuml
+   !include <archimate/Archimate>
+   
+   Business_Actor(oslo, "Oslo\nkommune")
+   Business_Actor(ous, "Oslo\nUniversitetssykehus")
+   Business_Actor(pasient, "Pasient")
+
+   Business_Actor(drammen, "Drammen\nkommune")
+   Business_Actor(vestrev, "Vestre\nViken")
+   
+   Business_Role(konsument, "Konsument\nav data")
+   Business_Role(produsent, "Produsent\nav data")
+   Business_Service(dho, "DHO")
+   Business_Service(spesialist, "Spesialist-\nhelse")
+
+   Business_Role(kronisk, "Kronisk\ndiagnose")
+   Business_Role(hjerte, "Hjerte")
+   Business_Role(lunge, "Lunge")
+   Business_Role(diabetes, "Diabetes")
+   Business_Role(kreft, "Kreft")
+
+   Rel_Aggregation_Left(oslo, dho)
+   Rel_Aggregation_Left(drammen, dho)
+   Rel_Serving_Left(dho, pasient)
+
+   Rel_Aggregation_Left(ous, spesialist)
+   Rel_Aggregation_Left(vestrev, spesialist)
+   Rel_Serving_Left(spesialist, pasient)
+
+   Rel_Assignment_Up(oslo, produsent)
+   Rel_Assignment_Up(drammen, produsent)
+   Rel_Assignment(ous, konsument)
+   Rel_Assignment(vestrev, konsument)
+
+   Rel_Association(oslo, ous)
+   Rel_Association(drammen, vestrev)
+
+   Rel_Assignment_Left(pasient, kronisk)
+   Rel_Specialization_Up(kronisk, hjerte)
+   Rel_Specialization_Left(kronisk, lunge)
+   Rel_Specialization_Down(kronisk, diabetes)
+   Rel_Specialization_Down(kronisk, kreft)
+@enduml
