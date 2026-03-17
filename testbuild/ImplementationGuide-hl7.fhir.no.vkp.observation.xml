@@ -6,10 +6,10 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide hl7.fhir.no.vkp.observation</b></p><a name="hl7.fhir.no.vkp.observation"> </a><a name="hchl7.fhir.no.vkp.observation"> </a><h2>VkpObservation</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/vkpobservation/ImplementationGuide/hl7.fhir.no.vkp.observation</pre></div>
   </text>
   <url value="http://hl7.no/fhir/vkpobservation/ImplementationGuide/hl7.fhir.no.vkp.observation"/>
-  <version value="0.3.1"/>
+  <version value="0.4.1"/>
   <name value="VkpObservation"/>
   <status value="draft"/>
-  <date value="2025-06-19T16:54:07+00:00"/>
+  <date value="2026-03-17T11:32:33+00:00"/>
   <publisher value="HL7 Norway"/>
   <contact>
     <name value="HL7 Norway"/>
@@ -34,7 +34,7 @@
     </extension>
     <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
     <packageId value="hl7.terminology.r4"/>
-    <version value="6.4.0"/>
+    <version value="7.1.0"/>
   </dependsOn>
   <dependsOn id="hl7ext">
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
@@ -47,7 +47,7 @@
   <dependsOn id="hl7_fhir_no_basis">
     <uri value="http://fhir.org/packages/hl7.fhir.no.basis/ImplementationGuide/hl7.fhir.no.basis"/>
     <packageId value="hl7.fhir.no.basis"/>
-    <version value="2.2.0"/>
+    <version value="2.2.2"/>
   </dependsOn>
   <definition>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -259,7 +259,7 @@
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
-      <valueCode value="hl7.fhir.uv.tools.r4#0.5.0"/>
+      <valueCode value="hl7.fhir.uv.tools.r4#0.9.0"/>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
@@ -471,6 +471,28 @@
     </extension>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/pmd-Bundle-Observation"/>
+      </reference>
+      <name value="A bundle of observations for processing by Pasientens måledata"/>
+      <description value="Profile for adding a number of observations to PMD"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/pmd-Bundle-Response"/>
+      </reference>
+      <name value="A response bundle for observations prcessed by Pasientens måledata"/>
+      <description value="Profile for responding to a batch of observations to PMD"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Observation"/>
       </extension>
       <reference>
@@ -498,6 +520,28 @@
       </reference>
       <name value="body-mass-index-create"/>
       <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/pmd-bundle-requests.valueset"/>
+      </reference>
+      <name value="Bundle request types"/>
+      <description value="Bundle Request types"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/vkp-cfs-create"/>
+      </reference>
+      <name value="CFS score example"/>
+      <description value="Eksempel CFS score med notat, dato og hvordan man koder CFS i FHIR"/>
+      <exampleCanonical value="http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-CFSscore"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -532,16 +576,6 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
-      </extension>
-      <reference>
-        <reference value="Observation/news2-create"/>
-      </reference>
-      <name value="news2-create"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
@@ -564,6 +598,39 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/pmd-Bundle-Request-example"/>
+      </reference>
+      <name value="Pmd bundle example"/>
+      <description value="Eksempel"/>
+      <exampleCanonical value="http://hl7.no/fhir/vkpobservation/StructureDefinition/pmd-Bundle-Observation"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/pmd-Bundle-Response-example"/>
+      </reference>
+      <name value="Pmd bundle response example"/>
+      <description value="Eksempel respons"/>
+      <exampleCanonical value="http://hl7.no/fhir/vkpobservation/StructureDefinition/pmd-Bundle-Response"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/PmdBundleResponseEntryIdExtension"/>
+      </reference>
+      <name value="PmdBundleResponseEntryId-Extension"/>
+      <description value="full Url to the orininal bundle entry posted/put'ed for addition"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Observation"/>
       </extension>
       <reference>
@@ -577,10 +644,43 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/vkp-Observation-CFSscore"/>
+      </reference>
+      <name value="Vkp Observation - CFS score"/>
+      <description value="Profile for Clinical Frailty Scale score in VKP."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/vkp-Observation-Consciousness"/>
       </reference>
       <name value="Vkp Observation - Consciousness"/>
       <description value="Profile for Consciousness in VKP."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/vkp-performer-organization-identifiers.codesystem"/>
+      </reference>
+      <name value="Vkp Performer Identifier for organizations CodeSystem"/>
+      <description value="The CodeSystem contains all codes allowed for Observation.performer.system for use with VKP identifying organizations"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vkp-performer-organization-identifiers.valueset"/>
+      </reference>
+      <name value="VKP Performer Identifier for organizations ValueSet"/>
+      <description value="Identifier Systems allowed for performer identification systems in Vkp Observations for organizations"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -603,6 +703,17 @@
       </reference>
       <name value="VKP Performer Identifier systems ValueSet"/>
       <description value="Identifier Systems allowed for performer identification systems in Vkp Observations"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vkp-performer-reference-types.valueset"/>
+      </reference>
+      <name value="Vkp Performer reference types Systems ValueSet"/>
+      <description value="The Valueset contains all codes allowed for Observation.performer.type for use with VKP"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -658,17 +769,6 @@
       </reference>
       <name value="Vkp VitalSigns Observation - Body weight"/>
       <description value="Profile for Body weight in VKP."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/vkp-Observation-CFSscore"/>
-      </reference>
-      <name value="Vkp VitalSigns Observation - CFS score"/>
-      <description value="Profile for Clinical Frailty Scale score in VKP."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -770,6 +870,16 @@
         <valueString value="Observation"/>
       </extension>
       <reference>
+        <reference value="Observation/vkp-news2-create"/>
+      </reference>
+      <name value="vkp-news2-create"/>
+      <exampleCanonical value="http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-NEWS2score"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
         <reference value="Observation/vkp-oxygen-saturation-create"/>
       </reference>
       <name value="vkp-oxygen-saturation-create"/>
@@ -788,6 +898,14 @@
         </extension>
         <nameUrl value="index.html"/>
         <title value="Home"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="CFS-score-use-case.html"/>
+        </extension>
+        <nameUrl value="CFS-score-use-case.html"/>
+        <title value="CFS Score Use Case"/>
         <generation value="markdown"/>
       </page>
     </page>

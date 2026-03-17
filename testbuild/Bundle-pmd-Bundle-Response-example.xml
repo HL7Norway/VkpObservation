@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="pmd-Bundle-Response-example"/>
+  <meta>
+    <profile value="http://hl7.no/fhir/vkpobservation/StructureDefinition/pmd-Bundle-Response"/>
+  </meta>
+  <type value="batch-response"/>
+  <entry>
+    <response>
+      <extension url="http://hl7.no/fhir/vkpobservation/StructureDefinition/PmdBundleResponseEntryIdExtension">
+        <valueUri value="test.url"/>
+      </extension>
+      <status value="200"/>
+    </response>
+  </entry>
+</Bundle>

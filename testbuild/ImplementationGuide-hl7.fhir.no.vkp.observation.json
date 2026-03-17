@@ -6,10 +6,10 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide hl7.fhir.no.vkp.observation</b></p><a name=\"hl7.fhir.no.vkp.observation\"> </a><a name=\"hchl7.fhir.no.vkp.observation\"> </a><h2>VkpObservation</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/vkpobservation/ImplementationGuide/hl7.fhir.no.vkp.observation</pre></div>"
   },
   "url" : "http://hl7.no/fhir/vkpobservation/ImplementationGuide/hl7.fhir.no.vkp.observation",
-  "version" : "0.3.1",
+  "version" : "0.4.1",
   "name" : "VkpObservation",
   "status" : "draft",
-  "date" : "2025-06-19T16:54:07+00:00",
+  "date" : "2026-03-17T11:32:33+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",
@@ -36,7 +36,7 @@
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "6.4.0"
+    "version" : "7.1.0"
   },
   {
     "id" : "hl7ext",
@@ -52,7 +52,7 @@
     "id" : "hl7_fhir_no_basis",
     "uri" : "http://fhir.org/packages/hl7.fhir.no.basis/ImplementationGuide/hl7.fhir.no.basis",
     "packageId" : "hl7.fhir.no.basis",
-    "version" : "2.2.0"
+    "version" : "2.2.2"
   }],
   "definition" : {
     "extension" : [{
@@ -343,7 +343,7 @@
     },
     {
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
-      "valueCode" : "hl7.fhir.uv.tools.r4#0.5.0"
+      "valueCode" : "hl7.fhir.uv.tools.r4#0.9.0"
     },
     {
       "extension" : [{
@@ -634,6 +634,30 @@
     "resource" : [{
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/pmd-Bundle-Observation"
+      },
+      "name" : "A bundle of observations for processing by Pasientens måledata",
+      "description" : "Profile for adding a number of observations to PMD",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/pmd-Bundle-Response"
+      },
+      "name" : "A response bundle for observations prcessed by Pasientens måledata",
+      "description" : "Profile for responding to a batch of observations to PMD",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Observation"
       }],
       "reference" : {
@@ -663,6 +687,30 @@
       },
       "name" : "body-mass-index-create",
       "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/pmd-bundle-requests.valueset"
+      },
+      "name" : "Bundle request types",
+      "description" : "Bundle Request types",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/vkp-cfs-create"
+      },
+      "name" : "CFS score example",
+      "description" : "Eksempel CFS score med notat, dato og hvordan man koder CFS i FHIR",
+      "exampleCanonical" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-CFSscore"
     },
     {
       "extension" : [{
@@ -701,17 +749,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Observation"
-      }],
-      "reference" : {
-        "reference" : "Observation/news2-create"
-      },
-      "name" : "news2-create",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
@@ -736,6 +773,42 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Bundle"
+      }],
+      "reference" : {
+        "reference" : "Bundle/pmd-Bundle-Request-example"
+      },
+      "name" : "Pmd bundle example",
+      "description" : "Eksempel",
+      "exampleCanonical" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/pmd-Bundle-Observation"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Bundle"
+      }],
+      "reference" : {
+        "reference" : "Bundle/pmd-Bundle-Response-example"
+      },
+      "name" : "Pmd bundle response example",
+      "description" : "Eksempel respons",
+      "exampleCanonical" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/pmd-Bundle-Response"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/PmdBundleResponseEntryIdExtension"
+      },
+      "name" : "PmdBundleResponseEntryId-Extension",
+      "description" : "full Url to the orininal bundle entry posted/put'ed for addition",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Observation"
       }],
       "reference" : {
@@ -750,10 +823,46 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
+        "reference" : "StructureDefinition/vkp-Observation-CFSscore"
+      },
+      "name" : "Vkp Observation - CFS score",
+      "description" : "Profile for Clinical Frailty Scale score in VKP.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
         "reference" : "StructureDefinition/vkp-Observation-Consciousness"
       },
       "name" : "Vkp Observation - Consciousness",
       "description" : "Profile for Consciousness in VKP.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/vkp-performer-organization-identifiers.codesystem"
+      },
+      "name" : "Vkp Performer Identifier for organizations CodeSystem",
+      "description" : "The CodeSystem contains all codes allowed for Observation.performer.system for use with VKP identifying organizations",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vkp-performer-organization-identifiers.valueset"
+      },
+      "name" : "VKP Performer Identifier for organizations ValueSet",
+      "description" : "Identifier Systems allowed for performer identification systems in Vkp Observations for organizations",
       "exampleBoolean" : false
     },
     {
@@ -778,6 +887,18 @@
       },
       "name" : "VKP Performer Identifier systems ValueSet",
       "description" : "Identifier Systems allowed for performer identification systems in Vkp Observations",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vkp-performer-reference-types.valueset"
+      },
+      "name" : "Vkp Performer reference types Systems ValueSet",
+      "description" : "The Valueset contains all codes allowed for Observation.performer.type for use with VKP",
       "exampleBoolean" : false
     },
     {
@@ -838,18 +959,6 @@
       },
       "name" : "Vkp VitalSigns Observation - Body weight",
       "description" : "Profile for Body weight in VKP.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/vkp-Observation-CFSscore"
-      },
-      "name" : "Vkp VitalSigns Observation - CFS score",
-      "description" : "Profile for Clinical Frailty Scale score in VKP.",
       "exampleBoolean" : false
     },
     {
@@ -961,6 +1070,17 @@
         "valueString" : "Observation"
       }],
       "reference" : {
+        "reference" : "Observation/vkp-news2-create"
+      },
+      "name" : "vkp-news2-create",
+      "exampleCanonical" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-NEWS2score"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
         "reference" : "Observation/vkp-oxygen-saturation-create"
       },
       "name" : "vkp-oxygen-saturation-create",
@@ -981,6 +1101,15 @@
         }],
         "nameUrl" : "index.html",
         "title" : "Home",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "CFS-score-use-case.html"
+        }],
+        "nameUrl" : "CFS-score-use-case.html",
+        "title" : "CFS Score Use Case",
         "generation" : "markdown"
       }]
     },

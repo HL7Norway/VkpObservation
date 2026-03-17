@@ -1,0 +1,17 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "pmd-Bundle-Response-example",
+  "meta" : {
+    "profile" : ["http://hl7.no/fhir/vkpobservation/StructureDefinition/pmd-Bundle-Response"]
+  },
+  "type" : "batch-response",
+  "entry" : [{
+    "response" : {
+      "extension" : [{
+        "url" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/PmdBundleResponseEntryIdExtension",
+        "valueUri" : "test.url"
+      }],
+      "status" : "200"
+    }
+  }]
+}
