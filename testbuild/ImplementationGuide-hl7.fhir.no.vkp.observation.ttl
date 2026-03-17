@@ -20,7 +20,7 @@
   fhir:version [ fhir:v "0.4.1"] ; # 
   fhir:name [ fhir:v "VkpObservation"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-03-17T11:32:33+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-03-17T11:52:23+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Norway"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Norway" ] ;
@@ -1382,7 +1382,7 @@
          fhir:l <http://hl7.no/fhir/vkpobservation/StructureDefinition/pmd-Bundle-Response> ;
          fhir:reference [ fhir:v "StructureDefinition/pmd-Bundle-Response" ]
        ] ;
-       fhir:name [ fhir:v "A response bundle for observations prcessed by Pasientens måledata" ] ;
+       fhir:name [ fhir:v "A response bundle for observations processed by Pasientens måledata" ] ;
        fhir:description [ fhir:v "Profile for responding to a batch of observations to PMD" ] ;
        fhir:example [
          a fhir:Boolean ;

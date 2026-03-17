@@ -14,7 +14,7 @@ These define constraints on FHIR resources for systems conforming to this implem
 | | |
 | :--- | :--- |
 | [A bundle of observations for processing by Pasientens måledata](StructureDefinition-pmd-Bundle-Observation.md) | Profile for adding a number of observations to PMD |
-| [A response bundle for observations prcessed by Pasientens måledata](StructureDefinition-pmd-Bundle-Response.md) | Profile for responding to a batch of observations to PMD |
+| [A response bundle for observations processed by Pasientens måledata](StructureDefinition-pmd-Bundle-Response.md) | Profile for responding to a batch of observations to PMD |
 | [General Vkp Observation](StructureDefinition-vkp-Observation.md) | Profile for general observations in VKP. |
 | [Vkp Observation - CFS score](StructureDefinition-vkp-Observation-CFSscore.md) | Profile for Clinical Frailty Scale score in VKP. |
 | [Vkp Observation - Consciousness](StructureDefinition-vkp-Observation-Consciousness.md) | Profile for Consciousness in VKP. |

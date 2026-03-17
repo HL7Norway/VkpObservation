@@ -27,7 +27,7 @@
 ### Resource Profiles
 
 * [A bundle of observations for processing by Pasientens måledata](StructureDefinition-pmd-Bundle-Observation.md)
-* [A response bundle for observations prcessed by Pasientens måledata](StructureDefinition-pmd-Bundle-Response.md)
+* [A response bundle for observations processed by Pasientens måledata](StructureDefinition-pmd-Bundle-Response.md)
 * [Vkp VitalSigns Observation - Blood pressure](StructureDefinition-vkp-Observation-Bloodpressure.md)
 * [Vkp VitalSigns Observation - Body temperature](StructureDefinition-vkp-Observation-Bodytemp.md)
 * [Vkp VitalSigns Observation - Body weight](StructureDefinition-vkp-Observation-Bodyweight.md)

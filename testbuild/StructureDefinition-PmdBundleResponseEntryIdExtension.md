@@ -19,7 +19,7 @@ full Url to the orininal bundle entry posted/put'ed for addition
 
 **Usages:**
 
-* Use this Extension: [A response bundle for observations prcessed by Pasientens måledata](StructureDefinition-pmd-Bundle-Response.md)
+* Use this Extension: [A response bundle for observations processed by Pasientens måledata](StructureDefinition-pmd-Bundle-Response.md)
 * Examples for this Extension: [Bundle/pmd-Bundle-Response-example](Bundle-pmd-Bundle-Response-example.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.no.vkp.observation|current/StructureDefinition/PmdBundleResponseEntryIdExtension)

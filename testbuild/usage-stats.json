@@ -20,7 +20,7 @@
       },
       {
         "url": "http://hl7.no/fhir/vkpobservation/StructureDefinition/pmd-Bundle-Response",
-        "title": "A response bundle for observations prcessed by Pasientens måledata"
+        "title": "A response bundle for observations processed by Pasientens måledata"
       }
     ],
     "Observation": [

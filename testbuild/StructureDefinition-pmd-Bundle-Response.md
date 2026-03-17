@@ -1,10 +1,10 @@
-# A response bundle for observations prcessed by Pasientens måledata - v0.4.1
+# A response bundle for observations processed by Pasientens måledata - v0.4.1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
-* **A response bundle for observations prcessed by Pasientens måledata**
+* **A response bundle for observations processed by Pasientens måledata**
 
-## Resource Profile: A response bundle for observations prcessed by Pasientens måledata 
+## Resource Profile: A response bundle for observations processed by Pasientens måledata 
 
 | | |
 | :--- | :--- |
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-pmd-Bundle-Response.
   "url" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/pmd-Bundle-Response",
   "version" : "0.4.1",
   "name" : "PmdBundleResponse",
-  "title" : "A response bundle for observations prcessed by Pasientens måledata",
+  "title" : "A response bundle for observations processed by Pasientens måledata",
   "status" : "draft",
   "date" : "2026-03-17",
   "publisher" : "HL7 Norway",
@@ -97,6 +97,7 @@ Other representations of profile: [CSV](StructureDefinition-pmd-Bundle-Response.
     {
       "id" : "Bundle.type",
       "path" : "Bundle.type",
+      "short" : "batch-response",
       "patternCode" : "batch-response"
     },
     {
@@ -120,6 +121,7 @@ Other representations of profile: [CSV](StructureDefinition-pmd-Bundle-Response.
         "ordered" : false,
         "rules" : "open"
       },
+      "short" : "fullUrl identifying the resoruce entry from the original Bundle of Observations",
       "min" : 1
     },
     {

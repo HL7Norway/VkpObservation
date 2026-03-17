@@ -97,11 +97,13 @@ Other representations of profile: [CSV](StructureDefinition-pmd-Bundle-Observati
     {
       "id" : "Bundle.type",
       "path" : "Bundle.type",
+      "short" : "batch",
       "patternCode" : "batch"
     },
     {
       "id" : "Bundle.entry.fullUrl",
       "path" : "Bundle.entry.fullUrl",
+      "short" : "Uniqe id is mandatory for reference in response",
       "definition" : "All observations must be identified by unique uri by the responsible organization",
       "min" : 1
     },
@@ -120,6 +122,7 @@ Other representations of profile: [CSV](StructureDefinition-pmd-Bundle-Observati
     {
       "id" : "Bundle.entry.request.method",
       "path" : "Bundle.entry.request.method",
+      "short" : "POST | PUT",
       "binding" : {
         "strength" : "required",
         "valueSet" : "http://hl7.no/fhir/vkpobservation/ValueSet/pmd-bundle-requests.valueset"

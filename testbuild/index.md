@@ -73,7 +73,7 @@ Questionaire scores. Question, different coding for different questionnaire type
   "version" : "0.4.1",
   "name" : "VkpObservation",
   "status" : "draft",
-  "date" : "2026-03-17T11:32:33+00:00",
+  "date" : "2026-03-17T11:52:23+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",
@@ -715,7 +715,7 @@ Questionaire scores. Question, different coding for different questionnaire type
       "reference" : {
         "reference" : "StructureDefinition/pmd-Bundle-Response"
       },
-      "name" : "A response bundle for observations prcessed by Pasientens måledata",
+      "name" : "A response bundle for observations processed by Pasientens måledata",
       "description" : "Profile for responding to a batch of observations to PMD",
       "exampleBoolean" : false
     },
