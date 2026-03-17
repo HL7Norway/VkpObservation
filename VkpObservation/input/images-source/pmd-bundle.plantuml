@@ -1,0 +1,6 @@
+@startuml
+FHIRClient --> PMD: PmdBundleObservation 
+PMD --> PMDBackend: Store
+PMDBackend --> PMD: id
+PMD --> FHIRClient: PmdBundleResponse (OriginalFullUrl)
+@enduml
