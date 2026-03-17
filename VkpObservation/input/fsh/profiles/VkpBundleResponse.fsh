@@ -12,4 +12,4 @@ Description: "Profile for responding to a batch of observations to PMD"
 * entry 1..*
   * response 1..1
     * extension contains PmdBundleResponseEntryId named entryId 1..1
-      * ^short "fullUrl identifying the resoruce entry from the original Bundle of Observations"
+      * ^short = "fullUrl identifying the resoruce entry from the original Bundle of Observations"
