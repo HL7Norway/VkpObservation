@@ -8,8 +8,11 @@ Description: "Profile for adding a number of observations to PMD"
 * ^purpose = "To record a number of Observations from an organization."
 * . ^short = "test"
 * type = #batch
+* type ^short = "batch"
 * entry.fullUrl 1..1
+* entry.fullUrl ^short = "Uniqe id is mandatory for reference in response"
 * entry.fullUrl ^definition = "All observations must be identified by unique uri by the responsible organization"
 * entry.resource only Observation
 * entry.request 1..1
 * entry.request.method from PmdBundleRequests
+* entry.request.method ^short = "POST | PUT"
