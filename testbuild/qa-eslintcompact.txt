@@ -232,7 +232,7 @@ Generic: line 0, col 0, Warning - The IG is not for the international realm, and
 /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-cfs-create.json: line 7, col 25, Info - No definition could be found for URL value 'MEDANETS' (INVALID)
 /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-cfs-create.json: line 23, col 62, Warning - No definition could be found for URL value 'http://dips.no/fhir/namingsystem/externalId' (INVALID)
 /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-cfs-create.json: line 29, col 6, Info - There are no valid display names found for the code http://terminology.hl7.org/CodeSystem/observation-category#survey for language(s) 'no-NO'. The display is 'Survey' which is the default language display (INVALID)
-/github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-cfs-create.json: line 12, col 4, Error - Wrong Display Name 'Canadian Study of Health and Aging Clinical Frailty Scale score (observable entity)' for http://snomed.info/sct#763264000. There are no valid display names found for language(s) 'no-NO'. Default display is 'CSHA (Canadian Study of Health and Aging) Clinical Frailty Scale score' (INVALID)
+/github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-cfs-create.json: line 12, col 4, Info - There are no valid display names found for the code http://snomed.info/sct#763264000 for language(s) 'no-NO'. The display is 'CSHA (Canadian Study of Health and Aging) Clinical Frailty Scale score' which is the default language display (INVALID)
 /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-cfs-create.json: line 41, col 48, Info - Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem|0.5.1 (BUSINESSRULE)
 /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-cfs-create.json: line 49, col 50, Info - Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem|0.5.1 (BUSINESSRULE)
 /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-cfs-create.json: line 56, col 52, Warning - No definition could be found for URL value 'urn:oid:2.16.578.1.12.4.1.4.101' (INVALID)
@@ -325,5 +325,5 @@ Generic: line 0, col 0, Warning - The IG is not for the international realm, and
 /github/workspace/VkpObservation/fsh-generated/resources/ValueSet-vkp-performer-reference-types.valueset.json: line 1, col 4639, Info - This include has some concepts with displays and some without - check that this is what is intended (BUSINESSRULE)
 /github/workspace/VkpObservation/fsh-generated/resources/ValueSet-vkp-subject-identifiers.valueset.json: line 1, col 1955, Info - Reference to draft CodeSystem urn:iso:std:iso:3166|20210120 (BUSINESSRULE)
 
-err = 107, warn = 90, info = 126
+err = 106, warn = 90, info = 127
 IG Publisher Version: 2.2.0

@@ -18,7 +18,7 @@ Profile: [Vkp Observation - CFS score](StructureDefinition-vkp-Observation-CFSsc
 
 **category**: Survey
 
-**code**: Canadian Study of Health and Aging Clinical Frailty Scale score (observable entity)
+**code**: CSHA (Canadian Study of Health and Aging) Clinical Frailty Scale score
 
 **subject**: Identifier: Foedselsnummer/1000807
 
@@ -68,7 +68,7 @@ Evaluering gjort i brukerens hjem, normalt sprek for sin aldersgruppe.
     "coding" : [{
       "system" : "http://snomed.info/sct",
       "code" : "763264000",
-      "display" : "Canadian Study of Health and Aging Clinical Frailty Scale score (observable entity)"
+      "display" : "CSHA (Canadian Study of Health and Aging) Clinical Frailty Scale score"
     }]
   },
   "subject" : {

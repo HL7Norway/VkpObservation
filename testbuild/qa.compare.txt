@@ -1,7 +1,7 @@
 VkpObservation : Validation Results
 =========================================
 
-err = 107, warn = 90, info = 126
+err = 106, warn = 90, info = 127
 $--
 Generated $--. FHIR version $-- for hl7.fhir.no.vkp.observation#$-- (canonical = http://hl7.no/fhir/vkpobservation)
  Build Errors : 1 / 18 / 0
@@ -20,7 +20,7 @@ Generated $--. FHIR version $-- for hl7.fhir.no.vkp.observation#$-- (canonical =
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-blood-pressure-profile-create : 8 / 1 / 16
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-body-temperature-create : 1 / 1 / 7
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-body-weight-create : 0 / 1 / 7
- /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-cfs-create : 1 / 2 / 6
+ /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-cfs-create : 0 / 2 / 7
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-glucose-create : 0 / 2 / 6
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-heartrate-create : 0 / 1 / 7
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-news2-create : 8 / 3 / 6
@@ -294,7 +294,7 @@ INFORMATION: Observation/vkp-body-weight-create: Observation.performer[0].identi
 INFORMATION: Observation/vkp-cfs-create: Observation.meta.source: No definition could be found for URL value 'MEDANETS'
 WARNING: Observation/vkp-cfs-create: Observation.identifier[0].system: No definition could be found for URL value 'http://dips.no/fhir/namingsystem/externalId'
 INFORMATION: Observation/vkp-cfs-create: Observation.category[0].coding[0].display: There are no valid display names found for the code http://terminology.hl7.org/CodeSystem/observation-category#survey for language(s) 'no-NO'. The display is 'Survey' which is the default language display
-ERROR: Observation/vkp-cfs-create: Observation.code.coding[0].display: Wrong Display Name 'Canadian Study of Health and Aging Clinical Frailty Scale score (observable entity)' for http://snomed.info/sct#763264000. There are no valid display names found for language(s) 'no-NO'. Default display is 'CSHA (Canadian Study of Health and Aging) Clinical Frailty Scale score'
+INFORMATION: Observation/vkp-cfs-create: Observation.code.coding[0].display: There are no valid display names found for the code http://snomed.info/sct#763264000 for language(s) 'no-NO'. The display is 'CSHA (Canadian Study of Health and Aging) Clinical Frailty Scale score' which is the default language display
 INFORMATION: Observation/vkp-cfs-create: Observation.subject.identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem|0.5.1
 INFORMATION: Observation/vkp-cfs-create: Observation.performer[0].identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem|0.5.1
 WARNING: Observation/vkp-cfs-create: Observation.performer[1].identifier.system: No definition could be found for URL value 'urn:oid:2.16.578.1.12.4.1.4.101'
