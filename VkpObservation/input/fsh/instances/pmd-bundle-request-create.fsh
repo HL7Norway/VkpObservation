@@ -7,5 +7,5 @@ Usage: #example
 * entry
   * fullUrl = "BundleExample"
   * resource = vkp-body-temperature-create
-  * request.method = #PUT
+  * request.method = http://hl7.org/fhir/http-verb#PUT
   * request.url = "test.url"

@@ -14,5 +14,5 @@ Description: "Bundle Request types"
 * ^date = "2026-03-17T00:00:00+00:00"
 * ^contact.telecom.system = #url
 * ^contact.telecom.value = "http://hl7.no/"
-* http://hl7.org/fhir/http-verb#POST
-* http://hl7.org/fhir/http-verb#PUT
+* http://hl7.org/fhir/http-verb#POST "HTTP POST Command."
+* http://hl7.org/fhir/http-verb#PUT "HTTP PUT Command."
