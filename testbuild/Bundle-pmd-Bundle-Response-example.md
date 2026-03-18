@@ -22,7 +22,7 @@
     "response" : {
       "extension" : [{
         "url" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/PmdBundleResponseEntryIdExtension",
-        "valueUri" : "test.url"
+        "valueUri" : "http://bundle.example.no/pmdbundlerequestexample"
       }],
       "status" : "200"
     }

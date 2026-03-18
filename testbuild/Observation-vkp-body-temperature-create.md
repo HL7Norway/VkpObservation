@@ -35,7 +35,7 @@ Profile: [Vkp VitalSigns Observation - Body temperature](StructureDefinition-vkp
 Demo Body Temperature
 
 
-**bodySite**: Endetarm
+**bodySite**: Rectum
 
 
 
@@ -102,7 +102,7 @@ Demo Body Temperature
     "coding" : [{
       "system" : "http://snomed.info/sct",
       "code" : "34402009",
-      "display" : "Endetarm"
+      "display" : "Rectum"
     }]
   }
 }

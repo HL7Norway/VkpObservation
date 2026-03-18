@@ -9,7 +9,7 @@
   <entry>
     <response>
       <extension url="http://hl7.no/fhir/vkpobservation/StructureDefinition/PmdBundleResponseEntryIdExtension">
-        <valueUri value="test.url"/>
+        <valueUri value="http://bundle.example.no/pmdbundlerequestexample"/>
       </extension>
       <status value="200"/>
     </response>

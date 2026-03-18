@@ -25,8 +25,8 @@
          ] ;
          fhir:value [
            a fhir:Uri ;
-           fhir:v "test.url"^^xsd:anyURI ;
-           fhir:l fhir:test.url
+           fhir:v "http://bundle.example.no/pmdbundlerequestexample"^^xsd:anyURI ;
+           fhir:l <http://bundle.example.no/pmdbundlerequestexample>
          ]
        ] ) ;
        fhir:status [ fhir:v "200" ]

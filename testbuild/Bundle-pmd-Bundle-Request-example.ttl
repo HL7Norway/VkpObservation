@@ -20,10 +20,10 @@
   fhir:type [ fhir:v "batch"] ; # 
   fhir:entry ( [
      fhir:fullUrl [
-       fhir:v "BundleExample"^^xsd:anyURI ;
-       fhir:l fhir:BundleExample
+       fhir:v "http://bundle.example.no/pmdbundlerequestexample"^^xsd:anyURI ;
+       fhir:l <http://bundle.example.no/pmdbundlerequestexample>
      ] ;
-     fhir:resource ( <BundleExample> ) ;
+     fhir:resource ( <http://bundle.example.no/pmdbundlerequestexample> ) ;
      fhir:request [
        fhir:method [ fhir:v "PUT" ] ;
        fhir:url [
@@ -33,7 +33,7 @@
      ]
   ] ) . # 
 
-<BundleExample> a fhir:Observation ;
+<http://bundle.example.no/pmdbundlerequestexample> a fhir:Observation ;
   fhir:id [ fhir:v "vkp-body-temperature-create"] ; # 
   fhir:meta [
      fhir:versionId [ fhir:v "0" ] ;
@@ -49,7 +49,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_vkp-body-temperature-create\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Observation vkp-body-temperature-create</b></p><a name=\"vkp-body-temperature-create\"> </a><a name=\"hcvkp-body-temperature-create\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 0; Last updated: 2014-01-30 22:35:23+1100; </p><p style=\"margin-bottom: 0px\">Information Source: <a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.2&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/Thomas\">Thomas</a></p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-vkp-Observation-Bodytemp.html\">Vkp VitalSigns Observation - Body temperature</a></p></div><p><b>identifier</b>: <code>http://dips.no/fhir/namingsystem/externalId</code>/testtempexternalId4</p><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}\">Vital Signs</span></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 8310-5}, {http://snomed.info/sct 276885007}\">Body temperature</span></p><p><b>subject</b>: Identifier: Foedselsnummer/1000239</p><p><b>effective</b>: 2022-03-16</p><p><b>performer</b>: Identifier: Foedselsnummer/889911</p><p><b>value</b>: 37 Cel<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codeCel = 'Cel')</span></p><p><b>note</b>: </p><blockquote><div><p>Demo Body Temperature</p>\n</div></blockquote><p><b>bodySite</b>: <span title=\"Codes:{http://snomed.info/sct 34402009}\">Endetarm</span></p></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_vkp-body-temperature-create\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Observation vkp-body-temperature-create</b></p><a name=\"vkp-body-temperature-create\"> </a><a name=\"hcvkp-body-temperature-create\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 0; Last updated: 2014-01-30 22:35:23+1100; </p><p style=\"margin-bottom: 0px\">Information Source: <a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.2&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/Thomas\">Thomas</a></p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-vkp-Observation-Bodytemp.html\">Vkp VitalSigns Observation - Body temperature</a></p></div><p><b>identifier</b>: <code>http://dips.no/fhir/namingsystem/externalId</code>/testtempexternalId4</p><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}\">Vital Signs</span></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 8310-5}, {http://snomed.info/sct 276885007}\">Body temperature</span></p><p><b>subject</b>: Identifier: Foedselsnummer/1000239</p><p><b>effective</b>: 2022-03-16</p><p><b>performer</b>: Identifier: Foedselsnummer/889911</p><p><b>value</b>: 37 Cel<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codeCel = 'Cel')</span></p><p><b>note</b>: </p><blockquote><div><p>Demo Body Temperature</p>\n</div></blockquote><p><b>bodySite</b>: <span title=\"Codes:{http://snomed.info/sct 34402009}\">Rectum</span></p></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:identifier ( [
      fhir:system [
@@ -132,7 +132,7 @@
          fhir:l <http://snomed.info/sct>
        ] ;
        fhir:code [ fhir:v "34402009" ] ;
-       fhir:display [ fhir:v "Endetarm" ]
+       fhir:display [ fhir:v "Rectum" ]
      ] )
   ] . # 
 

@@ -1,11 +1,11 @@
 VkpObservation : Validation Results
 =========================================
 
-err = 102, warn = 88, info = 129
+err = 99, warn = 88, info = 131
 IG Publisher Version: 2.2.0
-Generated Wed Mar 18 10:16:20 UTC 2026. FHIR version 4.0.1 for hl7.fhir.no.vkp.observation#0.5.1 (canonical = http://hl7.no/fhir/vkpobservation)
+Generated Wed Mar 18 11:00:47 UTC 2026. FHIR version 4.0.1 for hl7.fhir.no.vkp.observation#0.5.1 (canonical = http://hl7.no/fhir/vkpobservation)
  Build Errors : 1 / 18 / 0
- /github/workspace/VkpObservation/fsh-generated/resources/Bundle-pmd-Bundle-Request-example : 2 / 1 / 10
+ /github/workspace/VkpObservation/fsh-generated/resources/Bundle-pmd-Bundle-Request-example : 0 / 1 / 11
  /github/workspace/VkpObservation/fsh-generated/resources/Bundle-pmd-Bundle-Response-example : 0 / 1 / 1
  /github/workspace/VkpObservation/fsh-generated/resources/CodeSystem-vkp-performer-identifiers.codesystem : 0 / 0 / 2
  /github/workspace/VkpObservation/fsh-generated/resources/CodeSystem-vkp-performer-organization-identifiers.codesystem : 0 / 0 / 2
@@ -18,7 +18,7 @@ Generated Wed Mar 18 10:16:20 UTC 2026. FHIR version 4.0.1 for hl7.fhir.no.vkp.o
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-level-of-consciousness-create : 4 / 5 / 3
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-respiratory-rate-create : 22 / 14 / 5
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-blood-pressure-profile-create : 8 / 1 / 16
- /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-body-temperature-create : 1 / 1 / 7
+ /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-body-temperature-create : 0 / 1 / 8
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-body-weight-create : 0 / 1 / 7
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-cfs-create : 0 / 2 / 7
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-glucose-create : 0 / 2 / 6
@@ -71,12 +71,11 @@ INFORMATION: Bundle/pmd-Bundle-Request-example: Bundle.entry[0].resource/*Observ
 WARNING: Bundle/pmd-Bundle-Request-example: Bundle.entry[0].resource/*Observation/vkp-body-temperature-create*/.identifier[0].system: No definition could be found for URL value 'http://dips.no/fhir/namingsystem/externalId'
 INFORMATION: Bundle/pmd-Bundle-Request-example: Bundle.entry[0].resource/*Observation/vkp-body-temperature-create*/.category[0].coding[0].display: There are no valid display names found for the code http://terminology.hl7.org/CodeSystem/observation-category#vital-signs for language(s) 'no-NO'. The display is 'Vital Signs' which is the default language display
 INFORMATION: Bundle/pmd-Bundle-Request-example: Bundle.entry[0].resource/*Observation/vkp-body-temperature-create*/.code.coding[0].display: There are no valid display names found for the code http://loinc.org#8310-5 for language(s) 'no-NO'. The display is 'Body temperature' which is the default language display
-ERROR: Bundle/pmd-Bundle-Request-example: Bundle.entry[0].resource/*Observation/vkp-body-temperature-create*/.bodySite.coding[0].display: Wrong Display Name 'Endetarm' for http://snomed.info/sct#34402009. There are no valid display names found for language(s) 'no-NO'. Default display is 'Rectum'
+INFORMATION: Bundle/pmd-Bundle-Request-example: Bundle.entry[0].resource/*Observation/vkp-body-temperature-create*/.bodySite.coding[0].display: There are no valid display names found for the code http://snomed.info/sct#34402009 for language(s) 'no-NO'. The display is 'Rectum' which is the default language display
 INFORMATION: Bundle/pmd-Bundle-Request-example: Bundle.entry[0].resource/*Observation/vkp-body-temperature-create*/.subject.identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem|0.5.1
 INFORMATION: Bundle/pmd-Bundle-Request-example: Bundle.entry[0].resource/*Observation/vkp-body-temperature-create*/.performer[0].identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem|0.5.1
-ERROR: Bundle/pmd-Bundle-Request-example: Bundle.entry[0]: The fullUrl must be an absolute URL (not 'BundleExample')
 == fsh-generated/resources/Bundle-pmd-Bundle-Response-example.json ==
-WARNING: Bundle/pmd-Bundle-Response-example: Bundle.entry[0].response.extension[0].value.ofType(uri): No definition could be found for URL value 'test.url'
+WARNING: Bundle/pmd-Bundle-Response-example: Bundle.entry[0].response.extension[0].value.ofType(uri): No definition could be found for URL value 'http://bundle.example.no/pmdbundlerequestexample'
 == fsh-generated/resources/CodeSystem-vkp-performer-identifiers.codesystem.json ==
 INFORMATION: CodeSystem/vkp-performer-identifiers.codesystem: CodeSystem.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
 == fsh-generated/resources/CodeSystem-vkp-performer-organization-identifiers.codesystem.json ==
@@ -279,7 +278,7 @@ INFORMATION: Observation/vkp-body-temperature-create: Observation.category[0].co
 INFORMATION: Observation/vkp-body-temperature-create: Observation.code.coding[0].display: There are no valid display names found for the code http://loinc.org#8310-5 for language(s) 'no-NO'. The display is 'Body temperature' which is the default language display
 INFORMATION: Observation/vkp-body-temperature-create: Observation.subject.identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem|0.5.1
 INFORMATION: Observation/vkp-body-temperature-create: Observation.performer[0].identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem|0.5.1
-ERROR: Observation/vkp-body-temperature-create: Observation.bodySite.coding[0].display: Wrong Display Name 'Endetarm' for http://snomed.info/sct#34402009. There are no valid display names found for language(s) 'no-NO'. Default display is 'Rectum'
+INFORMATION: Observation/vkp-body-temperature-create: Observation.bodySite.coding[0].display: There are no valid display names found for the code http://snomed.info/sct#34402009 for language(s) 'no-NO'. The display is 'Rectum' which is the default language display
 == fsh-generated/resources/Observation-vkp-body-weight-create.json ==
 INFORMATION: Observation/vkp-body-weight-create: Observation.meta.source: No definition could be found for URL value 'Thomas'
 WARNING: Observation/vkp-body-weight-create: Observation.identifier[0].system: No definition could be found for URL value 'http://dips.no/fhir/namingsystem/externalId'
