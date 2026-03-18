@@ -25,8 +25,6 @@ Bundle Request types
 
 ### Expansion
 
-No Expansion for this valueset (Unknown Code System)
-
 -------
 
  Explanation of the columns that may appear on this page: 
@@ -85,12 +83,14 @@ No Expansion for this valueset (Unknown Code System)
   }],
   "compose" : {
     "include" : [{
-      "system" : "http://hl7.org/fhir/ValueSet/http-verb",
+      "system" : "http://hl7.org/fhir/http-verb",
       "concept" : [{
-        "code" : "POST"
+        "code" : "POST",
+        "display" : "HTTP POST Command."
       },
       {
-        "code" : "PUT"
+        "code" : "PUT",
+        "display" : "HTTP PUT Command."
       }]
     }]
   }

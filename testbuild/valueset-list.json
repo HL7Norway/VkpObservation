@@ -24,7 +24,7 @@
     "name" : "PmdBundleRequests",
     "title" : "Bundle request types",
     "description" : "Bundle Request types",
-    "systems" : ["http://hl7.org/fhir/ValueSet/http-verb"]
+    "systems" : ["http://hl7.org/fhir/http-verb"]
   },
   {
     "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-identifiers.valueset",

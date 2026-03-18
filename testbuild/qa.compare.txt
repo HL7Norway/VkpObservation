@@ -1,12 +1,12 @@
 VkpObservation : Validation Results
 =========================================
 
-err = 106, warn = 90, info = 127
+err = 102, warn = 88, info = 129
 $--
 Generated $--. FHIR version $-- for hl7.fhir.no.vkp.observation#$-- (canonical = http://hl7.no/fhir/vkpobservation)
  Build Errors : 1 / 18 / 0
- /github/workspace/VkpObservation/fsh-generated/resources/Bundle-pmd-Bundle-Request-example : 4 / 1 / 10
- /github/workspace/VkpObservation/fsh-generated/resources/Bundle-pmd-Bundle-Response-example : 1 / 1 / 1
+ /github/workspace/VkpObservation/fsh-generated/resources/Bundle-pmd-Bundle-Request-example : 2 / 1 / 10
+ /github/workspace/VkpObservation/fsh-generated/resources/Bundle-pmd-Bundle-Response-example : 0 / 1 / 1
  /github/workspace/VkpObservation/fsh-generated/resources/CodeSystem-vkp-performer-identifiers.codesystem : 0 / 0 / 2
  /github/workspace/VkpObservation/fsh-generated/resources/CodeSystem-vkp-performer-organization-identifiers.codesystem : 0 / 0 / 2
  /github/workspace/VkpObservation/fsh-generated/resources/CodeSystem-vkp-subject-identifiers.codesystem : 0 / 0 / 2
@@ -26,7 +26,7 @@ Generated $--. FHIR version $-- for hl7.fhir.no.vkp.observation#$-- (canonical =
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-news2-create : 8 / 3 / 6
  /github/workspace/VkpObservation/fsh-generated/resources/Observation-vkp-oxygen-saturation-create : 0 / 1 / 7
  /github/workspace/VkpObservation/fsh-generated/resources/StructureDefinition-PmdBundleResponseEntryIdExtension : 0 / 0 / 2
- /github/workspace/VkpObservation/fsh-generated/resources/StructureDefinition-pmd-Bundle-Observation : 0 / 1 / 3
+ /github/workspace/VkpObservation/fsh-generated/resources/StructureDefinition-pmd-Bundle-Observation : 0 / 0 / 3
  /github/workspace/VkpObservation/fsh-generated/resources/StructureDefinition-pmd-Bundle-Response : 0 / 0 / 2
  /github/workspace/VkpObservation/fsh-generated/resources/StructureDefinition-vkp-Observation : 0 / 0 / 6
  /github/workspace/VkpObservation/fsh-generated/resources/StructureDefinition-vkp-Observation-Bloodpressure : 0 / 0 / 2
@@ -40,7 +40,7 @@ Generated $--. FHIR version $-- for hl7.fhir.no.vkp.observation#$-- (canonical =
  /github/workspace/VkpObservation/fsh-generated/resources/StructureDefinition-vkp-Observation-Resprate : 0 / 1 / 2
  /github/workspace/VkpObservation/fsh-generated/resources/ValueSet-NoDomainVitalSignsBloodPressureMeasurementMethodValueSet : 0 / 0 / 4
  /github/workspace/VkpObservation/fsh-generated/resources/ValueSet-NoDomainVitalSignsBloodpressureBodySiteValueSet : 0 / 0 / 13
- /github/workspace/VkpObservation/fsh-generated/resources/ValueSet-pmd-bundle-requests.valueset : 1 / 1 / 2
+ /github/workspace/VkpObservation/fsh-generated/resources/ValueSet-pmd-bundle-requests.valueset : 0 / 0 / 4
  /github/workspace/VkpObservation/fsh-generated/resources/ValueSet-vkp-performer-identifiers.valueset : 0 / 0 / 2
  /github/workspace/VkpObservation/fsh-generated/resources/ValueSet-vkp-performer-organization-identifiers.valueset : 0 / 0 / 2
  /github/workspace/VkpObservation/fsh-generated/resources/ValueSet-vkp-performer-reference-types.valueset : 0 / 0 / 5
@@ -74,11 +74,8 @@ INFORMATION: Bundle/pmd-Bundle-Request-example: Bundle.entry[0].resource/*Observ
 ERROR: Bundle/pmd-Bundle-Request-example: Bundle.entry[0].resource/*Observation/vkp-body-temperature-create*/.bodySite.coding[0].display: Wrong Display Name 'Endetarm' for http://snomed.info/sct#34402009. There are no valid display names found for language(s) 'no-NO'. Default display is 'Rectum'
 INFORMATION: Bundle/pmd-Bundle-Request-example: Bundle.entry[0].resource/*Observation/vkp-body-temperature-create*/.subject.identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem|0.5.1
 INFORMATION: Bundle/pmd-Bundle-Request-example: Bundle.entry[0].resource/*Observation/vkp-body-temperature-create*/.performer[0].identifier.system: Reference to experimental CodeSystem http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem|0.5.1
-ERROR: Bundle/pmd-Bundle-Request-example: Bundle.entry[0].request.method: The System URI could not be determined for the code 'PUT' in the ValueSet 'http://hl7.no/fhir/vkpobservation/ValueSet/pmd-bundle-requests.valueset|0.5.1'
-ERROR: Bundle/pmd-Bundle-Request-example: Bundle.entry[0].request.method: The value provided ('PUT') was not found in the value set 'Bundle request types' (http://hl7.no/fhir/vkpobservation/ValueSet/pmd-bundle-requests.valueset|0.5.1), and a code is required from this value set  (error message = The System URI could not be determined for the code 'PUT' in the ValueSet 'http://hl7.no/fhir/vkpobservation/ValueSet/pmd-bundle-requests.valueset|0.5.1'; The provided code '#PUT' was not found in the value set 'http://hl7.no/fhir/vkpobservation/ValueSet/pmd-bundle-requests.valueset|0.5.1')
 ERROR: Bundle/pmd-Bundle-Request-example: Bundle.entry[0]: The fullUrl must be an absolute URL (not 'BundleExample')
 == fsh-generated/resources/Bundle-pmd-Bundle-Response-example.json ==
-ERROR: Bundle/pmd-Bundle-Response-example: Bundle.entry[0].response: The extension http://hl7.no/fhir/vkpobservation/StructureDefinition/PmdBundleResponseEntryIdExtension is not allowed to be used at this point (this element is [BackboneElement, Bundle.entry.response]; allowed for this version = e:Bundle)
 WARNING: Bundle/pmd-Bundle-Response-example: Bundle.entry[0].response.extension[0].value.ofType(uri): No definition could be found for URL value 'test.url'
 == fsh-generated/resources/CodeSystem-vkp-performer-identifiers.codesystem.json ==
 INFORMATION: CodeSystem/vkp-performer-identifiers.codesystem: CodeSystem.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
@@ -341,7 +338,6 @@ INFORMATION: Observation/vkp-oxygen-saturation-create: Observation.performer[0].
 == fsh-generated/resources/StructureDefinition-PmdBundleResponseEntryIdExtension.json ==
 INFORMATION: StructureDefinition/PmdBundleResponseEntryIdExtension: StructureDefinition.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
 == fsh-generated/resources/StructureDefinition-pmd-Bundle-Observation.json ==
-WARNING: A bundle of observations for processing by Pasientens måledata.Bundle.entry.request.method: Binding http://hl7.no/fhir/vkpobservation/ValueSet/pmd-bundle-requests.valueset could not be expanded
 INFORMATION: StructureDefinition/pmd-Bundle-Observation: StructureDefinition.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
 INFORMATION: StructureDefinition/pmd-Bundle-Observation: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
 == fsh-generated/resources/StructureDefinition-pmd-Bundle-Response.json ==
@@ -397,8 +393,8 @@ INFORMATION: ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet: ValueSet.
 INFORMATION: ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet: ValueSet.compose.include[0].concept[11]: Wrong Display Name 'Tå' for http://snomed.info/sct#29707007. Valid display is one of 5 choices: 'Toe' (en), 'Toe, NOS' (en), 'Hinddigit, NOS' (en), 'Toe structure' (en) or 'Toe structure (body structure)' (en) (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
 == fsh-generated/resources/ValueSet-pmd-bundle-requests.valueset.json ==
 INFORMATION: ValueSet/pmd-bundle-requests.valueset: ValueSet.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
-ERROR: ValueSet/pmd-bundle-requests.valueset: ValueSet.compose.include[0]: The system 'http://hl7.org/fhir/ValueSet/http-verb' is actually a value set, which itself refers to the system 'http://hl7.org/fhir/http-verb|4.0.1' so that may be what is intended here
-WARNING: ValueSet.where(id = 'pmd-bundle-requests.valueset'): Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://hl7.org/fhir/ValueSet/http-verb' could not be found, so the value set cannot be expanded
+INFORMATION: ValueSet/pmd-bundle-requests.valueset: ValueSet.compose.include[0].concept[0]: Wrong Display Name 'HTTP POST Command.' for http://hl7.org/fhir/http-verb#POST. Valid display is 'POST' (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/pmd-bundle-requests.valueset: ValueSet.compose.include[0].concept[1]: Wrong Display Name 'HTTP PUT Command.' for http://hl7.org/fhir/http-verb#PUT. Valid display is 'PUT' (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
 == fsh-generated/resources/ValueSet-vkp-performer-identifiers.valueset.json ==
 INFORMATION: ValueSet/vkp-performer-identifiers.valueset: ValueSet.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
 == fsh-generated/resources/ValueSet-vkp-performer-organization-identifiers.valueset.json ==

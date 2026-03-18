@@ -74,7 +74,7 @@ Other representations of profile: [CSV](StructureDefinition-PmdBundleResponseEnt
   "abstract" : false,
   "context" : [{
     "type" : "element",
-    "expression" : "Bundle"
+    "expression" : "Bundle.entry.response"
   }],
   "type" : "Extension",
   "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Extension",
