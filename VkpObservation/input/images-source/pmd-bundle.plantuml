@@ -4,6 +4,6 @@ PMD --> PMDBackend: Store1
 PMDBackend --> PMD: serverid1
 PMD --> PMDBackend: Store2
 PMDBackend --> PMDBackend: FEIL
-PMDBackend --> PMD: serverid2
-PMD --> FHIRClient: BatchBundle (fullUrl1, fullUrl2, serverid1, FEIL)
+PMDBackend --> PMD: errormsg
+PMD --> FHIRClient: BatchResponseBundle (fullUrl1, serverid1, fullUrl2, errormsg)
 @enduml

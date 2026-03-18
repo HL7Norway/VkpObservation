@@ -10,3 +10,4 @@ Sequence diagram for receiving and responding to a batch Bundle.
 
 {% include pmd-bundle.svg %}
 
+Return fullUrl from original batch Bundle in BatchResponseBundle (in an extension). Makes it possible to connect error message to specific content of the original BatchBundle.
