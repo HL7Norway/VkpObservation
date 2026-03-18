@@ -1,7 +1,7 @@
 {
   "codeSystems" : [{
     "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet",
-    "version" : "0.5.0",
+    "version" : "0.5.1",
     "status" : "draft",
     "name" : "NoDomainVitalSignsBloodPressureMeasurementMethodValueSet",
     "title" : "NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet",
@@ -10,7 +10,7 @@
   },
   {
     "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet",
-    "version" : "0.5.0",
+    "version" : "0.5.1",
     "status" : "draft",
     "name" : "NoDomainVitalSignsBloodpressureBodySiteValueSet",
     "title" : "NoDomainVitalSignsBloodpressureBodySite-ValueSet",
@@ -19,7 +19,7 @@
   },
   {
     "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/pmd-bundle-requests.valueset",
-    "version" : "0.5.0",
+    "version" : "0.5.1",
     "status" : "draft",
     "name" : "PmdBundleRequests",
     "title" : "Bundle request types",
@@ -28,7 +28,7 @@
   },
   {
     "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-identifiers.valueset",
-    "version" : "0.5.0",
+    "version" : "0.5.1",
     "status" : "draft",
     "name" : "VkpPerformerIdentifiersValueSet",
     "title" : "VKP Performer Identifier systems ValueSet",
@@ -37,7 +37,7 @@
   },
   {
     "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-organization-identifiers.valueset",
-    "version" : "0.5.0",
+    "version" : "0.5.1",
     "status" : "draft",
     "name" : "VkpPerformerOrganizationIdentifiersValueSet",
     "title" : "VKP Performer Identifier for organizations ValueSet",
@@ -46,7 +46,7 @@
   },
   {
     "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-reference-types.valueset",
-    "version" : "0.5.0",
+    "version" : "0.5.1",
     "status" : "draft",
     "name" : "VkpPerformerReferenceTypesValueSet",
     "title" : "Vkp Performer reference types Systems ValueSet",
@@ -55,7 +55,7 @@
   },
   {
     "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/vkp-subject-identifiers.valueset",
-    "version" : "0.5.0",
+    "version" : "0.5.1",
     "status" : "draft",
     "name" : "VkpSubjectIdentifiersValueSet",
     "title" : "VKP Subject Identifier systems ValueSet",

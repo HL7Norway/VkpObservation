@@ -1,6 +1,6 @@
 {
-  "version" : "0.5.0",
-  "date" : "20260318092749",
+  "version" : "0.5.1",
+  "date" : "20260318095043",
   "notForPublication" : true,
   "name" : "hl7.fhir.no.vkp.observation.r4"
 }

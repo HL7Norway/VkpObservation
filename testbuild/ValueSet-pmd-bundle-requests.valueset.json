@@ -18,7 +18,7 @@
     "valueInteger" : 1
   }],
   "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/pmd-bundle-requests.valueset",
-  "version" : "0.5.0",
+  "version" : "0.5.1",
   "name" : "PmdBundleRequests",
   "title" : "Bundle request types",
   "status" : "draft",

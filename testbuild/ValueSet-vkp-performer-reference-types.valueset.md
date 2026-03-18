@@ -1,4 +1,4 @@
-# Vkp Performer reference types Systems ValueSet - v0.5.0
+# Vkp Performer reference types Systems ValueSet - v0.5.1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-reference-types.valueset | *Version*:0.5.0 | |
+| *Official URL*:http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-reference-types.valueset | *Version*:0.5.1 | |
 | * Standards status: *[Draft](http://hl7.org/fhir/R4/versions.html#std-process) | [Maturity Level](http://hl7.org/fhir/versions.html#maturity): 1 | *Computable Name*:VkpPerformerReferenceTypesValueSet |
 
  
@@ -58,12 +58,12 @@ The Valueset contains all codes allowed for Observation.performer.type for use w
     "valueInteger" : 1
   }],
   "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-reference-types.valueset",
-  "version" : "0.5.0",
+  "version" : "0.5.1",
   "name" : "VkpPerformerReferenceTypesValueSet",
   "title" : "Vkp Performer reference types Systems ValueSet",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-03-18T09:27:49+00:00",
+  "date" : "2026-03-18T09:50:43+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",

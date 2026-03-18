@@ -16,7 +16,7 @@
     <valueInteger value="1"/>
   </extension>
   <url value="http://hl7.no/fhir/vkpobservation/ValueSet/pmd-bundle-requests.valueset"/>
-  <version value="0.5.0"/>
+  <version value="0.5.1"/>
   <name value="PmdBundleRequests"/>
   <title value="Bundle request types"/>
   <status value="draft"/>

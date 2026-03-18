@@ -1,4 +1,4 @@
-# vkp-news2-create - v0.5.0
+# vkp-news2-create - v0.5.1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

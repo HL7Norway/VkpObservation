@@ -1,4 +1,4 @@
-# A response bundle for observations processed by Pasientens måledata - v0.5.0
+# A response bundle for observations processed by Pasientens måledata - v0.5.1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/pmd-Bundle-Response | *Version*:0.5.0 |
+| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/pmd-Bundle-Response | *Version*:0.5.1 |
 | Draft as of 2026-03-17 | *Computable Name*:PmdBundleResponse |
 
  
@@ -40,7 +40,7 @@ Other representations of profile: [CSV](StructureDefinition-pmd-Bundle-Response.
   "resourceType" : "StructureDefinition",
   "id" : "pmd-Bundle-Response",
   "url" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/pmd-Bundle-Response",
-  "version" : "0.5.0",
+  "version" : "0.5.1",
   "name" : "PmdBundleResponse",
   "title" : "A response bundle for observations processed by Pasientens måledata",
   "status" : "draft",

@@ -1,4 +1,4 @@
-# Vkp VitalSigns Observation - Heart rate - v0.5.0
+# Vkp VitalSigns Observation - Heart rate - v0.5.1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Heartrate | *Version*:0.5.0 |
+| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Heartrate | *Version*:0.5.1 |
 | Draft as of 2022-03-16 | *Computable Name*:VkpObservationHeartrate |
 
  
@@ -40,7 +40,7 @@ Other representations of profile: [CSV](StructureDefinition-vkp-Observation-Hear
   "resourceType" : "StructureDefinition",
   "id" : "vkp-Observation-Heartrate",
   "url" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Heartrate",
-  "version" : "0.5.0",
+  "version" : "0.5.1",
   "name" : "VkpObservationHeartrate",
   "title" : "Vkp VitalSigns Observation - Heart rate",
   "status" : "draft",

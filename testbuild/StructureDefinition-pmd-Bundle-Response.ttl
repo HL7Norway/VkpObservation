@@ -17,7 +17,7 @@
      fhir:v "http://hl7.no/fhir/vkpobservation/StructureDefinition/pmd-Bundle-Response"^^xsd:anyURI ;
      fhir:l <http://hl7.no/fhir/vkpobservation/StructureDefinition/pmd-Bundle-Response>
   ] ; # 
-  fhir:version [ fhir:v "0.5.0"] ; # 
+  fhir:version [ fhir:v "0.5.1"] ; # 
   fhir:name [ fhir:v "PmdBundleResponse"] ; # 
   fhir:title [ fhir:v "A response bundle for observations processed by Pasientens måledata"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
