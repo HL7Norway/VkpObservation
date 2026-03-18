@@ -10,7 +10,7 @@ Usage: #example
 * identifier.value = "External Id: testCFS"
 * status = #final
 * category = $observation-category#survey "Survey"
-* code = $sct#763264000 "Canadian Study of Health and Aging Clinical Frailty Scale score (observable entity)"
+* code = $sct#763264000 "CSHA (Canadian Study of Health and Aging) Clinical Frailty Scale score"
 * subject.identifier.system = "urn:oid:2.16.578.1.12.4.1.4.1"
 * subject.identifier.value = "1000807"
 * effectiveDateTime = "2021-11-02"
