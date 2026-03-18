@@ -1,4 +1,4 @@
-# A response bundle for observations processed by Pasientens måledata - v0.5.1
+# A response bundle for observations processed by Pasientens måledata - v0.5.2
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/pmd-Bundle-Response | *Version*:0.5.1 |
+| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/pmd-Bundle-Response | *Version*:0.5.2 |
 | Draft as of 2026-03-17 | *Computable Name*:PmdBundleResponse |
 
  
@@ -40,7 +40,7 @@ Other representations of profile: [CSV](StructureDefinition-pmd-Bundle-Response.
   "resourceType" : "StructureDefinition",
   "id" : "pmd-Bundle-Response",
   "url" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/pmd-Bundle-Response",
-  "version" : "0.5.1",
+  "version" : "0.5.2",
   "name" : "PmdBundleResponse",
   "title" : "A response bundle for observations processed by Pasientens måledata",
   "status" : "draft",
@@ -106,34 +106,15 @@ Other representations of profile: [CSV](StructureDefinition-pmd-Bundle-Response.
       "min" : 1
     },
     {
+      "id" : "Bundle.entry.fullUrl",
+      "path" : "Bundle.entry.fullUrl",
+      "short" : "Uniqe id is mandatory and references the original entry in the batch request",
+      "min" : 1
+    },
+    {
       "id" : "Bundle.entry.response",
       "path" : "Bundle.entry.response",
       "min" : 1
-    },
-    {
-      "id" : "Bundle.entry.response.extension",
-      "path" : "Bundle.entry.response.extension",
-      "slicing" : {
-        "discriminator" : [{
-          "type" : "value",
-          "path" : "url"
-        }],
-        "ordered" : false,
-        "rules" : "open"
-      },
-      "short" : "fullUrl identifying the resoruce entry from the original Bundle of Observations",
-      "min" : 1
-    },
-    {
-      "id" : "Bundle.entry.response.extension:entryId",
-      "path" : "Bundle.entry.response.extension",
-      "sliceName" : "entryId",
-      "min" : 1,
-      "max" : "1",
-      "type" : [{
-        "code" : "Extension",
-        "profile" : ["http://hl7.no/fhir/vkpobservation/StructureDefinition/PmdBundleResponseEntryIdExtension"]
-      }]
     }]
   }
 }

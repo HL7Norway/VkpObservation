@@ -1,4 +1,4 @@
-# A bundle of observations for processing by Pasientens måledata - v0.5.1
+# A bundle of observations for processing by Pasientens måledata - v0.5.2
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/pmd-Bundle-Observation | *Version*:0.5.1 |
+| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/pmd-Bundle-Observation | *Version*:0.5.2 |
 | Draft as of 2026-03-17 | *Computable Name*:PmdBundleObservation |
 
  
@@ -40,7 +40,7 @@ Other representations of profile: [CSV](StructureDefinition-pmd-Bundle-Observati
   "resourceType" : "StructureDefinition",
   "id" : "pmd-Bundle-Observation",
   "url" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/pmd-Bundle-Observation",
-  "version" : "0.5.1",
+  "version" : "0.5.2",
   "name" : "PmdBundleObservation",
   "title" : "A bundle of observations for processing by Pasientens måledata",
   "status" : "draft",

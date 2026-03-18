@@ -1,4 +1,4 @@
-# Vkp Observation - Consciousness - v0.5.1
+# Vkp Observation - Consciousness - v0.5.2
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Consciousness | *Version*:0.5.1 |
+| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Consciousness | *Version*:0.5.2 |
 | Draft as of 2023-03-14 | *Computable Name*:VkpObservationConsciousness |
 
  
@@ -40,7 +40,7 @@ Other representations of profile: [CSV](StructureDefinition-vkp-Observation-Cons
   "resourceType" : "StructureDefinition",
   "id" : "vkp-Observation-Consciousness",
   "url" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Consciousness",
-  "version" : "0.5.1",
+  "version" : "0.5.2",
   "name" : "VkpObservationConsciousness",
   "title" : "Vkp Observation - Consciousness",
   "status" : "draft",

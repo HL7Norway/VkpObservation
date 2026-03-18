@@ -7,7 +7,7 @@
   </meta>
   <type value="batch"/>
   <entry>
-    <fullUrl value="http://bundle.example.no/pmdbundlerequestexample"/>
+    <fullUrl value="urn:uuid:4d4d9d8b-dc0d-4eb8-b830-ea45eeb54d36"/>
     <resource>
       <Observation>
         <id value="vkp-body-temperature-create"/>

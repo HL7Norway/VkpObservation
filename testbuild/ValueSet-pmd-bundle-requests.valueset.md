@@ -1,4 +1,4 @@
-# Bundle request types - v0.5.1
+# Bundle request types - v0.5.2
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/vkpobservation/ValueSet/pmd-bundle-requests.valueset | *Version*:0.5.1 | |
+| *Official URL*:http://hl7.no/fhir/vkpobservation/ValueSet/pmd-bundle-requests.valueset | *Version*:0.5.2 | |
 | * Standards status: *[Draft](http://hl7.org/fhir/R4/versions.html#std-process) | [Maturity Level](http://hl7.org/fhir/versions.html#maturity): 1 | *Computable Name*:PmdBundleRequests |
 
  
@@ -59,7 +59,7 @@ Bundle Request types
     "valueInteger" : 1
   }],
   "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/pmd-bundle-requests.valueset",
-  "version" : "0.5.1",
+  "version" : "0.5.2",
   "name" : "PmdBundleRequests",
   "title" : "Bundle request types",
   "status" : "draft",

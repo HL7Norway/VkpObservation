@@ -1,4 +1,4 @@
-# Pmd bundle example - v0.5.1
+# Pmd bundle example - v0.5.2
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -19,7 +19,7 @@
   },
   "type" : "batch",
   "entry" : [{
-    "fullUrl" : "http://bundle.example.no/pmdbundlerequestexample",
+    "fullUrl" : "urn:uuid:4d4d9d8b-dc0d-4eb8-b830-ea45eeb54d36",
     "resource" : {
       "resourceType" : "Observation",
       "id" : "vkp-body-temperature-create",

@@ -1,4 +1,4 @@
-# Pmd bundle response example - v0.5.1
+# Pmd bundle response example - v0.5.2
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -19,11 +19,8 @@
   },
   "type" : "batch-response",
   "entry" : [{
+    "fullUrl" : "urn:uuid:4d4d9d8b-dc0d-4eb8-b830-ea45eeb54d36",
     "response" : {
-      "extension" : [{
-        "url" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/PmdBundleResponseEntryIdExtension",
-        "valueUri" : "http://bundle.example.no/pmdbundlerequestexample"
-      }],
       "status" : "200"
     }
   }]

@@ -1,6 +1,6 @@
 {
   "package": "hl7.fhir.no.vkp.observation",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "fhirVersion": "4.0.1",
   "jurisdiction": "NO",
   "extensions": [
@@ -111,9 +111,6 @@
     ],
     "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-spontaneousbreathingextension": [
       "Observation"
-    ],
-    "http://hl7.no/fhir/vkpobservation/StructureDefinition/PmdBundleResponseEntryIdExtension": [
-      "Bundle.entry.response"
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
       "StructureDefinition.snapshot.element.constraint"

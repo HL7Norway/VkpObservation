@@ -1,4 +1,4 @@
-# PmdBundleResponseEntryId-Extension - v0.5.1
+# PmdBundleResponseEntryId-Extension - v0.5.2
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/PmdBundleResponseEntryIdExtension | *Version*:0.5.1 |
+| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/PmdBundleResponseEntryIdExtension | *Version*:0.5.2 |
 | Draft as of 2026-03-17 | *Computable Name*:PmdBundleResponseEntryId |
 
 full Url to the orininal bundle entry posted/put'ed for addition
@@ -19,8 +19,7 @@ full Url to the orininal bundle entry posted/put'ed for addition
 
 **Usages:**
 
-* Use this Extension: [A response bundle for observations processed by Pasientens måledata](StructureDefinition-pmd-Bundle-Response.md)
-* Examples for this Extension: [Bundle/pmd-Bundle-Response-example](Bundle-pmd-Bundle-Response-example.md)
+* This Extension is not used by any profiles in this Implementation Guide
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.no.vkp.observation|current/StructureDefinition/PmdBundleResponseEntryIdExtension)
 
@@ -43,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-PmdBundleResponseEnt
   "resourceType" : "StructureDefinition",
   "id" : "PmdBundleResponseEntryIdExtension",
   "url" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/PmdBundleResponseEntryIdExtension",
-  "version" : "0.5.1",
+  "version" : "0.5.2",
   "name" : "PmdBundleResponseEntryId",
   "title" : "PmdBundleResponseEntryId-Extension",
   "status" : "draft",

@@ -17,7 +17,7 @@
      fhir:v "http://hl7.no/fhir/vkpobservation/StructureDefinition/PmdBundleResponseEntryIdExtension"^^xsd:anyURI ;
      fhir:l <http://hl7.no/fhir/vkpobservation/StructureDefinition/PmdBundleResponseEntryIdExtension>
   ] ; # 
-  fhir:version [ fhir:v "0.5.1"] ; # 
+  fhir:version [ fhir:v "0.5.2"] ; # 
   fhir:name [ fhir:v "PmdBundleResponseEntryId"] ; # 
   fhir:title [ fhir:v "PmdBundleResponseEntryId-Extension"] ; # 
   fhir:status [ fhir:v "draft"] ; # 

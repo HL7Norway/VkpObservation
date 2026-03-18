@@ -1,4 +1,4 @@
-# Home - v0.5.1
+# Home - v0.5.2
 
 * [**Table of Contents**](toc.md)
 * **Home**
@@ -7,7 +7,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/vkpobservation/ImplementationGuide/hl7.fhir.no.vkp.observation | *Version*:0.5.1 |
+| *Official URL*:http://hl7.no/fhir/vkpobservation/ImplementationGuide/hl7.fhir.no.vkp.observation | *Version*:0.5.2 |
 | Draft as of 2026-03-18 | *Computable Name*:VkpObservation |
 
 # Vkp Observation profiles
@@ -70,10 +70,10 @@ Questionaire scores. Question, different coding for different questionnaire type
   "resourceType" : "ImplementationGuide",
   "id" : "hl7.fhir.no.vkp.observation",
   "url" : "http://hl7.no/fhir/vkpobservation/ImplementationGuide/hl7.fhir.no.vkp.observation",
-  "version" : "0.5.1",
+  "version" : "0.5.2",
   "name" : "VkpObservation",
   "status" : "draft",
-  "date" : "2026-03-18T10:58:54+00:00",
+  "date" : "2026-03-18T11:31:28+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",

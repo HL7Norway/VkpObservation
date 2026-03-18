@@ -274,8 +274,8 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "pmd-Bundle-Response","Bundle.entry.link","Bundle.entry.link","","","",0,*,"","","Y","null {[]} {[]}
 ","Links related to this entry","A series of links that provide context to this entry.","","","","","","","","","",,,,,"",,,,"Bundle.entry.link",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
-"pmd-Bundle-Response","Bundle.entry.fullUrl","Bundle.entry.fullUrl","","","",0,1,"","","Y","uri {[]} {[]}
-","URI for resource (Absolute URL server address or URI for UUID/OID)","The Absolute URL for the resource.  The fullUrl SHALL NOT disagree with the id in the resource - i.e. if the fullUrl is not a urn:uuid, the URL shall be version-independent URL consistent with the Resource.id. The fullUrl is a version independent reference to the resource. The fullUrl element SHALL have a value except that: 
+"pmd-Bundle-Response","Bundle.entry.fullUrl","Bundle.entry.fullUrl","","","",1,1,"","","Y","uri {[]} {[]}
+","Uniqe id is mandatory and references the original entry in the batch request","The Absolute URL for the resource.  The fullUrl SHALL NOT disagree with the id in the resource - i.e. if the fullUrl is not a urn:uuid, the URL shall be version-independent URL consistent with the Resource.id. The fullUrl is a version independent reference to the resource. The fullUrl element SHALL have a value except that: 
 * fullUrl can be empty on a POST (although it does not need to when specifying a temporary id for reference in the bundle)
 * Results from operations might involve resources that are not identified.","fullUrl might not be [unique in the context of a resource](http://hl7.org/fhir/R4/bundle.html#bundle-unique). Note that since [FHIR resources do not need to be served through the FHIR API](http://hl7.org/fhir/R4/references.html), the fullURL might be a URN or an absolute URL that does not end with the logical id of the resource (Resource.id). However, but if the fullUrl does look like a RESTful server URL (e.g. meets the [regex](http://hl7.org/fhir/R4/references.html#regex), then the 'id' portion of the fullUrl SHALL end with the Resource.id.
 
@@ -347,13 +347,9 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "
 "pmd-Bundle-Response","Bundle.entry.response.id","Bundle.entry.response.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"",""
-"pmd-Bundle-Response","Bundle.entry.response.extension","Bundle.entry.response.extension","","","",1,*,"","","","Extension {[]} {[]}
-","fullUrl identifying the resoruce entry from the original Bundle of Observations","An Extension","","","","","","","","","",,,,,"","value:url}
-","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"pmd-Bundle-Response","Bundle.entry.response.extension:entryId","Bundle.entry.response.extension","entryId","","",1,1,"","","","Extension {[CanonicalType[http://hl7.no/fhir/vkpobservation/StructureDefinition/PmdBundleResponseEntryIdExtension]]} {[]}
-","Extension","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
-","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"pmd-Bundle-Response","Bundle.entry.response.extension","Bundle.entry.response.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "pmd-Bundle-Response","Bundle.entry.response.modifierExtension","Bundle.entry.response.modifierExtension","","extensions
 user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}

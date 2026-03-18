@@ -18,14 +18,8 @@
   <sch:pattern>
     <sch:title>f:Bundle/f:entry</sch:title>
     <sch:rule context="f:Bundle/f:entry">
+      <sch:assert test="count(f:fullUrl) &gt;= 1">fullUrl: minimum cardinality of 'fullUrl' is 1</sch:assert>
       <sch:assert test="count(f:response) &gt;= 1">response: minimum cardinality of 'response' is 1</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
-    <sch:title>f:Bundle/f:entry/f:response</sch:title>
-    <sch:rule context="f:Bundle/f:entry/f:response">
-      <sch:assert test="count(f:extension[@url = 'http://hl7.no/fhir/vkpobservation/StructureDefinition/PmdBundleResponseEntryIdExtension']) &gt;= 1">extension with URL = 'http://hl7.no/fhir/vkpobservation/StructureDefinition/PmdBundleResponseEntryIdExtension': minimum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'http://hl7.no/fhir/vkpobservation/StructureDefinition/PmdBundleResponseEntryIdExtension']) &lt;= 1">extension with URL = 'http://hl7.no/fhir/vkpobservation/StructureDefinition/PmdBundleResponseEntryIdExtension': maximum cardinality of 'extension' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
 </sch:schema>

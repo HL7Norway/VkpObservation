@@ -20,10 +20,10 @@
   fhir:type [ fhir:v "batch"] ; # 
   fhir:entry ( [
      fhir:fullUrl [
-       fhir:v "http://bundle.example.no/pmdbundlerequestexample"^^xsd:anyURI ;
-       fhir:l <http://bundle.example.no/pmdbundlerequestexample>
+       fhir:v "urn:uuid:4d4d9d8b-dc0d-4eb8-b830-ea45eeb54d36"^^xsd:anyURI ;
+       fhir:l <urn:uuid:4d4d9d8b-dc0d-4eb8-b830-ea45eeb54d36>
      ] ;
-     fhir:resource ( <http://bundle.example.no/pmdbundlerequestexample> ) ;
+     fhir:resource ( <urn:uuid:4d4d9d8b-dc0d-4eb8-b830-ea45eeb54d36> ) ;
      fhir:request [
        fhir:method [ fhir:v "PUT" ] ;
        fhir:url [
@@ -33,7 +33,7 @@
      ]
   ] ) . # 
 
-<http://bundle.example.no/pmdbundlerequestexample> a fhir:Observation ;
+<urn:uuid:4d4d9d8b-dc0d-4eb8-b830-ea45eeb54d36> a fhir:Observation ;
   fhir:id [ fhir:v "vkp-body-temperature-create"] ; # 
   fhir:meta [
      fhir:versionId [ fhir:v "0" ] ;
