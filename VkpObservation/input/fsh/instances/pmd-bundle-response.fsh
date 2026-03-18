@@ -6,4 +6,4 @@ Usage: #example
 * type = #batch-response
 * entry
   * response.status = "200"
-  * response.extension[entryId].valueUri = "test.url"
+  * response.extension[entryId].valueUri = "http://bundle.example.no/pmdbundlerequestexample"

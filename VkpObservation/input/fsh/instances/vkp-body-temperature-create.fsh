@@ -16,6 +16,6 @@ Usage: #example
 * effectiveDateTime = "2022-03-16"
 * performer[0].identifier.system = "urn:oid:2.16.578.1.12.4.1.4.1"
 * performer[=].identifier.value = "889911"
-* bodySite = $sct#34402009 "Endetarm"
+* bodySite = $sct#34402009 "Rectum"
 * note.text = "Demo Body Temperature"
 * valueQuantity = 37 'Cel' "Cel"
