@@ -1,4 +1,4 @@
-# Home - v0.4.1
+# Home - v0.5.0
 
 * [**Table of Contents**](toc.md)
 * **Home**
@@ -7,8 +7,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/vkpobservation/ImplementationGuide/hl7.fhir.no.vkp.observation | *Version*:0.4.1 |
-| Draft as of 2026-03-17 | *Computable Name*:VkpObservation |
+| *Official URL*:http://hl7.no/fhir/vkpobservation/ImplementationGuide/hl7.fhir.no.vkp.observation | *Version*:0.5.0 |
+| Draft as of 2026-03-18 | *Computable Name*:VkpObservation |
 
 # Vkp Observation profiles
 
@@ -70,10 +70,10 @@ Questionaire scores. Question, different coding for different questionnaire type
   "resourceType" : "ImplementationGuide",
   "id" : "hl7.fhir.no.vkp.observation",
   "url" : "http://hl7.no/fhir/vkpobservation/ImplementationGuide/hl7.fhir.no.vkp.observation",
-  "version" : "0.4.1",
+  "version" : "0.5.0",
   "name" : "VkpObservation",
   "status" : "draft",
-  "date" : "2026-03-17T11:52:23+00:00",
+  "date" : "2026-03-18T09:27:49+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",
@@ -407,7 +407,7 @@ Questionaire scores. Question, different coding for different questionnaire type
     },
     {
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
-      "valueCode" : "hl7.fhir.uv.tools.r4#0.9.0"
+      "valueCode" : "hl7.fhir.uv.tools.r4#1.1.0"
     },
     {
       "extension" : [{
@@ -1165,6 +1165,15 @@ Questionaire scores. Question, different coding for different questionnaire type
         }],
         "nameUrl" : "index.html",
         "title" : "Home",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "batch-bundle.html"
+        }],
+        "nameUrl" : "batch-bundle.html",
+        "title" : "Batch Bundle",
         "generation" : "markdown"
       },
       {

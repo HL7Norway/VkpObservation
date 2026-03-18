@@ -6,10 +6,10 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide hl7.fhir.no.vkp.observation</b></p><a name="hl7.fhir.no.vkp.observation"> </a><a name="hchl7.fhir.no.vkp.observation"> </a><h2>VkpObservation</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/vkpobservation/ImplementationGuide/hl7.fhir.no.vkp.observation</pre></div>
   </text>
   <url value="http://hl7.no/fhir/vkpobservation/ImplementationGuide/hl7.fhir.no.vkp.observation"/>
-  <version value="0.4.1"/>
+  <version value="0.5.0"/>
   <name value="VkpObservation"/>
   <status value="draft"/>
-  <date value="2026-03-17T11:52:23+00:00"/>
+  <date value="2026-03-18T09:27:49+00:00"/>
   <publisher value="HL7 Norway"/>
   <contact>
     <name value="HL7 Norway"/>
@@ -259,7 +259,7 @@
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
-      <valueCode value="hl7.fhir.uv.tools.r4#0.9.0"/>
+      <valueCode value="hl7.fhir.uv.tools.r4#1.1.0"/>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
@@ -898,6 +898,14 @@
         </extension>
         <nameUrl value="index.html"/>
         <title value="Home"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="batch-bundle.html"/>
+        </extension>
+        <nameUrl value="batch-bundle.html"/>
+        <title value="Batch Bundle"/>
         <generation value="markdown"/>
       </page>
       <page>

@@ -1,7 +1,7 @@
 {
   "codeSystems" : [{
     "url" : "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem",
-    "version" : "0.4.1",
+    "version" : "0.5.0",
     "status" : "draft",
     "name" : "VkpPerformerIdentifiersCodeSystem",
     "title" : "Vkp Performer Identifier Systems CodeSystem",
@@ -12,7 +12,7 @@
   },
   {
     "url" : "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem",
-    "version" : "0.4.1",
+    "version" : "0.5.0",
     "status" : "draft",
     "name" : "VkpPerformerOrganizationIdentifiersCodeSystem",
     "title" : "Vkp Performer Identifier for organizations CodeSystem",
@@ -23,7 +23,7 @@
   },
   {
     "url" : "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem",
-    "version" : "0.4.1",
+    "version" : "0.5.0",
     "status" : "draft",
     "name" : "VkpSubjectIdentifiersCodeSystem",
     "title" : "Vkp Subject Identifier Systems CodeSystem",
@@ -126,9 +126,9 @@
     "oids" : ["2.16.840.1.113883.6.96"],
     "uses" : {
     },
+    "ValueSet-NoDomainVitalSignsBloodPressureMeasurementMethodValueSet.html" : "NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet",
     "http://hl7.org/fhir/R4/valueset-referencerange-appliesto.html" : "Observation Reference Range Applies To Codes",
     "ValueSet-NoDomainVitalSignsBloodpressureBodySiteValueSet.html" : "NoDomainVitalSignsBloodpressureBodySite-ValueSet",
-    "ValueSet-NoDomainVitalSignsBloodPressureMeasurementMethodValueSet.html" : "NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet",
     "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures",
     "http://hl7.org/fhir/R4/valueset-observation-methods.html" : "Observation Methods"
   },

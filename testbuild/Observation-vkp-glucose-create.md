@@ -1,4 +1,4 @@
-# vkp-glucose-create - v0.4.1
+# vkp-glucose-create - v0.5.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -20,11 +20,11 @@ Profile: [General Vkp Observation](StructureDefinition-vkp-Observation.md)
 
 **code**: Glucose [Moles/volume] in Blood
 
-**subject**: Identifier: `urn:oid:2.16.578.1.12.4.1.4.1`/1000239
+**subject**: Identifier: Foedselsnummer/1000239
 
 **effective**: 2022-03-17
 
-**performer**: Identifier: `urn:oid:2.16.578.1.12.4.1.4.1`/889911
+**performer**: Identifier: Foedselsnummer/889911
 
 **value**: 6.3 mmol/L (Details: UCUM codemmol/l = 'mmol/l')
 

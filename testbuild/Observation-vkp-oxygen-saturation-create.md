@@ -1,4 +1,4 @@
-# vkp-oxygen-saturation-create - v0.4.1
+# vkp-oxygen-saturation-create - v0.5.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -20,11 +20,11 @@ Profile: [Vkp VitalSigns Observation - Oxygen saturation](StructureDefinition-vk
 
 **code**: Oxygen saturation in Arterial blood
 
-**subject**: Identifier: `urn:oid:2.16.578.1.12.4.1.4.1`/1000239
+**subject**: Identifier: Foedselsnummer/1000239
 
 **effective**: 2022-03-16
 
-**performer**: Identifier: `urn:oid:2.16.578.1.12.4.1.4.1`/889911
+**performer**: Identifier: Foedselsnummer/889911
 
 **value**: 99 % (Details: UCUM code% = '%')
 

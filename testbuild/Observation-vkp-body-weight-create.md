@@ -1,4 +1,4 @@
-# vkp-body-weight-create - v0.4.1
+# vkp-body-weight-create - v0.5.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -20,11 +20,11 @@ Profile: [Vkp VitalSigns Observation - Body weight](StructureDefinition-vkp-Obse
 
 **code**: Body weight
 
-**subject**: Identifier: `urn:oid:2.16.578.1.12.4.1.4.1`/1000807
+**subject**: Identifier: Foedselsnummer/1000807
 
 **effective**: 2022-03-17
 
-**performer**: Identifier: `urn:oid:2.16.578.1.12.4.1.4.1`/889911
+**performer**: Identifier: Foedselsnummer/889911
 
 **value**: 49000 g (Details: UCUM codeg = 'g')
 

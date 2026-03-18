@@ -1,4 +1,4 @@
-# Vkp Performer Identifier Systems CodeSystem - v0.4.1
+# Vkp Performer Identifier Systems CodeSystem - v0.5.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem | *Version*:0.4.1 |
+| *Official URL*:http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem | *Version*:0.5.0 |
 | Draft as of 2022-03-18 | *Computable Name*:VkpPerformerIdentifiersCodeSystem |
 
  
@@ -30,7 +30,7 @@ The CodeSystem contains all codes allowed for Observation.performer.system for u
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "url" : "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem",
-  "version" : "0.4.1",
+  "version" : "0.5.0",
   "name" : "VkpPerformerIdentifiersCodeSystem",
   "title" : "Vkp Performer Identifier Systems CodeSystem",
   "status" : "draft",

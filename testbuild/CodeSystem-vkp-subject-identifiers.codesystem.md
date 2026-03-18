@@ -1,4 +1,4 @@
-# Vkp Subject Identifier Systems CodeSystem - v0.4.1
+# Vkp Subject Identifier Systems CodeSystem - v0.5.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem | *Version*:0.4.1 |
+| *Official URL*:http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem | *Version*:0.5.0 |
 | Draft as of 2022-02-10 | *Computable Name*:VkpSubjectIdentifiersCodeSystem |
 
  
@@ -30,7 +30,7 @@ The CodeSystem contains all codes allowed for Observation.subject.system, for us
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "url" : "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem",
-  "version" : "0.4.1",
+  "version" : "0.5.0",
   "name" : "VkpSubjectIdentifiersCodeSystem",
   "title" : "Vkp Subject Identifier Systems CodeSystem",
   "status" : "draft",

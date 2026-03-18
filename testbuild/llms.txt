@@ -1,9 +1,10 @@
-# hl7.fhir.no.vkp.observation#0.4.1: null
+# hl7.fhir.no.vkp.observation#0.5.0: null
 
 ## Pages
 
 * [Home](index.md)
 * [Artifacts Summary](artifacts.md)
+* [Batch Bundle](batch-bundle.md)
 * [CFS Score Use Case](CFS-score-use-case.md)
 
 ## Resources

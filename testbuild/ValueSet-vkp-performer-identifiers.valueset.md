@@ -1,4 +1,4 @@
-# VKP Performer Identifier systems ValueSet - v0.4.1
+# VKP Performer Identifier systems ValueSet - v0.5.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-identifiers.valueset | *Version*:0.4.1 | |
+| *Official URL*:http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-identifiers.valueset | *Version*:0.5.0 | |
 | * Standards status: *[Draft](http://hl7.org/fhir/R4/versions.html#std-process) | [Maturity Level](http://hl7.org/fhir/versions.html#maturity): 1 | *Computable Name*:VkpPerformerIdentifiersValueSet |
 
  
@@ -17,12 +17,20 @@ Identifier Systems allowed for performer identification systems in Vkp Observati
  **References** 
 
 * [General Vkp Observation](StructureDefinition-vkp-Observation.md)
+* [General Vkp Observation](StructureDefinition-vkp-Observation.md)
+* [Vkp VitalSigns Observation - Blood pressure](StructureDefinition-vkp-Observation-Bloodpressure.md)
 * [Vkp VitalSigns Observation - Blood pressure](StructureDefinition-vkp-Observation-Bloodpressure.md)
 * [Vkp VitalSigns Observation - Body temperature](StructureDefinition-vkp-Observation-Bodytemp.md)
+* [Vkp VitalSigns Observation - Body temperature](StructureDefinition-vkp-Observation-Bodytemp.md)
+* [Vkp VitalSigns Observation - Body weight](StructureDefinition-vkp-Observation-Bodyweight.md)
 * [Vkp VitalSigns Observation - Body weight](StructureDefinition-vkp-Observation-Bodyweight.md)
 * [Vkp Observation - Consciousness](StructureDefinition-vkp-Observation-Consciousness.md)
+* [Vkp Observation - Consciousness](StructureDefinition-vkp-Observation-Consciousness.md)
+* [Vkp VitalSigns Observation - Heart rate](StructureDefinition-vkp-Observation-Heartrate.md)
 * [Vkp VitalSigns Observation - Heart rate](StructureDefinition-vkp-Observation-Heartrate.md)
 * [Vkp VitalSigns Observation - Oxygen saturation](StructureDefinition-vkp-Observation-Oxygensat.md)
+* [Vkp VitalSigns Observation - Oxygen saturation](StructureDefinition-vkp-Observation-Oxygensat.md)
+* [Vkp VitalSigns Observation - Respiratory rate](StructureDefinition-vkp-Observation-Resprate.md)
 * [Vkp VitalSigns Observation - Respiratory rate](StructureDefinition-vkp-Observation-Resprate.md)
 
 ### Logical Definition (CLD)
@@ -65,7 +73,7 @@ Identifier Systems allowed for performer identification systems in Vkp Observati
     "valueInteger" : 1
   }],
   "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-identifiers.valueset",
-  "version" : "0.4.1",
+  "version" : "0.5.0",
   "name" : "VkpPerformerIdentifiersValueSet",
   "title" : "VKP Performer Identifier systems ValueSet",
   "status" : "draft",

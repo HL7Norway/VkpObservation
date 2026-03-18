@@ -43,7 +43,7 @@
      fhir:v "http://hl7.no/fhir/vkpobservation/ValueSet/pmd-bundle-requests.valueset"^^xsd:anyURI ;
      fhir:l <http://hl7.no/fhir/vkpobservation/ValueSet/pmd-bundle-requests.valueset>
   ] ; # 
-  fhir:version [ fhir:v "0.4.1"] ; # 
+  fhir:version [ fhir:v "0.5.0"] ; # 
   fhir:name [ fhir:v "PmdBundleRequests"] ; # 
   fhir:title [ fhir:v "Bundle request types"] ; # 
   fhir:status [ fhir:v "draft"] ; # 

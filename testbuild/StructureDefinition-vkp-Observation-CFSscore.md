@@ -1,4 +1,4 @@
-# Vkp Observation - CFS score - v0.4.1
+# Vkp Observation - CFS score - v0.5.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-CFSscore | *Version*:0.4.1 |
-| Draft as of 2026-03-17 | *Computable Name*:VkpObservationCFSscore |
+| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-CFSscore | *Version*:0.5.0 |
+| Draft as of 2026-03-18 | *Computable Name*:VkpObservationCFSscore |
 
  
 Profile for Clinical Frailty Scale score in VKP. 
@@ -40,11 +40,11 @@ Other representations of profile: [CSV](StructureDefinition-vkp-Observation-CFSs
   "resourceType" : "StructureDefinition",
   "id" : "vkp-Observation-CFSscore",
   "url" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-CFSscore",
-  "version" : "0.4.1",
+  "version" : "0.5.0",
   "name" : "VkpObservationCFSscore",
   "title" : "Vkp Observation - CFS score",
   "status" : "draft",
-  "date" : "2026-03-17T11:52:23+00:00",
+  "date" : "2026-03-18T09:27:49+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",

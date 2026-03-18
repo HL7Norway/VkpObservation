@@ -1,4 +1,4 @@
-# CFS score example - v0.4.1
+# CFS score example - v0.5.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -20,13 +20,13 @@ Profile: [Vkp Observation - CFS score](StructureDefinition-vkp-Observation-CFSsc
 
 **code**: Canadian Study of Health and Aging Clinical Frailty Scale score (observable entity)
 
-**subject**: Identifier: `urn:oid:2.16.578.1.12.4.1.4.1`/1000807
+**subject**: Identifier: Foedselsnummer/1000807
 
 **effective**: 2021-11-02
 
 **performer**: 
 
-* Identifier: `urn:oid:2.16.578.1.12.4.1.4.1`/22
+* Identifier: Foedselsnummer/22
 * Identifier: `urn:oid:2.16.578.1.12.4.1.4.101`/103
 
 **value**: 2

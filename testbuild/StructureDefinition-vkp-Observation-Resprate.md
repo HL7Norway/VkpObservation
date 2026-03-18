@@ -1,4 +1,4 @@
-# Vkp VitalSigns Observation - Respiratory rate - v0.4.1
+# Vkp VitalSigns Observation - Respiratory rate - v0.5.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Resprate | *Version*:0.4.1 |
+| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Resprate | *Version*:0.5.0 |
 | Draft as of 2023-03-14 | *Computable Name*:VkpObservationResprate |
 
  
@@ -40,7 +40,7 @@ Other representations of profile: [CSV](StructureDefinition-vkp-Observation-Resp
   "resourceType" : "StructureDefinition",
   "id" : "vkp-Observation-Resprate",
   "url" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Resprate",
-  "version" : "0.4.1",
+  "version" : "0.5.0",
   "name" : "VkpObservationResprate",
   "title" : "Vkp VitalSigns Observation - Respiratory rate",
   "status" : "draft",

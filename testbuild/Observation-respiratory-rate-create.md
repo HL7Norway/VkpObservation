@@ -1,4 +1,4 @@
-# respiratory-rate-create - v0.4.1
+# respiratory-rate-create - v0.5.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

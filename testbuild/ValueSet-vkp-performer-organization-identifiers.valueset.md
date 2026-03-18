@@ -1,4 +1,4 @@
-# VKP Performer Identifier for organizations ValueSet - v0.4.1
+# VKP Performer Identifier for organizations ValueSet - v0.5.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-organization-identifiers.valueset | *Version*:0.4.1 | |
+| *Official URL*:http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-organization-identifiers.valueset | *Version*:0.5.0 | |
 | * Standards status: *[Draft](http://hl7.org/fhir/R4/versions.html#std-process) | [Maturity Level](http://hl7.org/fhir/versions.html#maturity): 1 | *Computable Name*:VkpPerformerOrganizationIdentifiersValueSet |
 
  
@@ -16,6 +16,7 @@ Identifier Systems allowed for performer identification systems in Vkp Observati
 
  **References** 
 
+* [General Vkp Observation](StructureDefinition-vkp-Observation.md)
 * [General Vkp Observation](StructureDefinition-vkp-Observation.md)
 
 ### Logical Definition (CLD)
@@ -58,7 +59,7 @@ Identifier Systems allowed for performer identification systems in Vkp Observati
     "valueInteger" : 1
   }],
   "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-organization-identifiers.valueset",
-  "version" : "0.4.1",
+  "version" : "0.5.0",
   "name" : "VkpPerformerOrganizationIdentifiersValueSet",
   "title" : "VKP Performer Identifier for organizations ValueSet",
   "status" : "draft",
