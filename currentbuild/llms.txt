@@ -1,10 +1,11 @@
-# hl7.fhir.no.vkp.observation#0.4.1: null
+# hl7.fhir.no.vkp.observation#0.5.1: null
 
 ## Pages
 
 * [Home](index.md)
-* [CFS Score Use Case](CFS-score-use-case.md)
 * [Artifacts Summary](artifacts.md)
+* [Batch Bundle](batch-bundle.md)
+* [CFS Score Use Case](CFS-score-use-case.md)
 
 ## Resources
 
@@ -18,6 +19,7 @@
 
 * [NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet](ValueSet-NoDomainVitalSignsBloodPressureMeasurementMethodValueSet.md)
 * [NoDomainVitalSignsBloodpressureBodySite-ValueSet](ValueSet-NoDomainVitalSignsBloodpressureBodySiteValueSet.md)
+* [Bundle request types](ValueSet-pmd-bundle-requests.valueset.md)
 * [VKP Performer Identifier systems ValueSet](ValueSet-vkp-performer-identifiers.valueset.md)
 * [VKP Performer Identifier for organizations ValueSet](ValueSet-vkp-performer-organization-identifiers.valueset.md)
 * [Vkp Performer reference types Systems ValueSet](ValueSet-vkp-performer-reference-types.valueset.md)
@@ -25,6 +27,8 @@
 
 ### Resource Profiles
 
+* [A bundle of observations for processing by Pasientens måledata](StructureDefinition-pmd-Bundle-Observation.md)
+* [A response bundle for observations processed by Pasientens måledata](StructureDefinition-pmd-Bundle-Response.md)
 * [Vkp VitalSigns Observation - Blood pressure](StructureDefinition-vkp-Observation-Bloodpressure.md)
 * [Vkp VitalSigns Observation - Body temperature](StructureDefinition-vkp-Observation-Bodytemp.md)
 * [Vkp VitalSigns Observation - Body weight](StructureDefinition-vkp-Observation-Bodyweight.md)
@@ -36,12 +40,18 @@
 * [Vkp VitalSigns Observation - Respiratory rate](StructureDefinition-vkp-Observation-Resprate.md)
 * [General Vkp Observation](StructureDefinition-vkp-Observation.md)
 
+### Extensions
+
+* [PmdBundleResponseEntryId-Extension](StructureDefinition-PmdBundleResponseEntryIdExtension.md)
+
 ### ImplementationGuides
 
 * [VkpObservation](index.md)
 
 ### Examples
 
+* [pmd-Bundle-Request-example (Bundle)](Bundle-pmd-Bundle-Request-example.md)
+* [pmd-Bundle-Response-example (Bundle)](Bundle-pmd-Bundle-Response-example.md)
 * [blood-pressure-create (Observation)](Observation-blood-pressure-create.md)
 * [body-height-create (Observation)](Observation-body-height-create.md)
 * [body-mass-index-create (Observation)](Observation-body-mass-index-create.md)

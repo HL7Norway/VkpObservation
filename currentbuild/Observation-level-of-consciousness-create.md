@@ -1,4 +1,4 @@
-# level-of-consciousness-create - v0.4.1
+# level-of-consciousness-create - v0.5.1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -42,32 +42,24 @@ Information Source: [META_VISION](https://simplifier.net/resolve?scope=hl7.fhir.
     "lastUpdated" : "2014-01-30T11:35:23+00:00",
     "source" : "META_VISION"
   },
-  "identifier" : [
-    {
-      "system" : "http://dips.no/fhir/namingsystem/externalId",
-      "value" : "External Id: testLCexternalId5"
-    }
-  ],
+  "identifier" : [{
+    "system" : "http://dips.no/fhir/namingsystem/externalId",
+    "value" : "External Id: testLCexternalId5"
+  }],
   "status" : "final",
-  "category" : [
-    {
-      "coding" : [
-        {
-          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
-          "code" : "survey",
-          "display" : "Survey"
-        }
-      ]
-    }
-  ],
+  "category" : [{
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+      "code" : "survey",
+      "display" : "Survey"
+    }]
+  }],
   "code" : {
-    "coding" : [
-      {
-        "system" : "http://snomed.info/sct",
-        "code" : "1104441000000107",
-        "display" : "The observation of the individual's level of consciousness"
-      }
-    ]
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "1104441000000107",
+      "display" : "The observation of the individual's level of consciousness"
+    }]
   },
   "subject" : {
     "reference" : "Patient/cdp1000807",
@@ -77,30 +69,26 @@ Information Source: [META_VISION](https://simplifier.net/resolve?scope=hl7.fhir.
     }
   },
   "effectiveDateTime" : "2021-10-23",
-  "performer" : [
-    {
-      "reference" : "Organization/afa22",
-      "identifier" : {
-        "system" : "urn:oid:1.3.6.1.4.1.9038.70.3",
-        "value" : "22"
-      }
-    },
-    {
-      "reference" : "PractitionerRole/agb103",
-      "identifier" : {
-        "system" : "urn:oid:1.3.6.1.4.1.9038.51.1",
-        "value" : "103"
-      }
+  "performer" : [{
+    "reference" : "Organization/afa22",
+    "identifier" : {
+      "system" : "urn:oid:1.3.6.1.4.1.9038.70.3",
+      "value" : "22"
     }
-  ],
+  },
+  {
+    "reference" : "PractitionerRole/agb103",
+    "identifier" : {
+      "system" : "urn:oid:1.3.6.1.4.1.9038.51.1",
+      "value" : "103"
+    }
+  }],
   "valueCodeableConcept" : {
-    "coding" : [
-      {
-        "system" : "http://dips.no/fhir/code",
-        "code" : "5",
-        "display" : "Våken"
-      }
-    ]
+    "coding" : [{
+      "system" : "http://dips.no/fhir/code",
+      "code" : "5",
+      "display" : "Våken"
+    }]
   }
 }
 

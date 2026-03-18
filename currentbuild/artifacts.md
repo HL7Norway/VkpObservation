@@ -1,4 +1,4 @@
-# Artifacts Summary - v0.4.1
+# Artifacts Summary - v0.5.1
 
 * [**Table of Contents**](toc.md)
 * **Artifacts Summary**
@@ -13,6 +13,8 @@ These define constraints on FHIR resources for systems conforming to this implem
 
 | | |
 | :--- | :--- |
+| [A bundle of observations for processing by Pasientens måledata](StructureDefinition-pmd-Bundle-Observation.md) | Profile for adding a number of observations to PMD |
+| [A response bundle for observations processed by Pasientens måledata](StructureDefinition-pmd-Bundle-Response.md) | Profile for responding to a batch of observations to PMD |
 | [General Vkp Observation](StructureDefinition-vkp-Observation.md) | Profile for general observations in VKP. |
 | [Vkp Observation - CFS score](StructureDefinition-vkp-Observation-CFSscore.md) | Profile for Clinical Frailty Scale score in VKP. |
 | [Vkp Observation - Consciousness](StructureDefinition-vkp-Observation-Consciousness.md) | Profile for Consciousness in VKP. |
@@ -24,12 +26,21 @@ These define constraints on FHIR resources for systems conforming to this implem
 | [Vkp VitalSigns Observation - Oxygen saturation](StructureDefinition-vkp-Observation-Oxygensat.md) | Profile for oxygen saturation in VKP. |
 | [Vkp VitalSigns Observation - Respiratory rate](StructureDefinition-vkp-Observation-Resprate.md) | Profile for Respiratory rate in VKP. |
 
+### Structures: Extension Definitions 
+
+These define constraints on FHIR data types for systems conforming to this implementation guide.
+
+| | |
+| :--- | :--- |
+| [PmdBundleResponseEntryId-Extension](StructureDefinition-PmdBundleResponseEntryIdExtension.md) | full Url to the orininal bundle entry posted/put'ed for addition |
+
 ### Terminology: Value Sets 
 
 These define sets of codes used by systems conforming to this implementation guide.
 
 | | |
 | :--- | :--- |
+| [Bundle request types](ValueSet-pmd-bundle-requests.valueset.md) | Bundle Request types |
 | [NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet](ValueSet-NoDomainVitalSignsBloodPressureMeasurementMethodValueSet.md) | Codes representing measurement method for HeartRate |
 | [NoDomainVitalSignsBloodpressureBodySite-ValueSet](ValueSet-NoDomainVitalSignsBloodpressureBodySiteValueSet.md) | Codes representing body site for blood pressure |
 | [VKP Performer Identifier for organizations ValueSet](ValueSet-vkp-performer-organization-identifiers.valueset.md) | Identifier Systems allowed for performer identification systems in Vkp Observations for organizations |
@@ -54,6 +65,8 @@ These are example instances that show what data produced and consumed by systems
 | | |
 | :--- | :--- |
 | [CFS score example](Observation-vkp-cfs-create.md) | Eksempel CFS score med notat, dato og hvordan man koder CFS i FHIR |
+| [Pmd bundle example](Bundle-pmd-Bundle-Request-example.md) | Eksempel |
+| [Pmd bundle response example](Bundle-pmd-Bundle-Response-example.md) | Eksempel respons |
 | [blood-pressure-create](Observation-blood-pressure-create.md) |  |
 | [body-height-create](Observation-body-height-create.md) |  |
 | [body-mass-index-create](Observation-body-mass-index-create.md) |  |

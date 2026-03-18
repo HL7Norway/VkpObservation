@@ -1,4 +1,4 @@
-# Vkp Performer reference types Systems ValueSet - v0.4.1
+# Vkp Performer reference types Systems ValueSet - v0.5.1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,14 +8,15 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-reference-types.valueset | *Version*:0.4.1 | |
-| *Standards status:*[Draft](http://hl7.org/fhir/R4/versions.html#std-process) | [Maturity Level](http://hl7.org/fhir/versions.html#maturity): 1 | *Computable Name*:VkpPerformerReferenceTypesValueSet |
+| *Official URL*:http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-reference-types.valueset | *Version*:0.5.1 | |
+| * Standards status: *[Draft](http://hl7.org/fhir/R4/versions.html#std-process) | [Maturity Level](http://hl7.org/fhir/versions.html#maturity): 1 | *Computable Name*:VkpPerformerReferenceTypesValueSet |
 
  
 The Valueset contains all codes allowed for Observation.performer.type for use with VKP 
 
  **References** 
 
+* [Vkp Observation - CFS score](StructureDefinition-vkp-Observation-CFSscore.md)
 * [Vkp Observation - CFS score](StructureDefinition-vkp-Observation-CFSscore.md)
 
 ### Logical Definition (CLD)
@@ -48,75 +49,61 @@ The Valueset contains all codes allowed for Observation.performer.type for use w
   "meta" : {
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-      "valueCode" : "draft"
-    },
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
-      "valueInteger" : 1
-    }
-  ],
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "draft"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 1
+  }],
   "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-reference-types.valueset",
-  "version" : "0.4.1",
+  "version" : "0.5.1",
   "name" : "VkpPerformerReferenceTypesValueSet",
   "title" : "Vkp Performer reference types Systems ValueSet",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-11-18T18:41:36+00:00",
+  "date" : "2026-03-18T10:05:19+00:00",
   "publisher" : "HL7 Norway",
-  "contact" : [
-    {
-      "name" : "HL7 Norway",
-      "telecom" : [
-        {
-          "system" : "url",
-          "value" : "http://www.hl7.no"
-        }
-      ]
-    }
-  ],
+  "contact" : [{
+    "name" : "HL7 Norway",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.hl7.no"
+    }]
+  }],
   "description" : "The Valueset contains all codes allowed for Observation.performer.type for use with VKP",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "NO",
-          "display" : "Norway"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NO",
+      "display" : "Norway"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "http://hl7.org/fhir/resource-types",
+      "concept" : [{
+        "code" : "Practitioner",
+        "display" : "A person who is directly or indirectly involved in the provisioning of healthcare."
+      },
       {
-        "system" : "http://hl7.org/fhir/resource-types",
-        "concept" : [
-          {
-            "code" : "Practitioner",
-            "display" : "A person who is directly or indirectly involved in the provisioning of healthcare."
-          },
-          {
-            "code" : "PractitionerRole",
-            "display" : "A specific set of Roles/Locations/specialties/services that a practitioner may perform at an organization for a period of time."
-          },
-          {
-            "code" : "Patient"
-          },
-          {
-            "code" : "RelatedPerson"
-          },
-          {
-            "code" : "CareTeam"
-          },
-          {
-            "code" : "Organization"
-          }
-        ]
-      }
-    ]
+        "code" : "PractitionerRole",
+        "display" : "A specific set of Roles/Locations/specialties/services that a practitioner may perform at an organization for a period of time."
+      },
+      {
+        "code" : "Patient"
+      },
+      {
+        "code" : "RelatedPerson"
+      },
+      {
+        "code" : "CareTeam"
+      },
+      {
+        "code" : "Organization"
+      }]
+    }]
   }
 }
 

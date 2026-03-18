@@ -1,4 +1,4 @@
-# Vkp Performer Identifier Systems CodeSystem - v0.4.1
+# Vkp Performer Identifier Systems CodeSystem - v0.5.1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem | *Version*:0.4.1 |
+| *Official URL*:http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem | *Version*:0.5.1 |
 | Draft as of 2022-03-18 | *Computable Name*:VkpPerformerIdentifiersCodeSystem |
 
  
@@ -27,51 +27,39 @@ The CodeSystem contains all codes allowed for Observation.performer.system for u
   "resourceType" : "CodeSystem",
   "id" : "vkp-performer-identifiers.codesystem",
   "meta" : {
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "url" : "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem",
-  "version" : "0.4.1",
+  "version" : "0.5.1",
   "name" : "VkpPerformerIdentifiersCodeSystem",
   "title" : "Vkp Performer Identifier Systems CodeSystem",
   "status" : "draft",
   "experimental" : true,
   "date" : "2022-03-18",
   "publisher" : "HL7 Norway",
-  "contact" : [
-    {
-      "name" : "HL7 Norway",
-      "telecom" : [
-        {
-          "system" : "url",
-          "value" : "http://www.hl7.no"
-        }
-      ]
-    }
-  ],
+  "contact" : [{
+    "name" : "HL7 Norway",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.hl7.no"
+    }]
+  }],
   "description" : "The CodeSystem contains all codes allowed for Observation.performer.system for use with VKP",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "NO",
-          "display" : "Norway"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NO",
+      "display" : "Norway"
+    }]
+  }],
   "caseSensitive" : true,
   "content" : "complete",
   "count" : 1,
-  "concept" : [
-    {
-      "code" : "urn:oid:2.16.578.1.12.4.1.4.1",
-      "display" : "FNR",
-      "definition" : "Fødselsnummer"
-    }
-  ]
+  "concept" : [{
+    "code" : "urn:oid:2.16.578.1.12.4.1.4.1",
+    "display" : "FNR",
+    "definition" : "Fødselsnummer"
+  }]
 }
 
 ```

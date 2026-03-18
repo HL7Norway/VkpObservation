@@ -1,61 +1,59 @@
 {
-  "codeSystems" : [
-    {
-      "url" : "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem",
-      "version" : "0.4.1",
-      "status" : "draft",
-      "name" : "VkpPerformerIdentifiersCodeSystem",
-      "title" : "Vkp Performer Identifier Systems CodeSystem",
-      "description" : "The CodeSystem contains all codes allowed for Observation.performer.system for use with VKP",
-      "uses" : {
-      },
-      "ValueSet-vkp-performer-identifiers.valueset.html" : "VKP Performer Identifier systems ValueSet"
+  "codeSystems" : [{
+    "url" : "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem",
+    "version" : "0.5.1",
+    "status" : "draft",
+    "name" : "VkpPerformerIdentifiersCodeSystem",
+    "title" : "Vkp Performer Identifier Systems CodeSystem",
+    "description" : "The CodeSystem contains all codes allowed for Observation.performer.system for use with VKP",
+    "uses" : {
     },
-    {
-      "url" : "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem",
-      "version" : "0.4.1",
-      "status" : "draft",
-      "name" : "VkpPerformerOrganizationIdentifiersCodeSystem",
-      "title" : "Vkp Performer Identifier for organizations CodeSystem",
-      "description" : "The CodeSystem contains all codes allowed for Observation.performer.system for use with VKP identifying organizations",
-      "uses" : {
-      },
-      "ValueSet-vkp-performer-organization-identifiers.valueset.html" : "VKP Performer Identifier for organizations ValueSet"
+    "ValueSet-vkp-performer-identifiers.valueset.html" : "VKP Performer Identifier systems ValueSet"
+  },
+  {
+    "url" : "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem",
+    "version" : "0.5.1",
+    "status" : "draft",
+    "name" : "VkpPerformerOrganizationIdentifiersCodeSystem",
+    "title" : "Vkp Performer Identifier for organizations CodeSystem",
+    "description" : "The CodeSystem contains all codes allowed for Observation.performer.system for use with VKP identifying organizations",
+    "uses" : {
     },
-    {
-      "url" : "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem",
-      "version" : "0.4.1",
-      "status" : "draft",
-      "name" : "VkpSubjectIdentifiersCodeSystem",
-      "title" : "Vkp Subject Identifier Systems CodeSystem",
-      "description" : "The CodeSystem contains all codes allowed for Observation.subject.system, for use with VKP",
-      "uses" : {
-      },
-      "ValueSet-vkp-subject-identifiers.valueset.html" : "VKP Subject Identifier systems ValueSet"
+    "ValueSet-vkp-performer-organization-identifiers.valueset.html" : "VKP Performer Identifier for organizations ValueSet"
+  },
+  {
+    "url" : "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem",
+    "version" : "0.5.1",
+    "status" : "draft",
+    "name" : "VkpSubjectIdentifiersCodeSystem",
+    "title" : "Vkp Subject Identifier Systems CodeSystem",
+    "description" : "The CodeSystem contains all codes allowed for Observation.subject.system, for use with VKP",
+    "uses" : {
     },
-    {
-      "url" : "http://hl7.org/fhir/resource-types",
-      "version" : "4.0.1",
-      "status" : "active",
-      "name" : "ResourceType",
-      "title" : "ResourceType",
-      "description" : "One of the resource types defined as part of this version of FHIR.",
-      "uses" : {
-      },
-      "ValueSet-vkp-performer-reference-types.valueset.html" : "Vkp Performer reference types Systems ValueSet"
+    "ValueSet-vkp-subject-identifiers.valueset.html" : "VKP Subject Identifier systems ValueSet"
+  },
+  {
+    "url" : "http://hl7.org/fhir/resource-types",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "ResourceType",
+    "title" : "ResourceType",
+    "description" : "One of the resource types defined as part of this version of FHIR.",
+    "uses" : {
     },
-    {
-      "url" : "http://snomed.info/sct",
-      "version" : null,
-      "status" : "active",
-      "name" : "SNOMED_CT",
-      "title" : "SNOMED CT (all versions)",
-      "description" : "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
-      "oids" : ["2.16.840.1.113883.6.96"],
-      "uses" : {
-      },
-      "ValueSet-NoDomainVitalSignsBloodPressureMeasurementMethodValueSet.html" : "NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet",
-      "ValueSet-NoDomainVitalSignsBloodpressureBodySiteValueSet.html" : "NoDomainVitalSignsBloodpressureBodySite-ValueSet"
-    }
-  ]
+    "ValueSet-vkp-performer-reference-types.valueset.html" : "Vkp Performer reference types Systems ValueSet"
+  },
+  {
+    "url" : "http://snomed.info/sct",
+    "version" : null,
+    "status" : "active",
+    "name" : "SNOMED_CT",
+    "title" : "SNOMED CT (all versions)",
+    "description" : "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
+    "oids" : ["2.16.840.1.113883.6.96"],
+    "uses" : {
+    },
+    "ValueSet-NoDomainVitalSignsBloodpressureBodySiteValueSet.html" : "NoDomainVitalSignsBloodpressureBodySite-ValueSet",
+    "ValueSet-NoDomainVitalSignsBloodPressureMeasurementMethodValueSet.html" : "NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet"
+  }]
 }

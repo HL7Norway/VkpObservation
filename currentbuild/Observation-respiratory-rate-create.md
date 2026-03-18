@@ -1,4 +1,4 @@
-# respiratory-rate-create - v0.4.1
+# respiratory-rate-create - v0.5.1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -52,7 +52,7 @@ Description of Respiration
 * [Practitioner/agb27](https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.2&canonical=http://fhir.org/packages/hl7.fhir.no.basis/Practitioner/agb27)
 * [Organization/afa22](https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.2&canonical=http://fhir.org/packages/hl7.fhir.no.basis/Organization/afa22)
 
-**value**: 14 /min(Details: UCUM code/min = '/min')
+**value**: 14 /min (Details: UCUM code/min = '/min')
 
 **interpretation**: Clinical interpretation of Respiration
 
@@ -76,118 +76,106 @@ Demo Respiration
     "lastUpdated" : "2014-01-30T22:35:23+11:00",
     "source" : "META_VISION"
   },
-  "extension" : [
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/no-domain-vitalsignsobservation-respirationrate-bodypositionextension",
+    "valueCoding" : {
+      "system" : "http://snomed.info/sct",
+      "code" : "10904000",
+      "display" : "Stående/Oppreist"
+    }
+  },
+  {
+    "url" : "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-respirationregularityextension",
+    "valueCoding" : {
+      "system" : "http://snomed.info/sct",
+      "code" : "276888009",
+      "display" : "Regelmessig"
+    }
+  },
+  {
+    "url" : "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation--respirationdepthextension",
+    "valueCoding" : {
+      "system" : "http://snomed.info/sct",
+      "code" : "301284009",
+      "display" : "Normal"
+    }
+  },
+  {
+    "url" : "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-clinicaldescriptionextension",
+    "valueAnnotation" : {
+      "text" : "Description of Respiration"
+    }
+  },
+  {
+    "url" : "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-spontaneousbreathingextension",
+    "valueCoding" : {
+      "system" : "http://snomed.info/sct",
+      "code" : "241700002",
+      "display" : "Tilstede"
+    }
+  },
+  {
+    "url" : "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-levelofexertionextension",
+    "valueCoding" : {
+      "system" : "http://snomed.info/sct",
+      "code" : "251894003",
+      "display" : "Level of Exertion (attribute)"
+    }
+  },
+  {
+    "extension" : [{
+      "url" : "http://dips.no/fhir/StructureDefinition/OxygenAdministrationMethodExtension",
+      "valueString" : "Oxygen administration method"
+    },
     {
-      "url" : "http://hl7.org/fhir/StructureDefinition/no-domain-vitalsignsobservation-respirationrate-bodypositionextension",
-      "valueCoding" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "10904000",
-        "display" : "Stående/Oppreist"
+      "url" : "http://dips.no/fhir/StructureDefinition/FlowExtension",
+      "valueQuantity" : {
+        "value" : 6100,
+        "unit" : "ml/min"
       }
     },
     {
-      "url" : "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-respirationregularityextension",
-      "valueCoding" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "276888009",
-        "display" : "Regelmessig"
-      }
-    },
-    {
-      "url" : "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation--respirationdepthextension",
-      "valueCoding" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "301284009",
-        "display" : "Normal"
-      }
-    },
-    {
-      "url" : "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-clinicaldescriptionextension",
-      "valueAnnotation" : {
-        "text" : "Description of Respiration"
-      }
-    },
-    {
-      "url" : "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-spontaneousbreathingextension",
-      "valueCoding" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "241700002",
-        "display" : "Tilstede"
-      }
-    },
-    {
-      "url" : "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-levelofexertionextension",
-      "valueCoding" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "251894003",
-        "display" : "Level of Exertion (attribute)"
-      }
-    },
-    {
-      "extension" : [
-        {
-          "url" : "http://dips.no/fhir/StructureDefinition/OxygenAdministrationMethodExtension",
-          "valueString" : "Oxygen administration method"
+      "url" : "http://dips.no/fhir/StructureDefinition/FiO2Extension",
+      "valueRatio" : {
+        "numerator" : {
+          "value" : 21
         },
-        {
-          "url" : "http://dips.no/fhir/StructureDefinition/FlowExtension",
-          "valueQuantity" : {
-            "value" : 6100,
-            "unit" : "ml/min"
-          }
-        },
-        {
-          "url" : "http://dips.no/fhir/StructureDefinition/FiO2Extension",
-          "valueRatio" : {
-            "numerator" : {
-              "value" : 21
-            },
-            "denominator" : {
-              "value" : 100
-            }
-          }
-        },
-        {
-          "url" : "http://dips.no/fhir/StructureDefinition/ProsentO2Extension",
-          "valueRatio" : {
-            "numerator" : {
-              "value" : 21
-            },
-            "denominator" : {
-              "value" : 100
-            }
-          }
+        "denominator" : {
+          "value" : 100
         }
-      ],
-      "url" : "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-inspiredoxygenextension"
-    }
-  ],
-  "identifier" : [
+      }
+    },
     {
-      "system" : "http://dips.no/fhir/namingsystem/externalId",
-      "value" : "External Id: testresprateExternalId7"
-    }
-  ],
+      "url" : "http://dips.no/fhir/StructureDefinition/ProsentO2Extension",
+      "valueRatio" : {
+        "numerator" : {
+          "value" : 21
+        },
+        "denominator" : {
+          "value" : 100
+        }
+      }
+    }],
+    "url" : "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-inspiredoxygenextension"
+  }],
+  "identifier" : [{
+    "system" : "http://dips.no/fhir/namingsystem/externalId",
+    "value" : "External Id: testresprateExternalId7"
+  }],
   "status" : "final",
-  "category" : [
-    {
-      "coding" : [
-        {
-          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
-          "code" : "vital-signs",
-          "display" : "vital-signs"
-        }
-      ]
-    }
-  ],
+  "category" : [{
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+      "code" : "vital-signs",
+      "display" : "vital-signs"
+    }]
+  }],
   "code" : {
-    "coding" : [
-      {
-        "system" : "http://loinc.org",
-        "code" : "9279-1",
-        "display" : "Respiratory rate"
-      }
-    ]
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "9279-1",
+      "display" : "Respiratory rate"
+    }]
   },
   "subject" : {
     "reference" : "patient/cdp1000239",
@@ -200,38 +188,32 @@ Demo Respiration
     "reference" : "Encounter/agy1000245"
   },
   "effectiveDateTime" : "2021-05-10",
-  "performer" : [
-    {
-      "reference" : "Practitioner/agb27",
-      "identifier" : {
-        "system" : "urn:oid:1.3.6.1.4.1.9038.51.1",
-        "value" : "27"
-      }
-    },
-    {
-      "reference" : "Organization/afa22",
-      "identifier" : {
-        "system" : "urn:oid:1.3.6.1.4.1.9038.70.3",
-        "value" : "22"
-      }
+  "performer" : [{
+    "reference" : "Practitioner/agb27",
+    "identifier" : {
+      "system" : "urn:oid:1.3.6.1.4.1.9038.51.1",
+      "value" : "27"
     }
-  ],
+  },
+  {
+    "reference" : "Organization/afa22",
+    "identifier" : {
+      "system" : "urn:oid:1.3.6.1.4.1.9038.70.3",
+      "value" : "22"
+    }
+  }],
   "valueQuantity" : {
     "value" : 14,
     "unit" : "/min",
     "system" : "http://unitsofmeasure.org",
     "code" : "/min"
   },
-  "interpretation" : [
-    {
-      "text" : "Clinical interpretation of Respiration"
-    }
-  ],
-  "note" : [
-    {
-      "text" : "Demo Respiration"
-    }
-  ]
+  "interpretation" : [{
+    "text" : "Clinical interpretation of Respiration"
+  }],
+  "note" : [{
+    "text" : "Demo Respiration"
+  }]
 }
 
 ```

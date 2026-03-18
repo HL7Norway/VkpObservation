@@ -1,4 +1,4 @@
-# vkp-body-weight-create - v0.4.1
+# vkp-body-weight-create - v0.5.1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -20,13 +20,13 @@ Profile: [Vkp VitalSigns Observation - Body weight](StructureDefinition-vkp-Obse
 
 **code**: Body weight
 
-**subject**: Identifier: `urn:oid:2.16.578.1.12.4.1.4.1`/1000807
+**subject**: Identifier: Foedselsnummer/1000807
 
 **effective**: 2022-03-17
 
-**performer**: Identifier: `urn:oid:2.16.578.1.12.4.1.4.1`/889911
+**performer**: Identifier: Foedselsnummer/889911
 
-**value**: 49000 g(Details: UCUM codeg = 'g')
+**value**: 49000 g (Details: UCUM codeg = 'g')
 
 **note**: 
 
@@ -47,41 +47,31 @@ Test Body Weight
     "versionId" : "1",
     "lastUpdated" : "2022-03-17T22:35:23+11:00",
     "source" : "Thomas",
-    "profile" : [
-      "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Bodyweight"
-    ]
+    "profile" : ["http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Bodyweight"]
   },
-  "identifier" : [
-    {
-      "system" : "http://dips.no/fhir/namingsystem/externalId",
-      "value" : "testBWexternalId3"
-    }
-  ],
+  "identifier" : [{
+    "system" : "http://dips.no/fhir/namingsystem/externalId",
+    "value" : "testBWexternalId3"
+  }],
   "status" : "final",
-  "category" : [
-    {
-      "coding" : [
-        {
-          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
-          "code" : "vital-signs",
-          "display" : "Vital Signs"
-        }
-      ]
-    }
-  ],
+  "category" : [{
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+      "code" : "vital-signs",
+      "display" : "Vital Signs"
+    }]
+  }],
   "code" : {
-    "coding" : [
-      {
-        "system" : "http://loinc.org",
-        "code" : "29463-7",
-        "display" : "Body weight"
-      },
-      {
-        "system" : "http://snomed.info/sct",
-        "code" : "27113001",
-        "display" : "Body weight (observable entity)"
-      }
-    ]
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "29463-7",
+      "display" : "Body weight"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "27113001",
+      "display" : "Body weight (observable entity)"
+    }]
   },
   "subject" : {
     "identifier" : {
@@ -90,25 +80,21 @@ Test Body Weight
     }
   },
   "effectiveDateTime" : "2022-03-17",
-  "performer" : [
-    {
-      "identifier" : {
-        "system" : "urn:oid:2.16.578.1.12.4.1.4.1",
-        "value" : "889911"
-      }
+  "performer" : [{
+    "identifier" : {
+      "system" : "urn:oid:2.16.578.1.12.4.1.4.1",
+      "value" : "889911"
     }
-  ],
+  }],
   "valueQuantity" : {
     "value" : 49000,
     "unit" : "g",
     "system" : "http://unitsofmeasure.org",
     "code" : "g"
   },
-  "note" : [
-    {
-      "text" : "Test Body Weight"
-    }
-  ]
+  "note" : [{
+    "text" : "Test Body Weight"
+  }]
 }
 
 ```

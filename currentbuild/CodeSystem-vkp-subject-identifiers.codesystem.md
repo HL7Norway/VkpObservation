@@ -1,4 +1,4 @@
-# Vkp Subject Identifier Systems CodeSystem - v0.4.1
+# Vkp Subject Identifier Systems CodeSystem - v0.5.1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem | *Version*:0.4.1 |
+| *Official URL*:http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem | *Version*:0.5.1 |
 | Draft as of 2022-02-10 | *Computable Name*:VkpSubjectIdentifiersCodeSystem |
 
  
@@ -27,61 +27,49 @@ The CodeSystem contains all codes allowed for Observation.subject.system, for us
   "resourceType" : "CodeSystem",
   "id" : "vkp-subject-identifiers.codesystem",
   "meta" : {
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "url" : "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem",
-  "version" : "0.4.1",
+  "version" : "0.5.1",
   "name" : "VkpSubjectIdentifiersCodeSystem",
   "title" : "Vkp Subject Identifier Systems CodeSystem",
   "status" : "draft",
   "experimental" : true,
   "date" : "2022-02-10",
   "publisher" : "HL7 Norway",
-  "contact" : [
-    {
-      "name" : "HL7 Norway",
-      "telecom" : [
-        {
-          "system" : "url",
-          "value" : "http://www.hl7.no"
-        }
-      ]
-    }
-  ],
+  "contact" : [{
+    "name" : "HL7 Norway",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.hl7.no"
+    }]
+  }],
   "description" : "The CodeSystem contains all codes allowed for Observation.subject.system, for use with VKP",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "NO",
-          "display" : "Norway"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NO",
+      "display" : "Norway"
+    }]
+  }],
   "caseSensitive" : true,
   "content" : "complete",
   "count" : 3,
-  "concept" : [
-    {
-      "code" : "urn:oid:2.16.578.1.12.4.1.4.1",
-      "display" : "FNR",
-      "definition" : "Fødselsnummer"
-    },
-    {
-      "code" : "urn:oid:2.16.578.1.12.4.1.4.2",
-      "display" : "DNR",
-      "definition" : "D-nummer"
-    },
-    {
-      "code" : "urn:oid:2.16.578.1.12.4.1.4.3",
-      "display" : "FHN",
-      "definition" : "Felles hjelpenummer"
-    }
-  ]
+  "concept" : [{
+    "code" : "urn:oid:2.16.578.1.12.4.1.4.1",
+    "display" : "FNR",
+    "definition" : "Fødselsnummer"
+  },
+  {
+    "code" : "urn:oid:2.16.578.1.12.4.1.4.2",
+    "display" : "DNR",
+    "definition" : "D-nummer"
+  },
+  {
+    "code" : "urn:oid:2.16.578.1.12.4.1.4.3",
+    "display" : "FHN",
+    "definition" : "Felles hjelpenummer"
+  }]
 }
 
 ```

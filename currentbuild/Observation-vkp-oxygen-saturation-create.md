@@ -1,4 +1,4 @@
-# vkp-oxygen-saturation-create - v0.4.1
+# vkp-oxygen-saturation-create - v0.5.1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -20,13 +20,13 @@ Profile: [Vkp VitalSigns Observation - Oxygen saturation](StructureDefinition-vk
 
 **code**: Oxygen saturation in Arterial blood
 
-**subject**: Identifier: `urn:oid:2.16.578.1.12.4.1.4.1`/1000239
+**subject**: Identifier: Foedselsnummer/1000239
 
 **effective**: 2022-03-16
 
-**performer**: Identifier: `urn:oid:2.16.578.1.12.4.1.4.1`/889911
+**performer**: Identifier: Foedselsnummer/889911
 
-**value**: 99 %(Details: UCUM code% = '%')
+**value**: 99 % (Details: UCUM code% = '%')
 
 **note**: 
 
@@ -47,42 +47,32 @@ Test Vkp oxygen saturation
     "versionId" : "1",
     "lastUpdated" : "2022-03-16T22:35:23+11:00",
     "source" : "Thomas",
-    "profile" : [
-      "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Oxygensat"
-    ]
+    "profile" : ["http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Oxygensat"]
   },
-  "identifier" : [
-    {
-      "system" : "http://dips.no/fhir/namingsystem/externalId",
-      "value" : "testOxySatexternalId5"
-    }
-  ],
+  "identifier" : [{
+    "system" : "http://dips.no/fhir/namingsystem/externalId",
+    "value" : "testOxySatexternalId5"
+  }],
   "status" : "final",
-  "category" : [
-    {
-      "coding" : [
-        {
-          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
-          "code" : "vital-signs",
-          "display" : "Vital Signs"
-        }
-      ],
-      "text" : "Vital Signs"
-    }
-  ],
+  "category" : [{
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+      "code" : "vital-signs",
+      "display" : "Vital Signs"
+    }],
+    "text" : "Vital Signs"
+  }],
   "code" : {
-    "coding" : [
-      {
-        "system" : "http://loinc.org",
-        "code" : "2708-6",
-        "display" : "Oxygen saturation in Arterial blood"
-      },
-      {
-        "system" : "http://snomed.info/sct",
-        "code" : "431314004",
-        "display" : "Peripheral oxygen saturation (observable entity)"
-      }
-    ]
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "2708-6",
+      "display" : "Oxygen saturation in Arterial blood"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "431314004",
+      "display" : "Peripheral oxygen saturation (observable entity)"
+    }]
   },
   "subject" : {
     "identifier" : {
@@ -91,25 +81,21 @@ Test Vkp oxygen saturation
     }
   },
   "effectiveDateTime" : "2022-03-16",
-  "performer" : [
-    {
-      "identifier" : {
-        "system" : "urn:oid:2.16.578.1.12.4.1.4.1",
-        "value" : "889911"
-      }
+  "performer" : [{
+    "identifier" : {
+      "system" : "urn:oid:2.16.578.1.12.4.1.4.1",
+      "value" : "889911"
     }
-  ],
+  }],
   "valueQuantity" : {
     "value" : 99,
     "unit" : "%",
     "system" : "http://unitsofmeasure.org",
     "code" : "%"
   },
-  "note" : [
-    {
-      "text" : "Test Vkp oxygen saturation"
-    }
-  ]
+  "note" : [{
+    "text" : "Test Vkp oxygen saturation"
+  }]
 }
 
 ```

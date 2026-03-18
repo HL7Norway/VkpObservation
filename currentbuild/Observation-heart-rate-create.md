@@ -1,4 +1,4 @@
-# heart-rate-create - v0.4.1
+# heart-rate-create - v0.5.1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -51,7 +51,7 @@ Clinical description sample
 * Identifier: `urn:oid:2.16.578.1.12.4.1.2`/889911
 * [Organization/afa22](https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.2&canonical=http://fhir.org/packages/hl7.fhir.no.basis/Organization/afa22)
 
-**value**: 61 /min(Details: UCUM code/min = '/min')
+**value**: 61 /min (Details: UCUM code/min = '/min')
 
 **note**: 
 
@@ -77,77 +77,67 @@ Demo heart rate
     "lastUpdated" : "2014-01-30T22:35:23+11:00",
     "source" : "META_VISION"
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/no-domain-vitalsignsobservation-heartrhythmextension",
-      "valueCoding" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "271636001",
-        "display" : "Pulse regular (finding)"
-      }
-    },
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/no-domain-vitalsignsobservation-heartrhythmIrregularityextension",
-      "valueCoding" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "271638000",
-        "display" : "Heart regularly irregular (finding)"
-      }
-    },
-    {
-      "url" : "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-characterofheartrateextension",
-      "valueAnnotation" : {
-        "text" : "character sample"
-      }
-    },
-    {
-      "url" : "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-clinicaldescriptionextension",
-      "valueAnnotation" : {
-        "text" : "Clinical description sample"
-      }
-    },
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/no-domain-vitalsignsobservation-heartrate-bodypositionextension",
-      "valueCoding" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "33586001",
-        "display" : "Sitting position"
-      }
-    },
-    {
-      "url" : "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-levelofexertionextension",
-      "valueCoding" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "251894003",
-        "display" : "Level of Exertion (attribute)"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/no-domain-vitalsignsobservation-heartrhythmextension",
+    "valueCoding" : {
+      "system" : "http://snomed.info/sct",
+      "code" : "271636001",
+      "display" : "Pulse regular (finding)"
     }
-  ],
-  "identifier" : [
-    {
-      "system" : "http://dips.no/fhir/namingsystem/externalId",
-      "value" : "External Id: testpulseExternalId6"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/no-domain-vitalsignsobservation-heartrhythmIrregularityextension",
+    "valueCoding" : {
+      "system" : "http://snomed.info/sct",
+      "code" : "271638000",
+      "display" : "Heart regularly irregular (finding)"
     }
-  ],
+  },
+  {
+    "url" : "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-characterofheartrateextension",
+    "valueAnnotation" : {
+      "text" : "character sample"
+    }
+  },
+  {
+    "url" : "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-clinicaldescriptionextension",
+    "valueAnnotation" : {
+      "text" : "Clinical description sample"
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/no-domain-vitalsignsobservation-heartrate-bodypositionextension",
+    "valueCoding" : {
+      "system" : "http://snomed.info/sct",
+      "code" : "33586001",
+      "display" : "Sitting position"
+    }
+  },
+  {
+    "url" : "http://hl7.no/fhir/StructureDefinition/no-domain-vitalsignsobservation-levelofexertionextension",
+    "valueCoding" : {
+      "system" : "http://snomed.info/sct",
+      "code" : "251894003",
+      "display" : "Level of Exertion (attribute)"
+    }
+  }],
+  "identifier" : [{
+    "system" : "http://dips.no/fhir/namingsystem/externalId",
+    "value" : "External Id: testpulseExternalId6"
+  }],
   "status" : "final",
-  "category" : [
-    {
-      "coding" : [
-        {
-          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
-          "code" : "vital-signs"
-        }
-      ]
-    }
-  ],
+  "category" : [{
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+      "code" : "vital-signs"
+    }]
+  }],
   "code" : {
-    "coding" : [
-      {
-        "system" : "http://loinc.org",
-        "code" : "8867-4",
-        "display" : "Heart rate (observable entity)"
-      }
-    ]
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "8867-4",
+      "display" : "Heart rate (observable entity)"
+    }]
   },
   "subject" : {
     "reference" : "patient/cdp1000239",
@@ -160,49 +150,41 @@ Demo heart rate
     "reference" : "Encounter/agy1000245"
   },
   "effectiveDateTime" : "2021-05-10",
-  "performer" : [
-    {
-      "identifier" : {
-        "system" : "urn:oid:2.16.578.1.12.4.1.2",
-        "value" : "889911"
-      }
-    },
-    {
-      "reference" : "Organization/afa22",
-      "identifier" : {
-        "system" : "urn:oid:1.3.6.1.4.1.9038.70.3",
-        "value" : "22"
-      }
+  "performer" : [{
+    "identifier" : {
+      "system" : "urn:oid:2.16.578.1.12.4.1.2",
+      "value" : "889911"
     }
-  ],
+  },
+  {
+    "reference" : "Organization/afa22",
+    "identifier" : {
+      "system" : "urn:oid:1.3.6.1.4.1.9038.70.3",
+      "value" : "22"
+    }
+  }],
   "valueQuantity" : {
     "value" : 61,
     "unit" : "/min",
     "system" : "http://unitsofmeasure.org",
     "code" : "/min"
   },
-  "note" : [
-    {
-      "text" : "Demo heart rate"
-    }
-  ],
+  "note" : [{
+    "text" : "Demo heart rate"
+  }],
   "bodySite" : {
-    "coding" : [
-      {
-        "system" : "http://snomed.info/sct",
-        "code" : "7569003",
-        "display" : "Finger structure (body structure)"
-      }
-    ]
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "7569003",
+      "display" : "Finger structure (body structure)"
+    }]
   },
   "method" : {
-    "coding" : [
-      {
-        "system" : "http://snomed.info/sct",
-        "code" : "129434008",
-        "display" : "Palpation"
-      }
-    ]
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "129434008",
+      "display" : "Palpation"
+    }]
   }
 }
 

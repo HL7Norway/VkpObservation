@@ -17,10 +17,10 @@
      fhir:v "http://hl7.no/fhir/vkpobservation/ImplementationGuide/hl7.fhir.no.vkp.observation"^^xsd:anyURI ;
      fhir:l <http://hl7.no/fhir/vkpobservation/ImplementationGuide/hl7.fhir.no.vkp.observation>
   ] ; # 
-  fhir:version [ fhir:v "0.4.1"] ; # 
+  fhir:version [ fhir:v "0.5.1"] ; # 
   fhir:name [ fhir:v "VkpObservation"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-11-18T18:41:36+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-03-18T10:05:19+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Norway"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Norway" ] ;
@@ -59,7 +59,7 @@
        fhir:l <http://terminology.hl7.org/ImplementationGuide/hl7.terminology>
      ] ;
      fhir:packageId [ fhir:v "hl7.terminology.r4" ] ;
-     fhir:version [ fhir:v "7.0.0" ]
+     fhir:version [ fhir:v "7.1.0" ]
   ] [
      fhir:id [ fhir:v "hl7ext" ] ;
      fhir:extension ( [
@@ -719,7 +719,7 @@
        ] ;
        fhir:value [
          a fhir:Code ;
-         fhir:v "hl7.fhir.uv.tools.r4#0.8.0"
+         fhir:v "hl7.fhir.uv.tools.r4#1.1.0"
        ]
      ] [
        fhir:extension ( [
@@ -1354,6 +1354,48 @@
          ] ;
          fhir:value [
            a fhir:String ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://hl7.no/fhir/vkpobservation/StructureDefinition/pmd-Bundle-Observation> ;
+         fhir:reference [ fhir:v "StructureDefinition/pmd-Bundle-Observation" ]
+       ] ;
+       fhir:name [ fhir:v "A bundle of observations for processing by Pasientens måledata" ] ;
+       fhir:description [ fhir:v "Profile for adding a number of observations to PMD" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://hl7.no/fhir/vkpobservation/StructureDefinition/pmd-Bundle-Response> ;
+         fhir:reference [ fhir:v "StructureDefinition/pmd-Bundle-Response" ]
+       ] ;
+       fhir:name [ fhir:v "A response bundle for observations processed by Pasientens måledata" ] ;
+       fhir:description [ fhir:v "Profile for responding to a batch of observations to PMD" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
            fhir:v "Observation"
          ]
        ] ) ;
@@ -1405,6 +1447,27 @@
        fhir:example [
          a fhir:Boolean ;
          fhir:v true
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://hl7.no/fhir/vkpobservation/ValueSet/pmd-bundle-requests.valueset> ;
+         fhir:reference [ fhir:v "ValueSet/pmd-bundle-requests.valueset" ]
+       ] ;
+       fhir:name [ fhir:v "Bundle request types" ] ;
+       fhir:description [ fhir:v "Bundle Request types" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
        ]
      ] [
        fhir:extension ( [
@@ -1527,6 +1590,71 @@
        ] ;
        fhir:name [ fhir:v "NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet" ] ;
        fhir:description [ fhir:v "Codes representing measurement method for HeartRate" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "Bundle"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://hl7.no/fhir/vkpobservation/Bundle/pmd-Bundle-Request-example> ;
+         fhir:reference [ fhir:v "Bundle/pmd-Bundle-Request-example" ]
+       ] ;
+       fhir:name [ fhir:v "Pmd bundle example" ] ;
+       fhir:description [ fhir:v "Eksempel" ] ;
+       fhir:example [
+         a fhir:Canonical ;
+         fhir:v "http://hl7.no/fhir/vkpobservation/StructureDefinition/pmd-Bundle-Observation"^^xsd:anyURI ;
+         fhir:l <http://hl7.no/fhir/vkpobservation/StructureDefinition/pmd-Bundle-Observation>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "Bundle"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://hl7.no/fhir/vkpobservation/Bundle/pmd-Bundle-Response-example> ;
+         fhir:reference [ fhir:v "Bundle/pmd-Bundle-Response-example" ]
+       ] ;
+       fhir:name [ fhir:v "Pmd bundle response example" ] ;
+       fhir:description [ fhir:v "Eksempel respons" ] ;
+       fhir:example [
+         a fhir:Canonical ;
+         fhir:v "http://hl7.no/fhir/vkpobservation/StructureDefinition/pmd-Bundle-Response"^^xsd:anyURI ;
+         fhir:l <http://hl7.no/fhir/vkpobservation/StructureDefinition/pmd-Bundle-Response>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:extension"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://hl7.no/fhir/vkpobservation/StructureDefinition/PmdBundleResponseEntryIdExtension> ;
+         fhir:reference [ fhir:v "StructureDefinition/PmdBundleResponseEntryIdExtension" ]
+       ] ;
+       fhir:name [ fhir:v "PmdBundleResponseEntryId-Extension" ] ;
+       fhir:description [ fhir:v "full Url to the orininal bundle entry posted/put'ed for addition" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -2072,6 +2200,25 @@
            fhir:l fhir:index.html
          ] ;
          fhir:title [ fhir:v "Home" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [
+             fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ;
+             fhir:l <http://hl7.org/fhir/tools/StructureDefinition/ig-page-name>
+           ] ;
+           fhir:value [
+             a fhir:Url ;
+             fhir:v "batch-bundle.html"^^xsd:anyURI ;
+             fhir:l fhir:batch-bundle.html
+           ]
+         ] ) ;
+         fhir:name [
+           a fhir:Url ;
+           fhir:v "batch-bundle.html"^^xsd:anyURI ;
+           fhir:l fhir:batch-bundle.html
+         ] ;
+         fhir:title [ fhir:v "Batch Bundle" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] [
          fhir:extension ( [

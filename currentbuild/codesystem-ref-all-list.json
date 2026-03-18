@@ -1,161 +1,195 @@
 {
-  "codeSystems" : [
-    {
-      "url" : "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem",
-      "version" : "0.4.1",
-      "status" : "draft",
-      "name" : "VkpPerformerIdentifiersCodeSystem",
-      "title" : "Vkp Performer Identifier Systems CodeSystem",
-      "description" : "The CodeSystem contains all codes allowed for Observation.performer.system for use with VKP",
-      "uses" : {
-      },
-      "ValueSet-vkp-performer-identifiers.valueset.html" : "VKP Performer Identifier systems ValueSet"
+  "codeSystems" : [{
+    "url" : "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem",
+    "version" : "0.5.1",
+    "status" : "draft",
+    "name" : "VkpPerformerIdentifiersCodeSystem",
+    "title" : "Vkp Performer Identifier Systems CodeSystem",
+    "description" : "The CodeSystem contains all codes allowed for Observation.performer.system for use with VKP",
+    "uses" : {
     },
-    {
-      "url" : "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem",
-      "version" : "0.4.1",
-      "status" : "draft",
-      "name" : "VkpPerformerOrganizationIdentifiersCodeSystem",
-      "title" : "Vkp Performer Identifier for organizations CodeSystem",
-      "description" : "The CodeSystem contains all codes allowed for Observation.performer.system for use with VKP identifying organizations",
-      "uses" : {
-      },
-      "ValueSet-vkp-performer-organization-identifiers.valueset.html" : "VKP Performer Identifier for organizations ValueSet"
+    "ValueSet-vkp-performer-identifiers.valueset.html" : "VKP Performer Identifier systems ValueSet"
+  },
+  {
+    "url" : "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem",
+    "version" : "0.5.1",
+    "status" : "draft",
+    "name" : "VkpPerformerOrganizationIdentifiersCodeSystem",
+    "title" : "Vkp Performer Identifier for organizations CodeSystem",
+    "description" : "The CodeSystem contains all codes allowed for Observation.performer.system for use with VKP identifying organizations",
+    "uses" : {
     },
-    {
-      "url" : "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem",
-      "version" : "0.4.1",
-      "status" : "draft",
-      "name" : "VkpSubjectIdentifiersCodeSystem",
-      "title" : "Vkp Subject Identifier Systems CodeSystem",
-      "description" : "The CodeSystem contains all codes allowed for Observation.subject.system, for use with VKP",
-      "uses" : {
-      },
-      "ValueSet-vkp-subject-identifiers.valueset.html" : "VKP Subject Identifier systems ValueSet"
+    "ValueSet-vkp-performer-organization-identifiers.valueset.html" : "VKP Performer Identifier for organizations ValueSet"
+  },
+  {
+    "url" : "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem",
+    "version" : "0.5.1",
+    "status" : "draft",
+    "name" : "VkpSubjectIdentifiersCodeSystem",
+    "title" : "Vkp Subject Identifier Systems CodeSystem",
+    "description" : "The CodeSystem contains all codes allowed for Observation.subject.system, for use with VKP",
+    "uses" : {
     },
-    {
-      "url" : "http://hl7.org/fhir/identifier-use",
-      "version" : "4.0.1",
-      "status" : "active",
-      "name" : "IdentifierUse",
-      "title" : "IdentifierUse",
-      "description" : "Identifies the purpose for this identifier, if known .",
-      "oids" : ["2.16.840.1.113883.4.642.4.58"],
-      "uses" : {
-      },
-      "http://hl7.org/fhir/R4/valueset-identifier-use.html" : "IdentifierUse"
+    "ValueSet-vkp-subject-identifiers.valueset.html" : "VKP Subject Identifier systems ValueSet"
+  },
+  {
+    "url" : "http://hl7.org/fhir/bundle-type",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "BundleType",
+    "title" : "BundleType",
+    "description" : "Indicates the purpose of a bundle - how it is intended to be used.",
+    "oids" : ["2.16.840.1.113883.4.642.4.621"],
+    "uses" : {
     },
-    {
-      "url" : "http://hl7.org/fhir/observation-status",
-      "version" : "4.0.1",
-      "status" : "active",
-      "name" : "ObservationStatus",
-      "title" : "ObservationStatus",
-      "description" : "Codes providing the status of an observation.",
-      "oids" : ["2.16.840.1.113883.4.642.4.401"],
-      "uses" : {
-      },
-      "http://hl7.org/fhir/R4/valueset-observation-status.html" : "ObservationStatus"
+    "http://hl7.org/fhir/R4/valueset-bundle-type.html" : "BundleType"
+  },
+  {
+    "url" : "http://hl7.org/fhir/http-verb",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "HTTPVerb",
+    "title" : "HTTPVerb",
+    "description" : "HTTP verbs (in the HTTP command line). See [HTTP rfc](https://tools.ietf.org/html/rfc7231) for details.",
+    "oids" : ["2.16.840.1.113883.4.642.4.625"],
+    "uses" : {
     },
-    {
-      "url" : "http://hl7.org/fhir/quantity-comparator",
-      "version" : "4.0.1",
-      "status" : "active",
-      "name" : "QuantityComparator",
-      "title" : "QuantityComparator",
-      "description" : "How the Quantity should be understood and represented.",
-      "oids" : ["2.16.840.1.113883.4.642.4.60"],
-      "uses" : {
-      },
-      "http://hl7.org/fhir/R4/valueset-quantity-comparator.html" : "QuantityComparator"
+    "http://hl7.org/fhir/R4/valueset-http-verb.html" : "HTTPVerb"
+  },
+  {
+    "url" : "http://hl7.org/fhir/identifier-use",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "IdentifierUse",
+    "title" : "IdentifierUse",
+    "description" : "Identifies the purpose for this identifier, if known .",
+    "oids" : ["2.16.840.1.113883.4.642.4.58"],
+    "uses" : {
     },
-    {
-      "url" : "http://hl7.org/fhir/resource-types",
-      "version" : "4.0.1",
-      "status" : "active",
-      "name" : "ResourceType",
-      "title" : "ResourceType",
-      "description" : "One of the resource types defined as part of this version of FHIR.",
-      "uses" : {
-      },
-      "ValueSet-vkp-performer-reference-types.valueset.html" : "Vkp Performer reference types Systems ValueSet",
-      "http://hl7.org/fhir/R4/valueset-resource-types.html" : "ResourceType"
+    "http://hl7.org/fhir/R4/valueset-identifier-use.html" : "IdentifierUse"
+  },
+  {
+    "url" : "http://hl7.org/fhir/observation-status",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "ObservationStatus",
+    "title" : "ObservationStatus",
+    "description" : "Codes providing the status of an observation.",
+    "oids" : ["2.16.840.1.113883.4.642.4.401"],
+    "uses" : {
     },
-    {
-      "url" : "http://snomed.info/sct",
-      "version" : null,
-      "status" : "active",
-      "name" : "SNOMED_CT",
-      "title" : "SNOMED CT (all versions)",
-      "description" : "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
-      "oids" : ["2.16.840.1.113883.6.96"],
-      "uses" : {
-      },
-      "ValueSet-NoDomainVitalSignsBloodPressureMeasurementMethodValueSet.html" : "NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet",
-      "http://hl7.org/fhir/R4/valueset-observation-methods.html" : "Observation Methods",
-      "ValueSet-NoDomainVitalSignsBloodpressureBodySiteValueSet.html" : "NoDomainVitalSignsBloodpressureBodySite-ValueSet",
-      "http://hl7.org/fhir/R4/valueset-referencerange-appliesto.html" : "Observation Reference Range Applies To Codes",
-      "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures"
+    "http://hl7.org/fhir/R4/valueset-observation-status.html" : "ObservationStatus"
+  },
+  {
+    "url" : "http://hl7.org/fhir/quantity-comparator",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "QuantityComparator",
+    "title" : "QuantityComparator",
+    "description" : "How the Quantity should be understood and represented.",
+    "oids" : ["2.16.840.1.113883.4.642.4.60"],
+    "uses" : {
     },
-    {
-      "url" : "http://terminology.hl7.org/CodeSystem/data-absent-reason",
-      "version" : "1.0.0",
-      "status" : "active",
-      "name" : "DataAbsentReason",
-      "title" : "DataAbsentReason",
-      "description" : "Used to specify why the normally expected content of the data element is missing.",
-      "oids" : ["2.16.840.1.113883.4.642.4.1048"],
-      "uses" : {
-      },
-      "http://hl7.org/fhir/R4/valueset-data-absent-reason.html" : "DataAbsentReason"
+    "http://hl7.org/fhir/R4/valueset-quantity-comparator.html" : "QuantityComparator"
+  },
+  {
+    "url" : "http://hl7.org/fhir/resource-types",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "ResourceType",
+    "title" : "ResourceType",
+    "description" : "One of the resource types defined as part of this version of FHIR.",
+    "uses" : {
     },
-    {
-      "url" : "http://terminology.hl7.org/CodeSystem/observation-category",
-      "version" : "2.0.0",
-      "status" : "active",
-      "name" : "ObservationCategoryCodes",
-      "title" : "Observation Category Codes",
-      "description" : "Observation Category codes.",
-      "oids" : ["2.16.840.1.113883.4.642.1.1125"],
-      "uses" : {
-      },
-      "http://hl7.org/fhir/R4/valueset-observation-category.html" : "Observation Category Codes"
+    "ValueSet-vkp-performer-reference-types.valueset.html" : "Vkp Performer reference types Systems ValueSet",
+    "http://hl7.org/fhir/R4/valueset-resource-types.html" : "ResourceType"
+  },
+  {
+    "url" : "http://hl7.org/fhir/search-entry-mode",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "SearchEntryMode",
+    "title" : "SearchEntryMode",
+    "description" : "Why an entry is in the result set - whether it's included as a match or because of an _include requirement, or to convey information or warning information about the search process.",
+    "oids" : ["2.16.840.1.113883.4.642.4.623"],
+    "uses" : {
     },
-    {
-      "url" : "http://terminology.hl7.org/CodeSystem/referencerange-meaning",
-      "version" : "1.0.1",
-      "status" : "active",
-      "name" : "ObservationReferenceRangeMeaningCodes",
-      "title" : "Observation Reference Range Meaning Codes",
-      "description" : "This value set defines a set of codes that can be used to indicate the meaning/use of a reference range for a particular target population.",
-      "oids" : ["2.16.840.1.113883.4.642.1.1124"],
-      "uses" : {
-      },
-      "http://hl7.org/fhir/R4/valueset-referencerange-meaning.html" : "Observation Reference Range Meaning Codes"
+    "http://hl7.org/fhir/R4/valueset-search-entry-mode.html" : "SearchEntryMode"
+  },
+  {
+    "url" : "http://snomed.info/sct",
+    "version" : null,
+    "status" : "active",
+    "name" : "SNOMED_CT",
+    "title" : "SNOMED CT (all versions)",
+    "description" : "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
+    "oids" : ["2.16.840.1.113883.6.96"],
+    "uses" : {
     },
-    {
-      "url" : "http://terminology.hl7.org/CodeSystem/v2-0203",
-      "version" : "5.0.0",
-      "status" : "active",
-      "name" : "IdentifierType",
-      "title" : "identifierType",
-      "description" : "HL7-defined code system of concepts specifying type of identifier. Used in HL7 Version 2.x messaging data types CX, PLN, PPN, XCN and XON.",
-      "oids" : ["2.16.840.1.113883.18.108"],
-      "uses" : {
-      },
-      "http://hl7.org/fhir/R4/valueset-identifier-type.html" : "IdentifierType"
+    "ValueSet-NoDomainVitalSignsBloodpressureBodySiteValueSet.html" : "NoDomainVitalSignsBloodpressureBodySite-ValueSet",
+    "http://hl7.org/fhir/R4/valueset-referencerange-appliesto.html" : "Observation Reference Range Applies To Codes",
+    "http://hl7.org/fhir/R4/valueset-observation-methods.html" : "Observation Methods",
+    "ValueSet-NoDomainVitalSignsBloodPressureMeasurementMethodValueSet.html" : "NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet",
+    "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/data-absent-reason",
+    "version" : "1.0.0",
+    "status" : "active",
+    "name" : "DataAbsentReason",
+    "title" : "DataAbsentReason",
+    "description" : "Used to specify why the normally expected content of the data element is missing.",
+    "oids" : ["2.16.840.1.113883.4.642.4.1048"],
+    "uses" : {
     },
-    {
-      "url" : "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
-      "version" : "3.0.0",
-      "status" : "active",
-      "name" : "ObservationInterpretation",
-      "title" : "ObservationInterpretation",
-      "description" : "One or more codes providing a rough qualitative interpretation of the observation, such as \"normal\" / \"abnormal\", \"low\" / \"high\", \"better\" / \"worse\", \"resistant\" / \"susceptible\", \"expected\" / \"not expected\". The value set is intended to be for ANY use where coded representation of an interpretation is needed.",
-      "oids" : ["2.16.840.1.113883.5.83"],
-      "uses" : {
-      },
-      "http://hl7.org/fhir/R4/valueset-observation-interpretation.html" : "Observation Interpretation Codes"
-    }
-  ]
+    "http://hl7.org/fhir/R4/valueset-data-absent-reason.html" : "DataAbsentReason"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/observation-category",
+    "version" : "2.0.0",
+    "status" : "active",
+    "name" : "ObservationCategoryCodes",
+    "title" : "Observation Category Codes",
+    "description" : "Observation Category codes.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1125"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-observation-category.html" : "Observation Category Codes"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/referencerange-meaning",
+    "version" : "1.0.1",
+    "status" : "active",
+    "name" : "ObservationReferenceRangeMeaningCodes",
+    "title" : "Observation Reference Range Meaning Codes",
+    "description" : "This value set defines a set of codes that can be used to indicate the meaning/use of a reference range for a particular target population.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1124"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-referencerange-meaning.html" : "Observation Reference Range Meaning Codes"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v2-0203",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "IdentifierType",
+    "title" : "identifierType",
+    "description" : "HL7-defined code system of concepts specifying type of identifier. Used in HL7 Version 2.x messaging data types CX, PLN, PPN, XCN and XON.",
+    "oids" : ["2.16.840.1.113883.18.108"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-identifier-type.html" : "IdentifierType"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+    "version" : "4.0.0",
+    "status" : "active",
+    "name" : "ObservationInterpretation",
+    "title" : "ObservationInterpretation",
+    "description" : "One or more codes providing a rough qualitative interpretation of the observation, such as \"normal\" / \"abnormal\", \"low\" / \"high\", \"better\" / \"worse\", \"resistant\" / \"susceptible\", \"expected\" / \"not expected\". The value set is intended to be for ANY use where coded representation of an interpretation is needed.",
+    "oids" : ["2.16.840.1.113883.5.83"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-observation-interpretation.html" : "Observation Interpretation Codes"
+  }]
 }

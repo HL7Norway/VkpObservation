@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Batch Bundle -  v0.5.1</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"2"}
+    h3,h4,h5,h6{--heading-prefix:"2"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold"></span>
+            <br/>
+            <span style="display:inline-block;">0.5.1 - ci-build
+
+
+
+  <img alt="Norway flag" src="assets/images/nor.svg" height="16" title="Norway"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="CFS-score-use-case.html">CFS score</a>
+  </li>
+  <li>
+    <a href="batch-bundle.html">Batch bundle</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Batch Bundle</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">VkpObservation - Local Development build (v0.5.1) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.no/fhir/vkpobservation/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Batch Bundle</h2>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+    <p><!-- white space is critical inside of capture --></p>
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#batch-bundle-use-case" id="markdown-toc-batch-bundle-use-case">Batch bundle use case</a></li>
+  <li><a href="#sequence-for-batch-bundle" id="markdown-toc-sequence-for-batch-bundle">Sequence for batch bundle</a></li>
+</ul>
+
+</div>
+<h3 id="batch-bundle-use-case">Batch bundle use case</h3>
+
+<p>Use case for server supporting Batch bundle for receving several observation in a Bundle of type "batch".</p>
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" data-diagram-type="DESCRIPTION" height="765px" preserveAspectRatio="none" style="width:680px;height:765px;background:#FFFFFF;" version="1.1" viewBox="0 0 680 765" width="680px" zoomAndPan="magnify"><defs /><g><!--entity server--><g class="entity" data-entity="server" data-source-line="1" data-uid="ent0002" id="entity_server"><ellipse cx="442.6733" cy="693" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;" /><path d="M442.6733,701 L442.6733,728 M429.6733,709 L455.6733,709 M442.6733,728 L429.6733,743 M442.6733,728 L455.6733,743" fill="none" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78.3467" x="403.5" y="757.4951">FHIRServer</text></g><!--entity client--><g class="entity" data-entity="client" data-source-line="2" data-uid="ent0003" id="entity_client"><ellipse cx="210.3745" cy="14" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;" /><path d="M210.3745,22 L210.3745,49 M197.3745,30 L223.3745,30 M210.3745,49 L197.3745,64 M210.3745,49 L223.3745,64" fill="none" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="89.749" x="165.5" y="78.4951">Organization</text></g><g class="entity" data-entity="collect" data-source-line="4" data-uid="ent0004" id="entity_collect"><ellipse cx="387.6414" cy="43.6907" fill="#F1F1F1" rx="97.1414" ry="26.1907" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="120.3125" x="324.4852" y="39.2898">Collect individual</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="90.0908" x="339.596" y="55.5867">observations</text></g><g class="entity" data-entity="check" data-source-line="5" data-uid="ent0005" id="entity_check"><ellipse cx="374.6793" cy="161.5359" fill="#F1F1F1" rx="88.1793" ry="20.0359" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="137.6074" x="305.8756" y="164.3825">Check observations</text></g><g class="entity" data-entity="put" data-source-line="6" data-uid="ent0006" id="entity_put"><ellipse cx="374.3542" cy="260.1708" fill="#F1F1F1" rx="81.3542" ry="18.6708" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="121.7822" x="312.2957" y="263.4008">PUT observations</text></g><g class="entity" data-entity="receive" data-source-line="7" data-uid="ent0007" id="entity_receive"><ellipse cx="580.6606" cy="364.6321" fill="#F1F1F1" rx="93.6606" ry="21.1321" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="149.9805" x="505.6704" y="367.4788">Receive observations</text></g><g class="entity" data-entity="validate" data-source-line="8" data-uid="ent0008" id="entity_validate"><ellipse cx="374.6891" cy="364.5473" fill="#F1F1F1" rx="75.1891" ry="26.0473" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57.5039" x="345.9372" y="359.2455">Validate</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="90.0908" x="329.6437" y="375.5424">observations</text></g><g class="entity" data-entity="store" data-source-line="9" data-uid="ent0009" id="entity_store"><ellipse cx="374.6634" cy="470.0327" fill="#F1F1F1" rx="85.6634" ry="19.5327" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="131.8516" x="308.7377" y="472.8794">Store observations</text></g><g class="entity" data-entity="error" data-source-line="10" data-uid="ent0010" id="entity_error"><ellipse cx="255.6027" cy="587.0709" fill="#F1F1F1" rx="134.1027" ry="37.5709" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="129.1992" x="191.0031" y="573.6207">Generate error/OK</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70.2119" x="220.4968" y="589.9176">messages</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="173.4072" x="168.8991" y="606.2144">(individual observations)</text></g><g class="entity" data-entity="batch" data-source-line="11" data-uid="ent0011" id="entity_batch"><ellipse cx="255.6276" cy="722.4255" fill="#F1F1F1" rx="87.6276" ry="19.9255" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="136.3496" x="187.4528" y="725.2722">Responses in batch</text></g><g class="entity" data-entity="response" data-source-line="12" data-uid="ent0012" id="entity_response"><ellipse cx="78.4646" cy="161.3929" fill="#F1F1F1" rx="72.4646" ry="16.8929" style="stroke:#181818;stroke-width:0.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="99.415" x="25.7571" y="165.1405">Receive batch</text></g><!--link collect to check--><!--link check to put--><!--link put to validate--><!--link validate to store--><!--link store to error--><!--link error to batch--><!--link error to batch--><g class="link" data-entity-1="error" data-entity-2="batch" data-source-line="22" data-uid="lnk20" id="link_error_batch"><path d="M267.68,624.48 C270.03,649.65 270.3859,676.2104 266.4459,696.4604" fill="none" id="error-to-batch" style="stroke:#181818;stroke-width:1;stroke-dasharray:7.0,7.0;" /><polygon fill="#181818" points="265.3,702.35,270.9452,694.2796,266.2549,697.442,263.0925,692.7517,265.3,702.35" style="stroke:#181818;stroke-width:1;" /></g><!--link validate to error--><g class="link" data-entity-1="validate" data-entity-2="error" data-source-line="21" data-uid="lnk19" id="link_validate_error"><path d="M335.98,386.93 C313.28,401.71 286.21,423.53 271.5,450.5 C254.94,480.86 251.9483,514.6712 252.5283,543.2712" fill="none" id="validate-to-error" style="stroke:#181818;stroke-width:1;stroke-dasharray:7.0,7.0;" /><polygon fill="#181818" points="252.65,549.27,256.4667,540.1907,252.5486,544.271,248.4683,540.353,252.65,549.27" style="stroke:#181818;stroke-width:1;" /></g><!--link put to receive--><g class="link" data-entity-1="put" data-entity-2="receive" data-source-line="24" data-uid="lnk21" id="link_put_receive"><path d="M406.69,277.02 C443.8,295.48 504.7,325.78 543.67,345.18" fill="none" id="put-receive" style="stroke:#181818;stroke-width:1;" /></g><!--link response to batch--><g class="link" data-entity-1="response" data-entity-2="batch" data-source-line="25" data-uid="lnk22" id="link_response_batch"><path d="M77.15,178.64 C74.42,212.75 68.5,294.67 68.5,363.5 C68.5,363.5 68.5,363.5 68.5,471 C68.5,540.97 63.21,567.29 103.5,624.5 C130.44,662.77 177.76,689.42 212.46,704.97" fill="none" id="response-batch" style="stroke:#181818;stroke-width:1;" /></g><!--link client to collect--><g class="link" data-entity-1="client" data-entity-2="collect" data-source-line="27" data-uid="lnk23" id="link_client_collect"><path d="M255.79,43.5 C267.28,43.5 272.77,43.5 284.26,43.5" fill="none" id="client-to-collect" style="stroke:#181818;stroke-width:1;" /><polygon fill="#181818" points="290.26,43.5,281.26,39.5,285.26,43.5,281.26,47.5,290.26,43.5" style="stroke:#181818;stroke-width:1;" /></g><!--link client to check--><g class="link" data-entity-1="client" data-entity-2="check" data-source-line="28" data-uid="lnk24" id="link_client_check"><path d="M255.75,76.5 C285.71,97.7 319.0214,121.2553 343.8914,138.8453" fill="none" id="client-to-check" style="stroke:#181818;stroke-width:1;" /><polygon fill="#181818" points="348.79,142.31,343.7519,133.8473,344.7078,139.4228,339.1323,140.3787,348.79,142.31" style="stroke:#181818;stroke-width:1;" /></g><!--link client to put--><g class="link" data-entity-1="client" data-entity-2="put" data-source-line="29" data-uid="lnk25" id="link_client_put"><path d="M220.61,81.64 C229.89,110.93 245.84,151.68 269.5,181.5 C290.06,207.41 316.165,225.9098 339.235,239.6498" fill="none" id="client-to-put" style="stroke:#181818;stroke-width:1;" /><polygon fill="#181818" points="344.39,242.72,338.7043,234.678,340.0942,240.1615,334.6107,241.5514,344.39,242.72" style="stroke:#181818;stroke-width:1;" /></g><!--link client to response--><g class="link" data-entity-1="client" data-entity-2="response" data-source-line="30" data-uid="lnk26" id="link_client_response"><path d="M168.37,81.52 C144.08,102.87 119.2972,124.6496 100.9172,140.7996" fill="none" id="client-to-response" style="stroke:#181818;stroke-width:1;" /><polygon fill="#181818" points="96.41,144.76,105.8111,141.8242,100.166,141.4597,100.5306,135.8146,96.41,144.76" style="stroke:#181818;stroke-width:1;" /></g><!--reverse link receive to server--><g class="link" data-entity-1="receive" data-entity-2="server" data-source-line="32" data-uid="lnk28" id="link_receive_server"><path d="M576.9408,391.4567 C570.4008,436.1267 552.08,540.62 512.5,624.5 C502.48,645.72 487.67,667.11 474.25,684.38" fill="none" id="receive-backto-server" style="stroke:#181818;stroke-width:1;" /><polygon fill="#181818" points="577.81,385.52,572.5484,393.8456,577.0857,390.4673,580.464,395.0045,577.81,385.52" style="stroke:#181818;stroke-width:1;" /></g><!--reverse link validate to server--><g class="link" data-entity-1="validate" data-entity-2="server" data-source-line="33" data-uid="lnk30" id="link_validate_server"><path d="M419.4746,389.7213 C442.5546,404.2813 464.45,422.82 477.5,450.5 C513.9,527.74 481.81,630.34 459.55,684.45" fill="none" id="validate-backto-server" style="stroke:#181818;stroke-width:1;" /><polygon fill="#181818" points="414.4,386.52,419.8777,394.705,418.6288,389.1878,424.1461,387.9389,414.4,386.52" style="stroke:#181818;stroke-width:1;" /></g><!--reverse link store to server--><g class="link" data-entity-1="store" data-entity-2="server" data-source-line="34" data-uid="lnk32" id="link_store_server"><path d="M386.1107,495.0855 C393.4307,510.7455 401,528.45 407.5,549.5 C421.56,595.07 431.51,649.2 437.12,684.4" fill="none" id="store-backto-server" style="stroke:#181818;stroke-width:1;" /><polygon fill="#181818" points="383.57,489.65,383.7574,499.4971,385.6873,494.1796,391.0048,496.1094,383.57,489.65" style="stroke:#181818;stroke-width:1;" /></g><!--reverse link error to server--><g class="link" data-entity-1="error" data-entity-2="server" data-source-line="35" data-uid="lnk34" id="link_error_server"><path d="M308.5437,625.8656 C339.4937,647.9556 374.3,672.81 403.32,693.53" fill="none" id="error-backto-server" style="stroke:#181818;stroke-width:1;" /><polygon fill="#181818" points="303.66,622.38,308.6618,630.8642,307.7297,625.2847,313.3093,624.3527,303.66,622.38" style="stroke:#181818;stroke-width:1;" /></g><!--reverse link batch to server--><g class="link" data-entity-1="batch" data-entity-2="server" data-source-line="36" data-uid="lnk36" id="link_batch_server"><path d="M349.16,722.5 C369.21,722.5 383.26,722.5 403.31,722.5" fill="none" id="batch-backto-server" style="stroke:#181818;stroke-width:1;" /><polygon fill="#181818" points="343.16,722.5,352.16,726.5,348.16,722.5,352.16,718.5,343.16,722.5" style="stroke:#181818;stroke-width:1;" /></g></g></svg>
+
+<h3 id="sequence-for-batch-bundle">Sequence for batch bundle</h3>
+
+<p>Sequence diagram for receiving and responding to a batch Bundle.</p>
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" data-diagram-type="SEQUENCE" height="308px" preserveAspectRatio="none" style="width:616px;height:308px;background:#FFFFFF;" version="1.1" viewBox="0 0 616 308" width="616px" zoomAndPan="magnify"><defs /><g><g><title>FHIRClient</title><rect fill="#000000" fill-opacity="0.00000" height="236.9297" width="8" x="44.4834" y="36.2969" /><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="48" x2="48" y1="36.2969" y2="273.2266" /></g><g><title>PMD</title><rect fill="#000000" fill-opacity="0.00000" height="236.9297" width="8" x="467.7256" y="36.2969" /><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="471.0747" x2="471.0747" y1="36.2969" y2="273.2266" /></g><g><title>PMDBackend</title><rect fill="#000000" fill-opacity="0.00000" height="236.9297" width="8" x="553.208" y="36.2969" /><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="556.3765" x2="556.3765" y1="36.2969" y2="273.2266" /></g><g class="participant participant-head" data-participant="FHIRClient"><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="86.9668" x="5" y="5" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="72.9668" x="12" y="24.9951">FHIRClient</text></g><g class="participant participant-tail" data-participant="FHIRClient"><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="86.9668" x="5" y="272.2266" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="72.9668" x="12" y="292.2217">FHIRClient</text></g><g class="participant participant-head" data-participant="PMD"><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="45.3018" x="449.0747" y="5" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="31.3018" x="456.0747" y="24.9951">PMD</text></g><g class="participant participant-tail" data-participant="PMD"><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="45.3018" x="449.0747" y="272.2266" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="31.3018" x="456.0747" y="292.2217">PMD</text></g><g class="participant participant-head" data-participant="PMDBackend"><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="105.6631" x="504.3765" y="5" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91.6631" x="511.3765" y="24.9951">PMDBackend</text></g><g class="participant participant-tail" data-participant="PMDBackend"><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="105.6631" x="504.3765" y="272.2266" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91.6631" x="511.3765" y="292.2217">PMDBackend</text></g><g class="message" data-participant-1="FHIRClient" data-participant-2="PMD"><polygon fill="#181818" points="459.7256,63.4297,469.7256,67.4297,459.7256,71.4297,463.7256,67.4297" style="stroke:#181818;stroke-width:1;" /><line style="stroke:#181818;stroke-width:1;stroke-dasharray:2.0,2.0;" x1="48.4834" x2="465.7256" y1="67.4297" y2="67.4297" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="198.7324" x="55.4834" y="62.3638">BatchBundle (fullUrl1, fullUrl2)</text></g><g class="message" data-participant-1="PMD" data-participant-2="PMDBackend"><polygon fill="#181818" points="545.208,92.5625,555.208,96.5625,545.208,100.5625,549.208,96.5625" style="stroke:#181818;stroke-width:1;" /><line style="stroke:#181818;stroke-width:1;stroke-dasharray:2.0,2.0;" x1="471.7256" x2="551.208" y1="96.5625" y2="96.5625" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="42.9165" x="478.7256" y="91.4966">Store1</text></g><g class="message" data-participant-1="PMDBackend" data-participant-2="PMD"><polygon fill="#181818" points="482.7256,121.6953,472.7256,125.6953,482.7256,129.6953,478.7256,125.6953" style="stroke:#181818;stroke-width:1;" /><line style="stroke:#181818;stroke-width:1;stroke-dasharray:2.0,2.0;" x1="476.7256" x2="556.208" y1="125.6953" y2="125.6953" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="61.2866" x="488.7256" y="120.6294">serverid1</text></g><g class="message" data-participant-1="PMD" data-participant-2="PMDBackend"><polygon fill="#181818" points="545.208,150.8281,555.208,154.8281,545.208,158.8281,549.208,154.8281" style="stroke:#181818;stroke-width:1;" /><line style="stroke:#181818;stroke-width:1;stroke-dasharray:2.0,2.0;" x1="471.7256" x2="551.208" y1="154.8281" y2="154.8281" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="42.9165" x="478.7256" y="149.7622">Store2</text></g><g class="message" data-participant-1="PMDBackend" data-participant-2="PMDBackend"><line style="stroke:#181818;stroke-width:1;stroke-dasharray:2.0,2.0;" x1="557.208" x2="599.208" y1="183.9609" y2="183.9609" /><line style="stroke:#181818;stroke-width:1;stroke-dasharray:2.0,2.0;" x1="599.208" x2="599.208" y1="183.9609" y2="196.9609" /><line style="stroke:#181818;stroke-width:1;stroke-dasharray:2.0,2.0;" x1="558.208" x2="599.208" y1="196.9609" y2="196.9609" /><polygon fill="#181818" points="568.208,192.9609,558.208,196.9609,568.208,200.9609,564.208,196.9609" style="stroke:#181818;stroke-width:1;" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="26.7681" x="564.208" y="178.895">FEIL</text></g><g class="message" data-participant-1="PMDBackend" data-participant-2="PMD"><polygon fill="#181818" points="482.7256,222.0938,472.7256,226.0938,482.7256,230.0938,478.7256,226.0938" style="stroke:#181818;stroke-width:1;" /><line style="stroke:#181818;stroke-width:1;stroke-dasharray:2.0,2.0;" x1="476.7256" x2="556.208" y1="226.0938" y2="226.0938" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="59.6743" x="488.7256" y="221.0278">errormsg</text></g><g class="message" data-participant-1="PMD" data-participant-2="FHIRClient"><polygon fill="#181818" points="59.4834,251.2266,49.4834,255.2266,59.4834,259.2266,55.4834,255.2266" style="stroke:#181818;stroke-width:1;" /><line style="stroke:#181818;stroke-width:1;stroke-dasharray:2.0,2.0;" x1="53.4834" x2="470.7256" y1="255.2266" y2="255.2266" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="399.2422" x="65.4834" y="250.1606">BatchResponseBundle (fullUrl1, serverid1, fullUrl2, errormsg)</text></g></g></svg>
+
+<p>Return fullUrl from original batch Bundle in BatchResponseBundle (in an extension). Makes it possible to connect error message to specific content of the original BatchBundle.</p>
+
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.no">HL7 Norway</a>.  Package hl7.fhir.no.vkp.observation#0.5.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Mar 18, 2026 10:05+0000">2026-03-18</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+
