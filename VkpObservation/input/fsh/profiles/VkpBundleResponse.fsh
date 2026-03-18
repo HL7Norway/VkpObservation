@@ -10,6 +10,6 @@ Description: "Profile for responding to a batch of observations to PMD"
 * type = #batch-response
 * type ^short = "batch-response"
 * entry 1..*
+  * entry.fullUrl 1..1
+  * entry.fullUrl ^short = "Uniqe id is mandatory and references the original entry in the batch request"
   * response 1..1
-    * extension contains PmdBundleResponseEntryId named entryId 1..1
-      * ^short = "fullUrl identifying the resoruce entry from the original Bundle of Observations"
