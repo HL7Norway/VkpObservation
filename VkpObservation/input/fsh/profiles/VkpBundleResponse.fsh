@@ -10,6 +10,6 @@ Description: "Profile for responding to a batch of observations to PMD"
 * type = #batch-response
 * type ^short = "batch-response"
 * entry 1..*
-  * entry.fullUrl 1..1
-  * entry.fullUrl ^short = "Uniqe id is mandatory and references the original entry in the batch request"
+  * fullUrl 1..1
+  * fullUrl ^short = "Uniqe id is mandatory and references the original entry in the batch request"
   * response 1..1
