@@ -1,6 +1,9 @@
 @startuml
-FHIRClient --> PMD: PmdBundleObservation 
-PMD --> PMDBackend: Store
-PMDBackend --> PMD: id
-PMD --> FHIRClient: PmdBundleResponse (OriginalFullUrl)
+FHIRClient --> PMD: BatchBundle (fullUrl1, fullUrl2) 
+PMD --> PMDBackend: Store1
+PMDBackend --> PMD: serverid1
+PMD --> PMDBackend: Store2
+PMDBackend --> PMDBackend: FEIL
+PMDBackend --> PMD: serverid2
+PMD --> FHIRClient: BatchBundle (fullUrl1, fullUrl2, serverid1, FEIL)
 @enduml

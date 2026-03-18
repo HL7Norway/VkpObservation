@@ -1,0 +1,39 @@
+@startuml
+FHIRServer as server
+Organization as client
+
+"Collect individual\nobservations" as (collect)
+"Check observations" as (check)
+"PUT observations" as (put)
+"Receive observations" as (receive)
+"Validate\nobservations" as (validate)
+"Store observations" as (store)
+"Generate error/OK\nmessages\n(individual observations)" as (error)
+"Responses in batch" as (batch)
+"Receive batch" as (response)
+
+collect -down[hidden]- check
+check -down[hidden]- put
+put -down[hidden]- validate
+validate -down[hidden]- store
+store -down[hidden]- error
+error -down[hidden]- batch
+
+validate ..> error
+error ..> batch
+
+put -right- receive
+response -right- batch
+
+client -> collect
+client -> check
+client -> put
+client -> response
+
+server -left-> receive
+server -left-> validate
+server -left-> store
+server -left-> error
+server -left-> batch
+
+@enduml
