@@ -1,4 +1,4 @@
-# Vkp Observation - CFS score - v0.5.2
+# Vkp Observation - CFS score - v0.6.0-alpha
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-CFSscore | *Version*:0.5.2 |
-| Draft as of 2026-03-18 | *Computable Name*:VkpObservationCFSscore |
+| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-CFSscore | *Version*:0.6.0-alpha |
+| Draft as of 2026-10-02 | *Computable Name*:VkpObservationCFSscore |
 
  
 Profile for Clinical Frailty Scale score in VKP. 
@@ -21,7 +21,7 @@ To record the CFS score of an individual
 
 * Examples for this Profile: [Observation/vkp-cfs-create](Observation-vkp-cfs-create.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.no.vkp.observation|current/StructureDefinition/vkp-Observation-CFSscore)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/hl7.fhir.no.vkp.observation|current/StructureDefinition/StructureDefinition-vkp-Observation-CFSscore.json)
 
 ### Formal Views of Profile Content
 
@@ -40,11 +40,11 @@ Other representations of profile: [CSV](StructureDefinition-vkp-Observation-CFSs
   "resourceType" : "StructureDefinition",
   "id" : "vkp-Observation-CFSscore",
   "url" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-CFSscore",
-  "version" : "0.5.2",
+  "version" : "0.6.0-alpha",
   "name" : "VkpObservationCFSscore",
   "title" : "Vkp Observation - CFS score",
   "status" : "draft",
-  "date" : "2026-03-18T11:31:28+00:00",
+  "date" : "2026-10-02T06:31:19+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",
@@ -131,16 +131,12 @@ Other representations of profile: [CSV](StructureDefinition-vkp-Observation-CFSs
       "id" : "Observation.performer:author",
       "path" : "Observation.performer",
       "sliceName" : "author",
-      "short" : "Reference to the author of the observation"
+      "short" : "A reference to the author of the observation. Usually an identified Practitioner but can just as likely be an identified role/locations/specialties/services within an organization identified by a PractitionerRole or CareTeam"
     },
     {
       "id" : "Observation.performer:author.type",
       "path" : "Observation.performer.type",
-      "mustSupport" : true,
-      "binding" : {
-        "strength" : "required",
-        "valueSet" : "http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-reference-types.valueset"
-      }
+      "mustSupport" : true
     },
     {
       "id" : "Observation.performer:organization",
@@ -161,20 +157,23 @@ Other representations of profile: [CSV](StructureDefinition-vkp-Observation-CFSs
       }
     },
     {
-      "id" : "Observation.value[x]:valueQuantity",
+      "id" : "Observation.value[x]:valueCodeableConcept",
       "path" : "Observation.value[x]",
-      "sliceName" : "valueQuantity",
+      "sliceName" : "valueCodeableConcept",
       "min" : 0,
       "max" : "1",
       "type" : [{
-        "code" : "Quantity"
+        "code" : "CodeableConcept"
       }],
       "mustSupport" : true
     },
     {
-      "id" : "Observation.value[x]:valueQuantity.value",
-      "path" : "Observation.value[x].value",
-      "mustSupport" : true
+      "id" : "Observation.value[x]:valueCodeableConcept.coding.code",
+      "path" : "Observation.value[x].coding.code",
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://hl7.no/fhir/vkpobservation/ValueSet/vkp-cfs-score.valueset"
+      }
     },
     {
       "id" : "Observation.note",

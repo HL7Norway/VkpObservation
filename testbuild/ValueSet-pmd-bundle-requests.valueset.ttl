@@ -1,6 +1,5 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -8,81 +7,75 @@
 
 <http://hl7.no/fhir/vkpobservation/ValueSet/pmd-bundle-requests.valueset> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "pmd-bundle-requests.valueset"] ; # 
-  fhir:meta [
-     fhir:lastUpdated [ fhir:v "2026-03-17T00:00:00+00:00"^^xsd:dateTime ] ;
-     fhir:profile ( [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
-     ] )
-  ] ; # 
-  fhir:text [
-     fhir:status [ fhir:v "extensions" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet pmd-bundle-requests.valueset</b></p><a name=\"pmd-bundle-requests.valueset\"> </a><a name=\"hcpmd-bundle-requests.valueset\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Last updated: 2026-03-17 00:00:00+0000</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include these codes as defined in <a href=\"http://hl7.org/fhir/R4/codesystem-http-verb.html\"><code>http://hl7.org/fhir/http-verb</code></a><span title=\"Version is not explicitly stated, which means it is fixed to 4.0.1, the version found through the package references\"> version ?4.0.1</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-http-verb.html#http-verb-POST\">POST</a></td><td>HTTP POST Command.</td><td>HTTP POST Command.</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-http-verb.html#http-verb-PUT\">PUT</a></td><td>HTTP PUT Command.</td><td>HTTP PUT Command.</td></tr></table></li></ul></div>"^^rdf:XMLLiteral ]
-  ] ; # 
-  fhir:extension ( [
-     fhir:url [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
-     ] ;
-     fhir:value [
-       a fhir:Code ;
-       fhir:v "draft"
+  fhir:Resource.id [ fhir:value "pmd-bundle-requests.valueset"] ;
+  fhir:Resource.meta [
+     fhir:Meta.lastUpdated [ fhir:value "2026-03-17T00:00:00+00:00"^^xsd:dateTime ] ;
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/StructureDefinition/shareablevalueset" ;
+       fhir:index 0 ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
      ]
-  ] [
-     fhir:url [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
-     ] ;
-     fhir:value [
-       a fhir:Integer ;
-       fhir:v 1
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet pmd-bundle-requests.valueset</b></p><a name=\"pmd-bundle-requests.valueset\"> </a><a name=\"hcpmd-bundle-requests.valueset\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Last updated: 2026-03-17 00:00:00+0000</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include these codes as defined in <a href=\"http://hl7.org/fhir/R4/codesystem-http-verb.html\"><code>http://hl7.org/fhir/http-verb</code></a><span title=\"Version is not explicitly stated, which means it is fixed to 4.0.1, the version found through the package references\"> version ?4.0.1</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-http-verb.html#http-verb-POST\">POST</a></td><td>HTTP POST Command.</td><td>HTTP POST Command.</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-http-verb.html#http-verb-PUT\">PUT</a></td><td>HTTP PUT Command.</td><td>HTTP PUT Command.</td></tr></table></li></ul></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status" ] ;
+     fhir:Extension.valueCode [ fhir:value "draft" ]
+  ], [
+     fhir:index 1 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm" ] ;
+     fhir:Extension.valueInteger [ fhir:value "1"^^xsd:integer ]
+  ] ;
+  fhir:ValueSet.url [ fhir:value "http://hl7.no/fhir/vkpobservation/ValueSet/pmd-bundle-requests.valueset"] ;
+  fhir:ValueSet.version [ fhir:value "0.6.0-alpha"] ;
+  fhir:ValueSet.name [ fhir:value "PmdBundleRequests"] ;
+  fhir:ValueSet.title [ fhir:value "Bundle request types"] ;
+  fhir:ValueSet.status [ fhir:value "draft"] ;
+  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:ValueSet.date [ fhir:value "2026-03-17T00:00:00+00:00"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "HL7 Norway"] ;
+  fhir:ValueSet.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "HL7 Norway" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "http://www.hl7.no" ]
      ]
-  ] ) ; # 
-  fhir:url [
-     fhir:v "http://hl7.no/fhir/vkpobservation/ValueSet/pmd-bundle-requests.valueset"^^xsd:anyURI ;
-     fhir:l <http://hl7.no/fhir/vkpobservation/ValueSet/pmd-bundle-requests.valueset>
-  ] ; # 
-  fhir:version [ fhir:v "0.5.2"] ; # 
-  fhir:name [ fhir:v "PmdBundleRequests"] ; # 
-  fhir:title [ fhir:v "Bundle request types"] ; # 
-  fhir:status [ fhir:v "draft"] ; # 
-  fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-03-17T00:00:00+00:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "HL7 Norway"] ; # 
-  fhir:contact ( [
-     fhir:name [ fhir:v "HL7 Norway" ] ;
-     fhir:telecom ( [
-       fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://www.hl7.no" ]
-     ] )
-  ] ) ; # 
-  fhir:description [ fhir:v "Bundle Request types"] ; # 
-  fhir:jurisdiction ( [
-     fhir:coding ( [
-       fhir:system [
-         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
-         fhir:l <urn:iso:std:iso:3166>
-       ] ;
-       fhir:code [ fhir:v "NO" ] ;
-       fhir:display [ fhir:v "Norway" ]
-     ] )
-  ] ) ; # 
-  fhir:compose [
-     fhir:include ( [
-       fhir:system [
-         fhir:v "http://hl7.org/fhir/http-verb"^^xsd:anyURI ;
-         fhir:l <http://hl7.org/fhir/http-verb>
-       ] ;
-       fhir:concept ( [
-         fhir:code [ fhir:v "POST" ] ;
-         fhir:display [ fhir:v "HTTP POST Command." ]
-       ] [
-         fhir:code [ fhir:v "PUT" ] ;
-         fhir:display [ fhir:v "HTTP PUT Command." ]
-       ] )
-     ] )
-  ] . # 
+  ] ;
+  fhir:ValueSet.description [ fhir:value "Bundle Request types"] ;
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "NO" ] ;
+       fhir:Coding.display [ fhir:value "Norway" ]
+     ]
+  ] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://hl7.org/fhir/http-verb" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "POST" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "HTTP POST Command." ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PUT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "HTTP PUT Command." ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.no/fhir/vkpobservation/ValueSet/pmd-bundle-requests.valueset.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
 

@@ -1,6 +1,6 @@
 {
   "package": "hl7.fhir.no.vkp.observation",
-  "version": "0.5.2",
+  "version": "0.6.0-alpha",
   "fhirVersion": "4.0.1",
   "jurisdiction": "NO",
   "extensions": [

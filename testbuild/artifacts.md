@@ -1,4 +1,4 @@
-# Artifacts Summary - v0.5.2
+# Artifacts Summary - v0.6.0-alpha
 
 * [**Table of Contents**](toc.md)
 * **Artifacts Summary**
@@ -43,6 +43,7 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Bundle request types](ValueSet-pmd-bundle-requests.valueset.md) | Bundle Request types |
 | [NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet](ValueSet-NoDomainVitalSignsBloodPressureMeasurementMethodValueSet.md) | Codes representing measurement method for HeartRate |
 | [NoDomainVitalSignsBloodpressureBodySite-ValueSet](ValueSet-NoDomainVitalSignsBloodpressureBodySiteValueSet.md) | Codes representing body site for blood pressure |
+| [VKP Clinical Frailty Scale ValueSet](ValueSet-vkp-cfs-score.valueset.md) | Clinical Frailty Scale codes allowed in Vkp Observations |
 | [VKP Performer Identifier for organizations ValueSet](ValueSet-vkp-performer-organization-identifiers.valueset.md) | Identifier Systems allowed for performer identification systems in Vkp Observations for organizations |
 | [VKP Performer Identifier systems ValueSet](ValueSet-vkp-performer-identifiers.valueset.md) | Identifier Systems allowed for performer identification systems in Vkp Observations |
 | [VKP Subject Identifier systems ValueSet](ValueSet-vkp-subject-identifiers.valueset.md) | Identifier Systems allowed for subject identifications |
@@ -54,6 +55,7 @@ These define new code systems used by systems conforming to this implementation 
 
 | | |
 | :--- | :--- |
+| [Clinical Frailty Scale](CodeSystem-vkp-cfs-score.codesystem.md) | Clinical Frailty Scale |
 | [Vkp Performer Identifier Systems CodeSystem](CodeSystem-vkp-performer-identifiers.codesystem.md) | The CodeSystem contains all codes allowed for Observation.performer.system for use with VKP |
 | [Vkp Performer Identifier for organizations CodeSystem](CodeSystem-vkp-performer-organization-identifiers.codesystem.md) | The CodeSystem contains all codes allowed for Observation.performer.system for use with VKP identifying organizations |
 | [Vkp Subject Identifier Systems CodeSystem](CodeSystem-vkp-subject-identifiers.codesystem.md) | The CodeSystem contains all codes allowed for Observation.subject.system, for use with VKP |
@@ -64,7 +66,7 @@ These are example instances that show what data produced and consumed by systems
 
 | | |
 | :--- | :--- |
-| [CFS score example](Observation-vkp-cfs-create.md) | Eksempel CFS score med notat, dato og hvordan man koder CFS i FHIR |
+| [CFS score example](Observation-vkp-cfs-create.md) | Eksempel CFS score med kodet verdi, notat, dato og hvordan man koder CFS i FHIR |
 | [Pmd bundle example](Bundle-pmd-Bundle-Request-example.md) | Eksempel |
 | [Pmd bundle response example](Bundle-pmd-Bundle-Response-example.md) | Eksempel respons |
 | [blood-pressure-create](Observation-blood-pressure-create.md) |  |

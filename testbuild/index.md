@@ -1,4 +1,4 @@
-# Home - v0.5.2
+# Home - v0.6.0-alpha
 
 * [**Table of Contents**](toc.md)
 * **Home**
@@ -7,8 +7,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/vkpobservation/ImplementationGuide/hl7.fhir.no.vkp.observation | *Version*:0.5.2 |
-| Draft as of 2026-03-18 | *Computable Name*:VkpObservation |
+| *Official URL*:http://hl7.no/fhir/vkpobservation/ImplementationGuide/hl7.fhir.no.vkp.observation | *Version*:0.6.0-alpha |
+| Draft as of 2026-10-02 | *Computable Name*:VkpObservation |
 
 # Vkp Observation profiles
 
@@ -70,10 +70,10 @@ Questionaire scores. Question, different coding for different questionnaire type
   "resourceType" : "ImplementationGuide",
   "id" : "hl7.fhir.no.vkp.observation",
   "url" : "http://hl7.no/fhir/vkpobservation/ImplementationGuide/hl7.fhir.no.vkp.observation",
-  "version" : "0.5.2",
+  "version" : "0.6.0-alpha",
   "name" : "VkpObservation",
   "status" : "draft",
-  "date" : "2026-03-18T11:31:28+00:00",
+  "date" : "2026-10-02T06:31:19+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",
@@ -100,7 +100,7 @@ Questionaire scores. Question, different coding for different questionnaire type
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "7.1.0"
+    "version" : "7.4.0"
   },
   {
     "id" : "hl7ext",
@@ -110,7 +110,7 @@ Questionaire scores. Question, different coding for different questionnaire type
     }],
     "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
     "packageId" : "hl7.fhir.uv.extensions.r4",
-    "version" : "5.2.0"
+    "version" : "5.3.0"
   },
   {
     "id" : "hl7_fhir_no_basis",
@@ -407,7 +407,7 @@ Questionaire scores. Question, different coding for different questionnaire type
     },
     {
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
-      "valueCode" : "hl7.fhir.uv.tools.r4#1.1.0"
+      "valueCode" : "hl7.fhir.uv.tools.r4#1.1.2"
     },
     {
       "extension" : [{
@@ -699,6 +699,10 @@ Questionaire scores. Question, different coding for different questionnaire type
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-pmd-Bundle-Observation.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/pmd-Bundle-Observation"
@@ -711,6 +715,10 @@ Questionaire scores. Question, different coding for different questionnaire type
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-pmd-Bundle-Response.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/pmd-Bundle-Response"
@@ -723,6 +731,10 @@ Questionaire scores. Question, different coding for different questionnaire type
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Observation"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Observation-blood-pressure-create.html"
       }],
       "reference" : {
         "reference" : "Observation/blood-pressure-create"
@@ -734,6 +746,10 @@ Questionaire scores. Question, different coding for different questionnaire type
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Observation"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Observation-body-height-create.html"
       }],
       "reference" : {
         "reference" : "Observation/body-height-create"
@@ -745,6 +761,10 @@ Questionaire scores. Question, different coding for different questionnaire type
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Observation"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Observation-body-mass-index-create.html"
       }],
       "reference" : {
         "reference" : "Observation/body-mass-index-create"
@@ -756,6 +776,10 @@ Questionaire scores. Question, different coding for different questionnaire type
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-pmd-bundle-requests.valueset.html"
       }],
       "reference" : {
         "reference" : "ValueSet/pmd-bundle-requests.valueset"
@@ -768,18 +792,42 @@ Questionaire scores. Question, different coding for different questionnaire type
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Observation"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Observation-vkp-cfs-create.html"
       }],
       "reference" : {
         "reference" : "Observation/vkp-cfs-create"
       },
       "name" : "CFS score example",
-      "description" : "Eksempel CFS score med notat, dato og hvordan man koder CFS i FHIR",
+      "description" : "Eksempel CFS score med kodet verdi, notat, dato og hvordan man koder CFS i FHIR",
       "exampleCanonical" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-CFSscore"
     },
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-vkp-cfs-score.codesystem.html"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/vkp-cfs-score.codesystem"
+      },
+      "name" : "Clinical Frailty Scale",
+      "description" : "Clinical Frailty Scale",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-vkp-Observation.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/vkp-Observation"
@@ -792,6 +840,10 @@ Questionaire scores. Question, different coding for different questionnaire type
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Observation"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Observation-heart-rate-create.html"
       }],
       "reference" : {
         "reference" : "Observation/heart-rate-create"
@@ -803,6 +855,10 @@ Questionaire scores. Question, different coding for different questionnaire type
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Observation"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Observation-level-of-consciousness-create.html"
       }],
       "reference" : {
         "reference" : "Observation/level-of-consciousness-create"
@@ -814,6 +870,10 @@ Questionaire scores. Question, different coding for different questionnaire type
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-NoDomainVitalSignsBloodpressureBodySiteValueSet.html"
       }],
       "reference" : {
         "reference" : "ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet"
@@ -826,6 +886,10 @@ Questionaire scores. Question, different coding for different questionnaire type
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-NoDomainVitalSignsBloodPressureMeasurementMethodValueSet.html"
       }],
       "reference" : {
         "reference" : "ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet"
@@ -838,6 +902,10 @@ Questionaire scores. Question, different coding for different questionnaire type
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-pmd-Bundle-Request-example.html"
       }],
       "reference" : {
         "reference" : "Bundle/pmd-Bundle-Request-example"
@@ -850,6 +918,10 @@ Questionaire scores. Question, different coding for different questionnaire type
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-pmd-Bundle-Response-example.html"
       }],
       "reference" : {
         "reference" : "Bundle/pmd-Bundle-Response-example"
@@ -862,6 +934,10 @@ Questionaire scores. Question, different coding for different questionnaire type
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-PmdBundleResponseEntryIdExtension.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/PmdBundleResponseEntryIdExtension"
@@ -874,6 +950,10 @@ Questionaire scores. Question, different coding for different questionnaire type
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Observation"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Observation-respiratory-rate-create.html"
       }],
       "reference" : {
         "reference" : "Observation/respiratory-rate-create"
@@ -884,7 +964,27 @@ Questionaire scores. Question, different coding for different questionnaire type
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-vkp-cfs-score.valueset.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vkp-cfs-score.valueset"
+      },
+      "name" : "VKP Clinical Frailty Scale ValueSet",
+      "description" : "Clinical Frailty Scale codes allowed in Vkp Observations",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-vkp-Observation-CFSscore.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/vkp-Observation-CFSscore"
@@ -897,6 +997,10 @@ Questionaire scores. Question, different coding for different questionnaire type
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-vkp-Observation-Consciousness.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/vkp-Observation-Consciousness"
@@ -909,6 +1013,10 @@ Questionaire scores. Question, different coding for different questionnaire type
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-vkp-performer-organization-identifiers.codesystem.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/vkp-performer-organization-identifiers.codesystem"
@@ -921,6 +1029,10 @@ Questionaire scores. Question, different coding for different questionnaire type
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-vkp-performer-organization-identifiers.valueset.html"
       }],
       "reference" : {
         "reference" : "ValueSet/vkp-performer-organization-identifiers.valueset"
@@ -933,6 +1045,10 @@ Questionaire scores. Question, different coding for different questionnaire type
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-vkp-performer-identifiers.codesystem.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/vkp-performer-identifiers.codesystem"
@@ -945,6 +1061,10 @@ Questionaire scores. Question, different coding for different questionnaire type
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-vkp-performer-identifiers.valueset.html"
       }],
       "reference" : {
         "reference" : "ValueSet/vkp-performer-identifiers.valueset"
@@ -957,6 +1077,10 @@ Questionaire scores. Question, different coding for different questionnaire type
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-vkp-performer-reference-types.valueset.html"
       }],
       "reference" : {
         "reference" : "ValueSet/vkp-performer-reference-types.valueset"
@@ -969,6 +1093,10 @@ Questionaire scores. Question, different coding for different questionnaire type
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-vkp-subject-identifiers.codesystem.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/vkp-subject-identifiers.codesystem"
@@ -981,6 +1109,10 @@ Questionaire scores. Question, different coding for different questionnaire type
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-vkp-subject-identifiers.valueset.html"
       }],
       "reference" : {
         "reference" : "ValueSet/vkp-subject-identifiers.valueset"
@@ -993,6 +1125,10 @@ Questionaire scores. Question, different coding for different questionnaire type
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-vkp-Observation-Bloodpressure.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/vkp-Observation-Bloodpressure"
@@ -1005,6 +1141,10 @@ Questionaire scores. Question, different coding for different questionnaire type
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-vkp-Observation-Bodytemp.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/vkp-Observation-Bodytemp"
@@ -1017,6 +1157,10 @@ Questionaire scores. Question, different coding for different questionnaire type
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-vkp-Observation-Bodyweight.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/vkp-Observation-Bodyweight"
@@ -1029,6 +1173,10 @@ Questionaire scores. Question, different coding for different questionnaire type
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-vkp-Observation-Heartrate.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/vkp-Observation-Heartrate"
@@ -1041,6 +1189,10 @@ Questionaire scores. Question, different coding for different questionnaire type
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-vkp-Observation-NEWS2score.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/vkp-Observation-NEWS2score"
@@ -1053,6 +1205,10 @@ Questionaire scores. Question, different coding for different questionnaire type
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-vkp-Observation-Oxygensat.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/vkp-Observation-Oxygensat"
@@ -1065,6 +1221,10 @@ Questionaire scores. Question, different coding for different questionnaire type
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-vkp-Observation-Resprate.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/vkp-Observation-Resprate"
@@ -1077,6 +1237,10 @@ Questionaire scores. Question, different coding for different questionnaire type
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Observation"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Observation-vkp-blood-pressure-profile-create.html"
       }],
       "reference" : {
         "reference" : "Observation/vkp-blood-pressure-profile-create"
@@ -1088,6 +1252,10 @@ Questionaire scores. Question, different coding for different questionnaire type
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Observation"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Observation-vkp-body-temperature-create.html"
       }],
       "reference" : {
         "reference" : "Observation/vkp-body-temperature-create"
@@ -1099,6 +1267,10 @@ Questionaire scores. Question, different coding for different questionnaire type
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Observation"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Observation-vkp-body-weight-create.html"
       }],
       "reference" : {
         "reference" : "Observation/vkp-body-weight-create"
@@ -1110,6 +1282,10 @@ Questionaire scores. Question, different coding for different questionnaire type
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Observation"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Observation-vkp-glucose-create.html"
       }],
       "reference" : {
         "reference" : "Observation/vkp-glucose-create"
@@ -1121,6 +1297,10 @@ Questionaire scores. Question, different coding for different questionnaire type
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Observation"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Observation-vkp-heartrate-create.html"
       }],
       "reference" : {
         "reference" : "Observation/vkp-heartrate-create"
@@ -1132,6 +1312,10 @@ Questionaire scores. Question, different coding for different questionnaire type
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Observation"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Observation-vkp-news2-create.html"
       }],
       "reference" : {
         "reference" : "Observation/vkp-news2-create"
@@ -1143,6 +1327,10 @@ Questionaire scores. Question, different coding for different questionnaire type
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Observation"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Observation-vkp-oxygen-saturation-create.html"
       }],
       "reference" : {
         "reference" : "Observation/vkp-oxygen-saturation-create"

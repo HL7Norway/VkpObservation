@@ -1,4 +1,4 @@
-# Vkp VitalSigns Observation - Respiratory rate - v0.5.2
+# Vkp VitalSigns Observation - Respiratory rate - v0.6.0-alpha
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Resprate | *Version*:0.5.2 |
+| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Resprate | *Version*:0.6.0-alpha |
 | Draft as of 2023-03-14 | *Computable Name*:VkpObservationResprate |
 
  
@@ -19,9 +19,9 @@ To record the respiratory rate of an individual.
 
 **Usages:**
 
-* This Profile is not used by any profiles in this Implementation Guide
+* This Profile is not used by any profiles in this Specification
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.no.vkp.observation|current/StructureDefinition/vkp-Observation-Resprate)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/hl7.fhir.no.vkp.observation|current/StructureDefinition/StructureDefinition-vkp-Observation-Resprate.json)
 
 ### Formal Views of Profile Content
 
@@ -40,7 +40,7 @@ Other representations of profile: [CSV](StructureDefinition-vkp-Observation-Resp
   "resourceType" : "StructureDefinition",
   "id" : "vkp-Observation-Resprate",
   "url" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Resprate",
-  "version" : "0.5.2",
+  "version" : "0.6.0-alpha",
   "name" : "VkpObservationResprate",
   "title" : "Vkp VitalSigns Observation - Respiratory rate",
   "status" : "draft",

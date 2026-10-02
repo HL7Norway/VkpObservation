@@ -1,4 +1,4 @@
-# PmdBundleResponseEntryId-Extension - v0.5.2
+# PmdBundleResponseEntryId-Extension - v0.6.0-alpha
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/PmdBundleResponseEntryIdExtension | *Version*:0.5.2 |
+| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/PmdBundleResponseEntryIdExtension | *Version*:0.6.0-alpha |
 | Draft as of 2026-03-17 | *Computable Name*:PmdBundleResponseEntryId |
 
 full Url to the orininal bundle entry posted/put'ed for addition
@@ -19,9 +19,9 @@ full Url to the orininal bundle entry posted/put'ed for addition
 
 **Usages:**
 
-* This Extension is not used by any profiles in this Implementation Guide
+* This Extension is not used by any profiles in this Specification
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.no.vkp.observation|current/StructureDefinition/PmdBundleResponseEntryIdExtension)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/hl7.fhir.no.vkp.observation|current/StructureDefinition/StructureDefinition-PmdBundleResponseEntryIdExtension.json)
 
 ### Formal Views of Extension Content
 
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-PmdBundleResponseEnt
   "resourceType" : "StructureDefinition",
   "id" : "PmdBundleResponseEntryIdExtension",
   "url" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/PmdBundleResponseEntryIdExtension",
-  "version" : "0.5.2",
+  "version" : "0.6.0-alpha",
   "name" : "PmdBundleResponseEntryId",
   "title" : "PmdBundleResponseEntryId-Extension",
   "status" : "draft",

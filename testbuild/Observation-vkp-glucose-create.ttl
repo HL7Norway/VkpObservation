@@ -1,7 +1,6 @@
 @prefix fhir: <http://hl7.org/fhir/> .
-@prefix loinc: <https://loinc.org/rdf/> .
+@prefix loinc: <http://loinc.org/rdf#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sct: <http://snomed.info/id/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -10,103 +9,86 @@
 
 <http://hl7.no/fhir/vkpobservation/Observation/vkp-glucose-create> a fhir:Observation ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "vkp-glucose-create"] ; # 
-  fhir:meta [
-     fhir:versionId [ fhir:v "1" ] ;
-     fhir:lastUpdated [ fhir:v "2022-06-07T22:35:23+11:00"^^xsd:dateTime ] ;
-     fhir:source [
-       fhir:v "Thomas"^^xsd:anyURI ;
-       fhir:l fhir:Thomas
+  fhir:Resource.id [ fhir:value "vkp-glucose-create"] ;
+  fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "1" ] ;
+     fhir:Meta.lastUpdated [ fhir:value "2022-06-07T22:35:23+11:00"^^xsd:dateTime ] ;
+     fhir:Meta.source [ fhir:value "Thomas" ] ;
+     fhir:Meta.profile [
+       fhir:value "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation" ;
+       fhir:index 0 ;
+       fhir:link <http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation>
+     ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation vkp-glucose-create</b></p><a name=\"vkp-glucose-create\"> </a><a name=\"hcvkp-glucose-create\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Last updated: 2022-06-07 22:35:23+1100; </p><p style=\"margin-bottom: 0px\">Information Source: <a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.2&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/Thomas\">Thomas</a></p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-vkp-Observation.html\">General Vkp Observation</a></p></div><p><b>identifier</b>: <code>http://dips.no/fhir/namingsystem/externalId</code>/testGlucoseexternalId5</p><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}\">Vital Signs</span></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 15074-8}, {http://snomed.info/sct 434912009}, {urn:oid:2.16.578.1.12.4.1.1.7280 NPU02187}\">Glucose [Moles/volume] in Blood</span></p><p><b>subject</b>: Identifier: Foedselsnummer/1000239</p><p><b>effective</b>: 2022-03-17</p><p><b>performer</b>: Identifier: Foedselsnummer/889911</p><p><b>value</b>: 6.3 mmol/L<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codemmol/l = 'mmol/l')</span></p><p><b>note</b>: </p><blockquote><div><p>Test Vkp glucose</p>\n</div></blockquote></div>"
+  ] ;
+  fhir:Observation.identifier [
+     fhir:index 0 ;
+     fhir:Identifier.system [ fhir:value "http://dips.no/fhir/namingsystem/externalId" ] ;
+     fhir:Identifier.value [ fhir:value "testGlucoseexternalId5" ]
+  ] ;
+  fhir:Observation.status [ fhir:value "final"] ;
+  fhir:Observation.category [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/observation-category" ] ;
+       fhir:Coding.code [ fhir:value "vital-signs" ] ;
+       fhir:Coding.display [ fhir:value "Vital Signs" ]
      ] ;
-     fhir:profile ( [
-       fhir:v "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation"^^xsd:anyURI ;
-       fhir:l <http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation>
-     ] )
-  ] ; # 
-  fhir:text [
-     fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation vkp-glucose-create</b></p><a name=\"vkp-glucose-create\"> </a><a name=\"hcvkp-glucose-create\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Last updated: 2022-06-07 22:35:23+1100; </p><p style=\"margin-bottom: 0px\">Information Source: <a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.2&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/Thomas\">Thomas</a></p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-vkp-Observation.html\">General Vkp Observation</a></p></div><p><b>identifier</b>: <code>http://dips.no/fhir/namingsystem/externalId</code>/testGlucoseexternalId5</p><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}\">Vital Signs</span></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 15074-8}, {http://snomed.info/sct 434912009}, {urn:oid:2.16.578.1.12.4.1.1.7280 NPU02187}\">Glucose [Moles/volume] in Blood</span></p><p><b>subject</b>: Identifier: Foedselsnummer/1000239</p><p><b>effective</b>: 2022-03-17</p><p><b>performer</b>: Identifier: Foedselsnummer/889911</p><p><b>value</b>: 6.3 mmol/L<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codemmol/l = 'mmol/l')</span></p><p><b>note</b>: </p><blockquote><div><p>Test Vkp glucose</p>\n</div></blockquote></div>"^^rdf:XMLLiteral ]
-  ] ; # 
-  fhir:identifier ( [
-     fhir:system [
-       fhir:v "http://dips.no/fhir/namingsystem/externalId"^^xsd:anyURI ;
-       fhir:l <http://dips.no/fhir/namingsystem/externalId>
-     ] ;
-     fhir:value [ fhir:v "testGlucoseexternalId5" ]
-  ] ) ; # 
-  fhir:status [ fhir:v "final"] ; # 
-  fhir:category ( [
-     fhir:coding ( [
-       fhir:system [
-         fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ;
-         fhir:l <http://terminology.hl7.org/CodeSystem/observation-category>
-       ] ;
-       fhir:code [ fhir:v "vital-signs" ] ;
-       fhir:display [ fhir:v "Vital Signs" ]
-     ] ) ;
-     fhir:text [ fhir:v "Vital Signs" ]
-  ] ) ; # 
-  fhir:code [
-     fhir:coding ( [
+     fhir:CodeableConcept.text [ fhir:value "Vital Signs" ]
+  ] ;
+  fhir:Observation.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
        a loinc:15074-8 ;
-       fhir:system [
-         fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:l <http://loinc.org>
-       ] ;
-       fhir:code [ fhir:v "15074-8" ] ;
-       fhir:display [ fhir:v "Glucose [Moles/volume] in Blood" ]
-     ] [
+       fhir:Coding.system [ fhir:value "http://loinc.org" ] ;
+       fhir:Coding.code [ fhir:value "15074-8" ] ;
+       fhir:Coding.display [ fhir:value "Glucose [Moles/volume] in Blood" ]
+     ], [
+       fhir:index 1 ;
        a sct:434912009 ;
-       fhir:system [
-         fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:l <http://snomed.info/sct>
-       ] ;
-       fhir:code [ fhir:v "434912009" ] ;
-       fhir:display [ fhir:v "Blood glucose concentration (observable entity)" ]
-     ] [
-       fhir:system [
-         fhir:v "urn:oid:2.16.578.1.12.4.1.1.7280"^^xsd:anyURI ;
-         fhir:l <urn:oid:2.16.578.1.12.4.1.1.7280>
-       ] ;
-       fhir:code [ fhir:v "NPU02187" ] ;
-       fhir:display [ fhir:v "B—Glucose" ]
-     ] )
-  ] ; # 
-  fhir:subject [
-     fhir:identifier [
-       fhir:system [
-         fhir:v "urn:oid:2.16.578.1.12.4.1.4.1"^^xsd:anyURI ;
-         fhir:l <urn:oid:2.16.578.1.12.4.1.4.1>
-       ] ;
-       fhir:value [ fhir:v "1000239" ]
+       fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+       fhir:Coding.code [ fhir:value "434912009" ] ;
+       fhir:Coding.display [ fhir:value "Blood glucose concentration (observable entity)" ]
+     ], [
+       fhir:index 2 ;
+       fhir:Coding.system [ fhir:value "urn:oid:2.16.578.1.12.4.1.1.7280" ] ;
+       fhir:Coding.code [ fhir:value "NPU02187" ] ;
+       fhir:Coding.display [ fhir:value "B—Glucose" ]
      ]
-  ] ; # 
-  fhir:effective [
-     a fhir:DateTime ;
-     fhir:v "2022-03-17"^^xsd:date
-  ] ; # 
-  fhir:performer ( [
-     fhir:identifier [
-       fhir:system [
-         fhir:v "urn:oid:2.16.578.1.12.4.1.4.1"^^xsd:anyURI ;
-         fhir:l <urn:oid:2.16.578.1.12.4.1.4.1>
-       ] ;
-       fhir:value [ fhir:v "889911" ]
+  ] ;
+  fhir:Observation.subject [
+     fhir:Reference.identifier [
+       fhir:Identifier.system [ fhir:value "urn:oid:2.16.578.1.12.4.1.4.1" ] ;
+       fhir:Identifier.value [ fhir:value "1000239" ]
      ]
-  ] ) ; # 
-  fhir:value [
-     a fhir:Quantity ;
-     fhir:value [ fhir:v 6.3 ] ;
-     fhir:unit [ fhir:v "mmol/L" ] ;
-     fhir:system [
-       fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-       fhir:l <http://unitsofmeasure.org>
-     ] ;
-     fhir:code [ fhir:v "mmol/l" ]
-  ] ; # 
-  fhir:note ( [
-     fhir:text [ fhir:v "Test Vkp glucose" ]
-  ] ) . # 
+  ] ;
+  fhir:Observation.effectiveDateTime [ fhir:value "2022-03-17"^^xsd:date] ;
+  fhir:Observation.performer [
+     fhir:index 0 ;
+     fhir:Reference.identifier [
+       fhir:Identifier.system [ fhir:value "urn:oid:2.16.578.1.12.4.1.4.1" ] ;
+       fhir:Identifier.value [ fhir:value "889911" ]
+     ]
+  ] ;
+  fhir:Observation.valueQuantity [
+     fhir:Quantity.value [ fhir:value "6.3"^^xsd:decimal ] ;
+     fhir:Quantity.unit [ fhir:value "mmol/L" ] ;
+     fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ] ;
+     fhir:Quantity.code [ fhir:value "mmol/l" ]
+  ] ;
+  fhir:Observation.note [
+     fhir:index 0 ;
+     fhir:Annotation.text [ fhir:value "Test Vkp glucose" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.no/fhir/vkpobservation/Observation/vkp-glucose-create.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
 

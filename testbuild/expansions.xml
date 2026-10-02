@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="8eb09d1a-90a0-4e48-8b0d-e38e6436f97d"/>
+  <id value="cf0dfb84-758d-41cc-a042-9fbb51a93e4a"/>
   <meta>
-    <lastUpdated value="2026-03-18T11:31:28.063+00:00"/>
+    <lastUpdated value="2026-10-02T06:31:19.262+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -86,12 +86,12 @@
           </div>
         </text>
         <url value="http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet"/>
-        <version value="0.5.2"/>
+        <version value="0.6.0-alpha"/>
         <name value="NoDomainVitalSignsBloodPressureMeasurementMethodValueSet"/>
         <title value="NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2026-03-18T11:31:28+00:00"/>
+        <date value="2026-10-02T06:31:19+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -100,8 +100,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:eec06f87-825f-4208-b33b-987ea2bf641a"/>
-          <timestamp value="2026-03-18T11:32:37+00:00"/>
+          <identifier value="urn:uuid:81b1d34c-702d-4555-9e52-744826bcd188"/>
+          <timestamp value="2026-10-02T06:32:23+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -424,12 +424,12 @@
           </div>
         </text>
         <url value="http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet"/>
-        <version value="0.5.2"/>
+        <version value="0.6.0-alpha"/>
         <name value="NoDomainVitalSignsBloodpressureBodySiteValueSet"/>
         <title value="NoDomainVitalSignsBloodpressureBodySite-ValueSet"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2026-03-18T11:31:28+00:00"/>
+        <date value="2026-10-02T06:31:19+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -438,8 +438,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:66d286d6-59e9-45fa-9d00-1ccc348aa816"/>
-          <timestamp value="2026-03-18T11:32:37+00:00"/>
+          <identifier value="urn:uuid:98e67779-7351-4fb0-b522-f56ef9e50692"/>
+          <timestamp value="2026-10-02T06:32:23+00:00"/>
           <total value="12"/>
           <offset value="0"/>
           <parameter>
@@ -608,7 +608,7 @@
           </div>
         </text>
         <url value="http://hl7.no/fhir/vkpobservation/ValueSet/pmd-bundle-requests.valueset"/>
-        <version value="0.5.2"/>
+        <version value="0.6.0-alpha"/>
         <name value="PmdBundleRequests"/>
         <title value="Bundle request types"/>
         <status value="draft"/>
@@ -622,8 +622,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:799fcc24-219a-4589-ae28-8b43c12d9bfb"/>
-          <timestamp value="2026-03-18T11:32:43+00:00"/>
+          <identifier value="urn:uuid:1f4f620f-b8ef-40e1-8060-75bfa2b55e33"/>
+          <timestamp value="2026-10-02T06:32:23+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -659,6 +659,318 @@
     </resource>
   </entry>
   <entry>
+    <fullUrl value="http://hl7.no/fhir/vkpobservation/ValueSet/vkp-cfs-score.valueset"/>
+    <resource>
+      <ValueSet>
+        <meta>
+          <lastUpdated value="2022-02-10T00:00:00+00:00"/>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-vkp-cfs-score.codesystem.html">codesystem Clinical Frailty Scale v0.6.0-alpha (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-cfs-score.codesystem|0.6.0-alpha" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 9 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (no)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-cfs-score.codesystem-1"> </a>
+                  <code>http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-cfs-score.codesystem</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-vkp-cfs-score.codesystem.html#vkp-cfs-score.codesystem-1">1</a>
+                </td>
+                <td>Veldig sprek</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-cfs-score.codesystem&quot;, &quot;version&quot;: &quot;0.6.0-alpha&quot;, &quot;code&quot;: &quot;1&quot;, &quot;display&quot;: &quot;Veldig sprek&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-cfs-score.codesystem&quot;&gt;&lt;version value=&quot;0.6.0-alpha&quot;&gt;&lt;code value=&quot;1&quot;&gt;&lt;display value=&quot;Veldig sprek&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-cfs-score.codesystem-2"> </a>
+                  <code>http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-cfs-score.codesystem</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-vkp-cfs-score.codesystem.html#vkp-cfs-score.codesystem-2">2</a>
+                </td>
+                <td>Sprek</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-cfs-score.codesystem&quot;, &quot;version&quot;: &quot;0.6.0-alpha&quot;, &quot;code&quot;: &quot;2&quot;, &quot;display&quot;: &quot;Sprek&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-cfs-score.codesystem&quot;&gt;&lt;version value=&quot;0.6.0-alpha&quot;&gt;&lt;code value=&quot;2&quot;&gt;&lt;display value=&quot;Sprek&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-cfs-score.codesystem-3"> </a>
+                  <code>http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-cfs-score.codesystem</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-vkp-cfs-score.codesystem.html#vkp-cfs-score.codesystem-3">3</a>
+                </td>
+                <td>Klarer seg bra</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-cfs-score.codesystem&quot;, &quot;version&quot;: &quot;0.6.0-alpha&quot;, &quot;code&quot;: &quot;3&quot;, &quot;display&quot;: &quot;Klarer seg bra&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-cfs-score.codesystem&quot;&gt;&lt;version value=&quot;0.6.0-alpha&quot;&gt;&lt;code value=&quot;3&quot;&gt;&lt;display value=&quot;Klarer seg bra&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-cfs-score.codesystem-4"> </a>
+                  <code>http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-cfs-score.codesystem</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-vkp-cfs-score.codesystem.html#vkp-cfs-score.codesystem-4">4</a>
+                </td>
+                <td>Lever med svært mild skrøpelighet</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-cfs-score.codesystem&quot;, &quot;version&quot;: &quot;0.6.0-alpha&quot;, &quot;code&quot;: &quot;4&quot;, &quot;display&quot;: &quot;Lever med svært mild skrøpelighet&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-cfs-score.codesystem&quot;&gt;&lt;version value=&quot;0.6.0-alpha&quot;&gt;&lt;code value=&quot;4&quot;&gt;&lt;display value=&quot;Lever med svært mild skrøpelighet&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-cfs-score.codesystem-5"> </a>
+                  <code>http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-cfs-score.codesystem</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-vkp-cfs-score.codesystem.html#vkp-cfs-score.codesystem-5">5</a>
+                </td>
+                <td>Lever med mild skrøpelighet</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-cfs-score.codesystem&quot;, &quot;version&quot;: &quot;0.6.0-alpha&quot;, &quot;code&quot;: &quot;5&quot;, &quot;display&quot;: &quot;Lever med mild skrøpelighet&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-cfs-score.codesystem&quot;&gt;&lt;version value=&quot;0.6.0-alpha&quot;&gt;&lt;code value=&quot;5&quot;&gt;&lt;display value=&quot;Lever med mild skrøpelighet&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-cfs-score.codesystem-6"> </a>
+                  <code>http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-cfs-score.codesystem</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-vkp-cfs-score.codesystem.html#vkp-cfs-score.codesystem-6">6</a>
+                </td>
+                <td>Lever med moderat skrøpelighet</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-cfs-score.codesystem&quot;, &quot;version&quot;: &quot;0.6.0-alpha&quot;, &quot;code&quot;: &quot;6&quot;, &quot;display&quot;: &quot;Lever med moderat skrøpelighet&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-cfs-score.codesystem&quot;&gt;&lt;version value=&quot;0.6.0-alpha&quot;&gt;&lt;code value=&quot;6&quot;&gt;&lt;display value=&quot;Lever med moderat skrøpelighet&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-cfs-score.codesystem-7"> </a>
+                  <code>http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-cfs-score.codesystem</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-vkp-cfs-score.codesystem.html#vkp-cfs-score.codesystem-7">7</a>
+                </td>
+                <td>Lever med alvorlig skrøpelighet</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-cfs-score.codesystem&quot;, &quot;version&quot;: &quot;0.6.0-alpha&quot;, &quot;code&quot;: &quot;7&quot;, &quot;display&quot;: &quot;Lever med alvorlig skrøpelighet&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-cfs-score.codesystem&quot;&gt;&lt;version value=&quot;0.6.0-alpha&quot;&gt;&lt;code value=&quot;7&quot;&gt;&lt;display value=&quot;Lever med alvorlig skrøpelighet&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-cfs-score.codesystem-8"> </a>
+                  <code>http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-cfs-score.codesystem</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-vkp-cfs-score.codesystem.html#vkp-cfs-score.codesystem-8">8</a>
+                </td>
+                <td>Lever med svært alvorlig skrøpelighet</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-cfs-score.codesystem&quot;, &quot;version&quot;: &quot;0.6.0-alpha&quot;, &quot;code&quot;: &quot;8&quot;, &quot;display&quot;: &quot;Lever med svært alvorlig skrøpelighet&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-cfs-score.codesystem&quot;&gt;&lt;version value=&quot;0.6.0-alpha&quot;&gt;&lt;code value=&quot;8&quot;&gt;&lt;display value=&quot;Lever med svært alvorlig skrøpelighet&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-cfs-score.codesystem-9"> </a>
+                  <code>http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-cfs-score.codesystem</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-vkp-cfs-score.codesystem.html#vkp-cfs-score.codesystem-9">9</a>
+                </td>
+                <td>Terminalt syk</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-cfs-score.codesystem&quot;, &quot;version&quot;: &quot;0.6.0-alpha&quot;, &quot;code&quot;: &quot;9&quot;, &quot;display&quot;: &quot;Terminalt syk&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-cfs-score.codesystem&quot;&gt;&lt;version value=&quot;0.6.0-alpha&quot;&gt;&lt;code value=&quot;9&quot;&gt;&lt;display value=&quot;Terminalt syk&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://hl7.no/fhir/vkpobservation/ValueSet/vkp-cfs-score.valueset"/>
+        <version value="0.6.0-alpha"/>
+        <name value="VkpCFSScoreValueSet"/>
+        <title value="VKP Clinical Frailty Scale ValueSet"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2026-10-02T06:31:19+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="NO"/>
+            <display value="Norway"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:9bfd3047-231c-41cd-b7a6-2a93897981e9"/>
+          <timestamp value="2026-10-02T06:32:23+00:00"/>
+          <total value="9"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="no"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="warning-experimental"/>
+            <valueUri value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-cfs-score.codesystem|0.6.0-alpha"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-cfs-score.codesystem|0.6.0-alpha"/>
+          </parameter>
+          <contains>
+            <system value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-cfs-score.codesystem"/>
+            <code value="1"/>
+            <display value="Veldig sprek"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-cfs-score.codesystem"/>
+            <code value="2"/>
+            <display value="Sprek"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-cfs-score.codesystem"/>
+            <code value="3"/>
+            <display value="Klarer seg bra"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-cfs-score.codesystem"/>
+            <code value="4"/>
+            <display value="Lever med svært mild skrøpelighet"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-cfs-score.codesystem"/>
+            <code value="5"/>
+            <display value="Lever med mild skrøpelighet"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-cfs-score.codesystem"/>
+            <code value="6"/>
+            <display value="Lever med moderat skrøpelighet"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-cfs-score.codesystem"/>
+            <code value="7"/>
+            <display value="Lever med alvorlig skrøpelighet"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-cfs-score.codesystem"/>
+            <code value="8"/>
+            <display value="Lever med svært alvorlig skrøpelighet"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-cfs-score.codesystem"/>
+            <code value="9"/>
+            <display value="Terminalt syk"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
     <fullUrl value="http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-identifiers.valueset"/>
     <resource>
       <ValueSet>
@@ -671,9 +983,9 @@
           <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
             <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
-              <a href="CodeSystem-vkp-performer-identifiers.codesystem.html">codesystem Vkp Performer Identifier Systems CodeSystem v0.5.2 (CodeSystem)</a>
+              <a href="CodeSystem-vkp-performer-identifiers.codesystem.html">codesystem Vkp Performer Identifier Systems CodeSystem v0.6.0-alpha (CodeSystem)</a>
               <span class="copy-text-inline">
-                <button data-clipboard-text="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem|0.5.2" title="Click to Copy URL" class="btn-copy"> </button>
+                <button data-clipboard-text="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem|0.6.0-alpha" title="Click to Copy URL" class="btn-copy"> </button>
               </span>
             </p>
             <p>This value set contains 1 concepts</p>
@@ -710,12 +1022,12 @@
                 <td>Fødselsnummer</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem&quot;, &quot;version&quot;: &quot;0.5.2&quot;, &quot;code&quot;: &quot;urn:oid:2.16.578.1.12.4.1.4.1&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem&quot;, &quot;version&quot;: &quot;0.6.0-alpha&quot;, &quot;code&quot;: &quot;urn:oid:2.16.578.1.12.4.1.4.1&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem&quot;&gt;&lt;version value=&quot;0.5.2&quot;&gt;&lt;code value=&quot;urn:oid:2.16.578.1.12.4.1.4.1&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem&quot;&gt;&lt;version value=&quot;0.6.0-alpha&quot;&gt;&lt;code value=&quot;urn:oid:2.16.578.1.12.4.1.4.1&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -723,7 +1035,7 @@
           </div>
         </text>
         <url value="http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-identifiers.valueset"/>
-        <version value="0.5.2"/>
+        <version value="0.6.0-alpha"/>
         <name value="VkpPerformerIdentifiersValueSet"/>
         <title value="VKP Performer Identifier systems ValueSet"/>
         <status value="draft"/>
@@ -737,8 +1049,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:f626ad97-c940-4cb6-99d8-2dfcf93f6814"/>
-          <timestamp value="2026-03-18T11:32:43+00:00"/>
+          <identifier value="urn:uuid:d6abe396-e61b-43f4-8620-9c846ae3f4e8"/>
+          <timestamp value="2026-10-02T06:32:23+00:00"/>
           <total value="1"/>
           <offset value="0"/>
           <parameter>
@@ -759,11 +1071,11 @@
           </parameter>
           <parameter>
             <name value="warning-experimental"/>
-            <valueUri value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem|0.5.2"/>
+            <valueUri value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem|0.6.0-alpha"/>
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem|0.5.2"/>
+            <valueUri value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem|0.6.0-alpha"/>
           </parameter>
           <contains>
             <system value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem"/>
@@ -786,9 +1098,9 @@
           <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
             <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
-              <a href="CodeSystem-vkp-performer-organization-identifiers.codesystem.html">codesystem Vkp Performer Identifier for organizations CodeSystem v0.5.2 (CodeSystem)</a>
+              <a href="CodeSystem-vkp-performer-organization-identifiers.codesystem.html">codesystem Vkp Performer Identifier for organizations CodeSystem v0.6.0-alpha (CodeSystem)</a>
               <span class="copy-text-inline">
-                <button data-clipboard-text="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem|0.5.2" title="Click to Copy URL" class="btn-copy"> </button>
+                <button data-clipboard-text="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem|0.6.0-alpha" title="Click to Copy URL" class="btn-copy"> </button>
               </span>
             </p>
             <p>This value set contains 2 concepts</p>
@@ -825,12 +1137,12 @@
                 <td>Organisasjonsnummer</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem&quot;, &quot;version&quot;: &quot;0.5.2&quot;, &quot;code&quot;: &quot;urn:oid:2.16.578.1.12.4.1.4.101&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem&quot;, &quot;version&quot;: &quot;0.6.0-alpha&quot;, &quot;code&quot;: &quot;urn:oid:2.16.578.1.12.4.1.4.101&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem&quot;&gt;&lt;version value=&quot;0.5.2&quot;&gt;&lt;code value=&quot;urn:oid:2.16.578.1.12.4.1.4.101&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem&quot;&gt;&lt;version value=&quot;0.6.0-alpha&quot;&gt;&lt;code value=&quot;urn:oid:2.16.578.1.12.4.1.4.101&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -846,12 +1158,12 @@
                 <td>RESH-nummer</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem&quot;, &quot;version&quot;: &quot;0.5.2&quot;, &quot;code&quot;: &quot;urn:oid:2.16.578.1.12.4.1.4.102&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem&quot;, &quot;version&quot;: &quot;0.6.0-alpha&quot;, &quot;code&quot;: &quot;urn:oid:2.16.578.1.12.4.1.4.102&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem&quot;&gt;&lt;version value=&quot;0.5.2&quot;&gt;&lt;code value=&quot;urn:oid:2.16.578.1.12.4.1.4.102&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem&quot;&gt;&lt;version value=&quot;0.6.0-alpha&quot;&gt;&lt;code value=&quot;urn:oid:2.16.578.1.12.4.1.4.102&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -859,7 +1171,7 @@
           </div>
         </text>
         <url value="http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-organization-identifiers.valueset"/>
-        <version value="0.5.2"/>
+        <version value="0.6.0-alpha"/>
         <name value="VkpPerformerOrganizationIdentifiersValueSet"/>
         <title value="VKP Performer Identifier for organizations ValueSet"/>
         <status value="draft"/>
@@ -873,8 +1185,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:f3fb2f05-5de7-4874-af46-f69478817abb"/>
-          <timestamp value="2026-03-18T11:32:43+00:00"/>
+          <identifier value="urn:uuid:957cc8fc-23c5-4868-abee-b5d64cec7a34"/>
+          <timestamp value="2026-10-02T06:32:23+00:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -895,11 +1207,11 @@
           </parameter>
           <parameter>
             <name value="warning-experimental"/>
-            <valueUri value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem|0.5.2"/>
+            <valueUri value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem|0.6.0-alpha"/>
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem|0.5.2"/>
+            <valueUri value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem|0.6.0-alpha"/>
           </parameter>
           <contains>
             <system value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem"/>
@@ -1112,12 +1424,12 @@
           </div>
         </text>
         <url value="http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-reference-types.valueset"/>
-        <version value="0.5.2"/>
+        <version value="0.6.0-alpha"/>
         <name value="VkpPerformerReferenceTypesValueSet"/>
         <title value="Vkp Performer reference types Systems ValueSet"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2026-03-18T11:31:28+00:00"/>
+        <date value="2026-10-02T06:31:19+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1126,8 +1438,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:4e4fd8a0-946f-4e93-b991-2363ef1dcb17"/>
-          <timestamp value="2026-03-18T11:32:40+00:00"/>
+          <identifier value="urn:uuid:c07f104c-f6fb-4be3-bcaa-15a856ddbdcb"/>
+          <timestamp value="2026-10-02T06:32:23+00:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -1197,9 +1509,9 @@
           <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
             <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
-              <a href="CodeSystem-vkp-subject-identifiers.codesystem.html">codesystem Vkp Subject Identifier Systems CodeSystem v0.5.2 (CodeSystem)</a>
+              <a href="CodeSystem-vkp-subject-identifiers.codesystem.html">codesystem Vkp Subject Identifier Systems CodeSystem v0.6.0-alpha (CodeSystem)</a>
               <span class="copy-text-inline">
-                <button data-clipboard-text="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem|0.5.2" title="Click to Copy URL" class="btn-copy"> </button>
+                <button data-clipboard-text="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem|0.6.0-alpha" title="Click to Copy URL" class="btn-copy"> </button>
               </span>
             </p>
             <p>This value set contains 3 concepts</p>
@@ -1236,12 +1548,12 @@
                 <td>Fødselsnummer</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem&quot;, &quot;version&quot;: &quot;0.5.2&quot;, &quot;code&quot;: &quot;urn:oid:2.16.578.1.12.4.1.4.1&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem&quot;, &quot;version&quot;: &quot;0.6.0-alpha&quot;, &quot;code&quot;: &quot;urn:oid:2.16.578.1.12.4.1.4.1&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem&quot;&gt;&lt;version value=&quot;0.5.2&quot;&gt;&lt;code value=&quot;urn:oid:2.16.578.1.12.4.1.4.1&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem&quot;&gt;&lt;version value=&quot;0.6.0-alpha&quot;&gt;&lt;code value=&quot;urn:oid:2.16.578.1.12.4.1.4.1&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -1257,12 +1569,12 @@
                 <td>D-nummer</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem&quot;, &quot;version&quot;: &quot;0.5.2&quot;, &quot;code&quot;: &quot;urn:oid:2.16.578.1.12.4.1.4.2&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem&quot;, &quot;version&quot;: &quot;0.6.0-alpha&quot;, &quot;code&quot;: &quot;urn:oid:2.16.578.1.12.4.1.4.2&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem&quot;&gt;&lt;version value=&quot;0.5.2&quot;&gt;&lt;code value=&quot;urn:oid:2.16.578.1.12.4.1.4.2&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem&quot;&gt;&lt;version value=&quot;0.6.0-alpha&quot;&gt;&lt;code value=&quot;urn:oid:2.16.578.1.12.4.1.4.2&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -1278,12 +1590,12 @@
                 <td>Felles hjelpenummer</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem&quot;, &quot;version&quot;: &quot;0.5.2&quot;, &quot;code&quot;: &quot;urn:oid:2.16.578.1.12.4.1.4.3&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem&quot;, &quot;version&quot;: &quot;0.6.0-alpha&quot;, &quot;code&quot;: &quot;urn:oid:2.16.578.1.12.4.1.4.3&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem&quot;&gt;&lt;version value=&quot;0.5.2&quot;&gt;&lt;code value=&quot;urn:oid:2.16.578.1.12.4.1.4.3&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem&quot;&gt;&lt;version value=&quot;0.6.0-alpha&quot;&gt;&lt;code value=&quot;urn:oid:2.16.578.1.12.4.1.4.3&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -1291,7 +1603,7 @@
           </div>
         </text>
         <url value="http://hl7.no/fhir/vkpobservation/ValueSet/vkp-subject-identifiers.valueset"/>
-        <version value="0.5.2"/>
+        <version value="0.6.0-alpha"/>
         <name value="VkpSubjectIdentifiersValueSet"/>
         <title value="VKP Subject Identifier systems ValueSet"/>
         <status value="draft"/>
@@ -1305,8 +1617,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:b531fe22-4b2b-4638-9f3b-9bf4ee6b11e6"/>
-          <timestamp value="2026-03-18T11:32:43+00:00"/>
+          <identifier value="urn:uuid:81a83be5-34b3-45dc-8cfe-8a85d25bb568"/>
+          <timestamp value="2026-10-02T06:32:23+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -1327,11 +1639,11 @@
           </parameter>
           <parameter>
             <name value="warning-experimental"/>
-            <valueUri value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem|0.5.2"/>
+            <valueUri value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem|0.6.0-alpha"/>
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem|0.5.2"/>
+            <valueUri value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem|0.6.0-alpha"/>
           </parameter>
           <contains>
             <system value="http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem"/>

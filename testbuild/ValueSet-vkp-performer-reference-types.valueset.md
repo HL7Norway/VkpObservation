@@ -1,4 +1,4 @@
-# Vkp Performer reference types Systems ValueSet - v0.5.2
+# Vkp Performer reference types Systems ValueSet - v0.6.0-alpha
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-reference-types.valueset | *Version*:0.5.2 | |
+| *Official URL*:http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-reference-types.valueset | *Version*:0.6.0-alpha | |
 | * Standards status: *[Draft](http://hl7.org/fhir/R4/versions.html#std-process) | [Maturity Level](http://hl7.org/fhir/versions.html#maturity): 1 | *Computable Name*:VkpPerformerReferenceTypesValueSet |
 
  
@@ -16,8 +16,7 @@ The Valueset contains all codes allowed for Observation.performer.type for use w
 
  **References** 
 
-* [Vkp Observation - CFS score](StructureDefinition-vkp-Observation-CFSscore.md)
-* [Vkp Observation - CFS score](StructureDefinition-vkp-Observation-CFSscore.md)
+This value set is not used here; it may be used elsewhere (e.g. specifications and/or implementations that use this content)
 
 ### Logical Definition (CLD)
 
@@ -58,12 +57,12 @@ The Valueset contains all codes allowed for Observation.performer.type for use w
     "valueInteger" : 1
   }],
   "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-reference-types.valueset",
-  "version" : "0.5.2",
+  "version" : "0.6.0-alpha",
   "name" : "VkpPerformerReferenceTypesValueSet",
   "title" : "Vkp Performer reference types Systems ValueSet",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-03-18T11:31:28+00:00",
+  "date" : "2026-10-02T06:31:19+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",

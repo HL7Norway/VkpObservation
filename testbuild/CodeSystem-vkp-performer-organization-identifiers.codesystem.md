@@ -1,4 +1,4 @@
-# Vkp Performer Identifier for organizations CodeSystem - v0.5.2
+# Vkp Performer Identifier for organizations CodeSystem - v0.6.0-alpha
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem | *Version*:0.5.2 |
+| *Official URL*:http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem | *Version*:0.6.0-alpha |
 | Draft as of 2022-03-18 | *Computable Name*:VkpPerformerOrganizationIdentifiersCodeSystem |
 
  
@@ -16,7 +16,7 @@ The CodeSystem contains all codes allowed for Observation.performer.system for u
 
  This Code system is referenced in the content logical definition of the following value sets: 
 
-* [VkpPerformerOrganizationIdentifiersValueSet](ValueSet-vkp-performer-organization-identifiers.valueset.md)
+* [VKP Performer Identifier for organizations ValueSet](ValueSet-vkp-performer-organization-identifiers.valueset.md)
 
 
 
@@ -30,7 +30,7 @@ The CodeSystem contains all codes allowed for Observation.performer.system for u
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "url" : "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem",
-  "version" : "0.5.2",
+  "version" : "0.6.0-alpha",
   "name" : "VkpPerformerOrganizationIdentifiersCodeSystem",
   "title" : "Vkp Performer Identifier for organizations CodeSystem",
   "status" : "draft",

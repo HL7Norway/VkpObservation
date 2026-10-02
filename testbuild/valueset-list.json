@@ -1,7 +1,7 @@
 {
   "codeSystems" : [{
     "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodPressureMeasurementMethodValueSet",
-    "version" : "0.5.2",
+    "version" : "0.6.0-alpha",
     "status" : "draft",
     "name" : "NoDomainVitalSignsBloodPressureMeasurementMethodValueSet",
     "title" : "NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet",
@@ -10,7 +10,7 @@
   },
   {
     "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet",
-    "version" : "0.5.2",
+    "version" : "0.6.0-alpha",
     "status" : "draft",
     "name" : "NoDomainVitalSignsBloodpressureBodySiteValueSet",
     "title" : "NoDomainVitalSignsBloodpressureBodySite-ValueSet",
@@ -19,7 +19,7 @@
   },
   {
     "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/pmd-bundle-requests.valueset",
-    "version" : "0.5.2",
+    "version" : "0.6.0-alpha",
     "status" : "draft",
     "name" : "PmdBundleRequests",
     "title" : "Bundle request types",
@@ -27,8 +27,17 @@
     "systems" : ["http://hl7.org/fhir/http-verb"]
   },
   {
+    "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/vkp-cfs-score.valueset",
+    "version" : "0.6.0-alpha",
+    "status" : "draft",
+    "name" : "VkpCFSScoreValueSet",
+    "title" : "VKP Clinical Frailty Scale ValueSet",
+    "description" : "Clinical Frailty Scale codes allowed in Vkp Observations",
+    "systems" : ["http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-cfs-score.codesystem"]
+  },
+  {
     "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-identifiers.valueset",
-    "version" : "0.5.2",
+    "version" : "0.6.0-alpha",
     "status" : "draft",
     "name" : "VkpPerformerIdentifiersValueSet",
     "title" : "VKP Performer Identifier systems ValueSet",
@@ -37,7 +46,7 @@
   },
   {
     "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-organization-identifiers.valueset",
-    "version" : "0.5.2",
+    "version" : "0.6.0-alpha",
     "status" : "draft",
     "name" : "VkpPerformerOrganizationIdentifiersValueSet",
     "title" : "VKP Performer Identifier for organizations ValueSet",
@@ -46,7 +55,7 @@
   },
   {
     "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-reference-types.valueset",
-    "version" : "0.5.2",
+    "version" : "0.6.0-alpha",
     "status" : "draft",
     "name" : "VkpPerformerReferenceTypesValueSet",
     "title" : "Vkp Performer reference types Systems ValueSet",
@@ -55,7 +64,7 @@
   },
   {
     "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/vkp-subject-identifiers.valueset",
-    "version" : "0.5.2",
+    "version" : "0.6.0-alpha",
     "status" : "draft",
     "name" : "VkpSubjectIdentifiersValueSet",
     "title" : "VKP Subject Identifier systems ValueSet",

@@ -1,4 +1,4 @@
-# Batch Bundle - v0.5.2
+# Batch Bundle - v0.6.0-alpha
 
 * [**Table of Contents**](toc.md)
 * **Batch Bundle**

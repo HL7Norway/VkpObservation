@@ -1,4 +1,4 @@
-# Vkp VitalSigns Observation - Oxygen saturation - v0.5.2
+# Vkp VitalSigns Observation - Oxygen saturation - v0.6.0-alpha
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Oxygensat | *Version*:0.5.2 |
+| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Oxygensat | *Version*:0.6.0-alpha |
 | Draft as of 2022-02-16 | *Computable Name*:VkpObservationOxygensat |
 
  
@@ -21,7 +21,7 @@ To record the eripheral oxygen saturation of an individual.
 
 * Examples for this Profile: [Observation/vkp-oxygen-saturation-create](Observation-vkp-oxygen-saturation-create.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.no.vkp.observation|current/StructureDefinition/vkp-Observation-Oxygensat)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/hl7.fhir.no.vkp.observation|current/StructureDefinition/StructureDefinition-vkp-Observation-Oxygensat.json)
 
 ### Formal Views of Profile Content
 
@@ -40,7 +40,7 @@ Other representations of profile: [CSV](StructureDefinition-vkp-Observation-Oxyg
   "resourceType" : "StructureDefinition",
   "id" : "vkp-Observation-Oxygensat",
   "url" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Oxygensat",
-  "version" : "0.5.2",
+  "version" : "0.6.0-alpha",
   "name" : "VkpObservationOxygensat",
   "title" : "Vkp VitalSigns Observation - Oxygen saturation",
   "status" : "draft",

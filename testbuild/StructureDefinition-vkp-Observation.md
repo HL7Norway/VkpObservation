@@ -1,4 +1,4 @@
-# General Vkp Observation - v0.5.2
+# General Vkp Observation - v0.6.0-alpha
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation | *Version*:0.5.2 |
+| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation | *Version*:0.6.0-alpha |
 | Draft as of 2022-11-18 | *Computable Name*:VkpObservation |
 
  
@@ -22,7 +22,7 @@ To record general Observations of an individual.
 * Derived from this Profile: [Vkp Observation - CFS score](StructureDefinition-vkp-Observation-CFSscore.md) and [Vkp VitalSigns Observation - NEWS2 score](StructureDefinition-vkp-Observation-NEWS2score.md)
 * Examples for this Profile: [Observation/vkp-glucose-create](Observation-vkp-glucose-create.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.no.vkp.observation|current/StructureDefinition/vkp-Observation)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/hl7.fhir.no.vkp.observation|current/StructureDefinition/StructureDefinition-vkp-Observation.json)
 
 ### Formal Views of Profile Content
 
@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-vkp-Observation.csv)
   "resourceType" : "StructureDefinition",
   "id" : "vkp-Observation",
   "url" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation",
-  "version" : "0.5.2",
+  "version" : "0.6.0-alpha",
   "name" : "VkpObservation",
   "title" : "General Vkp Observation",
   "status" : "draft",

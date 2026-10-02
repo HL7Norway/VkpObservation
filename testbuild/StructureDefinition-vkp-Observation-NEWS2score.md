@@ -1,4 +1,4 @@
-# Vkp VitalSigns Observation - NEWS2 score - v0.5.2
+# Vkp VitalSigns Observation - NEWS2 score - v0.6.0-alpha
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-NEWS2score | *Version*:0.5.2 |
-| Draft as of 2026-03-18 | *Computable Name*:VkpObservationNEWS2score |
+| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-NEWS2score | *Version*:0.6.0-alpha |
+| Draft as of 2026-10-02 | *Computable Name*:VkpObservationNEWS2score |
 
  
 Profile for NEWS2 score in VKP. 
@@ -21,7 +21,7 @@ To record the NEWS2 score of an individual (will be updated with norwegian NEWS2
 
 * Examples for this Profile: [Observation/vkp-news2-create](Observation-vkp-news2-create.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.no.vkp.observation|current/StructureDefinition/vkp-Observation-NEWS2score)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/hl7.fhir.no.vkp.observation|current/StructureDefinition/StructureDefinition-vkp-Observation-NEWS2score.json)
 
 ### Formal Views of Profile Content
 
@@ -40,11 +40,11 @@ Other representations of profile: [CSV](StructureDefinition-vkp-Observation-NEWS
   "resourceType" : "StructureDefinition",
   "id" : "vkp-Observation-NEWS2score",
   "url" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-NEWS2score",
-  "version" : "0.5.2",
+  "version" : "0.6.0-alpha",
   "name" : "VkpObservationNEWS2score",
   "title" : "Vkp VitalSigns Observation - NEWS2 score",
   "status" : "draft",
-  "date" : "2026-03-18T11:31:28+00:00",
+  "date" : "2026-10-02T06:31:19+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",

@@ -1,4 +1,4 @@
-# A response bundle for observations processed by Pasientens måledata - v0.5.2
+# A response bundle for observations processed by Pasientens måledata - v0.6.0-alpha
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/pmd-Bundle-Response | *Version*:0.5.2 |
+| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/pmd-Bundle-Response | *Version*:0.6.0-alpha |
 | Draft as of 2026-03-17 | *Computable Name*:PmdBundleResponse |
 
  
@@ -21,7 +21,7 @@ To respond
 
 * Examples for this Profile: [Bundle/pmd-Bundle-Response-example](Bundle-pmd-Bundle-Response-example.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.no.vkp.observation|current/StructureDefinition/pmd-Bundle-Response)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/hl7.fhir.no.vkp.observation|current/StructureDefinition/StructureDefinition-pmd-Bundle-Response.json)
 
 ### Formal Views of Profile Content
 
@@ -40,7 +40,7 @@ Other representations of profile: [CSV](StructureDefinition-pmd-Bundle-Response.
   "resourceType" : "StructureDefinition",
   "id" : "pmd-Bundle-Response",
   "url" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/pmd-Bundle-Response",
-  "version" : "0.5.2",
+  "version" : "0.6.0-alpha",
   "name" : "PmdBundleResponse",
   "title" : "A response bundle for observations processed by Pasientens måledata",
   "status" : "draft",

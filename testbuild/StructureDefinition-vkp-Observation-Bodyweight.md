@@ -1,4 +1,4 @@
-# Vkp VitalSigns Observation - Body weight - v0.5.2
+# Vkp VitalSigns Observation - Body weight - v0.6.0-alpha
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Bodyweight | *Version*:0.5.2 |
+| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Bodyweight | *Version*:0.6.0-alpha |
 | Draft as of 2022-03-16 | *Computable Name*:VkpObservationBodyweight |
 
  
@@ -21,7 +21,7 @@ To record the body weight of an individual.
 
 * Examples for this Profile: [Observation/vkp-body-weight-create](Observation-vkp-body-weight-create.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.no.vkp.observation|current/StructureDefinition/vkp-Observation-Bodyweight)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/hl7.fhir.no.vkp.observation|current/StructureDefinition/StructureDefinition-vkp-Observation-Bodyweight.json)
 
 ### Formal Views of Profile Content
 
@@ -40,7 +40,7 @@ Other representations of profile: [CSV](StructureDefinition-vkp-Observation-Body
   "resourceType" : "StructureDefinition",
   "id" : "vkp-Observation-Bodyweight",
   "url" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Bodyweight",
-  "version" : "0.5.2",
+  "version" : "0.6.0-alpha",
   "name" : "VkpObservationBodyweight",
   "title" : "Vkp VitalSigns Observation - Body weight",
   "status" : "draft",

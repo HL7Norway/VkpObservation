@@ -1,4 +1,4 @@
-# A bundle of observations for processing by Pasientens måledata - v0.5.2
+# A bundle of observations for processing by Pasientens måledata - v0.6.0-alpha
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/pmd-Bundle-Observation | *Version*:0.5.2 |
+| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/pmd-Bundle-Observation | *Version*:0.6.0-alpha |
 | Draft as of 2026-03-17 | *Computable Name*:PmdBundleObservation |
 
  
@@ -21,7 +21,7 @@ To record a number of Observations from an organization.
 
 * Examples for this Profile: [Bundle/pmd-Bundle-Request-example](Bundle-pmd-Bundle-Request-example.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.no.vkp.observation|current/StructureDefinition/pmd-Bundle-Observation)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/hl7.fhir.no.vkp.observation|current/StructureDefinition/StructureDefinition-pmd-Bundle-Observation.json)
 
 ### Formal Views of Profile Content
 
@@ -40,7 +40,7 @@ Other representations of profile: [CSV](StructureDefinition-pmd-Bundle-Observati
   "resourceType" : "StructureDefinition",
   "id" : "pmd-Bundle-Observation",
   "url" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/pmd-Bundle-Observation",
-  "version" : "0.5.2",
+  "version" : "0.6.0-alpha",
   "name" : "PmdBundleObservation",
   "title" : "A bundle of observations for processing by Pasientens måledata",
   "status" : "draft",

@@ -1,4 +1,4 @@
-# Vkp VitalSigns Observation - Blood pressure - v0.5.2
+# Vkp VitalSigns Observation - Blood pressure - v0.6.0-alpha
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Bloodpressure | *Version*:0.5.2 |
+| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Bloodpressure | *Version*:0.6.0-alpha |
 | Draft as of 2022-02-10 | *Computable Name*:VkpObservationBloodpressure |
 
  
@@ -21,7 +21,7 @@ To record the systemic arterial blood pressure of an individual.
 
 * Examples for this Profile: [Observation/vkp-blood-pressure-profile-create](Observation-vkp-blood-pressure-profile-create.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.no.vkp.observation|current/StructureDefinition/vkp-Observation-Bloodpressure)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/hl7.fhir.no.vkp.observation|current/StructureDefinition/StructureDefinition-vkp-Observation-Bloodpressure.json)
 
 ### Formal Views of Profile Content
 
@@ -40,7 +40,7 @@ Other representations of profile: [CSV](StructureDefinition-vkp-Observation-Bloo
   "resourceType" : "StructureDefinition",
   "id" : "vkp-Observation-Bloodpressure",
   "url" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Bloodpressure",
-  "version" : "0.5.2",
+  "version" : "0.6.0-alpha",
   "name" : "VkpObservationBloodpressure",
   "title" : "Vkp VitalSigns Observation - Blood pressure",
   "status" : "draft",
