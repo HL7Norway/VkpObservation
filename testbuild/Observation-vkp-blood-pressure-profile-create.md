@@ -1,4 +1,4 @@
-# vkp-blood-pressure-profile-create - v0.6.0-alpha
+# vkp-blood-pressure-profile-create - v0.5.2
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

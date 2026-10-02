@@ -1,4 +1,4 @@
-# PmdBundleResponseEntryId-Extension - v0.6.0-alpha
+# PmdBundleResponseEntryId-Extension - v0.5.2
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/PmdBundleResponseEntryIdExtension | *Version*:0.6.0-alpha |
+| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/PmdBundleResponseEntryIdExtension | *Version*:0.5.2 |
 | Draft as of 2026-03-17 | *Computable Name*:PmdBundleResponseEntryId |
 
 full Url to the orininal bundle entry posted/put'ed for addition
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-PmdBundleResponseEnt
   "resourceType" : "StructureDefinition",
   "id" : "PmdBundleResponseEntryIdExtension",
   "url" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/PmdBundleResponseEntryIdExtension",
-  "version" : "0.6.0-alpha",
+  "version" : "0.5.2",
   "name" : "PmdBundleResponseEntryId",
   "title" : "PmdBundleResponseEntryId-Extension",
   "status" : "draft",

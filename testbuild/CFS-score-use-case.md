@@ -1,4 +1,4 @@
-# CFS Score Use Case - v0.6.0-alpha
+# CFS Score Use Case - v0.5.2
 
 * [**Table of Contents**](toc.md)
 * **CFS Score Use Case**

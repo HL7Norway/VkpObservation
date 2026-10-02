@@ -1,4 +1,4 @@
-# Vkp Observation - CFS score - v0.6.0-alpha
+# Vkp Observation - CFS score - v0.5.2
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-CFSscore | *Version*:0.6.0-alpha |
+| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-CFSscore | *Version*:0.5.2 |
 | Draft as of 2026-10-02 | *Computable Name*:VkpObservationCFSscore |
 
  
@@ -40,11 +40,11 @@ Other representations of profile: [CSV](StructureDefinition-vkp-Observation-CFSs
   "resourceType" : "StructureDefinition",
   "id" : "vkp-Observation-CFSscore",
   "url" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-CFSscore",
-  "version" : "0.6.0-alpha",
+  "version" : "0.5.2",
   "name" : "VkpObservationCFSscore",
   "title" : "Vkp Observation - CFS score",
   "status" : "draft",
-  "date" : "2026-10-02T06:31:19+00:00",
+  "date" : "2026-10-02T08:56:17+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",
@@ -131,12 +131,16 @@ Other representations of profile: [CSV](StructureDefinition-vkp-Observation-CFSs
       "id" : "Observation.performer:author",
       "path" : "Observation.performer",
       "sliceName" : "author",
-      "short" : "A reference to the author of the observation. Usually an identified Practitioner but can just as likely be an identified role/locations/specialties/services within an organization identified by a PractitionerRole or CareTeam"
+      "short" : "Reference to the author of the observation"
     },
     {
       "id" : "Observation.performer:author.type",
       "path" : "Observation.performer.type",
-      "mustSupport" : true
+      "mustSupport" : true,
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-reference-types.valueset"
+      }
     },
     {
       "id" : "Observation.performer:organization",
@@ -157,23 +161,20 @@ Other representations of profile: [CSV](StructureDefinition-vkp-Observation-CFSs
       }
     },
     {
-      "id" : "Observation.value[x]:valueCodeableConcept",
+      "id" : "Observation.value[x]:valueQuantity",
       "path" : "Observation.value[x]",
-      "sliceName" : "valueCodeableConcept",
+      "sliceName" : "valueQuantity",
       "min" : 0,
       "max" : "1",
       "type" : [{
-        "code" : "CodeableConcept"
+        "code" : "Quantity"
       }],
       "mustSupport" : true
     },
     {
-      "id" : "Observation.value[x]:valueCodeableConcept.coding.code",
-      "path" : "Observation.value[x].coding.code",
-      "binding" : {
-        "strength" : "required",
-        "valueSet" : "http://hl7.no/fhir/vkpobservation/ValueSet/vkp-cfs-score.valueset"
-      }
+      "id" : "Observation.value[x]:valueQuantity.value",
+      "path" : "Observation.value[x].value",
+      "mustSupport" : true
     },
     {
       "id" : "Observation.note",

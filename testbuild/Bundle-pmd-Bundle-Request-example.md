@@ -1,4 +1,4 @@
-# Pmd bundle example - v0.6.0-alpha
+# Pmd bundle example - v0.5.2
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

@@ -1,4 +1,4 @@
-# CFS score example - v0.6.0-alpha
+# CFS score example - v0.5.2
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -29,7 +29,7 @@ Profile: [Vkp Observation - CFS score](StructureDefinition-vkp-Observation-CFSsc
 * Identifier: Foedselsnummer/22
 * Identifier: `urn:oid:2.16.578.1.12.4.1.4.101`/103
 
-**value**: Well
+**value**: 2
 
 **note**: 
 
@@ -91,12 +91,8 @@ Evaluering gjort i brukerens hjem, normalt sprek for sin aldersgruppe.
       "value" : "103"
     }
   }],
-  "valueCodeableConcept" : {
-    "coding" : [{
-      "system" : "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-cfs-score.codesystem",
-      "code" : "2",
-      "display" : "Well"
-    }]
+  "valueQuantity" : {
+    "value" : 2
   },
   "note" : [{
     "text" : "Evaluering gjort i brukerens hjem, normalt sprek for sin aldersgruppe."

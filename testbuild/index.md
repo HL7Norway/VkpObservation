@@ -1,4 +1,4 @@
-# Home - v0.6.0-alpha
+# Home - v0.5.2
 
 * [**Table of Contents**](toc.md)
 * **Home**
@@ -7,7 +7,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/vkpobservation/ImplementationGuide/hl7.fhir.no.vkp.observation | *Version*:0.6.0-alpha |
+| *Official URL*:http://hl7.no/fhir/vkpobservation/ImplementationGuide/hl7.fhir.no.vkp.observation | *Version*:0.5.2 |
 | Draft as of 2026-10-02 | *Computable Name*:VkpObservation |
 
 # Vkp Observation profiles
@@ -70,10 +70,10 @@ Questionaire scores. Question, different coding for different questionnaire type
   "resourceType" : "ImplementationGuide",
   "id" : "hl7.fhir.no.vkp.observation",
   "url" : "http://hl7.no/fhir/vkpobservation/ImplementationGuide/hl7.fhir.no.vkp.observation",
-  "version" : "0.6.0-alpha",
+  "version" : "0.5.2",
   "name" : "VkpObservation",
   "status" : "draft",
-  "date" : "2026-10-02T06:31:19+00:00",
+  "date" : "2026-10-02T08:56:17+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",
@@ -801,24 +801,8 @@ Questionaire scores. Question, different coding for different questionnaire type
         "reference" : "Observation/vkp-cfs-create"
       },
       "name" : "CFS score example",
-      "description" : "Eksempel CFS score med kodet verdi, notat, dato og hvordan man koder CFS i FHIR",
+      "description" : "Eksempel CFS score med notat, dato og hvordan man koder CFS i FHIR",
       "exampleCanonical" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-CFSscore"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "CodeSystem-vkp-cfs-score.codesystem.html"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/vkp-cfs-score.codesystem"
-      },
-      "name" : "Clinical Frailty Scale",
-      "description" : "Clinical Frailty Scale",
-      "exampleBoolean" : false
     },
     {
       "extension" : [{
@@ -960,22 +944,6 @@ Questionaire scores. Question, different coding for different questionnaire type
       },
       "name" : "respiratory-rate-create",
       "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "ValueSet-vkp-cfs-score.valueset.html"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/vkp-cfs-score.valueset"
-      },
-      "name" : "VKP Clinical Frailty Scale ValueSet",
-      "description" : "Clinical Frailty Scale codes allowed in Vkp Observations",
-      "exampleBoolean" : false
     },
     {
       "extension" : [{
