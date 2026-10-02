@@ -1,4 +1,4 @@
-# General Vkp Observation - v0.5.2
+# General Vkp Observation - v0.6.0-alpha
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation | *Version*:0.5.2 |
+| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation | *Version*:0.6.0-alpha |
 | Draft as of 2022-11-18 | *Computable Name*:VkpObservation |
 
  
@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-vkp-Observation.csv)
   "resourceType" : "StructureDefinition",
   "id" : "vkp-Observation",
   "url" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation",
-  "version" : "0.5.2",
+  "version" : "0.6.0-alpha",
   "name" : "VkpObservation",
   "title" : "General Vkp Observation",
   "status" : "draft",
@@ -204,31 +204,28 @@ Other representations of profile: [CSV](StructureDefinition-vkp-Observation.csv)
       }
     },
     {
-      "id" : "Observation.performer:author",
+      "id" : "Observation.performer:authorperson",
       "path" : "Observation.performer",
-      "sliceName" : "author",
-      "definition" : "Reference to the person, role or team that performed the observation, identified by Norwegian national id number (Fødselsnummer or DNR).\r\n\r\nA link to a resource representing the person or the group to whom the medication will be given.\r\n\r\nVKP always references a Practitioner Resource using a norwegian national id number (Fødselsnummer or DNR) in a logical identifier in the practitioner.identifier element.\r\nThe Name of the practitioner should be given in the performer.display element.\r\n\r\nExample:\r\n~~~~\r\n\"performer\":{\r\n   \"identifier\":{\r\n      \"system\":\"urn:oid:2.16.578.1.12.4.1.4.1\",\r\n      \"value\":\"05073500186\"\r\n     },\r\n     \"display\":\"Ærlend Sørgård\"\r\n}\r\n~~~~",
+      "sliceName" : "authorperson",
+      "definition" : "Reference to the person that performed the observation, identified by Norwegian national id number (Fødselsnummer).\r\n\r\nA link to a resource representing the person or the group to whom the medication will be given.\r\n\r\nVKP always references a Practitioner Resource using a norwegian national id number (Fødselsnummer or DNR) in a logical identifier in the practitioner.identifier element.\r\nThe Name of the practitioner should be given in the performer.display element.\r\n\r\nExample:\r\n~~~~\r\n\"performer\":{\r\n   \"identifier\":{\r\n      \"system\":\"urn:oid:2.16.578.1.12.4.1.4.1\",\r\n      \"value\":\"05073500186\"\r\n     },\r\n     \"display\":\"Ærlend Sørgård\"\r\n}\r\n~~~~",
       "min" : 0,
       "max" : "*",
       "type" : [{
         "code" : "Reference",
         "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Practitioner",
-        "http://hl7.org/fhir/StructureDefinition/PractitionerRole",
-        "http://hl7.org/fhir/StructureDefinition/CareTeam",
-        "http://hl7.org/fhir/StructureDefinition/Patient",
-        "http://hl7.org/fhir/StructureDefinition/RelatedPerson",
         "http://hl7.no/fhir/StructureDefinition/no-basis-Practitioner",
-        "http://hl7.no/fhir/StructureDefinition/no-basis-PractitionerRole"]
+        "http://hl7.org/fhir/StructureDefinition/Patient",
+        "http://hl7.org/fhir/StructureDefinition/RelatedPerson"]
       }],
       "mustSupport" : true
     },
     {
-      "id" : "Observation.performer:author.identifier",
+      "id" : "Observation.performer:authorperson.identifier",
       "path" : "Observation.performer.identifier",
       "mustSupport" : true
     },
     {
-      "id" : "Observation.performer:author.identifier.system",
+      "id" : "Observation.performer:authorperson.identifier.system",
       "path" : "Observation.performer.identifier.system",
       "mustSupport" : true,
       "binding" : {
@@ -237,12 +234,12 @@ Other representations of profile: [CSV](StructureDefinition-vkp-Observation.csv)
       }
     },
     {
-      "id" : "Observation.performer:author.identifier.value",
+      "id" : "Observation.performer:authorperson.identifier.value",
       "path" : "Observation.performer.identifier.value",
       "mustSupport" : true
     },
     {
-      "id" : "Observation.performer:author.display",
+      "id" : "Observation.performer:authorperson.display",
       "path" : "Observation.performer.display",
       "mustSupport" : true
     },

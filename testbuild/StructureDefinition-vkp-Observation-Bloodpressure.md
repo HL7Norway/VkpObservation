@@ -1,4 +1,4 @@
-# Vkp VitalSigns Observation - Blood pressure - v0.5.2
+# Vkp VitalSigns Observation - Blood pressure - v0.6.0-alpha
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Bloodpressure | *Version*:0.5.2 |
+| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Bloodpressure | *Version*:0.6.0-alpha |
 | Draft as of 2022-02-10 | *Computable Name*:VkpObservationBloodpressure |
 
  
@@ -40,7 +40,7 @@ Other representations of profile: [CSV](StructureDefinition-vkp-Observation-Bloo
   "resourceType" : "StructureDefinition",
   "id" : "vkp-Observation-Bloodpressure",
   "url" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-Bloodpressure",
-  "version" : "0.5.2",
+  "version" : "0.6.0-alpha",
   "name" : "VkpObservationBloodpressure",
   "title" : "Vkp VitalSigns Observation - Blood pressure",
   "status" : "draft",

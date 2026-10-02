@@ -1,4 +1,4 @@
-# hl7.fhir.no.vkp.observation#0.5.2: null
+# hl7.fhir.no.vkp.observation#0.6.0-alpha: null
 
 ## Pages
 
@@ -11,6 +11,7 @@
 
 ### CodeSystems
 
+* [Clinical Frailty Scale](CodeSystem-vkp-cfs-score.codesystem.md)
 * [Vkp Performer Identifier Systems CodeSystem](CodeSystem-vkp-performer-identifiers.codesystem.md)
 * [Vkp Performer Identifier for organizations CodeSystem](CodeSystem-vkp-performer-organization-identifiers.codesystem.md)
 * [Vkp Subject Identifier Systems CodeSystem](CodeSystem-vkp-subject-identifiers.codesystem.md)
@@ -20,6 +21,7 @@
 * [NoDomainVitalSignsBloodPressureMeasurementMethod-ValueSet](ValueSet-NoDomainVitalSignsBloodPressureMeasurementMethodValueSet.md)
 * [NoDomainVitalSignsBloodpressureBodySite-ValueSet](ValueSet-NoDomainVitalSignsBloodpressureBodySiteValueSet.md)
 * [Bundle request types](ValueSet-pmd-bundle-requests.valueset.md)
+* [VKP Clinical Frailty Scale ValueSet](ValueSet-vkp-cfs-score.valueset.md)
 * [VKP Performer Identifier systems ValueSet](ValueSet-vkp-performer-identifiers.valueset.md)
 * [VKP Performer Identifier for organizations ValueSet](ValueSet-vkp-performer-organization-identifiers.valueset.md)
 * [Vkp Performer reference types Systems ValueSet](ValueSet-vkp-performer-reference-types.valueset.md)

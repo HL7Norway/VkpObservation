@@ -1,0 +1,133 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-cfs-score.codesystem> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "vkp-cfs-score.codesystem"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem vkp-cfs-score.codesystem</b></p><a name=\"vkp-cfs-score.codesystem\"> </a><a name=\"hcvkp-cfs-score.codesystem\"> </a><p>This  code system <code>http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-cfs-score.codesystem</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>nb</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"vkp-cfs-score.codesystem-1\"> </a></td><td>Very Fit</td><td>Veldig sprek</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"vkp-cfs-score.codesystem-2\"> </a></td><td>Well</td><td>Sprek</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"vkp-cfs-score.codesystem-3\"> </a></td><td>Managing Well</td><td>Klarer seg bra</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"vkp-cfs-score.codesystem-4\"> </a></td><td>Vulnerable</td><td>Lever med svært mild skrøpelighet</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"vkp-cfs-score.codesystem-5\"> </a></td><td>Mildly Frail</td><td>Lever med mild skrøpelighet</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"vkp-cfs-score.codesystem-6\"> </a></td><td>Moderately Frail</td><td>Lever med moderat skrøpelighet</td></tr><tr><td style=\"white-space:nowrap\">7<a name=\"vkp-cfs-score.codesystem-7\"> </a></td><td>Severely Frail</td><td>Lever med alvorlig skrøpelighet</td></tr><tr><td style=\"white-space:nowrap\">8<a name=\"vkp-cfs-score.codesystem-8\"> </a></td><td>Very Severely Frail</td><td>Lever med svært alvorlig skrøpelighet</td></tr><tr><td style=\"white-space:nowrap\">9<a name=\"vkp-cfs-score.codesystem-9\"> </a></td><td>Terminally Ill</td><td>Terminalt syk</td></tr></table></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-cfs-score.codesystem"] ;
+  fhir:CodeSystem.version [ fhir:value "0.6.0-alpha"] ;
+  fhir:CodeSystem.name [ fhir:value "VkpCFSScoreCodeSystem"] ;
+  fhir:CodeSystem.title [ fhir:value "Clinical Frailty Scale"] ;
+  fhir:CodeSystem.status [ fhir:value "draft"] ;
+  fhir:CodeSystem.experimental [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2026-10-02T09:03:30+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "HL7 Norway"] ;
+  fhir:CodeSystem.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "HL7 Norway" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "http://www.hl7.no" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "Clinical Frailty Scale"] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "NO" ] ;
+       fhir:Coding.display [ fhir:value "Norway" ]
+     ]
+  ] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "9"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Very Fit" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "nb-NO" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Veldig sprek" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "2" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Well" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "nb-NO" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Sprek" ]
+     ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "3" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Managing Well" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "nb-NO" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Klarer seg bra" ]
+     ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "4" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vulnerable" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "nb-NO" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Lever med svært mild skrøpelighet" ]
+     ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.concept.code [ fhir:value "5" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Mildly Frail" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "nb-NO" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Lever med mild skrøpelighet" ]
+     ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.concept.code [ fhir:value "6" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Moderately Frail" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "nb-NO" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Lever med moderat skrøpelighet" ]
+     ]
+  ], [
+     fhir:index 6 ;
+     fhir:CodeSystem.concept.code [ fhir:value "7" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Severely Frail" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "nb-NO" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Lever med alvorlig skrøpelighet" ]
+     ]
+  ], [
+     fhir:index 7 ;
+     fhir:CodeSystem.concept.code [ fhir:value "8" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Very Severely Frail" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "nb-NO" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Lever med svært alvorlig skrøpelighet" ]
+     ]
+  ], [
+     fhir:index 8 ;
+     fhir:CodeSystem.concept.code [ fhir:value "9" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Terminally Ill" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "nb-NO" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Terminalt syk" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-cfs-score.codesystem.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

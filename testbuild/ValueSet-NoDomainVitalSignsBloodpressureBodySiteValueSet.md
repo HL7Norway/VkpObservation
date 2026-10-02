@@ -1,4 +1,4 @@
-# NoDomainVitalSignsBloodpressureBodySite-ValueSet - v0.5.2
+# NoDomainVitalSignsBloodpressureBodySite-ValueSet - v0.6.0-alpha
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet | *Version*:0.5.2 | |
+| *Official URL*:http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet | *Version*:0.6.0-alpha | |
 | * Standards status: *[Draft](http://hl7.org/fhir/R4/versions.html#std-process) | [Maturity Level](http://hl7.org/fhir/versions.html#maturity): 1 | *Computable Name*:NoDomainVitalSignsBloodpressureBodySiteValueSet |
 | **Copyright/Legal**: This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement | | |
 
@@ -63,12 +63,12 @@ Codes representing body site for blood pressure
     "valueInteger" : 1
   }],
   "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/NoDomainVitalSignsBloodpressureBodySiteValueSet",
-  "version" : "0.5.2",
+  "version" : "0.6.0-alpha",
   "name" : "NoDomainVitalSignsBloodpressureBodySiteValueSet",
   "title" : "NoDomainVitalSignsBloodpressureBodySite-ValueSet",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-10-02T08:56:17+00:00",
+  "date" : "2026-10-02T09:03:30+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",

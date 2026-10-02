@@ -1,4 +1,4 @@
-# Vkp Observation - CFS score - v0.5.2
+# Vkp Observation - CFS score - v0.6.0-alpha
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-CFSscore | *Version*:0.5.2 |
+| *Official URL*:http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-CFSscore | *Version*:0.6.0-alpha |
 | Draft as of 2026-10-02 | *Computable Name*:VkpObservationCFSscore |
 
  
@@ -40,11 +40,11 @@ Other representations of profile: [CSV](StructureDefinition-vkp-Observation-CFSs
   "resourceType" : "StructureDefinition",
   "id" : "vkp-Observation-CFSscore",
   "url" : "http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-CFSscore",
-  "version" : "0.5.2",
+  "version" : "0.6.0-alpha",
   "name" : "VkpObservationCFSscore",
   "title" : "Vkp Observation - CFS score",
   "status" : "draft",
-  "date" : "2026-10-02T08:56:17+00:00",
+  "date" : "2026-10-02T09:03:30+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",
@@ -128,19 +128,10 @@ Other representations of profile: [CSV](StructureDefinition-vkp-Observation-CFSs
       "definition" : "Reference to the patient that is subject to the encounter, identified by Norwegian national id number (Fødselsnummer or DNR).\r\n\r\nA link to a resource representing the person or the group to whom the medication will be given.\r\n\r\nVKP always references a Patient Resource using a norwegian national id number (Fødselsnummer or DNR) in a logical identifier in the subject.identifier element.\r\nThe Name of the patient should be given in the subject.display element.\r\n\r\nExample:\r\n~~~~\r\n\"subject\":{\r\n   \"identifier\":{\r\n      \"system\":\"urn:oid:2.16.578.1.12.4.1.4.1\",\r\n      \"value\":\"05073500186\"\r\n     },\r\n     \"display\":\"Ærlend Sørgård\"\r\n}\r\n~~~~"
     },
     {
-      "id" : "Observation.performer:author",
+      "id" : "Observation.performer:authorperson",
       "path" : "Observation.performer",
-      "sliceName" : "author",
-      "short" : "Reference to the author of the observation"
-    },
-    {
-      "id" : "Observation.performer:author.type",
-      "path" : "Observation.performer.type",
-      "mustSupport" : true,
-      "binding" : {
-        "strength" : "required",
-        "valueSet" : "http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-reference-types.valueset"
-      }
+      "sliceName" : "authorperson",
+      "short" : "When the perfomer is an identified person, otherwise use CareTeam, PractitionerRole etc."
     },
     {
       "id" : "Observation.performer:organization",
@@ -151,30 +142,18 @@ Other representations of profile: [CSV](StructureDefinition-vkp-Observation-CFSs
     {
       "id" : "Observation.value[x]",
       "path" : "Observation.value[x]",
-      "slicing" : {
-        "discriminator" : [{
-          "type" : "type",
-          "path" : "$this"
-        }],
-        "ordered" : false,
-        "rules" : "open"
-      }
-    },
-    {
-      "id" : "Observation.value[x]:valueQuantity",
-      "path" : "Observation.value[x]",
-      "sliceName" : "valueQuantity",
-      "min" : 0,
-      "max" : "1",
       "type" : [{
-        "code" : "Quantity"
+        "code" : "CodeableConcept"
       }],
       "mustSupport" : true
     },
     {
-      "id" : "Observation.value[x]:valueQuantity.value",
-      "path" : "Observation.value[x].value",
-      "mustSupport" : true
+      "id" : "Observation.value[x].coding.code",
+      "path" : "Observation.value[x].coding.code",
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://hl7.no/fhir/vkpobservation/ValueSet/vkp-cfs-score.valueset"
+      }
     },
     {
       "id" : "Observation.note",

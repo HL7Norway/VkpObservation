@@ -6,10 +6,10 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide hl7.fhir.no.vkp.observation</b></p><a name="hl7.fhir.no.vkp.observation"> </a><a name="hchl7.fhir.no.vkp.observation"> </a><h2>VkpObservation</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/vkpobservation/ImplementationGuide/hl7.fhir.no.vkp.observation</pre></div>
   </text>
   <url value="http://hl7.no/fhir/vkpobservation/ImplementationGuide/hl7.fhir.no.vkp.observation"/>
-  <version value="0.5.2"/>
+  <version value="0.6.0-alpha"/>
   <name value="VkpObservation"/>
   <status value="draft"/>
-  <date value="2026-10-02T08:56:17+00:00"/>
+  <date value="2026-10-02T09:03:30+00:00"/>
   <publisher value="HL7 Norway"/>
   <contact>
     <name value="HL7 Norway"/>
@@ -540,8 +540,19 @@
         <reference value="Observation/vkp-cfs-create"/>
       </reference>
       <name value="CFS score example"/>
-      <description value="Eksempel CFS score med notat, dato og hvordan man koder CFS i FHIR"/>
+      <description value="Eksempel CFS score med kodet verdi, notat, dato og hvordan man koder CFS i FHIR"/>
       <exampleCanonical value="http://hl7.no/fhir/vkpobservation/StructureDefinition/vkp-Observation-CFSscore"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/vkp-cfs-score.codesystem"/>
+      </reference>
+      <name value="Clinical Frailty Scale"/>
+      <description value="Clinical Frailty Scale"/>
+      <exampleBoolean value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -638,6 +649,17 @@
       </reference>
       <name value="respiratory-rate-create"/>
       <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vkp-cfs-score.valueset"/>
+      </reference>
+      <name value="VKP Clinical Frailty Scale ValueSet"/>
+      <description value="Clinical Frailty Scale codes allowed in Vkp Observations"/>
+      <exampleBoolean value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
