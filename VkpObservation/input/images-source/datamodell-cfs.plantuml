@@ -31,9 +31,9 @@ Class AnsvarligVirksomhet {
 
 "CFS-score" --> Pasient :subjekt
 "CFS-score" -- diamond :forfatter
-"CFS-score" --> Kontakt :kontakt
 diamond --> Helsepersonell
 diamond --> Pasient
+diamond --> Kontakt
 "CFS-score" --> AnsvarligVirksomhet :ansvarlig\nvirksomhet
 
 @enduml
