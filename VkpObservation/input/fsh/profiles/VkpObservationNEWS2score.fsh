@@ -18,6 +18,6 @@ Description: "Profile for NEWS2 score in VKP."
 * subject.identifier.system MS
 * subject.identifier.value MS
 * subject.display MS
-* performer[author] ^short = "Reference to the author of the observation"
-* performer[author] only Reference(Practitioner or $no-basis-Practitioner)
+* performer[authorperson] ^short = "Reference to the author of the observation"
+* performer[authorperson] only Reference(Practitioner or $no-basis-Practitioner)
 * performer[organization] ^short = "Reference to the responsible organization (dataansvarlig)"
