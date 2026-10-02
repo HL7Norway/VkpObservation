@@ -13,8 +13,13 @@ class Pasient {
 
 Class Helsepersonell {
    Navn : HumanName
-   Identifikator : HPR, FNR
+   Identifikator : FNR
    Kategori helsepersonell : code
+}
+
+Class Kontakt {
+   Navn : Enhetens navn
+   Identifikator : Enhetens id
 }
 
 Class AnsvarligVirksomhet {
@@ -26,6 +31,7 @@ Class AnsvarligVirksomhet {
 
 "CFS-score" --> Pasient :subjekt
 "CFS-score" -- diamond :forfatter
+"CFS-score" --> Kontakt :kontakt
 diamond --> Helsepersonell
 diamond --> Pasient
 "CFS-score" --> AnsvarligVirksomhet :ansvarlig\nvirksomhet
