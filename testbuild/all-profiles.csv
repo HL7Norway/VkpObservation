@@ -2202,11 +2202,11 @@ Period {[]} {[]}Timing {[]} {[]}instant {[]} {[]}","Clinically relevant time/tim
 ","",,"open","Observation.performer",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "vkp-Observation-CFSscore","Observation.performer:authorperson","Observation.performer","authorperson","","",0,*,"Y","","Y","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Practitioner], CanonicalType[http://hl7.no/fhir/StructureDefinition/no-basis-Practitioner], CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient], CanonicalType[http://hl7.org/fhir/StructureDefinition/RelatedPerson]]}
-","When the perfomer is an identified person, otherwise use CareTeam, PractitionerRole etc.","Reference to the person that performed the observation, identified by Norwegian national id number (Fødselsnummer).
+","When the perfomer is an identified person, otherwise use CareTeam, PractitionerRole etc.","Reference to the person that performed the observation. The person is identified by Norwegian national id number (Fødselsnummer).
 
 A link to a resource representing the person or the group to whom the medication will be given.
 
-VKP always references a Practitioner Resource using a norwegian national id number (Fødselsnummer or DNR) in a logical identifier in the practitioner.identifier element.
+VKP always references a Practitioner Resource using a norwegian national id number (Fødselsnummer) in a logical identifier in the practitioner.identifier element.
 The Name of the practitioner should be given in the performer.display element.
 
 Example:
@@ -3477,11 +3477,11 @@ Period {[]} {[]}Timing {[]} {[]}instant {[]} {[]}","Clinically relevant time/tim
 ","",,"open","Observation.performer",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "vkp-Observation-NEWS2score","Observation.performer:authorperson","Observation.performer","authorperson","","",0,*,"Y","","Y","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Practitioner], CanonicalType[http://hl7.no/fhir/StructureDefinition/no-basis-Practitioner]]}
-","Reference to the author of the observation","Reference to the person that performed the observation, identified by Norwegian national id number (Fødselsnummer).
+","Reference to the author of the observation","Reference to the person that performed the observation. The person is identified by Norwegian national id number (Fødselsnummer).
 
 A link to a resource representing the person or the group to whom the medication will be given.
 
-VKP always references a Practitioner Resource using a norwegian national id number (Fødselsnummer or DNR) in a logical identifier in the practitioner.identifier element.
+VKP always references a Practitioner Resource using a norwegian national id number (Fødselsnummer) in a logical identifier in the practitioner.identifier element.
 The Name of the practitioner should be given in the performer.display element.
 
 Example:
@@ -4811,11 +4811,11 @@ Period {[]} {[]}Timing {[]} {[]}instant {[]} {[]}","Clinically relevant time/tim
 ","",,"open","Observation.performer",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "vkp-Observation","Observation.performer:authorperson","Observation.performer","authorperson","","",0,*,"Y","","Y","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Practitioner], CanonicalType[http://hl7.no/fhir/StructureDefinition/no-basis-Practitioner], CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient], CanonicalType[http://hl7.org/fhir/StructureDefinition/RelatedPerson]]}
-","Who is responsible for the observation","Reference to the person that performed the observation, identified by Norwegian national id number (Fødselsnummer).
+","Who is responsible for the observation","Reference to the person that performed the observation. The person is identified by Norwegian national id number (Fødselsnummer).
 
 A link to a resource representing the person or the group to whom the medication will be given.
 
-VKP always references a Practitioner Resource using a norwegian national id number (Fødselsnummer or DNR) in a logical identifier in the practitioner.identifier element.
+VKP always references a Practitioner Resource using a norwegian national id number (Fødselsnummer) in a logical identifier in the practitioner.identifier element.
 The Name of the practitioner should be given in the performer.display element.
 
 Example:

@@ -57,16 +57,16 @@
     "systems" : ["http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-identifiers.codesystem"],
     "uses" : {
     },
-    "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
-    "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
     "StructureDefinition-vkp-Observation-Bodytemp.html" : "Vkp VitalSigns Observation - Body temperature",
-    "StructureDefinition-vkp-Observation-Bodyweight.html" : "Vkp VitalSigns Observation - Body weight",
-    "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness",
-    "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate",
-    "StructureDefinition-vkp-Observation-NEWS2score.html" : "Vkp VitalSigns Observation - NEWS2 score",
+    "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
     "StructureDefinition-vkp-Observation.html" : "General Vkp Observation",
-    "StructureDefinition-vkp-Observation-Heartrate.html" : "Vkp VitalSigns Observation - Heart rate",
-    "StructureDefinition-vkp-Observation-CFSscore.html" : "Vkp Observation - CFS score"
+    "StructureDefinition-vkp-Observation-NEWS2score.html" : "Vkp VitalSigns Observation - NEWS2 score",
+    "StructureDefinition-vkp-Observation-Bodyweight.html" : "Vkp VitalSigns Observation - Body weight",
+    "StructureDefinition-vkp-Observation-CFSscore.html" : "Vkp Observation - CFS score",
+    "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
+    "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate",
+    "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness",
+    "StructureDefinition-vkp-Observation-Heartrate.html" : "Vkp VitalSigns Observation - Heart rate"
   },
   {
     "url" : "http://hl7.no/fhir/vkpobservation/ValueSet/vkp-performer-organization-identifiers.valueset",
@@ -78,8 +78,8 @@
     "systems" : ["http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-performer-organization-identifiers.codesystem"],
     "uses" : {
     },
-    "StructureDefinition-vkp-Observation-NEWS2score.html" : "Vkp VitalSigns Observation - NEWS2 score",
     "StructureDefinition-vkp-Observation.html" : "General Vkp Observation",
+    "StructureDefinition-vkp-Observation-NEWS2score.html" : "Vkp VitalSigns Observation - NEWS2 score",
     "StructureDefinition-vkp-Observation-CFSscore.html" : "Vkp Observation - CFS score"
   },
   {
@@ -101,16 +101,16 @@
     "systems" : ["http://hl7.no/fhir/vkpobservation/CodeSystem/vkp-subject-identifiers.codesystem"],
     "uses" : {
     },
-    "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
-    "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
     "StructureDefinition-vkp-Observation-Bodytemp.html" : "Vkp VitalSigns Observation - Body temperature",
-    "StructureDefinition-vkp-Observation-Bodyweight.html" : "Vkp VitalSigns Observation - Body weight",
-    "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness",
-    "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate",
-    "StructureDefinition-vkp-Observation-NEWS2score.html" : "Vkp VitalSigns Observation - NEWS2 score",
+    "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
     "StructureDefinition-vkp-Observation.html" : "General Vkp Observation",
-    "StructureDefinition-vkp-Observation-Heartrate.html" : "Vkp VitalSigns Observation - Heart rate",
-    "StructureDefinition-vkp-Observation-CFSscore.html" : "Vkp Observation - CFS score"
+    "StructureDefinition-vkp-Observation-NEWS2score.html" : "Vkp VitalSigns Observation - NEWS2 score",
+    "StructureDefinition-vkp-Observation-Bodyweight.html" : "Vkp VitalSigns Observation - Body weight",
+    "StructureDefinition-vkp-Observation-CFSscore.html" : "Vkp Observation - CFS score",
+    "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
+    "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate",
+    "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness",
+    "StructureDefinition-vkp-Observation-Heartrate.html" : "Vkp VitalSigns Observation - Heart rate"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/body-site",
@@ -124,14 +124,14 @@
     "sources" : ["2.16.840.1.113883.4.642.3.141"],
     "uses" : {
     },
-    "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
     "StructureDefinition-vkp-Observation-Bodytemp.html" : "Vkp VitalSigns Observation - Body temperature",
-    "StructureDefinition-vkp-Observation-Bodyweight.html" : "Vkp VitalSigns Observation - Body weight",
-    "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness",
-    "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate",
-    "StructureDefinition-vkp-Observation-NEWS2score.html" : "Vkp VitalSigns Observation - NEWS2 score",
     "StructureDefinition-vkp-Observation.html" : "General Vkp Observation",
+    "StructureDefinition-vkp-Observation-NEWS2score.html" : "Vkp VitalSigns Observation - NEWS2 score",
+    "StructureDefinition-vkp-Observation-Bodyweight.html" : "Vkp VitalSigns Observation - Body weight",
     "StructureDefinition-vkp-Observation-CFSscore.html" : "Vkp Observation - CFS score",
+    "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
+    "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate",
+    "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness",
     "StructureDefinition-vkp-Observation-Heartrate.html" : "Vkp VitalSigns Observation - Heart rate"
   },
   {
@@ -161,15 +161,15 @@
     "sources" : ["2.16.840.1.113883.4.642.3.5"],
     "uses" : {
     },
-    "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
-    "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
     "StructureDefinition-vkp-Observation-Bodytemp.html" : "Vkp VitalSigns Observation - Body temperature",
-    "StructureDefinition-vkp-Observation-Bodyweight.html" : "Vkp VitalSigns Observation - Body weight",
-    "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness",
-    "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate",
-    "StructureDefinition-vkp-Observation-NEWS2score.html" : "Vkp VitalSigns Observation - NEWS2 score",
+    "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
     "StructureDefinition-vkp-Observation.html" : "General Vkp Observation",
+    "StructureDefinition-vkp-Observation-NEWS2score.html" : "Vkp VitalSigns Observation - NEWS2 score",
+    "StructureDefinition-vkp-Observation-Bodyweight.html" : "Vkp VitalSigns Observation - Body weight",
     "StructureDefinition-vkp-Observation-CFSscore.html" : "Vkp Observation - CFS score",
+    "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
+    "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate",
+    "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness",
     "StructureDefinition-vkp-Observation-Heartrate.html" : "Vkp VitalSigns Observation - Heart rate"
   },
   {
@@ -198,15 +198,15 @@
     "sources" : ["2.16.840.1.113883.4.642.3.45"],
     "uses" : {
     },
-    "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
-    "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
     "StructureDefinition-vkp-Observation-Bodytemp.html" : "Vkp VitalSigns Observation - Body temperature",
-    "StructureDefinition-vkp-Observation-Bodyweight.html" : "Vkp VitalSigns Observation - Body weight",
-    "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness",
-    "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate",
-    "StructureDefinition-vkp-Observation-NEWS2score.html" : "Vkp VitalSigns Observation - NEWS2 score",
+    "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
     "StructureDefinition-vkp-Observation.html" : "General Vkp Observation",
+    "StructureDefinition-vkp-Observation-NEWS2score.html" : "Vkp VitalSigns Observation - NEWS2 score",
+    "StructureDefinition-vkp-Observation-Bodyweight.html" : "Vkp VitalSigns Observation - Body weight",
     "StructureDefinition-vkp-Observation-CFSscore.html" : "Vkp Observation - CFS score",
+    "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
+    "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate",
+    "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness",
     "StructureDefinition-vkp-Observation-Heartrate.html" : "Vkp VitalSigns Observation - Heart rate"
   },
   {
@@ -221,15 +221,15 @@
     "sources" : ["2.16.840.1.113883.4.642.3.57"],
     "uses" : {
     },
-    "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
-    "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
     "StructureDefinition-vkp-Observation-Bodytemp.html" : "Vkp VitalSigns Observation - Body temperature",
-    "StructureDefinition-vkp-Observation-Bodyweight.html" : "Vkp VitalSigns Observation - Body weight",
-    "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness",
-    "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate",
-    "StructureDefinition-vkp-Observation-NEWS2score.html" : "Vkp VitalSigns Observation - NEWS2 score",
+    "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
     "StructureDefinition-vkp-Observation.html" : "General Vkp Observation",
+    "StructureDefinition-vkp-Observation-NEWS2score.html" : "Vkp VitalSigns Observation - NEWS2 score",
+    "StructureDefinition-vkp-Observation-Bodyweight.html" : "Vkp VitalSigns Observation - Body weight",
     "StructureDefinition-vkp-Observation-CFSscore.html" : "Vkp Observation - CFS score",
+    "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
+    "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate",
+    "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness",
     "StructureDefinition-vkp-Observation-Heartrate.html" : "Vkp VitalSigns Observation - Heart rate"
   },
   {
@@ -244,17 +244,17 @@
     "sources" : ["2.16.840.1.113883.4.642.3.20"],
     "uses" : {
     },
-    "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
-    "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
-    "StructureDefinition-vkp-Observation-Bodytemp.html" : "Vkp VitalSigns Observation - Body temperature",
-    "StructureDefinition-vkp-Observation-Bodyweight.html" : "Vkp VitalSigns Observation - Body weight",
-    "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness",
-    "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate",
-    "StructureDefinition-vkp-Observation-NEWS2score.html" : "Vkp VitalSigns Observation - NEWS2 score",
     "StructureDefinition-pmd-Bundle-Response.html" : "A response bundle for observations processed by Pasientens måledata",
+    "StructureDefinition-vkp-Observation-Bodytemp.html" : "Vkp VitalSigns Observation - Body temperature",
+    "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
     "StructureDefinition-vkp-Observation.html" : "General Vkp Observation",
+    "StructureDefinition-vkp-Observation-NEWS2score.html" : "Vkp VitalSigns Observation - NEWS2 score",
+    "StructureDefinition-vkp-Observation-Bodyweight.html" : "Vkp VitalSigns Observation - Body weight",
     "StructureDefinition-pmd-Bundle-Observation.html" : "A bundle of observations for processing by Pasientens måledata",
     "StructureDefinition-vkp-Observation-CFSscore.html" : "Vkp Observation - CFS score",
+    "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
+    "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate",
+    "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness",
     "StructureDefinition-vkp-Observation-Heartrate.html" : "Vkp VitalSigns Observation - Heart rate"
   },
   {
@@ -269,15 +269,15 @@
     "sources" : ["2.16.840.1.113883.4.642.3.403"],
     "uses" : {
     },
-    "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
-    "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
     "StructureDefinition-vkp-Observation-Bodytemp.html" : "Vkp VitalSigns Observation - Body temperature",
-    "StructureDefinition-vkp-Observation-Bodyweight.html" : "Vkp VitalSigns Observation - Body weight",
-    "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness",
-    "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate",
-    "StructureDefinition-vkp-Observation-NEWS2score.html" : "Vkp VitalSigns Observation - NEWS2 score",
+    "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
     "StructureDefinition-vkp-Observation.html" : "General Vkp Observation",
+    "StructureDefinition-vkp-Observation-NEWS2score.html" : "Vkp VitalSigns Observation - NEWS2 score",
+    "StructureDefinition-vkp-Observation-Bodyweight.html" : "Vkp VitalSigns Observation - Body weight",
     "StructureDefinition-vkp-Observation-CFSscore.html" : "Vkp Observation - CFS score",
+    "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
+    "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate",
+    "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness",
     "StructureDefinition-vkp-Observation-Heartrate.html" : "Vkp VitalSigns Observation - Heart rate"
   },
   {
@@ -292,10 +292,10 @@
     "sources" : ["2.16.840.1.113883.4.642.3.396"],
     "uses" : {
     },
-    "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness",
-    "StructureDefinition-vkp-Observation-NEWS2score.html" : "Vkp VitalSigns Observation - NEWS2 score",
     "StructureDefinition-vkp-Observation.html" : "General Vkp Observation",
-    "StructureDefinition-vkp-Observation-CFSscore.html" : "Vkp Observation - CFS score"
+    "StructureDefinition-vkp-Observation-NEWS2score.html" : "Vkp VitalSigns Observation - NEWS2 score",
+    "StructureDefinition-vkp-Observation-CFSscore.html" : "Vkp Observation - CFS score",
+    "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/observation-interpretation",
@@ -309,15 +309,15 @@
     "sources" : ["2.16.840.1.113883.4.642.3.399"],
     "uses" : {
     },
-    "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
-    "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
     "StructureDefinition-vkp-Observation-Bodytemp.html" : "Vkp VitalSigns Observation - Body temperature",
-    "StructureDefinition-vkp-Observation-Bodyweight.html" : "Vkp VitalSigns Observation - Body weight",
-    "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness",
-    "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate",
-    "StructureDefinition-vkp-Observation-NEWS2score.html" : "Vkp VitalSigns Observation - NEWS2 score",
+    "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
     "StructureDefinition-vkp-Observation.html" : "General Vkp Observation",
+    "StructureDefinition-vkp-Observation-NEWS2score.html" : "Vkp VitalSigns Observation - NEWS2 score",
+    "StructureDefinition-vkp-Observation-Bodyweight.html" : "Vkp VitalSigns Observation - Body weight",
     "StructureDefinition-vkp-Observation-CFSscore.html" : "Vkp Observation - CFS score",
+    "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
+    "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate",
+    "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness",
     "StructureDefinition-vkp-Observation-Heartrate.html" : "Vkp VitalSigns Observation - Heart rate"
   },
   {
@@ -332,14 +332,14 @@
     "sources" : ["2.16.840.1.113883.4.642.3.395"],
     "uses" : {
     },
-    "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
     "StructureDefinition-vkp-Observation-Bodytemp.html" : "Vkp VitalSigns Observation - Body temperature",
-    "StructureDefinition-vkp-Observation-Bodyweight.html" : "Vkp VitalSigns Observation - Body weight",
-    "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness",
-    "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate",
-    "StructureDefinition-vkp-Observation-NEWS2score.html" : "Vkp VitalSigns Observation - NEWS2 score",
     "StructureDefinition-vkp-Observation.html" : "General Vkp Observation",
+    "StructureDefinition-vkp-Observation-NEWS2score.html" : "Vkp VitalSigns Observation - NEWS2 score",
+    "StructureDefinition-vkp-Observation-Bodyweight.html" : "Vkp VitalSigns Observation - Body weight",
     "StructureDefinition-vkp-Observation-CFSscore.html" : "Vkp Observation - CFS score",
+    "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
+    "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate",
+    "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness",
     "StructureDefinition-vkp-Observation-Heartrate.html" : "Vkp VitalSigns Observation - Heart rate"
   },
   {
@@ -354,15 +354,15 @@
     "sources" : ["2.16.840.1.113883.4.642.3.400"],
     "uses" : {
     },
-    "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
-    "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
     "StructureDefinition-vkp-Observation-Bodytemp.html" : "Vkp VitalSigns Observation - Body temperature",
-    "StructureDefinition-vkp-Observation-Bodyweight.html" : "Vkp VitalSigns Observation - Body weight",
-    "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness",
-    "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate",
-    "StructureDefinition-vkp-Observation-NEWS2score.html" : "Vkp VitalSigns Observation - NEWS2 score",
+    "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
     "StructureDefinition-vkp-Observation.html" : "General Vkp Observation",
+    "StructureDefinition-vkp-Observation-NEWS2score.html" : "Vkp VitalSigns Observation - NEWS2 score",
+    "StructureDefinition-vkp-Observation-Bodyweight.html" : "Vkp VitalSigns Observation - Body weight",
     "StructureDefinition-vkp-Observation-CFSscore.html" : "Vkp Observation - CFS score",
+    "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
+    "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate",
+    "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness",
     "StructureDefinition-vkp-Observation-Heartrate.html" : "Vkp VitalSigns Observation - Heart rate"
   },
   {
@@ -377,10 +377,10 @@
     "sources" : ["2.16.840.1.113883.3.88.12.80.62"],
     "uses" : {
     },
-    "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
-    "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
     "StructureDefinition-vkp-Observation-Bodytemp.html" : "Vkp VitalSigns Observation - Body temperature",
+    "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
     "StructureDefinition-vkp-Observation-Bodyweight.html" : "Vkp VitalSigns Observation - Body weight",
+    "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
     "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate",
     "StructureDefinition-vkp-Observation-Heartrate.html" : "Vkp VitalSigns Observation - Heart rate"
   },
@@ -396,10 +396,10 @@
     "sources" : ["2.16.840.1.113883.4.642.3.59"],
     "uses" : {
     },
-    "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
-    "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
     "StructureDefinition-vkp-Observation-Bodytemp.html" : "Vkp VitalSigns Observation - Body temperature",
+    "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
     "StructureDefinition-vkp-Observation-Bodyweight.html" : "Vkp VitalSigns Observation - Body weight",
+    "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
     "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate",
     "StructureDefinition-vkp-Observation-Heartrate.html" : "Vkp VitalSigns Observation - Heart rate"
   },
@@ -416,15 +416,15 @@
     "sources" : ["2.16.840.1.113883.4.642.3.407"],
     "uses" : {
     },
-    "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
-    "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
     "StructureDefinition-vkp-Observation-Bodytemp.html" : "Vkp VitalSigns Observation - Body temperature",
-    "StructureDefinition-vkp-Observation-Bodyweight.html" : "Vkp VitalSigns Observation - Body weight",
-    "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness",
-    "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate",
-    "StructureDefinition-vkp-Observation-NEWS2score.html" : "Vkp VitalSigns Observation - NEWS2 score",
+    "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
     "StructureDefinition-vkp-Observation.html" : "General Vkp Observation",
+    "StructureDefinition-vkp-Observation-NEWS2score.html" : "Vkp VitalSigns Observation - NEWS2 score",
+    "StructureDefinition-vkp-Observation-Bodyweight.html" : "Vkp VitalSigns Observation - Body weight",
     "StructureDefinition-vkp-Observation-CFSscore.html" : "Vkp Observation - CFS score",
+    "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
+    "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate",
+    "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness",
     "StructureDefinition-vkp-Observation-Heartrate.html" : "Vkp VitalSigns Observation - Heart rate"
   },
   {
@@ -439,15 +439,15 @@
     "sources" : ["2.16.840.1.113883.4.642.3.397"],
     "uses" : {
     },
-    "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
-    "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
     "StructureDefinition-vkp-Observation-Bodytemp.html" : "Vkp VitalSigns Observation - Body temperature",
-    "StructureDefinition-vkp-Observation-Bodyweight.html" : "Vkp VitalSigns Observation - Body weight",
-    "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness",
-    "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate",
-    "StructureDefinition-vkp-Observation-NEWS2score.html" : "Vkp VitalSigns Observation - NEWS2 score",
+    "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
     "StructureDefinition-vkp-Observation.html" : "General Vkp Observation",
+    "StructureDefinition-vkp-Observation-NEWS2score.html" : "Vkp VitalSigns Observation - NEWS2 score",
+    "StructureDefinition-vkp-Observation-Bodyweight.html" : "Vkp VitalSigns Observation - Body weight",
     "StructureDefinition-vkp-Observation-CFSscore.html" : "Vkp Observation - CFS score",
+    "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
+    "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate",
+    "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness",
     "StructureDefinition-vkp-Observation-Heartrate.html" : "Vkp VitalSigns Observation - Heart rate"
   },
   {
@@ -462,15 +462,15 @@
     "sources" : ["2.16.840.1.113883.4.642.3.27"],
     "uses" : {
     },
-    "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
-    "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
     "StructureDefinition-vkp-Observation-Bodytemp.html" : "Vkp VitalSigns Observation - Body temperature",
-    "StructureDefinition-vkp-Observation-Bodyweight.html" : "Vkp VitalSigns Observation - Body weight",
-    "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness",
-    "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate",
-    "StructureDefinition-vkp-Observation-NEWS2score.html" : "Vkp VitalSigns Observation - NEWS2 score",
+    "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
     "StructureDefinition-vkp-Observation.html" : "General Vkp Observation",
+    "StructureDefinition-vkp-Observation-NEWS2score.html" : "Vkp VitalSigns Observation - NEWS2 score",
+    "StructureDefinition-vkp-Observation-Bodyweight.html" : "Vkp VitalSigns Observation - Body weight",
     "StructureDefinition-vkp-Observation-CFSscore.html" : "Vkp Observation - CFS score",
+    "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
+    "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate",
+    "StructureDefinition-vkp-Observation-Consciousness.html" : "Vkp Observation - Consciousness",
     "StructureDefinition-vkp-Observation-Heartrate.html" : "Vkp VitalSigns Observation - Heart rate"
   },
   {
@@ -528,10 +528,10 @@
     "sources" : ["2.16.840.1.113883.4.642.3.955"],
     "uses" : {
     },
-    "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
-    "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
     "StructureDefinition-vkp-Observation-Bodytemp.html" : "Vkp VitalSigns Observation - Body temperature",
+    "StructureDefinition-vkp-Observation-Bloodpressure.html" : "Vkp VitalSigns Observation - Blood pressure",
     "StructureDefinition-vkp-Observation-Bodyweight.html" : "Vkp VitalSigns Observation - Body weight",
+    "StructureDefinition-vkp-Observation-Oxygensat.html" : "Vkp VitalSigns Observation - Oxygen saturation",
     "StructureDefinition-vkp-Observation-Resprate.html" : "Vkp VitalSigns Observation - Respiratory rate",
     "StructureDefinition-vkp-Observation-Heartrate.html" : "Vkp VitalSigns Observation - Heart rate"
   }]

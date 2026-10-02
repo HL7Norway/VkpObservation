@@ -44,7 +44,7 @@ Other representations of profile: [CSV](StructureDefinition-vkp-Observation-CFSs
   "name" : "VkpObservationCFSscore",
   "title" : "Vkp Observation - CFS score",
   "status" : "draft",
-  "date" : "2026-10-02T09:03:30+00:00",
+  "date" : "2026-10-02T10:19:39+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",

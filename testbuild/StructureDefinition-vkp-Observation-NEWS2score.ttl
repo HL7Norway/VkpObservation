@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "VkpObservationNEWS2score"] ;
   fhir:StructureDefinition.title [ fhir:value "Vkp VitalSigns Observation - NEWS2 score"] ;
   fhir:StructureDefinition.status [ fhir:value "draft"] ;
-  fhir:StructureDefinition.date [ fhir:value "2026-10-02T09:03:30+00:00"^^xsd:dateTime] ;
+  fhir:StructureDefinition.date [ fhir:value "2026-10-02T10:19:39+00:00"^^xsd:dateTime] ;
   fhir:StructureDefinition.publisher [ fhir:value "HL7 Norway"] ;
   fhir:StructureDefinition.contact [
      fhir:index 0 ;
@@ -3350,7 +3350,7 @@
        fhir:ElementDefinition.path [ fhir:value "Observation.performer" ] ;
        fhir:ElementDefinition.sliceName [ fhir:value "authorperson" ] ;
        fhir:ElementDefinition.short [ fhir:value "Reference to the author of the observation" ] ;
-       fhir:ElementDefinition.definition [ fhir:value "Reference to the person that performed the observation, identified by Norwegian national id number (Fødselsnummer).\r\n\r\nA link to a resource representing the person or the group to whom the medication will be given.\r\n\r\nVKP always references a Practitioner Resource using a norwegian national id number (Fødselsnummer or DNR) in a logical identifier in the practitioner.identifier element.\r\nThe Name of the practitioner should be given in the performer.display element.\r\n\r\nExample:\r\n~~~~\r\n\"performer\":{\r\n   \"identifier\":{\r\n      \"system\":\"urn:oid:2.16.578.1.12.4.1.4.1\",\r\n      \"value\":\"05073500186\"\r\n     },\r\n     \"display\":\"Ærlend Sørgård\"\r\n}\r\n~~~~" ] ;
+       fhir:ElementDefinition.definition [ fhir:value "Reference to the person that performed the observation. The person is identified by Norwegian national id number (Fødselsnummer).\r\n\r\nA link to a resource representing the person or the group to whom the medication will be given.\r\n\r\nVKP always references a Practitioner Resource using a norwegian national id number (Fødselsnummer) in a logical identifier in the practitioner.identifier element.\r\nThe Name of the practitioner should be given in the performer.display element.\r\n\r\nExample:\r\n~~~~\r\n\"performer\":{\r\n   \"identifier\":{\r\n      \"system\":\"urn:oid:2.16.578.1.12.4.1.4.1\",\r\n      \"value\":\"05073500186\"\r\n     },\r\n     \"display\":\"Ærlend Sørgård\"\r\n}\r\n~~~~" ] ;
        fhir:ElementDefinition.requirements [ fhir:value "May give a degree of confidence in the observation and also indicates where follow-up questions should be directed." ] ;
        fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ] ;
        fhir:ElementDefinition.max [ fhir:value "*" ] ;

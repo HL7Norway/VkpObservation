@@ -36,7 +36,7 @@ Example:
   <name value="VkpObservationNEWS2score"/>
   <title value="Vkp VitalSigns Observation - NEWS2 score"/>
   <status value="draft"/>
-  <date value="2026-10-02T09:03:30+00:00"/>
+  <date value="2026-10-02T10:19:39+00:00"/>
   <publisher value="HL7 Norway"/>
   <contact>
     <name value="HL7 Norway"/>
@@ -2653,7 +2653,7 @@ Example:
       <path value="Observation.performer"/>
       <sliceName value="authorperson"/>
       <short value="Reference to the author of the observation"/>
-      <definition value="Reference to the person that performed the observation, identified by Norwegian national id number (Fødselsnummer).&#xD;&#xA;&#xD;&#xA;A link to a resource representing the person or the group to whom the medication will be given.&#xD;&#xA;&#xD;&#xA;VKP always references a Practitioner Resource using a norwegian national id number (Fødselsnummer or DNR) in a logical identifier in the practitioner.identifier element.&#xD;&#xA;The Name of the practitioner should be given in the performer.display element.&#xD;&#xA;&#xD;&#xA;Example:&#xD;&#xA;~~~~&#xD;&#xA;&quot;performer&quot;:{&#xD;&#xA;   &quot;identifier&quot;:{&#xD;&#xA;      &quot;system&quot;:&quot;urn:oid:2.16.578.1.12.4.1.4.1&quot;,&#xD;&#xA;      &quot;value&quot;:&quot;05073500186&quot;&#xD;&#xA;     },&#xD;&#xA;     &quot;display&quot;:&quot;Ærlend Sørgård&quot;&#xD;&#xA;}&#xD;&#xA;~~~~"/>
+      <definition value="Reference to the person that performed the observation. The person is identified by Norwegian national id number (Fødselsnummer).&#xD;&#xA;&#xD;&#xA;A link to a resource representing the person or the group to whom the medication will be given.&#xD;&#xA;&#xD;&#xA;VKP always references a Practitioner Resource using a norwegian national id number (Fødselsnummer) in a logical identifier in the practitioner.identifier element.&#xD;&#xA;The Name of the practitioner should be given in the performer.display element.&#xD;&#xA;&#xD;&#xA;Example:&#xD;&#xA;~~~~&#xD;&#xA;&quot;performer&quot;:{&#xD;&#xA;   &quot;identifier&quot;:{&#xD;&#xA;      &quot;system&quot;:&quot;urn:oid:2.16.578.1.12.4.1.4.1&quot;,&#xD;&#xA;      &quot;value&quot;:&quot;05073500186&quot;&#xD;&#xA;     },&#xD;&#xA;     &quot;display&quot;:&quot;Ærlend Sørgård&quot;&#xD;&#xA;}&#xD;&#xA;~~~~"/>
       <requirements value="May give a degree of confidence in the observation and also indicates where follow-up questions should be directed."/>
       <min value="0"/>
       <max value="*"/>

@@ -62,7 +62,7 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
   "title" : "Vkp Performer reference types Systems ValueSet",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-10-02T09:03:30+00:00",
+  "date" : "2026-10-02T10:19:39+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",
