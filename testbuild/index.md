@@ -73,7 +73,7 @@ Questionaire scores. Question, different coding for different questionnaire type
   "version" : "0.6.0-alpha",
   "name" : "VkpObservation",
   "status" : "draft",
-  "date" : "2026-10-02T10:19:39+00:00",
+  "date" : "2026-10-02T10:27:19+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",

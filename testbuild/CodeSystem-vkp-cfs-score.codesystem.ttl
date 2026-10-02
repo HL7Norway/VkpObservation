@@ -18,7 +18,7 @@
   fhir:CodeSystem.title [ fhir:value "Clinical Frailty Scale"] ;
   fhir:CodeSystem.status [ fhir:value "draft"] ;
   fhir:CodeSystem.experimental [ fhir:value "true"^^xsd:boolean] ;
-  fhir:CodeSystem.date [ fhir:value "2026-10-02T10:19:39+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.date [ fhir:value "2026-10-02T10:27:19+00:00"^^xsd:dateTime] ;
   fhir:CodeSystem.publisher [ fhir:value "HL7 Norway"] ;
   fhir:CodeSystem.contact [
      fhir:index 0 ;

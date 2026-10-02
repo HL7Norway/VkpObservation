@@ -63,7 +63,7 @@ Clinical Frailty Scale codes allowed in Vkp Observations
   "title" : "VKP Clinical Frailty Scale ValueSet",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-10-02T10:19:39+00:00",
+  "date" : "2026-10-02T10:27:19+00:00",
   "publisher" : "HL7 Norway",
   "contact" : [{
     "name" : "HL7 Norway",
