@@ -18,9 +18,7 @@ Description: "Profile for Clinical Frailty Scale score in VKP."
 * subject.identifier.system MS
 * subject.identifier.value MS
 * subject.display MS
-* performer[author] ^short = "A reference to the author of the observation. Usually an identified Practitioner but can just as likely be an identified role/locations/specialties/services within an organization identified by a PractitionerRole or CareTeam"
-//* performer[author].type from VkpPerformerReferenceTypesValueSet (required)
-* performer[author].type MS
+* performer[authorperson] ^short = "When the perfomer is an identified person, otherwise use CareTeam, PractitionerRole etc."
 * performer[organization] ^short = "Reference to the responsible organization (dataansvarlig)"
 * value[x] only CodeableConcept
 * valueCodeableConcept MS 
