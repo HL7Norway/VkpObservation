@@ -9,7 +9,7 @@ FSHOnly: false
 applyExtensionMetadataToRoot: false
 id: hl7.fhir.no.vkp.observation
 status: draft
-version: 0.5.2
+version: 0.6.0-alpha
 releaseLabel: ci-build
 publisher:
   name: HL7 Norway

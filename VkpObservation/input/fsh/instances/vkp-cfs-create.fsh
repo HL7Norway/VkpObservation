@@ -1,7 +1,7 @@
 Instance: vkp-cfs-create
 InstanceOf: VkpObservationCFSscore
 Title: "CFS score example"
-Description: "Eksempel CFS score med notat, dato og hvordan man koder CFS i FHIR"
+Description: "Eksempel CFS score med kodet verdi, notat, dato og hvordan man koder CFS i FHIR"
 Usage: #example
 * meta.versionId = "0"
 * meta.lastUpdated = "2014-01-30T11:35:23+00:00"
@@ -19,5 +19,5 @@ Usage: #example
 * performer[=].identifier.value = "22"
 * performer[+].identifier.system = "urn:oid:2.16.578.1.12.4.1.4.101"
 * performer[=].identifier.value = "103"
-* valueQuantity.value = 2
+* valueCodeableConcept = VkpCFSScoreCodeSystem#2 "Well"
 * note.text = "Evaluering gjort i brukerens hjem, normalt sprek for sin aldersgruppe."
