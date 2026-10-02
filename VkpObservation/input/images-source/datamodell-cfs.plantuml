@@ -17,6 +17,12 @@ Class Helsepersonell {
    Kategori helsepersonell : code
 }
 
+Class Kontakt {
+   Navn : Enhet/rolle/tjeneste
+   Identifikator : lokal identifikator
+   Kontakt: kontaktinfo
+}
+
 Class AnsvarligVirksomhet {
    Navn : Navn på virksomhet
    Identifikator : orgnr, RESHid
@@ -28,6 +34,7 @@ Class AnsvarligVirksomhet {
 "CFS-score" -- diamond :forfatter
 diamond --> Helsepersonell
 diamond --> Pasient
+CFS-score --> Kontakt
 "CFS-score" --> AnsvarligVirksomhet :ansvarlig\nvirksomhet
 
 @enduml
