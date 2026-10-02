@@ -23,6 +23,6 @@ Description: "Profile for Clinical Frailty Scale score in VKP."
 * performer[author].type MS
 * performer[organization] ^short = "Reference to the responsible organization (dataansvarlig)"
 * valueCodeableConcept MS 
-* valueCodeableConcept.system from VkpCFSScoreValueSet (required)
+* valueCodeableConcept.coding.code from VkpCFSScoreValueSet (required)
 * note MS
 * note ^comment = "Additional details about the context of the observation in annotation text"
